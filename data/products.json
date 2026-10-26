@@ -1,0 +1,89 @@
+{
+  "updated": "2026-09-09",
+  "scope": "Small-scale / micro data center cooling products (rack-level, ≤120 kW class). Compiled from manufacturer pages and trade press. Prices are generally not published in this industry (❌).",
+  "products": [
+    {
+      "vendor": "Schneider Electric",
+      "product": "EcoStruxure Micro Data Center",
+      "form": "Single enclosed cabinet, 6U-43U",
+      "cooling": "Air (sealed loop / built-in AC / DX)",
+      "power_class": "~3.5-10 kW per cabinet",
+      "liquid": false,
+      "facility_free": "Fully plug-and-play",
+      "note": "No liquid-cooled micro DC models — stops at air-cooling limits",
+      "source": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/micro/"
+    },
+    {
+      "vendor": "Vertiv",
+      "product": "VRC-S Micro Data Center",
+      "form": "Enclosed cabinet, up to 48U",
+      "cooling": "Air (closed loop, ~3.5 kW class; optional DX)",
+      "power_class": "~3.5 kW per cabinet",
+      "liquid": false,
+      "facility_free": "Plug-and-play",
+      "note": "Vertiv's liquid cooling line (CoolChip CDU 70+) starts at 70 kW and is a component, not a turnkey cabinet",
+      "source": "https://www.vertiv.com/en-emea/solutions/micro-data-centers/"
+    },
+    {
+      "vendor": "Vertiv",
+      "product": "CoolChip CDU 70 (XDU070)",
+      "form": "In-row CDU unit (liquid-to-air)",
+      "cooling": "Direct liquid cooling, liquid-to-air",
+      "power_class": "60-100 kW (depends on ambient/approach)",
+      "liquid": true,
+      "facility_free": "No facility water, but needs room AC headroom",
+      "note": "Component-level product for AI racks; publishes capacity-vs-ambient curves (rare!)",
+      "source": "https://www.vertiv.com/4a4963/globalassets/shared/vertiv-coolchip-cdu-70-data-sheet-sl-71252.pdf"
+    },
+    {
+      "vendor": "STULZ × CoolIT",
+      "product": "Micro DC (liquid-cooled)",
+      "form": "42U/48U one-cabinet data center",
+      "cooling": "Direct-to-chip liquid (60-80%) + built-in AC (rest)",
+      "power_class": "~27 kW typical, up to 80 kW",
+      "liquid": true,
+      "facility_free": "Largely (27 kW config)",
+      "note": "Closest comparable product; launched 2018, limited updates since; channels mostly EU/US",
+      "source": "https://www.stulz.com/products/detail/micro-dc/"
+    },
+    {
+      "vendor": "Rittal",
+      "product": "LCP Rack (CW/DX)",
+      "form": "In-rack air conditioner",
+      "cooling": "Air-side precision cooling (name says 'liquid' = refrigerant/chilled water inside the AC)",
+      "power_class": "3-44 kW depending on model",
+      "liquid": false,
+      "facility_free": "DX variant yes; CW needs chilled water",
+      "note": "Common misconception: LCP is rack air-conditioning, NOT server liquid cooling",
+      "source": "https://www.rittal.com/us-en_US/products/PG20231215ITI101/PG20240426ITI301"
+    },
+    {
+      "vendor": "Asetek",
+      "product": "InRackCDU / RackCDU",
+      "form": "In-rack CDU + distributed cold plates",
+      "cooling": "Direct liquid cooling, mostly liquid-to-liquid",
+      "power_class": "80-120 kW per rack",
+      "liquid": true,
+      "facility_free": "No — needs tempered water loop (dry cooler etc.)",
+      "note": "HPC-oriented; no established SEA/ME channel",
+      "source": "https://www.asetek.com/"
+    },
+    {
+      "vendor": "nVent / Hoffman",
+      "product": "RackChiller / Rackmount CDU",
+      "form": "Edge rack liquid cooling portfolio",
+      "cooling": "Rear-door / in-rack / chip-level, liquid",
+      "power_class": "10-40 kW+ tiers",
+      "liquid": true,
+      "facility_free": "Varies (liquid-to-air options)",
+      "note": "Explicit edge framing: 'add liquid cooling without changing the room'",
+      "source": "https://www.nvent.com/en-us/hoffman/liquid-cooling-solutions"
+    }
+  ],
+  "gap_statement": "Turnkey, facility-free liquid-cooled cabinets in the 20-50 kW class are essentially uncovered: major-vendor micro DCs stop at ~10 kW air cooling, and their liquid products start at 40-70 kW as components for AI data centers. The only full predecessor is the 2018 STULZ×CoolIT Micro DC.",
+  "caveats": [
+    "Prices are not publicly listed by any vendor in this segment (❌) — budget via RFQ.",
+    "Certification status (CE/UL/local) must be confirmed per market with each vendor.",
+    "Data compiled 2026-09; verify currency before citing in procurement documents."
+  ]
+}

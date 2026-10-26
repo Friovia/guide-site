@@ -1,0 +1,26 @@
+{
+  "sourceCommit": "d8ae530980258148693cfe66bd286d6bb3f1a674",
+  "sourceRepo": "liquid-cooling-system/simulation",
+  "generatedAt": "2026-10-26T09:20:33.191Z",
+  "versions": {
+    "p0Solver": "0.2.0",
+    "p1Solver": "0.2.0",
+    "propSet": "pg25-dow-lc25-v1",
+    "dataVersion": "component-curves@2026-10-20-hx78"
+  },
+  "files": {
+    "sim/p0/types.ts": "741b6c507d5b8f18",
+    "sim/p0/units.ts": "1b3ace4ea17164fa",
+    "sim/p0/interp.ts": "4ea42a2fc89cd166",
+    "sim/p0/props.ts": "2dabe8f65f792e35",
+    "sim/p0/friction.ts": "7173d9d6b3caebbf",
+    "sim/p0/solve.ts": "a943693989f35033",
+    "sim/p1/types.ts": "9c5de3dd4b494a50",
+    "sim/p1/standards.ts": "52ef1f46b18e788c",
+    "sim/p1/dew.ts": "1449b13cac1b70b1",
+    "sim/p1/hx.ts": "bc7b6d14fbccd497",
+    "sim/p1/thermal.ts": "c2e4c10d640ec672",
+    "sim/p1/solve.ts": "6cdc35d2c4587509",
+    "sim/curves.ts": "75e2ae8671b025e4"
+  }
+}

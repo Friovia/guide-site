@@ -1,0 +1,268 @@
+{
+  "note": "Hardware picker data for the rack builder. Facts policy: server power figures are TDP-formula budgets (ΣGPU + ΣCPU) × 1.2 — the same model as /tdp-to-rack-kw — computed from publicly stated accelerator TDPs; GB200 NVL72 is the vendor-stated rack figure. Cooling products reuse the verified comparison data layer (capacity anchors per row). Never present these as measured draw.",
+  "updated": "2026-10-12",
+  "servers": [
+    {
+      "id": "gb200-nvl72",
+      "name": "NVIDIA GB200 NVL72 rack",
+      "chip": "72× GB200 (700 W TDP each) + 36× Grace",
+      "kw": 120,
+      "u": 42,
+      "capture": 0.85,
+      "note": "Vendor-stated ~120 kW per rack; liquid-first design",
+      "source": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+    },
+    {
+      "id": "gb300-nvl72",
+      "name": "NVIDIA GB300 NVL72 rack (Blackwell Ultra)",
+      "chip": "72× B300 (1,400 W TDP each) + 36× Grace",
+      "kw": 140,
+      "u": 48,
+      "capture": 0.85,
+      "note": "Vendor rack, shipping since Q4 2025: up to ~140 kW (Lenovo guide cites 132 kW+); ~85% of heat to liquid, remainder to air",
+      "source": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/"
+    },
+    {
+      "id": "vr-nvl72",
+      "name": "NVIDIA Vera Rubin NVL72 rack",
+      "chip": "72× Rubin (2,300 W Max-P) + 36× Vera CPU",
+      "kw": 220,
+      "u": 48,
+      "capture": 1,
+      "note": "First racks shipped Sept 2026 (Supermicro, CoreWeave). 180-220 kW Max-P / 150-170 kW Max-Q per SemiAnalysis co-design analysis; 100% liquid coverage, zero fans — never present as measured draw",
+      "source": "https://ir.supermicro.com/news/news-details/2026/default.aspx"
+    },
+    {
+      "id": "hgx-b200",
+      "name": "8× B200 node (HGX B200)",
+      "chip": "8× B100/B200 SXM (1,000 W) + 2× CPU (360 W)",
+      "kw": 10.5,
+      "u": 8,
+      "capture": 0.8,
+      "note": "TDP budget: (8×1000 + 720) × 1.2",
+      "source": "https://www.nvidia.com/en-us/data-center/hgx/"
+    },
+    {
+      "id": "hgx-b300",
+      "name": "8× B300 node (HGX B300, Blackwell Ultra)",
+      "chip": "8× B300 SXM (1,200 W HGX variant) + 2× CPU (360 W)",
+      "kw": 12.4,
+      "u": 8,
+      "capture": 0.8,
+      "note": "TDP budget: (8×1200 + 720) × 1.2; HGX B300 GPUs run ~1,200 W vs 1,400 W in GB300 racks",
+      "source": "https://www.nvidia.com/en-us/data-center/hgx/"
+    },
+    {
+      "id": "rubin-nvl8",
+      "name": "8× Rubin node (HGX/DGX Rubin NVL8)",
+      "chip": "8× Rubin (2,300 W Max-P) + 2× Xeon 6 (360 W)",
+      "kw": 22.9,
+      "u": 2,
+      "capture": 0.8,
+      "note": "TDP budget: (8×2300 + 720) × 1.2 — matches NVIDIA/ODM-stated ~24 kW. Liquid-only platform (no air SKU); hybrid configs keep CPUs on air",
+      "source": "https://www.nvidia.com/en-us/data-center/dgx-rubin-nvl8/"
+    },
+    {
+      "id": "hgx-h100",
+      "name": "8× H100 SXM node (HGX H100/H200)",
+      "chip": "8× H100/H200 SXM (700 W) + 2× CPU (360 W)",
+      "kw": 7.6,
+      "u": 8,
+      "capture": 0.8,
+      "note": "TDP budget: (8×700 + 720) × 1.2",
+      "source": "https://www.nvidia.com/en-us/data-center/hgx/"
+    },
+    {
+      "id": "mi300x",
+      "name": "8× MI300X node (AMD Instinct)",
+      "chip": "8× MI300X (750 W) + 2× CPU (360 W)",
+      "kw": 8.1,
+      "u": 8,
+      "capture": 0.8,
+      "note": "TDP budget: (8×750 + 720) × 1.2",
+      "source": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html"
+    },
+    {
+      "id": "dell-xe9680",
+      "name": "Dell PowerEdge XE9680",
+      "chip": "8× H100/H200 SXM + 2× Xeon",
+      "kw": 10.2,
+      "u": 6,
+      "capture": 0.8,
+      "note": "6×2800 W PSUs; vendor max configuration ~10.2 kW; liquid-cooled XE9680L variant exists",
+      "source": "https://www.dell.com"
+    },
+    {
+      "id": "sm-821ge",
+      "name": "Supermicro SYS-821GE-TNHR",
+      "chip": "8× HGX H100/H200 + 2× Xeon",
+      "kw": 7.6,
+      "u": 8,
+      "capture": 0.8,
+      "note": "TDP budget 7.6 kW; PSU capacity 6×3000 W Titanium",
+      "source": "https://www.supermicro.com/manuals/superserver/8U/MNL-2596.pdf"
+    },
+    {
+      "id": "hpe-xd670",
+      "name": "HPE Cray XD670",
+      "chip": "8× H100/H200 SXM + 2× EPYC",
+      "kw": 7.6,
+      "u": 5,
+      "capture": 0.8,
+      "note": "5U density; PSU 6×3000 W (H100) / 6×3600 W (H200); available air or direct-liquid cooled",
+      "source": "https://www.hpe.com"
+    },
+    {
+      "id": "lenovo-sr685a",
+      "name": "Lenovo ThinkSystem SR685a V3",
+      "chip": "8× MI300X or H100/H200/B100 + 2× EPYC",
+      "kw": 8.1,
+      "u": 8,
+      "capture": 0.8,
+      "note": "Up to 8×2600 W PSUs (N+N redundancy)",
+      "source": "https://lenovopress.lenovo.com"
+    },
+    {
+      "id": "huawei-atlas900",
+      "name": "Huawei Atlas 900 liquid-cooled rack (Ascend)",
+      "chip": "Ascend 910 cluster, full liquid cooling",
+      "kw": 50,
+      "u": 42,
+      "capture": 0.95,
+      "note": "Vendor: liquid share >95%, 50 kW per rack, PUE < 1.1",
+      "source": "https://e.huawei.com"
+    },
+    {
+      "id": "cpu-2u",
+      "name": "2U CPU node (2× 360 W)",
+      "chip": "2× server CPU (360 W)",
+      "kw": 0.9,
+      "u": 2,
+      "capture": 0.5,
+      "note": "TDP budget: 720 × 1.2",
+      "source": "https://www.tdp-to-rack-kw"
+    },
+    {
+      "id": "storage-2u",
+      "name": "2U storage JBOD",
+      "chip": "HDD/SSD array",
+      "kw": 0.5,
+      "u": 2,
+      "capture": 0,
+      "note": "Air-cooled only",
+      "source": "https://www.heat-capture-split"
+    }
+  ],
+  "cooling": [
+    {
+      "id": "vertiv-cdu70",
+      "name": "Vertiv CoolChip CDU 70 (L2A)",
+      "type": "L2A",
+      "ratedKw": 86.5,
+      "coolantC": 45,
+      "ratedRoomC": 25,
+      "minApproachK": 5,
+      "facility": "No facility water — but the room must absorb ~1.1× IT load in AC",
+      "source": "https://www.vertiv.com/4a4963/globalassets/shared/vertiv-coolchip-cdu-70-data-sheet-sl-71252.pdf"
+    },
+    {
+      "id": "l2a-50",
+      "name": "50 kW-class L2A cabinet (generic)",
+      "type": "L2A",
+      "ratedKw": 50,
+      "coolantC": 45,
+      "ratedRoomC": 25,
+      "minApproachK": 5,
+      "facility": "No facility water — room AC sized at ~1.1× IT load",
+      "source": "https://www.approach-temperature"
+    },
+    {
+      "id": "l2a-30",
+      "name": "30 kW-class L2A cabinet (generic)",
+      "type": "L2A",
+      "ratedKw": 30,
+      "coolantC": 45,
+      "ratedRoomC": 25,
+      "minApproachK": 5,
+      "facility": "No facility water — room AC sized at ~1.1× IT load",
+      "source": "https://www.approach-temperature"
+    },
+    {
+      "id": "stulz-microdc",
+      "name": "STULZ × CoolIT Micro DC",
+      "type": "L2A",
+      "ratedKw": 27,
+      "coolantC": 45,
+      "ratedRoomC": 25,
+      "minApproachK": 5,
+      "facility": "Largely facility-free at 27 kW config (built-in AC for the air share)",
+      "source": "https://www.stulz.com/products/detail/micro-dc/"
+    },
+    {
+      "id": "asetek-inrack",
+      "name": "Asetek InRackCDU (L2L)",
+      "type": "L2L",
+      "ratedKw": 100,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "Needs a tempered facility water loop (dry cooler etc.) — capacity does NOT derate with room air",
+      "source": "https://www.asetek.com/"
+    },
+    {
+      "id": "coolit-chx80",
+      "name": "CoolIT CHx80 (L2L in-rack)",
+      "type": "L2L",
+      "ratedKw": 80,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "4U in-rack; N+1 pumps; ASHRAE W17-W+ facility water",
+      "source": "https://www.coolitsystems.com/cdu-product/chx80"
+    },
+    {
+      "id": "coolit-chx200",
+      "name": "CoolIT CHx200 (L2L in-rack)",
+      "type": "L2L",
+      "ratedKw": 200,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "200 kW in 4U in-rack; W17-W+ facility water",
+      "source": "https://www.coolitsystems.com"
+    },
+    {
+      "id": "coolit-chx2000",
+      "name": "CoolIT CHx2000 (L2L row)",
+      "type": "L2L",
+      "ratedKw": 2000,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "2 MW row-level CDU (2025) — rated to feed up to twelve 120 kW GB200 NVL72 racks",
+      "source": "https://www.coolitsystems.com"
+    },
+    {
+      "id": "motivair-cdu",
+      "name": "Motivair CDU family (L2L floor)",
+      "type": "L2L",
+      "ratedKw": 105,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "Family spans 105 kW-2.5 MW floor units (Schneider Electric); 3.5 MW WCDU adds integrated air cooling",
+      "source": "https://www.motivaircorp.com/products/CDU"
+    },
+    {
+      "id": "envicool-l2a",
+      "name": "Envicool 机柜式风液 CDU (Coolinside)",
+      "type": "L2A",
+      "ratedKw": null,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "Full-chain Coolinside line (cold plates, manifolds, CDU, SoluKing fluid); ratings NOT published ❌ — demand the capacity-vs-ambient curve (RFQ item 12)",
+      "source": "https://www.envicool.com/productinfo595.html"
+    }
+  ]
+}

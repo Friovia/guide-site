@@ -1,0 +1,37 @@
+name: News fetch
+
+# Unattended industry-radar pipeline: fetch RSS daily, commit if anything changed.
+# Cloudflare Pages rebuilds automatically on push. Free tier: ~2-3 min/day.
+on:
+  schedule:
+    - cron: "30 3 * * *" # 03:30 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch and merge news
+        run: node scripts/fetch-news.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add data/news.json public/newsfeed.xml data/meta.json
+          if git diff --cached --quiet; then
+            echo "No changes — nothing to commit"
+          else
+            git commit -m "news: auto-fetch $(date -u +%F)"
+            git push
+          fi

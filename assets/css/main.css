@@ -1,0 +1,214 @@
+/* ============================================================
+   Liquid Cooling Guide — v3 "Clean Room" (vuejs.org-inspired)
+   Light gray-white, Inter + IBM Plex Mono, coolant blue ×
+   heat red. Dark surfaces reserved for formula readouts only
+   (the way vue docs reserve dark for code blocks).
+   ============================================================ */
+:root {
+  --bg: #ffffff;        /* page */
+  --side: #f9f9f9;      /* sidebar */
+  --bg2: #f6f8fa;       /* panels */
+  --panel: #f8fafc;     /* inputs, svg surfaces */
+  --panel2: #eef2f6;    /* subtle raised fills */
+  --line: #e2e8f0;      /* hairlines */
+  --line2: #cbd5e1;     /* stronger lines */
+  --text: #24344a;      /* slate headings/body */
+  --text2: #5b6b7f;
+  --cool: #2e7fc2;      /* coolant blue — links, live, active */
+  --cool2: #1f6399;     /* hover */
+  --heat: #d64533;      /* heat red — warnings, redline */
+  --ok: #1f9d6b;
+  --warn: #b97a1f;
+  /* v1 aliases (page inline styles depend on these names) */
+  --paper: var(--bg);
+  --sheet: var(--bg2);
+  --ink: var(--text);
+  --ink-2: var(--text2);
+  --draft: var(--cool);
+  --flag: var(--heat);
+  --rule: var(--line);
+  --maxw: 880px;
+  --sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --display: var(--sans);
+  --serif: var(--sans);
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --r: 8px;
+}
+* { box-sizing: border-box; }
+html { font-family: var(--sans); color: var(--text); background: var(--bg); }
+body { margin: 0; line-height: 1.75; font-size: 16px; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; height: auto; }
+a { color: var(--cool); text-decoration: none; border-bottom: 1px solid transparent; }
+a:hover { color: var(--cool2); border-bottom-color: var(--cool2); }
+:focus-visible { outline: 2px solid var(--cool); outline-offset: 2px; }
+::selection { background: var(--cool); color: #fff; }
+.container { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+main.container > p, main.container p, main.container ul, main.container ol { max-width: 68ch; }
+
+/* --- Sliders: light instrument controls --- */
+input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 28px; background: transparent; cursor: pointer; }
+input[type=range]::-webkit-slider-runnable-track { height: 4px; background: var(--line2); border-radius: 2px; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; margin-top: -7px; border-radius: 50%; background: var(--cool); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(20, 40, 60, 0.35); }
+input[type=range]::-moz-range-track { height: 4px; background: var(--line2); border-radius: 2px; }
+input[type=range]::-moz-range-thumb { width: 15px; height: 15px; border-radius: 50%; background: var(--cool); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(20, 40, 60, 0.35); }
+label { font-family: var(--sans); font-size: 13.5px; color: var(--text2); }
+input[type=number] { font-family: var(--mono); color: var(--text); background: #fff; border: 1px solid var(--line2); border-radius: 6px; padding: 6px 8px; }
+input[type=number]:focus { outline: none; border-color: var(--cool); box-shadow: 0 0 0 2px rgba(46, 127, 194, 0.18); }
+
+/* --- Shell: topbar + sidebar (vue-docs anatomy) --- */
+.shell { min-height: 100vh; display: flex; flex-direction: column; }
+header.topbar { border-bottom: 1px solid var(--line); background: #fff; position: sticky; top: 0; z-index: 40; }
+header.topbar .inner { display: flex; align-items: center; gap: 16px; padding: 0 24px; height: 55px; }
+.masthead { font-family: var(--sans); font-size: 16px; font-weight: 600; color: var(--text); letter-spacing: -0.01em; white-space: nowrap; display: inline-flex; align-items: center; gap: 10px; border-bottom: none; }
+.masthead .mark { flex: none; }
+.masthead:hover { color: var(--cool); }
+/* vuejs.org arrangement: search sits LEFT next to the brand; nav right-aligns */
+.topnav { display: flex; gap: 2px; align-items: center; margin-left: auto; }
+.topnav a { font-family: var(--sans); font-size: 15px; font-weight: 400; color: var(--text); padding: 6px 10px; border-bottom: none; border-radius: 6px; }
+.topnav a:hover { color: var(--cool); }
+.topnav a.router-link-active { color: var(--cool); }
+.langbtn { font-family: var(--sans); font-size: 15px; font-weight: 400; color: var(--text); display: inline-flex; align-items: center; gap: 4px; padding: 6px 4px 6px 10px; white-space: nowrap; border-bottom: none; }
+.langbtn .chev { font-size: 10px; color: var(--text2); }
+.langbtn:hover { color: var(--cool); }
+.topsearch { flex: 0 1 230px; }
+@media (max-width: 1020px) { .topnav { display: none; } }
+@media (max-width: 620px) { .topsearch { display: none; } }
+.burger { display: none; background: none; border: 1px solid var(--line2); font-size: 15px; line-height: 1; padding: 5px 10px; cursor: pointer; color: var(--text); border-radius: 6px; }
+.cols { display: flex; flex: 1 1 auto; align-items: stretch; }
+aside.side { width: 292px; flex: 0 0 292px; border-right: 1px solid var(--line); background: var(--side); position: sticky; top: 57px; height: calc(100vh - 57px); overflow-y: auto; padding: 12px 0 48px; }
+.scrim { display: none; }
+.content { flex: 1 1 auto; min-width: 0; background: var(--bg); }
+
+.navsearch { padding: 6px 16px 14px; }
+.navsearch input { width: 100%; font-family: var(--mono); font-size: 12.5px; padding: 8px 10px; border: 1px solid var(--line2); background: #fff; border-radius: 6px; color: var(--text); }
+.navsearch input:focus { outline: none; border-color: var(--cool); box-shadow: 0 0 0 2px rgba(46, 127, 194, 0.18); }
+.navsec { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text2); padding: 16px 16px 6px; }
+a.navitem { display: block; padding: 5px 12px 5px 12px; margin: 1px 8px; font-family: var(--sans); font-size: 13.5px; line-height: 1.45; color: var(--text2); border-left: none; border-bottom: none; border-radius: 6px; }
+a.navitem:hover { color: var(--cool); background: #f1f4f7; }
+a.navitem.active { color: var(--cool); background: rgba(46, 127, 194, 0.1); font-weight: 600; }
+.navitem .navdesc { display: block; font-size: 11.5px; color: var(--text2); }
+.navempty { font-family: var(--mono); font-size: 12px; color: var(--text2); padding: 10px 18px; }
+
+@media (max-width: 960px) {
+  .burger { display: inline-block; }
+  aside.side { position: fixed; left: 0; top: 0; height: 100vh; z-index: 60; transform: translateX(-103%); transition: transform 0.18s ease; box-shadow: 8px 0 32px rgba(20, 40, 60, 0.18); width: min(84vw, 320px); flex-basis: auto; }
+  aside.side.open { transform: none; }
+  .scrim { display: block; position: fixed; inset: 0; background: rgba(36, 52, 74, 0.3); z-index: 55; }
+}
+
+/* --- Headings: vue-docs rhythm (h2 with hairline underline) --- */
+main { counter-reset: note; }
+h1 { font-family: var(--sans); font-size: 30px; line-height: 1.25; letter-spacing: -0.02em; margin: 6px 0 14px; font-weight: 700; color: var(--text); }
+h2 { font-family: var(--sans); font-size: 20px; margin-top: 2.4em; letter-spacing: -0.01em; font-weight: 600; padding-bottom: 0.3em; border-bottom: 1px solid var(--line); }
+h2::before { counter-increment: note; content: counter(note) "."; font-family: var(--mono); font-size: 13px; font-weight: 500; color: var(--cool); letter-spacing: 0.06em; margin-right: 9px; vertical-align: 2px; }
+h3 { font-family: var(--sans); font-weight: 600; }
+
+/* --- Title strip (per-page meta) --- */
+.updated { display: flex; flex-wrap: wrap; gap: 3px 14px; align-items: baseline; background: var(--bg2); border: 1px solid var(--line); border-left: 3px solid var(--cool); padding: 7px 12px; font-family: var(--mono); font-size: 11px; color: var(--text2); letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 22px; width: 100%; border-radius: 0 var(--r) var(--r) 0; }
+.updated b { color: var(--cool); font-weight: 500; }
+
+/* --- FIG tables & captions --- */
+.fig { margin: 22px 0; }
+.fig > table, table { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 13.5px; background: #fff; }
+th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+th { background: var(--bg2); font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text2); }
+table tr:hover td { background: #f3f8fc; }
+figcaption, .figcap { font-family: var(--mono); font-size: 11.5px; color: var(--text2); padding-top: 8px; margin-top: 8px; letter-spacing: 0.03em; line-height: 1.6; }
+figcaption b, .figcap b { color: var(--cool); font-weight: 500; }
+.fig img { border: 1px solid var(--line); border-radius: 6px; }
+
+/* --- Cards (legacy single-summary usage) --- */
+.card-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin-top: 24px; }
+.card { background: var(--bg2); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; font-family: var(--sans); }
+.card h3 { margin: 0 0 6px; font-size: 15.5px; }
+.card p { margin: 0 0 6px; color: var(--text2); font-size: 14px; }
+.card a { font-size: 14px; }
+.card .chip { font-family: var(--mono); font-size: 11.5px; color: var(--cool); display: block; margin: 0 0 6px; letter-spacing: 0.04em; }
+
+/* --- Sheet index (ruled TOC) --- */
+.idx { margin-top: 12px; width: 100%; }
+.idx-row { display: grid; grid-template-columns: 235px 1fr 26px; gap: 18px; align-items: baseline; padding: 12px 8px 11px 6px; border-bottom: 1px solid var(--line); }
+.idx-title { font-family: var(--sans); font-weight: 600; font-size: 15px; color: var(--text); line-height: 1.4; }
+.idx-desc { font-family: var(--sans); font-size: 13.5px; color: var(--text2); line-height: 1.55; }
+.idx-desc .f { font-family: var(--mono); font-size: 12px; color: var(--cool); white-space: nowrap; }
+.idx-arrow { font-family: var(--mono); color: var(--line2); text-align: right; font-size: 14px; transition: color 0.12s ease, transform 0.12s ease; }
+.idx-row:hover { background: #f3f8fc; border-radius: 6px; }
+.idx-row:hover .idx-title { color: var(--cool); }
+.idx-row:hover .idx-arrow { color: var(--cool); transform: translateX(3px); }
+.idx-sec { font-family: var(--sans); font-size: 20px; font-weight: 600; }
+@media (max-width: 760px) { .idx-row { grid-template-columns: 1fr; gap: 2px; padding-left: 2px; padding-right: 2px; } .idx-arrow { display: none; } }
+
+/* --- Hero panel --- */
+.heropanel { background: var(--bg2); border: 1px solid var(--line); border-radius: var(--r); padding: 24px 26px 18px; width: 100%; position: relative; }
+.heropanel .hp-label { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; color: var(--cool); text-transform: uppercase; }
+.heropanel .hp-num { font-family: var(--mono); font-weight: 600; font-size: 58px; line-height: 1.05; margin: 12px 0 0; color: var(--text); letter-spacing: -0.01em; }
+.heropanel .hp-num small { font-size: 22px; color: var(--text2); font-weight: 400; letter-spacing: 0; }
+.heropanel .hp-cap { font-family: var(--sans); font-size: 14px; color: var(--text2); margin: 4px 0 0; }
+.heropanel .hp-slider { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; margin-top: 16px; }
+.heropanel .hp-read { font-family: var(--mono); font-size: 12px; color: var(--text); background: #fff; border: 1px solid var(--line2); border-radius: 6px; padding: 6px 10px; white-space: nowrap; }
+.heropanel .hp-meta { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10.5px; color: var(--text2); letter-spacing: 0.08em; }
+.heropanel .hp-sub { font-family: var(--sans); font-size: 13.5px; color: var(--text2); margin: 14px 0 0; }
+.heropanel .hp-foot { display: flex; flex-wrap: wrap; gap: 4px 16px; border-top: 1px solid var(--line); margin-top: 16px; padding-top: 10px; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text2); }
+.heropanel .hp-foot a { color: var(--text2); border-bottom: none; }
+.heropanel .hp-foot a:hover { color: var(--cool); }
+.heropanel.wrap { display: grid; grid-template-columns: 1fr 232px; gap: 20px; align-items: stretch; }
+.heropanel.wrap .hp-img { width: 100%; height: 100%; min-height: 170px; object-fit: cover; border: 1px solid var(--line); border-radius: 6px; display: block; }
+@media (max-width: 680px) { .heropanel.wrap { grid-template-columns: 1fr; } .heropanel.wrap .hp-img { max-height: 170px; } }
+
+/* --- Playground strip --- */
+.playstrip { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; background: var(--bg2); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 18px; margin-top: 14px; width: 100%; }
+.playstrip .ps-name { font-family: var(--sans); font-weight: 600; font-size: 15px; color: var(--text); }
+.playstrip .ps-desc { font-size: 13px; color: var(--text2); }
+.playstrip .ps-links { margin-left: auto; font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.06em; color: var(--text2); }
+.playstrip .ps-links a { color: var(--cool); border-bottom: none; }
+.playstrip .ps-links a:hover { text-decoration: underline; }
+@media (max-width: 780px) { .playstrip .ps-links { margin-left: 0; } }
+
+/* --- Formula readout: the one dark surface (code-block role) --- */
+.formula { font-family: var(--mono); font-size: 15.5px; background: #0f1923; color: #c9dcea; border: 1px solid #1e3244; border-left: 3px solid #58a6d8; border-radius: var(--r); padding: 14px 18px; width: 100%; overflow-x: auto; }
+.formula b { color: #ffffff; }
+.formula sub { color: #8fb8d4; }
+.formula .f { color: #9ecbe8; }
+
+/* --- Live calculator --- */
+.fcalc { background: #fff; border: 1px solid var(--line2); border-radius: var(--r); padding: 18px 18px 16px; font-family: var(--sans); width: 100%; position: relative; }
+.fcalc .frow { display: flex; gap: 16px; flex-wrap: wrap; }
+.fcalc label { display: flex; flex-direction: column; gap: 4px; font-size: 12.5px; color: var(--text2); }
+.fcalc input[type=number] { font-size: 15px; width: 110px; }
+.fcalc .fresult { font-family: var(--mono); font-size: 24px; margin-top: 12px; color: var(--text); font-weight: 500; }
+.fcalc .fresult small { font-size: 13px; color: var(--text2); font-weight: 400; }
+.fcalc .fverdict { font-family: var(--mono); font-size: 12px; margin-top: 10px; padding: 8px 10px; border: 1px solid; border-radius: 6px; display: inline-block; }
+.fcalc::after { content: "LIVE"; position: absolute; top: 12px; right: 14px; font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.14em; color: var(--ok); border: 1px solid currentColor; border-radius: 4px; padding: 3px 6px 2px; }
+
+/* --- Homepage hero — measured 1:1 from live vuejs.org (2026-10): centered display, gray buttons --- */
+.home-hero { text-align: center; padding: 84px 24px 56px; position: relative; background: radial-gradient(640px 320px at 18% 0%, rgba(46, 127, 194, 0.07), transparent 60%), radial-gradient(760px 340px at 84% 8%, rgba(46, 127, 194, 0.06), transparent 55%); }
+.home-hero .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; color: var(--cool); text-transform: uppercase; }
+.home-hero h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.12; letter-spacing: -0.03em; margin: 18px auto 16px; max-width: 780px; font-weight: 800; }
+/* Brand gradient: heat (terracotta) → coolant (light blue), the loop's own story */
+.home-hero h1 .grad { background: linear-gradient(94deg, #c46444 0%, #d38a5c 34%, #8fa6c0 62%, #4a9bd1 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.home-hero .sub { color: var(--text2); max-width: 620px; margin: 0 auto 30px; font-size: 17px; line-height: 1.7; }
+.cta-row { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+/* Buttons copied from vuejs.org computed styles: bg #f1f1f1, text #476582, radius 8px, 8px 18px, 16/500 */
+.btn { display: inline-block; padding: 8px 18px; border-radius: 8px; font-family: var(--sans); font-weight: 500; font-size: 15.5px; border: none; border-bottom: none; line-height: 1.6; background: #f1f1f1; color: #476582; }
+.btn:hover { background: #e7e9ea; color: #213547; }
+.btn-fill, .btn-ghost { background: #f1f1f1; color: #476582; box-shadow: none; border: none; }
+.btn-fill:hover, .btn-ghost:hover { background: #e7e9ea; color: #213547; }
+.hero-duo { display: grid; grid-template-columns: 1.3fr 1fr; gap: 22px; align-items: stretch; }
+.hero-figure { margin: 0; }
+.hero-figure img { width: 100%; height: 100%; min-height: 300px; object-fit: cover; border: 1px solid var(--line); border-radius: var(--r); display: block; }
+@media (max-width: 780px) { .hero-duo { grid-template-columns: 1fr; } .hero-figure img { min-height: 220px; } }
+/* one shared stacking breakpoint: duo, feat band and index rows collapse together */
+@media (max-width: 760px) { .feat-band { grid-template-columns: 1fr; gap: 28px; } }
+.feat-band { background: var(--bg2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 58px 24px; margin: 76px 0 8px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; text-align: left; }
+.feat-band .feat h3 { font-size: 16px; margin: 0 0 6px; }
+.feat-band .feat p { font-size: 14px; color: var(--text2); margin: 0; }
+.feat-band .feat .fic { font-family: var(--mono); font-size: 11px; color: var(--cool); letter-spacing: 0.16em; display: block; margin-bottom: 10px; }
+@media (max-width: 720px) { .feat-band { grid-template-columns: 1fr; gap: 28px; } }
+
+/* --- Utility --- */
+.src { font-size: 12.5px; color: var(--text2); font-family: var(--sans); }
+
+footer.site { border-top: 1px solid var(--line); margin-top: 80px; padding: 22px 0; color: var(--text2); font-size: 13px; font-family: var(--sans); }
+footer.site .container::before { content: "LIQUID COOLING GUIDE — INDEPENDENT REFERENCE"; display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; color: var(--text2); margin-bottom: 6px; }
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

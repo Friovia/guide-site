@@ -1,0 +1,82 @@
+# Liquid Cooling Guide
+
+> Independent technical reference on liquid cooling for micro data centers: how it works, the formulas, and a sourced comparison of small-scale cooling cabinets. One concept per page, worked examples with real numbers, live calculators. Data compiled from manufacturer pages, datasheets and trade press only; unpublished prices are marked, never invented.
+
+Locales:
+
+- [English /](https://liquidcoolingguide.com/): default locale, full site.
+- [简体中文 /zh](https://liquidcoolingguide.com/zh): 中文落地页 + 中文正文（什么是液冷 / 术语表双语 / 演练场），其余条目英文原文。
+  - [简体中文](https://liquidcoolingguide.com/zh): zh 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [繁體中文](https://liquidcoolingguide.com/zh-hant): zh-hant 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [日本語](https://liquidcoolingguide.com/ja): ja 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [한국어](https://liquidcoolingguide.com/ko): ko 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Українська](https://liquidcoolingguide.com/uk): uk 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Français](https://liquidcoolingguide.com/fr): fr 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Deutsch](https://liquidcoolingguide.com/de): de 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Português](https://liquidcoolingguide.com/pt): pt 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [বাংলা](https://liquidcoolingguide.com/bn): bn 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Italiano](https://liquidcoolingguide.com/it): it 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [فارسی](https://liquidcoolingguide.com/fa): fa 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Русский](https://liquidcoolingguide.com/ru): ru 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Čeština](https://liquidcoolingguide.com/cs): cs 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Polski](https://liquidcoolingguide.com/pl): pl 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Español](https://liquidcoolingguide.com/es): es 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Bahasa Indonesia](https://liquidcoolingguide.com/id): id 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [العربية](https://liquidcoolingguide.com/ar): ar 落地页（landing page，本地化 hero/工具栏/目录导航）
+
+Radar:
+
+- [Industry radar](https://liquidcoolingguide.com/news): dated items across technology, products, investment and standards — every entry links to its source — plus the curated milestone timeline (STULZ×CoolIT 2018, ASHRAE W-classes 2019, 3M PFAS exit 2022-2025, GB200-era racks and ORv3 2024, SS 726:2026).
+- [State of liquid cooling 2026](https://liquidcoolingguide.com/state-of-liquid-cooling-2026): the annual digest — direct-to-chip default above 30 kW, PG25 wins the fluid question, standards consolidated, tropics become the main event, and the 20-50 kW turnkey gap persists.
+
+Basics:
+
+- [Playground](https://liquidcoolingguide.com/playground): Interactive tools — rack builder, capacity derating simulator, room load calculator. All computation in-browser; formulas shown with user values substituted.
+  - [Rack builder](https://liquidcoolingguide.com/playground/rack-builder): assemble a rack from server types, set room temperature, get liquid/air heat split, derated cabinet capacity, coolant flow (L/min), room AC requirement and verdicts.
+  - [Derating simulator](https://liquidcoolingguide.com/playground/derating): capacity-vs-ambient curve, approach-temperature model anchored to Vertiv XDU070 published data (86.5 kW @ 45°C coolant / 25°C air).
+  - [Room load calculator](https://liquidcoolingguide.com/playground/room-load): 1.1× IT-load rule, refrigeration-ton conversion, spare-capacity margin verdict.
+- [What is liquid cooling?](https://liquidcoolingguide.com/what-is-liquid-cooling): Direct-to-chip liquid cooling explained — cold plates, CDUs, manifolds, UQD quick disconnects, PG25 fluid, and the standards that matter (OCP, ASHRAE, IEC 62368-1, SS 726).
+- [What is a CDU?](https://liquidcoolingguide.com/what-is-a-cdu): The coolant distribution unit — pumps, heat exchangers, TCS vs facility water loops, in-rack/in-row/facility form factors, liquid-to-air vs liquid-to-liquid trade-offs.
+- [Cold plate vs immersion cooling](https://liquidcoolingguide.com/cold-plate-vs-immersion): The two architectures compared — heat capture (60-80% vs ~100%), fluids and PFAS regulation, serviceability, standards, floor loading.
+- [Glossary](https://liquidcoolingguide.com/glossary): 50+ self-contained, anchorable definitions: DLC, CDU, TCS, FWS, UQD, blind-mate, ORv3, L2A/L2L, W-class, approach temperature, capture ratio, derating, wet-bulb, PUE, PG25, TDP, N+1, floor loading, COP.
+
+Formulas (one formula per page: definition → formula → worked example with real numbers → live calculator → common mistakes):
+
+- [Coolant flow rate](https://liquidcoolingguide.com/coolant-flow-rate): flow [L/min] = P [kW] × 60 / (4.186 × ΔT [°C]) — 50 kW at ΔT 8 °C needs 89.6 L/min. Use liquid-captured heat (60-80% of IT load), not total.
+- [Heat capture split](https://liquidcoolingguide.com/heat-capture-split): P_liquid = capture × P_IT — direct-to-chip captures 60-80%; the 20-40% air share still needs room AC sized on the total.
+- [TDP → rack kW](https://liquidcoolingguide.com/tdp-to-rack-kw): P_rack ≈ nodes × (Σ GPU + Σ CPU TDP) × 1.2 — 8×1 kW GPUs + 2×360 W CPUs = 10.5 kW/node; 42 kW/rack example.
+- [Room AC load](https://liquidcoolingguide.com/room-ac-load): the 1.1× rule — an L2A cabinet needs room air conditioning sized at 1.1 × IT load; 30 kW rack → 33 kW ≈ 9.4 refrigeration tons.
+- [kW ↔ refrigeration tons](https://liquidcoolingguide.com/kw-to-tons): 1 ton = 3.517 kW = 12,000 BTU/h; tons = kW ÷ 3.517. Cooling tons ≠ electrical draw (COP ≈ 3).
+- [Approach temperature & derating](https://liquidcoolingguide.com/approach-temperature): approach = coolant supply °C − room air °C; capacity scales roughly linearly with it — 86.5 kW @ 45 °C/25 °C (Vertiv XDU070) halves at 35 °C air, collapses below ~5 °C approach.
+- [Pressure drop](https://liquidcoolingguide.com/pressure-drop): Darcy–Weisbach ΔP = f × (L/D) × ρv²/2 — 90 L/min through 25 mm hose loses ≈20 kPa over 3 m; velocity enters squared.
+- [Floor loading](https://liquidcoolingguide.com/floor-loading): load = mass × 9.81 ÷ footprint — 1,200 kg on 600 × 1,200 mm prints 16.4 kN/m², ~5× office design loads.
+- [PUE math](https://liquidcoolingguide.com/pue-math): PUE = total ÷ IT energy; 100 kW IT + 15 kW overhead = 1.15. What it hides: climate (wet-bulb), the IT term itself, and the cabinet-in-a-room boundary.
+- [ASHRAE W-classes](https://liquidcoolingguide.com/ashrae-w-classes): W17/W27/W32/W40/W45 — the number ≈ max facility water supply °C; higher classes buy free-cooling hours; lookup included.
+- [Wet-bulb & free cooling](https://liquidcoolingguide.com/wet-bulb-free-cooling): free cooling needs wet-bulb + ~6 K ≤ required coolant temperature; tropical 28-30 °C wet-bulbs leave no margin even at W45.
+
+Choosing:
+
+- [Liquid cooling vs air](https://liquidcoolingguide.com/liquid-cooling-vs-air): When liquid becomes necessary (and the 30 kW crossover myth), tropical derating physics, room AC load math, what PUE comparisons assume.
+- [Cooling cabinet comparison](https://liquidcoolingguide.com/cabinet-comparison): Verified comparison of rack-level products from Schneider, Vertiv, STULZ×CoolIT, Rittal, Asetek, nVent — power class, cooling type, facility requirements, per-row sources. Documents the 20-50 kW turnkey gap.
+- [What drives the cost](https://liquidcoolingguide.com/liquid-cooling-cost): Why prices aren't published; the cost stack (capacity, architecture, redundancy, monitoring, certification, install); how to compare quotes fairly.
+- [RFQ scope checklist](https://liquidcoolingguide.com/rfq-scope-checklist): 12 line items that make quotes comparable — capacity at your ambient, capture ratio, redundancy, interconnects, monitoring, acceptance testing, written derating curves.
+- [Liquid-ready servers](https://liquidcoolingguide.com/liquid-ready-servers): The five compatibility checks — cold plate coverage, UQD couplings, ASHRAE W-class, flow/pressure, serviceability — and why open interfaces prevent lock-in.
+- [Hot & tropical climates](https://liquidcoolingguide.com/liquid-cooling-hot-climates): Derating physics with published numbers (Vertiv XDU070: ~half capacity from 25°C to 35°C ambient), free-cooling failure at high wet-bulb, SS 726:2026 scope, hot-climate buying checklist.
+
+Deploy & Ops:
+
+- [Site survey](https://liquidcoolingguide.com/site-survey): the six-point checklist — floor loading, electrical, heat egress (1.1×), water, access, noise — each linked to its formula.
+- [Room load calculation](https://liquidcoolingguide.com/room-load-calculation): Whether a room can host an L2A cabinet — the 1.1× IT-load rule, kW-to-ton conversion (÷3.52), a worked hospital example, and the full site survey.
+- [Commissioning](https://liquidcoolingguide.com/commissioning): 8-step acceptance sequence — dry pressure test, fill/purge, flow and ΔT verification, pressure survey, dew-point check, leak-system test, load ramp, baseline snapshot.
+- [Leaks: risk, detection, response](https://liquidcoolingguide.com/liquid-cooling-leaks): Where leaks actually happen (couplings, clamps, corrosion), how dripless UQD and blind-mate designs mitigate them, the four-layer detection/response model.
+- [Maintenance schedule](https://liquidcoolingguide.com/maintenance-schedule): Intervals table — weekly visual, monthly trending, quarterly filters, semi-annual fluid analysis, annual coupling/sensor work, vendor fluid replacement.
+
+Reference:
+
+- [Supply chain map](https://liquidcoolingguide.com/supply-chain): 97 companies across 16 segments of the liquid cooling industry — chips (NVIDIA/AMD/Intel), cold plates (CoolIT, Asetek, Boyd), CDUs (Vertiv, Motivair, nVent, Daikin, Delta, ZutaCore, JetCool), interconnects (Stäubli, CPC, Parker), liquid-ready servers, immersion, fluids, heat rejection, pumps/sensors, integrators, micro-DC, standards bodies. Every row links the official site.
+- [UQD quick disconnects](https://liquidcoolingguide.com/uqd-quick-disconnects): The OCP UQD family UQD04–UQD40 (number ≈ nominal L/min); size table, dripless and blind-mate mechanics, the pressure-drop trap.
+- [Fluids & PFAS](https://liquidcoolingguide.com/liquid-cooling-fluids): PG25 vs oils vs fluorinated fluids — PFAS regulation, 3M's 2025 exit, transport/disposal rules, loop maintenance.
+- [Standards](https://liquidcoolingguide.com/liquid-cooling-standards): OCP interconnects (UQD, ORv3 manifold Rev 1.0), ASHRAE W-classes (W17-W45), IEC 62368-1 Ed.4 liquid clauses, SS 726:2026 — mapped to a buying checklist.
+- [Changelog](https://liquidcoolingguide.com/changelog): Data-layer versions and article updates.
+
+Facts policy: every product claim links to its source; unverifiable data is marked ❌; data layer version and update date shown on each page. Machine-readable feed: /newsfeed.xml.

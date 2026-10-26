@@ -1,0 +1,137 @@
+{
+  "note": "Industry radar data layer. Facts policy applies here too: every item links to a source; nothing is invented. items[] = dated news events; milestones[] = the curated industry timeline (high GEO value, feed-agnostic). The fetch-news pipeline (scripts/fetch-news.mjs) merges automated items in and preserves pinned/manual entries.",
+  "curated": false,
+  "last_fetched": "2026-10-08",
+  "items": [
+    {
+      "date": "2026-09-30",
+      "title": "CoreWeave delivers NVIDIA Vera Rubin NVL72 performance at production scale, starting with Cognition",
+      "source": "CoreWeave / HPCwire",
+      "url": "https://www.coreweave.com",
+      "channel": "product",
+      "note": "Rubin racks move from launch to revenue workloads ~9 months after CES — the liquid-only generation is live. CoreWeave had done the industry-first bring-up/validation in June 2026."
+    },
+    {
+      "date": "2026-09-23",
+      "title": "Supermicro begins shipping NVIDIA Vera Rubin NVL72 racks",
+      "source": "Supermicro IR",
+      "url": "https://ir.supermicro.com/news/news-details/2026/default.aspx",
+      "channel": "product",
+      "note": "72 Rubin GPUs + 36 Vera CPUs per rack; up to 6,000 racks/month at full production; 16-rack design = 1,152 GPUs / 331 TB HBM4. First volume deliveries of the 100%-liquid, 45 °C warm-water generation."
+    },
+    {
+      "date": "2026-08-01",
+      "title": "Singapore publishes SS 726:2026 — first national standard for liquid cooling in tropical climates",
+      "source": "Singapore Standards / this site's standards tracker",
+      "url": "/liquid-cooling-standards",
+      "channel": "standards",
+      "note": "Covers direct-to-chip in tropical data centers; excludes standalone edge cabinets — scope matters when vendors claim compliance."
+    },
+    {
+      "date": "2026-07-23",
+      "title": "AMD launches Instinct MI400 series and the Helios rack-scale platform (Advancing AI 2026)",
+      "source": "AMD Newsroom",
+      "url": "https://newsroom.amd.com/",
+      "channel": "product",
+      "note": "MI455X-powered Helios racks entered full production with first shipments late Q3 2026 — liquid cooling is now the default interface across both accelerator ecosystems, not just NVIDIA's."
+    },
+    {
+      "date": "2026-05-31",
+      "title": "NVIDIA: Vera Rubin ramps into full production for agentic AI factories",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com",
+      "channel": "product",
+      "note": "The ramp between CES launch (Jan) and first rack shipments (Sept) — the supply chain's dress rehearsal for 2.3 kW-class GPUs."
+    },
+    {
+      "date": "2026-01-05",
+      "title": "NVIDIA launches the Rubin platform at CES 2026 — in full production on day one",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer",
+      "channel": "product",
+      "note": "2.3 kW-class GPUs (Max-P), 180-220 kW racks, 45 °C warm-water cooling, 100% liquid coverage with zero fans — the first AI platform generation with no air-cooled SKU at all."
+    },
+    {
+      "date": "2025-12-31",
+      "title": "3M completes its exit from PFAS manufacturing, ending fluorinated coolant production",
+      "source": "3M News Center",
+      "url": "https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025",
+      "channel": "technology",
+      "note": "Announced Dec 2022, completed end-2025. Single-fluid-class dependence is now a procurement risk — PG25 water-glycol is the default survivor."
+    },
+    {
+      "date": "2024-04-01",
+      "title": "OCP ORv3 blind-mate liquid cooling manifold spec reaches Rev 1.0",
+      "source": "Open Compute Project",
+      "url": "https://www.opencompute.org/",
+      "channel": "standards",
+      "note": "Servers that mate on insertion, interoperable across vendors — the lock-in defense checklist item in our RFQ tool."
+    },
+    {
+      "date": "2024-03-18",
+      "title": "NVIDIA GB200 NVL72 mainstreams 120 kW liquid-cooled racks",
+      "source": "NVIDIA",
+      "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "channel": "product",
+      "note": "Announced at GTC 2024: rack-scale liquid cooling left the exotic category. The power cliff behind this guide's existence."
+    },
+    {
+      "date": "2022-12-20",
+      "title": "3M announces exit from all PFAS manufacturing by end of 2025",
+      "source": "3M News Center",
+      "url": "https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025",
+      "channel": "technology",
+      "note": "The announcement that redirected immersion-cooling fluid roadmaps for the entire industry."
+    },
+    {
+      "date": "2018-01-01",
+      "title": "STULZ × CoolIT ship the first turnkey liquid-cooled micro data center",
+      "source": "STULZ product page (verified in our comparison data)",
+      "url": "https://www.stulz.com/products/detail/micro-dc/",
+      "channel": "product",
+      "note": "Still the only full predecessor in the 20-50 kW turnkey cabinet space — see the gap statement in our cabinet comparison."
+    }
+  ],
+  "milestones": [
+    {
+      "date": "2018",
+      "title": "First turnkey liquid micro DC (STULZ × CoolIT)",
+      "source": "https://www.stulz.com/products/detail/micro-dc/"
+    },
+    {
+      "date": "2019",
+      "title": "ASHRAE framework for water-cooled servers — W-classes (W17-W45) established",
+      "source": "/ashrae-w-classes"
+    },
+    {
+      "date": "2022",
+      "title": "3M announces PFAS exit (end-2025) — fluorinated fluid era gets an expiry date",
+      "source": "https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025"
+    },
+    {
+      "date": "2024",
+      "title": "GB200 NVL72 makes 120 kW racks mainstream; OCP ORv3 blind-mate manifold Rev 1.0 lands",
+      "source": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/"
+    },
+    {
+      "date": "2025",
+      "title": "3M completes PFAS manufacturing exit — PG25 water-glycol consolidates as the DLC default",
+      "source": "https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025"
+    },
+    {
+      "date": "2025",
+      "title": "GB300 NVL72 ships — the 140 kW-class rack (Blackwell Ultra, 288 GB HBM3e GPUs)",
+      "source": "https://www.nvidia.com/en-us/data-center/gb300-nvl72/"
+    },
+    {
+      "date": "2026",
+      "title": "SS 726:2026 (Singapore): first national standard for tropical liquid cooling",
+      "source": "/liquid-cooling-standards"
+    },
+    {
+      "date": "2026",
+      "title": "Rubin generation ships: 2.3 kW GPUs, 45 °C warm water, 100% liquid racks — first deliveries Sept (Supermicro 9/23, CoreWeave 9/30)",
+      "source": "https://ir.supermicro.com/news/news-details/2026/default.aspx"
+    }
+  ]
+}

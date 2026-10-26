@@ -1,0 +1,13 @@
+{
+  "note": "Single source of truth for site freshness. Homepage status bar, topbar chip and sitemap lastmod all read from here. Update when any dataset changes. fetch-news.mjs keeps .news current automatically.",
+  "version": "2026-10-12",
+  "updated": "2026-10-12",
+  "datasets": {
+    "products": "2026-09-09",
+    "vendors": "2026-10-08",
+    "formulas": "2026-10-08",
+    "glossary": "2026-10-08",
+    "news": "2026-10-12",
+    "hardware": "2026-10-12"
+  }
+}

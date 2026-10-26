@@ -1,0 +1,215 @@
+{
+  "note": "Liquid cooling supply chain map — who makes what, upstream to downstream. Facts policy: each entry links the company's official site; the note states its liquid-cooling-relevant role only (no funding/market-size claims). Expand by adding rows; the page renders from this file. Last reviewed: 2026-10-08.",
+  "updated": "2026-10-08",
+  "segments": [
+    {
+      "id": "materials",
+      "label": "Materials & precision manufacturing (upstream)",
+      "note": "Before anyone builds a cold plate: copper and aluminum stock, CNC machining, vacuum brazing, sheet metal — the invisible margin layer of the whole chain.",
+      "companies": [
+        { "name": "Jiangxi Copper", "hq": "CN", "note": "江西铜业 — copper stock and semi-finished inputs for cold plates and manifolds", "source": "https://www.jxcc.com/" },
+        { "name": "Chalco (Aluminum Corp of China)", "hq": "CN", "note": "中国铝业 — aluminum inputs for manifolds, cabinets and heat exchanger fins", "source": "https://www.chalco.com.cn/" },
+        { "name": "Aurubis", "hq": "DE", "note": "Copper semi-finished products into European thermal chains", "source": "https://www.aurubis.com/" }
+      ]
+    },
+    {
+      "id": "chips",
+      "label": "Chips — where the heat starts",
+      "note": "Accelerator power is the demand driver: 700-1,000+ W per package made liquid cooling mandatory above ~30 kW/rack.",
+      "companies": [
+        { "name": "NVIDIA", "hq": "US", "note": "GB200/GB300-class racks ship liquid-first; the power cliff behind the whole transition", "source": "https://www.nvidia.com/en-us/data-center/" },
+        { "name": "AMD", "hq": "US", "note": "Instinct MI300/MI350-class accelerators with liquid-cooled variants", "source": "https://www.amd.com/en.html" },
+        { "name": "Intel", "hq": "US", "note": "Gaudi/Xeon roadmap with cold-plate-ready packages and OCP contributions", "source": "https://www.intel.com/" }
+      ]
+    },
+    {
+      "id": "cold-plates",
+      "label": "Cold plates & in-server cooling",
+      "note": "The chip-touching layer: machined/brazed plates, microchannels, heat pipes. Many also build CDUs and full loops.",
+      "companies": [
+        { "name": "CoolIT Systems", "hq": "CA", "note": "Largest independent cold-plate supplier; also CHx-series CDUs; partner in the 2018 STULZ micro DC", "source": "https://www.coolitsystems.com/" },
+        { "name": "Asetek", "hq": "DK", "note": "Cold plates and RackCDU/InRackCDU systems; HPC heritage (listed in Oslo)", "source": "https://www.asetek.com/" },
+        { "name": "Boyd Corporation", "hq": "US", "note": "Thermal conglomerate: cold plates, liquid loops, CDUs; high-volume manufacturing", "source": "https://www.boydcorp.com/" },
+        { "name": "Auras Technology", "hq": "TW", "note": "Major Taiwan cold-plate supplier into AI server ODM chains", "source": "https://www.auras.com.tw/" },
+        { "name": "Wakefield-Vette", "hq": "US", "note": "Cold plates and heat exchangers, industrial-to-server range", "source": "https://www.wakefield-vette.com/" }
+      ]
+    },
+    {
+      "id": "cdus",
+      "label": "CDUs — pumps & heat exchangers",
+      "note": "The heart of every loop: in-rack / in-row / facility CDUs from component level to multi-MW.",
+      "companies": [
+        { "name": "Vertiv", "hq": "US", "note": "CoolChip CDU family (incl. CDU 70 / XDU070 — one of few publishing capacity-vs-ambient curves)", "source": "https://www.vertiv.com/" },
+        { "name": "Motivair", "hq": "US", "note": "CDU leader at AI-facility scale; acquired by Schneider Electric (2024)", "source": "https://www.motivair.com/" },
+        { "name": "CoolIT Systems", "hq": "CA", "note": "CHx-series in-row CDUs alongside its cold-plate business", "source": "https://www.coolitsystems.com/" },
+        { "name": "Boyd Corporation", "hq": "US", "note": "CDUs plus full liquid-loop integration services", "source": "https://www.boydcorp.com/" },
+        { "name": "Asetek", "hq": "DK", "note": "RackCDU in-rack systems, liquid-to-liquid focus", "source": "https://www.asetek.com/" },
+        { "name": "nVent", "hq": "US", "note": "Rackmount CDUs + Hoffmann edge-rack liquid portfolio (RackChiller)", "source": "https://www.nvent.com/" },
+        { "name": "Daikin", "hq": "JP", "note": "Applied CDUs on its refrigeration/HX base; strong in APAC AI halls", "source": "https://www.daikin.com/" },
+        { "name": "Delta Electronics", "hq": "TW", "note": "CDUs plus power/thermal integration for AI racks", "source": "https://www.deltaww.com/" },
+        { "name": "ZutaCore", "hq": "IL", "note": "Two-phase direct-to-chip: dielectric fluid boiling on the plate", "source": "https://zutacore.com/" },
+        { "name": "JetCool", "hq": "US", "note": "Microjet impingement plates + cabinet-level liquid systems", "source": "https://www.jetcool.com/" },
+        { "name": "Chilldyne", "hq": "US", "note": "Negative-pressure direct-to-chip: leaks suck air in, not fluid out", "source": "https://www.chilldyne.com/" },
+        { "name": "Envicool", "hq": "CN", "note": "英维克 — China's largest domestic data-center cooling vendor; CDUs and integrated liquid systems for AI halls", "source": "https://www.envicool.com/" },
+        { "name": "Goaland", "hq": "CN", "note": "高澜股份 — liquid cooling for power electronics and data centers; strong domestic AI-facility presence", "source": "https://www.goaland.com/" }
+      ]
+    },
+    {
+      "id": "interconnects",
+      "label": "Quick disconnects & manifolds",
+      "note": "The interoperability layer: UQD-class couplings and rack manifolds decide whether you can mix vendors.",
+      "companies": [
+        { "name": "Stäubli", "hq": "CH", "note": "Dry-break coupling benchmark; OCP UQD-compliant lines", "source": "https://www.staubli.com/" },
+        { "name": "CPC (Colder Products)", "hq": "US", "note": "Dripless quick disconnects across UQD sizes", "source": "https://www.cpcworldwide.com/" },
+        { "name": "Parker Hannifin", "hq": "US", "note": "Coolant couplings, hoses and manifold assemblies", "source": "https://www.parker.com/" },
+        { "name": "nVent", "hq": "US", "note": "ORv3-class racks and blind-mate manifold systems", "source": "https://www.nvent.com/" },
+        { "name": "Rittal", "hq": "DE", "note": "Rack/manifold hardware alongside its LCP cooling line", "source": "https://www.rittal.com/" }
+      ]
+    },
+    {
+      "id": "servers",
+      "label": "Liquid-ready servers (OEM/ODM)",
+      "note": "Who ships servers with cold plates and UQD ports pre-installed — the open-ecosystem demand side.",
+      "companies": [
+        { "name": "Dell Technologies", "hq": "US", "note": "PowerEdge with factory DLC options for AI racks", "source": "https://www.dell.com/" },
+        { "name": "HPE", "hq": "US", "note": "Cray EX liquid-cooled EX2500/EX2550 blades; long HPC liquid heritage", "source": "https://www.hpe.com/" },
+        { "name": "Lenovo", "hq": "CN/US", "note": "Neptune direct liquid cooling across ThinkSystem line", "source": "https://www.lenovo.com/" },
+        { "name": "Supermicro", "hq": "US", "note": "Broad DLC server catalog, liquid-first AI portfolio", "source": "https://www.supermicro.com/" },
+        { "name": "Gigabyte", "hq": "TW", "note": "Liquid-ready GPU servers for AI/HPC", "source": "https://www.gigabyte.com/" },
+        { "name": "Huawei", "hq": "CN", "note": "华为 — liquid-ready rack servers plus facility liquid-cooling lines for AI data centers", "source": "https://www.huawei.com/" },
+        { "name": "Inspur", "hq": "CN", "note": "Liquid-cooled AI server lines at hyperscale volumes in CN", "source": "https://www.inspur.com/" },
+        { "name": "H3C", "hq": "CN", "note": "Liquid-ready servers and rack integration", "source": "https://www.h3c.com/" },
+        { "name": "Sugon", "hq": "CN", "note": "Immersion-cooled HPC systems heritage", "source": "https://www.sugon.com/" }
+      ]
+    },
+    {
+      "id": "immersion",
+      "label": "Immersion cooling",
+      "note": "Whole-server submersion: single-phase oils or (post-PFAS) engineered dielectrics.",
+      "companies": [
+        { "name": "LiquidStack", "hq": "US", "note": "Single/two-phase immersion at scale; OCP contributions", "source": "https://www.liquidstack.com/" },
+        { "name": "Submer", "hq": "ES", "note": "Single-phase immersion pods + SmartCoolant services", "source": "https://submer.com/" },
+        { "name": "GRC (Green Revolution Cooling)", "hq": "US", "note": "Electroless mineral-oil immersion, longest deployment track record", "source": "https://grcooling.com/" },
+        { "name": "Asperitas", "hq": "NL", "note": "Immersed computing in oil, circular-flow designs (image used on our immersion page)", "source": "https://asperitas.com/" }
+      ]
+    },
+    {
+      "id": "fluids",
+      "label": "Coolants & chemistry",
+      "note": "PG25 water-glycol dominates direct-to-chip post-PFAS; immersion needs engineered dielectrics.",
+      "companies": [
+        { "name": "Dow", "hq": "US", "note": "DOWFROST/WF glycol lines behind most PG25-class coolants", "source": "https://www.dow.com/" },
+        { "name": "Clariant", "hq": "CH", "note": "Inhibited glycols and coolant additives", "source": "https://www.clariant.com/" },
+        { "name": "Dynalene", "hq": "US", "note": "Engineering coolant specialist (glycols, dielectrics, sampling services)", "source": "https://www.dynalene.com/" },
+        { "name": "Engineered Fluids", "hq": "US", "note": "Single-phase immersion dielectrics after the PFAS exit", "source": "https://www.engineeredfluids.com/" },
+        { "name": "3M", "hq": "US", "note": "Novec fluorinated fluids — exited PFAS manufacturing end-2025 (timeline on our radar page)", "source": "https://www.3m.com/" }
+      ]
+    },
+    {
+      "id": "heat-rejection",
+      "label": "Heat rejection — where the heat lands",
+      "note": "Dry coolers, towers and heat exchangers: the facility side that L2L loops and free cooling depend on.",
+      "companies": [
+        { "name": "Baltimore Aircoil (BAC)", "hq": "US", "note": "Cooling towers and dry coolers; the evaporative baseline", "source": "https://www.baltimoreaircoil.com/" },
+        { "name": "EVAPCO", "hq": "US", "note": "Dry coolers/adiabatic lines for warm-water loops", "source": "https://www.evapco.com/" },
+        { "name": "SPX Cooling", "hq": "US", "note": "Marley towers and cooling infrastructure", "source": "https://www.spxcooling.com/" },
+        { "name": "Kelvion", "hq": "DE", "note": "Industrial heat exchangers and dry coolers", "source": "https://www.kelvion.com/" },
+        { "name": "Alfa Laval", "hq": "SE", "note": "Plate heat exchangers — the HX inside many CDUs", "source": "https://www.alfalaval.com/" },
+        { "name": "SWEP", "hq": "SE", "note": "Brazed-plate heat exchangers, compact CDU-scale", "source": "https://www.swep.net/" }
+      ]
+    },
+    {
+      "id": "components",
+      "label": "Pumps, valves & sensors",
+      "note": "The quiet layer inside every loop: circulators, control valves, flow/pressure instrumentation.",
+      "companies": [
+        { "name": "Grundfos", "hq": "DK", "note": "Circulator pumps from server loops to facility scale", "source": "https://www.grundfos.com/" },
+        { "name": "Wilo", "hq": "DE", "note": "Pump groups for cooling circuits", "source": "https://wilo.com/" },
+        { "name": "Danfoss", "hq": "DK", "note": "Valves, controls and sensors for hydronic loops", "source": "https://www.danfoss.com/" },
+        { "name": "Xylem", "hq": "US", "note": "Bell & Gossett pump/heat-transfer portfolio", "source": "https://www.xylem.com/" },
+        { "name": "Dwyer (Ametek)", "hq": "US", "note": "Pressure/flow instrumentation used in loop monitoring", "source": "https://www.dwyer-inst.com/" },
+        { "name": "TTK", "hq": "FR", "note": "Liquid leak-detection cable systems for racks and rooms", "source": "https://www.ttk.co.uk/" }
+      ]
+    },
+    {
+      "id": "integrators",
+      "label": "Facility cooling & integration",
+      "note": "Precision-cooling majors and data center integrators who assemble the room side.",
+      "companies": [
+        { "name": "Vertiv", "hq": "US", "note": "Full-stack: CDUs, chillers, AHUs, micro DCs (VRC-S)", "source": "https://www.vertiv.com/" },
+        { "name": "Schneider Electric", "hq": "FR", "note": "Uniflair/cooling + EcoStruxure micro DCs; acquired Motivair (2024)", "source": "https://www.se.com/" },
+        { "name": "STULZ", "hq": "DE", "note": "Precision cooling; 2018 Micro DC with CoolIT still the turnkey benchmark", "source": "https://www.stulz.com/" },
+        { "name": "Rittal", "hq": "DE", "note": "Racks, LCP air cooling, liquid manifold hardware", "source": "https://www.rittal.com/" },
+        { "name": "Munters", "hq": "SE", "note": "Cooling and climate control for data centers/industry", "source": "https://www.munters.com/" },
+        { "name": "Johnson Controls", "hq": "US", "note": "York chillers and facility integration", "source": "https://www.johnsoncontrols.com/" },
+        { "name": "Trane Technologies", "hq": "US", "note": "Chiller plant side of L2L deployments", "source": "https://www.trane.com/" }
+      ]
+    },
+    {
+      "id": "micro-dc",
+      "label": "Small-scale / micro DC (the 20-50 kW frontier)",
+      "note": "Our comparison data layer tracks this segment: air-cooled micro DCs stop ~10 kW; liquid turnkey starts at component level. The middle is the gap.",
+      "companies": [
+        { "name": "Schneider Electric", "hq": "FR", "note": "EcoStruxure Micro Data Center — air, 6U-43U, ~3.5-10 kW class", "source": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/micro/" },
+        { "name": "Vertiv", "hq": "US", "note": "VRC-S micro DC (air ~3.5 kW); CoolChip CDU 70 for AI racks", "source": "https://www.vertiv.com/en-emea/solutions/micro-data-centers/" },
+        { "name": "STULZ × CoolIT", "hq": "DE/CA", "note": "2018 Micro DC — the only full turnkey liquid micro-cabinet predecessor (27-80 kW)", "source": "https://www.stulz.com/products/detail/micro-dc/" },
+        { "name": "nVent / Hoffman", "hq": "US", "note": "Edge liquid portfolio: 'add liquid cooling without changing the room'", "source": "https://www.nvent.com/en-us/hoffman/liquid-cooling-solutions" },
+        { "name": "Asetek", "hq": "DK", "note": "InRackCDU 80-120 kW/rack, HPC-oriented, needs tempered water", "source": "https://www.asetek.com/" }
+      ]
+    },
+    {
+      "id": "solutions",
+      "label": "Solutions & engineering (non-equipment)",
+      "note": "The non-equipment layer: design institutes, EPC/engineering consultancies, simulation software and certification — plus solution providers who assemble whole liquid-cooling plants across other vendors' hardware.",
+      "companies": [
+        { "name": "Sugon DataEnergy (曙光数创)", "hq": "CN", "note": "中科曙光旗下 (NEEQ 872808) — full liquid-cooling solutions: cold-plate + phase-change immersion dual track; C8000 immersion rack rated >900 kW/rack; #1 domestic liquid-cooling share five years running (CCID)", "source": "https://www.sugon.com/product/lists?category_id=80" },
+        { "name": "AECOM", "hq": "US", "note": "Data center design and EPC engineering — the firms that turn cooling physics into buildings", "source": "https://aecom.com/" },
+        { "name": "WSP", "hq": "CA", "note": "Engineering consultancy: mechanical/thermal design for data center projects", "source": "https://www.wsp.com/" },
+        { "name": "Jacobs", "hq": "US", "note": "Design, engineering and program management for mission-critical facilities", "source": "https://www.jacobs.com/" },
+        { "name": "Cadence (6SigmaDCX)", "hq": "US", "note": "Data center CFD and digital-twin simulation software (Future Facilities acquisition)", "source": "https://www.cadence.com/" },
+        { "name": "Siemens (Simcenter FloTHERM)", "hq": "DE", "note": "Electronics thermal CFD — cold-plate and rack airflow simulation", "source": "https://www.siemens.com/" },
+        { "name": "Uptime Institute", "hq": "US", "note": "Tier certification and data center consulting — independent of every equipment vendor above", "source": "https://uptimeinstitute.com/" }
+      ]
+    },
+    {
+      "id": "testing",
+      "label": "Testing & certification",
+      "note": "Independent verification between builders and buyers: safety certification, performance curves, thermal benchmarking — where marketing claims go to be checked.",
+      "companies": [
+        { "name": "UL Solutions", "hq": "US", "note": "Safety certification incl. liquid-cooling components (UL mark)", "source": "https://www.ul.com/" },
+        { "name": "TÜV Rheinland", "hq": "DE", "note": "CE-route testing and performance verification for EU deployments", "source": "https://www.tuv.com/" },
+        { "name": "SGS", "hq": "CH", "note": "Inspection, testing and certification services", "source": "https://www.sgs.com/" },
+        { "name": "CAICT (中国信通院)", "hq": "CN", "note": "China Academy of Information and Communications Technology — domestic liquid-cooling evaluation and standards work", "source": "https://www.caict.ac.cn/" }
+      ]
+    },
+    {
+      "id": "buyers",
+      "label": "Buyers & operators — where the money starts",
+      "note": "The demand the entire chain exists for: hyperscalers, clouds, telcos and colocation — their rack-power roadmaps set every upstream design decision.",
+      "companies": [
+        { "name": "AWS", "hq": "US", "note": "Hyperscale demand driver; custom rack programs reach 100+ kW", "source": "https://aws.amazon.com/" },
+        { "name": "Microsoft Azure", "hq": "US", "note": "Liquid-cooled AI infrastructure at hyperscale", "source": "https://azure.microsoft.com/" },
+        { "name": "Google Cloud", "hq": "US", "note": "TPU pods and GPU fleets push liquid-first rack designs", "source": "https://cloud.google.com/" },
+        { "name": "Alibaba Cloud (阿里云)", "hq": "CN", "note": "浸没式液冷规模化部署的先行者（仁和数据中心）", "source": "https://www.aliyun.com/" },
+        { "name": "Tencent Cloud (腾讯云)", "hq": "CN", "note": "T-Block 与液冷数据中心批量部署", "source": "https://cloud.tencent.com/" },
+        { "name": "China Mobile (中国移动)", "hq": "CN", "note": "运营商智算中心集采——国产液冷链的最大单一买方之一", "source": "https://www.10086.cn/" },
+        { "name": "Equinix", "hq": "US", "note": "Colocation; xScale JV builds for hyperscale tenants", "source": "https://www.equinix.com/" },
+        { "name": "Digital Realty", "hq": "US", "note": "Global colocation platform tracking high-density liquid deployments", "source": "https://www.digitalrealty.com/" },
+        { "name": "GDS (万国数据)", "hq": "CN", "note": "头部第三方 IDC，液冷智算集群批量落地", "source": "https://www.gds-services.com/" },
+        { "name": "VNET (世纪互联)", "hq": "CN", "note": "第三方 IDC 与智算中心运营商", "source": "https://www.21vianet.com/" },
+        { "name": "Chindata (秦淮数据)", "hq": "CN", "note": "超大规模数据中心园区，东南亚/中国液冷部署", "source": "https://www.chindata.com/" }
+      ]
+    },
+    {
+      "id": "standards",
+      "label": "Standards & industry bodies",
+      "note": "Who defines interoperability and safety — cite them in every RFQ.",
+      "companies": [
+        { "name": "Open Compute Project (OCP)", "hq": "US", "note": "UQD couplings, ORv3 racks and blind-mate manifolds", "source": "https://www.opencompute.org/" },
+        { "name": "ASHRAE", "hq": "US", "note": "W-class facility-water temperature framework", "source": "https://www.ashrae.org/" },
+        { "name": "IEC", "hq": "CH", "note": "IEC 62368-1 Ed.4 — electrical safety incl. liquid clauses", "source": "https://www.iec.ch/" },
+        { "name": "Enterprise Singapore", "hq": "SG", "note": "SS 726:2026 — first tropical liquid cooling standard", "source": "https://www.enterprise.gov.sg/" }
+      ]
+    }
+  ]
+}

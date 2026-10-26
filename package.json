@@ -1,0 +1,20 @@
+{
+  "name": "guide-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "node scripts/check-nav.mjs && nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "news:fetch": "node scripts/fetch-news.mjs",
+    "check:nav": "node scripts/check-nav.mjs",
+    "vendor:sim": "node scripts/vendor-from-simulation.ts"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  }
+}

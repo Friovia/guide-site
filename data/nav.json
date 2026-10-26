@@ -1,0 +1,92 @@
+{
+  "note": "Sidebar knowledge map — single source of truth for site IA. labelZh/titleZh drive the Chinese sidebar on /zh pages; zhPath marks pages that exist in Chinese. When adding a page: create pages/*.vue, add entry here, add to public/sitemap.xml and public/llms.txt. `node scripts/check-nav.mjs` (runs in generate) enforces the sync.",
+  "sections": [
+    {
+      "id": "start",
+      "label": "Start",
+      "labelZh": "入门",
+      "items": [
+        { "path": "/", "title": "Overview", "titleZh": "总览", "desc": "Liquid cooling for micro data centers" },
+        { "path": "/what-is-liquid-cooling", "zhPath": "/zh/what-is-liquid-cooling", "title": "What is liquid cooling?", "titleZh": "什么是液冷？", "desc": "Cold plates, CDUs, manifolds, UQD — the parts and the physics" },
+        { "path": "/what-is-a-cdu", "title": "What is a CDU?", "titleZh": "什么是 CDU？", "desc": "Pumps, heat exchangers, TCS vs facility loops, form factors" },
+        { "path": "/cold-plate-vs-immersion", "title": "Cold plate vs immersion", "titleZh": "冷板 vs 浸没", "desc": "The two architectures compared" },
+        { "path": "/liquid-cooling-vs-air", "title": "Liquid vs air", "titleZh": "液冷 vs 风冷", "desc": "Where the crossover really is" }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "Radar",
+      "labelZh": "行业雷达",
+      "items": [
+        { "path": "/news", "title": "Industry radar", "titleZh": "行业雷达", "desc": "News + the curated milestone timeline" },
+        { "path": "/state-of-liquid-cooling-2026", "title": "State of 2026", "titleZh": "2026 年度综述", "desc": "The annual digest: what changed, what still doesn't exist" }
+      ]
+    },
+    {
+      "id": "formulas",
+      "label": "Formulas",
+      "labelZh": "公式手册",
+      "items": [
+        { "path": "/coolant-flow-rate", "title": "Coolant flow rate", "titleZh": "冷却液流量", "desc": "L/min = kW × 60 / (4.186 × ΔT)" },
+        { "path": "/heat-capture-split", "title": "Heat capture split", "titleZh": "热量捕获比例", "desc": "60-80% to liquid, the rest stays on air" },
+        { "path": "/tdp-to-rack-kw", "title": "TDP → rack kW", "titleZh": "TDP → 机柜 kW", "desc": "Chip power to a rack-level budget" },
+        { "path": "/room-ac-load", "title": "Room AC load (1.1× rule)", "titleZh": "机房空调负荷（1.1× 规则）", "desc": "L2A cabinets still need room cooling" },
+        { "path": "/kw-to-tons", "title": "kW ↔ refrigeration tons", "titleZh": "kW ↔ 冷吨", "desc": "1 ton = 3.517 kW — cooling unit conversion" },
+        { "path": "/approach-temperature", "title": "Approach temperature & derating", "titleZh": "逼近温度与降额", "desc": "Why capacity halves at 35°C ambient" },
+        { "path": "/pressure-drop", "title": "Pressure drop", "titleZh": "压降", "desc": "Darcy–Weisbach: the loop eats pump head" },
+        { "path": "/floor-loading", "title": "Floor loading", "titleZh": "楼板承重", "desc": "kN/m² under a full rack" },
+        { "path": "/pue-math", "title": "PUE math", "titleZh": "PUE 计算", "desc": "And what the number hides" },
+        { "path": "/ashrae-w-classes", "title": "ASHRAE W-classes", "titleZh": "ASHRAE W 等级", "desc": "W17–W45 lookup table" },
+        { "path": "/wet-bulb-free-cooling", "title": "Wet-bulb & free cooling", "titleZh": "湿球与免费制冷", "desc": "Why the tropics can't free-cool" }
+      ]
+    },
+    {
+      "id": "choosing",
+      "label": "Choosing",
+      "labelZh": "选型",
+      "items": [
+        { "path": "/cabinet-comparison", "title": "Cabinet comparison", "titleZh": "机柜对比", "desc": "Verified small-scale cooling cabinets, with sources" },
+        { "path": "/liquid-cooling-cost", "title": "What drives the cost", "titleZh": "成本由什么决定", "desc": "Why nobody publishes prices; comparing quotes fairly" },
+        { "path": "/rfq-scope-checklist", "title": "RFQ scope checklist", "titleZh": "RFQ 范围清单", "desc": "12 line items that make quotes comparable" },
+        { "path": "/liquid-ready-servers", "title": "Liquid-ready servers", "titleZh": "液冷就绪服务器", "desc": "The five compatibility checks before you buy" },
+        { "path": "/liquid-cooling-hot-climates", "title": "Hot & tropical climates", "titleZh": "高温与热带", "desc": "Derating physics, SS 726, buying checklist" }
+      ]
+    },
+    {
+      "id": "deploy",
+      "label": "Deploy & Ops",
+      "labelZh": "部署与运维",
+      "items": [
+        { "path": "/site-survey", "title": "Site survey", "titleZh": "勘站", "desc": "Six-point checklist before any vendor call" },
+        { "path": "/room-load-calculation", "title": "Room load calculation", "titleZh": "机房负荷计算", "desc": "Can your room host an L2A cabinet?" },
+        { "path": "/commissioning", "title": "Commissioning", "titleZh": "调试验收", "desc": "8 steps from empty pipes to acceptance" },
+        { "path": "/liquid-cooling-leaks", "title": "Leaks: risk & response", "titleZh": "漏液：风险与响应", "desc": "The four-layer detection model" },
+        { "path": "/maintenance-schedule", "title": "Maintenance schedule", "titleZh": "维护周期表", "desc": "Intervals that keep a loop boring" }
+      ]
+    },
+    {
+      "id": "reference",
+      "label": "Reference",
+      "labelZh": "参考",
+      "items": [
+        { "path": "/supply-chain", "title": "Supply chain map", "titleZh": "产业链地图", "desc": "97 companies, 16 segments — who makes what" },
+        { "path": "/glossary", "zhPath": "/zh/glossary", "title": "Glossary", "titleZh": "术语表", "desc": "50+ quotable definitions, anchorable" },
+        { "path": "/uqd-quick-disconnects", "title": "UQD quick disconnects", "titleZh": "UQD 快接头", "desc": "OCP sizes UQD04–UQD40, table" },
+        { "path": "/liquid-cooling-fluids", "title": "Fluids & PFAS", "titleZh": "工质与 PFAS", "desc": "PG25 vs oils vs fluorinated fluids" },
+        { "path": "/liquid-cooling-standards", "title": "Standards", "titleZh": "标准", "desc": "OCP, ASHRAE W-classes, IEC 62368-1, SS 726" },
+        { "path": "/changelog", "title": "Changelog", "titleZh": "更新日志", "desc": "Data versions and article updates" }
+      ]
+    },
+    {
+      "id": "playground",
+      "label": "Playground",
+      "labelZh": "演练场",
+      "items": [
+        { "path": "/playground", "zhPath": "/zh/playground", "title": "Playground home", "titleZh": "演练场首页", "desc": "Interactive tools — learn by moving numbers" },
+        { "path": "/playground/rack-builder", "title": "Rack builder", "titleZh": "装机台", "desc": "Assemble a rack, watch capacity derate live" },
+        { "path": "/playground/derating", "title": "Derating simulator", "titleZh": "降额模拟器", "desc": "Capacity vs ambient, anchored to XDU070 data" },
+        { "path": "/playground/room-load", "title": "Room load calculator", "titleZh": "机房负荷计算器", "desc": "1.1× rule with verdicts and margin" }
+      ]
+    }
+  ]
+}
