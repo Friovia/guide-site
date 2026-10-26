@@ -41,9 +41,9 @@ pnpm generate     # check-nav 守护 + 全量静态构建 → .output/public
 
 ## 部署（Cloudflare Pages 直传，GitHub Actions 自动化）
 
-1. 推 main 即自动部署：`.github/workflows/deploy.yml`（pnpm generate → wrangler pages deploy，project `liquidcoolingguide`）；news cron 的 commit 同样触发
-2. 需在仓库 Secrets 配 `CLOUDFLARE_API_TOKEN`（Pages:Edit 权限）与 `CLOUDFLARE_ACCOUNT_ID`
-3. 手动部署：`pnpm dlx wrangler@4 pages deploy .output/public --project-name liquidcoolingguide --branch main`
+1. 推 main 由 Cloudflare Pages Git 集成自动构建部署（仓库 Friovia/guide-site、构建命令 `pnpm generate`、输出 `.output/public`）；news cron 的 commit 同样触发；`.github/workflows/ci.yml` 为质量门，无需 CF 凭据
+2. （Git 集成方式无需 API token；直传备用：`pnpm dlx wrangler@4 pages deploy .output/public --project-name liquidcoolingguide --branch main`）
+
 4. 绑定 liquidcoolingguide.com（已绑定，CNAME → liquidcoolingguide.pages.dev，proxied）
 5. Cloudflare Email Routing（免费）：建 `vendors@liquidcoolingguide.com` 转发到你的邮箱——supply-chain 页的厂商登记/纠错入口依赖这个地址
 
