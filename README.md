@@ -39,15 +39,13 @@ pnpm generate     # check-nav 守护 + 全量静态构建 → .output/public
 - 线上自动：`.github/workflows/news.yml` 每日 03:30 UTC 跑同一脚本，有变化才 commit，推送后 Cloudflare Pages 自动重建
 - 稳定性规则：feed 挂了跳过并记日志，绝不清空已有数据；手工 curated 条目永久保留
 
-## 部署（Cloudflare Pages，免费）
+## 部署（Cloudflare Pages 直传，GitHub Actions 自动化）
 
-1. 推本目录到 GitHub 仓库（本目录即仓库根，已 git init）
-2. Cloudflare Pages → Connect to Git → 选仓库
-   - Build command: `npm run generate`
-   - Output directory: `.output/public`
-3. 绑定 liquidcoolingguide.com（先注册域名）
-4. Cloudflare Email Routing（免费）：建 `vendors@liquidcoolingguide.com` 转发到你的邮箱——supply-chain 页的厂商登记/纠错入口依赖这个地址
-5. 之后每次 push 自动重建；news cron 的 commit 也会触发
+1. 推 main 即自动部署：`.github/workflows/deploy.yml`（pnpm generate → wrangler pages deploy，project `liquidcoolingguide`）；news cron 的 commit 同样触发
+2. 需在仓库 Secrets 配 `CLOUDFLARE_API_TOKEN`（Pages:Edit 权限）与 `CLOUDFLARE_ACCOUNT_ID`
+3. 手动部署：`pnpm dlx wrangler@4 pages deploy .output/public --project-name liquidcoolingguide --branch main`
+4. 绑定 liquidcoolingguide.com（已绑定，CNAME → liquidcoolingguide.pages.dev，proxied）
+5. Cloudflare Email Routing（免费）：建 `vendors@liquidcoolingguide.com` 转发到你的邮箱——supply-chain 页的厂商登记/纠错入口依赖这个地址
 
 ## 内容排期
 
