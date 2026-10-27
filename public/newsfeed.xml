@@ -4,53 +4,486 @@
   <title>Liquid Cooling Guide — Industry Radar</title>
   <link>https://liquidcoolingguide.com/news</link>
   <description>Liquid cooling news and milestones: technology, products, investment, standards. Every item sourced.</description>
-  <lastBuildDate>Thu, 08 Oct 2026 01:58:17 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 09:11:43 GMT</lastBuildDate>
   <item>
-    <title>Singapore publishes SS 726:2026 — first national standard for liquid cooling in tropical climates</title>
-    <link>/liquid-cooling-standards</link>
-    <guid>/liquid-cooling-standards</guid>
-    <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
-    <category>standards</category>
-    <description>Source: Singapore Standards / this site's standards tracker — Covers direct-to-chip in tropical data centers; excludes standalone edge cabinets — scope matters when vendors claim compliance.</description>
-  </item>
-  <item>
-    <title>3M completes its exit from PFAS manufacturing, ending fluorinated coolant production</title>
-    <link>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</link>
-    <guid>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</guid>
-    <pubDate>Wed, 31 Dec 2025 08:00:00 GMT</pubDate>
+    <title>Equinix opens liquid cooling test centers for enterprise AI, with Osaka and Sydney among first sites - CRN Asia</title>
+    <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbEV6RExHMktBZzBzUDVfTWNfQnFpZmlMZzVpdXFCQmRHUkZFVkxIZnVhMTZDWnBnU3VhMy0yRnRjSTVCemhoeVhvWDJDekVMRHNRN3JLT3JmbXNMNXpkTGIxcWIyUUJjTUNqa3RHZVZOeTRxazE2VnpyZzFKSlYwY2laaTMtVE5JYWhxaURhVE5CbE1MS19EdVFDenNHYTc5aWE0cXFKMmw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbEV6RExHMktBZzBzUDVfTWNfQnFpZmlMZzVpdXFCQmRHUkZFVkxIZnVhMTZDWnBnU3VhMy0yRnRjSTVCemhoeVhvWDJDekVMRHNRN3JLT3JmbXNMNXpkTGIxcWIyUUJjTUNqa3RHZVZOeTRxazE2VnpyZzFKSlYwY2laaTMtVE5JYWhxaURhVE5CbE1MS19EdVFDenNHYTc5aWE0cXFKMmw?oc=5</guid>
+    <pubDate>Tue, 27 Oct 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: 3M News Center — Announced Dec 2022, completed end-2025. Single-fluid-class dependence is now a procurement risk — PG25 water-glycol is the default survivor.</description>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbEV6RExHMktBZzBzUDVfTWNfQnFpZmlMZzVpdXFCQmRHUkZFVkxIZnVhMTZDWnBnU3VhMy0yRnRjSTVCemhoeVhvWDJDekVMRHNRN3JLT3JmbXNMNXpkTG</description>
   </item>
   <item>
-    <title>OCP ORv3 blind-mate liquid cooling manifold spec reaches Rev 1.0</title>
-    <link>https://www.opencompute.org/</link>
-    <guid>https://www.opencompute.org/</guid>
-    <pubDate>Mon, 01 Apr 2024 08:00:00 GMT</pubDate>
-    <category>standards</category>
-    <description>Source: Open Compute Project — Servers that mate on insertion, interoperable across vendors — the lock-in defense checklist item in our RFQ tool.</description>
-  </item>
-  <item>
-    <title>NVIDIA GB200 NVL72 mainstreams 120 kW liquid-cooled racks</title>
-    <link>https://www.nvidia.com/en-us/data-center/gb200-nvl72/</link>
-    <guid>https://www.nvidia.com/en-us/data-center/gb200-nvl72/</guid>
-    <pubDate>Mon, 18 Mar 2024 08:00:00 GMT</pubDate>
-    <category>product</category>
-    <description>Source: NVIDIA — Announced at GTC 2024: rack-scale liquid cooling left the exotic category. The power cliff behind this guide's existence.</description>
-  </item>
-  <item>
-    <title>3M announces exit from all PFAS manufacturing by end of 2025</title>
-    <link>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</link>
-    <guid>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</guid>
-    <pubDate>Tue, 20 Dec 2022 08:00:00 GMT</pubDate>
+    <title>Rethinking coolant selection for modern and future cooling systems</title>
+    <link>https://www.datacenterdynamics.com/en/whitepapers/rethinking-coolant-selection-for-modern-and-future-cooling-systems/</link>
+    <guid>https://www.datacenterdynamics.com/en/whitepapers/rethinking-coolant-selection-for-modern-and-future-cooling-systems/</guid>
+    <pubDate>Mon, 26 Oct 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: 3M News Center — The announcement that redirected immersion-cooling fluid roadmaps for the entire industry.</description>
+    <description>Source: DCD — &lt;p data-block-key=&quot;hmuei&quot;&gt;Why additive chemistry is key to coolant performance, corrosion protection and long-term reliability in next-generation data center liquid cooling systems</description>
   </item>
   <item>
-    <title>STULZ × CoolIT ship the first turnkey liquid-cooled micro data center</title>
-    <link>https://www.stulz.com/products/detail/micro-dc/</link>
-    <guid>https://www.stulz.com/products/detail/micro-dc/</guid>
-    <pubDate>Mon, 01 Jan 2018 08:00:00 GMT</pubDate>
+    <title>Cooler Master announces 2.5MW in-row CDU - Data Center Dynamics</title>
+    <link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxORS1mdzVYVDQxbE9uYzVQWmYyVy1zYUs0QkxPZ2swU3FTaC10YXdkeWZFZTVPbHg5YmRGOVNQYmszbnNDMWItaE5CVTlhRDFiRDItTTMyb1dLcGF6cWFvdFBpLW5nWTJocERFM1NvamU0RWRxWFZuU0I1NTJjZWYzV056U3hoMFF0eVJv?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiiwFBVV95cUxORS1mdzVYVDQxbE9uYzVQWmYyVy1zYUs0QkxPZ2swU3FTaC10YXdkeWZFZTVPbHg5YmRGOVNQYmszbnNDMWItaE5CVTlhRDFiRDItTTMyb1dLcGF6cWFvdFBpLW5nWTJocERFM1NvamU0RWRxWFZuU0I1NTJjZWYzV056U3hoMFF0eVJv?oc=5</guid>
+    <pubDate>Mon, 26 Oct 2026 08:00:00 GMT</pubDate>
     <category>product</category>
-    <description>Source: STULZ product page (verified in our comparison data) — Still the only full predecessor in the 20-50 kW turnkey cabinet space — see the gap statement in our cabinet comparison.</description>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiiwFBVV95cUxORS1mdzVYVDQxbE9uYzVQWmYyVy1zYUs0QkxPZ2swU3FTaC10YXdkeWZFZTVPbHg5YmRGOVNQYmszbnNDMWItaE5CVTlhRDFiRDItTTMyb1dLcGF6cWFvdF</description>
+  </item>
+  <item>
+    <title>ZutaCore details new two-phase boiling technology for liquid-cooled data centers - Data Center Dynamics</title>
+    <link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMlk5YVF0dE9yTE1nQ1V5cU1HOWVFVVpnei16ek8tbjBhNlo0QmpPZ1hXdlpxT3hrRUZJeXlnUU9kS3ZfeHZ6bFVvUWxjWldDSHd5bFdKVXJFcHNqRXE0Q01qaGRVQ2VTTTJ4Rkp0QnpGdlJjT0N3ai1fa2xpd2hBSy1ONTJSTTJWb3dsWVNLdmZhLXRZV2dtRk5HcHA2aV9hLXVCcS1ibTJnSXA1d3AtSTZoekVkSmNza3l4a2ZFWk56Zw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMlk5YVF0dE9yTE1nQ1V5cU1HOWVFVVpnei16ek8tbjBhNlo0QmpPZ1hXdlpxT3hrRUZJeXlnUU9kS3ZfeHZ6bFVvUWxjWldDSHd5bFdKVXJFcHNqRXE0Q01qaGRVQ2VTTTJ4Rkp0QnpGdlJjT0N3ai1fa2xpd2hBSy1ONTJSTTJWb3dsWVNLdmZhLXRZV2dtRk5HcHA2aV9hLXVCcS1ibTJnSXA1d3AtSTZoekVkSmNza3l4a2ZFWk56Zw?oc=5</guid>
+    <pubDate>Mon, 26 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMlk5YVF0dE9yTE1nQ1V5cU1HOWVFVVpnei16ek8tbjBhNlo0QmpPZ1hXdlpxT3hrRUZJeXlnUU9kS3ZfeHZ6bFVvUWxjWldDSHd5bFdKVXJFcHNqRXE0Q0</description>
+  </item>
+  <item>
+    <title>Vertiv Acquires King Environmental Services to Expand Data Center Cooling Services Across EMEA - citybiz</title>
+    <link>https://news.google.com/rss/articles/CBMizgFBVV95cUxNOHNybjJ5TFlhNXBjTjI0Qm4zUWxsMFNzOXNIQXpuNTVoOFVtZTdfbm04cm1pSVdJZmh2dmw4dFkxOGlKd25QbEd6akJ6SjJoc3hXa01JS1MwRE0ySkZ6cVR2VE44dFl3OG5nTGNHNktpcENNaWt4S2Jud0dhZmU4NndlTGVfa1FMTThIUHdUVjNpVDR3cFdYV2cybk5GVVBxVjE1OGtSRHRqa29TbTVBYjVSdXJXRjhhWEphTGlqM2tBSk44WGEwNGRIbHJadw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMizgFBVV95cUxNOHNybjJ5TFlhNXBjTjI0Qm4zUWxsMFNzOXNIQXpuNTVoOFVtZTdfbm04cm1pSVdJZmh2dmw4dFkxOGlKd25QbEd6akJ6SjJoc3hXa01JS1MwRE0ySkZ6cVR2VE44dFl3OG5nTGNHNktpcENNaWt4S2Jud0dhZmU4NndlTGVfa1FMTThIUHdUVjNpVDR3cFdYV2cybk5GVVBxVjE1OGtSRHRqa29TbTVBYjVSdXJXRjhhWEphTGlqM2tBSk44WGEwNGRIbHJadw?oc=5</guid>
+    <pubDate>Mon, 26 Oct 2026 08:00:00 GMT</pubDate>
+    <category>investment</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMizgFBVV95cUxNOHNybjJ5TFlhNXBjTjI0Qm4zUWxsMFNzOXNIQXpuNTVoOFVtZTdfbm04cm1pSVdJZmh2dmw4dFkxOGlKd25QbEd6akJ6SjJoc3hXa01JS1MwRE0ySkZ6cV</description>
+  </item>
+  <item>
+    <title>Liquid Cooled Data Center: Redefining the Future of High-Performance Infrastructure - Nasscom</title>
+    <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxQNHIyaURva2tTdExpVWx1RUZ4R3RnNnVxS283N0RJRS14SVdpRElmMGVLYXVKYUxFN3lOOUZjZWFBM1lOMXoySE93VFZacUU4enpfMnU4dXphNVRDTXBvZzdWYmlLLUFXeEJqMlM2ai16Yl9OQURXYmFKNUdZZFM4TFhaU1Q1NlJJcHV0czJybUJDcXF2TDJ0X3JYRlI1NTA4TzUzd1g2cHBBRkpDaDFKSlpnRzBTNDBjc2VzbjFJSUlJSXBUcnA4?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMixwFBVV95cUxQNHIyaURva2tTdExpVWx1RUZ4R3RnNnVxS283N0RJRS14SVdpRElmMGVLYXVKYUxFN3lOOUZjZWFBM1lOMXoySE93VFZacUU4enpfMnU4dXphNVRDTXBvZzdWYmlLLUFXeEJqMlM2ai16Yl9OQURXYmFKNUdZZFM4TFhaU1Q1NlJJcHV0czJybUJDcXF2TDJ0X3JYRlI1NTA4TzUzd1g2cHBBRkpDaDFKSlpnRzBTNDBjc2VzbjFJSUlJSXBUcnA4?oc=5</guid>
+    <pubDate>Fri, 23 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMixwFBVV95cUxQNHIyaURva2tTdExpVWx1RUZ4R3RnNnVxS283N0RJRS14SVdpRElmMGVLYXVKYUxFN3lOOUZjZWFBM1lOMXoySE93VFZacUU4enpfMnU4dXphNVRDTXBvZz</description>
+  </item>
+  <item>
+    <title>Data Center Immersion Cooling Fluids Market worth $1.06 billion by 2033 - Exclusive Report by MarketsandMarkets™ - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1REU0NBeko4MjdoX0xaamo1TXBOOVpFS0toWHpPSDdIeFhjZ0hCU2dlUVJCSEkzR1ZEMFpZd1ZKZVE3ZWE4LW9LSW5xVGxNTHZRQTZNcE1vc1FiNnU3QjN0cmN5V2tVSl92emxUczVzY3RLSl9wR0VpdW9DNnhUU01sQ1A2Q0s3ZEJOSXk0NE9vMHhWQWRRSGR2TzFaZw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1REU0NBeko4MjdoX0xaamo1TXBOOVpFS0toWHpPSDdIeFhjZ0hCU2dlUVJCSEkzR1ZEMFpZd1ZKZVE3ZWE4LW9LSW5xVGxNTHZRQTZNcE1vc1FiNnU3QjN0cmN5V2tVSl92emxUczVzY3RLSl9wR0VpdW9DNnhUU01sQ1A2Q0s3ZEJOSXk0NE9vMHhWQWRRSGR2TzFaZw?oc=5</guid>
+    <pubDate>Fri, 23 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMingFBVV95cUxPZ1REU0NBeko4MjdoX0xaamo1TXBOOVpFS0toWHpPSDdIeFhjZ0hCU2dlUVJCSEkzR1ZEMFpZd1ZKZVE3ZWE4LW9LSW5xVGxNTHZRQTZNcE1vc1FiNnU3Qj</description>
+  </item>
+  <item>
+    <title>Two-phase cold plates run in desert heat on warm water loops - MarketScale</title>
+    <link>https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbXZUUENLVURwTE1PcnZQUFU1MHlGaVE1NVRMYlozYWtZazdtbkdDNkJxMzN4Y2NjaHBKSGw5S2pZeDk1SmFDUm9JRlJtS01VcVpxcEVTM185MVQ1T2tqeEJWLXIxSFBJR2hrYmlsZThMTlFiNXE0R2NJNElYTEdFRFR0U2hYRC1QUjkwbGVzVkgwNnNOTE9NVXhRVkRqOUR1eU9fWWxIcnhWVngxVGZXRHlJM0tlcEdiSTh2N3JGUHZzd3haOWJwa19UYVV1VG96UUlVOW5KYU0?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbXZUUENLVURwTE1PcnZQUFU1MHlGaVE1NVRMYlozYWtZazdtbkdDNkJxMzN4Y2NjaHBKSGw5S2pZeDk1SmFDUm9JRlJtS01VcVpxcEVTM185MVQ1T2tqeEJWLXIxSFBJR2hrYmlsZThMTlFiNXE0R2NJNElYTEdFRFR0U2hYRC1QUjkwbGVzVkgwNnNOTE9NVXhRVkRqOUR1eU9fWWxIcnhWVngxVGZXRHlJM0tlcEdiSTh2N3JGUHZzd3haOWJwa19UYVV1VG96UUlVOW5KYU0?oc=5</guid>
+    <pubDate>Fri, 23 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbXZUUENLVURwTE1PcnZQUFU1MHlGaVE1NVRMYlozYWtZazdtbkdDNkJxMzN4Y2NjaHBKSGw5S2pZeDk1SmFDUm9JRlJtS01VcVpxcEVTM185MVQ1T2tqeE</description>
+  </item>
+  <item>
+    <title>Equinix Opens EPIC Liquid Cooling Innovation Centres for AI - Data Centre Magazine</title>
+    <link>https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXRjc2RlUG9yVzBWdWlBYmNEZ21vNldpYTVER0cybGZsSmJFb196Zkk0NDhaSjBfNkQ5Z053R29BOFp6Ymg3dlIwNVZFa3hHOFFyVUNxUWNKblpndFpFVjhZVGZ4UkRUVFlVUVdCTGdCVndwcGpXWm9YQXpJQ21CczZzdkpfODZsU2xLcF9QRzhxODV4M0l3c09rWQ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXRjc2RlUG9yVzBWdWlBYmNEZ21vNldpYTVER0cybGZsSmJFb196Zkk0NDhaSjBfNkQ5Z053R29BOFp6Ymg3dlIwNVZFa3hHOFFyVUNxUWNKblpndFpFVjhZVGZ4UkRUVFlVUVdCTGdCVndwcGpXWm9YQXpJQ21CczZzdkpfODZsU2xLcF9QRzhxODV4M0l3c09rWQ?oc=5</guid>
+    <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXRjc2RlUG9yVzBWdWlBYmNEZ21vNldpYTVER0cybGZsSmJFb196Zkk0NDhaSjBfNkQ5Z053R29BOFp6Ymg3dlIwNVZFa3hHOFFyVUNxUWNKblpndFpFVj</description>
+  </item>
+  <item>
+    <title>Sensata Technologies Introduces Ultrasonic Flow Sensors Designed for AI-Driven Data Center Cooling Systems - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmlWd0dYU2UxYXVFc2M5c0x0MjF5QkFhT29PTHMzX09DajdBSFVBdmZxb1lORWVDdW42VThndFdPVmt1ZkRNbHl5NEZBYmUwTE5GX0tyWjdQUnhsdFZtY3dEYnY2RUl4cWVyTFRoWVBXeFR2Z0xKOHlaZ3VneEJlem5aTURsSWR5ZDhLWF9sYUIxa1Z6QTRKLWc0RXEzVThvZm0ySXhocnhiU0tpNVlzaQ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmlWd0dYU2UxYXVFc2M5c0x0MjF5QkFhT29PTHMzX09DajdBSFVBdmZxb1lORWVDdW42VThndFdPVmt1ZkRNbHl5NEZBYmUwTE5GX0tyWjdQUnhsdFZtY3dEYnY2RUl4cWVyTFRoWVBXeFR2Z0xKOHlaZ3VneEJlem5aTURsSWR5ZDhLWF9sYUIxa1Z6QTRKLWc0RXEzVThvZm0ySXhocnhiU0tpNVlzaQ?oc=5</guid>
+    <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmlWd0dYU2UxYXVFc2M5c0x0MjF5QkFhT29PTHMzX09DajdBSFVBdmZxb1lORWVDdW42VThndFdPVmt1ZkRNbHl5NEZBYmUwTE5GX0tyWjdQUnhsdFZtY3</description>
+  </item>
+  <item>
+    <title>Data Center Auxiliary Equipment Market To 2035: AI and Liquid Cooling Demand Drive Expansion - News and Statistics - IndexBox</title>
+    <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxOTldDb0RWZ2dXNXFyQ0dHOFppbEphMHZPY2ZDQnJLZTVreF96dS13V0ZzcnhYWkgwVEE1d3B2SzlHVk9yOGpVQmUxaHI5WnBXRndXcTJfNlg3dVV3SXVOTWJvVU5SbU85Vm0xRDRjVzlBOS1TV1hoUTRZLTl1bGtsM3ZQSzlzbUhrdWtkb1dxTHc4Y29rM2pMUHhNUDA3Z3VnOG1QckJqZ1VWY2U5M2RCQ3ZHcHgyYTBTbm9oZlI2dUpxSlgwcE9pTkZR?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiygFBVV95cUxOTldDb0RWZ2dXNXFyQ0dHOFppbEphMHZPY2ZDQnJLZTVreF96dS13V0ZzcnhYWkgwVEE1d3B2SzlHVk9yOGpVQmUxaHI5WnBXRndXcTJfNlg3dVV3SXVOTWJvVU5SbU85Vm0xRDRjVzlBOS1TV1hoUTRZLTl1bGtsM3ZQSzlzbUhrdWtkb1dxTHc4Y29rM2pMUHhNUDA3Z3VnOG1QckJqZ1VWY2U5M2RCQ3ZHcHgyYTBTbm9oZlI2dUpxSlgwcE9pTkZR?oc=5</guid>
+    <pubDate>Thu, 22 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiygFBVV95cUxOTldDb0RWZ2dXNXFyQ0dHOFppbEphMHZPY2ZDQnJLZTVreF96dS13V0ZzcnhYWkgwVEE1d3B2SzlHVk9yOGpVQmUxaHI5WnBXRndXcTJfNlg3dVV3SXVOTW</description>
+  </item>
+  <item>
+    <title>Enhancing Battery Safety under Fast Charging Conditions
+through Spray-Based Immersion Cooling | Newswise - Newswise</title>
+    <link>https://news.google.com/rss/articles/CBMixwFBVV95cUxQSW5RT1Jxb2tjYXFSWVZQT2lOYTRuYkNvTGJXMEJTRGMzSGE0SzNoSW5sM3Y1WXZVVUFDM0x2UjBvaUN6Q3gtQkNvWno0cTVDWnl0dzlNU2tTZXU3ckJTTWRzdHJBTkhkUlplYlRjSGc0R24zQ3hESlA5MGx3TVFIMlF4T3hCdHktMHFHZHFVUEFVYmhmZmVybGx4d1dFVXM3bFpLNGpNN2FkMmszZWNfWFJhTUJ5WHUxdmVta0R2UzdHc0JnQ3RJ0gHHAUFVX3lxTFBJblFPUnFva2NhcVJZVlBPaU5hNG5iQ29MYlcwQlNEYzNIYTRLM2hJbmwzdjVZdlVVQUMzTHZSMG9pQ3pDeC1CQ29aejRxNUNaeXR3OU1Ta1NldTdyQlNNZHN0ckFOSGRSWmViVGNIZzRHbjNDeERKUDkwbHdNUUgyUXhPeEJ0eS0wcUdkcVVQQVViaGZmZXJsbHh3V0VVczdsWks0ak03YWQyazNlY19YUmFNQnlYdTF2ZW1rRHZTN0dzQmdDdEk?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMixwFBVV95cUxQSW5RT1Jxb2tjYXFSWVZQT2lOYTRuYkNvTGJXMEJTRGMzSGE0SzNoSW5sM3Y1WXZVVUFDM0x2UjBvaUN6Q3gtQkNvWno0cTVDWnl0dzlNU2tTZXU3ckJTTWRzdHJBTkhkUlplYlRjSGc0R24zQ3hESlA5MGx3TVFIMlF4T3hCdHktMHFHZHFVUEFVYmhmZmVybGx4d1dFVXM3bFpLNGpNN2FkMmszZWNfWFJhTUJ5WHUxdmVta0R2UzdHc0JnQ3RJ0gHHAUFVX3lxTFBJblFPUnFva2NhcVJZVlBPaU5hNG5iQ29MYlcwQlNEYzNIYTRLM2hJbmwzdjVZdlVVQUMzTHZSMG9pQ3pDeC1CQ29aejRxNUNaeXR3OU1Ta1NldTdyQlNNZHN0ckFOSGRSWmViVGNIZzRHbjNDeERKUDkwbHdNUUgyUXhPeEJ0eS0wcUdkcVVQQVViaGZmZXJsbHh3V0VVczdsWks0ak03YWQyazNlY19YUmFNQnlYdTF2ZW1rRHZTN0dzQmdDdEk?oc=5</guid>
+    <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMixwFBVV95cUxQSW5RT1Jxb2tjYXFSWVZQT2lOYTRuYkNvTGJXMEJTRGMzSGE0SzNoSW5sM3Y1WXZVVUFDM0x2UjBvaUN6Q3gtQkNvWno0cTVDWnl0dzlNU2tTZXU3ckJTTW</description>
+  </item>
+  <item>
+    <title>CoolIT and Stäubli bring liquid cooling to pluggable optics ... - eeNews Europe</title>
+    <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHVwWkVsNGM4c0l5R0FGSDhDR3Z5LTFJd3l2YS1BZEdqMkZiQTFvRXlBb3pKcENqNEZWbmxVQVM4clR2bG9NbGdxcWtGQllhTUlvbkd6d1kwQmtGaU51T1hNSDgyQ1NUSDAxNFFGdlpsSndCeTBnWU1wT2dnUXBVQ056NG41d2c1OGxsYlZYN255cTg4Q1FF?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHVwWkVsNGM4c0l5R0FGSDhDR3Z5LTFJd3l2YS1BZEdqMkZiQTFvRXlBb3pKcENqNEZWbmxVQVM4clR2bG9NbGdxcWtGQllhTUlvbkd6d1kwQmtGaU51T1hNSDgyQ1NUSDAxNFFGdlpsSndCeTBnWU1wT2dnUXBVQ056NG41d2c1OGxsYlZYN255cTg4Q1FF?oc=5</guid>
+    <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHVwWkVsNGM4c0l5R0FGSDhDR3Z5LTFJd3l2YS1BZEdqMkZiQTFvRXlBb3pKcENqNEZWbmxVQVM4clR2bG9NbGdxcWtGQllhTUlvbkd6d1kwQmtGaU51T1</description>
+  </item>
+  <item>
+    <title>Amphenol’s Modular Immersion Cooling Solution Now Available Through Powell Electronics Europe - TimesTech</title>
+    <link>https://news.google.com/rss/articles/CBMitAFBVV95cUxPYWVtN1R2QzkzV0dBV0ZneGpObFBKVTB4N2F3WmhmaWhVNTE0M0Z6a0txeU1sQi14RlVRRmlzNzRXcE40UktyTUwwMXlPMmVDbVJhTlVidVNId3otczR0S0lGTm80RTBZcmtncEZNd1Z2cFZ6TkJscmtfZi1fYTFVRVAwX0cxVUhlVUxMODRqdjNvTmhxX0NjWHhsYjVYYmx1N2ZGczVzSG91aklxaExpejB4VU8?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMitAFBVV95cUxPYWVtN1R2QzkzV0dBV0ZneGpObFBKVTB4N2F3WmhmaWhVNTE0M0Z6a0txeU1sQi14RlVRRmlzNzRXcE40UktyTUwwMXlPMmVDbVJhTlVidVNId3otczR0S0lGTm80RTBZcmtncEZNd1Z2cFZ6TkJscmtfZi1fYTFVRVAwX0cxVUhlVUxMODRqdjNvTmhxX0NjWHhsYjVYYmx1N2ZGczVzSG91aklxaExpejB4VU8?oc=5</guid>
+    <pubDate>Wed, 21 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMitAFBVV95cUxPYWVtN1R2QzkzV0dBV0ZneGpObFBKVTB4N2F3WmhmaWhVNTE0M0Z6a0txeU1sQi14RlVRRmlzNzRXcE40UktyTUwwMXlPMmVDbVJhTlVidVNId3otczR0S0</description>
+  </item>
+  <item>
+    <title>DCX Adds Coolant Control to Facility Distribution Unit - Data Centre Magazine</title>
+    <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxQMElWRVd6VFlaZmxGbk5aWXZoQmJScm1XZ3FRM0dwTXFuQ1kzWXlmOGRRSmVvVG5iT216a0lINk0zVXRjWXBjWXcxQno4bmJyTU9hb0dfbkRWenBIU3RTaV9BOXdjZkppODBKd2ltNmZmTEZPdDBrbDUwZ2V3YnNsallBa1Z3dXozSGx2M1JoNklLbUJE?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilAFBVV95cUxQMElWRVd6VFlaZmxGbk5aWXZoQmJScm1XZ3FRM0dwTXFuQ1kzWXlmOGRRSmVvVG5iT216a0lINk0zVXRjWXBjWXcxQno4bmJyTU9hb0dfbkRWenBIU3RTaV9BOXdjZkppODBKd2ltNmZmTEZPdDBrbDUwZ2V3YnNsallBa1Z3dXozSGx2M1JoNklLbUJE?oc=5</guid>
+    <pubDate>Tue, 20 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilAFBVV95cUxQMElWRVd6VFlaZmxGbk5aWXZoQmJScm1XZ3FRM0dwTXFuQ1kzWXlmOGRRSmVvVG5iT216a0lINk0zVXRjWXBjWXcxQno4bmJyTU9hb0dfbkRWenBIU3RTaV</description>
+  </item>
+  <item>
+    <title>DCX builds coolant chemistry control into its 8 MW Facility Distribution Unit - AFP.com</title>
+    <link>https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pbldhS3A4Q3pYU1hIZ0NhamVDMENHMHBBaEhBRHhORmpEcV9DUC16dlFXcGFhY2NXMFAtSE91RW1Ob3BHQy1VQXQ5bw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pbldhS3A4Q3pYU1hIZ0NhamVDMENHMHBBaEhBRHhORmpEcV9DUC16dlFXcGFhY2NXMFAtSE91RW1Ob3BHQy1VQXQ5bw?oc=5</guid>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pbldhS3A4Q3pYU1hIZ0NhamVDMENHMHBBaEhBRHhORmpEcV9DUC16dlFXcGFhY2NXMFAtSE91RW1Ob3BHQy1VQXQ5bw?oc=5&quot; target=&quot;_blank&quot;&gt;DCX b</description>
+  </item>
+  <item>
+    <title>Articles from DCX Liquid Cooling Systems - FinancialContent</title>
+    <link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQXI5TUhJbkQ1VjVKM0ZwaXYyMWNtZEljS3BHMVVhTmhxajJPdWVyYXF3WXNBYnN2X1ljVVZvWlN2Qm5fUDRNYmZYdzZMQ1YyVDlNVFkxa2RvYUdKYzdYeE9KRmVhSUtzc2pkd3pFUldEdXJkQXZXMFpJX1lRSWFReVppUjU1QzBaamFr?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQXI5TUhJbkQ1VjVKM0ZwaXYyMWNtZEljS3BHMVVhTmhxajJPdWVyYXF3WXNBYnN2X1ljVVZvWlN2Qm5fUDRNYmZYdzZMQ1YyVDlNVFkxa2RvYUdKYzdYeE9KRmVhSUtzc2pkd3pFUldEdXJkQXZXMFpJX1lRSWFReVppUjU1QzBaamFr?oc=5</guid>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQXI5TUhJbkQ1VjVKM0ZwaXYyMWNtZEljS3BHMVVhTmhxajJPdWVyYXF3WXNBYnN2X1ljVVZvWlN2Qm5fUDRNYmZYdzZMQ1YyVDlNVFkxa2RvYUdKYzdYeE</description>
+  </item>
+  <item>
+    <title>LG Partners with GS E&amp;C and GRC to Develop AI Data Center Immersion Cooling - Refindustry</title>
+    <link>https://news.google.com/rss/articles/CBMipwFBVV95cUxORkNwVklxZndKQnBTX2d0dVNnaW9DSGhJS3I0bFlKUkZ5Q0V5cjNjckR6YlhkdVhqV0lvdDZsWWxNdkZiUF9iSnJ4MUVsR0NjOEc4U1BzRl9QcGxvMEd1VFJkWHRvWUJwaTZ4WWU2a1dKYWRNREdRaWVxTXRyeGxPZkQwNkhoZG9VLU1XT2lwdlRKQXJCUnozc0doaVVPUmV1S3RJV2IxMA?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMipwFBVV95cUxORkNwVklxZndKQnBTX2d0dVNnaW9DSGhJS3I0bFlKUkZ5Q0V5cjNjckR6YlhkdVhqV0lvdDZsWWxNdkZiUF9iSnJ4MUVsR0NjOEc4U1BzRl9QcGxvMEd1VFJkWHRvWUJwaTZ4WWU2a1dKYWRNREdRaWVxTXRyeGxPZkQwNkhoZG9VLU1XT2lwdlRKQXJCUnozc0doaVVPUmV1S3RJV2IxMA?oc=5</guid>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMipwFBVV95cUxORkNwVklxZndKQnBTX2d0dVNnaW9DSGhJS3I0bFlKUkZ5Q0V5cjNjckR6YlhkdVhqV0lvdDZsWWxNdkZiUF9iSnJ4MUVsR0NjOEc4U1BzRl9QcGxvMEd1VF</description>
+  </item>
+  <item>
+    <title>Shell Liquid Cooling Fluids - Shell Global</title>
+    <link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbEN1Y0pUQkd3WTljZHo5Sk55VDBiR0RZNkJzMjNCNGtBNGNRMFBmcEdCNGJPT0N1YXhUeVV1ZGt4aTBfWDd3cFZyb29CNjB5WmZjR3JJLW1mZ2hrTkZOdWs4SlU3aktTOXJHV00ydVA2QVNpczlnNUNxWTI1MUV2RUlubDY0TjRQeWJJenREOFFmM0RwQzMzTC0tN2Z1Slg5ZnRZWGNZUVlZTlJHWm5FanFHQ1BtODN4ci1tSUJ0ZXo?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbEN1Y0pUQkd3WTljZHo5Sk55VDBiR0RZNkJzMjNCNGtBNGNRMFBmcEdCNGJPT0N1YXhUeVV1ZGt4aTBfWDd3cFZyb29CNjB5WmZjR3JJLW1mZ2hrTkZOdWs4SlU3aktTOXJHV00ydVA2QVNpczlnNUNxWTI1MUV2RUlubDY0TjRQeWJJenREOFFmM0RwQzMzTC0tN2Z1Slg5ZnRZWGNZUVlZTlJHWm5FanFHQ1BtODN4ci1tSUJ0ZXo?oc=5</guid>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbEN1Y0pUQkd3WTljZHo5Sk55VDBiR0RZNkJzMjNCNGtBNGNRMFBmcEdCNGJPT0N1YXhUeVV1ZGt4aTBfWDd3cFZyb29CNjB5WmZjR3JJLW1mZ2hrTkZOdW</description>
+  </item>
+  <item>
+    <title>Water Immersion Cooling Addresses Thermal Challenges in AI Chips - Industrial Technology Research Institute</title>
+    <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHdEVGJaSE1EWHh3X25tWkplSXRQb09GZkd0ZWljbUVNMGNPdDBhdWZZSlBubWFFOG4ydmtac3lBbmI3bWVuaVppcHg2Z3ROQUtWdXJ5RktxRXpwekNGMzN2Umh3eTlDdUpRUUV6OWkwTEFUZVAxYUFGVXE0Mk4zcXZrV1l6Z1Q5c0ozV1R2M21PcTA5aVM3aFh2dlpOZjI5NmdQVXRndjdDaC1wOXBud19KTUtOeFRWdG50T1JvMk1mZ1MtQlJMNTB3?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHdEVGJaSE1EWHh3X25tWkplSXRQb09GZkd0ZWljbUVNMGNPdDBhdWZZSlBubWFFOG4ydmtac3lBbmI3bWVuaVppcHg2Z3ROQUtWdXJ5RktxRXpwekNGMzN2Umh3eTlDdUpRUUV6OWkwTEFUZVAxYUFGVXE0Mk4zcXZrV1l6Z1Q5c0ozV1R2M21PcTA5aVM3aFh2dlpOZjI5NmdQVXRndjdDaC1wOXBud19KTUtOeFRWdG50T1JvMk1mZ1MtQlJMNTB3?oc=5</guid>
+    <pubDate>Fri, 16 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHdEVGJaSE1EWHh3X25tWkplSXRQb09GZkd0ZWljbUVNMGNPdDBhdWZZSlBubWFFOG4ydmtac3lBbmI3bWVuaVppcHg2Z3ROQUtWdXJ5RktxRXpwekNGMz</description>
+  </item>
+  <item>
+    <title>IREN Expands Liquid Cooling Across AI Data Centers: Can Returns Rise? - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxPX0ZkWllfa1JnY2oxOFZDYm5aWkh1SnpqOVV0b3pQQ3BEVTVnZ1E1dEs0SlQ4aGRCWjJFSEtvM01odEhTdGxDY05OV2RCOXFpQ21ZNGREMzlkS3RsOHpuamljeDZCQXNBQU15MVhOZGFZR1pFRmsyWlkzTThDY2lwN00tajlLd2RWYVV1QlJPR04zMC0tWDZTSWNuZ1ZKWUk?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMinwFBVV95cUxPX0ZkWllfa1JnY2oxOFZDYm5aWkh1SnpqOVV0b3pQQ3BEVTVnZ1E1dEs0SlQ4aGRCWjJFSEtvM01odEhTdGxDY05OV2RCOXFpQ21ZNGREMzlkS3RsOHpuamljeDZCQXNBQU15MVhOZGFZR1pFRmsyWlkzTThDY2lwN00tajlLd2RWYVV1QlJPR04zMC0tWDZTSWNuZ1ZKWUk?oc=5</guid>
+    <pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMinwFBVV95cUxPX0ZkWllfa1JnY2oxOFZDYm5aWkh1SnpqOVV0b3pQQ3BEVTVnZ1E1dEs0SlQ4aGRCWjJFSEtvM01odEhTdGxDY05OV2RCOXFpQ21ZNGREMzlkS3RsOHpuam</description>
+  </item>
+  <item>
+    <title>Immersion Cooling For Next-Generation AI Data Centers: Modular System Announced - FinancialContent</title>
+    <link>https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVDVJT2RXY05VeWpzT1oxU0cwdEM0aWFjMXZEQWZHb3BLSWhSa1Myem5vZEY0ZU9wbjlha29ndlgwUXhDQ3BhcVVrNDVweU1vUXptWEpBVkJUTjFFQkRCZmluNjdrUEdJandjQ1JIY0lWT1A3cTlxLVpDbHV2d3BVZ0V1Q2t1Q05FQ1lzLTRVSENuZm5RQVp4ekt5TmNpSGNfMVl3akRQTE1jMkR5RUlCSzMyXzRmVHFnUzYzOVNYbEp1V2F3djMweGRKMHBiMFAzbTkxM3R3VmRnR3JEX0E?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVDVJT2RXY05VeWpzT1oxU0cwdEM0aWFjMXZEQWZHb3BLSWhSa1Myem5vZEY0ZU9wbjlha29ndlgwUXhDQ3BhcVVrNDVweU1vUXptWEpBVkJUTjFFQkRCZmluNjdrUEdJandjQ1JIY0lWT1A3cTlxLVpDbHV2d3BVZ0V1Q2t1Q05FQ1lzLTRVSENuZm5RQVp4ekt5TmNpSGNfMVl3akRQTE1jMkR5RUlCSzMyXzRmVHFnUzYzOVNYbEp1V2F3djMweGRKMHBiMFAzbTkxM3R3VmRnR3JEX0E?oc=5</guid>
+    <pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMi3gFBVV95cUxNVDVJT2RXY05VeWpzT1oxU0cwdEM0aWFjMXZEQWZHb3BLSWhSa1Myem5vZEY0ZU9wbjlha29ndlgwUXhDQ3BhcVVrNDVweU1vUXptWEpBVkJUTjFFQkRCZm</description>
+  </item>
+  <item>
+    <title>MarketsandMarkets forecasts immersion cooling market at $5.78 billion by 2033 - Refindustry</title>
+    <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlRKYm16Q1RsSThBM1J4MDQzS05EcU83NVlIeElhRm1vXy0ta2RaaUJqNDk2Nnh3OUZ3S1RKUHFPeGU0a0p4TUIwX050ak43WWdtOWs2NDY1XzYyWHFyV0ZBVVBVaF9XblFKN0ZfOUIzZ2pFZE02MDVzemZua1FQS0lVZHlxdHpPTjUwSmxUby1oQjFSVC1senFwY2NKV0ZWOXByX1dLVldoZw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlRKYm16Q1RsSThBM1J4MDQzS05EcU83NVlIeElhRm1vXy0ta2RaaUJqNDk2Nnh3OUZ3S1RKUHFPeGU0a0p4TUIwX050ak43WWdtOWs2NDY1XzYyWHFyV0ZBVVBVaF9XblFKN0ZfOUIzZ2pFZE02MDVzemZua1FQS0lVZHlxdHpPTjUwSmxUby1oQjFSVC1senFwY2NKV0ZWOXByX1dLVldoZw?oc=5</guid>
+    <pubDate>Thu, 15 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQlRKYm16Q1RsSThBM1J4MDQzS05EcU83NVlIeElhRm1vXy0ta2RaaUJqNDk2Nnh3OUZ3S1RKUHFPeGU0a0p4TUIwX050ak43WWdtOWs2NDY1XzYyWHFyV0</description>
+  </item>
+  <item>
+    <title>Why AI Data Center Cooling Needs to Get Smarter - Data Center Knowledge</title>
+    <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxPMzFVVm5RbFZXbmZvNDVsd0JuOUVmNmdFVFFIWlptdWp6VjVxVVROSU82LVEteUJMNG9XVXl6cVhPaGNHTGNKQm1zUzBkQTVVZGlIeGRrQnFXTkE2Nzh5eFA3M3VCOElFc0ViczJMbXpHVHh3X2s4Y3FQUjVYYk5oeXgtaHhwRDJTejhuUV9VSGk5MnNhTHc?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilgFBVV95cUxPMzFVVm5RbFZXbmZvNDVsd0JuOUVmNmdFVFFIWlptdWp6VjVxVVROSU82LVEteUJMNG9XVXl6cVhPaGNHTGNKQm1zUzBkQTVVZGlIeGRrQnFXTkE2Nzh5eFA3M3VCOElFc0ViczJMbXpHVHh3X2s4Y3FQUjVYYk5oeXgtaHhwRDJTejhuUV9VSGk5MnNhTHc?oc=5</guid>
+    <pubDate>Wed, 14 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilgFBVV95cUxPMzFVVm5RbFZXbmZvNDVsd0JuOUVmNmdFVFFIWlptdWp6VjVxVVROSU82LVEteUJMNG9XVXl6cVhPaGNHTGNKQm1zUzBkQTVVZGlIeGRrQnFXTkE2Nzh5eF</description>
+  </item>
+  <item>
+    <title>Trane launches LiquidStack CDU 2.X for AI data centres - ET Datacenters</title>
+    <link>https://news.google.com/rss/articles/CBMi4gFBVV95cUxQU0lYaFQwb0RfQzBEX0wwZUZlNGdnQ1FySGpPS0xBN2xzVzk3ZzhYT1pEaFhaYVpVZ0JHc3VUNGxTVy10Y0hXWkZGN2FCemZyNEpVVjNZbHJueXd5d21zS1J6a0VVdHFBV242RDRwSHJWYlpsSzdockZ1TkNwbVp4V0hfTWozLUJ0d2p5TmJuVXpiVkJITnQ1Y242UkFCWVRWRFhhZkY4aU9WSURmN2o2RURNM1N2dmNlVGZtbFY2TUYtdUVPZGo0UFVDQ1Fkcll3UUJyTFhMVWkwZi1BSDJVcF9B0gHmAUFVX3lxTE94Sk9qaDBFQ0ZfWkJ3cndjSnBpVGtIa2syTVdNcWNpaUdrT0M3OHhETXRfV1FkTmtDYzgyZnFMQk1xTTFfNEQxOUdLRnhXYnYxUFJ0OUdOSEU5TndfelhhOWt0Qkpmd1RQQ0ZuUmFpa2dCVzgyejFKNmxQTFRJNTZ4M0xCcllJTGQybkxKWVZnZHNYc3NiR0NCQVp5QkN3RWVPZUVncHJoREFPd0pYVjhxOVZIRlZqUmpnRGZiM0ZYUkNCSTFfcUo4SFZ3djhBSUpONk16M3lqWmZfdVlQbTJPYVptMk53?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMi4gFBVV95cUxQU0lYaFQwb0RfQzBEX0wwZUZlNGdnQ1FySGpPS0xBN2xzVzk3ZzhYT1pEaFhaYVpVZ0JHc3VUNGxTVy10Y0hXWkZGN2FCemZyNEpVVjNZbHJueXd5d21zS1J6a0VVdHFBV242RDRwSHJWYlpsSzdockZ1TkNwbVp4V0hfTWozLUJ0d2p5TmJuVXpiVkJITnQ1Y242UkFCWVRWRFhhZkY4aU9WSURmN2o2RURNM1N2dmNlVGZtbFY2TUYtdUVPZGo0UFVDQ1Fkcll3UUJyTFhMVWkwZi1BSDJVcF9B0gHmAUFVX3lxTE94Sk9qaDBFQ0ZfWkJ3cndjSnBpVGtIa2syTVdNcWNpaUdrT0M3OHhETXRfV1FkTmtDYzgyZnFMQk1xTTFfNEQxOUdLRnhXYnYxUFJ0OUdOSEU5TndfelhhOWt0Qkpmd1RQQ0ZuUmFpa2dCVzgyejFKNmxQTFRJNTZ4M0xCcllJTGQybkxKWVZnZHNYc3NiR0NCQVp5QkN3RWVPZUVncHJoREFPd0pYVjhxOVZIRlZqUmpnRGZiM0ZYUkNCSTFfcUo4SFZ3djhBSUpONk16M3lqWmZfdVlQbTJPYVptMk53?oc=5</guid>
+    <pubDate>Wed, 14 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMi4gFBVV95cUxQU0lYaFQwb0RfQzBEX0wwZUZlNGdnQ1FySGpPS0xBN2xzVzk3ZzhYT1pEaFhaYVpVZ0JHc3VUNGxTVy10Y0hXWkZGN2FCemZyNEpVVjNZbHJueXd5d21zS1</description>
+  </item>
+  <item>
+    <title>Trane Launches LiquidStack CDU 2.X to Support Next-Generation AI Data Centres - Konsulteer</title>
+    <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxPYkJvWTRMakVtWEgySnFwVzB4dVNVRE9xam15NEUxcUxYa0w2bDBFZGNQSjhUUFlGLWk3cnBFcXV3SExJQ1lrX05EZ3NvSERLTFdCbnFQSUlldXc0NUpKMFpZTkQ5aERWeHg1SWxkYXFZSms3c1BHcWItQ3dUeWFYUTVaVi1WcVQ3Qzc5N0pfT2kzZk5xekZrTHJ4LWZhQThsSm42QjY0VUxKZU1CcDk3bXpR?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMisgFBVV95cUxPYkJvWTRMakVtWEgySnFwVzB4dVNVRE9xam15NEUxcUxYa0w2bDBFZGNQSjhUUFlGLWk3cnBFcXV3SExJQ1lrX05EZ3NvSERLTFdCbnFQSUlldXc0NUpKMFpZTkQ5aERWeHg1SWxkYXFZSms3c1BHcWItQ3dUeWFYUTVaVi1WcVQ3Qzc5N0pfT2kzZk5xekZrTHJ4LWZhQThsSm42QjY0VUxKZU1CcDk3bXpR?oc=5</guid>
+    <pubDate>Wed, 14 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMisgFBVV95cUxPYkJvWTRMakVtWEgySnFwVzB4dVNVRE9xam15NEUxcUxYa0w2bDBFZGNQSjhUUFlGLWk3cnBFcXV3SExJQ1lrX05EZ3NvSERLTFdCbnFQSUlldXc0NUpKMF</description>
+  </item>
+  <item>
+    <title>Rika Water Quality Sensors Support Faster Liquid Cooling Commissioning for High-Density AI Data Centers - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUgybk1LVlBEb2tDUEFXLUVHTmZ0UUliRjRtbzI3NllVTXNTWlk5M1VaWWJLblFCbmM2SVo1ZVRmNUNMTjdWb2tqdVFucWE2LWdjdDA2MGVRelZxbzE4Nm85QWtNYWpvYWhnYVR0ZGtia191WHNaQVhKbHAyclV2SDBYM3lUeWFxRGI0NFlEb0xtTUM3b3JUTEk1ckV6VWM?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUgybk1LVlBEb2tDUEFXLUVHTmZ0UUliRjRtbzI3NllVTXNTWlk5M1VaWWJLblFCbmM2SVo1ZVRmNUNMTjdWb2tqdVFucWE2LWdjdDA2MGVRelZxbzE4Nm85QWtNYWpvYWhnYVR0ZGtia191WHNaQVhKbHAyclV2SDBYM3lUeWFxRGI0NFlEb0xtTUM3b3JUTEk1ckV6VWM?oc=5</guid>
+    <pubDate>Tue, 13 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMinwFBVV95cUxOdUgybk1LVlBEb2tDUEFXLUVHTmZ0UUliRjRtbzI3NllVTXNTWlk5M1VaWWJLblFCbmM2SVo1ZVRmNUNMTjdWb2tqdVFucWE2LWdjdDA2MGVRelZxbzE4Nm</description>
+  </item>
+  <item>
+    <title>Austin data center cooling company Accelsius expands local operations amid AI-driven boom - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQ5Y2hCRERUUkxYMHF6SzlSbUMyalBaRkZ4ZWVMbEpKLWQ5bEswc285NjN2cXEtYW13QTBwaDE1M1FocTFzMFdIOXRsQlJSbU5nWGFfTFlUNGtjdmZIVTBuS3dvV2FON1YyeUFzSk1QeTA2dmR1MjNNVE1GeTRBQXNSazJ3U1RONFM3eXgzZ09xa0JJYnNtT2JXWDZOeGc?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQ5Y2hCRERUUkxYMHF6SzlSbUMyalBaRkZ4ZWVMbEpKLWQ5bEswc285NjN2cXEtYW13QTBwaDE1M1FocTFzMFdIOXRsQlJSbU5nWGFfTFlUNGtjdmZIVTBuS3dvV2FON1YyeUFzSk1QeTA2dmR1MjNNVE1GeTRBQXNSazJ3U1RONFM3eXgzZ09xa0JJYnNtT2JXWDZOeGc?oc=5</guid>
+    <pubDate>Tue, 13 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHQ5Y2hCRERUUkxYMHF6SzlSbUMyalBaRkZ4ZWVMbEpKLWQ5bEswc285NjN2cXEtYW13QTBwaDE1M1FocTFzMFdIOXRsQlJSbU5nWGFfTFlUNGtjdmZIVT</description>
+  </item>
+  <item>
+    <title>[Watch] TotalEnergies Lubrifiants introduces Coolant Keep Plate - Recycling Today</title>
+    <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkYwZTlaUElndDNtLTd5NXFQemNxZi0wREdjSXZ2M2ZoN0VKa3Q5LXY1NmdEWXd5VklCUVlpTDh6UkxodlM3UkFxSXlZVFNrY3lYRzZHZEh5N1lkZklsRTRubDdWNlhKWjdDa3NucnZJQzJjWmJHakJ5WkRFUW0wZzZ6SDMwblpzN2VPWjkxVV94S2lySGxJ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkYwZTlaUElndDNtLTd5NXFQemNxZi0wREdjSXZ2M2ZoN0VKa3Q5LXY1NmdEWXd5VklCUVlpTDh6UkxodlM3UkFxSXlZVFNrY3lYRzZHZEh5N1lkZklsRTRubDdWNlhKWjdDa3NucnZJQzJjWmJHakJ5WkRFUW0wZzZ6SDMwblpzN2VPWjkxVV94S2lySGxJ?oc=5</guid>
+    <pubDate>Tue, 13 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilwFBVV95cUxQbkYwZTlaUElndDNtLTd5NXFQemNxZi0wREdjSXZ2M2ZoN0VKa3Q5LXY1NmdEWXd5VklCUVlpTDh6UkxodlM3UkFxSXlZVFNrY3lYRzZHZEh5N1lkZklsRT</description>
+  </item>
+  <item>
+    <title>Accelsius Expands Austin Lab to Multi-Megawatt Capacity for Two-Phase Liquid Cooling Testing of Next-Generation AI Racks - 01net</title>
+    <link>https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbVZ5MmpxVU5hTU5TS2JrZ0lhdmdUbDlqclFlRjg1UzdNZHh5aFFjMEZSd0JHdjVDa2UwNEVRb2JVcG9ld3pFOVdROHhTRFREN3hPZ1doQ1lLc1ZrU1FfUnMzbkZtQkRYNzlCVW9GNDE2VHE5S0ZlMm1CdEprSUFTUXB6MkxxLXpXb24waDRBeEJ3Vk4xb0t6Mkphai1kU08wUHA5a3RTVXhJYnhfOEJlN3hpRnFTX0UzNGtqS3NfX01NU3h0dGw0UHdBelhkdUI0NF9wYXFnODJYZw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbVZ5MmpxVU5hTU5TS2JrZ0lhdmdUbDlqclFlRjg1UzdNZHh5aFFjMEZSd0JHdjVDa2UwNEVRb2JVcG9ld3pFOVdROHhTRFREN3hPZ1doQ1lLc1ZrU1FfUnMzbkZtQkRYNzlCVW9GNDE2VHE5S0ZlMm1CdEprSUFTUXB6MkxxLXpXb24waDRBeEJ3Vk4xb0t6Mkphai1kU08wUHA5a3RTVXhJYnhfOEJlN3hpRnFTX0UzNGtqS3NfX01NU3h0dGw0UHdBelhkdUI0NF9wYXFnODJYZw?oc=5</guid>
+    <pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbVZ5MmpxVU5hTU5TS2JrZ0lhdmdUbDlqclFlRjg1UzdNZHh5aFFjMEZSd0JHdjVDa2UwNEVRb2JVcG9ld3pFOVdROHhTRFREN3hPZ1doQ1lLc1ZrU1FfUn</description>
+  </item>
+  <item>
+    <title>NVIDIA Qualifies Shell DLC Fluid for AI Liquid Cooling - Data Centre Magazine</title>
+    <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxNQU15cHJ2d056eEpyWVNDRzJZaWlUbl9NVXE1TXdqdngzbFF1bmk5NkxWLUR0MmNoa2tkY2ozUUk3TWt6WHpGR1NjcEt0UGNKamNsVHVPS2lJWll6QzJYZDJoZkVjX1prRVFNeDJvN3hxbEdfWHpHVFJsZlV6S0lGNzdTdm1lQk5EWERDMTFaUHNXOTlm?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilAFBVV95cUxNQU15cHJ2d056eEpyWVNDRzJZaWlUbl9NVXE1TXdqdngzbFF1bmk5NkxWLUR0MmNoa2tkY2ozUUk3TWt6WHpGR1NjcEt0UGNKamNsVHVPS2lJWll6QzJYZDJoZkVjX1prRVFNeDJvN3hxbEdfWHpHVFJsZlV6S0lGNzdTdm1lQk5EWERDMTFaUHNXOTlm?oc=5</guid>
+    <pubDate>Fri, 09 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilAFBVV95cUxNQU15cHJ2d056eEpyWVNDRzJZaWlUbl9NVXE1TXdqdngzbFF1bmk5NkxWLUR0MmNoa2tkY2ozUUk3TWt6WHpGR1NjcEt0UGNKamNsVHVPS2lJWll6QzJYZD</description>
+  </item>
+  <item>
+    <title>These New Liquid Cooled SSDs Might Be The Future Of Data Center Computing - BGR</title>
+    <link>https://news.google.com/rss/articles/CBMieEFVX3lxTE5PMHNzLXJjS3JkMVdiWHYwSUtVT0FqUUhQeE5VYWRDZmJuVjJxQUVPVTRtUHFiVWRjZklkYUx5MTUwVzZXamZzMVNoOXdUVFVTQlpsRkNPQ3N2R2ZaRm5mbExpNXBuNG5TdXZ5bDRaMmRMLWRKdGJFNg?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMieEFVX3lxTE5PMHNzLXJjS3JkMVdiWHYwSUtVT0FqUUhQeE5VYWRDZmJuVjJxQUVPVTRtUHFiVWRjZklkYUx5MTUwVzZXamZzMVNoOXdUVFVTQlpsRkNPQ3N2R2ZaRm5mbExpNXBuNG5TdXZ5bDRaMmRMLWRKdGJFNg?oc=5</guid>
+    <pubDate>Fri, 09 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMieEFVX3lxTE5PMHNzLXJjS3JkMVdiWHYwSUtVT0FqUUhQeE5VYWRDZmJuVjJxQUVPVTRtUHFiVWRjZklkYUx5MTUwVzZXamZzMVNoOXdUVFVTQlpsRkNPQ3N2R2ZaRm5mbE</description>
+  </item>
+  <item>
+    <title>LiquidStack launches CDU 2.X for high-density AI liquid cooling - Refindustry</title>
+    <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxPOVc0Sm1jTGlpeldMYWwtNWw3UUtRaEdYeEpQVkhPMTJpNml6Q3hCUHduVDFwS052elJfWGZwS1NXUGpMZzBHbEljYVBnX01vOWpFbFZVelM5MkJ3cHliZURTQTB3THJtNF9KdVRGY1YwMFZvcXo0eF9NbWljS1VNRWFyMkZrREFpWmJva3doX0tYSFpVUTZwYQ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMimAFBVV95cUxPOVc0Sm1jTGlpeldMYWwtNWw3UUtRaEdYeEpQVkhPMTJpNml6Q3hCUHduVDFwS052elJfWGZwS1NXUGpMZzBHbEljYVBnX01vOWpFbFZVelM5MkJ3cHliZURTQTB3THJtNF9KdVRGY1YwMFZvcXo0eF9NbWljS1VNRWFyMkZrREFpWmJva3doX0tYSFpVUTZwYQ?oc=5</guid>
+    <pubDate>Thu, 08 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMimAFBVV95cUxPOVc0Sm1jTGlpeldMYWwtNWw3UUtRaEdYeEpQVkhPMTJpNml6Q3hCUHduVDFwS052elJfWGZwS1NXUGpMZzBHbEljYVBnX01vOWpFbFZVelM5MkJ3cHliZU</description>
+  </item>
+  <item>
+    <title>Q&amp;A: Ecolab bets on liquid cooling for AI data center growth - Electronics360</title>
+    <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPMzg1TXRqQWt6em56MEg3V1Z2Q0dWQWwxdGM4ZFNsV25RcFpRU0gwQVZ0aEVXa00ybldqbWt5bXZnME1wSmRVX1c3N2gydFI3bEFKU0ZLTVBiVWlkNDVBNjRSR0c4bjNWczNGdTAwb3JOcHpGLW9nTF9FcThMODFRcU1JV3hpRzFQb0Uxc3ZOSktZbTA4UWV4ZURQY3VIRmY0TEk5OFRFRHdCWEFZOFdoZA?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMisAFBVV95cUxPMzg1TXRqQWt6em56MEg3V1Z2Q0dWQWwxdGM4ZFNsV25RcFpRU0gwQVZ0aEVXa00ybldqbWt5bXZnME1wSmRVX1c3N2gydFI3bEFKU0ZLTVBiVWlkNDVBNjRSR0c4bjNWczNGdTAwb3JOcHpGLW9nTF9FcThMODFRcU1JV3hpRzFQb0Uxc3ZOSktZbTA4UWV4ZURQY3VIRmY0TEk5OFRFRHdCWEFZOFdoZA?oc=5</guid>
+    <pubDate>Wed, 07 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMisAFBVV95cUxPMzg1TXRqQWt6em56MEg3V1Z2Q0dWQWwxdGM4ZFNsV25RcFpRU0gwQVZ0aEVXa00ybldqbWt5bXZnME1wSmRVX1c3N2gydFI3bEFKU0ZLTVBiVWlkNDVBNj</description>
+  </item>
+  <item>
+    <title>Why Is Shell (LSE:SHEL) Showcasing Liquid Cooling For AI Data Centers? - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxNUG5IY0poM1VqVGN0VmxaS2I0ZVRWRUxNRW5GY21KXy1ybVI1OUtvSmdCbjRaUlFndVc1Rlk1bjA2UFdJQ3NTR2tPeGpDNElwU3ZreVRFSDhnOTVBOF85UDI0TmZNdFRUTTVuZE9GdDZiV2VtMWRpYVVMc3NLYXFCRzY5WlFsX0prc2hWOEFIaw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMijwFBVV95cUxNUG5IY0poM1VqVGN0VmxaS2I0ZVRWRUxNRW5GY21KXy1ybVI1OUtvSmdCbjRaUlFndVc1Rlk1bjA2UFdJQ3NTR2tPeGpDNElwU3ZreVRFSDhnOTVBOF85UDI0TmZNdFRUTTVuZE9GdDZiV2VtMWRpYVVMc3NLYXFCRzY5WlFsX0prc2hWOEFIaw?oc=5</guid>
+    <pubDate>Wed, 07 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMijwFBVV95cUxNUG5IY0poM1VqVGN0VmxaS2I0ZVRWRUxNRW5GY21KXy1ybVI1OUtvSmdCbjRaUlFndVc1Rlk1bjA2UFdJQ3NTR2tPeGpDNElwU3ZreVRFSDhnOTVBOF85UD</description>
+  </item>
+  <item>
+    <title>STULZ outlines end-to-end liquid cooling for AI data centers - Refindustry</title>
+    <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmJzWV9EbE94dHpING5yYVZKT0otY3dVcTJLUVVvcHNNN1B4SnNiOUxhV2ZmWkc4VTV1dEFLTG81dXAtRHc5SlpmZFRvc1gtNUtkdlhkLWxCdmNsOXB0b3ZyWDNxMzRGR3JwX1NiMFhQVkxhZS1vSkViN3pKcEJESmJkeUc0ZmExR2FQRUFtTS1kT3dD?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmJzWV9EbE94dHpING5yYVZKT0otY3dVcTJLUVVvcHNNN1B4SnNiOUxhV2ZmWkc4VTV1dEFLTG81dXAtRHc5SlpmZFRvc1gtNUtkdlhkLWxCdmNsOXB0b3ZyWDNxMzRGR3JwX1NiMFhQVkxhZS1vSkViN3pKcEJESmJkeUc0ZmExR2FQRUFtTS1kT3dD?oc=5</guid>
+    <pubDate>Wed, 07 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilAFBVV95cUxPNmJzWV9EbE94dHpING5yYVZKT0otY3dVcTJLUVVvcHNNN1B4SnNiOUxhV2ZmWkc4VTV1dEFLTG81dXAtRHc5SlpmZFRvc1gtNUtkdlhkLWxCdmNsOXB0b3</description>
+  </item>
+  <item>
+    <title>HF Sinclair launches cooling fluid for direct-to-chip environments - Data Center Dynamics</title>
+    <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxQcmw0bkZCSmtQNHRnd082RERKeHdxaHQyQkI0VGlWRjYyTTRrMU1OcXZNMzJDejVwc1FabG9xR3psa2xadHBuYnNwQkFiNWd3NV9BSjB3WWxUNzgwd2VSSkU2TElvVXd5V1QwNGNZNUxOVmlJZVRrM1dKdmhxZjRCVTRTUkhiaE1mRmF4MGJtcVY1LS1fOFBjYlRfT3ZtQ3ZMVURJR0ItSGpqWlhhYkZN?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMirwFBVV95cUxQcmw0bkZCSmtQNHRnd082RERKeHdxaHQyQkI0VGlWRjYyTTRrMU1OcXZNMzJDejVwc1FabG9xR3psa2xadHBuYnNwQkFiNWd3NV9BSjB3WWxUNzgwd2VSSkU2TElvVXd5V1QwNGNZNUxOVmlJZVRrM1dKdmhxZjRCVTRTUkhiaE1mRmF4MGJtcVY1LS1fOFBjYlRfT3ZtQ3ZMVURJR0ItSGpqWlhhYkZN?oc=5</guid>
+    <pubDate>Tue, 06 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMirwFBVV95cUxQcmw0bkZCSmtQNHRnd082RERKeHdxaHQyQkI0VGlWRjYyTTRrMU1OcXZNMzJDejVwc1FabG9xR3psa2xadHBuYnNwQkFiNWd3NV9BSjB3WWxUNzgwd2VSSk</description>
+  </item>
+  <item>
+    <title>Green Circle Decarbonize Technology Planned to Enter AI Data Center Cooling Market with Proprietary Ultra-Low Energy Liquid Cooling Solutions - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFdrNnoxd0YwNUpjMGVpdV9YanBkZ3N6YXBIbWRoNHB0YkR6cEVQRVdlNTJmcU9CVWFKR0JjZzVGV2J0MU5jRTdKbmY5eWp0MFQwMjNrakVfbXV6NEEtU25ZMjFGazFpdnlUYXl6SU5yYjJEcXhpLU55ZnNMR014YVU2QjJTQmxqVk44a3A5SG5yN0VHeEx4X2pLY042OHJvM0kyVmlGZWVZVkk?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFdrNnoxd0YwNUpjMGVpdV9YanBkZ3N6YXBIbWRoNHB0YkR6cEVQRVdlNTJmcU9CVWFKR0JjZzVGV2J0MU5jRTdKbmY5eWp0MFQwMjNrakVfbXV6NEEtU25ZMjFGazFpdnlUYXl6SU5yYjJEcXhpLU55ZnNMR014YVU2QjJTQmxqVk44a3A5SG5yN0VHeEx4X2pLY042OHJvM0kyVmlGZWVZVkk?oc=5</guid>
+    <pubDate>Tue, 06 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFdrNnoxd0YwNUpjMGVpdV9YanBkZ3N6YXBIbWRoNHB0YkR6cEVQRVdlNTJmcU9CVWFKR0JjZzVGV2J0MU5jRTdKbmY5eWp0MFQwMjNrakVfbXV6NEEtU2</description>
+  </item>
+  <item>
+    <title>Global Data Center Cooling Market Analysis and Forecast, 2026-2036 | AI and High-Density Computing Propel Liquid Cooling Market to $141.19 Billion by 2036 - Supply Chain Digital Magazine</title>
+    <link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HVkVRM3RjS0pmaEFBa05seEhTUXpEWkF1bGY5cGFYbDBrX0laNzRGYkQ2RHlNemlGd1FYbHJVOVhOSjlBczNGUGNydm50Wms3bWlaX1NicU9XTEVlNDBTRUJB?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HVkVRM3RjS0pmaEFBa05seEhTUXpEWkF1bGY5cGFYbDBrX0laNzRGYkQ2RHlNemlGd1FYbHJVOVhOSjlBczNGUGNydm50Wms3bWlaX1NicU9XTEVlNDBTRUJB?oc=5</guid>
+    <pubDate>Tue, 06 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HVkVRM3RjS0pmaEFBa05seEhTUXpEWkF1bGY5cGFYbDBrX0laNzRGYkQ2RHlNemlGd1FYbHJVOVhOSjlBczNGUGNydm50Wms3bWlaX1NicU9XTEVlNDBTRU</description>
+  </item>
+  <item>
+    <title>Coolant Distribution Units Market Size, Share | Growth [2034] - Fortune Business Insights</title>
+    <link>https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0RiYkxNR1pjWWJ0eThieEladWxPRnozdlhXQ29QWldpYjNQVFNzMTd6NHJHZWF1d3RtMWE2NnJIZ0REN3NhSGduM1ZWXzM3WUdCVGhxNnhjZ0g5TjNvVlBoOUdiUjhqSElNVUdEOTJ6TUd6SURRQXRvcGhqVlF5b3VGWDgwSm8?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0RiYkxNR1pjWWJ0eThieEladWxPRnozdlhXQ29QWldpYjNQVFNzMTd6NHJHZWF1d3RtMWE2NnJIZ0REN3NhSGduM1ZWXzM3WUdCVGhxNnhjZ0g5TjNvVlBoOUdiUjhqSElNVUdEOTJ6TUd6SURRQXRvcGhqVlF5b3VGWDgwSm8?oc=5</guid>
+    <pubDate>Mon, 05 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0RiYkxNR1pjWWJ0eThieEladWxPRnozdlhXQ29QWldpYjNQVFNzMTd6NHJHZWF1d3RtMWE2NnJIZ0REN3NhSGduM1ZWXzM3WUdCVGhxNnhjZ0g5TjNvVl</description>
+  </item>
+  <item>
+    <title>The True Cost of Liquid Cooling and How to Unlock Better ROI - Data Center Knowledge</title>
+    <link>https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUcxWkI2WDhOV1RGUll3dG0xSlZldHJYaTJ5ZG5KZUZQdjN1RWJGcDlKbTJkZlFVWmdRZlp3NU5yUXdScHdjUDdKcjBnZ1BSVl9wT2NDSDZhSGZmVmhFZk9IbHl5SUdQdF9VMjkyZGJ5SnE0WWk0TzJRT1hic3Q0YlFuZWFaYklqSVdtU2ZNc2U1ZElQdEJKOUVBTlQ3SDBRMkNHS2Z0QQ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUcxWkI2WDhOV1RGUll3dG0xSlZldHJYaTJ5ZG5KZUZQdjN1RWJGcDlKbTJkZlFVWmdRZlp3NU5yUXdScHdjUDdKcjBnZ1BSVl9wT2NDSDZhSGZmVmhFZk9IbHl5SUdQdF9VMjkyZGJ5SnE0WWk0TzJRT1hic3Q0YlFuZWFaYklqSVdtU2ZNc2U1ZElQdEJKOUVBTlQ3SDBRMkNHS2Z0QQ?oc=5</guid>
+    <pubDate>Mon, 05 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMipwFBVV95cUxPLUcxWkI2WDhOV1RGUll3dG0xSlZldHJYaTJ5ZG5KZUZQdjN1RWJGcDlKbTJkZlFVWmdRZlp3NU5yUXdScHdjUDdKcjBnZ1BSVl9wT2NDSDZhSGZmVmhFZk</description>
+  </item>
+  <item>
+    <title>Top Data Center Cooling Stocks for 2027: The Chiller Lives - Exoswan Insights</title>
+    <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Xa3VDR05ab3M0UlJKRWxuYlVWRmZpSWJIampXUDJWdTdrVGQ5ZWY3aVcxWHBvVWJCb0xzV1duMjRTS085SEM2ZWNhRUVYaENNeExQcTJXSkhIUQ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Xa3VDR05ab3M0UlJKRWxuYlVWRmZpSWJIampXUDJWdTdrVGQ5ZWY3aVcxWHBvVWJCb0xzV1duMjRTS085SEM2ZWNhRUVYaENNeExQcTJXSkhIUQ?oc=5</guid>
+    <pubDate>Sun, 04 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Xa3VDR05ab3M0UlJKRWxuYlVWRmZpSWJIampXUDJWdTdrVGQ5ZWY3aVcxWHBvVWJCb0xzV1duMjRTS085SEM2ZWNhRUVYaENNeExQcTJXSkhIUQ?oc=5&quot; t</description>
+  </item>
+  <item>
+    <title>UL Solutions launches liquid cooling certification for US data centers - Refindustry</title>
+    <link>https://news.google.com/rss/articles/CBMiogFBVV95cUxOTUd6YW93cktJeldKcFczSEs2UEMxVDBndzJ6VG9hSGUzV18yT21uTDVmOVN3MGkyMWwxV3NjeW56aTFrZkxzV1VLbHFYbWFQV21va1NyY1drZ0xRRHRvQXZlRzlqbU52ejFtd2xJTXg0OVBMU0lmVnhMRU13SVNDeWVVZkpta2k0bWdjMGRoa0xkTFRCbklaQnhCN3BfMC00RFE?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiogFBVV95cUxOTUd6YW93cktJeldKcFczSEs2UEMxVDBndzJ6VG9hSGUzV18yT21uTDVmOVN3MGkyMWwxV3NjeW56aTFrZkxzV1VLbHFYbWFQV21va1NyY1drZ0xRRHRvQXZlRzlqbU52ejFtd2xJTXg0OVBMU0lmVnhMRU13SVNDeWVVZkpta2k0bWdjMGRoa0xkTFRCbklaQnhCN3BfMC00RFE?oc=5</guid>
+    <pubDate>Fri, 02 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiogFBVV95cUxOTUd6YW93cktJeldKcFczSEs2UEMxVDBndzJ6VG9hSGUzV18yT21uTDVmOVN3MGkyMWwxV3NjeW56aTFrZkxzV1VLbHFYbWFQV21va1NyY1drZ0xRRHRvQX</description>
+  </item>
+  <item>
+    <title>Nortek Data Center Cooling: The Hybrid Future of AI Cooling - Data Centre Magazine</title>
+    <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdEgyd0N2bnI0NkxOMk04RG9UWFRKTVEtUlpBVENBTDMzNEFMcjNpaTFsRkFxNXprUzRvV1lXN2hjYkpqRG5TQ1M2Z0xISEdvaG85am9VWVNOMEtLcVBiQkxMTDZRV0tFbnA3MnVpak04dHlidlRHSlAycGpZRUtSWnNuNUhIMHJwd0dqUFBJOG1fODlFYU1FRVlDZTZaQmdkQUJaVzhfNWdHUGM?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdEgyd0N2bnI0NkxOMk04RG9UWFRKTVEtUlpBVENBTDMzNEFMcjNpaTFsRkFxNXprUzRvV1lXN2hjYkpqRG5TQ1M2Z0xISEdvaG85am9VWVNOMEtLcVBiQkxMTDZRV0tFbnA3MnVpak04dHlidlRHSlAycGpZRUtSWnNuNUhIMHJwd0dqUFBJOG1fODlFYU1FRVlDZTZaQmdkQUJaVzhfNWdHUGM?oc=5</guid>
+    <pubDate>Thu, 01 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdEgyd0N2bnI0NkxOMk04RG9UWFRKTVEtUlpBVENBTDMzNEFMcjNpaTFsRkFxNXprUzRvV1lXN2hjYkpqRG5TQ1M2Z0xISEdvaG85am9VWVNOMEtLcVBiQk</description>
+  </item>
+  <item>
+    <title>Otech Carrier Secures Nvidia Certification for 1.3MW Liquid-Cooling CDU; Targets 2.6MW by Year-End - BigGo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMidkFVX3lxTE5zT2IzbDlUR3hEU0VzaTlHUWNUSDN6LWpDTklIOWJvRUZRSHIyUzl3ekZ5R3F3alJIbndQeXdERUJMOHozUnpodGJULUdZdkxhcjJYNGIwYjhrZXNCSzZkVVZBdzlBVG9YWTFvcDZuZW1LQk1KY2c?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMidkFVX3lxTE5zT2IzbDlUR3hEU0VzaTlHUWNUSDN6LWpDTklIOWJvRUZRSHIyUzl3ekZ5R3F3alJIbndQeXdERUJMOHozUnpodGJULUdZdkxhcjJYNGIwYjhrZXNCSzZkVVZBdzlBVG9YWTFvcDZuZW1LQk1KY2c?oc=5</guid>
+    <pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMidkFVX3lxTE5zT2IzbDlUR3hEU0VzaTlHUWNUSDN6LWpDTklIOWJvRUZRSHIyUzl3ekZ5R3F3alJIbndQeXdERUJMOHozUnpodGJULUdZdkxhcjJYNGIwYjhrZXNCSzZkVV</description>
+  </item>
+  <item>
+    <title>Trane Technologies unveils flexible CDU platform for next-gen AI cooling - Data Centre Solutions</title>
+    <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxOSGdJT3NKdmliT3JOSGNpQkZyYmRhOEJlM3hMWGdEeF9SRXRCaFV2TFA3UkxCelZ0NjBiUFUtNHJ6MEdKV2wtZ215Y2FDZGJQWkxHYjdyeXE3N05wQy1tTktDSDlNclRkZGpBSzI2ZXpzc1ZlUDI1b25hSWk3ZmNDbTRCOTdmRGxOX1NBbUYzZnlsUGk4X01xWGhfdUJLQXpBVUo4dkszM21JSVZST0hMbTRn?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMisgFBVV95cUxOSGdJT3NKdmliT3JOSGNpQkZyYmRhOEJlM3hMWGdEeF9SRXRCaFV2TFA3UkxCelZ0NjBiUFUtNHJ6MEdKV2wtZ215Y2FDZGJQWkxHYjdyeXE3N05wQy1tTktDSDlNclRkZGpBSzI2ZXpzc1ZlUDI1b25hSWk3ZmNDbTRCOTdmRGxOX1NBbUYzZnlsUGk4X01xWGhfdUJLQXpBVUo4dkszM21JSVZST0hMbTRn?oc=5</guid>
+    <pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMisgFBVV95cUxOSGdJT3NKdmliT3JOSGNpQkZyYmRhOEJlM3hMWGdEeF9SRXRCaFV2TFA3UkxCelZ0NjBiUFUtNHJ6MEdKV2wtZ215Y2FDZGJQWkxHYjdyeXE3N05wQy1tTk</description>
+  </item>
+  <item>
+    <title>ZutaCore partners with Options Technology to offer liquid cooling to financial services - Data Center Dynamics</title>
+    <link>https://news.google.com/rss/articles/CBMiywFBVV95cUxPNXN2NTU2S1dWTFdFdXJPbHNIdTd0S29Pbl8tQzg4NjhtT3NhUVM5ekt6eGdaSmZvRTlNT0JjVWRKZmtoYUZHUGNHNXRvaDRwNG1WbHU5b21sNTZaMXFpNm9iNDJ6NGlLaGR1RnJtbXpIU21JSWh3SWZpdXRXal83TU44bU9QVEV4a0hTMUl3RHF4bl9yOXBiS1hXRU5ZcUQzZ1lDX0dtZVRFR2FZV01tTmp3TEhUYUNTXy1sWXJ5TDd5bXlOblNKeVpDdw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiywFBVV95cUxPNXN2NTU2S1dWTFdFdXJPbHNIdTd0S29Pbl8tQzg4NjhtT3NhUVM5ekt6eGdaSmZvRTlNT0JjVWRKZmtoYUZHUGNHNXRvaDRwNG1WbHU5b21sNTZaMXFpNm9iNDJ6NGlLaGR1RnJtbXpIU21JSWh3SWZpdXRXal83TU44bU9QVEV4a0hTMUl3RHF4bl9yOXBiS1hXRU5ZcUQzZ1lDX0dtZVRFR2FZV01tTmp3TEhUYUNTXy1sWXJ5TDd5bXlOblNKeVpDdw?oc=5</guid>
+    <pubDate>Wed, 30 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiywFBVV95cUxPNXN2NTU2S1dWTFdFdXJPbHNIdTd0S29Pbl8tQzg4NjhtT3NhUVM5ekt6eGdaSmZvRTlNT0JjVWRKZmtoYUZHUGNHNXRvaDRwNG1WbHU5b21sNTZaMXFpNm</description>
+  </item>
+  <item>
+    <title>Data Center Direct-to-Chip Coolants Market to Hit $3.18B by 2035 at 38.76% CAGR | SNS Insider - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTFhcVBzWXFNOGJzdlpkVVlSWnNPQkNFSUtnY0VyeklzQV9OMUlVQnJ3dHJWYWRfYmhLSjY5ZlR4UWptcHA0ZGRhSkZ5QXI3MjNGQlB2RDJWaU5tTjVjSnhxRHhFN3c5anJKcEZYLS1iUVQyYjBYNjVURDlvdXdWZTlmVEplNVVaUHBlZHdPczEtVUw2aUhOMHA5emI?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTFhcVBzWXFNOGJzdlpkVVlSWnNPQkNFSUtnY0VyeklzQV9OMUlVQnJ3dHJWYWRfYmhLSjY5ZlR4UWptcHA0ZGRhSkZ5QXI3MjNGQlB2RDJWaU5tTjVjSnhxRHhFN3c5anJKcEZYLS1iUVQyYjBYNjVURDlvdXdWZTlmVEplNVVaUHBlZHdPczEtVUw2aUhOMHA5emI?oc=5</guid>
+    <pubDate>Tue, 29 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMinAFBVV95cUxPcTFhcVBzWXFNOGJzdlpkVVlSWnNPQkNFSUtnY0VyeklzQV9OMUlVQnJ3dHJWYWRfYmhLSjY5ZlR4UWptcHA0ZGRhSkZ5QXI3MjNGQlB2RDJWaU5tTjVjSn</description>
+  </item>
+  <item>
+    <title>DCF Tours: Inside CoolIT, Where AI Liquid Cooling Goes to Scale - Data Center Frontier</title>
+    <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxQV01BaEpBdXVVV3Vma1RZbng4cFBTdloyY1JsZk91d0U3T0pIc0JCTVgtQXEwTm5KV09CSWdlcVpueWZsM0FYRTg1Z1lIZVZYLVRrTWR2ZmRZZUxCV0ZFazQxQWpEOXF4Wk15OUdmNHBBMERMc1BRYUY5N2JkMFpZMUh3Q0RXNGRvay1BUkFxNTgzNmhDUllDRkhTMW0tTDM0UUlhSHlhVXhhQ1hsaE9QdEdGWlJRTmZoNXVoVUVB?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMivgFBVV95cUxQV01BaEpBdXVVV3Vma1RZbng4cFBTdloyY1JsZk91d0U3T0pIc0JCTVgtQXEwTm5KV09CSWdlcVpueWZsM0FYRTg1Z1lIZVZYLVRrTWR2ZmRZZUxCV0ZFazQxQWpEOXF4Wk15OUdmNHBBMERMc1BRYUY5N2JkMFpZMUh3Q0RXNGRvay1BUkFxNTgzNmhDUllDRkhTMW0tTDM0UUlhSHlhVXhhQ1hsaE9QdEdGWlJRTmZoNXVoVUVB?oc=5</guid>
+    <pubDate>Mon, 28 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMivgFBVV95cUxQV01BaEpBdXVVV3Vma1RZbng4cFBTdloyY1JsZk91d0U3T0pIc0JCTVgtQXEwTm5KV09CSWdlcVpueWZsM0FYRTg1Z1lIZVZYLVRrTWR2ZmRZZUxCV0ZFaz</description>
+  </item>
+  <item>
+    <title>Danfoss expands data center liquid cooling portfolio - Refindustry</title>
+    <link>https://news.google.com/rss/articles/CBMiigFBVV95cUxOeTBXQmdMUEdodHFxazZ0WnFHVUxsTFJ0Y2lVSGJqN2FsWmdtQ3dWNVdNeUMwd3NwQnllV2pZZkZwcm1EcE94RnUyYWplTU1tY3BMQXFhVlk5UFpIRlFUY3JKbDNrVmVSeEV6OHR4YlFtZmtVeGlhNU1GWEQ2NElLNnJERzVNbExOSXc?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiigFBVV95cUxOeTBXQmdMUEdodHFxazZ0WnFHVUxsTFJ0Y2lVSGJqN2FsWmdtQ3dWNVdNeUMwd3NwQnllV2pZZkZwcm1EcE94RnUyYWplTU1tY3BMQXFhVlk5UFpIRlFUY3JKbDNrVmVSeEV6OHR4YlFtZmtVeGlhNU1GWEQ2NElLNnJERzVNbExOSXc?oc=5</guid>
+    <pubDate>Mon, 28 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiigFBVV95cUxOeTBXQmdMUEdodHFxazZ0WnFHVUxsTFJ0Y2lVSGJqN2FsWmdtQ3dWNVdNeUMwd3NwQnllV2pZZkZwcm1EcE94RnUyYWplTU1tY3BMQXFhVlk5UFpIRlFUY3</description>
+  </item>
+  <item>
+    <title>Transforming the Future of Data Center Cooling - CSRwire</title>
+    <link>https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNkJXNTk2d2ZkQnpXazZUbklNVXh1QXc0Y0JETHBHeEs1RVg4X2tLaWZVRko0OWhmdTZUOU1nUUpWb0RKTEtuM2Y4akk4SFVLQ3ZNaUMwWXJLRjEyVld5Y3BXNFVmbF9nTklYaWVEQkdWOU1UYjF1VXM4YkJ0TlE?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNkJXNTk2d2ZkQnpXazZUbklNVXh1QXc0Y0JETHBHeEs1RVg4X2tLaWZVRko0OWhmdTZUOU1nUUpWb0RKTEtuM2Y4akk4SFVLQ3ZNaUMwWXJLRjEyVld5Y3BXNFVmbF9nTklYaWVEQkdWOU1UYjF1VXM4YkJ0TlE?oc=5</guid>
+    <pubDate>Mon, 28 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNkJXNTk2d2ZkQnpXazZUbklNVXh1QXc0Y0JETHBHeEs1RVg4X2tLaWZVRko0OWhmdTZUOU1nUUpWb0RKTEtuM2Y4akk4SFVLQ3ZNaUMwWXJLRjEyVld5Y3</description>
+  </item>
+  <item>
+    <title>LG Electronics joins NVIDIA network, targets AI data center cooling growth - CHOSUNBIZ - Chosunbiz</title>
+    <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE9FaEFuNVphM3hON3piUlZBeVJZM3g4U0w5YWxHbXltUHc5NlhJMmpGWVFxUWtyMVNfSDdoT210Y19tdjNDMHVCYnJocHFxcWRQVDNua3Jwd1hTSTk1VkZuaEp4X29iQVNHSmJZMVhHRTdjRDB0cE55aDR30gGOAUFVX3lxTE0zZzdPRm5URDBqRWtNdG42Mk5INEdKLXlhZzhFcG94UjZCVEkwRXdDeXdHdWg0LVVnS2RxdjZRaFdYeENHUjVpcG0tUXlfcldFVGN4UngtX1pKTGQ1cUlsckY0U1VRTWpRRVlwLTRnd0hvRGdiMkdHU2N5VkxaNTVWSnNsblV1em1xeDdZVEE?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiekFVX3lxTE9FaEFuNVphM3hON3piUlZBeVJZM3g4U0w5YWxHbXltUHc5NlhJMmpGWVFxUWtyMVNfSDdoT210Y19tdjNDMHVCYnJocHFxcWRQVDNua3Jwd1hTSTk1VkZuaEp4X29iQVNHSmJZMVhHRTdjRDB0cE55aDR30gGOAUFVX3lxTE0zZzdPRm5URDBqRWtNdG42Mk5INEdKLXlhZzhFcG94UjZCVEkwRXdDeXdHdWg0LVVnS2RxdjZRaFdYeENHUjVpcG0tUXlfcldFVGN4UngtX1pKTGQ1cUlsckY0U1VRTWpRRVlwLTRnd0hvRGdiMkdHU2N5VkxaNTVWSnNsblV1em1xeDdZVEE?oc=5</guid>
+    <pubDate>Sun, 27 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiekFVX3lxTE9FaEFuNVphM3hON3piUlZBeVJZM3g4U0w5YWxHbXltUHc5NlhJMmpGWVFxUWtyMVNfSDdoT210Y19tdjNDMHVCYnJocHFxcWRQVDNua3Jwd1hTSTk1VkZuaE</description>
+  </item>
+  <item>
+    <title>Data center cooling is changing. The engineering fundamentals are not. - Data Center Frontier</title>
+    <link>https://news.google.com/rss/articles/CBMiygFBVV95cUxOY2xZTzRsblpYZlNuTmpvRUlEdkJFNm1vN3ZWUnZrYXRRT2R1NTRzRFdxYUJwVnhKVzJWN2NZNHJrY293ekxSMFM4TG5uVFNOdVcyM01hUUtQd2F4T0FWc3YxcWRiVXhaOUQyUTd1bjFKU0RFNmdtN3JGN2RZUVRidllRVVMtaDNaU1dCSlZqN20tUVpEbUl6RlI1TlhWd1ZSYW9pWDR4cG9WT2VuSkFrT0lrSUVQWjhleU9FTVBoS0EyS0h2c200RHV3?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiygFBVV95cUxOY2xZTzRsblpYZlNuTmpvRUlEdkJFNm1vN3ZWUnZrYXRRT2R1NTRzRFdxYUJwVnhKVzJWN2NZNHJrY293ekxSMFM4TG5uVFNOdVcyM01hUUtQd2F4T0FWc3YxcWRiVXhaOUQyUTd1bjFKU0RFNmdtN3JGN2RZUVRidllRVVMtaDNaU1dCSlZqN20tUVpEbUl6RlI1TlhWd1ZSYW9pWDR4cG9WT2VuSkFrT0lrSUVQWjhleU9FTVBoS0EyS0h2c200RHV3?oc=5</guid>
+    <pubDate>Fri, 25 Sep 2026 08:00:00 GMT</pubDate>
+    <category>investment</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiygFBVV95cUxOY2xZTzRsblpYZlNuTmpvRUlEdkJFNm1vN3ZWUnZrYXRRT2R1NTRzRFdxYUJwVnhKVzJWN2NZNHJrY293ekxSMFM4TG5uVFNOdVcyM01hUUtQd2F4T0FWc3</description>
+  </item>
+  <item>
+    <title>SK Enmove, LG Electronics team up for immersion cooling technology - The Korea Times</title>
+    <link>https://news.google.com/rss/articles/CBMivwFBVV95cUxQa1gxdzBtR2FqODNPcDB4dTZWSDB3Yk56d2ZkMTdRWGhtWGpkTUhSMjJaYkJyVzhOdWk5amhfUU1SdHkxOExoZ080bVlGaHVIVEViLVZkTzM2eS1FUXRwU2tIQk8yWEJZdmh1R29YeE9Vc19DOTVfQS1pSDk1OW4xVnk4N0hyX09MRUtQWFZlMjBxTzZrNWJyUExjRHRadTQydk9JT2J4VVZCQlo2a3ZJMWhUMmtHU3doX2VrWFJuNNIBxAFBVV95cUxQUGhGSkxvTVlDZEJYUHg1OFRoZHZQUkprV3FjTUhKWVJnaVY1VHdoZjhVNWVzM0tHSUttcUxIaGZ6aHRPZE9UcnFtQTU0TjBJa0RVZWhNb3NHaEhTYWY5NU5QblEtS2Raa2VqemRfX09scXA5a3lPcUZ0aW93R1dUVFQ2WlFjMHRpbEJha3ZqUzk5RTE3LXZJS0tZWkRCdHRhZjUtU3FxRWwxV2VwYkR4bVpJRXhQaVdxQnZxQUZzUHl5UWhX?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMivwFBVV95cUxQa1gxdzBtR2FqODNPcDB4dTZWSDB3Yk56d2ZkMTdRWGhtWGpkTUhSMjJaYkJyVzhOdWk5amhfUU1SdHkxOExoZ080bVlGaHVIVEViLVZkTzM2eS1FUXRwU2tIQk8yWEJZdmh1R29YeE9Vc19DOTVfQS1pSDk1OW4xVnk4N0hyX09MRUtQWFZlMjBxTzZrNWJyUExjRHRadTQydk9JT2J4VVZCQlo2a3ZJMWhUMmtHU3doX2VrWFJuNNIBxAFBVV95cUxQUGhGSkxvTVlDZEJYUHg1OFRoZHZQUkprV3FjTUhKWVJnaVY1VHdoZjhVNWVzM0tHSUttcUxIaGZ6aHRPZE9UcnFtQTU0TjBJa0RVZWhNb3NHaEhTYWY5NU5QblEtS2Raa2VqemRfX09scXA5a3lPcUZ0aW93R1dUVFQ2WlFjMHRpbEJha3ZqUzk5RTE3LXZJS0tZWkRCdHRhZjUtU3FxRWwxV2VwYkR4bVpJRXhQaVdxQnZxQUZzUHl5UWhX?oc=5</guid>
+    <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMivwFBVV95cUxQa1gxdzBtR2FqODNPcDB4dTZWSDB3Yk56d2ZkMTdRWGhtWGpkTUhSMjJaYkJyVzhOdWk5amhfUU1SdHkxOExoZ080bVlGaHVIVEViLVZkTzM2eS1FUXRwU2</description>
+  </item>
+  <item>
+    <title>Rethinking Data Center Cooling: Modern Solutions for a Growing Challenge - Buildings</title>
+    <link>https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLTVTb2RDLWFUa1QxLWhJYlRvSXBOZF9yLWZDM3RXendXcEpmbEJNeUZkNjhZUG1TYzNLTUpkSi02Qk5DeDdGQndiSVlObXQzbnRyWng0bVo4akVsbGU5Smo5eGh5R19TTlhwVnZEaHZ6MmlYQ0J3N0NKc3IxaDAwU09ZZWdvcmpxMk5HLWx2bkRhWFBlcEd1WmotM3RvZTVoZjN6VzFvMGYtVVQ3NndoZWhfX2taS0w3YTVmZFl4QlFOaThiTXJqTWFhVURkd1pnMHktUDVR?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLTVTb2RDLWFUa1QxLWhJYlRvSXBOZF9yLWZDM3RXendXcEpmbEJNeUZkNjhZUG1TYzNLTUpkSi02Qk5DeDdGQndiSVlObXQzbnRyWng0bVo4akVsbGU5Smo5eGh5R19TTlhwVnZEaHZ6MmlYQ0J3N0NKc3IxaDAwU09ZZWdvcmpxMk5HLWx2bkRhWFBlcEd1WmotM3RvZTVoZjN6VzFvMGYtVVQ3NndoZWhfX2taS0w3YTVmZFl4QlFOaThiTXJqTWFhVURkd1pnMHktUDVR?oc=5</guid>
+    <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMi1gFBVV95cUxPLTVTb2RDLWFUa1QxLWhJYlRvSXBOZF9yLWZDM3RXendXcEpmbEJNeUZkNjhZUG1TYzNLTUpkSi02Qk5DeDdGQndiSVlObXQzbnRyWng0bVo4akVsbGU5Sm</description>
+  </item>
+  <item>
+    <title>4 Common Direct-to-Chip Cooling Challenges and How to Solve Them - Data Center Knowledge</title>
+    <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTMyc0JlVU4yUUxxZjIxazl6NWVmR2lkRC0taXlFYVk5bXF0YTRTVWN4Rnhldk9mMXBwYi05VXZOdG9MTFlXdFZNeEtZRzVhb2FLX25nVWR1TkNRVFZndlNNZXRHLTJ0cGFKZ0p4S1R2elNjZ0tNd2pacEZ0Y3JzV25odGthTW1xd3dseDFJMUNsTWh2cnNNN2ljeHNXaWZhMzJKZ21uc2k4a2FhZEViWG5CbTVEQQ?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTMyc0JlVU4yUUxxZjIxazl6NWVmR2lkRC0taXlFYVk5bXF0YTRTVWN4Rnhldk9mMXBwYi05VXZOdG9MTFlXdFZNeEtZRzVhb2FLX25nVWR1TkNRVFZndlNNZXRHLTJ0cGFKZ0p4S1R2elNjZ0tNd2pacEZ0Y3JzV25odGthTW1xd3dseDFJMUNsTWh2cnNNN2ljeHNXaWZhMzJKZ21uc2k4a2FhZEViWG5CbTVEQQ?oc=5</guid>
+    <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTMyc0JlVU4yUUxxZjIxazl6NWVmR2lkRC0taXlFYVk5bXF0YTRTVWN4Rnhldk9mMXBwYi05VXZOdG9MTFlXdFZNeEtZRzVhb2FLX25nVWR1TkNRVFZndl</description>
+  </item>
+  <item>
+    <title>LG Electronics 2.5-MW liquid cooling unit wins Nvidia 'DSX Ready' approval - 디지털투데이</title>
+    <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxPMks1ZGVYQmtnNms5SVFiMFNPQTBQeEM1V2dpbmVKMmxYNkhhbFY4YmtvYm00Qm1uWHNtUlR0aDcxZTZJMFRLa2FJVGFJY1FnNXA4RWM1bVNWWlBrcElsRmh1YjRZSUJkd1ZZLThHX0dZY1BuY0lEcnA3TFYxSzlTY3RNc3lPcmhUbXp0OVc5RnNSZ2psUXFqbGFqV3pHTzRjZGFfQzJSWGtxQWlOWFF1eWwyMGt1dw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMitgFBVV95cUxPMks1ZGVYQmtnNms5SVFiMFNPQTBQeEM1V2dpbmVKMmxYNkhhbFY4YmtvYm00Qm1uWHNtUlR0aDcxZTZJMFRLa2FJVGFJY1FnNXA4RWM1bVNWWlBrcElsRmh1YjRZSUJkd1ZZLThHX0dZY1BuY0lEcnA3TFYxSzlTY3RNc3lPcmhUbXp0OVc5RnNSZ2psUXFqbGFqV3pHTzRjZGFfQzJSWGtxQWlOWFF1eWwyMGt1dw?oc=5</guid>
+    <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMitgFBVV95cUxPMks1ZGVYQmtnNms5SVFiMFNPQTBQeEM1V2dpbmVKMmxYNkhhbFY4YmtvYm00Qm1uWHNtUlR0aDcxZTZJMFRLa2FJVGFJY1FnNXA4RWM1bVNWWlBrcElsRm</description>
+  </item>
+  <item>
+    <title>LG Electronics’ 2.6-Megawatt Coolant Distribution Unit Qualifies as NVIDIA DSX Ready CDU - LG Corp</title>
+    <link>https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tbGtwcHM0V3hVYm5OWnVFQk44bW15M2pLcEsyZU5uRzlaalRPRFU1MGZfU3R6clZ4ZWNyb3lOTHN4dFVnNkZ0VHcyN2EzTnlZNVI1aw?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tbGtwcHM0V3hVYm5OWnVFQk44bW15M2pLcEsyZU5uRzlaalRPRFU1MGZfU3R6clZ4ZWNyb3lOTHN4dFVnNkZ0VHcyN2EzTnlZNVI1aw?oc=5</guid>
+    <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tbGtwcHM0V3hVYm5OWnVFQk44bW15M2pLcEsyZU5uRzlaalRPRFU1MGZfU3R6clZ4ZWNyb3lOTHN4dFVnNkZ0VHcyN2EzTnlZNVI1aw?oc=5&quot; target=&quot;_</description>
+  </item>
+  <item>
+    <title>Why Near Total Liquid Cooling Is the New Standard for AI Racks - IEEE Spectrum</title>
+    <link>https://news.google.com/rss/articles/CBMic0FVX3lxTE1uR0JNR2JlVmE3QjdBNTFqTmtlQWExR05MSGlZMkpSVFpqQlhaOTFuNWcybVFVbHRCd2RvSnRLSHp2eFMzWGljeEVoRlRMZUZFRXB6SldfRFJqaWN2ZEdwVTk4MHpTWlBOTkN3QTBGVDd2NDg?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMic0FVX3lxTE1uR0JNR2JlVmE3QjdBNTFqTmtlQWExR05MSGlZMkpSVFpqQlhaOTFuNWcybVFVbHRCd2RvSnRLSHp2eFMzWGljeEVoRlRMZUZFRXB6SldfRFJqaWN2ZEdwVTk4MHpTWlBOTkN3QTBGVDd2NDg?oc=5</guid>
+    <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
+    <category>standards</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMic0FVX3lxTE1uR0JNR2JlVmE3QjdBNTFqTmtlQWExR05MSGlZMkpSVFpqQlhaOTFuNWcybVFVbHRCd2RvSnRLSHp2eFMzWGljeEVoRlRMZUZFRXB6SldfRFJqaWN2ZEdwVT</description>
+  </item>
+  <item>
+    <title>Walrus Pump Enters the AI Data Center Cooling Market - Yahoo Finance</title>
+    <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1Q0VkZLMFY1RTMxaDE1MTktX3JqaURidWlnSTJjVElsbU0zQkR1V1FDckY5b05CNmF3UGxvU21mQUotSDQwaHFOaEJMeFVscjhSMHYtanJleWpMbUM1bHhVVFNiSkYxbl9VbFlSSnRZZDZvVjFZQklQVy1wZ1RyQXd5QWN0c0M0NnoyeVc5UERWR1Bo?oc=5</link>
+    <guid>https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1Q0VkZLMFY1RTMxaDE1MTktX3JqaURidWlnSTJjVElsbU0zQkR1V1FDckY5b05CNmF3UGxvU21mQUotSDQwaHFOaEJMeFVscjhSMHYtanJleWpMbUM1bHhVVFNiSkYxbl9VbFlSSnRZZDZvVjFZQklQVy1wZ1RyQXd5QWN0c0M0NnoyeVc5UERWR1Bo?oc=5</guid>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — &lt;a href=&quot;https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1Q0VkZLMFY1RTMxaDE1MTktX3JqaURidWlnSTJjVElsbU0zQkR1V1FDckY5b05CNmF3UGxvU21mQUotSDQwaHFOaEJMeFVscjhSMHYtanJleWpMbUM1bH</description>
   </item>
 </channel></rss>
