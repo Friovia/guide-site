@@ -1,8 +1,24 @@
 {
   "note": "Industry radar data layer. Facts policy applies here too: every item links to a source; nothing is invented. items[] = dated news events; milestones[] = the curated industry timeline (high GEO value, feed-agnostic). The fetch-news pipeline (scripts/fetch-news.mjs) merges automated items in and preserves pinned/manual entries.",
   "curated": false,
-  "last_fetched": "2026-11-01",
+  "last_fetched": "2026-11-02",
   "items": [
+    {
+      "date": "2026-11-01",
+      "title": "Vertiv Introduces SmartIT Platform with Liquid Cooling for AI Data Centers - Refindustry",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONm9GU2JjdVd2ZUpNQlRZSHZvdnV4eE40YWRNeVBUd1B0a1JlVUs0MUl0VE9EU2IyVExQRzROLWJjVUdlTmszcG1NeVFUdkZYWmJreVhLNzlFekJCREpDZmxVT0ZpZ01sb2dKWVlEYWphTWdMLXJiSUJ2OUFpQ2dEUHNPaUoyVlpGNUhMMXNqd3BkaTVLUEZBU0VGS3N6RHpDU2lNZWxsbw?oc=5",
+      "channel": "product",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxONm9GU2JjdVd2ZUpNQlRZSHZvdnV4eE40YWRNeVBUd1B0a1JlVUs0MUl0VE9EU2IyVExQRzROLWJjVUdlTmszcG1NeVFUdkZYWmJreVhLNzlFekJCREpDZm"
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Daikin Introduces Coolant Distribution Unit for AI Data Center Cooling - Refindustry",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnhzdUVfcmlIWkhaZHVZMXZxcHhfUjNWUFBJdnM4cnVSNk01ZE1NZjdRUmNSdURsVHh2ZGNYcFgzSUpEb3V4YkVoOVI1MEIyR3AyUnFqbXdzNWlUaTFFUEFHaWpBSHU0NFpCYmU3UU9iRzk5dm9ONDZkb3lMUXlJdnZDanhfclJVczU4MWVJNmFmdk9IUHdXX2psUzhxS2VzdlE?oc=5",
+      "channel": "product",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnhzdUVfcmlIWkhaZHVZMXZxcHhfUjNWUFBJdnM4cnVSNk01ZE1NZjdRUmNSdURsVHh2ZGNYcFgzSUpEb3V4YkVoOVI1MEIyR3AyUnFqbXdzNWlUaTFFUE"
+    },
     {
       "date": "2026-10-30",
       "title": "Combining liquid-cooled & air-cooled load banks for effective data center commissioning - Data Centre Solutions",
@@ -37,14 +53,6 @@
     },
     {
       "date": "2026-10-29",
-      "title": "Accelsius details two-phase liquid cooling for AI data centers - ET Datacenters",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdm9GSW5nLTdYazFvMnVPMzhjUXFBRTE2d2ZzbUh5X0hKSTNSV212TU9DMWd3X2o1WkZYdW8yX3pqdGxtOHlpd0tXczhTSk5hMEtyZTJsanpqaXpDWUtJR0w1TFlpS0t0bzFINHBmaFhEa0MxeXkwTW41NERuWjlXOWdzSFlpZ3YtSHJrclFWUlBwN0VQMlJZd0xSLWpDemVmc29aYXFxclNQTWxFWFFUX193TG1KYVZqMC1CMFVONFRCLTBiTWZaUXdvMGpETTZFX2VMcTJ5MWRXOFlkM2NHb1IwUzVVcFFxZmozVtIB8AFBVV95cUxNVHNQQUozc0paSGg4SmtPM2Y4UnZwLWxHSE85SzBGbUVPR0tMeWJYcl9WdGtLeGs5WGNMYkNXYl9pdE5NZHlaVk1VZl9uTXZFWUZoUEg3VkVGOVF0QjFpdVIxVFBxbzlWcUNYaHBWZzJHR3BfRUN6UVZ6QnNVcjhRby1yNkxrb1RTcjNLeTgtUmlHR2l5WXJqRXlsOVIyWjkwRVl2TUoyS3FkN2w3MHJLTWVpN3VNQmZVVDNZM0lqa1l3QmJUV2FmN0MyRFByb0d0MFJQOGsyWlRldXFvRXo5Q0ZsU0NyTkpNUDNkRmY5LTM?oc=5",
-      "channel": "technology",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdm9GSW5nLTdYazFvMnVPMzhjUXFBRTE2d2ZzbUh5X0hKSTNSV212TU9DMWd3X2o1WkZYdW8yX3pqdGxtOHlpd0tXczhTSk5hMEtyZTJsanpqaXpDWUtJR0"
-    },
-    {
-      "date": "2026-10-29",
       "title": "LG Uplus and Ecolab Korea to develop liquid cooling standards - Telecompaper",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcVJ6ai1kSHNUdUhsYmcxMmVWdG13TnZtMlRMcEFYWmxCVV9CVDN4ZVFnMnlNYXBBVGlNQ2hQdXlDVkVmUldwMWREZUU3Zk4wRnZSc3paM2dKNnJNWnBzd3hGVW5qeFpJY3pkMzFscVVvUGJXX0w2WFlDbjlfYlVic3NTN0NZd29VcjRyc1hMS2FTdThkUHJUZjZwRjZZUkxlNXNhX1NnQQ?oc=5",
@@ -53,7 +61,15 @@
     },
     {
       "date": "2026-10-29",
-      "title": "LG CNS Builds AI Data Centers With Next-Gen Liquid Cooling - 조선일보",
+      "title": "Aeroflex Q2 FY27 slides: liquid cooling drives record growth - Investing.com",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDFwZTk0S1JsS2FfYTlTVnBNLVhuaEQ1dTg0eThkbVgycFFraTF3YmZBcmpvWV9McVpabGREbmJGd29FaVpaUUJsNnlyMVg0YVVGTjN6UGVaQmROS1RRa0lpYWo2cUJFbnhSWXVYVmVzRk1mYnl1ZUdBM0hReHltOHg0dUl1a0w4UjM3V2FPd0JtNFVhandIM01GTk1sdk9LbGUzb1ZWSW9kOHNldUItYlpmZ2YwWTg?oc=5",
+      "channel": "investment",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOMDFwZTk0S1JsS2FfYTlTVnBNLVhuaEQ1dTg0eThkbVgycFFraTF3YmZBcmpvWV9McVpabGREbmJGd29FaVpaUUJsNnlyMVg0YVVGTjN6UGVaQmROS1RRa0"
+    },
+    {
+      "date": "2026-10-29",
+      "title": "LG CNS Advances AI Infrastructure with Next-Gen Liquid Cooling - 조선일보",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRk8teTFzUmY4TXUwWmpWYXM3S2MxbVRtWUxyRVR2Z1NiTExpQ1hVLXI1QzQ3M0pCTlEzRTdwQl9UYXVGQkVHZEExNWhSZlI0TVJTNVNQUUlINzlNTDkxcWd4QklJcXA3d1IzTUsxVE9vYU1uZ0pfLURlSVpOQldMM2p0YWJydzN5?oc=5",
       "channel": "technology",
@@ -116,14 +132,6 @@
       "note": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd0pQUU5HOE00X1NhRmdzSHpvcVRtdHA5UEZRbTBsM1MydzdreWhNNTYxekFTNDRlVlo0WWhnX2Ryd2VDclVFU0Z4cm1hNnpKTWRySlJPYmRwYzBlOFM0SD"
     },
     {
-      "date": "2026-10-26",
-      "title": "Liquid Cooling is Coming to the Power Shelf - Data Center Richness | Substack",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbmpwVlh6QW9PWTRLa2NoaTRqQnRBUVVMbmdrU2VaakN5X0h4Mkg3RWliVGd5MFpWSkFYUXVfNFRzWXI4VFVQOENCMUtaV2FPVWstUU81SWJKZ1ltSHFram9tWEJrX001RlVJVUlTYXNJTFdPNXRfWEpkZ3NtU0EwazlKMVp3UQ?oc=5",
-      "channel": "product",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPbmpwVlh6QW9PWTRLa2NoaTRqQnRBUVVMbmdrU2VaakN5X0h4Mkg3RWliVGd5MFpWSkFYUXVfNFRzWXI4VFVQOENCMUtaV2FPVWstUU81SWJKZ1ltSHFram"
-    },
-    {
       "date": "2026-10-23",
       "title": "Data Center Immersion Cooling Fluids Market worth $1.06 billion by 2033 - MarketsandMarkets",
       "source": "Google News",
@@ -164,14 +172,6 @@
       "note": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHVwWkVsNGM4c0l5R0FGSDhDR3Z5LTFJd3l2YS1BZEdqMkZiQTFvRXlBb3pKcENqNEZWbmxVQVM4clR2bG9NbGdxcWtGQllhTUlvbkd6d1kwQmtGaU51T1"
     },
     {
-      "date": "2026-10-20",
-      "title": "DCX Adds Coolant Control to Facility Distribution Unit - Data Centre Magazine",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMElWRVd6VFlaZmxGbk5aWXZoQmJScm1XZ3FRM0dwTXFuQ1kzWXlmOGRRSmVvVG5iT216a0lINk0zVXRjWXBjWXcxQno4bmJyTU9hb0dfbkRWenBIU3RTaV9BOXdjZkppODBKd2ltNmZmTEZPdDBrbDUwZ2V3YnNsallBa1Z3dXozSGx2M1JoNklLbUJE?oc=5",
-      "channel": "technology",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQMElWRVd6VFlaZmxGbk5aWXZoQmJScm1XZ3FRM0dwTXFuQ1kzWXlmOGRRSmVvVG5iT216a0lINk0zVXRjWXBjWXcxQno4bmJyTU9hb0dfbkRWenBIU3RTaV"
-    },
-    {
       "date": "2026-10-19",
       "title": "From Pilot to Production: Mastering Liquid Cooling Deployment - Data Center Knowledge",
       "source": "Google News",
@@ -181,19 +181,19 @@
     },
     {
       "date": "2026-10-19",
-      "title": "DCX builds coolant chemistry control into its 8 MW Facility Distribution Unit - AFP.com",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pbldhS3A4Q3pYU1hIZ0NhamVDMENHMHBBaEhBRHhORmpEcV9DUC16dlFXcGFhY2NXMFAtSE91RW1Ob3BHQy1VQXQ5bw?oc=5",
-      "channel": "technology",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTE5pbldhS3A4Q3pYU1hIZ0NhamVDMENHMHBBaEhBRHhORmpEcV9DUC16dlFXcGFhY2NXMFAtSE91RW1Ob3BHQy1VQXQ5bw?oc=5\" target=\"_blank\">DCX b"
-    },
-    {
-      "date": "2026-10-19",
       "title": "Daikin unveils 2.5MW liquid cooling CDUs for AI data centres - Data Centre Solutions",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFRPVmozTEE4djU2bGZaYWlDTFVqdTZxZWVBdjNMek5CbzFJVUpvbERmV212QkU2TUVHa1dtRm43dDBCUzNkVGZtWkZJMVZxWE1YaHZURVJEbUNVaVJLS3AySXQxZjAtR2VjRlY2UVFLWEJoNl9heHJQajJjT0hNUktjdl9aRWxYbXFHdEhJVWc1dm9vNjlicFdKbjVxM1Vk?oc=5",
       "channel": "product",
       "note": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPTFRPVmozTEE4djU2bGZaYWlDTFVqdTZxZWVBdjNMek5CbzFJVUpvbERmV212QkU2TUVHa1dtRm43dDBCUzNkVGZtWkZJMVZxWE1YaHZURVJEbUNVaVJLS3"
+    },
+    {
+      "date": "2026-10-18",
+      "title": "Data Center Liquid Cooling Systems Market in the Middle East: Size, Trends and Forecast to 2035 - IndexBox",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbTh2cU9FQ2pqend2ZkxsQ184YkVKTUdUbkhOeUY4WXRuN0UyMmotdWtOUmNyd0ZPZGN1a21vTFBaZTU5dmVRcTBrSktyREFMTl8xYUFDaGFGdkxhU0dINk80MEZ2RG1zVC00WGE2M1B6blRWY042ZkRwTi1YQ2lwTE94STVDVDRleFJCdGg4alJDTW5ZZzF1X3FJZ2h4akpGTVhSYXpKdmUwNlFGOFY3Q2tLdHRIczVHUGM2ZDlvcW9qUmoySFE?oc=5",
+      "channel": "technology",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPbTh2cU9FQ2pqend2ZkxsQ184YkVKTUdUbkhOeUY4WXRuN0UyMmotdWtOUmNyd0ZPZGN1a21vTFBaZTU5dmVRcTBrSktyREFMTl8xYUFDaGFGdkxhU0dINk"
     },
     {
       "date": "2026-10-17",
@@ -268,12 +268,12 @@
       "note": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQT0RiYkxNR1pjWWJ0eThieEladWxPRnozdlhXQ29QWldpYjNQVFNzMTd6NHJHZWF1d3RtMWE2NnJIZ0REN3NhSGduM1ZWXzM3WUdCVGhxNnhjZ0g5TjNvVl"
     },
     {
-      "date": "2026-10-12",
-      "title": "Trane launches LiquidStack CDU 2.X for AI data centres - datacenter.news",
+      "date": "2026-10-09",
+      "title": "Vertiv™ Coolant Distribution Unit Qualified as NVIDIA DSX Ready for AI Factory Infrastructure - Engineering News",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaG9ZRUo4N2hwRFpSTlZfVnpVdG5PYnJiX2RPa2MxeEN3cmtIQXAtQy1zd1A2TGExLWFKZUVUb2xzdVg1dHRrejVkLVlNZnFIZktyVlhRRGxzcEtzY0VXWHNEVmtwSC1DYUF1dkw0b2RrbVNtMS1ETEx4dWpwY1hLaG1sd3JhV3VUd1pXUw?oc=5",
-      "channel": "product",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaG9ZRUo4N2hwRFpSTlZfVnpVdG5PYnJiX2RPa2MxeEN3cmtIQXAtQy1zd1A2TGExLWFKZUVUb2xzdVg1dHRrejVkLVlNZnFIZktyVlhRRGxzcEtzY0VXWH"
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdG1xaWcwNk9ETHdxQnhHNHpOb20zM0wtdlBvaXBKYXdqRlA1ZkctUi1BdWt0Qks2ZGFod3plVDVvMEhSVWxMZ3ZqVU1IdEJsZnhubWlGMlBSVVNIT2RjMUFDRHBxaDdCVXZtT1lsRGdrUFY0RFBQamdmMDhVaXVsTjVGX1FLWVVoWWtrVHBRUUZDMDZwbWZEQ1FwVnQ4TmxlTjJHTngwbkhKeDVQUGdtUFQtWG1nT2cyREFiNzJ6Q19rMkFIMmR5N245cERIZVJqMnJOam03Z1JhQ3RNVmc?oc=5",
+      "channel": "technology",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdG1xaWcwNk9ETHdxQnhHNHpOb20zM0wtdlBvaXBKYXdqRlA1ZkctUi1BdWt0Qks2ZGFod3plVDVvMEhSVWxMZ3ZqVU1IdEJsZnhubWlGMlBSVVNIT2RjMU"
     },
     {
       "date": "2026-10-09",
@@ -330,22 +330,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFdrNnoxd0YwNUpjMGVpdV9YanBkZ3N6YXBIbWRoNHB0YkR6cEVQRVdlNTJmcU9CVWFKR0JjZzVGV2J0MU5jRTdKbmY5eWp0MFQwMjNrakVfbXV6NEEtU25ZMjFGazFpdnlUYXl6SU5yYjJEcXhpLU55ZnNMR014YVU2QjJTQmxqVk44a3A5SG5yN0VHeEx4X2pLY042OHJvM0kyVmlGZWVZVkk?oc=5",
       "channel": "technology",
       "note": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFdrNnoxd0YwNUpjMGVpdV9YanBkZ3N6YXBIbWRoNHB0YkR6cEVQRVdlNTJmcU9CVWFKR0JjZzVGV2J0MU5jRTdKbmY5eWp0MFQwMjNrakVfbXV6NEEtU2"
-    },
-    {
-      "date": "2026-10-06",
-      "title": "Global Data Center Cooling Market Analysis and Forecast, 2026-2036 | AI and High-Density Computing Propel Liquid Cooling Market to $141.19 Billion by 2036 - Supply Chain Digital Magazine",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HVkVRM3RjS0pmaEFBa05seEhTUXpEWkF1bGY5cGFYbDBrX0laNzRGYkQ2RHlNemlGd1FYbHJVOVhOSjlBczNGUGNydm50Wms3bWlaX1NicU9XTEVlNDBTRUJB?oc=5",
-      "channel": "product",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HVkVRM3RjS0pmaEFBa05seEhTUXpEWkF1bGY5cGFYbDBrX0laNzRGYkQ2RHlNemlGd1FYbHJVOVhOSjlBczNGUGNydm50Wms3bWlaX1NicU9XTEVlNDBTRU"
-    },
-    {
-      "date": "2026-10-05",
-      "title": "North America Data Center Liquid Cooling Market Report - Market Data Forecast",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdldMUzNLMEFJOVRobW5ZMWxRamthdklRWWpEY25HMHlRVzlBT2o0ZWpuckpEaVhPaGdPMHZIMF85Uzl3YWxCeWJDQmRzSDY3c1I0c0ltaWFKQ2VnMzhBSHBjQkZHZ0FiVy1zUi1PVEJsbkRkRlB1dzZBR0JIVzZmQm1ZT0hTcGpoeEVmXzdadlRLYUZYS00tLS1ja1BXQQ?oc=5",
-      "channel": "technology",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNdldMUzNLMEFJOVRobW5ZMWxRamthdklRWWpEY25HMHlRVzlBT2o0ZWpuckpEaVhPaGdPMHZIMF85Uzl3YWxCeWJDQmRzSDY3c1I0c0ltaWFKQ2VnMzhBSH"
     },
     {
       "date": "2026-10-05",
@@ -405,11 +389,11 @@
     },
     {
       "date": "2026-09-28",
-      "title": "Danfoss expands data center liquid cooling portfolio - Refindustry",
+      "title": "Schneider Electric debuts new WCDU for hybrid air and liquid-cooled environments - Data Center Dynamics",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeTBXQmdMUEdodHFxazZ0WnFHVUxsTFJ0Y2lVSGJqN2FsWmdtQ3dWNVdNeUMwd3NwQnllV2pZZkZwcm1EcE94RnUyYWplTU1tY3BMQXFhVlk5UFpIRlFUY3JKbDNrVmVSeEV6OHR4YlFtZmtVeGlhNU1GWEQ2NElLNnJERzVNbExOSXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQang0QTBFazV1ME5XQ29memxTQVhkYzY1WlRXWm03Z1VzQ045UWpBZG9OVlhXRVNDb3NySXFVcUJGQXBmYW5Vcy1DZzZLRmQyaW0wRnQzVHlIQzY0NndWNUlQYkpTNjQ2bzVGVWk3WVVJTWpxWko2azJ4NzVwX3M0OGk4OUJyU1ROSXppVlZJbDF5bkJ2NUt2OG5hQW12MkhBU2pFSl9URjNrTVllZTU4MF8ycU9hMWxEbTh3LTFTZ2hydw?oc=5",
       "channel": "product",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOeTBXQmdMUEdodHFxazZ0WnFHVUxsTFJ0Y2lVSGJqN2FsWmdtQ3dWNVdNeUMwd3NwQnllV2pZZkZwcm1EcE94RnUyYWplTU1tY3BMQXFhVlk5UFpIRlFUY3"
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQang0QTBFazV1ME5XQ29memxTQVhkYzY1WlRXWm03Z1VzQ045UWpBZG9OVlhXRVNDb3NySXFVcUJGQXBmYW5Vcy1DZzZLRmQyaW0wRnQzVHlIQzY0NndWNU"
     },
     {
       "date": "2026-09-28",
@@ -428,28 +412,12 @@
       "note": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNkJXNTk2d2ZkQnpXazZUbklNVXh1QXc0Y0JETHBHeEs1RVg4X2tLaWZVRko0OWhmdTZUOU1nUUpWb0RKTEtuM2Y4akk4SFVLQ3ZNaUMwWXJLRjEyVld5Y3"
     },
     {
-      "date": "2026-09-27",
-      "title": "LG Electronics joins NVIDIA network, targets AI data center cooling growth - Chosunbiz",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9FaEFuNVphM3hON3piUlZBeVJZM3g4U0w5YWxHbXltUHc5NlhJMmpGWVFxUWtyMVNfSDdoT210Y19tdjNDMHVCYnJocHFxcWRQVDNua3Jwd1hTSTk1VkZuaEp4X29iQVNHSmJZMVhHRTdjRDB0cE55aDR30gGOAUFVX3lxTE0zZzdPRm5URDBqRWtNdG42Mk5INEdKLXlhZzhFcG94UjZCVEkwRXdDeXdHdWg0LVVnS2RxdjZRaFdYeENHUjVpcG0tUXlfcldFVGN4UngtX1pKTGQ1cUlsckY0U1VRTWpRRVlwLTRnd0hvRGdiMkdHU2N5VkxaNTVWSnNsblV1em1xeDdZVEE?oc=5",
-      "channel": "technology",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9FaEFuNVphM3hON3piUlZBeVJZM3g4U0w5YWxHbXltUHc5NlhJMmpGWVFxUWtyMVNfSDdoT210Y19tdjNDMHVCYnJocHFxcWRQVDNua3Jwd1hTSTk1VkZuaE"
-    },
-    {
       "date": "2026-09-25",
       "title": "Data center cooling is changing. The engineering fundamentals are not. - Data Center Frontier",
       "source": "Google News",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOY2xZTzRsblpYZlNuTmpvRUlEdkJFNm1vN3ZWUnZrYXRRT2R1NTRzRFdxYUJwVnhKVzJWN2NZNHJrY293ekxSMFM4TG5uVFNOdVcyM01hUUtQd2F4T0FWc3YxcWRiVXhaOUQyUTd1bjFKU0RFNmdtN3JGN2RZUVRidllRVVMtaDNaU1dCSlZqN20tUVpEbUl6RlI1TlhWd1ZSYW9pWDR4cG9WT2VuSkFrT0lrSUVQWjhleU9FTVBoS0EyS0h2c200RHV3?oc=5",
       "channel": "investment",
       "note": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOY2xZTzRsblpYZlNuTmpvRUlEdkJFNm1vN3ZWUnZrYXRRT2R1NTRzRFdxYUJwVnhKVzJWN2NZNHJrY293ekxSMFM4TG5uVFNOdVcyM01hUUtQd2F4T0FWc3"
-    },
-    {
-      "date": "2026-09-24",
-      "title": "Schneider Electric launches 3.5MW hybrid coolant distribution unit for AI data centres - Data Centre Solutions",
-      "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa2IwRF9pQzJGcV9SNjFyeG1hMDNRZzBSVkw1Y2RjUHlXdFZHUmhac3ozdTJkb0xnZ2FoY01LY21jOE9BMUt4MVlkRVhTVXdJc3FGLWFONkVxMHFiZ2pTX1BGLU5rQ3ljR0hnUlhOdXN1WVBMajZaM2VGWlZrdXlmRDd0RlZDdENKbElGZWNYYXV2dy0xMkJNYVlyazRLbEVXc1NtMGlqNmNsQ3VkN29iSjhxVVhXN2pGMEdRcjVJX243Z3M?oc=5",
-      "channel": "product",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa2IwRF9pQzJGcV9SNjFyeG1hMDNRZzBSVkw1Y2RjUHlXdFZHUmhac3ozdTJkb0xnZ2FoY01LY21jOE9BMUt4MVlkRVhTVXdJc3FGLWFONkVxMHFiZ2pTX1"
     },
     {
       "date": "2026-09-23",
@@ -477,11 +445,43 @@
     },
     {
       "date": "2026-09-22",
-      "title": "LG Electronics Secures NVIDIA 2.5MW CDU Certification…Completes Full Lineup of AI Cooling Solutions - 머니투데이",
+      "title": "LG Electronics’ 2.6-Megawatt Coolant Distribution Unit Qualifies as NVIDIA DSX Ready CDU - LG Corp",
       "source": "Google News",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pXzV5UzMtVFdYUkFwdFBwTFBnMVd0bGxOZ1RSbTZtVlYtUG03QkZfbmFQYzVNMGJ4UThrTGdvaXRsNEhEaktvY3VYdWdBUTZ2VGRfdDBDUlRtNndxMEtyMjBwekt0ZHktREl0RlplS1o?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tbGtwcHM0V3hVYm5OWnVFQk44bW15M2pLcEsyZU5uRzlaalRPRFU1MGZfU3R6clZ4ZWNyb3lOTHN4dFVnNkZ0VHcyN2EzTnlZNVI1aw?oc=5",
       "channel": "product",
-      "note": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9pXzV5UzMtVFdYUkFwdFBwTFBnMVd0bGxOZ1RSbTZtVlYtUG03QkZfbmFQYzVNMGJ4UThrTGdvaXRsNEhEaktvY3VYdWdBUTZ2VGRfdDBDUlRtNndxMEtyMj"
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE1tbGtwcHM0V3hVYm5OWnVFQk44bW15M2pLcEsyZU5uRzlaalRPRFU1MGZfU3R6clZ4ZWNyb3lOTHN4dFVnNkZ0VHcyN2EzTnlZNVI1aw?oc=5\" target=\"_"
+    },
+    {
+      "date": "2026-09-21",
+      "title": "OData to deploy Aligned's DeltaFlow liquid cooling system at Brazil and Mexico data centers - Data Center Dynamics",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWnQtQk9VN29LNVNXMEo4Tm45a2pQQloxZlA2b0pETUtVNl9zeVptU1FscEI2VlBYYWFzd25nUHpEZzZWc2RLMkd3a0VyRlFWYmhFMHVKc1pjQTFDUXYyejEyZ2dGb2x6ZHpQMDVPdWlBTHNNdDdqMU5WOVhEa2c2QTBXOEU3c1lyNldwNkdHZ0N3UDNNczB1bnBzam4wbVNZZVEyeVlaWDJ1bnZlY1NOQUR6U3RRdVpqU1ZOSWczOFlYblM2ZkZBSWxfdnZOQkE?oc=5",
+      "channel": "technology",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxQWnQtQk9VN29LNVNXMEo4Tm45a2pQQloxZlA2b0pETUtVNl9zeVptU1FscEI2VlBYYWFzd25nUHpEZzZWc2RLMkd3a0VyRlFWYmhFMHVKc1pjQTFDUXYyej"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Retrofitting existing data centers for AI: Two practical paths to liquid cooling - Data Center Dynamics",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdXRjbURvckZpZkVtZ2NwMFJSemExZUFwQmJ0RnpLODM5dFEwNFkyQXhuMUUwdE5oOTFUVXdwOVpHTG5kaWhiMjBGWW1wVktIWUFOeUpTcmE5NjV0eVh3VHRoS0ZoY0VSTTlBaE1zTmFmRlg1SW5aOThzOHd2aW91bnprYlR1Q1RUWU1KY09SclQzWHB5SnAtdS1kdkFTSTNNRXNJTGZDNXlxMU43ZXN2dGhJN05qRFFIOGhLODJINjlzLTdmRlE?oc=5",
+      "channel": "technology",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNdXRjbURvckZpZkVtZ2NwMFJSemExZUFwQmJ0RnpLODM5dFEwNFkyQXhuMUUwdE5oOTFUVXdwOVpHTG5kaWhiMjBGWW1wVktIWUFOeUpTcmE5NjV0eVh3VH"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "ODATA Deploys DeltaFlow Liquid Cooling in Mexico - Mexico Business News",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaTlaVlNacUZWWGVsR2lvNGMwTWg2dy1WZld3bXZnV3FuUHFVLXhOLWVla1lwZmx5cnBfcG9lTUh3aGxmd1ExUHdXQTJROV9nV2JyZE5GMlJxMEU2VkEwbGhaWUpNdTZZZW9LeXktU3cwSGZaX21veWdXTVBCRHgwanlYcGx0c016S2w0NFRyeTlxQUw1amc?oc=5",
+      "channel": "technology",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaTlaVlNacUZWWGVsR2lvNGMwTWg2dy1WZld3bXZnV3FuUHFVLXhOLWVla1lwZmx5cnBfcG9lTUh3aGxmd1ExUHdXQTJROV9nV2JyZE5GMlJxMEU2VkEwbG"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "ExxonMobil, Submer Group Collaborate on Next-Gen Data Center Cooling - The Fast Mode",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZnpsb0Z0THVpa0c5OVJEWmY1T2h3YmxUemVac0JtOXdDR1B0SEoyVkl5M1VmdnNkTUI0WFBGczliVTFSc240ZlpOcHZnTGx0QnlFLXNQQmFfT3JlcUZlc3MwbldtM1J2cXFKbzdTczNfRjIwbVZYZ2RnZUZybUtEdzNvSmQ4WFN0Q1Y2dHdkZHZsNzlMT1ZQYUlkekczREI0alJ6SW4xRTlYMWJwZmZaWkNkcURReHVNT2hSZlZQYw?oc=5",
+      "channel": "technology",
+      "note": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOZnpsb0Z0THVpa0c5OVJEWmY1T2h3YmxUemVac0JtOXdDR1B0SEoyVkl5M1VmdnNkTUI0WFBGczliVTFSc240ZlpOcHZnTGx0QnlFLXNQQmFfT3JlcUZlc3"
     }
   ],
   "milestones": [
