@@ -1,27 +1,13 @@
 # Liquid Cooling Guide
 
 > Independent technical reference on liquid cooling for micro data centers: how it works, the formulas, and a sourced comparison of small-scale cooling cabinets. One concept per page, worked examples with real numbers, live calculators. Data compiled from manufacturer pages, datasheets and trade press only; unpublished prices are marked, never invented.
+> Published by Friovia, a liquid-cooling cabinet maker. Editorial policy: every claim sourced; vendors listed whether we compete or not; no paid placements.
 
 Locales:
 
 - [English /](https://liquidcoolingguide.com/): default locale, full site.
-- [简体中文 /zh](https://liquidcoolingguide.com/zh): 中文落地页 + 中文正文（什么是液冷 / 术语表双语 / 演练场），其余条目英文原文。
-  - [简体中文](https://liquidcoolingguide.com/zh): zh 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [繁體中文](https://liquidcoolingguide.com/zh-hant): zh-hant 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [日本語](https://liquidcoolingguide.com/ja): ja 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [한국어](https://liquidcoolingguide.com/ko): ko 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Українська](https://liquidcoolingguide.com/uk): uk 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Français](https://liquidcoolingguide.com/fr): fr 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Deutsch](https://liquidcoolingguide.com/de): de 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Português](https://liquidcoolingguide.com/pt): pt 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [বাংলা](https://liquidcoolingguide.com/bn): bn 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Italiano](https://liquidcoolingguide.com/it): it 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [فارسی](https://liquidcoolingguide.com/fa): fa 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Русский](https://liquidcoolingguide.com/ru): ru 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Čeština](https://liquidcoolingguide.com/cs): cs 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Polski](https://liquidcoolingguide.com/pl): pl 落地页（landing page，本地化 hero/工具栏/目录导航）
+- [English /](https://liquidcoolingguide.com/): default locale, full site (en covers all content; es/ar are localized landings).
   - [Español](https://liquidcoolingguide.com/es): es 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [Bahasa Indonesia](https://liquidcoolingguide.com/id): id 落地页（landing page，本地化 hero/工具栏/目录导航）
   - [العربية](https://liquidcoolingguide.com/ar): ar 落地页（landing page，本地化 hero/工具栏/目录导航）
 
 Radar:

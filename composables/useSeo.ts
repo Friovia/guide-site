@@ -22,7 +22,8 @@ export function useSeo(o: { title: string; description: string; path?: string })
       { property: 'og:type', content: 'article' },
       { property: 'og:url', content: url },
       { property: 'og:site_name', content: SITE.name },
-      { name: 'twitter:card', content: 'summary' },
+      { property: 'og:image', content: `${SITE.url}/og-image.png` },
+      { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: `${o.title} · ${SITE.name}` },
       { name: 'twitter:description', content: o.description }
     ]
