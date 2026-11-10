@@ -29,6 +29,8 @@
         </div>
       </div>
 
+      <LatestRadar label="Industry radar — latest" more="All news" />
+
       <div class="feat-band">
         <div class="feat">
           <span class="fic">FORMULAS × 11</span>

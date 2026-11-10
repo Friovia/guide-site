@@ -22,6 +22,8 @@
         </div>
       </div>
 
+      <LatestRadar :label="s.radarLabel" :more="s.radarMore" />
+
       <div class="feat-band">
         <div class="feat">
           <span class="fic">{{ s.feat1c }}</span>
