@@ -4,27 +4,27 @@
       <input
         v-model="q"
         type="search"
-        :placeholder="zh ? '搜索本站（按 / 聚焦）' : 'Search the guide  ( / )'"
-        :aria-label="zh ? '搜索本站' : 'Search the guide'"
+        placeholder="Search the guide  ( / )"
+        aria-label="Search the guide"
       />
     </div>
 
     <template v-for="s in visible" :key="s.id">
-      <div class="navsec">{{ zh ? (s.labelZh || s.label) : s.label }}</div>
+      <div class="navsec">{{ s.label }}</div>
       <NuxtLink
         v-for="it in s.items"
         :key="it.path"
-        :to="target(it)"
+        :to="it.path"
         class="navitem"
-        :class="{ active: target(it) === route.path }"
+        :class="{ active: it.path === route.path }"
         @click="$emit('navigate')"
       >
-        <span class="navtitle">{{ zh ? (it.titleZh || it.title) : it.title }}</span>
+        <span class="navtitle">{{ it.title }}</span>
         <span v-if="q" class="navdesc">{{ it.desc }}</span>
       </NuxtLink>
     </template>
 
-    <p v-if="!visible.length" class="navempty">{{ zh ? '没有匹配项' : `No matches for “${q}”.` }}</p>
+    <p v-if="!visible.length" class="navempty">{{ `No matches for “${q}”.` }}</p>
   </nav>
 </template>
 
@@ -36,11 +36,6 @@ defineEmits<{ navigate: [] }>()
 
 const route = useRoute()
 const q = ref('')
-const zh = computed(() => route.path.startsWith('/zh'))
-
-function target(it: { path: string; zhPath?: string }) {
-  return zh.value && it.zhPath ? it.zhPath : it.path
-}
 
 const visible = computed(() =>
   nav.sections
@@ -48,7 +43,7 @@ const visible = computed(() =>
       ...s,
       items: q.value
         ? s.items.filter(it =>
-            (it.title + ' ' + it.titleZh + ' ' + it.desc).toLowerCase().includes(q.value.toLowerCase())
+            (it.title + ' ' + it.desc).toLowerCase().includes(q.value.toLowerCase())
           )
         : s.items
     }))
