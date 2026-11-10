@@ -1,0 +1,23 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+# Deployment is handled by Cloudflare Pages' Git integration (Friovia/guide-site,
+# build `pnpm generate` -> `.output/public`; news cron commits auto-rebuild).
+# This workflow is the quality gate: nav/IA consistency (inside generate) plus
+# a full static buildability check. No Cloudflare credentials needed.
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4 # 版本读 package.json 的 packageManager（显式 version 会与之冲突）
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm generate
