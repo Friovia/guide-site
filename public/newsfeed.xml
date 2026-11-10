@@ -4,53 +4,365 @@
   <title>Liquid Cooling Guide — Industry Radar</title>
   <link>https://liquidcoolingguide.com/news</link>
   <description>Liquid cooling news and milestones: technology, products, investment, standards. Every item sourced.</description>
-  <lastBuildDate>Thu, 08 Oct 2026 01:58:17 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 11:55:03 GMT</lastBuildDate>
   <item>
-    <title>Singapore publishes SS 726:2026 — first national standard for liquid cooling in tropical climates</title>
-    <link>/liquid-cooling-standards</link>
-    <guid>/liquid-cooling-standards</guid>
-    <pubDate>Sat, 01 Aug 2026 08:00:00 GMT</pubDate>
-    <category>standards</category>
-    <description>Source: Singapore Standards / this site's standards tracker — Covers direct-to-chip in tropical data centers; excludes standalone edge cabinets — scope matters when vendors claim compliance.</description>
-  </item>
-  <item>
-    <title>3M completes its exit from PFAS manufacturing, ending fluorinated coolant production</title>
-    <link>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</link>
-    <guid>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</guid>
-    <pubDate>Wed, 31 Dec 2025 08:00:00 GMT</pubDate>
+    <title>NSE rolls out direct-to-chip liquid cooling to scale AI computing capabilities; plans to scale GPU capacit</title>
+    <link>https://economictimes.indiatimes.com/markets/stocks/news/nse-rolls-out-direct-to-chip-liquid-cooling-to-scale-ai-computing-capabilities-plans-to-scale-gpu-capacity-beyond-80-this-quarter/articleshow/135676358.cms?from=mdr</link>
+    <guid>https://economictimes.indiatimes.com/markets/stocks/news/nse-rolls-out-direct-to-chip-liquid-cooling-to-scale-ai-computing-capabilities-plans-to-scale-gpu-capacity-beyond-80-this-quarter/articleshow/135676358.cms?from=mdr</guid>
+    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: 3M News Center — Announced Dec 2022, completed end-2025. Single-fluid-class dependence is now a procurement risk — PG25 water-glycol is the default survivor.</description>
+    <description>Source: The Economic Times — </description>
   </item>
   <item>
-    <title>OCP ORv3 blind-mate liquid cooling manifold spec reaches Rev 1.0</title>
-    <link>https://www.opencompute.org/</link>
-    <guid>https://www.opencompute.org/</guid>
-    <pubDate>Mon, 01 Apr 2024 08:00:00 GMT</pubDate>
-    <category>standards</category>
-    <description>Source: Open Compute Project — Servers that mate on insertion, interoperable across vendors — the lock-in defense checklist item in our RFQ tool.</description>
-  </item>
-  <item>
-    <title>NVIDIA GB200 NVL72 mainstreams 120 kW liquid-cooled racks</title>
-    <link>https://www.nvidia.com/en-us/data-center/gb200-nvl72/</link>
-    <guid>https://www.nvidia.com/en-us/data-center/gb200-nvl72/</guid>
-    <pubDate>Mon, 18 Mar 2024 08:00:00 GMT</pubDate>
-    <category>product</category>
-    <description>Source: NVIDIA — Announced at GTC 2024: rack-scale liquid cooling left the exotic category. The power cliff behind this guide's existence.</description>
-  </item>
-  <item>
-    <title>3M announces exit from all PFAS manufacturing by end of 2025</title>
-    <link>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</link>
-    <guid>https://news.3m.com/2022/3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025</guid>
-    <pubDate>Tue, 20 Dec 2022 08:00:00 GMT</pubDate>
+    <title>NSE deploys direct-to-chip liquid cooling to support AI workloads; check key details</title>
+    <link>https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09</link>
+    <guid>https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09</guid>
+    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: 3M News Center — The announcement that redirected immersion-cooling fluid roadmaps for the entire industry.</description>
+    <description>Source: Business Today — </description>
   </item>
   <item>
-    <title>STULZ × CoolIT ship the first turnkey liquid-cooled micro data center</title>
-    <link>https://www.stulz.com/products/detail/micro-dc/</link>
-    <guid>https://www.stulz.com/products/detail/micro-dc/</guid>
-    <pubDate>Mon, 01 Jan 2018 08:00:00 GMT</pubDate>
+    <title>Can Nvidia's Liquid Cooling Solve the AI Data Center Water Crisis?</title>
+    <link>https://www.analyticsinsight.net/ampstories/artificial-intelligence/can-nvidias-liquid-cooling-solve-the-ai-data-center-water-crisis</link>
+    <guid>https://www.analyticsinsight.net/ampstories/artificial-intelligence/can-nvidias-liquid-cooling-solve-the-ai-data-center-water-crisis</guid>
+    <pubDate>Fri, 06 Nov 2026 08:00:00 GMT</pubDate>
     <category>product</category>
-    <description>Source: STULZ product page (verified in our comparison data) — Still the only full predecessor in the 20-50 kW turnkey cabinet space — see the gap statement in our cabinet comparison.</description>
+    <description>Source: Analytics Insight — </description>
+  </item>
+  <item>
+    <title>US Data Center Cooling Market to Reach Investments of USD 29.43 Billion by 2031</title>
+    <link>https://www.openpr.com/news/4684014/us-data-center-cooling-market-to-reach-investments-of-usd-29-43</link>
+    <guid>https://www.openpr.com/news/4684014/us-data-center-cooling-market-to-reach-investments-of-usd-29-43</guid>
+    <pubDate>Fri, 06 Nov 2026 08:00:00 GMT</pubDate>
+    <category>investment</category>
+    <description>Source: Arizton - openPR.com — </description>
+  </item>
+  <item>
+    <title>Garrett Motion to Supply Oil-Free Compressors for Data Center Cooling in Asia-Pacific</title>
+    <link>https://refindustry.com/news/garrett-motion-to-supply-oil-free-compressors-for-data-center-cooling-in-asia-pacific/</link>
+    <guid>https://refindustry.com/news/garrett-motion-to-supply-oil-free-compressors-for-data-center-cooling-in-asia-pacific/</guid>
+    <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Refindustry — </description>
+  </item>
+  <item>
+    <title>AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035</title>
+    <link>https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market</link>
+    <guid>https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market</guid>
+    <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Global Market Insights Inc. — </description>
+  </item>
+  <item>
+    <title>Chemours Launches Faizeon Two-Phase Liquid Cooling Solutions for AI Data Centers</title>
+    <link>https://www.hpcwire.com/off-the-wire/chemours-launches-faizeon-two-phase-liquid-cooling-solutions-for-ai-data-centers/</link>
+    <guid>https://www.hpcwire.com/off-the-wire/chemours-launches-faizeon-two-phase-liquid-cooling-solutions-for-ai-data-centers/</guid>
+    <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: HPCwire — </description>
+  </item>
+  <item>
+    <title>Chemours releases two fluids for two-phase liquid cooling</title>
+    <link>https://www.datacenterdynamics.com/en/news/chemours-releases-two-fluids-for-two-phase-liquid-cooling/</link>
+    <guid>https://www.datacenterdynamics.com/en/news/chemours-releases-two-fluids-for-two-phase-liquid-cooling/</guid>
+    <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Data Center Dynamics — </description>
+  </item>
+  <item>
+    <title>Does Nvidia's liquid cooling make data centers use less water?</title>
+    <link>https://www.msn.com/en-us/news/other/does-nvidias-liquid-cooling-make-data-centers-use-less-water/ar-AA2gKGI8</link>
+    <guid>https://www.msn.com/en-us/news/other/does-nvidias-liquid-cooling-make-data-centers-use-less-water/ar-AA2gKGI8</guid>
+    <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Bing News — Nvidia announced it's greatly improved water usage for its data centers with liquid cooling. But that doesn't mean it's solved the looming energy crisis.</description>
+  </item>
+  <item>
+    <title>Data Center Cooling in 2026: Why the Future Isn't Air vs. Liquid, It's Air and Liquid</title>
+    <link>https://www.datacenterfrontier.com/sponsored/article/55416205/data-center-cooling-in-2026-why-the-future-isnt-air-vs-liquid-its-air-and-liquid</link>
+    <guid>https://www.datacenterfrontier.com/sponsored/article/55416205/data-center-cooling-in-2026-why-the-future-isnt-air-vs-liquid-its-air-and-liquid</guid>
+    <pubDate>Wed, 04 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Frontier — </description>
+  </item>
+  <item>
+    <title>Data Center Liquid Cooling Fluids Market to Reach USD 4.05</title>
+    <link>https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05</link>
+    <guid>https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: openPR.com — </description>
+  </item>
+  <item>
+    <title>Liquid cooling retrofits complex for existing data centers</title>
+    <link>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076</link>
+    <guid>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: ET Datacenters — </description>
+  </item>
+  <item>
+    <title>Accelsius Provides Two-Phase Direct-to-Chip Cooling to Support NSF ES2 Energy Efficiency Research at Villanova University</title>
+    <link>https://finance.yahoo.com/energy/articles/accelsius-provides-two-phase-direct-130000217.html</link>
+    <guid>https://finance.yahoo.com/energy/articles/accelsius-provides-two-phase-direct-130000217.html</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Yahoo Finance — </description>
+  </item>
+  <item>
+    <title>Chemours unveils liquid cooling solution for high-performance computing, data centers</title>
+    <link>https://tech.yahoo.com/computing/articles/chemours-unveils-liquid-cooling-solution-133844082.html</link>
+    <guid>https://tech.yahoo.com/computing/articles/chemours-unveils-liquid-cooling-solution-133844082.html</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Yahoo Tech — </description>
+  </item>
+  <item>
+    <title>Liquid Cooling Is Changing What Data Centers Need to Measure</title>
+    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure</link>
+    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Knowledge — </description>
+  </item>
+  <item>
+    <title>Liquid cooling demands new data centre measurement standards</title>
+    <link>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-demands-new-data-centre-measurement-standards/135505806</link>
+    <guid>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-demands-new-data-centre-measurement-standards/135505806</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>standards</category>
+    <description>Source: ET Datacenters — </description>
+  </item>
+  <item>
+    <title>Why flow measurement is emerging as a critical design consideration in liquid cooled data centers</title>
+    <link>https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/</link>
+    <guid>https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Dynamics — </description>
+  </item>
+  <item>
+    <title>OCP 2026: Cooler Master Scales Liquid Cooling from Cold Plates to 2.5 MW CDUs</title>
+    <link>https://www.datacenterfrontier.com/cooling/article/55415936/ocp-2026-cooler-master-scales-liquid-cooling-from-cold-plates-to-25-mw-cdus</link>
+    <guid>https://www.datacenterfrontier.com/cooling/article/55415936/ocp-2026-cooler-master-scales-liquid-cooling-from-cold-plates-to-25-mw-cdus</guid>
+    <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
+    <category>standards</category>
+    <description>Source: Data Center Frontier — </description>
+  </item>
+  <item>
+    <title>Liquid Cooling Retrofits: Hard, but Sometimes Worth It</title>
+    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-retrofits-hard-but-sometimes-worth-it</link>
+    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-retrofits-hard-but-sometimes-worth-it</guid>
+    <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Knowledge — </description>
+  </item>
+  <item>
+    <title>As AI Chips Near 4,000 Watts, Liquid Cooling Becomes the Backbone of Data Center Design</title>
+    <link>https://www.marketscale.com/industries/software-and-technology/ai-data-center-liquid-cooling-4000-watt-chips</link>
+    <guid>https://www.marketscale.com/industries/software-and-technology/ai-data-center-liquid-cooling-4000-watt-chips</guid>
+    <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: MarketScale — </description>
+  </item>
+  <item>
+    <title>Chemours launches HFO-based two-phase cooling fluids</title>
+    <link>https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/</link>
+    <guid>https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/</guid>
+    <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Cooling Post — </description>
+  </item>
+  <item>
+    <title>Oregon State University leads the way in data center innovation with liquid cooling</title>
+    <link>https://www.datacenterdynamics.com/en/whitepapers/oregon-state-university-leads-the-way-in-data-center-innovation-with-liquid-cooling/</link>
+    <guid>https://www.datacenterdynamics.com/en/whitepapers/oregon-state-university-leads-the-way-in-data-center-innovation-with-liquid-cooling/</guid>
+    <pubDate>Sun, 01 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Bing News — How Oregon State University improved computing performance, reduced cooling demands, and advanced data center sustainability with ZutaCore ...</description>
+  </item>
+  <item>
+    <title>Data Center Immersion Cooling Fluids Market worth $1.06 billion by 2033</title>
+    <link>https://www.marketsandmarkets.com/core/PressReleases/data-center-immersion-cooling-fluids.asp</link>
+    <guid>https://www.marketsandmarkets.com/core/PressReleases/data-center-immersion-cooling-fluids.asp</guid>
+    <pubDate>Fri, 23 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: MarketsandMarkets — </description>
+  </item>
+  <item>
+    <title>DCX builds coolant chemistry control into its 8 MW Facility Distribution Unit</title>
+    <link>https://www.afp.com/en/infos/dcx-builds-coolant-chemistry-control-its-8-mw-facility-distribution-unit</link>
+    <guid>https://www.afp.com/en/infos/dcx-builds-coolant-chemistry-control-its-8-mw-facility-distribution-unit</guid>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Bing News — </description>
+  </item>
+  <item>
+    <title>Coolant Distribution Units Market Size, Share | Growth [2034]</title>
+    <link>https://www.fortunebusinessinsights.com/coolant-distribution-units-market-115841</link>
+    <guid>https://www.fortunebusinessinsights.com/coolant-distribution-units-market-115841</guid>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Fortune Business Insights — </description>
+  </item>
+  <item>
+    <title>Immersion Cooling Market Size, Share, Trends, Report, 2034</title>
+    <link>https://www.fortunebusinessinsights.com/immersion-cooling-market-111685</link>
+    <guid>https://www.fortunebusinessinsights.com/immersion-cooling-market-111685</guid>
+    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Fortune Business Insights — </description>
+  </item>
+  <item>
+    <title>Shell Liquid Cooling Fluids</title>
+    <link>https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html</link>
+    <guid>https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html</guid>
+    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Shell Global — </description>
+  </item>
+  <item>
+    <title>Nidec anounces 3.2MW in-row CDU</title>
+    <link>https://www.datacenterdynamics.com/en/news/nidec-anounces-32mw-in-row-cdu/</link>
+    <guid>https://www.datacenterdynamics.com/en/news/nidec-anounces-32mw-in-row-cdu/</guid>
+    <pubDate>Wed, 14 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Bing News — </description>
+  </item>
+  <item>
+    <title>Vertiv vs CoolIT vs Motivair: Data Center Liquid Cooling - https://tech-insider.org/</title>
+    <link>https://tech-insider.org/vertiv-vs-coolit-vs-motivair-data-center-liquid-cooling-2026/</link>
+    <guid>https://tech-insider.org/vertiv-vs-coolit-vs-motivair-data-center-liquid-cooling-2026/</guid>
+    <pubDate>Tue, 13 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — </description>
+  </item>
+  <item>
+    <title>Data Centers Liquid Immersion Cooling Market Size, Share, 2034</title>
+    <link>https://www.fortunebusinessinsights.com/data-center-liquid-immersion-cooling-market-103759</link>
+    <guid>https://www.fortunebusinessinsights.com/data-center-liquid-immersion-cooling-market-103759</guid>
+    <pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Fortune Business Insights — </description>
+  </item>
+  <item>
+    <title>Vertiv™ Coolant Distribution Unit Qualified as NVIDIA DSX Ready for AI Factory Infrastructure</title>
+    <link>https://www.engineeringnews.co.za/article/vertiv-coolant-distribution-unit-qualified-as-nvidia-dsx-ready-for-ai-factory-infrastructure-2026-10-09</link>
+    <guid>https://www.engineeringnews.co.za/article/vertiv-coolant-distribution-unit-qualified-as-nvidia-dsx-ready-for-ai-factory-infrastructure-2026-10-09</guid>
+    <pubDate>Fri, 09 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Engineering News — </description>
+  </item>
+  <item>
+    <title>LG Electronics secures 5-gigawatt-plus AI data center cooling deal</title>
+    <link>https://www.upi.com/Top_News/World-News/2026/10/06/LG-Electronics-cooling-center-contract/4351791291445/</link>
+    <guid>https://www.upi.com/Top_News/World-News/2026/10/06/LG-Electronics-cooling-center-contract/4351791291445/</guid>
+    <pubDate>Tue, 06 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Bing News — South Korea's LG Electronics said Monday it signed a long-term agreement to supply cooling solutions for AI data centers in North America.</description>
+  </item>
+  <item>
+    <title>HF Sinclair launches cooling fluid for direct-to-chip environments</title>
+    <link>https://www.datacenterdynamics.com/en/news/hf-sinclair-launches-cooling-fluid-for-direct-to-chip-environments/</link>
+    <guid>https://www.datacenterdynamics.com/en/news/hf-sinclair-launches-cooling-fluid-for-direct-to-chip-environments/</guid>
+    <pubDate>Tue, 06 Oct 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Data Center Dynamics — </description>
+  </item>
+  <item>
+    <title>UL Solutions Launches Certification for Direct-to-Chip Liquid Cooling Equipment Used in AI Data Centers</title>
+    <link>https://www.businesswire.com/news/home/20260929465054/en/UL-Solutions-Launches-Certification-for-Direct-to-Chip-Liquid-Cooling-Equipment-Used-in-AI-Data-Centers</link>
+    <guid>https://www.businesswire.com/news/home/20260929465054/en/UL-Solutions-Launches-Certification-for-Direct-to-Chip-Liquid-Cooling-Equipment-Used-in-AI-Data-Centers</guid>
+    <pubDate>Tue, 29 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Business Wire — </description>
+  </item>
+  <item>
+    <title>Trane &amp; LiquidStack launch new 2.5MW CDU</title>
+    <link>https://www.datacenterdynamics.com/en/news/trane-liquidstack-launch-new-25mw-cdu/</link>
+    <guid>https://www.datacenterdynamics.com/en/news/trane-liquidstack-launch-new-25mw-cdu/</guid>
+    <pubDate>Tue, 29 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Bing News — </description>
+  </item>
+  <item>
+    <title>DCF Tours: Inside CoolIT, Where AI Liquid Cooling Goes to Scale</title>
+    <link>https://www.datacenterfrontier.com/cooling/article/55408060/dcf-tours-inside-coolit-where-ai-liquid-cooling-goes-to-scale</link>
+    <guid>https://www.datacenterfrontier.com/cooling/article/55408060/dcf-tours-inside-coolit-where-ai-liquid-cooling-goes-to-scale</guid>
+    <pubDate>Mon, 28 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Frontier — </description>
+  </item>
+  <item>
+    <title>Schneider Electric launches new Motivair coolant</title>
+    <link>https://www.globenewswire.com/news-release/2026/09/23/3367288/0/en/schneider-electric-launches-new-motivair-coolant-distribution-unit-integrating-liquid-and-air-cooling-for-more-flexible-data-center-deployments.html</link>
+    <guid>https://www.globenewswire.com/news-release/2026/09/23/3367288/0/en/schneider-electric-launches-new-motivair-coolant-distribution-unit-integrating-liquid-and-air-cooling-for-more-flexible-data-center-deployments.html</guid>
+    <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: GlobeNewswire — </description>
+  </item>
+  <item>
+    <title>4 Common Direct-to-Chip Cooling Challenges and How to Solve Them</title>
+    <link>https://www.datacenterknowledge.com/infrastructure/4-common-direct-to-chip-cooling-challenges-and-how-to-solve-them</link>
+    <guid>https://www.datacenterknowledge.com/infrastructure/4-common-direct-to-chip-cooling-challenges-and-how-to-solve-them</guid>
+    <pubDate>Wed, 23 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Knowledge — </description>
+  </item>
+  <item>
+    <title>LG Electronics’ 2.6-Megawatt Coolant Distribution Unit Qualifies as NVIDIA DSX Ready CDU</title>
+    <link>https://www.lgcorp.com/media/release/30597</link>
+    <guid>https://www.lgcorp.com/media/release/30597</guid>
+    <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: LG Corp — </description>
+  </item>
+  <item>
+    <title>LG Electronics wins Nvidia nod for 2.5MW CDU, boosts AI data center push</title>
+    <link>https://biz.chosun.com/en/en-it/2026/09/22/BD4432EE7JEVDLM3CN3TOHDMNU/</link>
+    <guid>https://biz.chosun.com/en/en-it/2026/09/22/BD4432EE7JEVDLM3CN3TOHDMNU/</guid>
+    <pubDate>Mon, 21 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Bing News — </description>
+  </item>
+  <item>
+    <title>OData to deploy Aligned's DeltaFlow liquid cooling system at Brazil and Mexico data centers</title>
+    <link>https://www.datacenterdynamics.com/en/news/odata-to-deploy-aligneds-deltaflow-liquid-cooling-system-at-brazil-and-mexico-data-centers/</link>
+    <guid>https://www.datacenterdynamics.com/en/news/odata-to-deploy-aligneds-deltaflow-liquid-cooling-system-at-brazil-and-mexico-data-centers/</guid>
+    <pubDate>Sun, 20 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Bing News — </description>
+  </item>
+  <item>
+    <title>Direct-to-Chip Cooling Loop Degassing Systems Market</title>
+    <link>https://www.futuremarketinsights.com/reports/direct-to-chip-cooling-loop-degassing-systems-market</link>
+    <guid>https://www.futuremarketinsights.com/reports/direct-to-chip-cooling-loop-degassing-systems-market</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Future Market Insights — </description>
+  </item>
+  <item>
+    <title>Liquid cooling enters the mainstream in data centers</title>
+    <link>https://www.jll.com/en-us/insights/liquid-cooling-enters-the-mainstream-in-data-centers</link>
+    <guid>https://www.jll.com/en-us/insights/liquid-cooling-enters-the-mainstream-in-data-centers</guid>
+    <pubDate>Tue, 01 Sep 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: JLL — </description>
+  </item>
+  <item>
+    <title>Accelsius to Deploy Two-Phase Direct-To-Chip Liquid Cooling System at EdgeConneX Global Training Center</title>
+    <link>https://finance.yahoo.com/technology/ai/articles/accelsius-deploy-two-phase-direct-150000291.html</link>
+    <guid>https://finance.yahoo.com/technology/ai/articles/accelsius-deploy-two-phase-direct-150000291.html</guid>
+    <pubDate>Thu, 27 Aug 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Yahoo Finance — </description>
+  </item>
+  <item>
+    <title>Liquid Cooling Options: RDHx, Direct-to-Chip, Immersion</title>
+    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-options-rdhx-direct-to-chip-immersion</link>
+    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-options-rdhx-direct-to-chip-immersion</guid>
+    <pubDate>Tue, 25 Aug 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Knowledge — </description>
   </item>
 </channel></rss>

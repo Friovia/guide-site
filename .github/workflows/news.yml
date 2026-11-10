@@ -13,13 +13,29 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Cache headless Chrome
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: chrome-${{ runner.os }}-stable
+
+      - name: Install headless Chrome
+        run: |
+          npx @puppeteer/browsers install chrome@stable --path ~/.cache/puppeteer
+          echo "PUPPETEER_EXECUTABLE_PATH=$(find ~/.cache/puppeteer -name chrome -type f -perm -u+x | head -1)" >> $GITHUB_ENV
+
+      - uses: pnpm/action-setup@v4
+
+      - name: Install deps (puppeteer-core)
+        run: pnpm install --frozen-lockfile --ignore-scripts
 
       - name: Fetch and merge news
         run: node scripts/fetch-news.mjs
