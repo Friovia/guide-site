@@ -5,10 +5,9 @@
 
 Locales:
 
-- [English /](https://liquidcoolingguide.com/): default locale, full site.
 - [English /](https://liquidcoolingguide.com/): default locale, full site (en covers all content; es/ar are localized landings).
-  - [Español](https://liquidcoolingguide.com/es): es 落地页（landing page，本地化 hero/工具栏/目录导航）
-  - [العربية](https://liquidcoolingguide.com/ar): ar 落地页（landing page，本地化 hero/工具栏/目录导航）
+  - [Español](https://liquidcoolingguide.com/es): es landing page (localized hero, toolbar and directory navigation).
+  - [العربية](https://liquidcoolingguide.com/ar): ar landing page (localized hero, toolbar and directory navigation, RTL).
 
 Radar:
 
