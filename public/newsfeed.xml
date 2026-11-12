@@ -4,7 +4,39 @@
   <title>Liquid Cooling Guide — Industry Radar</title>
   <link>https://liquidcoolingguide.com/news</link>
   <description>Liquid cooling news and milestones: technology, products, investment, standards. Every item sourced.</description>
-  <lastBuildDate>Wed, 11 Nov 2026 11:17:34 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 11:34:13 GMT</lastBuildDate>
+  <item>
+    <title>GF Launches Intelligent Multi Control Valve for Direct Liquid Cooling in High-Density Data Centres</title>
+    <link>https://themachinemaker.com/news/gf-launches-intelligent-multi-control-valve-for-direct-liquid-cooling-in-high-density-data-centres/</link>
+    <guid>https://themachinemaker.com/news/gf-launches-intelligent-multi-control-valve-for-direct-liquid-cooling-in-high-density-data-centres/</guid>
+    <pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Machine Maker — </description>
+  </item>
+  <item>
+    <title>TotalEnergies Lubrifiants’ Coolant Keep Plate Protects Ultra-Fast Charging Batteries Against Thermal Runaway - DirectIndustry e-Magazine</title>
+    <link>https://emag.directindustry.com/2026/11/12/totalenergies-lubrifiants-coolant-keep-plate-protects-ultra-fast-charging-batteries-against-thermal-runaway/?ki-cf-botcl=1</link>
+    <guid>https://emag.directindustry.com/2026/11/12/totalenergies-lubrifiants-coolant-keep-plate-protects-ultra-fast-charging-batteries-against-thermal-runaway/?ki-cf-botcl=1</guid>
+    <pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Google News — </description>
+  </item>
+  <item>
+    <title>DCD Survey: Direct liquid cooling | From deployment to lifecycle</title>
+    <link>https://www.datacenterdynamics.com/en/whitepapers/dcd-survey-direct-liquid-cooling-from-deployment-to-lifecycle/</link>
+    <guid>https://www.datacenterdynamics.com/en/whitepapers/dcd-survey-direct-liquid-cooling-from-deployment-to-lifecycle/</guid>
+    <pubDate>Thu, 12 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Dynamics — </description>
+  </item>
+  <item>
+    <title>Data center free cooling: running chillers only when needed</title>
+    <link>https://www.datacenterdynamics.com/en/whitepapers/data-center-free-cooling-running-chillers-only-when-needed/</link>
+    <guid>https://www.datacenterdynamics.com/en/whitepapers/data-center-free-cooling-running-chillers-only-when-needed/</guid>
+    <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: DCD — A guide to trim chilling, and how CDU approach and supply temperature set your chiller hours</description>
+  </item>
   <item>
     <title>NSE deploys direct-to-chip liquid cooling for AI workloads, plans expansion to 224 GPUs</title>
     <link>https://www.crnasia.com/india/news/2026/nse-deploys-direct-to-chip-liquid-cooling-for-ai-workloads-plans-expansion-to-224-gpus</link>
@@ -22,20 +54,60 @@
     <description>Source: openPR.com — </description>
   </item>
   <item>
-    <title>Siemens' new stainless steel valve expands liquid cooling offering for AI data centers</title>
-    <link>https://press.siemens.com/global/en/pressrelease/siemens-new-stainless-steel-valve-expands-liquid-cooling-offering-ai-data-centers</link>
-    <guid>https://press.siemens.com/global/en/pressrelease/siemens-new-stainless-steel-valve-expands-liquid-cooling-offering-ai-data-centers</guid>
-    <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
-    <category>product</category>
-    <description>Source: Siemens Press — </description>
-  </item>
-  <item>
-    <title>Data center free cooling: running chillers only when needed</title>
-    <link>https://www.datacenterdynamics.com/en/whitepapers/data-center-free-cooling-running-chillers-only-when-needed/</link>
-    <guid>https://www.datacenterdynamics.com/en/whitepapers/data-center-free-cooling-running-chillers-only-when-needed/</guid>
+    <title>Q&amp;A | Liquid cooling is changing how we design, and deploy the entire rack: Matt McGuff, Jabil</title>
+    <link>https://w.media/qa-liquid-cooling-is-changing-how-we-design-and-deploy-the-entire-rack-matt-mcguff-jabil/</link>
+    <guid>https://w.media/qa-liquid-cooling-is-changing-how-we-design-and-deploy-the-entire-rack-matt-mcguff-jabil/</guid>
     <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: DCD — A guide to trim chilling, and how CDU approach and supply temperature set your chiller hours</description>
+    <description>Source: W.Media — </description>
+  </item>
+  <item>
+    <title>Delta showcases AI data center cooling and power solutions at Electronica 2026</title>
+    <link>https://datacentre.solutions/news/24802-delta-showcases-ai-data-center-cooling-and-power-solutions-at-electronica-2026</link>
+    <guid>https://datacentre.solutions/news/24802-delta-showcases-ai-data-center-cooling-and-power-solutions-at-electronica-2026</guid>
+    <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Centre Solutions — </description>
+  </item>
+  <item>
+    <title>Siemens’ new stainless steel valve expands liquid cooling offering for AI data centers</title>
+    <link>https://www.webwire.com/ViewPressRel.asp?aId=364045</link>
+    <guid>https://www.webwire.com/ViewPressRel.asp?aId=364045</guid>
+    <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: WebWire — </description>
+  </item>
+  <item>
+    <title>Shell and FAW Trucks are testing an immersion cooling battery that bathes truck cells in liquid, and Shell says early results point to potential climbing gains of up to 98 percent, pending final validation - ECOticias.com</title>
+    <link>https://www.ecoticias.com/en/shell-and-faw-trucks-are-testing-an-immersion-cooling-battery-that-bathes-truck-cells-in-liquid-and-shell-says-early-results-point-to-potential-climbing-gains-of-up-to-98-percent-pending-final-valid/53943/</link>
+    <guid>https://www.ecoticias.com/en/shell-and-faw-trucks-are-testing-an-immersion-cooling-battery-that-bathes-truck-cells-in-liquid-and-shell-says-early-results-point-to-potential-climbing-gains-of-up-to-98-percent-pending-final-valid/53943/</guid>
+    <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: El Periódico Verde — </description>
+  </item>
+  <item>
+    <title>Data Center Cooling Market to Reach US$ 42 Bn by 2031, Growing at 16.5% CAGR as AI Racks Push Cooling From Air to Liquid: Wissen Research</title>
+    <link>https://www.prnewswire.com/news-releases/data-center-cooling-market-to-reach-us-42-bn-by-2031--growing-at-16-5-cagr-as-ai-racks-push-cooling-from-air-to-liquid-wissen-research-302936853.html</link>
+    <guid>https://www.prnewswire.com/news-releases/data-center-cooling-market-to-reach-us-42-bn-by-2031--growing-at-16-5-cagr-as-ai-racks-push-cooling-from-air-to-liquid-wissen-research-302936853.html</guid>
+    <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: PR Newswire — </description>
+  </item>
+  <item>
+    <title>Clean the Sky - PFAS-Free Data Center Coolants</title>
+    <link>https://www.cleanthesky.com/innovation/pfasfree-data-center-coolants</link>
+    <guid>https://www.cleanthesky.com/innovation/pfasfree-data-center-coolants</guid>
+    <pubDate>Tue, 10 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Trend Hunter — </description>
+  </item>
+  <item>
+    <title>Sensata Technologies Introduces Ultrasonic Flow Sensors Designed for AI-Driven Data Center Cooling Systems</title>
+    <link>https://www.azosensors.com/news.aspx?newsID=17003</link>
+    <guid>https://www.azosensors.com/news.aspx?newsID=17003</guid>
+    <pubDate>Tue, 10 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: AZoSensors — </description>
   </item>
   <item>
     <title>Waterloo team cools chip hotspots with single coolant drops</title>
@@ -54,14 +126,6 @@
     <description>Source: ET Datacenters — </description>
   </item>
   <item>
-    <title>Sensata Technologies Introduces Ultrasonic Flow Sensors Designed for AI-Driven Data Center Cooling Systems</title>
-    <link>https://www.azosensors.com/news.aspx?newsID=17003</link>
-    <guid>https://www.azosensors.com/news.aspx?newsID=17003</guid>
-    <pubDate>Tue, 10 Nov 2026 08:00:00 GMT</pubDate>
-    <category>product</category>
-    <description>Source: AZoSensors — </description>
-  </item>
-  <item>
     <title>Why AI Data Centres Need Better Coolant Visibility</title>
     <link>https://datacentremagazine.com/news/why-ai-data-centres-need-better-coolant-visibility</link>
     <guid>https://datacentremagazine.com/news/why-ai-data-centres-need-better-coolant-visibility</guid>
@@ -70,12 +134,20 @@
     <description>Source: Data Centre Magazine — </description>
   </item>
   <item>
-    <title>Clean the Sky - PFAS-Free Data Center Coolants</title>
-    <link>https://www.cleanthesky.com/innovation/pfasfree-data-center-coolants</link>
-    <guid>https://www.cleanthesky.com/innovation/pfasfree-data-center-coolants</guid>
-    <pubDate>Tue, 10 Nov 2026 08:00:00 GMT</pubDate>
+    <title>XNRGY reports record breaking shipments</title>
+    <link>https://www.coolingpost.com/world-news/xnrgy-reports-record-breaking-shipments/</link>
+    <guid>https://www.coolingpost.com/world-news/xnrgy-reports-record-breaking-shipments/</guid>
+    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
+    <category>product</category>
+    <description>Source: Cooling Post — </description>
+  </item>
+  <item>
+    <title>NSE deploys direct-to-chip liquid cooling to support AI workloads; check key details</title>
+    <link>https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09</link>
+    <guid>https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09</guid>
+    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: Trend Hunter — </description>
+    <description>Source: Business Today — </description>
   </item>
   <item>
     <title>Airsys Expands Global Leadership Team With Six Executive Appointments to Support AI Data Center Cooling Growth</title>
@@ -86,20 +158,20 @@
     <description>Source: citybiz — </description>
   </item>
   <item>
+    <title>Shell Liquid Cooling Fluids</title>
+    <link>https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html</link>
+    <guid>https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html</guid>
+    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Shell Global — </description>
+  </item>
+  <item>
     <title>NSE rolls out direct-to-chip liquid cooling to scale AI computing capabilities; plans to scale GPU capacit</title>
     <link>https://economictimes.indiatimes.com/markets/stocks/news/nse-rolls-out-direct-to-chip-liquid-cooling-to-scale-ai-computing-capabilities-plans-to-scale-gpu-capacity-beyond-80-this-quarter/articleshow/135676358.cms?from=mdr</link>
     <guid>https://economictimes.indiatimes.com/markets/stocks/news/nse-rolls-out-direct-to-chip-liquid-cooling-to-scale-ai-computing-capabilities-plans-to-scale-gpu-capacity-beyond-80-this-quarter/articleshow/135676358.cms?from=mdr</guid>
     <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
     <description>Source: The Economic Times — </description>
-  </item>
-  <item>
-    <title>NSE deploys direct-to-chip liquid cooling to support AI workloads; check key details</title>
-    <link>https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09</link>
-    <guid>https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09</guid>
-    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Business Today — </description>
   </item>
   <item>
     <title>Data Center Cooling CDU Pumps Market to Reach USD 5,500.47</title>
@@ -111,19 +183,11 @@
   </item>
   <item>
     <title>Digital Realty launches liquid cooling lab in São Paulo, Brazil</title>
-    <link>https://www.datacenterdynamics.com/en/news/digital-realty-launches-liquid-cooling-lab-in-s%C3%A3o-paulo-brazil/</link>
-    <guid>https://www.datacenterdynamics.com/en/news/digital-realty-launches-liquid-cooling-lab-in-s%C3%A3o-paulo-brazil/</guid>
+    <link>https://bebeez.eu/2026/11/09/digital-realty-launches-liquid-cooling-lab-in-sao-paulo-brazil/</link>
+    <guid>https://bebeez.eu/2026/11/09/digital-realty-launches-liquid-cooling-lab-in-sao-paulo-brazil/</guid>
     <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
     <category>product</category>
-    <description>Source: Data Center Dynamics — </description>
-  </item>
-  <item>
-    <title>XNRGY reports record breaking shipments</title>
-    <link>https://www.coolingpost.com/world-news/xnrgy-reports-record-breaking-shipments/</link>
-    <guid>https://www.coolingpost.com/world-news/xnrgy-reports-record-breaking-shipments/</guid>
-    <pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
-    <category>product</category>
-    <description>Source: Cooling Post — </description>
+    <description>Source: BeBeez International — </description>
   </item>
   <item>
     <title>Can Nvidia's Liquid Cooling Solve the AI Data Center Water Crisis?</title>
@@ -134,20 +198,20 @@
     <description>Source: Analytics Insight — </description>
   </item>
   <item>
-    <title>AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035</title>
-    <link>https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market</link>
-    <guid>https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market</guid>
-    <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Global Market Insights Inc. — </description>
-  </item>
-  <item>
     <title>Garrett Motion to Supply Oil-Free Compressors for Data Center Cooling in Asia-Pacific</title>
     <link>https://refindustry.com/news/garrett-motion-to-supply-oil-free-compressors-for-data-center-cooling-in-asia-pacific/</link>
     <guid>https://refindustry.com/news/garrett-motion-to-supply-oil-free-compressors-for-data-center-cooling-in-asia-pacific/</guid>
     <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
     <description>Source: Refindustry — </description>
+  </item>
+  <item>
+    <title>AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035</title>
+    <link>https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market</link>
+    <guid>https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market</guid>
+    <pubDate>Thu, 05 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Global Market Insights Inc. — </description>
   </item>
   <item>
     <title>Chemours Launches Faizeon Two-Phase Liquid Cooling Solutions for AI Data Centers</title>
@@ -174,28 +238,12 @@
     <description>Source: Bing News — Nvidia announced it's greatly improved water usage for its data centers with liquid cooling. But that doesn't mean it's solved the looming energy crisis.</description>
   </item>
   <item>
-    <title>Liquid Cooling Is Changing What Data Centers Need to Measure</title>
-    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure</link>
-    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure</guid>
+    <title>Why flow measurement is emerging as a critical design consideration in liquid cooled data centers</title>
+    <link>https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/</link>
+    <guid>https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/</guid>
     <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: Data Center Knowledge — </description>
-  </item>
-  <item>
-    <title>Data Center Liquid Cooling Fluids Market to Reach USD 4.05</title>
-    <link>https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05</link>
-    <guid>https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05</guid>
-    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: openPR.com — </description>
-  </item>
-  <item>
-    <title>Liquid cooling retrofits complex for existing data centers</title>
-    <link>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076</link>
-    <guid>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076</guid>
-    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: ET Datacenters — </description>
+    <description>Source: Data Center Dynamics — </description>
   </item>
   <item>
     <title>Liquid cooling demands new data centre measurement standards</title>
@@ -206,12 +254,28 @@
     <description>Source: ET Datacenters — </description>
   </item>
   <item>
-    <title>Why flow measurement is emerging as a critical design consideration in liquid cooled data centers</title>
-    <link>https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/</link>
-    <guid>https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/</guid>
+    <title>Liquid cooling retrofits complex for existing data centers</title>
+    <link>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076</link>
+    <guid>https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076</guid>
     <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
-    <description>Source: Data Center Dynamics — </description>
+    <description>Source: ET Datacenters — </description>
+  </item>
+  <item>
+    <title>Data Center Liquid Cooling Fluids Market to Reach USD 4.05</title>
+    <link>https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05</link>
+    <guid>https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: openPR.com — </description>
+  </item>
+  <item>
+    <title>Liquid Cooling Is Changing What Data Centers Need to Measure</title>
+    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure</link>
+    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure</guid>
+    <pubDate>Tue, 03 Nov 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Data Center Knowledge — </description>
   </item>
   <item>
     <title>Chemours unveils liquid cooling solution for high-performance computing, data centers</title>
@@ -238,12 +302,12 @@
     <description>Source: Bing News — Tom Carroll of ebm-papst Americas discusses the cooling trends shaping the next generation of AI-ready facilities.</description>
   </item>
   <item>
-    <title>Liquid Cooling Retrofits: Hard, but Sometimes Worth It</title>
-    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-retrofits-hard-but-sometimes-worth-it</link>
-    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-retrofits-hard-but-sometimes-worth-it</guid>
+    <title>Chemours launches HFO-based two-phase cooling fluids</title>
+    <link>https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/</link>
+    <guid>https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/</guid>
     <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Data Center Knowledge — </description>
+    <category>product</category>
+    <description>Source: Cooling Post — </description>
   </item>
   <item>
     <title>As AI Chips Near 4,000 Watts, Liquid Cooling Becomes the Backbone of Data Center Design</title>
@@ -254,12 +318,12 @@
     <description>Source: MarketScale — </description>
   </item>
   <item>
-    <title>Chemours launches HFO-based two-phase cooling fluids</title>
-    <link>https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/</link>
-    <guid>https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/</guid>
+    <title>Liquid Cooling Retrofits: Hard, but Sometimes Worth It</title>
+    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-retrofits-hard-but-sometimes-worth-it</link>
+    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-retrofits-hard-but-sometimes-worth-it</guid>
     <pubDate>Mon, 02 Nov 2026 08:00:00 GMT</pubDate>
-    <category>product</category>
-    <description>Source: Cooling Post — </description>
+    <category>technology</category>
+    <description>Source: Data Center Knowledge — </description>
   </item>
   <item>
     <title>Oregon State University leads the way in data center innovation with liquid cooling</title>
@@ -276,6 +340,22 @@
     <pubDate>Sun, 01 Nov 2026 08:00:00 GMT</pubDate>
     <category>standards</category>
     <description>Source: Bing News — An inside look at Cooler Master's expanding AI cooling portfolio reveals a focus on modular design, serviceability, and the equipment needed to deploy liquid cooling at data ...</description>
+  </item>
+  <item>
+    <title>Can nVent Electric Become the Next Vertiv?</title>
+    <link>https://www.msn.com/en-us/news/other/can-nvent-electric-become-the-next-vertiv/ar-AA2gewNg</link>
+    <guid>https://www.msn.com/en-us/news/other/can-nvent-electric-become-the-next-vertiv/ar-AA2gewNg</guid>
+    <pubDate>Wed, 28 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Bing News — nVent is a smaller company that specializes in liquid cooling solutions, and it may be a better stock than Vertiv right now.</description>
+  </item>
+  <item>
+    <title>Coolant Distribution Units Market Size, Share | Growth [2034]</title>
+    <link>https://www.fortunebusinessinsights.com/coolant-distribution-units-market-115841</link>
+    <guid>https://www.fortunebusinessinsights.com/coolant-distribution-units-market-115841</guid>
+    <pubDate>Mon, 26 Oct 2026 08:00:00 GMT</pubDate>
+    <category>technology</category>
+    <description>Source: Fortune Business Insights — </description>
   </item>
   <item>
     <title>Data Centers Liquid Immersion Cooling Market Size, Share, 2034</title>
@@ -302,28 +382,12 @@
     <description>Source: Bing News — </description>
   </item>
   <item>
-    <title>Coolant Distribution Units Market Size, Share | Growth [2034]</title>
-    <link>https://www.fortunebusinessinsights.com/coolant-distribution-units-market-115841</link>
-    <guid>https://www.fortunebusinessinsights.com/coolant-distribution-units-market-115841</guid>
-    <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Fortune Business Insights — </description>
-  </item>
-  <item>
     <title>Immersion Cooling Market Size, Share, Trends, Report, 2034</title>
     <link>https://www.fortunebusinessinsights.com/immersion-cooling-market-111685</link>
     <guid>https://www.fortunebusinessinsights.com/immersion-cooling-market-111685</guid>
     <pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
     <description>Source: Fortune Business Insights — </description>
-  </item>
-  <item>
-    <title>Shell Liquid Cooling Fluids</title>
-    <link>https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html</link>
-    <guid>https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html</guid>
-    <pubDate>Sat, 17 Oct 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Shell Global — </description>
   </item>
   <item>
     <title>Nidec anounces 3.2MW in-row CDU</title>
@@ -420,53 +484,5 @@
     <pubDate>Tue, 22 Sep 2026 08:00:00 GMT</pubDate>
     <category>technology</category>
     <description>Source: LG Corp — </description>
-  </item>
-  <item>
-    <title>LG Electronics wins Nvidia nod for 2.5MW CDU, boosts AI data center push</title>
-    <link>https://biz.chosun.com/en/en-it/2026/09/22/BD4432EE7JEVDLM3CN3TOHDMNU/</link>
-    <guid>https://biz.chosun.com/en/en-it/2026/09/22/BD4432EE7JEVDLM3CN3TOHDMNU/</guid>
-    <pubDate>Mon, 21 Sep 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Bing News — </description>
-  </item>
-  <item>
-    <title>OData to deploy Aligned's DeltaFlow liquid cooling system at Brazil and Mexico data centers</title>
-    <link>https://www.datacenterdynamics.com/en/news/odata-to-deploy-aligneds-deltaflow-liquid-cooling-system-at-brazil-and-mexico-data-centers/</link>
-    <guid>https://www.datacenterdynamics.com/en/news/odata-to-deploy-aligneds-deltaflow-liquid-cooling-system-at-brazil-and-mexico-data-centers/</guid>
-    <pubDate>Sun, 20 Sep 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Bing News — </description>
-  </item>
-  <item>
-    <title>Direct-to-Chip Cooling Loop Degassing Systems Market</title>
-    <link>https://www.futuremarketinsights.com/reports/direct-to-chip-cooling-loop-degassing-systems-market</link>
-    <guid>https://www.futuremarketinsights.com/reports/direct-to-chip-cooling-loop-degassing-systems-market</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Future Market Insights — </description>
-  </item>
-  <item>
-    <title>Liquid cooling enters the mainstream in data centers</title>
-    <link>https://www.jll.com/en-us/insights/liquid-cooling-enters-the-mainstream-in-data-centers</link>
-    <guid>https://www.jll.com/en-us/insights/liquid-cooling-enters-the-mainstream-in-data-centers</guid>
-    <pubDate>Tue, 01 Sep 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: JLL — </description>
-  </item>
-  <item>
-    <title>Accelsius to Deploy Two-Phase Direct-To-Chip Liquid Cooling System at EdgeConneX Global Training Center</title>
-    <link>https://finance.yahoo.com/technology/ai/articles/accelsius-deploy-two-phase-direct-150000291.html</link>
-    <guid>https://finance.yahoo.com/technology/ai/articles/accelsius-deploy-two-phase-direct-150000291.html</guid>
-    <pubDate>Thu, 27 Aug 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Yahoo Finance — </description>
-  </item>
-  <item>
-    <title>Liquid Cooling Options: RDHx, Direct-to-Chip, Immersion</title>
-    <link>https://www.datacenterknowledge.com/cooling/liquid-cooling-options-rdhx-direct-to-chip-immersion</link>
-    <guid>https://www.datacenterknowledge.com/cooling/liquid-cooling-options-rdhx-direct-to-chip-immersion</guid>
-    <pubDate>Tue, 25 Aug 2026 08:00:00 GMT</pubDate>
-    <category>technology</category>
-    <description>Source: Data Center Knowledge — </description>
   </item>
 </channel></rss>
