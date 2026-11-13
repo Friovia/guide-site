@@ -11,6 +11,8 @@
       what it covers, who wrote it — and where its scope stops.
     </p>
 
+    <PageToc />
+
     <h2>The standard at a glance</h2>
     <figure class="fig" style="margin-inline:0">
       <table style="max-width:720px">

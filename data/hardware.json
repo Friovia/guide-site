@@ -1,6 +1,6 @@
 {
   "note": "Hardware picker data for the rack builder. Facts policy: server power figures are TDP-formula budgets (ΣGPU + ΣCPU) × 1.2 — the same model as /tdp-to-rack-kw — computed from publicly stated accelerator TDPs; GB200 NVL72 is the vendor-stated rack figure. Cooling products reuse the verified comparison data layer (capacity anchors per row). Never present these as measured draw.",
-  "updated": "2026-10-12",
+  "updated": "2026-11-13",
   "servers": [
     {
       "id": "gb200-nvl72",
@@ -263,6 +263,39 @@
       "minApproachK": null,
       "facility": "Full-chain Coolinside line (cold plates, manifolds, CDU, SoluKing fluid); ratings NOT published ❌ — demand the capacity-vs-ambient curve (RFQ item 12)",
       "source": "https://www.envicool.com/productinfo595.html"
+    },
+    {
+      "id": "boyd-10u-cdu",
+      "name": "Boyd 10U In-Rack CDU (L2A)",
+      "type": "L2A",
+      "ratedKw": 32,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": 24,
+      "facility": "In-rack L2A; PG25 coolant; 60 LPM at rated; one of the few published rack-level CDUs inside the 20-50 kW gap",
+      "source": "https://www.mouser.com/datasheet/2/2/Boyd_10U_Cooling_Distribution_Unit_CDU-3105110.pdf"
+    },
+    {
+      "id": "daikin-cdu-family",
+      "name": "Daikin CDU family (L2L facility)",
+      "type": "L2L",
+      "ratedKw": 400,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "Facility-scale L2L; three sizes 400/1000/2000 kW, up to 2.5 MW per unit; skid groups beyond 10 MW; 2025 Chilldyne acquisition adds negative-pressure chip-level cooling",
+      "source": "https://www.daikin.eu/en_us/solutions/infrastructure-and-data-centre-cooling/data-centers.html"
+    },
+    {
+      "id": "delta-l2l-cdu",
+      "name": "Delta L2L CDU family (rack to facility)",
+      "type": "L2L",
+      "ratedKw": 1500,
+      "coolantC": null,
+      "ratedRoomC": null,
+      "minApproachK": null,
+      "facility": "L2L family from in-rack CDUs through 1.5 MW (OCP Global Summit 2024) to 3.6 MW 800VDC modular units",
+      "source": "https://www.deltaww.com/en-US/products/data-center"
     }
   ]
 }

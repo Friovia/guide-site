@@ -34,6 +34,8 @@
       tropical-specific design concerns.
     </p>
 
+    <PageToc />
+
     <h2>The derating physics, with numbers</h2>
     <p>
       Vertiv's published XDU070 (CoolChip CDU 70) application guide shows the shape: at 45°C facility coolant,

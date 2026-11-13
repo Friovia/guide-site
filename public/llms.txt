@@ -27,6 +27,7 @@ Basics:
 
 Formulas (one formula per page: definition → formula → worked example with real numbers → live calculator → common mistakes):
 
+- [Engineering & calculators channel](https://liquidcoolingguide.com/engineering): hub for every formula with a live tool — load budgets, flow, derating, W-classes, room AC, UQD, fluids, pressure drop.
 - [Coolant flow rate](https://liquidcoolingguide.com/coolant-flow-rate): flow [L/min] = P [kW] × 60 / (4.186 × ΔT [°C]) — 50 kW at ΔT 8 °C needs 89.6 L/min. Use liquid-captured heat (60-80% of IT load), not total.
 - [Heat capture split](https://liquidcoolingguide.com/heat-capture-split): P_liquid = capture × P_IT — direct-to-chip captures 60-80%; the 20-40% air share still needs room AC sized on the total.
 - [TDP → rack kW](https://liquidcoolingguide.com/tdp-to-rack-kw): P_rack ≈ nodes × (Σ GPU + Σ CPU TDP) × 1.2 — 8×1 kW GPUs + 2×360 W CPUs = 10.5 kW/node; 42 kW/rack example.

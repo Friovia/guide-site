@@ -3,7 +3,7 @@
   "sections": [
     {
       "id": "start",
-      "label": "Start",
+      "label": "Learn",
       "items": [
         {
           "path": "/",
@@ -33,25 +33,14 @@
       ]
     },
     {
-      "id": "news",
-      "label": "Radar",
-      "items": [
-        {
-          "path": "/news",
-          "title": "Industry radar",
-          "desc": "News + the curated milestone timeline"
-        },
-        {
-          "path": "/state-of-liquid-cooling-2026",
-          "title": "State of 2026",
-          "desc": "The annual digest: what changed, what still doesn't exist"
-        }
-      ]
-    },
-    {
       "id": "formulas",
-      "label": "Formulas",
+      "label": "Engineering & calculators",
       "items": [
+        {
+          "path": "/engineering",
+          "title": "Engineering hub",
+          "desc": "Every formula channel index — load, flow, derating, room, interfaces"
+        },
         {
           "path": "/coolant-flow-rate",
           "title": "Coolant flow rate",
@@ -106,12 +95,22 @@
           "path": "/wet-bulb-free-cooling",
           "title": "Wet-bulb & free cooling",
           "desc": "Why the tropics can't free-cool"
+        },
+        {
+          "path": "/uqd-quick-disconnects",
+          "title": "UQD quick disconnects",
+          "desc": "OCP sizes UQD04–UQD40, table"
+        },
+        {
+          "path": "/liquid-cooling-fluids",
+          "title": "Fluids & PFAS",
+          "desc": "PG25 vs oils vs fluorinated fluids"
         }
       ]
     },
     {
       "id": "choosing",
-      "label": "Choosing",
+      "label": "Select & buy",
       "items": [
         {
           "path": "/cabinet-comparison",
@@ -142,7 +141,7 @@
     },
     {
       "id": "deploy",
-      "label": "Deploy & Ops",
+      "label": "Deploy & operate",
       "items": [
         {
           "path": "/site-survey",
@@ -172,29 +171,9 @@
       ]
     },
     {
-      "id": "reference",
-      "label": "Reference",
+      "id": "standards",
+      "label": "Standards",
       "items": [
-        {
-          "path": "/supply-chain",
-          "title": "Supply chain map",
-          "desc": "97 companies, 16 segments — who makes what"
-        },
-        {
-          "path": "/glossary",
-          "title": "Glossary",
-          "desc": "50+ quotable definitions, anchorable"
-        },
-        {
-          "path": "/uqd-quick-disconnects",
-          "title": "UQD quick disconnects",
-          "desc": "OCP sizes UQD04–UQD40, table"
-        },
-        {
-          "path": "/liquid-cooling-fluids",
-          "title": "Fluids & PFAS",
-          "desc": "PG25 vs oils vs fluorinated fluids"
-        },
         {
           "path": "/liquid-cooling-standards",
           "title": "Standards",
@@ -204,11 +183,49 @@
           "path": "/ss726-liquid-cooling-standard",
           "title": "SS 726 deep dive",
           "desc": "The tropical liquid cooling standard, explained"
+        }
+      ]
+    },
+    {
+      "id": "supply",
+      "label": "Supply chain",
+      "items": [
+        {
+          "path": "/supply-chain",
+          "title": "Supply chain map",
+          "desc": "97 companies, 16 segments — who makes what"
+        }
+      ]
+    },
+    {
+      "id": "reference",
+      "label": "Reference",
+      "items": [
+        {
+          "path": "/glossary",
+          "title": "Glossary",
+          "desc": "50+ quotable definitions, anchorable"
         },
         {
           "path": "/changelog",
           "title": "Changelog",
           "desc": "Data versions and article updates"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "label": "Radar",
+      "items": [
+        {
+          "path": "/news",
+          "title": "Industry radar",
+          "desc": "News + the curated milestone timeline"
+        },
+        {
+          "path": "/state-of-liquid-cooling-2026",
+          "title": "State of 2026",
+          "desc": "The annual digest: what changed, what still doesn't exist"
         }
       ]
     },

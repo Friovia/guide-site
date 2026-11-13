@@ -16,10 +16,14 @@
         <TopSearch />
 
         <nav class="topnav" aria-label="Primary">
-          <NuxtLink to="/what-is-liquid-cooling">{{ ui.nav.guide }}</NuxtLink>
-          <NuxtLink to="/playground">{{ ui.nav.playground }}</NuxtLink>
+          <NuxtLink to="/what-is-liquid-cooling">{{ ui.nav.learn }}</NuxtLink>
+          <NuxtLink to="/engineering">{{ ui.nav.engineering }}</NuxtLink>
+          <NuxtLink to="/cabinet-comparison">{{ ui.nav.select }}</NuxtLink>
+          <NuxtLink to="/site-survey">{{ ui.nav.operate }}</NuxtLink>
           <NuxtLink to="/supply-chain">{{ ui.nav.supply }}</NuxtLink>
-          <NuxtLink to="/news">{{ ui.nav.news }}</NuxtLink>
+          <NuxtLink to="/liquid-cooling-standards">{{ ui.nav.standards }}</NuxtLink>
+          <NuxtLink to="/playground">{{ ui.nav.playground }}</NuxtLink>
+          <NuxtLink to="/news">{{ ui.nav.radar }}</NuxtLink>
         </nav>
 
         <LangMenu />

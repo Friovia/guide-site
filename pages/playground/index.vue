@@ -21,6 +21,10 @@
       they illustrate physics, not replace vendor engineering. If a tool says your room doesn't fit —
       that's the point: find out here, for free, before anyone ships anything.
     </p>
+    <p style="max-width:640px" class="src">
+      Solver source: <a href="https://github.com/Friovia/simulation" rel="noopener">friovia/simulation</a> —
+      open-source 1D hydraulic &amp; thermal solvers (Apache-2.0), maintained by Friovia, the publisher of this guide.
+    </p>
   </main>
 </template>
 

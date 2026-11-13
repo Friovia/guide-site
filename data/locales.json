@@ -20,10 +20,14 @@
   "ui": {
     "en": {
       "nav": {
-        "guide": "Guide",
-        "playground": "Playground",
+        "learn": "Learn",
+        "engineering": "Engineering",
+        "select": "Select",
+        "operate": "Operate",
         "supply": "Supply chain",
-        "news": "News"
+        "standards": "Standards",
+        "playground": "Playground",
+        "radar": "Radar"
       },
       "search": "Search",
       "footer": "Published by Friovia, a liquid-cooling cabinet maker. Editorial policy: every claim sourced; vendors listed whether we compete or not; no paid placements.",
@@ -32,10 +36,14 @@
     },
     "es": {
       "nav": {
-        "guide": "Guía",
-        "playground": "Playground",
+        "learn": "Aprender",
+        "engineering": "Ingeniería",
+        "select": "Seleccionar",
+        "operate": "Operar",
         "supply": "Cadena de suministro",
-        "news": "Noticias"
+        "standards": "Estándares",
+        "playground": "Playground",
+        "radar": "Radar"
       },
       "search": "Buscar",
       "footer": "Publicado por Friovia, fabricante de armarios de refrigeración líquida. Política editorial: cada afirmación tiene fuente; listamos proveedores seamos o no competidores; sin inclusiones pagadas.",
@@ -74,10 +82,14 @@
     },
     "ar": {
       "nav": {
-        "guide": "الدليل",
-        "playground": "ساحة التجربة",
+        "learn": "تعلّم",
+        "engineering": "الهندسة",
+        "select": "الاختيار",
+        "operate": "التشغيل",
         "supply": "سلسلة التوريد",
-        "news": "الأخبار"
+        "standards": "المعايير",
+        "playground": "ساحة التجربة",
+        "radar": "الرادار"
       },
       "search": "بحث",
       "footer": "تنشره Friovia، شركة تصنيع خزانات التبريد السائل. سياسة تحريرية: كل ادعاء له مصدر؛ نُدرج المورّدين سواء كنّا منافسين أم لا؛ دون أي إدراج مدفوع.",
