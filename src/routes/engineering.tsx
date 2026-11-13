@@ -19,7 +19,7 @@ export const Route = createFileRoute('/engineering')({
   component: EngineeringPage,
 })
 
-const ChanList = ({ items }: { items: [string, string, string][] }) => (
+const ChanList = ({ items }: { items: [string, string, React.ReactNode][] }) => (
   <ul className="chan">
     {items.map(([href, title, desc]) => (
       <li key={href}><a href={href}><b>{title}</b></a> — {desc}</li>

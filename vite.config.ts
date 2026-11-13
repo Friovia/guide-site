@@ -34,7 +34,6 @@ export default defineConfig({
     tsConfigPaths({ projects: ['./tsconfig.json'] }),
     tailwindcss(),
     tanstackStart({
-      target: 'react',
       // Explicit page list (only routes whose file exists during the migration);
       // crawlLinks off — the nav.json-derived list IS the full URL truth.
       pages: PRERENDER_ROUTES

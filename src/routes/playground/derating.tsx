@@ -19,9 +19,9 @@ export const Route = createFileRoute('/playground/derating')({
 function DeratingTool() {
   const [prodId, setProdId] = useState(l2aProducts[0]?.id ?? 'custom')
   const product = l2aProducts.find(p => p.id === prodId)
-  const [qref, setQref] = useState(product?.ratedKw ?? 86.5)
-  const [tref, setTref] = useState(product?.ratedRoomC ?? 25)
-  const [tc, setTc] = useState(product?.coolantC ?? 45)
+  const [qref, setQref] = useState<number>(product?.ratedKw ?? 86.5)
+  const [tref, setTref] = useState<number>(product?.ratedRoomC ?? 25)
+  const [tc, setTc] = useState<number>(product?.coolantC ?? 45)
   const [troom, setTroom] = useState(30)
   const dragging = useRef(false)
   const svgEl = useRef<SVGSVGElement | null>(null)
@@ -30,7 +30,7 @@ function DeratingTool() {
     setProdId(id)
     const p = l2aProducts.find(x => x.id === id)
     if (p) {
-      setQref(p.ratedKw)
+      setQref(p.ratedKw ?? 0) // unpublished rating (❌ facts policy) renders a zero curve, never an invented one
       setTref(p.ratedRoomC ?? 25)
       setTc(p.coolantC ?? 45)
     }

@@ -178,9 +178,9 @@ function LangMenu() {
       {open && (
         <div className="langpop">
           {locales.map(l => (
-            <Link key={l.code} to={l.code === 'en' ? '/' : `/${l.code}`} className={`langopt${l.code === code ? ' cur' : ''}`}>
+            <a key={l.code} href={l.code === 'en' ? '/' : `/${l.code}`} className={`langopt${l.code === code ? ' cur' : ''}`}>
               {l.native}
-            </Link>
+            </a>
           ))}
           <a className="langopt help" href="mailto:vendors@liquidcoolingguide.com">Help us translate!</a>
         </div>
