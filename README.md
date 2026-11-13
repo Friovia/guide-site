@@ -1,10 +1,11 @@
 # Liquid Cooling Guide
 
-**The liquid-cooling gobyexample — structured, visual, sourced.**
+**The liquid-cooling gobyexample — structured, visual, sourced.** Now on React:
+TanStack Start (SSG prerender to `dist/client`) + Vite 8 + Tailwind v4 (no preflight —
+site tokens live in `assets/css/main.css`). Ported 1:1 from the Nuxt original on
+2026-11-14; URLs, data layer (`data/*.json`) and the SEO head output are verified
+against the production baseline (`scripts/migrate-baseline.mjs --diff`).
 
-An engineering knowledge hub for small and mid-scale liquid cooling: one concept per page, formulas with live calculators, sourced product data, and an unattended industry radar. Live at **[liquidcoolingguide.com](https://liquidcoolingguide.com)**.
-
-Published by [Friovia](https://friovia.com), a liquid-cooling cabinet maker. Editorial policy: every claim sourced; vendors listed whether we compete or not; no paid placements.
 
 ## What's inside
 

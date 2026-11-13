@@ -212,3 +212,331 @@ footer.site { border-top: 1px solid var(--line); margin-top: 80px; padding: 22px
 footer.site .container::before { content: "LIQUID COOLING GUIDE — INDEPENDENT REFERENCE"; display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; color: var(--text2); margin-bottom: 6px; }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* PageToc (shared by Vue scoped original and React port) */
+.ptoc{align-items:baseline;border:1px solid var(--rule);border-radius:8px;display:flex;flex-wrap:wrap;font-size:13px;gap:6px 16px;margin:0 0 28px;max-width:760px;padding:10px 14px}
+.ptoc-label{color:var(--text2);font-weight:600}
+.ptoc a{color:var(--cool);text-decoration:none}
+.ptoc a:hover{text-decoration:underline}
+
+/* ChainCanvas (shared by Vue scoped original and React port) */
+.cc-band{font-family:var(--mono);font-size:12px;letter-spacing:.1em;font-weight:500}
+.cc-note{font-family:var(--mono);font-size:10px;fill:var(--text2)}
+.cc-stage{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;font-weight:600;fill:var(--text)}
+.cc-sub{font-family:var(--sans);font-size:11px;fill:var(--text2)}
+.cc-seg{font-family:var(--sans);font-size:11.5px;fill:var(--text)}
+.cc-cnt{font-family:var(--mono);font-size:10.5px;fill:var(--cool)}
+
+/* News page (shared by Vue scoped original and React port) */
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:.04em;background:var(--panel);border:1px solid var(--line);padding:6px 12px;cursor:pointer;color:var(--text2);border-radius:2px}
+.chip.on{border-color:var(--cool);color:var(--cool);font-weight:600}
+.chip .cnt{margin-left:6px;opacity:.7}
+.newsitem{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin-bottom:22px;max-width:760px}
+.nmeta{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.05em;color:var(--text2);display:flex;gap:12px;flex-wrap:wrap;margin-bottom:3px}
+.nchan{text-transform:uppercase}
+.nchan.technology{color:var(--cool)}
+.nchan.product{color:var(--warn)}
+.nchan.investment{color:#b18cff}
+.nchan.standards{color:var(--ok)}
+.ntitle{font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;font-size:16.5px;font-weight:600;text-decoration:none;display:block}
+.ntitle:hover{text-decoration:underline}
+.nnote{font-size:14px;color:var(--text2);margin:4px 0 0;font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif}
+.mono-src{font-family:ui-monospace,monospace;font-size:12.5px}
+
+/* LoopSim (shared by Vue scoped original and React port) */
+.loopsim{background:var(--sheet);border:1px solid var(--rule);border-top:2px solid var(--ink);padding:16px 16px 12px;position:relative}
+.loopsim::after{content:"LIVE";position:absolute;top:10px;right:12px;font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.14em;color:var(--ok);border:1px solid currentColor;border-radius:2px;padding:3px 6px 2px}
+.ls-svg{width:100%;height:auto;display:block;background:var(--panel)}
+.ls-t{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:9.5px;fill:var(--text);letter-spacing:.06em}
+.ls-dim{fill:var(--text2)}
+.ls-vert{letter-spacing:.2em}
+.ls-flow{fill:none;stroke:var(--cool);stroke-width:2.5;stroke-dasharray:7 7;animation:ls-dash 1.6s linear infinite}
+.ls-ret{opacity:.55}
+.ls-pump{transform-origin:378px 135px;animation:ls-spin 1.6s linear infinite}
+@keyframes ls-dash{to{stroke-dashoffset:-56}}
+@keyframes ls-spin{to{transform:rotate(360deg)}}
+.ls-ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px 18px;margin-top:12px}
+.ls-ctrl label{font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;font-size:12.5px;color:var(--text2);display:block}
+.ls-ctrl input[type=range]{width:100%;display:block}
+.ls-read{font-size:11.5px;color:var(--text2);margin:10px 0 0;font-family:"IBM Plex Mono",ui-monospace,monospace}
+
+/* HeroChart (shared by Vue scoped original and React port) */
+.herochart{display:grid;grid-template-columns:1.5fr 1fr;gap:22px;align-items:center}
+@media (max-width:720px){.herochart{grid-template-columns:1fr}}
+.hc-svg{width:100%;height:auto;display:block;touch-action:none}
+.hc-axis{font-family:var(--mono);font-size:10.5px;fill:var(--text2)}
+.hc-rot{font-size:9px}
+.hc-note{font-family:var(--mono);font-size:9.5px;fill:var(--text2)}
+
+/* LatestRadar (moved from Vue scoped for the React port) */
+.radar-band {
+margin-top: 40px;
+}
+.rb-head {
+display: flex;
+align-items: baseline;
+gap: 12px;
+padding: 0 2px 10px;
+}
+.rb-label {
+margin: 0;
+font-size: 16px;
+letter-spacing: 0.02em;
+}
+.rb-fresh {
+font-family: 'IBM Plex Mono', ui-monospace, monospace;
+font-size: 11px;
+color: var(--brand, #2e7fc2);
+letter-spacing: 1px;
+}
+.rb-more {
+margin-left: auto;
+font-size: 13px;
+text-decoration: none;
+color: var(--brand, #2e7fc2);
+}
+.rb-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+gap: 16px;
+}
+.rb-card {
+display: flex;
+flex-direction: column;
+border: 1px solid var(--line);
+border-radius: 10px;
+background: #fff;
+text-decoration: none;
+color: inherit;
+overflow: hidden;
+transition: transform 0.15s, box-shadow 0.15s;
+}
+.rb-card:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 18px rgba(20, 40, 60, 0.1);
+}
+
+/* —— 媒体区：真图在上，纹样兜底 —— */
+.rb-media {
+position: relative;
+aspect-ratio: 16 / 9;
+overflow: hidden;
+background:
+  repeating-linear-gradient(0deg, rgba(46, 127, 194, 0.05) 0 1px, transparent 1px 22px),
+  repeating-linear-gradient(90deg, rgba(46, 127, 194, 0.05) 0 1px, transparent 1px 22px),
+  #f3f6f9;
+}
+.rb-media img {
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+transition: transform 0.25s;
+z-index: 1;
+}
+.rb-card:hover .rb-media img {
+transform: scale(1.03);
+}
+/* —— 电讯简报卡（无图卡种）：书脊+大标题，密度即自信 —— */
+.rb-wire {
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 15px 15px 12px 17px;
+border-inline-start: 5px solid #2e7fc2;
+}
+.rb-wire.product { border-inline-start-color: #2e8c5a; }
+.rb-wire.standards { border-inline-start-color: #785abe; }
+.rb-wire.investment { border-inline-start-color: #c0861f; }
+.rb-wire-head {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+padding-bottom: 8px;
+border-bottom: 1px solid var(--line);
+font-family: 'IBM Plex Mono', ui-monospace, monospace;
+font-size: 10px;
+font-weight: 600;
+letter-spacing: 1.3px;
+color: #2e7fc2;
+}
+.rb-wire.product .rb-wire-head { color: #2e8c5a; }
+.rb-wire.standards .rb-wire-head { color: #785abe; }
+.rb-wire.investment .rb-wire-head { color: #a06a1f; }
+.rb-wmid {
+/* 标题块在字眉与出处之间垂直居中——与图卡并排时视觉平衡 */
+margin-block: auto;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+/* 关键：电讯卡内撤掉页脚继承的 margin-top:auto——
+ 否则它和标题块的两段 auto 平分剩余空间（实测 71/132px 斜置） */
+.rb-wire .rb-src {
+margin-top: 0;
+}
+.rb-wtitle {
+font-size: 17.5px;
+font-weight: 650;
+line-height: 1.34;
+letter-spacing: -0.012em;
+display: -webkit-box;
+-webkit-line-clamp: 5;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.rb-card:hover .rb-wmid {
+/* 标题块在字眉与出处之间垂直居中——与图卡并排时视觉平衡 */
+margin-block: auto;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+/* 关键：电讯卡内撤掉页脚继承的 margin-top:auto——
+ 否则它和标题块的两段 auto 平分剩余空间（实测 71/132px 斜置） */
+.rb-wire .rb-src {
+margin-top: 0;
+}
+.rb-wtitle { color: #1d5a94; }
+
+.rb-chan {
+position: absolute;
+top: 10px;
+inset-inline-start: 10px;
+z-index: 2;
+font-family: 'IBM Plex Mono', ui-monospace, monospace;
+font-size: 10px;
+font-weight: 600;
+letter-spacing: 1.2px;
+padding: 2px 9px;
+border-radius: 20px;
+background: rgba(46, 127, 194, 0.92);
+color: #fff;
+}
+.rb-chan.product {
+background: rgba(46, 140, 90, 0.92);
+}
+.rb-chan.standards {
+background: rgba(120, 90, 190, 0.92);
+}
+.rb-chan.investment {
+background: rgba(190, 130, 40, 0.94);
+}
+.rb-date {
+position: absolute;
+top: 10px;
+inset-inline-end: 10px;
+z-index: 2;
+font-family: 'IBM Plex Mono', ui-monospace, monospace;
+font-size: 11px;
+color: #fff;
+background: rgba(16, 28, 40, 0.55);
+padding: 2px 7px;
+border-radius: 4px;
+}
+
+.rb-body {
+display: flex;
+flex-direction: column;
+gap: 7px;
+padding: 13px 14px 12px;
+flex: 1;
+}
+.rb-title {
+font-size: 15px;
+font-weight: 600;
+line-height: 1.42;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.rb-note {
+font-size: 12.5px;
+line-height: 1.5;
+color: var(--text2, #5b6b7f);
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
+.rb-src {
+margin-top: auto;
+padding-top: 6px;
+border-top: 1px dashed var(--line);
+font-size: 12px;
+color: var(--text2, #5b6b7f);
+}
+.rb-card:hover .rb-src {
+color: var(--brand, #2e7fc2);
+}
+
+/* RoomLoad tool (moved from Vue scoped for the React port) */
+.rl-panel { background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 20px 22px; margin-top: 20px; position: relative; }
+.rl-panel::after { content: "LIVE"; position: absolute; top: 12px; right: 14px; font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.14em; color: var(--ok); border: 1px solid currentColor; border-radius: 4px; padding: 3px 6px 2px; }
+.rl-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 6px 24px; }
+.rl-controls label { font-size: 12.5px; color: var(--text2); display: block; }
+.rl-controls input[type=range] { display: block; margin-top: 2px; }
+.rl-bar { margin-top: 20px; border-top: 1px solid var(--line); padding-top: 16px; }
+.glabel { font-size: 10.5px; letter-spacing: 0.1em; color: var(--text2); margin-bottom: 4px; }
+.rl-track { height: 22px; background: #fff; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+.rl-req { height: 100%; background: var(--text2); display: flex; align-items: center; padding-left: 8px; min-width: 0; transition: width 0.15s; }
+.rl-req span { font-family: var(--mono); font-size: 11px; color: #fff; white-space: nowrap; }
+.rl-spare { height: 100%; display: flex; align-items: center; padding-left: 8px; min-width: 0; transition: width 0.15s; }
+.rl-spare span { font-family: var(--mono); font-size: 11px; color: #fff; white-space: nowrap; }
+.rl-margin { font-size: 12px; letter-spacing: 0.06em; margin-top: 10px; }
+.rl-verdict { border: 1px solid; border-radius: 8px; padding: 12px 16px; margin-top: 16px; font-size: 14.5px; }
+.rl-panel table { margin-top: 16px; }
+code { font-family: var(--mono); font-size: 13px; }
+
+/* RackBuilder tool (moved from Vue scoped for the React port) */
+.pickrow { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.pickcard { text-align: left; background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; cursor: pointer; font-family: var(--sans); min-width: 190px; }
+.pickcard b { display: block; font-size: 13.5px; color: var(--text); }
+.pickcard .src { display: block; font-size: 11.5px; margin-top: 2px; }
+.pickcard.on { border-color: var(--cool); box-shadow: 0 0 0 1px var(--cool); }
+.pickcard.on b { color: var(--cool); }
+.addrow { display: flex; gap: 10px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+.addrow select { font-family: var(--sans); font-size: 14px; padding: 9px 12px; border: 1px solid var(--line2); border-radius: 8px; background: #fff; color: var(--text); flex: 1 1 320px; }
+.addrow input[type=number] { width: 74px; padding: 9px; }
+.addbtn { background: var(--cool); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-family: var(--sans); font-weight: 600; font-size: 14px; cursor: pointer; }
+.addbtn:hover { background: var(--cool2); }
+.workbench { display: grid; grid-template-columns: 320px 1fr; gap: 26px; margin-top: 22px; align-items: start; }
+@media (max-width: 880px) { .workbench { grid-template-columns: 1fr; } }
+.gauges h3 { font-size: 13px; margin: 0 0 8px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text2); }
+.rackhead { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; margin: 0 0 8px; color: var(--text2); }
+.rack { position: relative; width: 100%; height: 420px; background: var(--panel); border: 3px solid var(--text); border-radius: 4px; background-image: repeating-linear-gradient(0deg, transparent 0 9px, var(--panel2) 9px 10px); overflow: hidden; display: flex; flex-direction: column; }
+.unit { border: 1px solid rgba(0, 0, 0, 0.35); display: flex; align-items: center; padding: 0 8px; color: #fff; flex: none; overflow: hidden; }
+.ulabel { font-family: var(--mono); font-size: 10.5px; white-space: nowrap; }
+.empty { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 12px; letter-spacing: 0.2em; color: var(--line2); }
+.srcline { font-size: 11px; margin: 4px 0 0; }
+.mono { font-family: var(--mono); }
+.small { font-size: 11.5px; color: var(--text2); }
+.glabel { font-size: 10.5px; letter-spacing: 0.1em; color: var(--text2); }
+.gauge { height: 12px; background: #fff; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; margin: 4px 0; }
+.gfill { height: 100%; transition: width 0.15s; }
+.gauges label { font-size: 12.5px; display: block; margin-top: 6px; color: var(--text2); }
+.gauges input[type=range] { display: block; }
+.gauges input[type=range]:disabled { opacity: 0.35; }
+code { font-family: var(--mono); font-size: 13px; }
+
+/* Derating tool (moved from Vue scoped for the React port) */
+.ds-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 24px; margin-top: 22px; align-items: start; background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+@media (max-width: 760px) { .ds-grid { grid-template-columns: 1fr; } }
+.ds-svg { width: 100%; height: auto; display: block; touch-action: none; }
+.ds-axis { font-family: var(--mono); font-size: 10.5px; fill: var(--text2); }
+.ds-rot { font-size: 9px; }
+.ds-note { font-family: var(--mono); font-size: 10px; fill: var(--text2); }
+.ds-side label { font-size: 12.5px; color: var(--text2); display: block; margin-top: 10px; }
+.ds-side label:first-child { margin-top: 0; }
+.ds-side select { width: 100%; font-family: var(--sans); font-size: 14px; padding: 9px 12px; border: 1px solid var(--line2); border-radius: 8px; background: #fff; color: var(--text); margin-top: 4px; }
+.ds-side input[type=range] { width: 100%; margin-top: 4px; }
+.ds-side input[type=range]:disabled { opacity: 0.35; }
+.ds-read { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 14px; }
+.ds-num { font-family: var(--mono); font-weight: 600; font-size: 44px; line-height: 1.1; }
+.ds-num small { font-size: 18px; color: var(--text2); font-weight: 400; }
+.ds-verdict { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; margin-top: 6px; }
