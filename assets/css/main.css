@@ -67,10 +67,25 @@ header.topbar .inner { display: flex; align-items: center; gap: 16px; padding: 0
 .topnav a { font-family: var(--sans); font-size: 15px; font-weight: 400; color: var(--text); padding: 6px 10px; border-bottom: none; border-radius: 6px; }
 .topnav a:hover { color: var(--cool); }
 .topnav a.router-link-active { color: var(--cool); }
-.langbtn { font-family: var(--sans); font-size: 15px; font-weight: 400; color: var(--text); display: inline-flex; align-items: center; gap: 4px; padding: 6px 4px 6px 10px; white-space: nowrap; border-bottom: none; }
+/* topbar search + language — measured from react.dev (2026-11): pill (9999px),
+   gray-30/20 fill, 40px tall, 15/500; dropdowns in site tokens with react hover gray */
+.langbtn { font-family: var(--sans); font-size: 15px; font-weight: 500; color: var(--text); display: inline-flex; align-items: center; gap: 4px; padding: 6px 12px; white-space: nowrap; background: none; border: none; border-radius: 9999px; cursor: pointer; transition: background 0.12s ease; }
 .langbtn .chev { font-size: 10px; color: var(--text2); }
-.langbtn:hover { color: var(--cool); }
-.topsearch { flex: 0 1 230px; }
+.langbtn:hover { color: var(--text); background: rgba(153, 161, 179, 0.2); }
+.langwrap { position: relative; }
+.langpop { position: absolute; top: calc(100% + 6px); right: 0; background: #fff; border: 1px solid var(--line); border-radius: var(--r); box-shadow: 0 8px 24px rgba(20, 40, 60, 0.14); padding: 6px; min-width: 176px; z-index: 50; }
+.langopt { display: block; padding: 7px 12px; font-family: var(--sans); font-size: 13.5px; font-weight: 500; color: var(--text2); border-bottom: none; border-radius: 6px; white-space: nowrap; }
+.langopt:hover { background: rgba(153, 161, 179, 0.2); color: var(--text); }
+.langopt.cur { color: var(--cool); background: rgba(46, 127, 194, 0.1); }
+.langopt.help { font-size: 12px; font-weight: 400; color: var(--text2); border-top: 1px dashed var(--line); margin-top: 4px; padding-top: 9px; }
+.topsearch { flex: 0 1 230px; position: relative; }
+.topsearch input { width: 100%; height: 40px; font-family: var(--sans); font-size: 15px; font-weight: 500; color: var(--text); background: rgba(153, 161, 179, 0.2); border: none; border-radius: 9999px; padding: 0 16px; outline: none; transition: box-shadow 0.12s ease; }
+.topsearch input::placeholder { color: #99a1b3; font-weight: 500; }
+.topsearch input:focus { box-shadow: 0 0 0 2px var(--cool); }
+.topsearch-pop { position: absolute; top: calc(100% + 8px); left: 0; width: min(360px, 84vw); background: #fff; border: 1px solid var(--line); border-radius: var(--r); box-shadow: 0 8px 24px rgba(20, 40, 60, 0.14); padding: 6px; z-index: 50; }
+.pop-item { display: block; padding: 7px 12px; font-family: var(--sans); font-size: 13.5px; color: var(--text); border-bottom: none; border-radius: 6px; }
+.pop-item:hover { background: rgba(153, 161, 179, 0.2); color: var(--text); }
+.pop-item span { display: block; font-size: 11.5px; color: var(--text2); }
 @media (max-width: 1020px) { .topnav { display: none; } }
 @media (max-width: 620px) { .topsearch { display: none; } }
 .burger { display: none; background: none; border: 1px solid var(--line2); font-size: 15px; line-height: 1; padding: 5px 10px; cursor: pointer; color: var(--text); border-radius: 6px; }
@@ -82,7 +97,9 @@ aside.side { width: 292px; flex: 0 0 292px; border-right: 1px solid var(--line);
 .navsearch { padding: 6px 16px 14px; }
 .navsearch input { width: 100%; font-family: var(--mono); font-size: 12.5px; padding: 8px 10px; border: 1px solid var(--line2); background: #fff; border-radius: 6px; color: var(--text); }
 .navsearch input:focus { outline: none; border-color: var(--cool); box-shadow: 0 0 0 2px rgba(46, 127, 194, 0.18); }
-.navsec { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text2); padding: 16px 16px 6px; }
+.navsec { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--text2); padding: 16px 16px 6px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; cursor: pointer; }
+.navsec.chan { color: var(--cool); }
+.navtoggle { font-family: var(--mono); font-size: 12px; color: var(--text2); }
 a.navitem { display: block; padding: 5px 12px 5px 12px; margin: 1px 8px; font-family: var(--sans); font-size: 13.5px; line-height: 1.45; color: var(--text2); border-left: none; border-bottom: none; border-radius: 6px; }
 a.navitem:hover { color: var(--cool); background: #f1f4f7; }
 a.navitem.active { color: var(--cool); background: rgba(46, 127, 194, 0.1); font-weight: 600; }

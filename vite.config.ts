@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import tsConfigPaths from 'vite-tsconfig-paths'
 import tailwindcss from '@tailwindcss/vite'
+import react from '@vitejs/plugin-react'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import nav from './data/nav.json' with { type: 'json' }
 
@@ -46,5 +47,9 @@ export default defineConfig({
         autoSubfolderIndex: true,
       },
     }),
+    // React Refresh runtime — required by TanStack Start dev mode (client JS
+    // 500s without it, so hydration never attaches; build path never needed it).
+    // Order: router plugins first, react() last (router-code-splitter asserts this).
+    react(),
   ],
 })
