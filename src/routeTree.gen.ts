@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ApproachTemperatureRouteImport } from './routes/approach-temperature'
+import { Route as AshraeWClassesRouteImport } from './routes/ashrae-w-classes'
 import { Route as CabinetComparisonRouteImport } from './routes/cabinet-comparison'
 import { Route as ChangelogRouteImport } from './routes/changelog'
 import { Route as ColdPlateVsImmersionRouteImport } from './routes/cold-plate-vs-immersion'
 import { Route as CommissioningRouteImport } from './routes/commissioning'
+import { Route as CoolantFlowRateRouteImport } from './routes/coolant-flow-rate'
 import { Route as EngineeringRouteImport } from './routes/engineering'
+import { Route as FloorLoadingRouteImport } from './routes/floor-loading'
 import { Route as GlossaryRouteImport } from './routes/glossary'
+import { Route as HeatCaptureSplitRouteImport } from './routes/heat-capture-split'
+import { Route as KwToTonsRouteImport } from './routes/kw-to-tons'
 import { Route as LiquidCoolingCostRouteImport } from './routes/liquid-cooling-cost'
 import { Route as LiquidCoolingFluidsRouteImport } from './routes/liquid-cooling-fluids'
 import { Route as LiquidCoolingHotClimatesRouteImport } from './routes/liquid-cooling-hot-climates'
@@ -25,18 +31,33 @@ import { Route as LiquidCoolingVsAirRouteImport } from './routes/liquid-cooling-
 import { Route as LiquidReadyServersRouteImport } from './routes/liquid-ready-servers'
 import { Route as MaintenanceScheduleRouteImport } from './routes/maintenance-schedule'
 import { Route as NewsRouteImport } from './routes/news'
+import { Route as PressureDropRouteImport } from './routes/pressure-drop'
+import { Route as PueMathRouteImport } from './routes/pue-math'
 import { Route as RfqScopeChecklistRouteImport } from './routes/rfq-scope-checklist'
+import { Route as RoomAcLoadRouteImport } from './routes/room-ac-load'
 import { Route as RoomLoadCalculationRouteImport } from './routes/room-load-calculation'
 import { Route as SiteSurveyRouteImport } from './routes/site-survey'
 import { Route as Ss726LiquidCoolingStandardRouteImport } from './routes/ss726-liquid-cooling-standard'
 import { Route as StateOfLiquidCooling2026RouteImport } from './routes/state-of-liquid-cooling-2026'
 import { Route as SupplyChainRouteImport } from './routes/supply-chain'
+import { Route as TdpToRackKwRouteImport } from './routes/tdp-to-rack-kw'
 import { Route as UqdQuickDisconnectsRouteImport } from './routes/uqd-quick-disconnects'
+import { Route as WetBulbFreeCoolingRouteImport } from './routes/wet-bulb-free-cooling'
 import { Route as WhatIsACduRouteImport } from './routes/what-is-a-cdu'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApproachTemperatureRoute = ApproachTemperatureRouteImport.update({
+  id: '/approach-temperature',
+  path: '/approach-temperature',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AshraeWClassesRoute = AshraeWClassesRouteImport.update({
+  id: '/ashrae-w-classes',
+  path: '/ashrae-w-classes',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CabinetComparisonRoute = CabinetComparisonRouteImport.update({
@@ -59,14 +80,34 @@ const CommissioningRoute = CommissioningRouteImport.update({
   path: '/commissioning',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CoolantFlowRateRoute = CoolantFlowRateRouteImport.update({
+  id: '/coolant-flow-rate',
+  path: '/coolant-flow-rate',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EngineeringRoute = EngineeringRouteImport.update({
   id: '/engineering',
   path: '/engineering',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FloorLoadingRoute = FloorLoadingRouteImport.update({
+  id: '/floor-loading',
+  path: '/floor-loading',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const GlossaryRoute = GlossaryRouteImport.update({
   id: '/glossary',
   path: '/glossary',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HeatCaptureSplitRoute = HeatCaptureSplitRouteImport.update({
+  id: '/heat-capture-split',
+  path: '/heat-capture-split',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KwToTonsRoute = KwToTonsRouteImport.update({
+  id: '/kw-to-tons',
+  path: '/kw-to-tons',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LiquidCoolingCostRoute = LiquidCoolingCostRouteImport.update({
@@ -115,9 +156,24 @@ const NewsRoute = NewsRouteImport.update({
   path: '/news',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PressureDropRoute = PressureDropRouteImport.update({
+  id: '/pressure-drop',
+  path: '/pressure-drop',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PueMathRoute = PueMathRouteImport.update({
+  id: '/pue-math',
+  path: '/pue-math',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RfqScopeChecklistRoute = RfqScopeChecklistRouteImport.update({
   id: '/rfq-scope-checklist',
   path: '/rfq-scope-checklist',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RoomAcLoadRoute = RoomAcLoadRouteImport.update({
+  id: '/room-ac-load',
+  path: '/room-ac-load',
   getParentRoute: () => rootRouteImport,
 } as any)
 const RoomLoadCalculationRoute = RoomLoadCalculationRouteImport.update({
@@ -147,9 +203,19 @@ const SupplyChainRoute = SupplyChainRouteImport.update({
   path: '/supply-chain',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TdpToRackKwRoute = TdpToRackKwRouteImport.update({
+  id: '/tdp-to-rack-kw',
+  path: '/tdp-to-rack-kw',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const UqdQuickDisconnectsRoute = UqdQuickDisconnectsRouteImport.update({
   id: '/uqd-quick-disconnects',
   path: '/uqd-quick-disconnects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WetBulbFreeCoolingRoute = WetBulbFreeCoolingRouteImport.update({
+  id: '/wet-bulb-free-cooling',
+  path: '/wet-bulb-free-cooling',
   getParentRoute: () => rootRouteImport,
 } as any)
 const WhatIsACduRoute = WhatIsACduRouteImport.update({
@@ -160,12 +226,18 @@ const WhatIsACduRoute = WhatIsACduRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/approach-temperature': typeof ApproachTemperatureRoute
+  '/ashrae-w-classes': typeof AshraeWClassesRoute
   '/cabinet-comparison': typeof CabinetComparisonRoute
   '/changelog': typeof ChangelogRoute
   '/cold-plate-vs-immersion': typeof ColdPlateVsImmersionRoute
   '/commissioning': typeof CommissioningRoute
+  '/coolant-flow-rate': typeof CoolantFlowRateRoute
   '/engineering': typeof EngineeringRoute
+  '/floor-loading': typeof FloorLoadingRoute
   '/glossary': typeof GlossaryRoute
+  '/heat-capture-split': typeof HeatCaptureSplitRoute
+  '/kw-to-tons': typeof KwToTonsRoute
   '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
   '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
   '/liquid-cooling-hot-climates': typeof LiquidCoolingHotClimatesRoute
@@ -175,23 +247,34 @@ export interface FileRoutesByFullPath {
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
+  '/pressure-drop': typeof PressureDropRoute
+  '/pue-math': typeof PueMathRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
+  '/room-ac-load': typeof RoomAcLoadRoute
   '/room-load-calculation': typeof RoomLoadCalculationRoute
   '/site-survey': typeof SiteSurveyRoute
   '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
   '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
   '/supply-chain': typeof SupplyChainRoute
+  '/tdp-to-rack-kw': typeof TdpToRackKwRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
+  '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/approach-temperature': typeof ApproachTemperatureRoute
+  '/ashrae-w-classes': typeof AshraeWClassesRoute
   '/cabinet-comparison': typeof CabinetComparisonRoute
   '/changelog': typeof ChangelogRoute
   '/cold-plate-vs-immersion': typeof ColdPlateVsImmersionRoute
   '/commissioning': typeof CommissioningRoute
+  '/coolant-flow-rate': typeof CoolantFlowRateRoute
   '/engineering': typeof EngineeringRoute
+  '/floor-loading': typeof FloorLoadingRoute
   '/glossary': typeof GlossaryRoute
+  '/heat-capture-split': typeof HeatCaptureSplitRoute
+  '/kw-to-tons': typeof KwToTonsRoute
   '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
   '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
   '/liquid-cooling-hot-climates': typeof LiquidCoolingHotClimatesRoute
@@ -201,24 +284,35 @@ export interface FileRoutesByTo {
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
+  '/pressure-drop': typeof PressureDropRoute
+  '/pue-math': typeof PueMathRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
+  '/room-ac-load': typeof RoomAcLoadRoute
   '/room-load-calculation': typeof RoomLoadCalculationRoute
   '/site-survey': typeof SiteSurveyRoute
   '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
   '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
   '/supply-chain': typeof SupplyChainRoute
+  '/tdp-to-rack-kw': typeof TdpToRackKwRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
+  '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/approach-temperature': typeof ApproachTemperatureRoute
+  '/ashrae-w-classes': typeof AshraeWClassesRoute
   '/cabinet-comparison': typeof CabinetComparisonRoute
   '/changelog': typeof ChangelogRoute
   '/cold-plate-vs-immersion': typeof ColdPlateVsImmersionRoute
   '/commissioning': typeof CommissioningRoute
+  '/coolant-flow-rate': typeof CoolantFlowRateRoute
   '/engineering': typeof EngineeringRoute
+  '/floor-loading': typeof FloorLoadingRoute
   '/glossary': typeof GlossaryRoute
+  '/heat-capture-split': typeof HeatCaptureSplitRoute
+  '/kw-to-tons': typeof KwToTonsRoute
   '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
   '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
   '/liquid-cooling-hot-climates': typeof LiquidCoolingHotClimatesRoute
@@ -228,25 +322,36 @@ export interface FileRoutesById {
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
+  '/pressure-drop': typeof PressureDropRoute
+  '/pue-math': typeof PueMathRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
+  '/room-ac-load': typeof RoomAcLoadRoute
   '/room-load-calculation': typeof RoomLoadCalculationRoute
   '/site-survey': typeof SiteSurveyRoute
   '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
   '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
   '/supply-chain': typeof SupplyChainRoute
+  '/tdp-to-rack-kw': typeof TdpToRackKwRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
+  '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/approach-temperature'
+    | '/ashrae-w-classes'
     | '/cabinet-comparison'
     | '/changelog'
     | '/cold-plate-vs-immersion'
     | '/commissioning'
+    | '/coolant-flow-rate'
     | '/engineering'
+    | '/floor-loading'
     | '/glossary'
+    | '/heat-capture-split'
+    | '/kw-to-tons'
     | '/liquid-cooling-cost'
     | '/liquid-cooling-fluids'
     | '/liquid-cooling-hot-climates'
@@ -256,23 +361,34 @@ export interface FileRouteTypes {
     | '/liquid-ready-servers'
     | '/maintenance-schedule'
     | '/news'
+    | '/pressure-drop'
+    | '/pue-math'
     | '/rfq-scope-checklist'
+    | '/room-ac-load'
     | '/room-load-calculation'
     | '/site-survey'
     | '/ss726-liquid-cooling-standard'
     | '/state-of-liquid-cooling-2026'
     | '/supply-chain'
+    | '/tdp-to-rack-kw'
     | '/uqd-quick-disconnects'
+    | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/approach-temperature'
+    | '/ashrae-w-classes'
     | '/cabinet-comparison'
     | '/changelog'
     | '/cold-plate-vs-immersion'
     | '/commissioning'
+    | '/coolant-flow-rate'
     | '/engineering'
+    | '/floor-loading'
     | '/glossary'
+    | '/heat-capture-split'
+    | '/kw-to-tons'
     | '/liquid-cooling-cost'
     | '/liquid-cooling-fluids'
     | '/liquid-cooling-hot-climates'
@@ -282,23 +398,34 @@ export interface FileRouteTypes {
     | '/liquid-ready-servers'
     | '/maintenance-schedule'
     | '/news'
+    | '/pressure-drop'
+    | '/pue-math'
     | '/rfq-scope-checklist'
+    | '/room-ac-load'
     | '/room-load-calculation'
     | '/site-survey'
     | '/ss726-liquid-cooling-standard'
     | '/state-of-liquid-cooling-2026'
     | '/supply-chain'
+    | '/tdp-to-rack-kw'
     | '/uqd-quick-disconnects'
+    | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
   id:
     | '__root__'
     | '/'
+    | '/approach-temperature'
+    | '/ashrae-w-classes'
     | '/cabinet-comparison'
     | '/changelog'
     | '/cold-plate-vs-immersion'
     | '/commissioning'
+    | '/coolant-flow-rate'
     | '/engineering'
+    | '/floor-loading'
     | '/glossary'
+    | '/heat-capture-split'
+    | '/kw-to-tons'
     | '/liquid-cooling-cost'
     | '/liquid-cooling-fluids'
     | '/liquid-cooling-hot-climates'
@@ -308,24 +435,35 @@ export interface FileRouteTypes {
     | '/liquid-ready-servers'
     | '/maintenance-schedule'
     | '/news'
+    | '/pressure-drop'
+    | '/pue-math'
     | '/rfq-scope-checklist'
+    | '/room-ac-load'
     | '/room-load-calculation'
     | '/site-survey'
     | '/ss726-liquid-cooling-standard'
     | '/state-of-liquid-cooling-2026'
     | '/supply-chain'
+    | '/tdp-to-rack-kw'
     | '/uqd-quick-disconnects'
+    | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ApproachTemperatureRoute: typeof ApproachTemperatureRoute
+  AshraeWClassesRoute: typeof AshraeWClassesRoute
   CabinetComparisonRoute: typeof CabinetComparisonRoute
   ChangelogRoute: typeof ChangelogRoute
   ColdPlateVsImmersionRoute: typeof ColdPlateVsImmersionRoute
   CommissioningRoute: typeof CommissioningRoute
+  CoolantFlowRateRoute: typeof CoolantFlowRateRoute
   EngineeringRoute: typeof EngineeringRoute
+  FloorLoadingRoute: typeof FloorLoadingRoute
   GlossaryRoute: typeof GlossaryRoute
+  HeatCaptureSplitRoute: typeof HeatCaptureSplitRoute
+  KwToTonsRoute: typeof KwToTonsRoute
   LiquidCoolingCostRoute: typeof LiquidCoolingCostRoute
   LiquidCoolingFluidsRoute: typeof LiquidCoolingFluidsRoute
   LiquidCoolingHotClimatesRoute: typeof LiquidCoolingHotClimatesRoute
@@ -335,13 +473,18 @@ export interface RootRouteChildren {
   LiquidReadyServersRoute: typeof LiquidReadyServersRoute
   MaintenanceScheduleRoute: typeof MaintenanceScheduleRoute
   NewsRoute: typeof NewsRoute
+  PressureDropRoute: typeof PressureDropRoute
+  PueMathRoute: typeof PueMathRoute
   RfqScopeChecklistRoute: typeof RfqScopeChecklistRoute
+  RoomAcLoadRoute: typeof RoomAcLoadRoute
   RoomLoadCalculationRoute: typeof RoomLoadCalculationRoute
   SiteSurveyRoute: typeof SiteSurveyRoute
   Ss726LiquidCoolingStandardRoute: typeof Ss726LiquidCoolingStandardRoute
   StateOfLiquidCooling2026Route: typeof StateOfLiquidCooling2026Route
   SupplyChainRoute: typeof SupplyChainRoute
+  TdpToRackKwRoute: typeof TdpToRackKwRoute
   UqdQuickDisconnectsRoute: typeof UqdQuickDisconnectsRoute
+  WetBulbFreeCoolingRoute: typeof WetBulbFreeCoolingRoute
   WhatIsACduRoute: typeof WhatIsACduRoute
 }
 
@@ -352,6 +495,20 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/approach-temperature': {
+      id: '/approach-temperature'
+      path: '/approach-temperature'
+      fullPath: '/approach-temperature'
+      preLoaderRoute: typeof ApproachTemperatureRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ashrae-w-classes': {
+      id: '/ashrae-w-classes'
+      path: '/ashrae-w-classes'
+      fullPath: '/ashrae-w-classes'
+      preLoaderRoute: typeof AshraeWClassesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/cabinet-comparison': {
@@ -382,6 +539,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CommissioningRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/coolant-flow-rate': {
+      id: '/coolant-flow-rate'
+      path: '/coolant-flow-rate'
+      fullPath: '/coolant-flow-rate'
+      preLoaderRoute: typeof CoolantFlowRateRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/engineering': {
       id: '/engineering'
       path: '/engineering'
@@ -389,11 +553,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EngineeringRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/floor-loading': {
+      id: '/floor-loading'
+      path: '/floor-loading'
+      fullPath: '/floor-loading'
+      preLoaderRoute: typeof FloorLoadingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/glossary': {
       id: '/glossary'
       path: '/glossary'
       fullPath: '/glossary'
       preLoaderRoute: typeof GlossaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/heat-capture-split': {
+      id: '/heat-capture-split'
+      path: '/heat-capture-split'
+      fullPath: '/heat-capture-split'
+      preLoaderRoute: typeof HeatCaptureSplitRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kw-to-tons': {
+      id: '/kw-to-tons'
+      path: '/kw-to-tons'
+      fullPath: '/kw-to-tons'
+      preLoaderRoute: typeof KwToTonsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/liquid-cooling-cost': {
@@ -459,11 +644,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pressure-drop': {
+      id: '/pressure-drop'
+      path: '/pressure-drop'
+      fullPath: '/pressure-drop'
+      preLoaderRoute: typeof PressureDropRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pue-math': {
+      id: '/pue-math'
+      path: '/pue-math'
+      fullPath: '/pue-math'
+      preLoaderRoute: typeof PueMathRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rfq-scope-checklist': {
       id: '/rfq-scope-checklist'
       path: '/rfq-scope-checklist'
       fullPath: '/rfq-scope-checklist'
       preLoaderRoute: typeof RfqScopeChecklistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/room-ac-load': {
+      id: '/room-ac-load'
+      path: '/room-ac-load'
+      fullPath: '/room-ac-load'
+      preLoaderRoute: typeof RoomAcLoadRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/room-load-calculation': {
@@ -501,11 +707,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SupplyChainRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tdp-to-rack-kw': {
+      id: '/tdp-to-rack-kw'
+      path: '/tdp-to-rack-kw'
+      fullPath: '/tdp-to-rack-kw'
+      preLoaderRoute: typeof TdpToRackKwRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/uqd-quick-disconnects': {
       id: '/uqd-quick-disconnects'
       path: '/uqd-quick-disconnects'
       fullPath: '/uqd-quick-disconnects'
       preLoaderRoute: typeof UqdQuickDisconnectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wet-bulb-free-cooling': {
+      id: '/wet-bulb-free-cooling'
+      path: '/wet-bulb-free-cooling'
+      fullPath: '/wet-bulb-free-cooling'
+      preLoaderRoute: typeof WetBulbFreeCoolingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/what-is-a-cdu': {
@@ -520,12 +740,18 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ApproachTemperatureRoute: ApproachTemperatureRoute,
+  AshraeWClassesRoute: AshraeWClassesRoute,
   CabinetComparisonRoute: CabinetComparisonRoute,
   ChangelogRoute: ChangelogRoute,
   ColdPlateVsImmersionRoute: ColdPlateVsImmersionRoute,
   CommissioningRoute: CommissioningRoute,
+  CoolantFlowRateRoute: CoolantFlowRateRoute,
   EngineeringRoute: EngineeringRoute,
+  FloorLoadingRoute: FloorLoadingRoute,
   GlossaryRoute: GlossaryRoute,
+  HeatCaptureSplitRoute: HeatCaptureSplitRoute,
+  KwToTonsRoute: KwToTonsRoute,
   LiquidCoolingCostRoute: LiquidCoolingCostRoute,
   LiquidCoolingFluidsRoute: LiquidCoolingFluidsRoute,
   LiquidCoolingHotClimatesRoute: LiquidCoolingHotClimatesRoute,
@@ -535,13 +761,18 @@ const rootRouteChildren: RootRouteChildren = {
   LiquidReadyServersRoute: LiquidReadyServersRoute,
   MaintenanceScheduleRoute: MaintenanceScheduleRoute,
   NewsRoute: NewsRoute,
+  PressureDropRoute: PressureDropRoute,
+  PueMathRoute: PueMathRoute,
   RfqScopeChecklistRoute: RfqScopeChecklistRoute,
+  RoomAcLoadRoute: RoomAcLoadRoute,
   RoomLoadCalculationRoute: RoomLoadCalculationRoute,
   SiteSurveyRoute: SiteSurveyRoute,
   Ss726LiquidCoolingStandardRoute: Ss726LiquidCoolingStandardRoute,
   StateOfLiquidCooling2026Route: StateOfLiquidCooling2026Route,
   SupplyChainRoute: SupplyChainRoute,
+  TdpToRackKwRoute: TdpToRackKwRoute,
   UqdQuickDisconnectsRoute: UqdQuickDisconnectsRoute,
+  WetBulbFreeCoolingRoute: WetBulbFreeCoolingRoute,
   WhatIsACduRoute: WhatIsACduRoute,
 }
 export const routeTree = rootRouteImport
