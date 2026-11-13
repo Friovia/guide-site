@@ -18,14 +18,19 @@ import { Route as EngineeringRouteImport } from './routes/engineering'
 import { Route as GlossaryRouteImport } from './routes/glossary'
 import { Route as LiquidCoolingCostRouteImport } from './routes/liquid-cooling-cost'
 import { Route as LiquidCoolingFluidsRouteImport } from './routes/liquid-cooling-fluids'
+import { Route as LiquidCoolingHotClimatesRouteImport } from './routes/liquid-cooling-hot-climates'
 import { Route as LiquidCoolingLeaksRouteImport } from './routes/liquid-cooling-leaks'
 import { Route as LiquidCoolingStandardsRouteImport } from './routes/liquid-cooling-standards'
 import { Route as LiquidCoolingVsAirRouteImport } from './routes/liquid-cooling-vs-air'
 import { Route as LiquidReadyServersRouteImport } from './routes/liquid-ready-servers'
 import { Route as MaintenanceScheduleRouteImport } from './routes/maintenance-schedule'
+import { Route as NewsRouteImport } from './routes/news'
 import { Route as RfqScopeChecklistRouteImport } from './routes/rfq-scope-checklist'
 import { Route as RoomLoadCalculationRouteImport } from './routes/room-load-calculation'
 import { Route as SiteSurveyRouteImport } from './routes/site-survey'
+import { Route as Ss726LiquidCoolingStandardRouteImport } from './routes/ss726-liquid-cooling-standard'
+import { Route as StateOfLiquidCooling2026RouteImport } from './routes/state-of-liquid-cooling-2026'
+import { Route as SupplyChainRouteImport } from './routes/supply-chain'
 import { Route as UqdQuickDisconnectsRouteImport } from './routes/uqd-quick-disconnects'
 import { Route as WhatIsACduRouteImport } from './routes/what-is-a-cdu'
 
@@ -74,6 +79,12 @@ const LiquidCoolingFluidsRoute = LiquidCoolingFluidsRouteImport.update({
   path: '/liquid-cooling-fluids',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LiquidCoolingHotClimatesRoute =
+  LiquidCoolingHotClimatesRouteImport.update({
+    id: '/liquid-cooling-hot-climates',
+    path: '/liquid-cooling-hot-climates',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const LiquidCoolingLeaksRoute = LiquidCoolingLeaksRouteImport.update({
   id: '/liquid-cooling-leaks',
   path: '/liquid-cooling-leaks',
@@ -99,6 +110,11 @@ const MaintenanceScheduleRoute = MaintenanceScheduleRouteImport.update({
   path: '/maintenance-schedule',
   getParentRoute: () => rootRouteImport,
 } as any)
+const NewsRoute = NewsRouteImport.update({
+  id: '/news',
+  path: '/news',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RfqScopeChecklistRoute = RfqScopeChecklistRouteImport.update({
   id: '/rfq-scope-checklist',
   path: '/rfq-scope-checklist',
@@ -112,6 +128,23 @@ const RoomLoadCalculationRoute = RoomLoadCalculationRouteImport.update({
 const SiteSurveyRoute = SiteSurveyRouteImport.update({
   id: '/site-survey',
   path: '/site-survey',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Ss726LiquidCoolingStandardRoute =
+  Ss726LiquidCoolingStandardRouteImport.update({
+    id: '/ss726-liquid-cooling-standard',
+    path: '/ss726-liquid-cooling-standard',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const StateOfLiquidCooling2026Route =
+  StateOfLiquidCooling2026RouteImport.update({
+    id: '/state-of-liquid-cooling-2026',
+    path: '/state-of-liquid-cooling-2026',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const SupplyChainRoute = SupplyChainRouteImport.update({
+  id: '/supply-chain',
+  path: '/supply-chain',
   getParentRoute: () => rootRouteImport,
 } as any)
 const UqdQuickDisconnectsRoute = UqdQuickDisconnectsRouteImport.update({
@@ -135,14 +168,19 @@ export interface FileRoutesByFullPath {
   '/glossary': typeof GlossaryRoute
   '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
   '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
+  '/liquid-cooling-hot-climates': typeof LiquidCoolingHotClimatesRoute
   '/liquid-cooling-leaks': typeof LiquidCoolingLeaksRoute
   '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
   '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
+  '/news': typeof NewsRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
   '/room-load-calculation': typeof RoomLoadCalculationRoute
   '/site-survey': typeof SiteSurveyRoute
+  '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
+  '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
+  '/supply-chain': typeof SupplyChainRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
 }
@@ -156,14 +194,19 @@ export interface FileRoutesByTo {
   '/glossary': typeof GlossaryRoute
   '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
   '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
+  '/liquid-cooling-hot-climates': typeof LiquidCoolingHotClimatesRoute
   '/liquid-cooling-leaks': typeof LiquidCoolingLeaksRoute
   '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
   '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
+  '/news': typeof NewsRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
   '/room-load-calculation': typeof RoomLoadCalculationRoute
   '/site-survey': typeof SiteSurveyRoute
+  '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
+  '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
+  '/supply-chain': typeof SupplyChainRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
 }
@@ -178,14 +221,19 @@ export interface FileRoutesById {
   '/glossary': typeof GlossaryRoute
   '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
   '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
+  '/liquid-cooling-hot-climates': typeof LiquidCoolingHotClimatesRoute
   '/liquid-cooling-leaks': typeof LiquidCoolingLeaksRoute
   '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
   '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
+  '/news': typeof NewsRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
   '/room-load-calculation': typeof RoomLoadCalculationRoute
   '/site-survey': typeof SiteSurveyRoute
+  '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
+  '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
+  '/supply-chain': typeof SupplyChainRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
 }
@@ -201,14 +249,19 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/liquid-cooling-cost'
     | '/liquid-cooling-fluids'
+    | '/liquid-cooling-hot-climates'
     | '/liquid-cooling-leaks'
     | '/liquid-cooling-standards'
     | '/liquid-cooling-vs-air'
     | '/liquid-ready-servers'
     | '/maintenance-schedule'
+    | '/news'
     | '/rfq-scope-checklist'
     | '/room-load-calculation'
     | '/site-survey'
+    | '/ss726-liquid-cooling-standard'
+    | '/state-of-liquid-cooling-2026'
+    | '/supply-chain'
     | '/uqd-quick-disconnects'
     | '/what-is-a-cdu'
   fileRoutesByTo: FileRoutesByTo
@@ -222,14 +275,19 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/liquid-cooling-cost'
     | '/liquid-cooling-fluids'
+    | '/liquid-cooling-hot-climates'
     | '/liquid-cooling-leaks'
     | '/liquid-cooling-standards'
     | '/liquid-cooling-vs-air'
     | '/liquid-ready-servers'
     | '/maintenance-schedule'
+    | '/news'
     | '/rfq-scope-checklist'
     | '/room-load-calculation'
     | '/site-survey'
+    | '/ss726-liquid-cooling-standard'
+    | '/state-of-liquid-cooling-2026'
+    | '/supply-chain'
     | '/uqd-quick-disconnects'
     | '/what-is-a-cdu'
   id:
@@ -243,14 +301,19 @@ export interface FileRouteTypes {
     | '/glossary'
     | '/liquid-cooling-cost'
     | '/liquid-cooling-fluids'
+    | '/liquid-cooling-hot-climates'
     | '/liquid-cooling-leaks'
     | '/liquid-cooling-standards'
     | '/liquid-cooling-vs-air'
     | '/liquid-ready-servers'
     | '/maintenance-schedule'
+    | '/news'
     | '/rfq-scope-checklist'
     | '/room-load-calculation'
     | '/site-survey'
+    | '/ss726-liquid-cooling-standard'
+    | '/state-of-liquid-cooling-2026'
+    | '/supply-chain'
     | '/uqd-quick-disconnects'
     | '/what-is-a-cdu'
   fileRoutesById: FileRoutesById
@@ -265,14 +328,19 @@ export interface RootRouteChildren {
   GlossaryRoute: typeof GlossaryRoute
   LiquidCoolingCostRoute: typeof LiquidCoolingCostRoute
   LiquidCoolingFluidsRoute: typeof LiquidCoolingFluidsRoute
+  LiquidCoolingHotClimatesRoute: typeof LiquidCoolingHotClimatesRoute
   LiquidCoolingLeaksRoute: typeof LiquidCoolingLeaksRoute
   LiquidCoolingStandardsRoute: typeof LiquidCoolingStandardsRoute
   LiquidCoolingVsAirRoute: typeof LiquidCoolingVsAirRoute
   LiquidReadyServersRoute: typeof LiquidReadyServersRoute
   MaintenanceScheduleRoute: typeof MaintenanceScheduleRoute
+  NewsRoute: typeof NewsRoute
   RfqScopeChecklistRoute: typeof RfqScopeChecklistRoute
   RoomLoadCalculationRoute: typeof RoomLoadCalculationRoute
   SiteSurveyRoute: typeof SiteSurveyRoute
+  Ss726LiquidCoolingStandardRoute: typeof Ss726LiquidCoolingStandardRoute
+  StateOfLiquidCooling2026Route: typeof StateOfLiquidCooling2026Route
+  SupplyChainRoute: typeof SupplyChainRoute
   UqdQuickDisconnectsRoute: typeof UqdQuickDisconnectsRoute
   WhatIsACduRoute: typeof WhatIsACduRoute
 }
@@ -342,6 +410,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LiquidCoolingFluidsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/liquid-cooling-hot-climates': {
+      id: '/liquid-cooling-hot-climates'
+      path: '/liquid-cooling-hot-climates'
+      fullPath: '/liquid-cooling-hot-climates'
+      preLoaderRoute: typeof LiquidCoolingHotClimatesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/liquid-cooling-leaks': {
       id: '/liquid-cooling-leaks'
       path: '/liquid-cooling-leaks'
@@ -377,6 +452,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MaintenanceScheduleRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/news': {
+      id: '/news'
+      path: '/news'
+      fullPath: '/news'
+      preLoaderRoute: typeof NewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rfq-scope-checklist': {
       id: '/rfq-scope-checklist'
       path: '/rfq-scope-checklist'
@@ -396,6 +478,27 @@ declare module '@tanstack/react-router' {
       path: '/site-survey'
       fullPath: '/site-survey'
       preLoaderRoute: typeof SiteSurveyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ss726-liquid-cooling-standard': {
+      id: '/ss726-liquid-cooling-standard'
+      path: '/ss726-liquid-cooling-standard'
+      fullPath: '/ss726-liquid-cooling-standard'
+      preLoaderRoute: typeof Ss726LiquidCoolingStandardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/state-of-liquid-cooling-2026': {
+      id: '/state-of-liquid-cooling-2026'
+      path: '/state-of-liquid-cooling-2026'
+      fullPath: '/state-of-liquid-cooling-2026'
+      preLoaderRoute: typeof StateOfLiquidCooling2026RouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/supply-chain': {
+      id: '/supply-chain'
+      path: '/supply-chain'
+      fullPath: '/supply-chain'
+      preLoaderRoute: typeof SupplyChainRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/uqd-quick-disconnects': {
@@ -425,14 +528,19 @@ const rootRouteChildren: RootRouteChildren = {
   GlossaryRoute: GlossaryRoute,
   LiquidCoolingCostRoute: LiquidCoolingCostRoute,
   LiquidCoolingFluidsRoute: LiquidCoolingFluidsRoute,
+  LiquidCoolingHotClimatesRoute: LiquidCoolingHotClimatesRoute,
   LiquidCoolingLeaksRoute: LiquidCoolingLeaksRoute,
   LiquidCoolingStandardsRoute: LiquidCoolingStandardsRoute,
   LiquidCoolingVsAirRoute: LiquidCoolingVsAirRoute,
   LiquidReadyServersRoute: LiquidReadyServersRoute,
   MaintenanceScheduleRoute: MaintenanceScheduleRoute,
+  NewsRoute: NewsRoute,
   RfqScopeChecklistRoute: RfqScopeChecklistRoute,
   RoomLoadCalculationRoute: RoomLoadCalculationRoute,
   SiteSurveyRoute: SiteSurveyRoute,
+  Ss726LiquidCoolingStandardRoute: Ss726LiquidCoolingStandardRoute,
+  StateOfLiquidCooling2026Route: StateOfLiquidCooling2026Route,
+  SupplyChainRoute: SupplyChainRoute,
   UqdQuickDisconnectsRoute: UqdQuickDisconnectsRoute,
   WhatIsACduRoute: WhatIsACduRoute,
 }

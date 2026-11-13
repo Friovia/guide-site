@@ -212,3 +212,34 @@ footer.site { border-top: 1px solid var(--line); margin-top: 80px; padding: 22px
 footer.site .container::before { content: "LIQUID COOLING GUIDE — INDEPENDENT REFERENCE"; display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em; color: var(--text2); margin-bottom: 6px; }
 
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+/* PageToc (shared by Vue scoped original and React port) */
+.ptoc{align-items:baseline;border:1px solid var(--rule);border-radius:8px;display:flex;flex-wrap:wrap;font-size:13px;gap:6px 16px;margin:0 0 28px;max-width:760px;padding:10px 14px}
+.ptoc-label{color:var(--text2);font-weight:600}
+.ptoc a{color:var(--cool);text-decoration:none}
+.ptoc a:hover{text-decoration:underline}
+
+/* ChainCanvas (shared by Vue scoped original and React port) */
+.cc-band{font-family:var(--mono);font-size:12px;letter-spacing:.1em;font-weight:500}
+.cc-note{font-family:var(--mono);font-size:10px;fill:var(--text2)}
+.cc-stage{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;font-weight:600;fill:var(--text)}
+.cc-sub{font-family:var(--sans);font-size:11px;fill:var(--text2)}
+.cc-seg{font-family:var(--sans);font-size:11.5px;fill:var(--text)}
+.cc-cnt{font-family:var(--mono);font-size:10.5px;fill:var(--cool)}
+
+/* News page (shared by Vue scoped original and React port) */
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:.04em;background:var(--panel);border:1px solid var(--line);padding:6px 12px;cursor:pointer;color:var(--text2);border-radius:2px}
+.chip.on{border-color:var(--cool);color:var(--cool);font-weight:600}
+.chip .cnt{margin-left:6px;opacity:.7}
+.newsitem{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin-bottom:22px;max-width:760px}
+.nmeta{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:.05em;color:var(--text2);display:flex;gap:12px;flex-wrap:wrap;margin-bottom:3px}
+.nchan{text-transform:uppercase}
+.nchan.technology{color:var(--cool)}
+.nchan.product{color:var(--warn)}
+.nchan.investment{color:#b18cff}
+.nchan.standards{color:var(--ok)}
+.ntitle{font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif;font-size:16.5px;font-weight:600;text-decoration:none;display:block}
+.ntitle:hover{text-decoration:underline}
+.nnote{font-size:14px;color:var(--text2);margin:4px 0 0;font-family:"IBM Plex Sans",ui-sans-serif,system-ui,sans-serif}
+.mono-src{font-family:ui-monospace,monospace;font-size:12.5px}
