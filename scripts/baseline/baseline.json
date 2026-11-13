@@ -1,0 +1,745 @@
+{
+ "base": "https://liquidcoolingguide.com",
+ "capturedAt": "2026-11-13T10:10:50.698Z",
+ "routes": [
+  "/",
+  "/approach-temperature",
+  "/ar",
+  "/ashrae-w-classes",
+  "/cabinet-comparison",
+  "/changelog",
+  "/cold-plate-vs-immersion",
+  "/commissioning",
+  "/coolant-flow-rate",
+  "/engineering",
+  "/es",
+  "/floor-loading",
+  "/glossary",
+  "/heat-capture-split",
+  "/kw-to-tons",
+  "/liquid-cooling-cost",
+  "/liquid-cooling-fluids",
+  "/liquid-cooling-hot-climates",
+  "/liquid-cooling-leaks",
+  "/liquid-cooling-standards",
+  "/liquid-cooling-vs-air",
+  "/liquid-ready-servers",
+  "/maintenance-schedule",
+  "/news",
+  "/playground",
+  "/playground/derating",
+  "/playground/rack-builder",
+  "/playground/room-load",
+  "/pressure-drop",
+  "/pue-math",
+  "/rfq-scope-checklist",
+  "/room-ac-load",
+  "/room-load-calculation",
+  "/site-survey",
+  "/ss726-liquid-cooling-standard",
+  "/state-of-liquid-cooling-2026",
+  "/supply-chain",
+  "/tdp-to-rack-kw",
+  "/uqd-quick-disconnects",
+  "/wet-bulb-free-cooling",
+  "/what-is-a-cdu",
+  "/what-is-liquid-cooling"
+ ],
+ "pages": {
+  "/": {
+   "status": 200,
+   "title": "Liquid cooling for micro data centers — an independent guide · Liquid Cooling Guide",
+   "description": "What liquid cooling is, liquid vs air, the formulas with live calculators, and a sourced comparison of small-scale cooling cabinets. Independent reference for hospitals, universities and edge deployments.",
+   "canonical": "https://liquidcoolingguide.com/",
+   "ogTitle": "Liquid cooling for micro data centers — an independent guide · Liquid Cooling Guide",
+   "ogDescription": "What liquid cooling is, liquid vs air, the formulas with live calculators, and a sourced comparison of small-scale cooling cabinets. Independent reference for hospitals, universities and edge deployments.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "d26ab8c62abe5fdc86473cc307d14ee1"
+  },
+  "/approach-temperature": {
+   "status": 200,
+   "title": "Approach temperature and liquid cooling derating explained · Liquid Cooling Guide",
+   "description": "Approach temperature = coolant supply minus room air temperature; liquid-to-air capacity scales roughly linearly with it. Why an 86.5 kW cabinet (Vertiv XDU070, 45 °C/25 °C) halves at 35 °C ambient — formula, live simulator, and the dew-point trap.",
+   "canonical": "https://liquidcoolingguide.com/approach-temperature",
+   "ogTitle": "Approach temperature and liquid cooling derating explained · Liquid Cooling Guide",
+   "ogDescription": "Approach temperature = coolant supply minus room air temperature; liquid-to-air capacity scales roughly linearly with it. Why an 86.5 kW cabinet (Vertiv XDU070, 45 °C/25 °C) halves at 35 °C ambient — formula, live simulator, and the dew-point trap.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "bbedf233e704184416bd5d2d80f02fb4",
+   "textHash": "c77856de106ccc2e0276c12cb72bb7a4"
+  },
+  "/ar": {
+   "status": 200,
+   "title": "التبريد السائل لمراكز البيانات الصغيرة — دليل مستقل · Liquid Cooling Guide",
+   "description": "ما هو التبريد السائل، السائل مقابل الهواء، الصيغ مع آلات حاسبة مباشرة، ومقارنة موثقة للخزائن صغيرة الحجم.",
+   "canonical": "https://liquidcoolingguide.com/ar",
+   "ogTitle": "التبريد السائل لمراكز البيانات الصغيرة — دليل مستقل · Liquid Cooling Guide",
+   "ogDescription": "ما هو التبريد السائل، السائل مقابل الهواء، الصيغ مع آلات حاسبة مباشرة، ومقارنة موثقة للخزائن صغيرة الحجم.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "9bf08746899a4323c264cc500c8ae68d"
+  },
+  "/ashrae-w-classes": {
+   "status": 200,
+   "title": "ASHRAE W-classes explained (W17, W27, W32, W40, W45) · Liquid Cooling Guide",
+   "description": "ASHRAE W-class table: W17/W27/W32/W40/W45 — the number is the maximum facility water supply temperature in °C. Higher classes enable chiller-free warm-water cooling; lookup tool, what each class implies, and the quality/tropical caveats.",
+   "canonical": "https://liquidcoolingguide.com/ashrae-w-classes",
+   "ogTitle": "ASHRAE W-classes explained (W17, W27, W32, W40, W45) · Liquid Cooling Guide",
+   "ogDescription": "ASHRAE W-class table: W17/W27/W32/W40/W45 — the number is the maximum facility water supply temperature in °C. Higher classes enable chiller-free warm-water cooling; lookup tool, what each class implies, and the quality/tropical caveats.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "ecd5962e1fa390c7cf05210f52e58b6b",
+   "textHash": "58cbf1c9f97ed618bfba01b90461deef"
+  },
+  "/cabinet-comparison": {
+   "status": 200,
+   "title": "Small-scale cooling cabinet comparison · Liquid Cooling Guide",
+   "description": "Verified comparison of rack-level cooling products for micro data centers — Schneider, Vertiv, STULZ×CoolIT, Rittal, Asetek, nVent: power class, cooling type, facility requirements, per-row sources.",
+   "canonical": "https://liquidcoolingguide.com/cabinet-comparison",
+   "ogTitle": "Small-scale cooling cabinet comparison · Liquid Cooling Guide",
+   "ogDescription": "Verified comparison of rack-level cooling products for micro data centers — Schneider, Vertiv, STULZ×CoolIT, Rittal, Asetek, nVent: power class, cooling type, facility requirements, per-row sources.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "839e8ea2ef9a8793d0ba4b81a92fc44b",
+   "textHash": "d3dcab992e22e32cc8a3dc290f2fa3e2"
+  },
+  "/changelog": {
+   "status": 200,
+   "title": "Changelog · Liquid Cooling Guide",
+   "description": "What changed and when on the Liquid Cooling Guide — data layer versions, article updates, standards tracking.",
+   "canonical": "https://liquidcoolingguide.com/changelog",
+   "ogTitle": "Changelog · Liquid Cooling Guide",
+   "ogDescription": "What changed and when on the Liquid Cooling Guide — data layer versions, article updates, standards tracking.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "81766c64c09e273af52d86e59e94508c"
+  },
+  "/cold-plate-vs-immersion": {
+   "status": 200,
+   "title": "Cold plate vs immersion cooling · Liquid Cooling Guide",
+   "description": "Direct-to-chip cold plates vs immersion: heat capture, fluids and PFAS regulation, serviceability, standards, and which one small deployments should choose.",
+   "canonical": "https://liquidcoolingguide.com/cold-plate-vs-immersion",
+   "ogTitle": "Cold plate vs immersion cooling · Liquid Cooling Guide",
+   "ogDescription": "Direct-to-chip cold plates vs immersion: heat capture, fluids and PFAS regulation, serviceability, standards, and which one small deployments should choose.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "a8cb1b4f9e8a31b5ea717494f71e708a",
+   "textHash": "19952359a212b0bbdb00e7e27b56c057"
+  },
+  "/commissioning": {
+   "status": 200,
+   "title": "Commissioning a liquid-cooled rack — 8-step acceptance sequence · Liquid Cooling Guide",
+   "description": "Liquid cooling commissioning: dry pressure test, fill & purge, flow verification against the calculated L/min, pressure survey, dew-point check, leak-system test, staged load ramp, baseline snapshot — with pass criteria for each step.",
+   "canonical": "https://liquidcoolingguide.com/commissioning",
+   "ogTitle": "Commissioning a liquid-cooled rack — 8-step acceptance sequence · Liquid Cooling Guide",
+   "ogDescription": "Liquid cooling commissioning: dry pressure test, fill & purge, flow verification against the calculated L/min, pressure survey, dew-point check, leak-system test, staged load ramp, baseline snapshot — with pass criteria for each step.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "5c47e21e5641e2aa4208b27a771534d6",
+   "textHash": "b897a4d8ac092c9527ebc90abf56bbfb"
+  },
+  "/coolant-flow-rate": {
+   "status": 200,
+   "title": "Coolant flow rate formula (L&#x2F;min from kW and ΔT) · Liquid Cooling Guide",
+   "description": "Coolant flow rate formula: flow [L/min] = P [kW] × 60 / (4.186 × ΔT [°C]). Worked example — 50 kW at ΔT 8 °C needs 89.6 L/min — plus a live calculator and the three mistakes that oversize loops.",
+   "canonical": "https://liquidcoolingguide.com/coolant-flow-rate",
+   "ogTitle": "Coolant flow rate formula (L/min from kW and ΔT) · Liquid Cooling Guide",
+   "ogDescription": "Coolant flow rate formula: flow [L/min] = P [kW] × 60 / (4.186 × ΔT [°C]). Worked example — 50 kW at ΔT 8 °C needs 89.6 L/min — plus a live calculator and the three mistakes that oversize loops.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "bb2bd6e520fb9cb5cc4d0db0b50a74ae",
+   "textHash": "bb330f1d7a730431f157d890ea6f5289"
+  },
+  "/engineering": {
+   "status": 200,
+   "title": "Engineering &amp; calculators — every liquid cooling formula with live tools · Liquid Cooling Guide",
+   "description": "The engineering channel: TDP-to-rack-kW budgets, coolant flow, heat capture split, approach-temperature derating, ASHRAE W-classes, wet-bulb free cooling, room AC load (1.1× rule), UQD interfaces and PG25 fluids — one concept per page, live calculators, sourced.",
+   "canonical": "https://liquidcoolingguide.com/engineering",
+   "ogTitle": "Engineering & calculators — every liquid cooling formula with live tools · Liquid Cooling Guide",
+   "ogDescription": "The engineering channel: TDP-to-rack-kW budgets, coolant flow, heat capture split, approach-temperature derating, ASHRAE W-classes, wet-bulb free cooling, room AC load (1.1× rule), UQD interfaces and PG25 fluids — one concept per page, live calculators, sourced.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "9d35a0925a35b33662a3842c7b1146d2",
+   "textHash": "30509c41a2ef45d05ec50de589e1fa82"
+  },
+  "/es": {
+   "status": 200,
+   "title": "Refrigeración líquida para micro centros de datos — guía independiente · Liquid Cooling Guide",
+   "description": "Qué es la refrigeración líquida, líquido vs aire, las fórmulas con calculadoras en vivo y una comparación con fuentes de gabinetes de pequeña escala.",
+   "canonical": "https://liquidcoolingguide.com/es",
+   "ogTitle": "Refrigeración líquida para micro centros de datos — guía independiente · Liquid Cooling Guide",
+   "ogDescription": "Qué es la refrigeración líquida, líquido vs aire, las fórmulas con calculadoras en vivo y una comparación con fuentes de gabinetes de pequeña escala.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "b0027896d13bc4802e2b2b2cdcab2cde"
+  },
+  "/floor-loading": {
+   "status": 200,
+   "title": "Floor loading for liquid-cooled racks (kN&#x2F;m² calculator) · Liquid Cooling Guide",
+   "description": "Floor load = mass × 9.81 ÷ footprint: a 1,200 kg rack on 600 × 1,200 mm prints 16.4 kN/m², ~5× an office floor design load (~3 kN/m²). Live calculator, typical design ranges, and the concentrated-load mistake.",
+   "canonical": "https://liquidcoolingguide.com/floor-loading",
+   "ogTitle": "Floor loading for liquid-cooled racks (kN/m² calculator) · Liquid Cooling Guide",
+   "ogDescription": "Floor load = mass × 9.81 ÷ footprint: a 1,200 kg rack on 600 × 1,200 mm prints 16.4 kN/m², ~5× an office floor design load (~3 kN/m²). Live calculator, typical design ranges, and the concentrated-load mistake.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "e5bda3c5dfca64ccacf61fb1398aeb93",
+   "textHash": "87b7c4df028af2b012d3f345d37e8801"
+  },
+  "/glossary": {
+   "status": 200,
+   "title": "Liquid cooling glossary (DLC, CDU, UQD, W-class, PUE…) · Liquid Cooling Guide",
+   "description": "Fifty-plus self-contained liquid cooling definitions: direct-to-chip, CDU, TCS/FWS, UQD sizes, blind-mate, manifold, cold plate, L2A/L2L, ASHRAE W-classes, approach temperature, capture ratio, PUE, PG25, ORv3, derating, wet-bulb, TDP, N+1, floor loading.",
+   "canonical": "https://liquidcoolingguide.com/glossary",
+   "ogTitle": "Liquid cooling glossary (DLC, CDU, UQD, W-class, PUE…) · Liquid Cooling Guide",
+   "ogDescription": "Fifty-plus self-contained liquid cooling definitions: direct-to-chip, CDU, TCS/FWS, UQD sizes, blind-mate, manifold, cold plate, L2A/L2L, ASHRAE W-classes, approach temperature, capture ratio, PUE, PG25, ORv3, derating, wet-bulb, TDP, N+1, floor loading.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "246018a837d4d456eabaf237718a9676",
+   "textHash": "c66d014e5977e405835635b7c8f5e513"
+  },
+  "/heat-capture-split": {
+   "status": 200,
+   "title": "Heat capture split — how much heat direct-to-chip actually takes · Liquid Cooling Guide",
+   "description": "Direct-to-chip liquid cooling captures 60-80% of server heat: P_liquid = capture × P_IT. Worked example (40 kW at 75% → 30 kW liquid / 10 kW air), live calculator, and why the air share still needs room AC.",
+   "canonical": "https://liquidcoolingguide.com/heat-capture-split",
+   "ogTitle": "Heat capture split — how much heat direct-to-chip actually takes · Liquid Cooling Guide",
+   "ogDescription": "Direct-to-chip liquid cooling captures 60-80% of server heat: P_liquid = capture × P_IT. Worked example (40 kW at 75% → 30 kW liquid / 10 kW air), live calculator, and why the air share still needs room AC.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "2d36b2fd7003e2957fe38dce6a1d4cbf",
+   "textHash": "16f5a3ba991b5a904282aaa0d1d81b48"
+  },
+  "/kw-to-tons": {
+   "status": 200,
+   "title": "kW to refrigeration tons conversion (and back) · Liquid Cooling Guide",
+   "description": "1 refrigeration ton = 3.517 kW (12,000 BTU/h); tons = kW ÷ 3.517. Worked examples, a two-way live converter, and the tons-vs-electrical-draw mistake that undersizes rooms by two-thirds.",
+   "canonical": "https://liquidcoolingguide.com/kw-to-tons",
+   "ogTitle": "kW to refrigeration tons conversion (and back) · Liquid Cooling Guide",
+   "ogDescription": "1 refrigeration ton = 3.517 kW (12,000 BTU/h); tons = kW ÷ 3.517. Worked examples, a two-way live converter, and the tons-vs-electrical-draw mistake that undersizes rooms by two-thirds.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "8284284b75caee1340eb3631a7e4913d",
+   "textHash": "295002406736a70051a3510f89a7683f"
+  },
+  "/liquid-cooling-cost": {
+   "status": 200,
+   "title": "What drives the cost of liquid cooling? · Liquid Cooling Guide",
+   "description": "Why nobody publishes liquid cooling prices: the cost stack (capacity, architecture, redundancy, monitoring, certification, install) and how to make vendors quote comparable scopes.",
+   "canonical": "https://liquidcoolingguide.com/liquid-cooling-cost",
+   "ogTitle": "What drives the cost of liquid cooling? · Liquid Cooling Guide",
+   "ogDescription": "Why nobody publishes liquid cooling prices: the cost stack (capacity, architecture, redundancy, monitoring, certification, install) and how to make vendors quote comparable scopes.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "db311ccd468b4c9be6c582a9ab808060",
+   "textHash": "2063c0279ade3f134837b2dc2013a979"
+  },
+  "/liquid-cooling-fluids": {
+   "status": 200,
+   "title": "Liquid cooling fluids: PG25 vs fluorinated (PFAS) · Liquid Cooling Guide",
+   "description": "PG25 water-glycol vs immersion oils vs fluorinated fluids: PFAS regulation, 3M’s exit, transport and disposal rules, and what a buyer should specify.",
+   "canonical": "https://liquidcoolingguide.com/liquid-cooling-fluids",
+   "ogTitle": "Liquid cooling fluids: PG25 vs fluorinated (PFAS) · Liquid Cooling Guide",
+   "ogDescription": "PG25 water-glycol vs immersion oils vs fluorinated fluids: PFAS regulation, 3M’s exit, transport and disposal rules, and what a buyer should specify.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "76ede2013943d04d811207765e9cb18c",
+   "textHash": "6486d33ad40242d1b3212159f392071c"
+  },
+  "/liquid-cooling-hot-climates": {
+   "status": 200,
+   "title": "Liquid cooling in hot and tropical climates · Liquid Cooling Guide",
+   "description": "Tropical liquid cooling physics: why free cooling fails at high wet-bulb, how L2A capacity derates with room temperature (with published numbers), SS 726:2026 scope, and a hot-climate buying checklist.",
+   "canonical": "https://liquidcoolingguide.com/liquid-cooling-hot-climates",
+   "ogTitle": "Liquid cooling in hot and tropical climates · Liquid Cooling Guide",
+   "ogDescription": "Tropical liquid cooling physics: why free cooling fails at high wet-bulb, how L2A capacity derates with room temperature (with published numbers), SS 726:2026 scope, and a hot-climate buying checklist.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "14789713cb8f30a1c941338327545694",
+   "textHash": "70b3300e63ee4eb837201965c8966601"
+  },
+  "/liquid-cooling-leaks": {
+   "status": 200,
+   "title": "Liquid cooling leaks: risk, detection and response · Liquid Cooling Guide",
+   "description": "Where liquid cooling leaks actually happen (couplings, clamps, corrosion), how dripless UQD and blind-mate designs mitigate them, and the four-layer detection/response model buyers should demand.",
+   "canonical": "https://liquidcoolingguide.com/liquid-cooling-leaks",
+   "ogTitle": "Liquid cooling leaks: risk, detection and response · Liquid Cooling Guide",
+   "ogDescription": "Where liquid cooling leaks actually happen (couplings, clamps, corrosion), how dripless UQD and blind-mate designs mitigate them, and the four-layer detection/response model buyers should demand.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "74c4c237987ed2085892a62088bc58ca",
+   "textHash": "471f60c7f6c494034ad8b7f496f81b5b"
+  },
+  "/liquid-cooling-standards": {
+   "status": 200,
+   "title": "Liquid cooling standards explained (OCP, ASHRAE, IEC 62368-1, SS 726) · Liquid Cooling Guide",
+   "description": "The four standard families governing rack liquid cooling — OCP interconnects, ASHRAE W-classes, IEC 62368-1 Ed.4 safety, SS 726 tropical — and the buying checklist they imply.",
+   "canonical": "https://liquidcoolingguide.com/liquid-cooling-standards",
+   "ogTitle": "Liquid cooling standards explained (OCP, ASHRAE, IEC 62368-1, SS 726) · Liquid Cooling Guide",
+   "ogDescription": "The four standard families governing rack liquid cooling — OCP interconnects, ASHRAE W-classes, IEC 62368-1 Ed.4 safety, SS 726 tropical — and the buying checklist they imply.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "57589208fcbf04de3540eebe658e1145",
+   "textHash": "0d58d0690cefe56617ff7db44a554f6e"
+  },
+  "/liquid-cooling-vs-air": {
+   "status": 200,
+   "title": "Liquid cooling vs air cooling · Liquid Cooling Guide",
+   "description": "When liquid cooling becomes necessary (and the 30 kW crossover myth), tropical-climate derating physics, room AC load math, and what PUE comparisons actually assume.",
+   "canonical": "https://liquidcoolingguide.com/liquid-cooling-vs-air",
+   "ogTitle": "Liquid cooling vs air cooling · Liquid Cooling Guide",
+   "ogDescription": "When liquid cooling becomes necessary (and the 30 kW crossover myth), tropical-climate derating physics, room AC load math, and what PUE comparisons actually assume.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "1c5b76c4c6d87f867c37036f871ee2a6",
+   "textHash": "9ae669efe53e6c8c40f74f811ec346c5"
+  },
+  "/liquid-ready-servers": {
+   "status": 200,
+   "title": "Liquid-ready servers: the five compatibility checks · Liquid Cooling Guide",
+   "description": "What &quot;DLC-ready&quot; means, the five compatibility checks (cold plate coverage, UQD couplings, W-class, flow/pressure, serviceability), and why OCP-standard interfaces protect you from vendor lock-in.",
+   "canonical": "https://liquidcoolingguide.com/liquid-ready-servers",
+   "ogTitle": "Liquid-ready servers: the five compatibility checks · Liquid Cooling Guide",
+   "ogDescription": "What &quot;DLC-ready&quot; means, the five compatibility checks (cold plate coverage, UQD couplings, W-class, flow/pressure, serviceability), and why OCP-standard interfaces protect you from vendor lock-in.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "5f9415093f9b748281bff29fc11d70fe",
+   "textHash": "8bda0e6ebf121b68a737bc2191042f16"
+  },
+  "/maintenance-schedule": {
+   "status": 200,
+   "title": "Liquid cooling maintenance schedule (intervals table) · Liquid Cooling Guide",
+   "description": "Direct-to-chip maintenance intervals: weekly visual, monthly parameter trending, quarterly filters, semi-annual fluid analysis (pH, inhibitors, bacteria), annual UQD and sensor calibration, vendor-defined fluid replacement every 2-3 years. Plus the three failures the schedule catches early.",
+   "canonical": "https://liquidcoolingguide.com/maintenance-schedule",
+   "ogTitle": "Liquid cooling maintenance schedule (intervals table) · Liquid Cooling Guide",
+   "ogDescription": "Direct-to-chip maintenance intervals: weekly visual, monthly parameter trending, quarterly filters, semi-annual fluid analysis (pH, inhibitors, bacteria), annual UQD and sensor calibration, vendor-defined fluid replacement every 2-3 years. Plus the three failures the schedule catches early.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "4d487734786c1ae22b9bec715478cf7f",
+   "textHash": "0384a86381e88f8eae36006e5a0d2940"
+  },
+  "/news": {
+   "status": 200,
+   "title": "Liquid cooling industry radar — news, milestones, standards · Liquid Cooling Guide",
+   "description": "What is moving in data center liquid cooling: a curated industry timeline (STULZ×CoolIT 2018, ASHRAE W-classes, 3M PFAS exit, GB200-era 120 kW racks, OCP ORv3, SS 726:2026) plus dated items across technology, products, investment and standards — every entry sourced.",
+   "canonical": "https://liquidcoolingguide.com/news",
+   "ogTitle": "Liquid cooling industry radar — news, milestones, standards · Liquid Cooling Guide",
+   "ogDescription": "What is moving in data center liquid cooling: a curated industry timeline (STULZ×CoolIT 2018, ASHRAE W-classes, 3M PFAS exit, GB200-era 120 kW racks, OCP ORv3, SS 726:2026) plus dated items across technology, products, investment and standards — every entry sourced.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "8452f9f9b4a2e85b6d720a301aefc004",
+   "textHash": "c914a67588658f7fb06bed9847c2984a"
+  },
+  "/playground": {
+   "status": 200,
+   "title": "Playground — interactive liquid cooling tools · Liquid Cooling Guide",
+   "description": "Interactive liquid cooling playground: live coolant-loop simulator, rack builder, capacity derating simulator, room load calculator — learn by moving numbers, all in-browser.",
+   "canonical": "https://liquidcoolingguide.com/playground",
+   "ogTitle": "Playground — interactive liquid cooling tools · Liquid Cooling Guide",
+   "ogDescription": "Interactive liquid cooling playground: live coolant-loop simulator, rack builder, capacity derating simulator, room load calculator — learn by moving numbers, all in-browser.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "9bb40f958b1706e3003d274e412888e6"
+  },
+  "/playground/derating": {
+   "status": 200,
+   "title": "Liquid cooling derating simulator (capacity vs room temperature) · Liquid Cooling Guide",
+   "description": "Pick a real product (Vertiv CoolChip CDU 70 and more) or a custom rating point, then drag the operating point along the capacity-vs-room-temperature curve — approach-temperature model anchored to published vendor data.",
+   "canonical": "https://liquidcoolingguide.com/playground/derating",
+   "ogTitle": "Liquid cooling derating simulator (capacity vs room temperature) · Liquid Cooling Guide",
+   "ogDescription": "Pick a real product (Vertiv CoolChip CDU 70 and more) or a custom rating point, then drag the operating point along the capacity-vs-room-temperature curve — approach-temperature model anchored to published vendor data.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "ad7575266b0c39057ead6c27246aaa75"
+  },
+  "/playground/rack-builder": {
+   "status": 200,
+   "title": "Rack builder — pick real servers and cooling products · Liquid Cooling Guide",
+   "description": "Product-picker simulator: choose real server platforms (GB200 NVL72, HGX B200/H100, MI300X) and real cooling products (Vertiv CoolChip CDU 70, STULZ Micro DC, Asetek L2L), set room temperature, watch derated capacity, coolant flow and facility requirements settle live. TDP-budget watts, every selection sourced.",
+   "canonical": "https://liquidcoolingguide.com/playground/rack-builder",
+   "ogTitle": "Rack builder — pick real servers and cooling products · Liquid Cooling Guide",
+   "ogDescription": "Product-picker simulator: choose real server platforms (GB200 NVL72, HGX B200/H100, MI300X) and real cooling products (Vertiv CoolChip CDU 70, STULZ Micro DC, Asetek L2L), set room temperature, watch derated capacity, coolant flow and facility requirements settle live. TDP-budget watts, every selection sourced.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "1423503444de9cf1f149f3e0235b1d9c"
+  },
+  "/playground/room-load": {
+   "status": 200,
+   "title": "Room load calculator (interactive) · Liquid Cooling Guide",
+   "description": "Can your room host a liquid cooling cabinet? Live heat-to-reject, refrigeration tons, AC spare capacity comparison bar and margin verdict — math shown with your numbers.",
+   "canonical": "https://liquidcoolingguide.com/playground/room-load",
+   "ogTitle": "Room load calculator (interactive) · Liquid Cooling Guide",
+   "ogDescription": "Can your room host a liquid cooling cabinet? Live heat-to-reject, refrigeration tons, AC spare capacity comparison bar and margin verdict — math shown with your numbers.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "WebSite"
+   ],
+   "schemaHash": "06d793130feaef91de7a916c16db0858",
+   "textHash": "b29fce21e9e78839a6272cc5add4391a"
+  },
+  "/pressure-drop": {
+   "status": 200,
+   "title": "Coolant pressure drop formula (Darcy–Weisbach calculator) · Liquid Cooling Guide",
+   "description": "Pressure drop ΔP = f × (L/D) × ρv²/2: 90 L/min through 25 mm hose loses ≈20 kPa over 3 m. Live calculator with velocity check against CDU available head, plus the undersized-hose and UQD traps.",
+   "canonical": "https://liquidcoolingguide.com/pressure-drop",
+   "ogTitle": "Coolant pressure drop formula (Darcy–Weisbach calculator) · Liquid Cooling Guide",
+   "ogDescription": "Pressure drop ΔP = f × (L/D) × ρv²/2: 90 L/min through 25 mm hose loses ≈20 kPa over 3 m. Live calculator with velocity check against CDU available head, plus the undersized-hose and UQD traps.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "57885038752687737636e404e0d2a52f",
+   "textHash": "8396a229b56b1ff9c553456f39b549aa"
+  },
+  "/pue-math": {
+   "status": 200,
+   "title": "PUE formula — power usage effectiveness, honestly · Liquid Cooling Guide",
+   "description": "PUE = total facility energy ÷ IT energy: 100 kW IT with 15 kW overhead = 1.15. Live calculator, the 1.05-1.2 liquid vs 1.4-1.6 air bands, and three things PUE hides — climate, the IT term, and the cabinet-in-a-room boundary problem.",
+   "canonical": "https://liquidcoolingguide.com/pue-math",
+   "ogTitle": "PUE formula — power usage effectiveness, honestly · Liquid Cooling Guide",
+   "ogDescription": "PUE = total facility energy ÷ IT energy: 100 kW IT with 15 kW overhead = 1.15. Live calculator, the 1.05-1.2 liquid vs 1.4-1.6 air bands, and three things PUE hides — climate, the IT term, and the cabinet-in-a-room boundary problem.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "caef14eadde8a59a0641d2772d23ca53",
+   "textHash": "425e6a4b6f2f4599a3c0d548292e1562"
+  },
+  "/rfq-scope-checklist": {
+   "status": 200,
+   "title": "Liquid cooling RFQ scope checklist — 12 line items · Liquid Cooling Guide",
+   "description": "RFQ checklist that makes liquid cooling quotes comparable: capacity at your ambient, heat capture %, facility interfaces, redundancy, UQD/ORv3 interconnects, fluid warranty terms, monitoring scope, leak response, certifications, commissioning acceptance, service SLA, and written derating curves.",
+   "canonical": "https://liquidcoolingguide.com/rfq-scope-checklist",
+   "ogTitle": "Liquid cooling RFQ scope checklist — 12 line items · Liquid Cooling Guide",
+   "ogDescription": "RFQ checklist that makes liquid cooling quotes comparable: capacity at your ambient, heat capture %, facility interfaces, redundancy, UQD/ORv3 interconnects, fluid warranty terms, monitoring scope, leak response, certifications, commissioning acceptance, service SLA, and written derating curves.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "eab0e795810677e0372b7db74be28713",
+   "textHash": "81b3cea68ec4a879c1c058a84d89aebf"
+  },
+  "/room-ac-load": {
+   "status": 200,
+   "title": "Room AC load for liquid cooling — the 1.1× rule · Liquid Cooling Guide",
+   "description": "A liquid-to-air cabinet still needs room air conditioning sized at about 1.1 × IT load: a 30 kW rack needs ≈33 kW ≈ 9.4 refrigeration tons. Formula, worked example, live calculator, and the mistakes that leave rooms overheating.",
+   "canonical": "https://liquidcoolingguide.com/room-ac-load",
+   "ogTitle": "Room AC load for liquid cooling — the 1.1× rule · Liquid Cooling Guide",
+   "ogDescription": "A liquid-to-air cabinet still needs room air conditioning sized at about 1.1 × IT load: a 30 kW rack needs ≈33 kW ≈ 9.4 refrigeration tons. Formula, worked example, live calculator, and the mistakes that leave rooms overheating.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "02580539762721c5e9cb8d451901aad6",
+   "textHash": "baca4455266d906d5eb434daff526a43"
+  },
+  "/room-load-calculation": {
+   "status": 200,
+   "title": "Room load calculation for liquid cooling cabinets (with worksheet) · Liquid Cooling Guide",
+   "description": "How to check if a room can host a liquid-to-air cooling cabinet: 1.1× IT load rule, refrigeration-ton conversion, worked hospital example, and the full site survey checklist.",
+   "canonical": "https://liquidcoolingguide.com/room-load-calculation",
+   "ogTitle": "Room load calculation for liquid cooling cabinets (with worksheet) · Liquid Cooling Guide",
+   "ogDescription": "How to check if a room can host a liquid-to-air cooling cabinet: 1.1× IT load rule, refrigeration-ton conversion, worked hospital example, and the full site survey checklist.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "8bc3bc6bfc9c3e49a4095ecc20a0fead",
+   "textHash": "79292beed66c36b3d9b684c31007e668"
+  },
+  "/site-survey": {
+   "status": 200,
+   "title": "Site survey for liquid-cooled cabinets — the six-point checklist · Liquid Cooling Guide",
+   "description": "Six-point site survey before deploying a liquid-cooled cabinet: floor loading, electrical, heat egress (1.1× rule), facility water, access, noise — each check linked to its formula or calculator. Plus climate and condensation red flags.",
+   "canonical": "https://liquidcoolingguide.com/site-survey",
+   "ogTitle": "Site survey for liquid-cooled cabinets — the six-point checklist · Liquid Cooling Guide",
+   "ogDescription": "Six-point site survey before deploying a liquid-cooled cabinet: floor loading, electrical, heat egress (1.1× rule), facility water, access, noise — each check linked to its formula or calculator. Plus climate and condensation red flags.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "bc6d094a4cad421f00e2182ff3fcd9d0",
+   "textHash": "e202a911b4f43db3ee806bd1d3d67d97"
+  },
+  "/ss726-liquid-cooling-standard": {
+   "status": 200,
+   "title": "SS 726:2026 explained — Singapore’s tropical liquid cooling standard · Liquid Cooling Guide",
+   "description": "SS 726:2026 &quot;Liquid Cooling in Tropical Data Centres&quot;, explained from the official preview and launch release: verbatim scope (direct-to-chip; rear-door and two-phase excluded), clause structure (facilities/equipment/commissioning/O&M/risk/sustainability), OCP+ASHRAE references, working group (STT GDC, AirTrunk, Meta, OCP) — and what it means for buyers outside Singapore.",
+   "canonical": "https://liquidcoolingguide.com/ss726-liquid-cooling-standard",
+   "ogTitle": "SS 726:2026 explained — Singapore’s tropical liquid cooling standard · Liquid Cooling Guide",
+   "ogDescription": "SS 726:2026 &quot;Liquid Cooling in Tropical Data Centres&quot;, explained from the official preview and launch release: verbatim scope (direct-to-chip; rear-door and two-phase excluded), clause structure (facilities/equipment/commissioning/O&M/risk/sustainability), OCP+ASHRAE references, working group (STT GDC, AirTrunk, Meta, OCP) — and what it means for buyers outside Singapore.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "9da5590cba3d70a4ca3d160dab89d3fa",
+   "textHash": "0a9e5bad068a06c3f767ebb3ba44c6da"
+  },
+  "/state-of-liquid-cooling-2026": {
+   "status": 200,
+   "title": "State of liquid cooling 2026 — annual digest · Liquid Cooling Guide",
+   "description": "Liquid cooling in 2026: direct-to-chip is default above 30 kW; PG25 water-glycol wins the fluid question after 3M’s PFAS exit; OCP/ASHRAE/SS 726 standards consolidate; the tropics become the main event; and the 20-50 kW turnkey cabinet gap persists.",
+   "canonical": "https://liquidcoolingguide.com/state-of-liquid-cooling-2026",
+   "ogTitle": "State of liquid cooling 2026 — annual digest · Liquid Cooling Guide",
+   "ogDescription": "Liquid cooling in 2026: direct-to-chip is default above 30 kW; PG25 water-glycol wins the fluid question after 3M’s PFAS exit; OCP/ASHRAE/SS 726 standards consolidate; the tropics become the main event; and the 20-50 kW turnkey cabinet gap persists.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "c363a1732d4074953048d85b1369874c",
+   "textHash": "f285fc0575a8c367b5cd8b2b9b355905"
+  },
+  "/supply-chain": {
+   "status": 200,
+   "title": "Liquid cooling supply chain — 97 companies across the full chain · Liquid Cooling Guide",
+   "description": "Who makes what in data center liquid cooling: 16 segments from chips (NVIDIA, AMD, Intel) through cold plates and CDUs (CoolIT, Asetek, Vertiv, Motivair, Boyd), interconnects (Stäubli, CPC, nVent), fluids, heat rejection (BAC, EVAPCO, Alfa Laval) to turnkey micro DCs — every entry linked to its official source.",
+   "canonical": "https://liquidcoolingguide.com/supply-chain",
+   "ogTitle": "Liquid cooling supply chain — 97 companies across the full chain · Liquid Cooling Guide",
+   "ogDescription": "Who makes what in data center liquid cooling: 16 segments from chips (NVIDIA, AMD, Intel) through cold plates and CDUs (CoolIT, Asetek, Vertiv, Motivair, Boyd), interconnects (Stäubli, CPC, nVent), fluids, heat rejection (BAC, EVAPCO, Alfa Laval) to turnkey micro DCs — every entry linked to its official source.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "3e47c8f731c673b1ada6920c38f89d6d",
+   "textHash": "f0182b7e566b2a8b6174d1e3b173fc78"
+  },
+  "/tdp-to-rack-kw": {
+   "status": 200,
+   "title": "TDP to rack kW — power budgeting for liquid-cooled racks · Liquid Cooling Guide",
+   "description": "Rack power budget formula: P_node ≈ (Σ GPU + Σ CPU) × 1.2, P_rack = N × P_node. Worked example — 8×1 kW GPUs + 2×360 W CPUs = 10.5 kW/node, 42 kW/rack — plus live calculator and the nameplate trap.",
+   "canonical": "https://liquidcoolingguide.com/tdp-to-rack-kw",
+   "ogTitle": "TDP to rack kW — power budgeting for liquid-cooled racks · Liquid Cooling Guide",
+   "ogDescription": "Rack power budget formula: P_node ≈ (Σ GPU + Σ CPU) × 1.2, P_rack = N × P_node. Worked example — 8×1 kW GPUs + 2×360 W CPUs = 10.5 kW/node, 42 kW/rack — plus live calculator and the nameplate trap.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "bd86b3cf6d2f0609479baf735c37c77d",
+   "textHash": "22a93a6b610e2d96c8d40d0e32d9401d"
+  },
+  "/uqd-quick-disconnects": {
+   "status": 200,
+   "title": "UQD quick disconnects — OCP sizes (UQD04–UQD40) explained · Liquid Cooling Guide",
+   "description": "UQD is the OCP-standardized dripless coolant coupling family: sizes UQD04 to UQD40, where the number ≈ nominal flow in L/min. Size table, per-loop guidance, why interoperability prevents vendor lock-in, and the pressure-drop trap.",
+   "canonical": "https://liquidcoolingguide.com/uqd-quick-disconnects",
+   "ogTitle": "UQD quick disconnects — OCP sizes (UQD04–UQD40) explained · Liquid Cooling Guide",
+   "ogDescription": "UQD is the OCP-standardized dripless coolant coupling family: sizes UQD04 to UQD40, where the number ≈ nominal flow in L/min. Size table, per-loop guidance, why interoperability prevents vendor lock-in, and the pressure-drop trap.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "7e81474c5f651458ba145e365bcc8dce",
+   "textHash": "7349e9f6e392c4017e86d4292b7d8b11"
+  },
+  "/wet-bulb-free-cooling": {
+   "status": 200,
+   "title": "Wet-bulb temperature and free cooling limits (formula + calculator) · Liquid Cooling Guide",
+   "description": "Free cooling works when wet-bulb + ~6 K ≤ required coolant temperature. Tropical design wet-bulbs of 28-30 °C leave no margin even for 35 °C loops — the physics behind tropical derating, SS 726 and W-class selection. Live calculator included.",
+   "canonical": "https://liquidcoolingguide.com/wet-bulb-free-cooling",
+   "ogTitle": "Wet-bulb temperature and free cooling limits (formula + calculator) · Liquid Cooling Guide",
+   "ogDescription": "Free cooling works when wet-bulb + ~6 K ≤ required coolant temperature. Tropical design wet-bulbs of 28-30 °C leave no margin even for 35 °C loops — the physics behind tropical derating, SS 726 and W-class selection. Live calculator included.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "7d6c87edcf5ab1a0cd9299f091057d89",
+   "textHash": "6f99d7e9c7dd9a0fd28d423c36ca2954"
+  },
+  "/what-is-a-cdu": {
+   "status": 200,
+   "title": "What is a CDU (coolant distribution unit)? · Liquid Cooling Guide",
+   "description": "CDU explained: pumps, heat exchangers, TCS vs facility loops, in-rack/in-row/facility form factors, and liquid-to-air vs liquid-to-liquid trade-offs.",
+   "canonical": "https://liquidcoolingguide.com/what-is-a-cdu",
+   "ogTitle": "What is a CDU (coolant distribution unit)? · Liquid Cooling Guide",
+   "ogDescription": "CDU explained: pumps, heat exchangers, TCS vs facility loops, in-rack/in-row/facility form factors, and liquid-to-air vs liquid-to-liquid trade-offs.",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "c47a624df563ac20230eb372367b5bc7",
+   "textHash": "42566ba1ac1fd03a5ef3abf8a20543e8"
+  },
+  "/what-is-liquid-cooling": {
+   "status": 200,
+   "title": "What is liquid cooling? · Liquid Cooling Guide",
+   "description": "Direct-to-chip liquid cooling explained: cold plates, CDUs, manifolds, UQD quick disconnects, PG25 fluid, and the relevant standards (OCP, ASHRAE, IEC, SS 726).",
+   "canonical": "https://liquidcoolingguide.com/what-is-liquid-cooling",
+   "ogTitle": "What is liquid cooling? · Liquid Cooling Guide",
+   "ogDescription": "Direct-to-chip liquid cooling explained: cold plates, CDUs, manifolds, UQD quick disconnects, PG25 fluid, and the relevant standards (OCP, ASHRAE, IEC, SS 726).",
+   "ogImage": "https://liquidcoolingguide.com/og-image.png",
+   "hreflang": [],
+   "jsonLdTypes": [
+    "FAQPage",
+    "TechArticle",
+    "WebSite"
+   ],
+   "schemaHash": "d5c8c8b177b113a3a6b0048f52d9d617",
+   "textHash": "a6270137cc524406c52fcfbbe6ad73b0"
+  }
+ }
+}
