@@ -29,11 +29,11 @@ export const Route = createFileRoute('/state-of-liquid-cooling-2026')({
 
 function State2026Page() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Digest · 7 min read · Updated 2026-10-12</p>
       <h1>State of liquid cooling, 2026</h1>
 
-      <div className="card-grid" style="grid-template-columns:1fr">
+      <div className="card-grid" style={{ gridTemplateColumns:"1fr" }}>
         <div className="card">
           <h3>TL;DR</h3>
           <p>
@@ -48,7 +48,7 @@ function State2026Page() {
       </div>
 
       <h2>The power cliff became a plateau</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         When accelerators crossed 700 W and rack-scale systems crossed 100 kW
         (<a href="/news">GB200-class racks</a>), direct-to-chip moved from exotic to
         default in two years. The budgeting math is now routine:
@@ -59,7 +59,7 @@ function State2026Page() {
       </p>
 
       <h2>The Rubin generation is shipping</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         What was a roadmap item at the start of 2026 is now delivery news: NVIDIA launched Rubin at
         CES in January (in production on day one), announced the full-production ramp in May, and the
         first <a href="https://ir.supermicro.com/news/news-details/2026/default.aspx">Vera Rubin NVL72
@@ -74,7 +74,7 @@ function State2026Page() {
       </p>
 
       <h2>Fluids after PFAS</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         3M's exit from PFAS manufacturing (announced 2022, completed end-2025) removed the dominant
         fluorinated fluid supplier from the market. For direct-to-chip the answer was already sitting
         there: <a href="/liquid-cooling-fluids">PG25</a> — cheap, non-flammable,
@@ -84,7 +84,7 @@ function State2026Page() {
       </p>
 
       <h2>Standards consolidated</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The interoperability layer is essentially settled: OCP's <a href="/uqd-quick-disconnects">UQD</a>
         couplings and ORv3 blind-mate manifolds define how parts fit; ASHRAE's
         <a href="/ashrae-w-classes">W-classes</a> define how warm facility water may be;
@@ -96,7 +96,7 @@ function State2026Page() {
       </p>
 
       <h2>The tropics stopped being an edge case</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Most of the world's next data center capacity is being built in warm climates, where the
         physics is least forgiving: <a href="/approach-temperature">capacity halves at 35 °C ambient</a>,
         and <a href="/wet-bulb-free-cooling">wet-bulbs near 30 °C</a> kill free cooling
@@ -105,7 +105,7 @@ function State2026Page() {
       </p>
 
       <h2>What still doesn't exist</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Verified in our <a href="/cabinet-comparison">comparison data</a>: major-vendor
         micro data centers stop at ~10 kW on air, and their liquid products start at 40-70 kW as
         components for AI halls. A turnkey, facility-free liquid cabinet for 20-50 kW — the

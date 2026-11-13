@@ -29,11 +29,11 @@ const ChanList = ({ items }: { items: [string, string, string][] }) => (
 
 function EngineeringPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Channel · engineering tools</p>
       <h1>Engineering &amp; calculators</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The engineering layer of this guide: every formula a rack-level liquid cooling decision actually
         uses — load budgets, flow, derating, room heat, interfaces, fluids. Each page is one concept with
         a live calculator: real physics in, honest envelope out. Numbers here are derived in the open —
@@ -72,7 +72,7 @@ function EngineeringPage() {
       ]} />
 
       <h2>Hands-on</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Want to drag sliders instead of reading? The <a href="/playground">playground</a> turns
         the same physics interactive — rack builder, derating explorer, room-load sandbox.
       </p>

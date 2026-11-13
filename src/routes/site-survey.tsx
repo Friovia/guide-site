@@ -25,18 +25,18 @@ export const Route = createFileRoute('/site-survey')({
 
 function SiteSurveyPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Deploy &amp; Ops · 3 min read</p>
       <h1>Site survey — can this room host a liquid cabinet?</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Before any vendor call, walk the room with this survey. Five of the six items kill micro-DC
         liquid deployments in rooms that "look fine": <b>floor, power, heat egress, water, access,
         noise</b>. Every item links to the math or the check that settles it.
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:760px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"760px" }}>
           <tbody>
             <tr><th>#</th><th>Check</th><th>Pass condition</th><th>Tool / formula</th></tr>
             <tr><td>1</td><td><b>Floor loading</b></td><td>As-built slab rating ≥ filled rack print (often 7+ kN/m²)</td><td><a href="/floor-loading">Floor loading calc</a> + structural sign-off</td></tr>
@@ -51,7 +51,7 @@ function SiteSurveyPage() {
       </figure>
 
       <h2>Climate check</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Room design temperature drives capacity: an L2A cabinet rated at 25 °C air delivers roughly
         half at 35 °C (<a href="/approach-temperature">approach temperature</a>). In the
         tropics the survey includes the room's worst-case temperature with AC failure margins —

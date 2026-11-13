@@ -71,7 +71,7 @@ export const Route = createFileRoute('/glossary')({
 
 function GlossaryPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Updated 2026-10-08</p>
       <h1>Glossary of liquid cooling terms</h1>
       <p>Definitions are self-contained — written to be quotable. Terms alphabetized; each term is anchorable (<span className="src">/glossary#term-slug</span>).</p>

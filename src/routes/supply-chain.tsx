@@ -43,10 +43,10 @@ export const Route = createFileRoute('/supply-chain')({
 
 function SupplyChainPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Reference · vendors layer v{data.updated} · {companyCount} companies</p>
       <h1>Liquid cooling supply chain — who makes what</h1>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The industry runs one chain: <b>chips create the heat → cold plates and CDUs capture and move it
         → couplings and racks hold it together → dry coolers and towers reject it → the facility pays for it</b>.
         {companyCount} companies across {data.segments.length} segments, mapped below —
@@ -56,17 +56,17 @@ function SupplyChainPage() {
       <ChainCanvas />
 
       {data.segments.map(s => (
-        <section key={s.id} id={s.id} style="margin-top:36px">
-          <h2 style="margin-bottom:4px">{s.label}</h2>
-          <p className="src" style="margin-top:0">{s.note}</p>
-          <figure className="fig" style="margin-inline:0">
-            <table style="max-width:800px">
+        <section key={s.id} id={s.id} style={{ marginTop:"36px" }}>
+          <h2 style={{ marginBottom:"4px" }}>{s.label}</h2>
+          <p className="src" style={{ marginTop:"0" }}>{s.note}</p>
+          <figure className="fig" style={{ marginInline:"0" }}>
+            <table style={{ maxWidth:"800px" }}>
               <tbody>
                 <tr><th>Company</th><th>HQ</th><th>Role in liquid cooling</th><th></th></tr>
                 {s.companies.map(c => (
                   <tr key={c.name}>
                     <td><strong>{c.name}</strong></td>
-                    <td style="white-space:nowrap">{c.hq}</td>
+                    <td style={{ whiteSpace:"nowrap" }}>{c.hq}</td>
                     <td>{c.note}</td>
                     <td><a href={c.source} aria-label={`${c.name} official site`}>site ↗</a></td>
                   </tr>
@@ -85,14 +85,14 @@ function SupplyChainPage() {
       </ul>
 
       <h2>List your company</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Missing from the map, or wrong? <b>Listings are free, editorially reviewed, and never paid</b> —
         independence is this site's product. Email
         <a href={mailto}>vendors@liquidcoolingguide.com</a> with the fields below (the template
         is pre-filled if you click), and we verify against an official source before anything enters
         the data layer:
       </p>
-      <div className="formula" style="font-size:13px; line-height:1.9">
+      <div className="formula" style={{ fontSize:"13px", lineHeight:"1.9" }}>
         Company: ____<br />
         HQ (country): ____<br />
         Segment (one of the {data.segments.length} above): ____<br />
@@ -100,7 +100,7 @@ function SupplyChainPage() {
         Official site URL: ____<br />
         Source URL verifying it (product page / datasheet): ____
       </div>
-      <p className="src" style="margin-top:10px">
+      <p className="src" style={{ marginTop:"10px" }}>
         Corrections to existing rows go to the same address. Listing is not an endorsement;
         the <a href="/changelog">changelog</a> records every data-layer change.
       </p>

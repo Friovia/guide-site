@@ -14,16 +14,16 @@ export const Route = createFileRoute('/cabinet-comparison')({
 
 function CabinetComparisonPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Data layer updated {data.updated} · every row links to its source</p>
       <h1>Small-scale cooling cabinet comparison</h1>
-      <p style="max-width:700px">
+      <p style={{ maxWidth:"700px" }}>
         Every rack-level cooling product we could verify for micro data center use (≤120 kW class).
         This segment does not publish prices — treat any number a vendor gives you as an opening position.
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <div style="overflow-x:auto">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <div style={{ overflowX:"auto" }}>
           <table>
             <tbody>
               <tr>
@@ -31,7 +31,7 @@ function CabinetComparisonPage() {
               </tr>
               {data.products.map(p => (
                 <tr key={p.vendor + p.product}>
-                  <td><a href={p.source} rel="noopener">{p.vendor}<br /><em style="font-size:12.5px">{p.product}</em></a></td>
+                  <td><a href={p.source} rel="noopener">{p.vendor}<br /><em style={{ fontSize:"12.5px" }}>{p.product}</em></a></td>
                   <td>{p.form}</td>
                   <td>{p.cooling}</td>
                   <td>{p.power_class}</td>
@@ -46,7 +46,7 @@ function CabinetComparisonPage() {
       </figure>
 
       <h2>The gap</h2>
-      <p style="max-width:700px">{data.gap_statement}</p>
+      <p style={{ maxWidth:"700px" }}>{data.gap_statement}</p>
 
       <h2>Caveats</h2>
       <ul className="src">
@@ -54,7 +54,7 @@ function CabinetComparisonPage() {
       </ul>
 
       <h2>Looking for a turnkey 20-50 kW cabinet?</h2>
-      <p style="max-width:700px">
+      <p style={{ maxWidth:"700px" }}>
         This guide stays vendor-neutral. Vendors building in this gap can be found via search;
         we don't endorse listings here. Methodology: manufacturer pages, datasheets and trade press only.
       </p>

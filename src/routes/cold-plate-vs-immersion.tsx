@@ -29,11 +29,11 @@ export const Route = createFileRoute('/cold-plate-vs-immersion')({
 
 function ColdPlateVsImmersionPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Updated 2026-09-09 · 5 min read</p>
       <h1>Cold plate vs immersion cooling</h1>
 
-      <div className="card-grid" style="grid-template-columns:1fr">
+      <div className="card-grid" style={{ gridTemplateColumns:"1fr" }}>
         <div className="card">
           <h3>Key takeaways</h3>
           <p>
@@ -49,8 +49,8 @@ function ColdPlateVsImmersionPage() {
         </div>
       </div>
 
-      <figure className="fig" style="margin-inline:0">
-        <img src="/img/ai/immersion-tank.png" alt="Immersion cooling tank with server blades submerged in clear dielectric fluid" loading="lazy" style="width:100%;max-width:640px;display:block;border:1px solid var(--rule)" />
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <img src="/img/ai/immersion-tank.png" alt="Immersion cooling tank with server blades submerged in clear dielectric fluid" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Single-phase immersion: blades bathed in dielectric fluid. AI-generated illustration (Z-Image Turbo) — representative, not a specific product; real systems photographed below.</figcaption>
       </figure>
 
@@ -66,13 +66,13 @@ function ColdPlateVsImmersionPage() {
         but you are managing tanks of fluid, crane-and-rail maintenance, specialist hardware, and fluid chemistry.
       </p>
 
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:680px" className="figrow">
-        <figure className="fig" style="margin-inline:0">
-          <img src="/img/asperitas-immersion.jpg" alt="Asperitas AIC24 immersion cooling system" style="width:100%;display:block;background:var(--panel);border:1px solid var(--line)" loading="lazy" />
+      <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"14px", maxWidth:"680px" }} className="figrow">
+        <figure className="fig" style={{ marginInline:"0" }}>
+          <img src="/img/asperitas-immersion.jpg" alt="Asperitas AIC24 immersion cooling system" style={{ width:"100%", display:"block", background:"var(--panel)", border:"1px solid var(--line)" }} loading="lazy" />
           <figcaption><b>FIG. 1</b> — Commercial single-phase immersion system (Asperitas AIC24). Credit: Rolf Brink, CC BY-SA 4.0.</figcaption>
         </figure>
-        <figure className="fig" style="margin-inline:0">
-          <img src="/img/immersion-single.jpg" alt="A single server immersed in dielectric fluid" style="width:100%;display:block;background:var(--panel);border:1px solid var(--line)" loading="lazy" />
+        <figure className="fig" style={{ marginInline:"0" }}>
+          <img src="/img/immersion-single.jpg" alt="A single server immersed in dielectric fluid" style={{ width:"100%", display:"block", background:"var(--panel)", border:"1px solid var(--line)" }} loading="lazy" />
           <figcaption><b>FIG. 2</b> — A single server immersed in dielectric fluid. Credit: Submer, CC BY-SA 4.0.</figcaption>
         </figure>
       </div>
@@ -102,9 +102,9 @@ function ColdPlateVsImmersionPage() {
 
       <h2>Frequently asked questions</h2>
       {faqs.map(f => (
-        <div key={f.q} style="margin-bottom:18px">
-          <h3 style="margin-bottom:4px; font-size:17px">{f.q}</h3>
-          <p style="margin:0">{f.a}</p>
+        <div key={f.q} style={{ marginBottom:"18px" }}>
+          <h3 style={{ marginBottom:"4px", fontSize:"17px" }}>{f.q}</h3>
+          <p style={{ margin:"0" }}>{f.a}</p>
         </div>
       ))}
     </main>

@@ -39,11 +39,11 @@ function CapturePage() {
     : { text: `✅ ${liq.toFixed(1)} kW to liquid, ${air.toFixed(1)} kW to air — plan room AC for the total`, style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 2 min read</p>
       <h1>Heat capture split (liquid vs air)</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Direct-to-chip liquid cooling captures <b>60-80% of server heat</b>, not all of it:
         P<sub>liquid</sub> = capture × P<sub>IT</sub>. A 40 kW rack at 75% capture sends
         30 kW to liquid and 10 kW to air — and the air share still needs the room to remove it.
@@ -51,7 +51,7 @@ function CapturePage() {
 
       <h2>Formula</h2>
       <div className="formula">P<sub>liquid</sub> [kW] = capture × P<sub>IT</sub> [kW]&nbsp;&nbsp;·&nbsp;&nbsp;P<sub>air</sub> = (1 − capture) × P<sub>IT</sub></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Cold plates sit only on the big chips (CPUs, GPUs, accelerators). Memory, drives, VRMs and
         power supplies keep air-cooling themselves. Full immersion is the architecture that captures
         ~100% — at the cost of different hardware, fluids and service model
@@ -60,7 +60,7 @@ function CapturePage() {
 
       <h2>Worked example</h2>
       <div className="formula">40 kW × 0.75 = <b>30 kW to liquid</b> · 40 × 0.25 = <b>10 kW to air</b></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The 10 kW air share is why an L2A cabinet still moves substantial air, and why
         <a href="/room-ac-load">room AC sizing uses the full IT load</a>, not just the liquid part.
       </p>

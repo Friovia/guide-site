@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 # Deployment is handled by Cloudflare Pages' Git integration (Friovia/guide-site,
-# build `pnpm generate` -> `.output/public`; news cron commits auto-rebuild).
+# build `pnpm generate` -> `dist/client` (React/TanStack Start port, 2026-11-14); news cron commits auto-rebuild).
 # This workflow is the quality gate: nav/IA consistency (inside generate) plus
 # a full static buildability check. No Cloudflare credentials needed.
 jobs:

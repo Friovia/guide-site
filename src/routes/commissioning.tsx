@@ -25,19 +25,19 @@ export const Route = createFileRoute('/commissioning')({
 
 function CommissioningPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Deploy &amp; Ops · 3 min read</p>
       <h1>Commissioning a liquid-cooled rack</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Commissioning proves the loop does what the spec sheet promised: <b>pressure-test dry,
         fill, verify flow and ΔT against the calculated values, prove leak detection, then ramp
         load</b>. Acceptance is measured numbers against the RFQ, not a handshake.
       </p>
 
       <h2>The sequence</h2>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:760px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"760px" }}>
           <tbody>
             <tr><th>Step</th><th>What happens</th><th>Pass criterion</th></tr>
             <tr><td><b>1 · Dry pressure test</b></td><td>Loop pressurized with air/nitrogen before fluid</td><td>Hold specified pressure, zero decay over the stated interval</td></tr>

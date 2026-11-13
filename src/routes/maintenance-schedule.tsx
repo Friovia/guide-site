@@ -25,19 +25,19 @@ export const Route = createFileRoute('/maintenance-schedule')({
 
 function MaintenancePage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Deploy &amp; Ops · 2 min read</p>
       <h1>Maintenance schedule</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A direct-to-chip loop is a small hydronic system: <b>fluid chemistry, filters, wetted
         seals and instrumentation each have an interval</b>. The table below is the honest default —
         your vendor's service manual overrides it, and the commissioning baseline
         (<a href="/commissioning">step 8</a>) is the reference every check compares against.
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:760px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"760px" }}>
           <tbody>
             <tr><th>Interval</th><th>Task</th><th>What you are looking for</th></tr>
             <tr><td><b>Weekly</b></td><td>Visual + dashboard walk</td><td>New drips/stains at couplings and clamps; flow, ΔP, ΔT, supply temperature vs baseline drift</td></tr>

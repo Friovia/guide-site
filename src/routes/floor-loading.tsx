@@ -38,11 +38,11 @@ function FloorPage() {
     : { text: '✅ Within typical office design loads — still verify for old or timber-floor buildings', style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 2 min read</p>
       <h1>Floor loading</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Floor load is mass over footprint: <b>1,200 kg on a 600 × 1,200 mm rack prints 16.4 kN/m²</b> —
         five times a typical office floor's design load (~3 kN/m²). In hospitals, offices and
         renovated buildings, this check comes before any cooling math.
@@ -53,7 +53,7 @@ function FloorPage() {
 
       <h2>Worked example</h2>
       <div className="formula">1,200 × 9.81 / (0.6 × 1.2) = <b>16.4 kN/m²</b> ≈ 1,670 kg/m²</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Typical design loads (verify with a structural engineer for the actual building):
         residential ≈ 1.5-2 kN/m², offices ≈ 2.5-3.5, raised-floor computer rooms ≈ 7-12,
         light industrial ≈ 10+. A fully-loaded liquid cabinet is industrial-grade concentrated load.

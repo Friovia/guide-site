@@ -39,24 +39,24 @@ function TdpPage() {
     : { text: `✅ ${rackKw.toFixed(0)} kW — inside the 20-50 kW turnkey cabinet band`, style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 3 min read</p>
       <h1>TDP → rack kW budget</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Rack power is a sum, not a mystery: <b>P<sub>rack</sub> = N<sub>nodes</sub> × (GPU + CPU + ~20% overhead)</b>.
         A node with 8 accelerators at 1,000 W plus 2 CPUs at 360 W draws ≈ 10.4 kW —
         four of those is a 42 kW rack before you touch a cooling spec.
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <img src="/img/ai/gpu-board.png" alt="GPU accelerator board with copper cold plates over the processors" loading="lazy" style="width:100%;max-width:620px;display:block;border:1px solid var(--rule)" />
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <img src="/img/ai/gpu-board.png" alt="GPU accelerator board with copper cold plates over the processors" loading="lazy" style={{ width:"100%", maxWidth:"620px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Where the watts live: a accelerator board with cold plates over the big chips. AI-generated illustration (Z-Image Turbo) — representative, not a specific product.</figcaption>
       </figure>
 
       <h2>Formula</h2>
       <div className="formula">P<sub>node</sub> ≈ (Σ P<sub>GPU</sub> + Σ P<sub>CPU</sub>) × 1.2&nbsp;&nbsp;·&nbsp;&nbsp;P<sub>rack</sub> = N × P<sub>node</sub></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The 20% overhead covers power supply losses, fans, memory, drives and networking.
         TDP is a worst-case thermal rating — real draw rides below it and follows the workload,
         so treat the TDP sum as the design ceiling, not the electric bill.
@@ -64,7 +64,7 @@ function TdpPage() {
 
       <h2>Worked example</h2>
       <div className="formula">(8 × 1.0 kW + 2 × 0.36 kW) × 1.2 = <b>10.5 kW/node</b> × 4 nodes = <b>42 kW/rack</b></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         42 kW fits a 50 kW-class liquid cabinet at 25 °C air — but at 35 °C the same cabinet only
         rejects ≈ 25 kW (<a href="/approach-temperature">derating</a>). The budget and the
         climate have to be checked together.

@@ -25,25 +25,25 @@ export const Route = createFileRoute('/uqd-quick-disconnects')({
 
 function UqdPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Reference · 2 min read</p>
       <h1>UQD quick disconnects</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         UQD (Universal Quick Disconnect) is the OCP-standardized family of <b>dripless coolant
         couplings</b>: any compliant plug meets any compliant socket across vendors. Sizes run
         UQD04 → UQD40, where <b>the number ≈ nominal flow in L/min</b> — a per-plate loop typically
         uses UQD06–UQD12, rack manifolds aggregate to UQD32/UQD40 territory.
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <img src="/img/ai/uqd-coupling.png" alt="Macro photograph of dripless quick-disconnect coolant couplings" loading="lazy" style="width:100%;max-width:620px;display:block;border:1px solid var(--rule)" />
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <img src="/img/ai/uqd-coupling.png" alt="Macro photograph of dripless quick-disconnect coolant couplings" loading="lazy" style={{ width:"100%", maxWidth:"620px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Dripless quick disconnects up close: the valved halves that close on separation. AI-generated illustration (Z-Image Turbo) — representative, not a specific product.</figcaption>
       </figure>
 
       <h2>The size table</h2>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:680px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"680px" }}>
           <tbody>
             <tr><th>Size</th><th>Nominal flow</th><th>Typical use</th></tr>
             <tr><td><b>UQD04 / UQD06</b></td><td>≈ 4 / 6 L/min</td><td>Single cold plate loops (CPU plates, entry nodes)</td></tr>

@@ -38,11 +38,11 @@ function RoomAcPage() {
     : { text: `✅ Fits with ${(((have - ac) / ac) * 100).toFixed(0)}% headroom`, style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 2 min read</p>
       <h1>Room AC load — the 1.1× rule</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A liquid-to-air (L2A) cabinet still needs room air conditioning sized for about
         <b>1.1 × the IT load</b>: a 30 kW rack needs ≈ 33 kW ≈ 9.4 refrigeration tons of cooling
         in the room. Liquid cooling moves heat; it does not destroy it.
@@ -50,7 +50,7 @@ function RoomAcPage() {
 
       <h2>Formula</h2>
       <div className="formula">P<sub>AC</sub> [kW] ≈ 1.1 × P<sub>IT</sub> [kW]&nbsp;&nbsp;→&nbsp;&nbsp;tons = P<sub>AC</sub> / 3.517</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The L2A cabinet rejects essentially all IT heat — the liquid share through its own
         air-to-liquid heat exchanger, the rest straight off the servers — into the room.
         The extra 10% covers pumps and power losses plus commissioning margin.
@@ -59,7 +59,7 @@ function RoomAcPage() {
 
       <h2>Worked example</h2>
       <div className="formula">40 kW edge room → 44 kW AC ≈ <b>12.5 refrigeration tons</b></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A hospital server room hosting a 40 kW liquid-cooled rack needs 44 kW (1.1 ×) of air
         conditioning — about 12.5 tons. An existing 10-ton unit is not enough; the verdict below
         does this comparison for your numbers.

@@ -37,11 +37,11 @@ function PuePage() {
     : { text: `❌ ${pue.toFixed(2)} — legacy territory; the cooling term is eating the budget`, style: { borderColor: 'var(--heat)', color: 'var(--heat)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 2 min read</p>
       <h1>PUE math — and what it hides</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         PUE = total facility energy ÷ IT energy: <b>100 kW of IT with 15 kW of overhead scores 1.15</b>.
         Liquid cooling reaches 1.05-1.2 where air needs 1.4-1.6 — but the number assumes
         facility-scale infrastructure and honest climate, which single-cabinet deployments don't have.
@@ -52,7 +52,7 @@ function PuePage() {
 
       <h2>Worked example</h2>
       <div className="formula">(100 + 10 + 4 + 1) / 100 = <b>1.15</b></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A facility moving 100 kW of IT heat with 10 kW of cooling energy (efficient free-cooling or
         liquid), 4 kW of UPS/conversion losses and 1 kW of lighting and controls runs at PUE 1.15.
         The same site on legacy air with 45 kW of cooling energy runs 1.50.

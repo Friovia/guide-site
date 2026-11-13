@@ -38,11 +38,11 @@ function ApproachPage() {
     : { text: `✅ ${pct}% of rated capacity available at ${air} °C air`, style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 3 min read</p>
       <h1>Approach temperature &amp; derating</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Approach temperature is the gap between coolant supply and room air temperature:
         <b>approach = T<sub>coolant</sub> − T<sub>air</sub></b>. Liquid-to-air capacity scales roughly
         linearly with it — which is why a cabinet rated 86.5 kW at 45 °C coolant / 25 °C air
@@ -51,7 +51,7 @@ function ApproachPage() {
 
       <h2>Formula</h2>
       <div className="formula">capacity ≈ rated × (approach / approach<sub>rated</sub>)&nbsp;&nbsp;·&nbsp;&nbsp;approach ≤ 5 °C → ≈ 0</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A heat exchanger transfers heat in proportion to the temperature difference across it.
         When room air warms from 25 °C to 35 °C, the approach on a 45 °C coolant loop falls from
         20 °C to 10 °C and capacity halves. Below roughly 5 °C of approach, the exchanger can no

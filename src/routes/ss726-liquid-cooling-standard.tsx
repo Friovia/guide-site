@@ -38,11 +38,11 @@ export const Route = createFileRoute('/ss726-liquid-cooling-standard')({
 
 function Ss726Page() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Reference · 5 min read</p>
       <h1>SS 726:2026 — the tropical liquid cooling standard, explained</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         On 27 August 2026 Singapore published <b>SS 726:2026, "Liquid Cooling in Tropical Data Centres"</b> —
         the world's first national standard written specifically for liquid cooling in hot, humid climates.
         It was developed jointly by IMDA and Enterprise Singapore through the Singapore Standards Council,
@@ -53,8 +53,8 @@ function Ss726Page() {
       <PageToc />
 
       <h2>The standard at a glance</h2>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:720px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"720px" }}>
           <tbody>
             <tr><th>Field</th><th>Value</th></tr>
             <tr><td><b>Designation</b></td><td>SS 726:2026 — Liquid Cooling in Tropical Data Centres</td></tr>
@@ -81,8 +81,8 @@ function Ss726Page() {
       </ul>
 
       <h2>The standard's structure (from the official preview)</h2>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:720px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"720px" }}>
           <tbody>
             <tr><th>Clause</th><th>Title</th><th>Page</th></tr>
             <tr><td>5</td><td>Background and environmental conditions</td><td>9</td></tr>
@@ -99,7 +99,7 @@ function Ss726Page() {
       </figure>
 
       <h2>The OCP and ASHRAE connection</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The Foreword names its reference publications explicitly: <b>ASHRAE TC9.9 "Water-cooled servers" (2019)</b>,
         the OCP <b>PG25 propylene-glycol guidelines (2022)</b> and OCP <b>Immersion Requirements rev 2.10 (2023)</b> —
         with <b>permission obtained to adapt OCP's "Minimum dielectric fluid requirements" table directly into Table 3</b>.
@@ -114,11 +114,11 @@ function Ss726Page() {
       </p>
 
       <h2>Who built it</h2>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The working group mixed policy makers with the region's largest operators:
       </p>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:720px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"720px" }}>
           <tbody>
             <tr><th>Member</th><th>Role in the working group</th></tr>
             <tr><td><b>ST Telemedia Global Data Centres</b></td><td>Deputy convenor of the Liquid Cooling in Tropical Data Centres Working Group (Yeo Teong Chuan, Head of R&amp;D) — will use the standard to guide liquid cooling deployments across its portfolio</td></tr>
@@ -131,7 +131,7 @@ function Ss726Page() {
       </figure>
 
       <h2>Status of this page</h2>
-      <p style="max-width:680px" className="src">
+      <p style={{ maxWidth:"680px" }} className="src">
         Sources, in order of authority: the official eShop preview of SS 726:2026 (cover, contents, Foreword,
         Introduction and Scope — 7 pp.), the 27 Aug 2026 launch media release (4 pp., incl. working-group annex),
         and IMDA's public statements. A clause-by-clause commentary will follow once the full text is in hand.

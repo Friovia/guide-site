@@ -25,19 +25,19 @@ export const Route = createFileRoute('/rfq-scope-checklist')({
 
 function RfqPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Choosing · 2 min read</p>
       <h1>RFQ scope checklist</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Nobody in this segment publishes prices — so quotes are only comparable if the <b>scope is
         pinned</b>. Send this checklist with every RFQ and require answers in writing;
         it converts "quote for a liquid cabinet" into twelve defined line items
         (<a href="/liquid-cooling-cost">why prices hide</a>).
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:780px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"780px" }}>
           <tbody>
             <tr><th>#</th><th>Line item</th><th>The question that pins it</th></tr>
             <tr><td>1</td><td><b>Capacity @ conditions</b></td><td>kW rejected at <em>your</em> room design temp and stated coolant temp — nameplate at 25 °C does not count (<a href="/approach-temperature">derating</a>)</td></tr>

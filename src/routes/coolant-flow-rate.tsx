@@ -37,11 +37,11 @@ function FlowPage() {
     : { text: `✅ Fits — ${100 - util}% flow headroom`, style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 2 min read</p>
       <h1>Coolant flow rate</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Coolant flow rate is the volume of coolant per minute needed to carry a given heat load at a given
         temperature drop: <b>P kW at ΔT °C needs P × 60 / (4.186 × ΔT) L/min</b> —
         50 kW of liquid-captured heat at ΔT 8 °C needs 89.6 L/min.
@@ -49,7 +49,7 @@ function FlowPage() {
 
       <h2>Formula</h2>
       <div className="formula">flow [L/min] = P<sub>liquid</sub> [kW] × 60 / (4.186 × ΔT [°C])</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         4.186 kJ/(kg·K) is the specific heat of water and a liter of water-glycol weighs about a kilogram,
         so kilowatts convert directly to liters per minute.
         P<sub>liquid</sub> is the heat the loop actually captures — in direct-to-chip systems typically
@@ -58,7 +58,7 @@ function FlowPage() {
 
       <h2>Worked example</h2>
       <div className="formula">50 kW × 60 / (4.186 × 8) = <b>89.6 L/min</b></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A rack sending 50 kW to liquid with a supply/return ΔT of 8 °C circulates roughly 90 L/min —
         about a bathtub a minute. The same 50 kW at ΔT 15 °C needs only 47.8 L/min: wider ΔT trades
         flow for temperature.

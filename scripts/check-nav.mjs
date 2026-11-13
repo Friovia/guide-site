@@ -26,19 +26,20 @@ const isLocalePath = (p) => {
   return LOCALE_CODES.includes(seg)
 }
 
-// ---- collect routes from pages/ ----
+// ---- collect routes from src/routes/ (React port; previously pages/*.vue) ----
+// __root.tsx is the layout, not a route; routeTree.gen.ts is generated.
 const routes = new Set()
 function walk(dir, base) {
   for (const f of readdirSync(dir)) {
     const full = join(dir, f)
-    const rel = base + '/' + f.replace(/\.vue$/, '')
+    const rel = base + '/' + f.replace(/\.tsx$/, '')
     if (statSync(full).isDirectory()) { walk(full, rel); continue }
-    if (!f.endsWith('.vue')) continue
-    if (f === 'index.vue') { routes.add(base === '' ? '/' : base); continue }
+    if (!f.endsWith('.tsx') || f === '__root.tsx') continue
+    if (f === 'index.tsx') { routes.add(base === '' ? '/' : base); continue }
     routes.add(rel)
   }
 }
-walk(join(ROOT, 'pages'), '')
+walk(join(ROOT, 'src/routes'), '')
 for (const r of [...routes]) if (r.startsWith('/zh/')) routes.delete(r) // zh mirrors: nav zhPath covers them
 for (const ig of IGNORED) routes.delete(ig) // locale landings are mirrors of '/'
 

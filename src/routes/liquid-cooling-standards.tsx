@@ -29,11 +29,11 @@ export const Route = createFileRoute('/liquid-cooling-standards')({
 
 function StandardsPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Updated 2026-09-09 · 5 min read</p>
       <h1>Liquid cooling standards, explained</h1>
 
-      <div className="card-grid" style="grid-template-columns:1fr">
+      <div className="card-grid" style={{ gridTemplateColumns:"1fr" }}>
         <div className="card">
           <h3>Key takeaways</h3>
           <p>
@@ -85,9 +85,9 @@ function StandardsPage() {
 
       <h2>Frequently asked questions</h2>
       {faqs.map(f => (
-        <div key={f.q} style="margin-bottom:18px">
-          <h3 style="margin-bottom:4px; font-size:17px">{f.q}</h3>
-          <p style="margin:0">{f.a}</p>
+        <div key={f.q} style={{ marginBottom:"18px" }}>
+          <h3 style={{ marginBottom:"4px", fontSize:"17px" }}>{f.q}</h3>
+          <p style={{ margin:"0" }}>{f.a}</p>
         </div>
       ))}
     </main>

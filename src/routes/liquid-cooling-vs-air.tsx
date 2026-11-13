@@ -33,11 +33,11 @@ export const Route = createFileRoute('/liquid-cooling-vs-air')({
 
 function VsAirPage() {
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Updated 2026-09-09 · 4 min read</p>
       <h1>Liquid cooling vs air: where the crossover really is</h1>
 
-      <div className="card-grid" style="grid-template-columns:1fr">
+      <div className="card-grid" style={{ gridTemplateColumns:"1fr" }}>
         <div className="card">
           <h3>Key takeaways</h3>
           <p>
@@ -52,8 +52,8 @@ function VsAirPage() {
         </div>
       </div>
 
-      <figure className="fig" style="margin-inline:0">
-        <img src="/img/ai/dc-hall.png" alt="Data center hall with rows of tall server racks" loading="lazy" style="width:100%;max-width:680px;display:block;border:1px solid var(--rule)" />
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <img src="/img/ai/dc-hall.png" alt="Data center hall with rows of tall server racks" loading="lazy" style={{ width:"100%", maxWidth:"680px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — The room every kW has to leave: rack rows and the air that carries (or fails to carry) the heat. AI-generated illustration (Z-Image Turbo) — representative, not a specific facility.</figcaption>
       </figure>
 
@@ -95,9 +95,9 @@ function VsAirPage() {
 
       <h2>Frequently asked questions</h2>
       {faqs.map(f => (
-        <div key={f.q} style="margin-bottom:18px">
-          <h3 style="margin-bottom:4px; font-size:17px">{f.q}</h3>
-          <p style="margin:0">{f.a}</p>
+        <div key={f.q} style={{ marginBottom:"18px" }}>
+          <h3 style={{ marginBottom:"4px", fontSize:"17px" }}>{f.q}</h3>
+          <p style={{ margin:"0" }}>{f.a}</p>
         </div>
       ))}
     </main>

@@ -25,8 +25,8 @@ const stages = TITLES.map((t, i) => ({
 
 export function ChainCanvas() {
   return (
-    <figure className="fig" style="margin-inline:0">
-      <svg viewBox="0 0 1120 640" role="img" aria-label="Liquid cooling industry chain canvas: business flow left to right, cash flow right to left, information flow bidirectional, with standards and knowledge as the support layer" style="width:100%;height:auto;display:block">
+    <figure className="fig" style={{ marginInline:"0" }}>
+      <svg viewBox="0 0 1120 640" role="img" aria-label="Liquid cooling industry chain canvas: business flow left to right, cash flow right to left, information flow bidirectional, with standards and knowledge as the support layer" style={{ width:"100%", height:"auto", display:"block" }}>
         <defs>
           <marker id="cc-biz" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="var(--cool)" /></marker>
           <marker id="cc-cash" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="var(--warn)" /></marker>

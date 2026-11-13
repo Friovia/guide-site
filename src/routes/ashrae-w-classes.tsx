@@ -36,11 +36,11 @@ function WClassesPage() {
     : { text: 'Above 45 °C — beyond the standard ladder; specialized designs only', style: { borderColor: 'var(--heat)', color: 'var(--heat)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Reference + lookup · 2 min read</p>
       <h1>ASHRAE W-classes (W17–W45)</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         ASHRAE sorts liquid-cooled equipment into coolant supply temperature classes:
         <b>W17, W27, W32, W40, W45 — the number is the maximum facility water supply temperature in °C</b>.
         Higher classes reject heat into warmer water, enabling chiller-free operation — if the IT
@@ -48,8 +48,8 @@ function WClassesPage() {
       </p>
 
       <h2>The table</h2>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:720px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"720px" }}>
           <tbody>
             <tr><th>Class</th><th>Max facility supply</th><th>What it implies for the site</th></tr>
             <tr><td><b>W17</b></td><td>≈ 17 °C</td><td>Chilled water required — compressors run year-round; historic baseline</td></tr>

@@ -41,23 +41,23 @@ function NewsPage() {
     .sort((a, b) => (a.date < b.date ? 1 : -1))
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Industry radar · curated {news.curated ? 'by editors' : ''}{news.last_fetched ? ` · auto-fetched ${news.last_fetched}` : ''}</p>
       <h1>Industry radar</h1>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         What is moving in liquid cooling: technology, products, investment and standards.
         Facts policy applies — <b>every item links to its source; nothing is invented</b>.
         The curated timeline below is the durable view; dated items rotate.
       </p>
 
       <h2>Milestones — the industry so far</h2>
-      <figure className="fig" style="margin-inline:0">
-        <table style="max-width:760px">
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <table style={{ maxWidth:"760px" }}>
           <tbody>
             <tr><th>Year</th><th>Milestone</th></tr>
             {news.milestones.map(m => (
               <tr key={m.date + m.title}>
-                <td style="white-space:nowrap"><b>{m.date}</b></td>
+                <td style={{ whiteSpace:"nowrap" }}><b>{m.date}</b></td>
                 <td>
                   {m.title} ·
                   <a href={m.source}>{m.source.startsWith('http') ? 'source ↗' : 'on this site'}</a>
@@ -70,7 +70,7 @@ function NewsPage() {
       </figure>
 
       <h2>Dated items</h2>
-      <div className="chips" style="margin-bottom:18px">
+      <div className="chips" style={{ marginBottom:"18px" }}>
         {channels.map(c => (
           <button key={c.id} className={`chip${chan === c.id ? ' on' : ''}`} onClick={() => setChan(c.id)}>
             {c.label}{c.id !== 'all' && <span className="cnt">{count(c.id)}</span>}

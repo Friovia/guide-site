@@ -37,25 +37,25 @@ function WetBulbPage() {
     : { text: `❌ Sink (${sink} °C) above required coolant (${tc} °C) — mechanical refrigeration is mandatory; raise W-class or budget the chiller`, style: { borderColor: 'var(--heat)', color: 'var(--heat)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 3 min read</p>
       <h1>Wet-bulb temperature &amp; free cooling</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Evaporative cooling can only chill water to near the <b>wet-bulb</b> temperature — plus a
         tower approach of ~5-8 K. Free cooling works when <b>T<sub>wet-bulb</sub> + 6 ≤ T<sub>coolant required</sub></b>.
         At a tropical design wet-bulb of 28 °C, tower water bottoms out near 34 °C — even a 35 °C loop
         has no margin, which is the physics behind every tropical-derating warning on this site.
       </p>
 
-      <figure className="fig" style="margin-inline:0">
-        <img src="/img/ai/drycooler-roof.png" alt="Industrial dry coolers with axial fans on a building roof" loading="lazy" style="width:100%;max-width:640px;display:block;border:1px solid var(--rule)" />
+      <figure className="fig" style={{ marginInline:"0" }}>
+        <img src="/img/ai/drycooler-roof.png" alt="Industrial dry coolers with axial fans on a building roof" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Where facility heat lands: rooftop dry coolers. Their output tracks the weather — wet-bulb decides how cold "cold" gets. AI-generated illustration (Z-Image Turbo) — representative, not a specific site.</figcaption>
       </figure>
 
       <h2>Formula</h2>
       <div className="formula">T<sub>sink,min</sub> ≈ T<sub>wet-bulb</sub> + 6 K (tower)&nbsp;&nbsp;·&nbsp;&nbsp;dry cooler: T<sub>wb</sub> → T<sub>dry-bulb</sub> + ~10 K</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         The 6 K is a typical cooling-tower approach; dry coolers run against dry-bulb with ~10 K
         approach. Whichever sink you use, if its achievable temperature sits above the coolant your
         equipment needs, mechanical refrigeration enters the chain — with its capital, energy and
@@ -65,7 +65,7 @@ function WetBulbPage() {
 
       <h2>Worked example</h2>
       <div className="formula">Singapore wb ≈ 28 °C → sink ≈ 34 °C → a 35 °C loop: no margin ❌&nbsp;&nbsp;·&nbsp;&nbsp;Munich wb ≈ 20 °C → sink ≈ 26 °C → 35 °C loop: 9 K margin ✅</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Typical 1% design wet-bulbs (verify per site): tropical coastal cities 27-30 °C,
         Gulf coast 30 °C+, Central Europe 20-22 °C, Northern Europe 17-19 °C.
       </p>

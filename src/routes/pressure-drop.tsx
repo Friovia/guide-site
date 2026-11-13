@@ -43,11 +43,11 @@ function PressurePage() {
     : { text: `✅ ${((1 - dp / head) * 100).toFixed(0)}% of CDU head still available for manifolds, couplings and the exchanger`, style: { borderColor: 'var(--ok)', color: 'var(--ok)' } }
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 3 min read</p>
       <h1>Pressure drop (Darcy–Weisbach)</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Every meter of hose and every coupling eats pump head: <b>90 L/min through 25 mm hose loses
         ≈ 20 kPa over 3 m</b> (f = 0.035). If the loop's total drop exceeds the CDU's available head,
         flow falls below the formula on paper — and the rack overheats on a Friday afternoon.
@@ -55,7 +55,7 @@ function PressurePage() {
 
       <h2>Formula</h2>
       <div className="formula">ΔP = f × (L / D) × (ρ × v² / 2)&nbsp;&nbsp;·&nbsp;&nbsp;v = Q / A</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         Darcy–Weisbach with friction factor f (≈ 0.03-0.04 for smooth hose at these flows),
         ρ ≈ 1,020 kg/m³ for PG25, and v the flow velocity. Velocity is the killer —
         it enters squared, which is why stepping down one hose size hurts so much.
@@ -63,7 +63,7 @@ function PressurePage() {
 
       <h2>Worked example</h2>
       <div className="formula">90 L/min · 25 mm ID · 3 m · f 0.035 → v 3.06 m/s → ΔP ≈ <b>20.0 kPa (2.9 psi)</b></div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         That is just one straight hose. Add the rack manifold, two UQD couplings, elbows and the
         CDU heat exchanger, and a loop can easily demand 100-150 kPa — which is exactly what CDU
         pump curves are sized against.

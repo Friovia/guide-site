@@ -6,7 +6,7 @@
     "dev": "vite dev",
     "build": "node scripts/build.mjs",
     "build:nuxt": "node scripts/check-nav.mjs && nuxt generate",
-    "generate": "node scripts/build.mjs",
+    "generate": "node scripts/check-nav.mjs && node scripts/build.mjs",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "news:fetch": "node scripts/fetch-news.mjs",

@@ -31,18 +31,18 @@ function KwToTonsPage() {
   const elec = (kw / 3).toFixed(1)
 
   return (
-    <main className="container" style="padding:40px 20px">
+    <main className="container" style={{ padding:"40px 20px" }}>
       <p className="updated">Formula · 1 min read</p>
       <h1>kW ↔ refrigeration tons</h1>
 
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         One refrigeration ton equals <b>3.517 kW</b> of heat removal — converting is just division:
         <b>tons = kW ÷ 3.517</b>. A 70 kW cooling load is ≈ 19.9 tons.
       </p>
 
       <h2>Formula</h2>
       <div className="formula">tons = kW ÷ 3.517&nbsp;&nbsp;·&nbsp;&nbsp;kW = tons × 3.517&nbsp;&nbsp;·&nbsp;&nbsp;1 ton = 12,000 BTU/h</div>
-      <p style="max-width:680px">
+      <p style={{ maxWidth:"680px" }}>
         A "ton of refrigeration" is pre-electricity HVAC vocabulary: the heat needed to melt one
         short ton (907 kg) of ice in 24 hours — 12,000 BTU/h, or 3.517 kW. Precision-cooling
         and building-HVAC vendors still quote in tons, so data-center kilowatts must cross this bridge.

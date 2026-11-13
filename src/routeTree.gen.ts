@@ -44,6 +44,13 @@ import { Route as TdpToRackKwRouteImport } from './routes/tdp-to-rack-kw'
 import { Route as UqdQuickDisconnectsRouteImport } from './routes/uqd-quick-disconnects'
 import { Route as WetBulbFreeCoolingRouteImport } from './routes/wet-bulb-free-cooling'
 import { Route as WhatIsACduRouteImport } from './routes/what-is-a-cdu'
+import { Route as WhatIsLiquidCoolingRouteImport } from './routes/what-is-liquid-cooling'
+import { Route as ArIndexRouteImport } from './routes/ar/index'
+import { Route as EsIndexRouteImport } from './routes/es/index'
+import { Route as PlaygroundIndexRouteImport } from './routes/playground/index'
+import { Route as PlaygroundDeratingRouteImport } from './routes/playground/derating'
+import { Route as PlaygroundRackBuilderRouteImport } from './routes/playground/rack-builder'
+import { Route as PlaygroundRoomLoadRouteImport } from './routes/playground/room-load'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -223,6 +230,41 @@ const WhatIsACduRoute = WhatIsACduRouteImport.update({
   path: '/what-is-a-cdu',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WhatIsLiquidCoolingRoute = WhatIsLiquidCoolingRouteImport.update({
+  id: '/what-is-liquid-cooling',
+  path: '/what-is-liquid-cooling',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ArIndexRoute = ArIndexRouteImport.update({
+  id: '/ar/',
+  path: '/ar/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EsIndexRoute = EsIndexRouteImport.update({
+  id: '/es/',
+  path: '/es/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PlaygroundIndexRoute = PlaygroundIndexRouteImport.update({
+  id: '/playground/',
+  path: '/playground/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PlaygroundDeratingRoute = PlaygroundDeratingRouteImport.update({
+  id: '/playground/derating',
+  path: '/playground/derating',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PlaygroundRackBuilderRoute = PlaygroundRackBuilderRouteImport.update({
+  id: '/playground/rack-builder',
+  path: '/playground/rack-builder',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PlaygroundRoomLoadRoute = PlaygroundRoomLoadRouteImport.update({
+  id: '/playground/room-load',
+  path: '/playground/room-load',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -260,6 +302,13 @@ export interface FileRoutesByFullPath {
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
+  '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
+  '/playground/derating': typeof PlaygroundDeratingRoute
+  '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
+  '/playground/room-load': typeof PlaygroundRoomLoadRoute
+  '/ar/': typeof ArIndexRoute
+  '/es/': typeof EsIndexRoute
+  '/playground/': typeof PlaygroundIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -297,6 +346,13 @@ export interface FileRoutesByTo {
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
+  '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
+  '/playground/derating': typeof PlaygroundDeratingRoute
+  '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
+  '/playground/room-load': typeof PlaygroundRoomLoadRoute
+  '/ar': typeof ArIndexRoute
+  '/es': typeof EsIndexRoute
+  '/playground': typeof PlaygroundIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -335,6 +391,13 @@ export interface FileRoutesById {
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
+  '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
+  '/playground/derating': typeof PlaygroundDeratingRoute
+  '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
+  '/playground/room-load': typeof PlaygroundRoomLoadRoute
+  '/ar/': typeof ArIndexRoute
+  '/es/': typeof EsIndexRoute
+  '/playground/': typeof PlaygroundIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -374,6 +437,13 @@ export interface FileRouteTypes {
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
+    | '/what-is-liquid-cooling'
+    | '/playground/derating'
+    | '/playground/rack-builder'
+    | '/playground/room-load'
+    | '/ar/'
+    | '/es/'
+    | '/playground/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -411,6 +481,13 @@ export interface FileRouteTypes {
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
+    | '/what-is-liquid-cooling'
+    | '/playground/derating'
+    | '/playground/rack-builder'
+    | '/playground/room-load'
+    | '/ar'
+    | '/es'
+    | '/playground'
   id:
     | '__root__'
     | '/'
@@ -448,6 +525,13 @@ export interface FileRouteTypes {
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
+    | '/what-is-liquid-cooling'
+    | '/playground/derating'
+    | '/playground/rack-builder'
+    | '/playground/room-load'
+    | '/ar/'
+    | '/es/'
+    | '/playground/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -486,6 +570,13 @@ export interface RootRouteChildren {
   UqdQuickDisconnectsRoute: typeof UqdQuickDisconnectsRoute
   WetBulbFreeCoolingRoute: typeof WetBulbFreeCoolingRoute
   WhatIsACduRoute: typeof WhatIsACduRoute
+  WhatIsLiquidCoolingRoute: typeof WhatIsLiquidCoolingRoute
+  PlaygroundDeratingRoute: typeof PlaygroundDeratingRoute
+  PlaygroundRackBuilderRoute: typeof PlaygroundRackBuilderRoute
+  PlaygroundRoomLoadRoute: typeof PlaygroundRoomLoadRoute
+  ArIndexRoute: typeof ArIndexRoute
+  EsIndexRoute: typeof EsIndexRoute
+  PlaygroundIndexRoute: typeof PlaygroundIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -735,6 +826,55 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WhatIsACduRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/what-is-liquid-cooling': {
+      id: '/what-is-liquid-cooling'
+      path: '/what-is-liquid-cooling'
+      fullPath: '/what-is-liquid-cooling'
+      preLoaderRoute: typeof WhatIsLiquidCoolingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ar/': {
+      id: '/ar/'
+      path: '/ar'
+      fullPath: '/ar/'
+      preLoaderRoute: typeof ArIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/es/': {
+      id: '/es/'
+      path: '/es'
+      fullPath: '/es/'
+      preLoaderRoute: typeof EsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/playground/': {
+      id: '/playground/'
+      path: '/playground'
+      fullPath: '/playground/'
+      preLoaderRoute: typeof PlaygroundIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/playground/derating': {
+      id: '/playground/derating'
+      path: '/playground/derating'
+      fullPath: '/playground/derating'
+      preLoaderRoute: typeof PlaygroundDeratingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/playground/rack-builder': {
+      id: '/playground/rack-builder'
+      path: '/playground/rack-builder'
+      fullPath: '/playground/rack-builder'
+      preLoaderRoute: typeof PlaygroundRackBuilderRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/playground/room-load': {
+      id: '/playground/room-load'
+      path: '/playground/room-load'
+      fullPath: '/playground/room-load'
+      preLoaderRoute: typeof PlaygroundRoomLoadRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -774,6 +914,13 @@ const rootRouteChildren: RootRouteChildren = {
   UqdQuickDisconnectsRoute: UqdQuickDisconnectsRoute,
   WetBulbFreeCoolingRoute: WetBulbFreeCoolingRoute,
   WhatIsACduRoute: WhatIsACduRoute,
+  WhatIsLiquidCoolingRoute: WhatIsLiquidCoolingRoute,
+  PlaygroundDeratingRoute: PlaygroundDeratingRoute,
+  PlaygroundRackBuilderRoute: PlaygroundRackBuilderRoute,
+  PlaygroundRoomLoadRoute: PlaygroundRoomLoadRoute,
+  ArIndexRoute: ArIndexRoute,
+  EsIndexRoute: EsIndexRoute,
+  PlaygroundIndexRoute: PlaygroundIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
