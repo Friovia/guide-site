@@ -1,0 +1,10 @@
+/*
+ * Tailwind v4 WITHOUT preflight — the Nuxt stylesheet had no reset and the React port
+ * must not drift visually (migration rule: tokens and global classes move as-is).
+ * theme.css provides Tailwind's design variables, utilities.css the utility engine;
+ * assets/css/main.css then re-declares the site tokens (--bg/--cool/--heat/...) and
+ * every global class (shell skeleton, h2 counter, .fcalc, .formula, ...).
+ */
+@import 'tailwindcss/theme.css';
+@import 'tailwindcss/utilities.css';
+@import '../assets/css/main.css';
