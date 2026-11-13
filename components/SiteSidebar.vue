@@ -10,36 +10,23 @@
     </div>
 
     <template v-for="s in visible" :key="s.id">
-      <!-- Channel-first sidebar: the section containing the current page stays
-           open; other channels collapse to their group label; searching opens
-           everything. -->
-      <div v-if="q || s.id === currentSectionId">
-        <div class="navsec" :class="{ chan: !q && s.id === currentSectionId }">{{ s.label }}</div>
-        <NuxtLink
-          v-for="it in s.items"
-          :key="it.path"
-          :to="it.path"
-          class="navitem"
-          :class="{ active: it.path === route.path }"
-          @click="$emit('navigate')"
-        >
-          <span class="navtitle">{{ it.title }}</span>
-          <span v-if="q" class="navdesc">{{ it.desc }}</span>
-        </NuxtLink>
-      </div>
-      <details v-else class="navgroup">
-        <summary class="navsec">{{ s.label }}</summary>
-        <NuxtLink
-          v-for="it in s.items"
-          :key="it.path"
-          :to="it.path"
-          class="navitem"
-          :class="{ active: it.path === route.path }"
-          @click="$emit('navigate')"
-        >
-          <span class="navtitle">{{ it.title }}</span>
-        </NuxtLink>
-      </details>
+      <!-- Channel-first knowledge map: the section owning the current page stays
+           open; other channels toggle via managed state (native <details> open
+           state is not tracked by Vue and gets reset on re-render); searching
+           opens everything. -->
+      <div class="navsec" :class="{ chan: !q && s.id === currentSectionId }" @click="toggle(s.id)">{{ s.label }}<span class="navtoggle">{{ isOpen(s.id) ? '–' : '+' }}</span></div>
+      <NuxtLink
+        v-for="it in s.items"
+        v-show="isOpen(s.id)"
+        :key="it.path"
+        :to="it.path"
+        class="navitem"
+        :class="{ active: it.path === route.path }"
+        @click="$emit('navigate')"
+      >
+        <span class="navtitle">{{ it.title }}</span>
+        <span v-if="q" class="navdesc">{{ it.desc }}</span>
+      </NuxtLink>
     </template>
 
     <p v-if="!visible.length" class="navempty">{{ `No matches for “${q}.”` }}</p>
@@ -47,13 +34,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { computed, ref, watch } from 'vue'
 import nav from '~/data/nav.json'
 
 defineEmits<{ navigate: [] }>()
 
 const route = useRoute()
 const q = ref('')
+
+/** Channels the user manually expanded (managed state — survives re-renders). */
+const expanded = ref(new Set<string>())
 
 const visible = computed(() =>
   nav.sections
@@ -68,31 +58,45 @@ const visible = computed(() =>
     .filter(s => s.items.length)
 )
 
-/** The channel (section) that owns the current page — stays expanded. */
+/** The channel (section) that owns the current page — always open. */
 const currentSectionId = computed(() =>
   nav.sections.find(s => s.items.some(it => it.path === route.path))?.id
 )
+
+function toggle(id: string) {
+  const next = new Set(expanded.value)
+  next.has(id) ? next.delete(id) : next.add(id)
+  expanded.value = next
+}
+
+function isOpen(id: string) {
+  return !!q.value || id === currentSectionId.value || expanded.value.has(id)
+}
+
+// Leaving a channel collapses it again (keeps the map focused on the channel you're in)
+watch(currentSectionId, (now, before) => {
+  if (before && now !== before) {
+    const next = new Set(expanded.value)
+    next.delete(before)
+    expanded.value = next
+  }
+})
 </script>
 
 <style scoped>
+.navsec {
+  cursor: pointer;
+  user-select: none;
+}
 .navsec.chan {
   color: var(--cool);
 }
-details.navgroup > summary {
-  cursor: pointer;
-  list-style: none;
-  user-select: none;
+.navsec.chan .navtoggle {
+  color: var(--cool);
 }
-details.navgroup > summary::-webkit-details-marker {
-  display: none;
-}
-details.navgroup > summary::after {
+.navtoggle {
   color: var(--line2);
-  content: '+';
   float: right;
   font-family: var(--mono);
-}
-details.navgroup[open] > summary::after {
-  content: '\2013';
 }
 </style>
