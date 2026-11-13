@@ -16,9 +16,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     <div className="shell">
       <header className="site topbar">
         <div className="inner">
-          {!isHome && (
-            <button className="burger" aria-label="Open navigation" onClick={() => setOpen(true)}>☰</button>
-          )}
+          <button className="burger" aria-label="Open navigation" onClick={() => setOpen(true)}>☰</button>
           <Link to="/" className="masthead" aria-label="Liquid Cooling Guide — home">
             <svg className="mark" width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
               <rect x="0.75" y="0.75" width="20.5" height="20.5" rx="4" fill="none" stroke="var(--line2)" strokeWidth="1.5" />
@@ -40,12 +38,12 @@ export function AppShell({ children }: { children: ReactNode }) {
       </header>
 
       <div className="cols">
-        {!isHome && (
-          <aside className={`side${open ? ' open' : ''}`}>
-            <SiteSidebar onNavigate={() => setOpen(false)} />
-          </aside>
-        )}
-        {open && !isHome && <div className="scrim" onClick={() => setOpen(false)} />}
+        {/* Sidebar renders on the homepage too — at ≤1020px it becomes the drawer,
+            which is the homepage's ONLY nav entry (desktop hides it via .home-side). */}
+        <aside className={`side${open ? ' open' : ''}${isHome ? ' home-side' : ''}`}>
+          <SiteSidebar onNavigate={() => setOpen(false)} />
+        </aside>
+        {open && <div className="scrim" onClick={() => setOpen(false)} />}
 
         <div className="content">
           {children}
