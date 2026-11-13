@@ -11,14 +11,14 @@ const STAGE_MAP: Record<string, number> = {
   buyers: 4,
 }
 const TITLES = [
-  { title: 'MATERIALS', zh: '材料与制造' },
-  { title: 'COMPONENTS', zh: '核心部件' },
-  { title: 'SYSTEMS & SOLUTIONS', zh: '整机与方案' },
-  { title: 'DELIVERY & ASSURANCE', zh: '交付与保障' },
-  { title: 'BUYERS & OPERATIONS', zh: '买方与运营' },
+  'MATERIALS',
+  'COMPONENTS',
+  'SYSTEMS & SOLUTIONS',
+  'DELIVERY & ASSURANCE',
+  'BUYERS & OPERATIONS',
 ]
-const stages = TITLES.map((t, i) => ({
-  ...t,
+const stages = TITLES.map((title, i) => ({
+  title,
   x: 20 + i * 220,
   segs: (vendors.segments as { id: string, label: string, companies: unknown[] }[]).filter(s => STAGE_MAP[s.id] === i),
 }))
@@ -36,7 +36,7 @@ export function ChainCanvas() {
 
         {/* INFORMATION FLOW band (top) */}
         <g>
-          <text x="20" y="24" className="cc-band" fill="var(--text2)">INFORMATION FLOW — 信息流</text>
+          <text x="20" y="24" className="cc-band" fill="var(--text2)">INFORMATION FLOW</text>
           <line x1="20" y1="46" x2="1100" y2="46" stroke="var(--text2)" strokeWidth="1.5" strokeDasharray="7 6" markerEnd="url(#cc-info)" markerStart="url(#cc-info-l)" />
           <text x="60" y="38" className="cc-note">specs · derating curves · BIM models →</text>
           <text x="640" y="38" className="cc-note">← demand · site conditions · live telemetry</text>
@@ -47,21 +47,20 @@ export function ChainCanvas() {
           <g key={st.title}>
             <rect x={st.x} y="86" width="200" height="300" rx="10" fill="var(--bg2)" stroke="var(--line2)" strokeWidth="1.5" style={i === 4 ? { stroke: 'var(--cool)', strokeWidth: 2 } : undefined} />
             <text x={st.x + 100} y="112" textAnchor="middle" className="cc-stage">{i + 1} · {st.title}</text>
-            <text x={st.x + 100} y="128" textAnchor="middle" className="cc-sub">{st.zh}</text>
             {st.segs.map((seg, j) => (
               <g key={seg.id}>
-                <text x={st.x + 14} y={156 + j * 24} className="cc-seg">· {seg.label.split(' (')[0].split(' — ')[0]}</text>
-                <text x={st.x + 186} y={156 + j * 24} textAnchor="end" className="cc-cnt">{seg.companies.length}</text>
+                <text x={st.x + 14} y={144 + j * 24} className="cc-seg">· {seg.label.split(' (')[0].split(' — ')[0]}</text>
+                <text x={st.x + 186} y={144 + j * 24} textAnchor="end" className="cc-cnt">{seg.companies.length}</text>
               </g>
             ))}
             {i < 4 && <line x1={st.x + 202} y1="236" x2={st.x + 218} y2="236" stroke="var(--cool)" strokeWidth="2.5" markerEnd="url(#cc-biz)" />}
           </g>
         ))}
-        <text x="560" y="412" textAnchor="middle" className="cc-band" fill="var(--cool)">BUSINESS FLOW — 业务流（产品与服务交付）→</text>
+        <text x="560" y="412" textAnchor="middle" className="cc-band" fill="var(--cool)">BUSINESS FLOW (products &amp; services) →</text>
 
         {/* CASH FLOW band (below stages) */}
         <g>
-          <text x="20" y="452" className="cc-band" fill="var(--warn)">CASH FLOW — 现金流（付款回流）</text>
+          <text x="20" y="452" className="cc-band" fill="var(--warn)">CASH FLOW (payment returns)</text>
           <line x1="20" y1="476" x2="1100" y2="476" stroke="var(--warn)" strokeWidth="2" markerStart="url(#cc-cash)" />
           <text x="60" y="498" className="cc-note" fill="var(--warn)">buyers pay colocation / integrators → they pay equipment vendors → vendors pay materials & IP</text>
           <text x="640" y="498" className="cc-note" fill="var(--warn)">financing sits here: equipment leasing · data center REITs · capex deferral</text>
@@ -70,7 +69,7 @@ export function ChainCanvas() {
         {/* SUPPORT layer */}
         <g>
           <rect x="20" y="522" width="1060" height="86" rx="10" fill="none" stroke="var(--line2)" strokeWidth="1.5" strokeDasharray="8 6" />
-          <text x="40" y="550" className="cc-band" fill="var(--text2)">SUPPORT LAYER — 支撑体系（不直接交易产品，却约束每一个环节）</text>
+          <text x="40" y="550" className="cc-band" fill="var(--text2)">SUPPORT LAYER — no products traded, yet constrains every segment</text>
           <text x="40" y="576" className="cc-seg">Standards: OCP · ASHRAE · IEC · SS 726 · CAICT</text>
           <text x="430" y="576" className="cc-seg">Simulation: 6SigmaDCX · FloTHERM</text>
           <text x="760" y="576" className="cc-seg">Certification: UL · TÜV · SGS</text>

@@ -255,7 +255,7 @@
     },
     {
       "id": "envicool-l2a",
-      "name": "Envicool 机柜式风液 CDU (Coolinside)",
+      "name": "Envicool rack-mounted air-to-liquid CDU (Coolinside)",
       "type": "L2A",
       "ratedKw": null,
       "coolantC": null,

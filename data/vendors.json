@@ -10,13 +10,13 @@
         {
           "name": "Jiangxi Copper",
           "hq": "CN",
-          "note": "江西铜业 — copper stock and semi-finished inputs for cold plates and manifolds",
+          "note": "Copper stock and semi-finished inputs for cold plates and manifolds",
           "source": "https://www.jxcc.com/"
         },
         {
           "name": "Chalco (Aluminum Corp of China)",
           "hq": "CN",
-          "note": "中国铝业 — aluminum inputs for manifolds, cabinets and heat exchanger fins",
+          "note": "Aluminum inputs for manifolds, cabinets and heat exchanger fins",
           "source": "https://www.chalco.com.cn/"
         },
         {
@@ -163,13 +163,13 @@
         {
           "name": "Envicool",
           "hq": "CN",
-          "note": "英维克 — China's largest domestic data-center cooling vendor; CDUs and integrated liquid systems for AI halls",
+          "note": "China's largest domestic data-center cooling vendor; CDUs and integrated liquid systems for AI halls",
           "source": "https://www.envicool.com/"
         },
         {
           "name": "Goaland",
           "hq": "CN",
-          "note": "高澜股份 — liquid cooling for power electronics and data centers; strong domestic AI-facility presence",
+          "note": "Liquid cooling for power electronics and data centers; strong domestic AI-facility presence",
           "source": "https://www.goaland.com/"
         }
       ]
@@ -249,7 +249,7 @@
         {
           "name": "Huawei",
           "hq": "CN",
-          "note": "华为 — liquid-ready rack servers plus facility liquid-cooling lines for AI data centers",
+          "note": "Liquid-ready rack servers plus facility liquid-cooling lines for AI data centers",
           "source": "https://www.huawei.com/"
         },
         {
@@ -524,9 +524,9 @@
       "note": "The non-equipment layer: design institutes, EPC/engineering consultancies, simulation software and certification — plus solution providers who assemble whole liquid-cooling plants across other vendors' hardware.",
       "companies": [
         {
-          "name": "Sugon DataEnergy (曙光数创)",
+          "name": "Sugon DataEnergy",
           "hq": "CN",
-          "note": "中科曙光旗下 (NEEQ 872808) — full liquid-cooling solutions: cold-plate + phase-change immersion dual track; C8000 immersion rack rated >900 kW/rack; #1 domestic liquid-cooling share five years running (CCID)",
+          "note": "Sugon subsidiary (NEEQ 872808) — full liquid-cooling solutions: cold-plate + phase-change immersion dual track; C8000 immersion rack rated >900 kW/rack; #1 domestic liquid-cooling share five years running (CCID)",
           "source": "https://www.sugon.com/product/lists?category_id=80"
         },
         {
@@ -591,7 +591,7 @@
           "source": "https://www.sgs.com/"
         },
         {
-          "name": "CAICT (中国信通院)",
+          "name": "CAICT",
           "hq": "CN",
           "note": "China Academy of Information and Communications Technology — domestic liquid-cooling evaluation and standards work",
           "source": "https://www.caict.ac.cn/"
@@ -622,21 +622,21 @@
           "source": "https://cloud.google.com/"
         },
         {
-          "name": "Alibaba Cloud (阿里云)",
+          "name": "Alibaba Cloud",
           "hq": "CN",
-          "note": "浸没式液冷规模化部署的先行者（仁和数据中心）",
+          "note": "Early mover in large-scale immersion cooling (Renhe data center)",
           "source": "https://www.aliyun.com/"
         },
         {
-          "name": "Tencent Cloud (腾讯云)",
+          "name": "Tencent Cloud",
           "hq": "CN",
-          "note": "T-Block 与液冷数据中心批量部署",
+          "note": "T-Block and volume liquid-cooled data center deployments",
           "source": "https://cloud.tencent.com/"
         },
         {
-          "name": "China Mobile (中国移动)",
+          "name": "China Mobile",
           "hq": "CN",
-          "note": "运营商智算中心集采——国产液冷链的最大单一买方之一",
+          "note": "Carrier AI-compute central procurement — one of the largest single buyers of the domestic liquid-cooling chain",
           "source": "https://www.10086.cn/"
         },
         {
@@ -652,21 +652,21 @@
           "source": "https://www.digitalrealty.com/"
         },
         {
-          "name": "GDS (万国数据)",
+          "name": "GDS",
           "hq": "CN",
-          "note": "头部第三方 IDC，液冷智算集群批量落地",
+          "note": "Top-tier third-party IDC with liquid-cooled AI clusters in volume",
           "source": "https://www.gds-services.com/"
         },
         {
-          "name": "VNET (世纪互联)",
+          "name": "VNET",
           "hq": "CN",
-          "note": "第三方 IDC 与智算中心运营商",
+          "note": "Third-party IDC and AI-compute center operator",
           "source": "https://www.21vianet.com/"
         },
         {
-          "name": "Chindata (秦淮数据)",
+          "name": "Chindata",
           "hq": "CN",
-          "note": "超大规模数据中心园区，东南亚/中国液冷部署",
+          "note": "Hyperscale data center campuses with SEA/China liquid deployments",
           "source": "https://www.chindata.com/"
         }
       ]
