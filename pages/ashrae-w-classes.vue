@@ -37,7 +37,7 @@
       <li><b>W-class is about the facility loop, not the room.</b> Room air classes (A1-A4) are a separate ladder for air-cooled IT; do not mix them in a quote.</li>
       <li><b>Warmer water trades chiller hours for chip margin.</b> A W45 loop lets the site skip refrigeration, but every degree of warmer coolant raises cold-plate approach and chip temperatures — capacity and silicon limits pay for the efficiency.</li>
       <li><b>Temperature is only half the spec.</b> Classes assume water quality targets (corrosion, biology, particulates); PG25 with inhibitors is the usual answer on the technology loop (<NuxtLink to="/liquid-cooling-fluids">fluids</NuxtLink>).</li>
-      <li><b>Tropics cap the ladder.</b> With design wet-bulbs near 28-30 °C, even W45 loops lose dry-cooler margin — the physics behind <NuxtLink to="/wet-bulb-free-cooling">wet-bulb limits</NuxtLink> and SS 726.</li>
+      <li><b>Tropics cap the ladder.</b> With design wet-bulbs near 28-30 °C, even W45 loops lose dry-cooler margin — the physics behind <NuxtLink to="/wet-bulb-free-cooling">wet-bulb limits</NuxtLink> and <NuxtLink to="/ss726-liquid-cooling-standard">SS 726</NuxtLink>.</li>
     </ul>
 
     <h2>Related</h2>

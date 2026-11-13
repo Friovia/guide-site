@@ -30,7 +30,7 @@
       unavoidable at the facility level. Second, <strong>approach temperature</strong> governs L2A capacity: a
       liquid-to-air CDU can only reject heat down to some margin above room air temperature, so hotter rooms mean
       less capacity at the same coolant setpoint. Third, <strong>humidity</strong> accelerates corrosion and
-      biological growth in cooling loops — SS 726:2026 explicitly calls out corrosion and microbial risk as
+      biological growth in cooling loops — <NuxtLink to="/ss726-liquid-cooling-standard">SS 726:2026</NuxtLink> explicitly calls out corrosion and microbial risk as
       tropical-specific design concerns.
     </p>
 
@@ -55,6 +55,7 @@
       temperatures, manage corrosion and biology, measure everything — rather than a pass/fail mark on a product.
       Singapore's Green DC roadmap pushes operating temperatures from 22-24°C toward 26°C+, which is exactly the
       direction that makes hot-climate liquid cooling economics work.
+      Full sourced explainer: <NuxtLink to="/ss726-liquid-cooling-standard">SS 726 deep dive</NuxtLink>.
     </p>
 
     <h2>Practical checklist for hot-climate buyers</h2>

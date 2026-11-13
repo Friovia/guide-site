@@ -10,7 +10,7 @@
           Four families of standards govern rack liquid cooling: OCP defines the interconnects (UQD quick
           disconnects, ORv3 blind-mate manifolds); ASHRAE defines coolant temperature classes (W17-W45);
           IEC 62368-1 Edition 4 sets electrical safety including dedicated liquid-cooling clauses; and Singapore's
-          SS 726:2026 is the first national standard for liquid cooling in tropical climates — but it applies to
+          SS 726:2026 is the <NuxtLink to="/ss726-liquid-cooling-standard">first national standard for liquid cooling in tropical climates</NuxtLink> — but it applies to
           direct-to-chip systems inside data centers and explicitly excludes indirect cooling.
           If you are buying, the practical checklist is: UQD-compliant couplings, a stated W-class, IEC 62368-1
           Ed.4 safety certification, and honest derating data for your climate.

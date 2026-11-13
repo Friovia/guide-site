@@ -201,6 +201,11 @@
           "desc": "OCP, ASHRAE W-classes, IEC 62368-1, SS 726"
         },
         {
+          "path": "/ss726-liquid-cooling-standard",
+          "title": "SS 726 deep dive",
+          "desc": "The tropical liquid cooling standard, explained"
+        },
+        {
           "path": "/changelog",
           "title": "Changelog",
           "desc": "Data versions and article updates"

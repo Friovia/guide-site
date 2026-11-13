@@ -62,6 +62,7 @@ Reference:
 - [UQD quick disconnects](https://liquidcoolingguide.com/uqd-quick-disconnects): The OCP UQD family UQD04–UQD40 (number ≈ nominal L/min); size table, dripless and blind-mate mechanics, the pressure-drop trap.
 - [Fluids & PFAS](https://liquidcoolingguide.com/liquid-cooling-fluids): PG25 vs oils vs fluorinated fluids — PFAS regulation, 3M's 2025 exit, transport/disposal rules, loop maintenance.
 - [Standards](https://liquidcoolingguide.com/liquid-cooling-standards): OCP interconnects (UQD, ORv3 manifold Rev 1.0), ASHRAE W-classes (W17-W45), IEC 62368-1 Ed.4 liquid clauses, SS 726:2026 — mapped to a buying checklist.
+- [SS 726 deep dive](https://liquidcoolingguide.com/ss726-liquid-cooling-standard): The world's first tropical liquid cooling standard (Singapore, Aug 2026), explained from official sources — scope (design/deploy/operate, corrosion, water efficiency), the OCP connection, working group (STT GDC, AirTrunk, Meta, OCP), scope limits for edge deployments.
 - [Changelog](https://liquidcoolingguide.com/changelog): Data-layer versions and article updates.
 
 Facts policy: every product claim links to its source; unverifiable data is marked ❌; data layer version and update date shown on each page. Machine-readable feed: /newsfeed.xml.
