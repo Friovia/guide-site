@@ -1,6 +1,6 @@
 {
  "base": "https://liquidcoolingguide.com",
- "capturedAt": "2026-11-13T10:10:50.698Z",
+ "capturedAt": "2026-11-13T11:47:56.139Z",
  "routes": [
   "/",
   "/approach-temperature",
@@ -58,8 +58,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "d26ab8c62abe5fdc86473cc307d14ee1"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "c13e8d4d860f3aabd2eb5a14958cd142"
   },
   "/approach-temperature": {
    "status": 200,
@@ -75,8 +75,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "bbedf233e704184416bd5d2d80f02fb4",
-   "textHash": "c77856de106ccc2e0276c12cb72bb7a4"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "e1fe873bd0293fbec9ae141cf4f8429f"
   },
   "/ar": {
    "status": 200,
@@ -90,8 +90,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "9bf08746899a4323c264cc500c8ae68d"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "60eda0fdc08b62770de0d43ae13d8e30"
   },
   "/ashrae-w-classes": {
    "status": 200,
@@ -107,8 +107,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "ecd5962e1fa390c7cf05210f52e58b6b",
-   "textHash": "58cbf1c9f97ed618bfba01b90461deef"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "44288c59a1e71a8b6dfbc669eb6a3fdf"
   },
   "/cabinet-comparison": {
    "status": 200,
@@ -123,8 +123,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "839e8ea2ef9a8793d0ba4b81a92fc44b",
-   "textHash": "d3dcab992e22e32cc8a3dc290f2fa3e2"
+   "schemaHash": "aa22c5ae044806459041d547ce604324",
+   "textHash": "9892fca1397cc8cdf356683cf21e715d"
   },
   "/changelog": {
    "status": 200,
@@ -138,8 +138,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "81766c64c09e273af52d86e59e94508c"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "c03bf1b118531cf05bf0a5ae9122ea5e"
   },
   "/cold-plate-vs-immersion": {
    "status": 200,
@@ -155,16 +155,16 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "a8cb1b4f9e8a31b5ea717494f71e708a",
-   "textHash": "19952359a212b0bbdb00e7e27b56c057"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "e4c79dc6c2dbc091eb7aae792eaafdd5"
   },
   "/commissioning": {
    "status": 200,
    "title": "Commissioning a liquid-cooled rack — 8-step acceptance sequence · Liquid Cooling Guide",
-   "description": "Liquid cooling commissioning: dry pressure test, fill & purge, flow verification against the calculated L/min, pressure survey, dew-point check, leak-system test, staged load ramp, baseline snapshot — with pass criteria for each step.",
+   "description": "Liquid cooling commissioning: dry pressure test, fill &amp; purge, flow verification against the calculated L/min, pressure survey, dew-point check, leak-system test, staged load ramp, baseline snapshot — with pass criteria for each step.",
    "canonical": "https://liquidcoolingguide.com/commissioning",
    "ogTitle": "Commissioning a liquid-cooled rack — 8-step acceptance sequence · Liquid Cooling Guide",
-   "ogDescription": "Liquid cooling commissioning: dry pressure test, fill & purge, flow verification against the calculated L/min, pressure survey, dew-point check, leak-system test, staged load ramp, baseline snapshot — with pass criteria for each step.",
+   "ogDescription": "Liquid cooling commissioning: dry pressure test, fill &amp; purge, flow verification against the calculated L/min, pressure survey, dew-point check, leak-system test, staged load ramp, baseline snapshot — with pass criteria for each step.",
    "ogImage": "https://liquidcoolingguide.com/og-image.png",
    "hreflang": [],
    "jsonLdTypes": [
@@ -172,12 +172,12 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "5c47e21e5641e2aa4208b27a771534d6",
-   "textHash": "b897a4d8ac092c9527ebc90abf56bbfb"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "96125ec4c054cae4c5ea92263f97e64f"
   },
   "/coolant-flow-rate": {
    "status": 200,
-   "title": "Coolant flow rate formula (L&#x2F;min from kW and ΔT) · Liquid Cooling Guide",
+   "title": "Coolant flow rate formula (L/min from kW and ΔT) · Liquid Cooling Guide",
    "description": "Coolant flow rate formula: flow [L/min] = P [kW] × 60 / (4.186 × ΔT [°C]). Worked example — 50 kW at ΔT 8 °C needs 89.6 L/min — plus a live calculator and the three mistakes that oversize loops.",
    "canonical": "https://liquidcoolingguide.com/coolant-flow-rate",
    "ogTitle": "Coolant flow rate formula (L/min from kW and ΔT) · Liquid Cooling Guide",
@@ -189,15 +189,15 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "bb2bd6e520fb9cb5cc4d0db0b50a74ae",
-   "textHash": "bb330f1d7a730431f157d890ea6f5289"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "6e739342f723e1a85266c53f2752782f"
   },
   "/engineering": {
    "status": 200,
    "title": "Engineering &amp; calculators — every liquid cooling formula with live tools · Liquid Cooling Guide",
    "description": "The engineering channel: TDP-to-rack-kW budgets, coolant flow, heat capture split, approach-temperature derating, ASHRAE W-classes, wet-bulb free cooling, room AC load (1.1× rule), UQD interfaces and PG25 fluids — one concept per page, live calculators, sourced.",
    "canonical": "https://liquidcoolingguide.com/engineering",
-   "ogTitle": "Engineering & calculators — every liquid cooling formula with live tools · Liquid Cooling Guide",
+   "ogTitle": "Engineering &amp; calculators — every liquid cooling formula with live tools · Liquid Cooling Guide",
    "ogDescription": "The engineering channel: TDP-to-rack-kW budgets, coolant flow, heat capture split, approach-temperature derating, ASHRAE W-classes, wet-bulb free cooling, room AC load (1.1× rule), UQD interfaces and PG25 fluids — one concept per page, live calculators, sourced.",
    "ogImage": "https://liquidcoolingguide.com/og-image.png",
    "hreflang": [],
@@ -205,8 +205,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "9d35a0925a35b33662a3842c7b1146d2",
-   "textHash": "30509c41a2ef45d05ec50de589e1fa82"
+   "schemaHash": "aa22c5ae044806459041d547ce604324",
+   "textHash": "f69c50c853b1a2a5525b93eeee88c1cf"
   },
   "/es": {
    "status": 200,
@@ -220,12 +220,12 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "b0027896d13bc4802e2b2b2cdcab2cde"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "f557b800721c7ea2ed36c84be1132e7c"
   },
   "/floor-loading": {
    "status": 200,
-   "title": "Floor loading for liquid-cooled racks (kN&#x2F;m² calculator) · Liquid Cooling Guide",
+   "title": "Floor loading for liquid-cooled racks (kN/m² calculator) · Liquid Cooling Guide",
    "description": "Floor load = mass × 9.81 ÷ footprint: a 1,200 kg rack on 600 × 1,200 mm prints 16.4 kN/m², ~5× an office floor design load (~3 kN/m²). Live calculator, typical design ranges, and the concentrated-load mistake.",
    "canonical": "https://liquidcoolingguide.com/floor-loading",
    "ogTitle": "Floor loading for liquid-cooled racks (kN/m² calculator) · Liquid Cooling Guide",
@@ -237,8 +237,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "e5bda3c5dfca64ccacf61fb1398aeb93",
-   "textHash": "87b7c4df028af2b012d3f345d37e8801"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "427379a229e34aab3e3f804ad5086c76"
   },
   "/glossary": {
    "status": 200,
@@ -253,8 +253,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "246018a837d4d456eabaf237718a9676",
-   "textHash": "c66d014e5977e405835635b7c8f5e513"
+   "schemaHash": "aa22c5ae044806459041d547ce604324",
+   "textHash": "633f214c124783ae7ee3dfea47387e3b"
   },
   "/heat-capture-split": {
    "status": 200,
@@ -270,8 +270,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "2d36b2fd7003e2957fe38dce6a1d4cbf",
-   "textHash": "16f5a3ba991b5a904282aaa0d1d81b48"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "d2b3a74a5eecb8f0cb0d71b47cca15ad"
   },
   "/kw-to-tons": {
    "status": 200,
@@ -287,8 +287,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "8284284b75caee1340eb3631a7e4913d",
-   "textHash": "295002406736a70051a3510f89a7683f"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "af8ad4767f985489e3411299c9f1f86f"
   },
   "/liquid-cooling-cost": {
    "status": 200,
@@ -304,8 +304,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "db311ccd468b4c9be6c582a9ab808060",
-   "textHash": "2063c0279ade3f134837b2dc2013a979"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "d20bc0c8c9f6d86537b1c61c8318245d"
   },
   "/liquid-cooling-fluids": {
    "status": 200,
@@ -321,8 +321,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "76ede2013943d04d811207765e9cb18c",
-   "textHash": "6486d33ad40242d1b3212159f392071c"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "ab782c7ef8cd6beab5ce9fde9d7a0f52"
   },
   "/liquid-cooling-hot-climates": {
    "status": 200,
@@ -338,8 +338,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "14789713cb8f30a1c941338327545694",
-   "textHash": "70b3300e63ee4eb837201965c8966601"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "7bbb228504da8a69fed2ef9c1ab49074"
   },
   "/liquid-cooling-leaks": {
    "status": 200,
@@ -355,8 +355,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "74c4c237987ed2085892a62088bc58ca",
-   "textHash": "471f60c7f6c494034ad8b7f496f81b5b"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "6fba264d1756530ff6f25ebd696b35b6"
   },
   "/liquid-cooling-standards": {
    "status": 200,
@@ -372,8 +372,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "57589208fcbf04de3540eebe658e1145",
-   "textHash": "0d58d0690cefe56617ff7db44a554f6e"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "eb56869076dd56d584b9f1c30400cc52"
   },
   "/liquid-cooling-vs-air": {
    "status": 200,
@@ -389,8 +389,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "1c5b76c4c6d87f867c37036f871ee2a6",
-   "textHash": "9ae669efe53e6c8c40f74f811ec346c5"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "1eab84c2d5da7de348ddb81108514556"
   },
   "/liquid-ready-servers": {
    "status": 200,
@@ -406,8 +406,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "5f9415093f9b748281bff29fc11d70fe",
-   "textHash": "8bda0e6ebf121b68a737bc2191042f16"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "f08c3ed855ab2766827019e9d186205d"
   },
   "/maintenance-schedule": {
    "status": 200,
@@ -423,8 +423,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "4d487734786c1ae22b9bec715478cf7f",
-   "textHash": "0384a86381e88f8eae36006e5a0d2940"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "68ed7de4d118c51110be7d7331b4d8ce"
   },
   "/news": {
    "status": 200,
@@ -440,8 +440,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "8452f9f9b4a2e85b6d720a301aefc004",
-   "textHash": "c914a67588658f7fb06bed9847c2984a"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "2617f628b7848bbca802489735b6b879"
   },
   "/playground": {
    "status": 200,
@@ -455,8 +455,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "9bb40f958b1706e3003d274e412888e6"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "e302f069b44835b3255b4b9f2b9466c0"
   },
   "/playground/derating": {
    "status": 200,
@@ -470,8 +470,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "ad7575266b0c39057ead6c27246aaa75"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "27f3ffcb45b283ab5ed4ad87f1ec5322"
   },
   "/playground/rack-builder": {
    "status": 200,
@@ -485,8 +485,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "1423503444de9cf1f149f3e0235b1d9c"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "103337a5e37290006da587544f85d295"
   },
   "/playground/room-load": {
    "status": 200,
@@ -500,8 +500,8 @@
    "jsonLdTypes": [
     "WebSite"
    ],
-   "schemaHash": "06d793130feaef91de7a916c16db0858",
-   "textHash": "b29fce21e9e78839a6272cc5add4391a"
+   "schemaHash": "a21cafb4c405e6997671a02e578b9b1e",
+   "textHash": "eddd4c4cea8c3c583430fa5a5b64510d"
   },
   "/pressure-drop": {
    "status": 200,
@@ -517,8 +517,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "57885038752687737636e404e0d2a52f",
-   "textHash": "8396a229b56b1ff9c553456f39b549aa"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "fdd16e0d7a966bfcbd4e74377540bf64"
   },
   "/pue-math": {
    "status": 200,
@@ -534,8 +534,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "caef14eadde8a59a0641d2772d23ca53",
-   "textHash": "425e6a4b6f2f4599a3c0d548292e1562"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "f898774a012347c9499be930de42a468"
   },
   "/rfq-scope-checklist": {
    "status": 200,
@@ -551,8 +551,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "eab0e795810677e0372b7db74be28713",
-   "textHash": "81b3cea68ec4a879c1c058a84d89aebf"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "490b7610a862dd72a0def8d5a7f82507"
   },
   "/room-ac-load": {
    "status": 200,
@@ -568,8 +568,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "02580539762721c5e9cb8d451901aad6",
-   "textHash": "baca4455266d906d5eb434daff526a43"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "dbae0398775ef2f156dc722c2e53c80d"
   },
   "/room-load-calculation": {
    "status": 200,
@@ -585,8 +585,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "8bc3bc6bfc9c3e49a4095ecc20a0fead",
-   "textHash": "79292beed66c36b3d9b684c31007e668"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "d69f153ed1891acfec9bb3365d70b451"
   },
   "/site-survey": {
    "status": 200,
@@ -602,16 +602,16 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "bc6d094a4cad421f00e2182ff3fcd9d0",
-   "textHash": "e202a911b4f43db3ee806bd1d3d67d97"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "54a83ee9b906d6b141d79eebcd95f13c"
   },
   "/ss726-liquid-cooling-standard": {
    "status": 200,
    "title": "SS 726:2026 explained — Singapore’s tropical liquid cooling standard · Liquid Cooling Guide",
-   "description": "SS 726:2026 &quot;Liquid Cooling in Tropical Data Centres&quot;, explained from the official preview and launch release: verbatim scope (direct-to-chip; rear-door and two-phase excluded), clause structure (facilities/equipment/commissioning/O&M/risk/sustainability), OCP+ASHRAE references, working group (STT GDC, AirTrunk, Meta, OCP) — and what it means for buyers outside Singapore.",
+   "description": "SS 726:2026 &quot;Liquid Cooling in Tropical Data Centres&quot;, explained from the official preview and launch release: verbatim scope (direct-to-chip; rear-door and two-phase excluded), clause structure (facilities/equipment/commissioning/O&amp;M/risk/sustainability), OCP+ASHRAE references, working group (STT GDC, AirTrunk, Meta, OCP) — and what it means for buyers outside Singapore.",
    "canonical": "https://liquidcoolingguide.com/ss726-liquid-cooling-standard",
    "ogTitle": "SS 726:2026 explained — Singapore’s tropical liquid cooling standard · Liquid Cooling Guide",
-   "ogDescription": "SS 726:2026 &quot;Liquid Cooling in Tropical Data Centres&quot;, explained from the official preview and launch release: verbatim scope (direct-to-chip; rear-door and two-phase excluded), clause structure (facilities/equipment/commissioning/O&M/risk/sustainability), OCP+ASHRAE references, working group (STT GDC, AirTrunk, Meta, OCP) — and what it means for buyers outside Singapore.",
+   "ogDescription": "SS 726:2026 &quot;Liquid Cooling in Tropical Data Centres&quot;, explained from the official preview and launch release: verbatim scope (direct-to-chip; rear-door and two-phase excluded), clause structure (facilities/equipment/commissioning/O&amp;M/risk/sustainability), OCP+ASHRAE references, working group (STT GDC, AirTrunk, Meta, OCP) — and what it means for buyers outside Singapore.",
    "ogImage": "https://liquidcoolingguide.com/og-image.png",
    "hreflang": [],
    "jsonLdTypes": [
@@ -619,8 +619,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "9da5590cba3d70a4ca3d160dab89d3fa",
-   "textHash": "0a9e5bad068a06c3f767ebb3ba44c6da"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "8b2c57b1bd2b069a70f32c0166a091f9"
   },
   "/state-of-liquid-cooling-2026": {
    "status": 200,
@@ -636,15 +636,15 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "c363a1732d4074953048d85b1369874c",
-   "textHash": "f285fc0575a8c367b5cd8b2b9b355905"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "d7b3d330c3940f610c76789b17cf2d65"
   },
   "/supply-chain": {
    "status": 200,
-   "title": "Liquid cooling supply chain — 97 companies across the full chain · Liquid Cooling Guide",
+   "title": "Liquid cooling supply chain — 98 companies across the full chain · Liquid Cooling Guide",
    "description": "Who makes what in data center liquid cooling: 16 segments from chips (NVIDIA, AMD, Intel) through cold plates and CDUs (CoolIT, Asetek, Vertiv, Motivair, Boyd), interconnects (Stäubli, CPC, nVent), fluids, heat rejection (BAC, EVAPCO, Alfa Laval) to turnkey micro DCs — every entry linked to its official source.",
    "canonical": "https://liquidcoolingguide.com/supply-chain",
-   "ogTitle": "Liquid cooling supply chain — 97 companies across the full chain · Liquid Cooling Guide",
+   "ogTitle": "Liquid cooling supply chain — 98 companies across the full chain · Liquid Cooling Guide",
    "ogDescription": "Who makes what in data center liquid cooling: 16 segments from chips (NVIDIA, AMD, Intel) through cold plates and CDUs (CoolIT, Asetek, Vertiv, Motivair, Boyd), interconnects (Stäubli, CPC, nVent), fluids, heat rejection (BAC, EVAPCO, Alfa Laval) to turnkey micro DCs — every entry linked to its official source.",
    "ogImage": "https://liquidcoolingguide.com/og-image.png",
    "hreflang": [],
@@ -653,8 +653,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "3e47c8f731c673b1ada6920c38f89d6d",
-   "textHash": "f0182b7e566b2a8b6174d1e3b173fc78"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "7a8a45ec5dba96fdde12a9559dc84a20"
   },
   "/tdp-to-rack-kw": {
    "status": 200,
@@ -670,8 +670,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "bd86b3cf6d2f0609479baf735c37c77d",
-   "textHash": "22a93a6b610e2d96c8d40d0e32d9401d"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "a5e26e839a48dd1a4b2efa4907008863"
   },
   "/uqd-quick-disconnects": {
    "status": 200,
@@ -687,8 +687,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "7e81474c5f651458ba145e365bcc8dce",
-   "textHash": "7349e9f6e392c4017e86d4292b7d8b11"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "c049b74e711274a3f59398d093be45ad"
   },
   "/wet-bulb-free-cooling": {
    "status": 200,
@@ -704,8 +704,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "7d6c87edcf5ab1a0cd9299f091057d89",
-   "textHash": "6f99d7e9c7dd9a0fd28d423c36ca2954"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "a30c126c17798c2b3d779492721eb52f"
   },
   "/what-is-a-cdu": {
    "status": 200,
@@ -721,8 +721,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "c47a624df563ac20230eb372367b5bc7",
-   "textHash": "42566ba1ac1fd03a5ef3abf8a20543e8"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "5919b8660e6bb3f5e1f42d0cb023cd17"
   },
   "/what-is-liquid-cooling": {
    "status": 200,
@@ -738,8 +738,8 @@
     "TechArticle",
     "WebSite"
    ],
-   "schemaHash": "d5c8c8b177b113a3a6b0048f52d9d617",
-   "textHash": "a6270137cc524406c52fcfbbe6ad73b0"
+   "schemaHash": "ed416bd0a972651795bfdf0e1e55d210",
+   "textHash": "6bffae2577cbfa5f000c4cb4448b9081"
   }
  }
 }

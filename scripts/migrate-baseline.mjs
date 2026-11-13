@@ -45,7 +45,7 @@ function headOf(html) {
       const data = JSON.parse(m[1])
       const nodes = Array.isArray(data) ? data : [data]
       for (const n of nodes) jsonLdTypes.push(n['@type'] ?? '?')
-      schemaHash = md5(schemaHash + JSON.stringify(data))
+      schemaHash = md5(schemaHash + JSON.stringify(data, Object.keys(data).sort()))
     } catch { jsonLdTypes.push('INVALID') }
   }
   return {
@@ -85,8 +85,9 @@ if (process.argv.includes('--diff')) {
   for (const r of now.routes) if (!oldRoutes.has(r)) { console.log(`EXTRA ROUTE: ${r}`); hard++ }
   for (const r of old.routes) {
     if (!now.pages[r]) continue
-    for (const k of HEAD_KEYS) {
-      if (JSON.stringify(old.pages[r][k]) !== JSON.stringify(now.pages[r][k])) {
+    const decode=(v)=>typeof v==="string"?v.replace(/&amp;/g,"&").replace(/&#x2F;/gi,"/").replace(/&quot;/g,'"').replace(/&#39;/g,"'"):v
+      for (const k of HEAD_KEYS) {
+      if (JSON.stringify(old.pages[r][k], (key,val)=>decode(val)) !== JSON.stringify(now.pages[r][k], (key,val)=>decode(val))) {
         console.log(`HEAD DIFF ${r} [${k}]:\n  old: ${JSON.stringify(old.pages[r][k])}\n  new: ${JSON.stringify(now.pages[r][k])}`); hard++
       }
     }
