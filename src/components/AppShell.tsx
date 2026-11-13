@@ -178,11 +178,14 @@ function LangMenu() {
       {open && (
         <div className="langpop">
           {locales.map(l => (
-            <a key={l.code} href={l.code === 'en' ? '/' : `/${l.code}`} className={`langopt${l.code === code ? ' cur' : ''}`}>
+            // onMouseDown preventDefault keeps focus on the button so the wrap's
+            // blur-timer can't unmount the menu mid-click (same pattern as pop-item);
+            // without it any click slower than the 150ms blur delay lands on removed DOM.
+            <a key={l.code} href={l.code === 'en' ? '/' : `/${l.code}`} onMouseDown={e => e.preventDefault()} className={`langopt${l.code === code ? ' cur' : ''}`}>
               {l.native}
             </a>
           ))}
-          <a className="langopt help" href="mailto:vendors@liquidcoolingguide.com">Help us translate!</a>
+          <a className="langopt help" href="mailto:vendors@liquidcoolingguide.com" onMouseDown={e => e.preventDefault()}>Help us translate!</a>
         </div>
       )}
     </div>
