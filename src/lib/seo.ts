@@ -60,10 +60,11 @@ export function faqJsonLd(faqs: { q: string; a: string }[]) {
   }
 }
 
-/** head() fragment carrying JSON-LD nodes (arrays are wrapped, same as the Vue useJsonLd). */
+/** head() fragment carrying JSON-LD nodes — one <script> per node, each wrapping the
+ * node in an array, byte-compatible with the Vue useJsonLd calls it replaces. */
 export function jsonLdHead(...nodes: Record<string, unknown>[]) {
   return {
-    scripts: [{ type: 'application/ld+json', children: JSON.stringify(nodes) }],
+    scripts: nodes.map(n => ({ type: 'application/ld+json', children: JSON.stringify([n]) })),
   }
 }
 

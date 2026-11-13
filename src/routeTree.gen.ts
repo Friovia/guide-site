@@ -10,11 +10,33 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CabinetComparisonRouteImport } from './routes/cabinet-comparison'
 import { Route as ChangelogRouteImport } from './routes/changelog'
+import { Route as ColdPlateVsImmersionRouteImport } from './routes/cold-plate-vs-immersion'
+import { Route as CommissioningRouteImport } from './routes/commissioning'
+import { Route as EngineeringRouteImport } from './routes/engineering'
+import { Route as GlossaryRouteImport } from './routes/glossary'
+import { Route as LiquidCoolingCostRouteImport } from './routes/liquid-cooling-cost'
+import { Route as LiquidCoolingFluidsRouteImport } from './routes/liquid-cooling-fluids'
+import { Route as LiquidCoolingLeaksRouteImport } from './routes/liquid-cooling-leaks'
+import { Route as LiquidCoolingStandardsRouteImport } from './routes/liquid-cooling-standards'
+import { Route as LiquidCoolingVsAirRouteImport } from './routes/liquid-cooling-vs-air'
+import { Route as LiquidReadyServersRouteImport } from './routes/liquid-ready-servers'
+import { Route as MaintenanceScheduleRouteImport } from './routes/maintenance-schedule'
+import { Route as RfqScopeChecklistRouteImport } from './routes/rfq-scope-checklist'
+import { Route as RoomLoadCalculationRouteImport } from './routes/room-load-calculation'
+import { Route as SiteSurveyRouteImport } from './routes/site-survey'
+import { Route as UqdQuickDisconnectsRouteImport } from './routes/uqd-quick-disconnects'
+import { Route as WhatIsACduRouteImport } from './routes/what-is-a-cdu'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CabinetComparisonRoute = CabinetComparisonRouteImport.update({
+  id: '/cabinet-comparison',
+  path: '/cabinet-comparison',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ChangelogRoute = ChangelogRouteImport.update({
@@ -22,31 +44,237 @@ const ChangelogRoute = ChangelogRouteImport.update({
   path: '/changelog',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ColdPlateVsImmersionRoute = ColdPlateVsImmersionRouteImport.update({
+  id: '/cold-plate-vs-immersion',
+  path: '/cold-plate-vs-immersion',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CommissioningRoute = CommissioningRouteImport.update({
+  id: '/commissioning',
+  path: '/commissioning',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EngineeringRoute = EngineeringRouteImport.update({
+  id: '/engineering',
+  path: '/engineering',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GlossaryRoute = GlossaryRouteImport.update({
+  id: '/glossary',
+  path: '/glossary',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiquidCoolingCostRoute = LiquidCoolingCostRouteImport.update({
+  id: '/liquid-cooling-cost',
+  path: '/liquid-cooling-cost',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiquidCoolingFluidsRoute = LiquidCoolingFluidsRouteImport.update({
+  id: '/liquid-cooling-fluids',
+  path: '/liquid-cooling-fluids',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiquidCoolingLeaksRoute = LiquidCoolingLeaksRouteImport.update({
+  id: '/liquid-cooling-leaks',
+  path: '/liquid-cooling-leaks',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiquidCoolingStandardsRoute = LiquidCoolingStandardsRouteImport.update({
+  id: '/liquid-cooling-standards',
+  path: '/liquid-cooling-standards',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiquidCoolingVsAirRoute = LiquidCoolingVsAirRouteImport.update({
+  id: '/liquid-cooling-vs-air',
+  path: '/liquid-cooling-vs-air',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LiquidReadyServersRoute = LiquidReadyServersRouteImport.update({
+  id: '/liquid-ready-servers',
+  path: '/liquid-ready-servers',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MaintenanceScheduleRoute = MaintenanceScheduleRouteImport.update({
+  id: '/maintenance-schedule',
+  path: '/maintenance-schedule',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RfqScopeChecklistRoute = RfqScopeChecklistRouteImport.update({
+  id: '/rfq-scope-checklist',
+  path: '/rfq-scope-checklist',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RoomLoadCalculationRoute = RoomLoadCalculationRouteImport.update({
+  id: '/room-load-calculation',
+  path: '/room-load-calculation',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SiteSurveyRoute = SiteSurveyRouteImport.update({
+  id: '/site-survey',
+  path: '/site-survey',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const UqdQuickDisconnectsRoute = UqdQuickDisconnectsRouteImport.update({
+  id: '/uqd-quick-disconnects',
+  path: '/uqd-quick-disconnects',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WhatIsACduRoute = WhatIsACduRouteImport.update({
+  id: '/what-is-a-cdu',
+  path: '/what-is-a-cdu',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/cabinet-comparison': typeof CabinetComparisonRoute
   '/changelog': typeof ChangelogRoute
+  '/cold-plate-vs-immersion': typeof ColdPlateVsImmersionRoute
+  '/commissioning': typeof CommissioningRoute
+  '/engineering': typeof EngineeringRoute
+  '/glossary': typeof GlossaryRoute
+  '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
+  '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
+  '/liquid-cooling-leaks': typeof LiquidCoolingLeaksRoute
+  '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
+  '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
+  '/liquid-ready-servers': typeof LiquidReadyServersRoute
+  '/maintenance-schedule': typeof MaintenanceScheduleRoute
+  '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
+  '/room-load-calculation': typeof RoomLoadCalculationRoute
+  '/site-survey': typeof SiteSurveyRoute
+  '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
+  '/what-is-a-cdu': typeof WhatIsACduRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/cabinet-comparison': typeof CabinetComparisonRoute
   '/changelog': typeof ChangelogRoute
+  '/cold-plate-vs-immersion': typeof ColdPlateVsImmersionRoute
+  '/commissioning': typeof CommissioningRoute
+  '/engineering': typeof EngineeringRoute
+  '/glossary': typeof GlossaryRoute
+  '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
+  '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
+  '/liquid-cooling-leaks': typeof LiquidCoolingLeaksRoute
+  '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
+  '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
+  '/liquid-ready-servers': typeof LiquidReadyServersRoute
+  '/maintenance-schedule': typeof MaintenanceScheduleRoute
+  '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
+  '/room-load-calculation': typeof RoomLoadCalculationRoute
+  '/site-survey': typeof SiteSurveyRoute
+  '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
+  '/what-is-a-cdu': typeof WhatIsACduRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/cabinet-comparison': typeof CabinetComparisonRoute
   '/changelog': typeof ChangelogRoute
+  '/cold-plate-vs-immersion': typeof ColdPlateVsImmersionRoute
+  '/commissioning': typeof CommissioningRoute
+  '/engineering': typeof EngineeringRoute
+  '/glossary': typeof GlossaryRoute
+  '/liquid-cooling-cost': typeof LiquidCoolingCostRoute
+  '/liquid-cooling-fluids': typeof LiquidCoolingFluidsRoute
+  '/liquid-cooling-leaks': typeof LiquidCoolingLeaksRoute
+  '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
+  '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
+  '/liquid-ready-servers': typeof LiquidReadyServersRoute
+  '/maintenance-schedule': typeof MaintenanceScheduleRoute
+  '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
+  '/room-load-calculation': typeof RoomLoadCalculationRoute
+  '/site-survey': typeof SiteSurveyRoute
+  '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
+  '/what-is-a-cdu': typeof WhatIsACduRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/changelog'
+  fullPaths:
+    | '/'
+    | '/cabinet-comparison'
+    | '/changelog'
+    | '/cold-plate-vs-immersion'
+    | '/commissioning'
+    | '/engineering'
+    | '/glossary'
+    | '/liquid-cooling-cost'
+    | '/liquid-cooling-fluids'
+    | '/liquid-cooling-leaks'
+    | '/liquid-cooling-standards'
+    | '/liquid-cooling-vs-air'
+    | '/liquid-ready-servers'
+    | '/maintenance-schedule'
+    | '/rfq-scope-checklist'
+    | '/room-load-calculation'
+    | '/site-survey'
+    | '/uqd-quick-disconnects'
+    | '/what-is-a-cdu'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/changelog'
-  id: '__root__' | '/' | '/changelog'
+  to:
+    | '/'
+    | '/cabinet-comparison'
+    | '/changelog'
+    | '/cold-plate-vs-immersion'
+    | '/commissioning'
+    | '/engineering'
+    | '/glossary'
+    | '/liquid-cooling-cost'
+    | '/liquid-cooling-fluids'
+    | '/liquid-cooling-leaks'
+    | '/liquid-cooling-standards'
+    | '/liquid-cooling-vs-air'
+    | '/liquid-ready-servers'
+    | '/maintenance-schedule'
+    | '/rfq-scope-checklist'
+    | '/room-load-calculation'
+    | '/site-survey'
+    | '/uqd-quick-disconnects'
+    | '/what-is-a-cdu'
+  id:
+    | '__root__'
+    | '/'
+    | '/cabinet-comparison'
+    | '/changelog'
+    | '/cold-plate-vs-immersion'
+    | '/commissioning'
+    | '/engineering'
+    | '/glossary'
+    | '/liquid-cooling-cost'
+    | '/liquid-cooling-fluids'
+    | '/liquid-cooling-leaks'
+    | '/liquid-cooling-standards'
+    | '/liquid-cooling-vs-air'
+    | '/liquid-ready-servers'
+    | '/maintenance-schedule'
+    | '/rfq-scope-checklist'
+    | '/room-load-calculation'
+    | '/site-survey'
+    | '/uqd-quick-disconnects'
+    | '/what-is-a-cdu'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CabinetComparisonRoute: typeof CabinetComparisonRoute
   ChangelogRoute: typeof ChangelogRoute
+  ColdPlateVsImmersionRoute: typeof ColdPlateVsImmersionRoute
+  CommissioningRoute: typeof CommissioningRoute
+  EngineeringRoute: typeof EngineeringRoute
+  GlossaryRoute: typeof GlossaryRoute
+  LiquidCoolingCostRoute: typeof LiquidCoolingCostRoute
+  LiquidCoolingFluidsRoute: typeof LiquidCoolingFluidsRoute
+  LiquidCoolingLeaksRoute: typeof LiquidCoolingLeaksRoute
+  LiquidCoolingStandardsRoute: typeof LiquidCoolingStandardsRoute
+  LiquidCoolingVsAirRoute: typeof LiquidCoolingVsAirRoute
+  LiquidReadyServersRoute: typeof LiquidReadyServersRoute
+  MaintenanceScheduleRoute: typeof MaintenanceScheduleRoute
+  RfqScopeChecklistRoute: typeof RfqScopeChecklistRoute
+  RoomLoadCalculationRoute: typeof RoomLoadCalculationRoute
+  SiteSurveyRoute: typeof SiteSurveyRoute
+  UqdQuickDisconnectsRoute: typeof UqdQuickDisconnectsRoute
+  WhatIsACduRoute: typeof WhatIsACduRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -58,6 +286,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cabinet-comparison': {
+      id: '/cabinet-comparison'
+      path: '/cabinet-comparison'
+      fullPath: '/cabinet-comparison'
+      preLoaderRoute: typeof CabinetComparisonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/changelog': {
       id: '/changelog'
       path: '/changelog'
@@ -65,12 +300,141 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ChangelogRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cold-plate-vs-immersion': {
+      id: '/cold-plate-vs-immersion'
+      path: '/cold-plate-vs-immersion'
+      fullPath: '/cold-plate-vs-immersion'
+      preLoaderRoute: typeof ColdPlateVsImmersionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/commissioning': {
+      id: '/commissioning'
+      path: '/commissioning'
+      fullPath: '/commissioning'
+      preLoaderRoute: typeof CommissioningRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/engineering': {
+      id: '/engineering'
+      path: '/engineering'
+      fullPath: '/engineering'
+      preLoaderRoute: typeof EngineeringRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/glossary': {
+      id: '/glossary'
+      path: '/glossary'
+      fullPath: '/glossary'
+      preLoaderRoute: typeof GlossaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/liquid-cooling-cost': {
+      id: '/liquid-cooling-cost'
+      path: '/liquid-cooling-cost'
+      fullPath: '/liquid-cooling-cost'
+      preLoaderRoute: typeof LiquidCoolingCostRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/liquid-cooling-fluids': {
+      id: '/liquid-cooling-fluids'
+      path: '/liquid-cooling-fluids'
+      fullPath: '/liquid-cooling-fluids'
+      preLoaderRoute: typeof LiquidCoolingFluidsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/liquid-cooling-leaks': {
+      id: '/liquid-cooling-leaks'
+      path: '/liquid-cooling-leaks'
+      fullPath: '/liquid-cooling-leaks'
+      preLoaderRoute: typeof LiquidCoolingLeaksRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/liquid-cooling-standards': {
+      id: '/liquid-cooling-standards'
+      path: '/liquid-cooling-standards'
+      fullPath: '/liquid-cooling-standards'
+      preLoaderRoute: typeof LiquidCoolingStandardsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/liquid-cooling-vs-air': {
+      id: '/liquid-cooling-vs-air'
+      path: '/liquid-cooling-vs-air'
+      fullPath: '/liquid-cooling-vs-air'
+      preLoaderRoute: typeof LiquidCoolingVsAirRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/liquid-ready-servers': {
+      id: '/liquid-ready-servers'
+      path: '/liquid-ready-servers'
+      fullPath: '/liquid-ready-servers'
+      preLoaderRoute: typeof LiquidReadyServersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/maintenance-schedule': {
+      id: '/maintenance-schedule'
+      path: '/maintenance-schedule'
+      fullPath: '/maintenance-schedule'
+      preLoaderRoute: typeof MaintenanceScheduleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rfq-scope-checklist': {
+      id: '/rfq-scope-checklist'
+      path: '/rfq-scope-checklist'
+      fullPath: '/rfq-scope-checklist'
+      preLoaderRoute: typeof RfqScopeChecklistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/room-load-calculation': {
+      id: '/room-load-calculation'
+      path: '/room-load-calculation'
+      fullPath: '/room-load-calculation'
+      preLoaderRoute: typeof RoomLoadCalculationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/site-survey': {
+      id: '/site-survey'
+      path: '/site-survey'
+      fullPath: '/site-survey'
+      preLoaderRoute: typeof SiteSurveyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/uqd-quick-disconnects': {
+      id: '/uqd-quick-disconnects'
+      path: '/uqd-quick-disconnects'
+      fullPath: '/uqd-quick-disconnects'
+      preLoaderRoute: typeof UqdQuickDisconnectsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/what-is-a-cdu': {
+      id: '/what-is-a-cdu'
+      path: '/what-is-a-cdu'
+      fullPath: '/what-is-a-cdu'
+      preLoaderRoute: typeof WhatIsACduRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CabinetComparisonRoute: CabinetComparisonRoute,
   ChangelogRoute: ChangelogRoute,
+  ColdPlateVsImmersionRoute: ColdPlateVsImmersionRoute,
+  CommissioningRoute: CommissioningRoute,
+  EngineeringRoute: EngineeringRoute,
+  GlossaryRoute: GlossaryRoute,
+  LiquidCoolingCostRoute: LiquidCoolingCostRoute,
+  LiquidCoolingFluidsRoute: LiquidCoolingFluidsRoute,
+  LiquidCoolingLeaksRoute: LiquidCoolingLeaksRoute,
+  LiquidCoolingStandardsRoute: LiquidCoolingStandardsRoute,
+  LiquidCoolingVsAirRoute: LiquidCoolingVsAirRoute,
+  LiquidReadyServersRoute: LiquidReadyServersRoute,
+  MaintenanceScheduleRoute: MaintenanceScheduleRoute,
+  RfqScopeChecklistRoute: RfqScopeChecklistRoute,
+  RoomLoadCalculationRoute: RoomLoadCalculationRoute,
+  SiteSurveyRoute: SiteSurveyRoute,
+  UqdQuickDisconnectsRoute: UqdQuickDisconnectsRoute,
+  WhatIsACduRoute: WhatIsACduRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
