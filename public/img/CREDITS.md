@@ -9,7 +9,7 @@ All files under `img/ai/` are **AI-generated illustrations** (Z-Image Turbo, via
 | ai/coldplate-macro.png | Copper cold plate microchannels (macro) |
 | ai/rack-cabinet.png | Liquid-cooled rack, open service door |
 | ai/cdu-inrow.png | In-row CDU in a data center aisle |
-| ai/immersion-tank.png | Single-phase immersion tank |
+| ai/immersion-tank.webp | Single-phase immersion tank |
 | ai/dc-hall.png | Data center hall, rack rows |
 | ai/uqd-coupling.png | Dripless quick-disconnect couplings (macro) |
 | ai/manifold-vert.png | Vertical rack manifold, blind-mate ports |

@@ -106,7 +106,7 @@ function HomePage() {
         </div>
 
         <figure className="fig" style={{ margin:"56px 0 6px" }}>
-          <img src="/img/ai/immersion-tank.png" alt="Immersion cooling tank with server blades in dielectric fluid — AI illustration" loading="lazy" style={{ width:"100%", display:"block" }} />
+          <img src="/img/ai/immersion-tank.webp" alt="Immersion cooling tank with server blades in dielectric fluid — AI illustration" loading="lazy" style={{ width:"100%", display:"block" }} />
           <figcaption><b>PLATE 2</b> — The other architecture: single-phase immersion, blades bathed in dielectric fluid. AI-generated illustration (Z-Image Turbo) — representative, not a specific product. Compared honestly in <a href="/cold-plate-vs-immersion">cold plate vs immersion</a>.</figcaption>
         </figure>
 

@@ -50,7 +50,7 @@ function ColdPlateVsImmersionPage() {
       </div>
 
       <figure className="fig" style={{ marginInline:"0" }}>
-        <img src="/img/ai/immersion-tank.png" alt="Immersion cooling tank with server blades submerged in clear dielectric fluid" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
+        <img src="/img/ai/immersion-tank.webp" alt="Immersion cooling tank with server blades submerged in clear dielectric fluid" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Single-phase immersion: blades bathed in dielectric fluid. AI-generated illustration (Z-Image Turbo) — representative, not a specific product; real systems photographed below.</figcaption>
       </figure>
 
