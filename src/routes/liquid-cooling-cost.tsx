@@ -14,7 +14,13 @@ const faqs = [
   {
     q: 'How do I compare liquid cooling quotes from different vendors?',
     a: 'Fix the scope first: identical room temperature, kW, redundancy and included services. Require capacity quoted at your actual ambient conditions, split hardware/services/consumables into line items, include multi-year service, and add the room-side costs (AC spare capacity, electrical work) that each option implies. Quotes that don\u2019t state ambient assumptions are not comparable.',
+  
+
+}, {
+    q: 'What are the main cost drivers of a liquid cooling deployment?',
+    a: 'Four, in order of pain: the heat rejection path (facility water loops and dry coolers cost far more than the room AC an L2A loop reuses), density (CDUs and manifolds price by kW class), telemetry and leak intervention (rope sensing, pump differential pressure, shutoff valves — cheap and non-optional), and the service model (who flushes, tops up and warrants the coolant). Server cold plates ride inside the server price. Acquisition is roughly half of lifetime cost; energy and staff own the tail.',
   },
+
 ]
 
 export const Route = createFileRoute('/liquid-cooling-cost')({

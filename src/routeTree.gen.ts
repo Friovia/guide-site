@@ -29,6 +29,7 @@ import { Route as LiquidCoolingLeaksRouteImport } from './routes/liquid-cooling-
 import { Route as LiquidCoolingStandardsRouteImport } from './routes/liquid-cooling-standards'
 import { Route as LiquidCoolingVsAirRouteImport } from './routes/liquid-cooling-vs-air'
 import { Route as LiquidReadyServersRouteImport } from './routes/liquid-ready-servers'
+import { Route as LiquidToAirVsLiquidToLiquidRouteImport } from './routes/liquid-to-air-vs-liquid-to-liquid'
 import { Route as MaintenanceScheduleRouteImport } from './routes/maintenance-schedule'
 import { Route as NewsRouteImport } from './routes/news'
 import { Route as PressureDropRouteImport } from './routes/pressure-drop'
@@ -44,6 +45,7 @@ import { Route as TdpToRackKwRouteImport } from './routes/tdp-to-rack-kw'
 import { Route as UqdQuickDisconnectsRouteImport } from './routes/uqd-quick-disconnects'
 import { Route as WetBulbFreeCoolingRouteImport } from './routes/wet-bulb-free-cooling'
 import { Route as WhatIsACduRouteImport } from './routes/what-is-a-cdu'
+import { Route as WhatIsAMicroDataCenterRouteImport } from './routes/what-is-a-micro-data-center'
 import { Route as WhatIsLiquidCoolingRouteImport } from './routes/what-is-liquid-cooling'
 import { Route as ArIndexRouteImport } from './routes/ar/index'
 import { Route as EsIndexRouteImport } from './routes/es/index'
@@ -153,6 +155,12 @@ const LiquidReadyServersRoute = LiquidReadyServersRouteImport.update({
   path: '/liquid-ready-servers',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LiquidToAirVsLiquidToLiquidRoute =
+  LiquidToAirVsLiquidToLiquidRouteImport.update({
+    id: '/liquid-to-air-vs-liquid-to-liquid',
+    path: '/liquid-to-air-vs-liquid-to-liquid',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const MaintenanceScheduleRoute = MaintenanceScheduleRouteImport.update({
   id: '/maintenance-schedule',
   path: '/maintenance-schedule',
@@ -230,6 +238,11 @@ const WhatIsACduRoute = WhatIsACduRouteImport.update({
   path: '/what-is-a-cdu',
   getParentRoute: () => rootRouteImport,
 } as any)
+const WhatIsAMicroDataCenterRoute = WhatIsAMicroDataCenterRouteImport.update({
+  id: '/what-is-a-micro-data-center',
+  path: '/what-is-a-micro-data-center',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WhatIsLiquidCoolingRoute = WhatIsLiquidCoolingRouteImport.update({
   id: '/what-is-liquid-cooling',
   path: '/what-is-liquid-cooling',
@@ -287,6 +300,7 @@ export interface FileRoutesByFullPath {
   '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
   '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
+  '/liquid-to-air-vs-liquid-to-liquid': typeof LiquidToAirVsLiquidToLiquidRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
   '/pressure-drop': typeof PressureDropRoute
@@ -302,6 +316,7 @@ export interface FileRoutesByFullPath {
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
+  '/what-is-a-micro-data-center': typeof WhatIsAMicroDataCenterRoute
   '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
@@ -331,6 +346,7 @@ export interface FileRoutesByTo {
   '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
   '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
+  '/liquid-to-air-vs-liquid-to-liquid': typeof LiquidToAirVsLiquidToLiquidRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
   '/pressure-drop': typeof PressureDropRoute
@@ -346,6 +362,7 @@ export interface FileRoutesByTo {
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
+  '/what-is-a-micro-data-center': typeof WhatIsAMicroDataCenterRoute
   '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
@@ -376,6 +393,7 @@ export interface FileRoutesById {
   '/liquid-cooling-standards': typeof LiquidCoolingStandardsRoute
   '/liquid-cooling-vs-air': typeof LiquidCoolingVsAirRoute
   '/liquid-ready-servers': typeof LiquidReadyServersRoute
+  '/liquid-to-air-vs-liquid-to-liquid': typeof LiquidToAirVsLiquidToLiquidRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
   '/pressure-drop': typeof PressureDropRoute
@@ -391,6 +409,7 @@ export interface FileRoutesById {
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
   '/what-is-a-cdu': typeof WhatIsACduRoute
+  '/what-is-a-micro-data-center': typeof WhatIsAMicroDataCenterRoute
   '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
@@ -422,6 +441,7 @@ export interface FileRouteTypes {
     | '/liquid-cooling-standards'
     | '/liquid-cooling-vs-air'
     | '/liquid-ready-servers'
+    | '/liquid-to-air-vs-liquid-to-liquid'
     | '/maintenance-schedule'
     | '/news'
     | '/pressure-drop'
@@ -437,6 +457,7 @@ export interface FileRouteTypes {
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
+    | '/what-is-a-micro-data-center'
     | '/what-is-liquid-cooling'
     | '/playground/derating'
     | '/playground/rack-builder'
@@ -466,6 +487,7 @@ export interface FileRouteTypes {
     | '/liquid-cooling-standards'
     | '/liquid-cooling-vs-air'
     | '/liquid-ready-servers'
+    | '/liquid-to-air-vs-liquid-to-liquid'
     | '/maintenance-schedule'
     | '/news'
     | '/pressure-drop'
@@ -481,6 +503,7 @@ export interface FileRouteTypes {
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
+    | '/what-is-a-micro-data-center'
     | '/what-is-liquid-cooling'
     | '/playground/derating'
     | '/playground/rack-builder'
@@ -510,6 +533,7 @@ export interface FileRouteTypes {
     | '/liquid-cooling-standards'
     | '/liquid-cooling-vs-air'
     | '/liquid-ready-servers'
+    | '/liquid-to-air-vs-liquid-to-liquid'
     | '/maintenance-schedule'
     | '/news'
     | '/pressure-drop'
@@ -525,6 +549,7 @@ export interface FileRouteTypes {
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
     | '/what-is-a-cdu'
+    | '/what-is-a-micro-data-center'
     | '/what-is-liquid-cooling'
     | '/playground/derating'
     | '/playground/rack-builder'
@@ -555,6 +580,7 @@ export interface RootRouteChildren {
   LiquidCoolingStandardsRoute: typeof LiquidCoolingStandardsRoute
   LiquidCoolingVsAirRoute: typeof LiquidCoolingVsAirRoute
   LiquidReadyServersRoute: typeof LiquidReadyServersRoute
+  LiquidToAirVsLiquidToLiquidRoute: typeof LiquidToAirVsLiquidToLiquidRoute
   MaintenanceScheduleRoute: typeof MaintenanceScheduleRoute
   NewsRoute: typeof NewsRoute
   PressureDropRoute: typeof PressureDropRoute
@@ -570,6 +596,7 @@ export interface RootRouteChildren {
   UqdQuickDisconnectsRoute: typeof UqdQuickDisconnectsRoute
   WetBulbFreeCoolingRoute: typeof WetBulbFreeCoolingRoute
   WhatIsACduRoute: typeof WhatIsACduRoute
+  WhatIsAMicroDataCenterRoute: typeof WhatIsAMicroDataCenterRoute
   WhatIsLiquidCoolingRoute: typeof WhatIsLiquidCoolingRoute
   PlaygroundDeratingRoute: typeof PlaygroundDeratingRoute
   PlaygroundRackBuilderRoute: typeof PlaygroundRackBuilderRoute
@@ -721,6 +748,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LiquidReadyServersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/liquid-to-air-vs-liquid-to-liquid': {
+      id: '/liquid-to-air-vs-liquid-to-liquid'
+      path: '/liquid-to-air-vs-liquid-to-liquid'
+      fullPath: '/liquid-to-air-vs-liquid-to-liquid'
+      preLoaderRoute: typeof LiquidToAirVsLiquidToLiquidRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/maintenance-schedule': {
       id: '/maintenance-schedule'
       path: '/maintenance-schedule'
@@ -826,6 +860,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof WhatIsACduRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/what-is-a-micro-data-center': {
+      id: '/what-is-a-micro-data-center'
+      path: '/what-is-a-micro-data-center'
+      fullPath: '/what-is-a-micro-data-center'
+      preLoaderRoute: typeof WhatIsAMicroDataCenterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/what-is-liquid-cooling': {
       id: '/what-is-liquid-cooling'
       path: '/what-is-liquid-cooling'
@@ -899,6 +940,7 @@ const rootRouteChildren: RootRouteChildren = {
   LiquidCoolingStandardsRoute: LiquidCoolingStandardsRoute,
   LiquidCoolingVsAirRoute: LiquidCoolingVsAirRoute,
   LiquidReadyServersRoute: LiquidReadyServersRoute,
+  LiquidToAirVsLiquidToLiquidRoute: LiquidToAirVsLiquidToLiquidRoute,
   MaintenanceScheduleRoute: MaintenanceScheduleRoute,
   NewsRoute: NewsRoute,
   PressureDropRoute: PressureDropRoute,
@@ -914,6 +956,7 @@ const rootRouteChildren: RootRouteChildren = {
   UqdQuickDisconnectsRoute: UqdQuickDisconnectsRoute,
   WetBulbFreeCoolingRoute: WetBulbFreeCoolingRoute,
   WhatIsACduRoute: WhatIsACduRoute,
+  WhatIsAMicroDataCenterRoute: WhatIsAMicroDataCenterRoute,
   WhatIsLiquidCoolingRoute: WhatIsLiquidCoolingRoute,
   PlaygroundDeratingRoute: PlaygroundDeratingRoute,
   PlaygroundRackBuilderRoute: PlaygroundRackBuilderRoute,

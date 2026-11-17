@@ -10,7 +10,13 @@ const faqs = [
   {
     q: 'Which UQD size do I need?',
     a: 'Match the nominal flow to your loop: single CPU cold plates typically use UQD04-UQD06, high-power GPU plate pairs UQD08-UQD12, dense node loops UQD16-UQD22, and rack manifold or CDU header feeds UQD32-UQD40. The size number approximates nominal L/min; always verify the vendor\u2019s pressure-drop curve at your actual flow and fluid temperature.',
+  
+
+}, {
+    q: 'Are UQD couplings dripless and leak-safe?',
+    a: 'No quick disconnect is perfectly dripless — the honest term is "dry-break". The OCP Universal Quick Disconnect spec expects dry-break couplings, and the OCP Advanced Cooling "Leak Detection and Intervention" white paper quantifies a dry-break disconnect spill at under 0.063 cc at 200 PSI. In normal operation a healthy UQD holds the loop sealed; the bounded drip happens on disconnect, by design. Pair couplings with conductive-coolant leak sensing and pump differential-pressure telemetry — the OCP text treats both as standard practice.',
   },
+
 ]
 
 export const Route = createFileRoute('/uqd-quick-disconnects')({

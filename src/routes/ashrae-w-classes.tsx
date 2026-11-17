@@ -11,7 +11,13 @@ const faqs = [
   {
     q: 'Which W-class do I need for free cooling?',
     a: 'It depends on climate: W32 suits dry coolers for much of the year in temperate regions, W40 makes chiller-less operation feasible across most of Europe and North America, and W45 extends free cooling further — but tropical sites with design wet-bulbs near 28-30 °C lose margin even at W45. Match the class to your site\u2019s wet-bulb statistics, not to vendor marketing.',
+  
+
+}, {
+    q: 'What W-class do I need for 30 °C facility water?',
+    a: 'Any class whose ceiling sits at or above your supply temperature works: 30 °C supply water lands in W32 (max 32 °C), with W40 and W45 also fine. The trade: warmer water classes buy chiller-less operation and more free-cooling hours, but every degree of supply temperature comes back through approach temperature as capacity at the cold plate. Check the approach-temperature page before celebrating a warm-water spec.',
   },
+
 ]
 
 export const Route = createFileRoute('/ashrae-w-classes')({

@@ -14,7 +14,13 @@ const faqs = [
   {
     q: 'What is PG25 coolant?',
     a: 'PG25 is a mixture of 75% water and 25% propylene glycol, the standard thermal fluid for direct-to-chip liquid cooling. It is cheap, has a high flash point (about 109°C), ships as non-hazardous cargo, and contains no PFAS. It requires corrosion inhibitors and periodic concentration/microbial checks.',
+  
+
+}, {
+    q: 'Two-phase vs single-phase liquid cooling — which should I choose?',
+    a: 'Single-phase (PG25, water-glycol or dielectric pumped as a liquid) dominates production direct-to-chip deployments: simple loops, no condensation management, standard CDUs and fluids. Two-phase (the fluid boils at the plate) handles extreme heat flux but adds evaporator/condenser complexity and depends on dielectric fluids whose major manufacturer (3M) exited PFAS production — supply and cost stay volatile. For 20–50 kW cabinets, single-phase is the boring, serviceable default; two-phase is a high-flux niche.',
   },
+
 ]
 
 export const Route = createFileRoute('/liquid-cooling-fluids')({

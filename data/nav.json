@@ -21,6 +21,16 @@
           "desc": "Pumps, heat exchangers, TCS vs facility loops, form factors"
         },
         {
+          "path": "/liquid-to-air-vs-liquid-to-liquid",
+          "title": "L2A vs L2L",
+          "desc": "The CDU form-factor axis: room air vs facility water"
+        },
+        {
+          "path": "/what-is-a-micro-data-center",
+          "title": "What is a micro data center?",
+          "desc": "Self-contained IT enclosures and the 20-50 kW gap"
+        },
+        {
           "path": "/cold-plate-vs-immersion",
           "title": "Cold plate vs immersion",
           "desc": "The two architectures compared"

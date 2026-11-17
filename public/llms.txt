@@ -22,6 +22,8 @@ Basics:
   - [Room load calculator](https://liquidcoolingguide.com/playground/room-load): 1.1× IT-load rule, refrigeration-ton conversion, spare-capacity margin verdict.
 - [What is liquid cooling?](https://liquidcoolingguide.com/what-is-liquid-cooling): Direct-to-chip liquid cooling explained — cold plates, CDUs, manifolds, UQD quick disconnects, PG25 fluid, and the standards that matter (OCP, ASHRAE, IEC 62368-1, SS 726).
 - [What is a CDU?](https://liquidcoolingguide.com/what-is-a-cdu): The coolant distribution unit — pumps, heat exchangers, TCS vs facility water loops, in-rack/in-row/facility form factors, liquid-to-air vs liquid-to-liquid trade-offs.
+- [L2A vs L2L](https://liquidcoolingguide.com/liquid-to-air-vs-liquid-to-liquid): the CDU form-factor axis — liquid-to-air rejects heat into room air (sealed, no facility water, the 20-50 kW micro-DC band); liquid-to-liquid hands it to facility water and scales to megawatts. Room rule 1.1 × IT vs W-classes.
+- [What is a micro data center?](https://liquidcoolingguide.com/what-is-a-micro-data-center): the self-contained enclosure definition, the size spectrum from server closet (Uptime: ~10% of enterprise IT) to 150 kW lights-out pods, and the 20-50 kW density gap.
 - [Cold plate vs immersion cooling](https://liquidcoolingguide.com/cold-plate-vs-immersion): The two architectures compared — heat capture (60-80% vs ~100%), fluids and PFAS regulation, serviceability, standards, floor loading.
 - [Glossary](https://liquidcoolingguide.com/glossary): 50+ self-contained, anchorable definitions: DLC, CDU, TCS, FWS, UQD, blind-mate, ORv3, L2A/L2L, W-class, approach temperature, capture ratio, derating, wet-bulb, PUE, PG25, TDP, N+1, floor loading, COP.
 

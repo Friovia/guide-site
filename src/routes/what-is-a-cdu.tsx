@@ -14,7 +14,13 @@ const faqs = [
   {
     q: 'Do I need a CDU for a single cabinet?',
     a: 'For direct-to-chip cooling, yes — some device must pump the loop and reject the heat. In single-cabinet deployments the CDU is usually built into the cabinet itself (in-rack CDU), which is what makes a "liquid cooling cabinet" self-contained.',
+  
+
+}, {
+    q: 'What does N+1 redundancy mean on a CDU?',
+    a: 'One more unit than the load math demands: two pumps where one suffices, so a single failure leaves you at exactly-enough instead of shutdown. On a CDU it appears as dual pumps, dual power supplies and automatic failover controllers — the loop keeps flowing while the failed part is replaced. Apply redundancy to the room side too: N+1 on the CDU with N on the room AC just relocates the single point of failure.',
   },
+
 ]
 
 export const Route = createFileRoute('/what-is-a-cdu')({

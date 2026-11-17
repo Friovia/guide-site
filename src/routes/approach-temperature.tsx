@@ -11,7 +11,13 @@ const faqs = [
   {
     q: 'Why does liquid cooling capacity drop in hot climates?',
     a: 'Because the heat exchanger\u2019s driving temperature difference shrinks. A cabinet rated 86.5 kW with 45 °C coolant in 25 °C air (20 °C approach, Vertiv XDU070) has only 10 °C of approach in a 35 °C room — roughly half the capacity. Below about 5 °C of approach, capacity effectively collapses. Always derate against the vendor\u2019s capacity-vs-ambient curve.',
+  
+
+}, {
+    q: 'How do I read a derating curve?',
+    a: 'Axes first: horizontal is the independent condition (room air or facility water temperature), vertical is remaining cooling capacity, usually as % of rated. Find your worst-case design temperature on the x-axis, read up to the curve — that is the capacity you may actually use. A loop rated 100% at 25 °C reading ~50% at 35 °C makes a "30 kW cabinet" a 15 kW cabinet on that day. Trust curves that show their test point and axis units; distrust any vendor curve without them.',
   },
+
 ]
 
 export const Route = createFileRoute('/approach-temperature')({
