@@ -21,6 +21,12 @@ function ChangelogPage() {
 
       <PageToc />
 
+      <h2 style={{ marginTop: 24 }}>2026-11-17</h2>
+      <ul>
+        <li><b>Vendor profile pages launch</b> (<code>/supply-chain/&lt;slug&gt;</code>): a new data layer (<code>data/vendor-profiles.json</code>) deepens the supply-chain map with per-company pages — company card, liquid-cooling product lines, key events, standards participation and FAQ, each with a 2-4 entry product table sourced to official pages. First batch: ten companies — CoolIT, Asetek, Boyd, Motivair, Vertiv, Delta, Stäubli, CPC, LiquidStack, BAC. Same facts policy as everywhere else: every claim carries a source URL; unverifiable fields render as <b>not published</b>, never estimated. <code>scripts/check-nav.mjs</code> now enforces conservation both ways — every profile must be in sitemap+llms.txt, and no /supply-chain/* URL may exist without a profile behind it.</li>
+        <li><b>Data-layer corrections</b>: the supply-chain row count read "97 companies" in the sidebar, homepage and llms.txt while <code>vendors.json</code> holds 98 — fixed everywhere (the changelog entry that introduced the 98th row stands as history). The listing mailto template said "one of the 12 segments"; it now says the real number (16).</li>
+      </ul>
+
       <h2 style={{ marginTop: 24 }}>2026-10-12</h2>
       <ul>
         <li><b>Hardware picker: the GB300/Rubin generation</b> (researched, sourced): GB300 NVL72 rack (48U, vendor-stated up to ~140 kW, shipping since Q4 2025), HGX B300 node (TDP budget 12.4 kW, 1,200 W HGX GPUs), Rubin NVL8 node (TDP budget 22.9 kW ≈ NVIDIA/ODM-stated ~24 kW, liquid-only), Vera Rubin NVL72 rack (180-220 kW Max-P, 100% liquid / zero fans, capture = 1.0). Fixed a pre-existing bug: the GB200 entry's source link pointed at the GB300 page.</li>

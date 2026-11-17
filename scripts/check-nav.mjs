@@ -40,6 +40,8 @@ function walk(dir, base) {
   }
 }
 walk(join(ROOT, 'src/routes'), '')
+const dynamicRoutes = new Set() // e.g. /supply-chain/$slug — real URLs derive from the data layer below
+for (const r of [...routes]) if (r.includes('/$')) { dynamicRoutes.add(r); routes.delete(r) }
 for (const r of [...routes]) if (r.startsWith('/zh/')) routes.delete(r) // zh mirrors: nav zhPath covers them
 for (const ig of IGNORED) routes.delete(ig) // locale landings are mirrors of '/'
 
@@ -56,8 +58,26 @@ const sitemap = readFileSync(join(ROOT, 'public/sitemap.xml'), 'utf8')
 const locs = new Set([...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1].replace('https://liquidcoolingguide.com', '') || '/'))
 for (const r of routes) if (!locs.has(r)) errors.push(`page missing from sitemap.xml: ${r}`)
 for (const l of locs) {
-  if (routes.has(l) || IGNORED.has(l) || l.startsWith('/zh/')) continue
+  // /supply-chain/* subpages are vendor profiles — validated against the data layer below
+  if (routes.has(l) || IGNORED.has(l) || l.startsWith('/zh/') || (l.startsWith('/supply-chain/') && l !== '/supply-chain')) continue
   errors.push(`sitemap.xml has ghost route: ${l}`)
+}
+
+// ---- vendor profile pages (dynamic routes: /supply-chain/<slug> from data layer) ----
+// Conservation both ways: every profile must be in sitemap+llms.txt, and no
+// /supply-chain/* URL may exist in either without a profile behind it.
+const vendorProfiles = JSON.parse(readFileSync(join(ROOT, 'data/vendor-profiles.json'), 'utf8'))
+const vendorPaths = new Set(vendorProfiles.profiles.map(p => `/supply-chain/${p.slug}`))
+for (const p of vendorPaths) if (!locs.has(p)) errors.push(`vendor profile missing from sitemap.xml: ${p}`)
+for (const l of locs) {
+  if (l.startsWith('/supply-chain/') && l !== '/supply-chain' && !vendorPaths.has(l)) {
+    errors.push(`sitemap.xml has vendor page without a profile: ${l}`)
+  }
+}
+const vendorsJson = JSON.parse(readFileSync(join(ROOT, 'data/vendors.json'), 'utf8'))
+for (const p of vendorProfiles.profiles) {
+  const listed = vendorsJson.segments.some(s => s.companies.some(c => c.name === p.name))
+  if (!listed) errors.push(`vendor profile has no row in vendors.json (directory is authoritative): ${p.slug}`)
 }
 
 // ---- llms.txt presence (warning-level) ----
@@ -66,9 +86,12 @@ for (const p of navPaths) {
   const slug = p === '/' ? '' : p
   if (slug && !llms.includes(`liquidcoolingguide.com${slug}`)) errors.push(`page missing from llms.txt: ${p}`)
 }
+for (const p of vendorPaths) {
+  if (!llms.includes(`liquidcoolingguide.com${p}`)) errors.push(`vendor profile missing from llms.txt: ${p}`)
+}
 
 if (errors.length) {
   console.error('✗ IA check failed:\n  ' + errors.join('\n  '))
   process.exit(1)
 }
-console.log(`✓ IA check passed: ${routes.size} routes, nav and sitemap and llms.txt in sync`)
+console.log(`✓ IA check passed: ${routes.size} routes (+${vendorPaths.size} vendor profiles), nav and sitemap and llms.txt in sync`)

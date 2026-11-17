@@ -7,22 +7,25 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import nav from './data/nav.json' with { type: 'json' }
+import vendorProfiles from './data/vendor-profiles.json' with { type: 'json' }
 
 const srcDir = path.join(path.dirname(fileURLToPath(import.meta.url)), 'src')
 function routeFilesExist(routePath: string) {
   const seg = routePath.replace(/^\//, '')
   return existsSync(path.join(srcDir, 'routes', `${seg}.tsx`))
       || existsSync(path.join(srcDir, 'routes', seg, 'index.tsx'))
+      // dynamic rows: /supply-chain/<slug> has a route as long as $slug.tsx does
+      || (seg.startsWith('supply-chain/') && existsSync(path.join(srcDir, 'routes', 'supply-chain', '$slug.tsx')))
 }
 
-// Full URL truth for prerendering: every nav.json path + the es/ar landings.
-// (42 routes once complete — the set scripts/migrate-baseline.mjs asserts
-// against the Nuxt production sitemap.)
+// Full URL truth for prerendering: every nav.json path + the es/ar landings
+// + vendor profile pages, derived from the data layer (same philosophy as nav.json).
 const PRERENDER_ROUTES = [...new Set([
   '/',
   ...nav.sections.flatMap(s => s.items.map(i => i.path)),
   '/es',
   '/ar',
+  ...vendorProfiles.profiles.map((p: { slug: string }) => `/supply-chain/${p.slug}`),
 ])]
 
 // Nuxt -> React port (TanStack Start). Prerender renders every route to

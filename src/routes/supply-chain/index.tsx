@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
 import { ChainCanvas } from '~/components/ChainCanvas'
 import data from '~/data/vendors.json'
+import { profileSlugFor, profiles } from '~/lib/vendor-profiles'
 import { PageToc } from '~/components/PageToc'
 
 const companyCount = data.segments.reduce((n, s) => n + s.companies.length, 0)
@@ -10,7 +11,7 @@ const companyCount = data.segments.reduce((n, s) => n + s.companies.length, 0)
 const mailto = 'mailto:vendors@liquidcoolingguide.com'
   + '?subject=' + encodeURIComponent('Supply chain listing submission')
   + '&body=' + encodeURIComponent(
-    'Company: \nHQ (country): \nSegment (one of the 12 on the page): \n'
+    'Company: \nHQ (country): \nSegment (one of the ' + data.segments.length + ' on the page): \n'
     + 'Role in liquid cooling, one line: \nOfficial site URL: \n'
     + 'Source URL verifying it (product page / datasheet): \n\n'
     + '(Listings are free, editorially reviewed, and require a verifiable source.)',
@@ -31,7 +32,7 @@ const faqs = [
   },
 ]
 
-export const Route = createFileRoute('/supply-chain')({
+export const Route = createFileRoute('/supply-chain/')({
   ...pageRoute({
     path: '/supply-chain',
     title: `Liquid cooling supply chain — ${companyCount} companies across the full chain`,
@@ -52,6 +53,7 @@ function SupplyChainPage() {
         → couplings and racks hold it together → dry coolers and towers reject it → the facility pays for it</b>.
         {companyCount} companies across {data.segments.length} segments, mapped below —
         each entry links the company's official site; notes state its liquid-cooling role only.
+        {profiles.length > 0 && <> Companies with a <b>profile page</b> ({profiles.length} and growing) are linked in bold.</>}
       </p>
 
       <ChainCanvas />
@@ -66,14 +68,19 @@ function SupplyChainPage() {
             <table style={{ maxWidth:"800px" }}>
               <tbody>
                 <tr><th>Company</th><th>HQ</th><th>Role in liquid cooling</th><th></th></tr>
-                {s.companies.map(c => (
-                  <tr key={c.name}>
-                    <td><strong>{c.name}</strong></td>
-                    <td style={{ whiteSpace:"nowrap" }}>{c.hq}</td>
-                    <td>{c.note}</td>
-                    <td><a href={c.source} aria-label={`${c.name} official site`}>site ↗</a></td>
-                  </tr>
-                ))}
+                {s.companies.map(c => {
+                  const slug = profileSlugFor(c.name)
+                  return (
+                    <tr key={c.name}>
+                      <td>{slug
+                        ? <a href={`/supply-chain/${slug}`}><strong>{c.name}</strong></a>
+                        : <strong>{c.name}</strong>}</td>
+                      <td style={{ whiteSpace:"nowrap" }}>{c.hq}</td>
+                      <td>{c.note}</td>
+                      <td><a href={c.source} aria-label={`${c.name} official site`}>site ↗</a></td>
+                    </tr>
+                  )
+                })}
               </tbody>
             </table>
           </figure>

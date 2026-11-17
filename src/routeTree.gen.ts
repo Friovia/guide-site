@@ -41,7 +41,6 @@ import { Route as RoomLoadCalculationRouteImport } from './routes/room-load-calc
 import { Route as SiteSurveyRouteImport } from './routes/site-survey'
 import { Route as Ss726LiquidCoolingStandardRouteImport } from './routes/ss726-liquid-cooling-standard'
 import { Route as StateOfLiquidCooling2026RouteImport } from './routes/state-of-liquid-cooling-2026'
-import { Route as SupplyChainRouteImport } from './routes/supply-chain'
 import { Route as TdpToRackKwRouteImport } from './routes/tdp-to-rack-kw'
 import { Route as UqdQuickDisconnectsRouteImport } from './routes/uqd-quick-disconnects'
 import { Route as WetBulbFreeCoolingRouteImport } from './routes/wet-bulb-free-cooling'
@@ -54,6 +53,8 @@ import { Route as PlaygroundIndexRouteImport } from './routes/playground/index'
 import { Route as PlaygroundDeratingRouteImport } from './routes/playground/derating'
 import { Route as PlaygroundRackBuilderRouteImport } from './routes/playground/rack-builder'
 import { Route as PlaygroundRoomLoadRouteImport } from './routes/playground/room-load'
+import { Route as SupplyChainIndexRouteImport } from './routes/supply-chain/index'
+import { Route as SupplyChainSlugRouteImport } from './routes/supply-chain/$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -219,11 +220,6 @@ const StateOfLiquidCooling2026Route =
     path: '/state-of-liquid-cooling-2026',
     getParentRoute: () => rootRouteImport,
   } as any)
-const SupplyChainRoute = SupplyChainRouteImport.update({
-  id: '/supply-chain',
-  path: '/supply-chain',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const TdpToRackKwRoute = TdpToRackKwRouteImport.update({
   id: '/tdp-to-rack-kw',
   path: '/tdp-to-rack-kw',
@@ -284,6 +280,16 @@ const PlaygroundRoomLoadRoute = PlaygroundRoomLoadRouteImport.update({
   path: '/playground/room-load',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SupplyChainIndexRoute = SupplyChainIndexRouteImport.update({
+  id: '/supply-chain/',
+  path: '/supply-chain/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SupplyChainSlugRoute = SupplyChainSlugRouteImport.update({
+  id: '/supply-chain/$slug',
+  path: '/supply-chain/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -318,7 +324,6 @@ export interface FileRoutesByFullPath {
   '/site-survey': typeof SiteSurveyRoute
   '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
   '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
-  '/supply-chain': typeof SupplyChainRoute
   '/tdp-to-rack-kw': typeof TdpToRackKwRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
@@ -328,9 +333,11 @@ export interface FileRoutesByFullPath {
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
   '/playground/room-load': typeof PlaygroundRoomLoadRoute
+  '/supply-chain/$slug': typeof SupplyChainSlugRoute
   '/ar/': typeof ArIndexRoute
   '/es/': typeof EsIndexRoute
   '/playground/': typeof PlaygroundIndexRoute
+  '/supply-chain/': typeof SupplyChainIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -365,7 +372,6 @@ export interface FileRoutesByTo {
   '/site-survey': typeof SiteSurveyRoute
   '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
   '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
-  '/supply-chain': typeof SupplyChainRoute
   '/tdp-to-rack-kw': typeof TdpToRackKwRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
@@ -375,9 +381,11 @@ export interface FileRoutesByTo {
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
   '/playground/room-load': typeof PlaygroundRoomLoadRoute
+  '/supply-chain/$slug': typeof SupplyChainSlugRoute
   '/ar': typeof ArIndexRoute
   '/es': typeof EsIndexRoute
   '/playground': typeof PlaygroundIndexRoute
+  '/supply-chain': typeof SupplyChainIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -413,7 +421,6 @@ export interface FileRoutesById {
   '/site-survey': typeof SiteSurveyRoute
   '/ss726-liquid-cooling-standard': typeof Ss726LiquidCoolingStandardRoute
   '/state-of-liquid-cooling-2026': typeof StateOfLiquidCooling2026Route
-  '/supply-chain': typeof SupplyChainRoute
   '/tdp-to-rack-kw': typeof TdpToRackKwRoute
   '/uqd-quick-disconnects': typeof UqdQuickDisconnectsRoute
   '/wet-bulb-free-cooling': typeof WetBulbFreeCoolingRoute
@@ -423,9 +430,11 @@ export interface FileRoutesById {
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
   '/playground/room-load': typeof PlaygroundRoomLoadRoute
+  '/supply-chain/$slug': typeof SupplyChainSlugRoute
   '/ar/': typeof ArIndexRoute
   '/es/': typeof EsIndexRoute
   '/playground/': typeof PlaygroundIndexRoute
+  '/supply-chain/': typeof SupplyChainIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -462,7 +471,6 @@ export interface FileRouteTypes {
     | '/site-survey'
     | '/ss726-liquid-cooling-standard'
     | '/state-of-liquid-cooling-2026'
-    | '/supply-chain'
     | '/tdp-to-rack-kw'
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
@@ -472,9 +480,11 @@ export interface FileRouteTypes {
     | '/playground/derating'
     | '/playground/rack-builder'
     | '/playground/room-load'
+    | '/supply-chain/$slug'
     | '/ar/'
     | '/es/'
     | '/playground/'
+    | '/supply-chain/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -509,7 +519,6 @@ export interface FileRouteTypes {
     | '/site-survey'
     | '/ss726-liquid-cooling-standard'
     | '/state-of-liquid-cooling-2026'
-    | '/supply-chain'
     | '/tdp-to-rack-kw'
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
@@ -519,9 +528,11 @@ export interface FileRouteTypes {
     | '/playground/derating'
     | '/playground/rack-builder'
     | '/playground/room-load'
+    | '/supply-chain/$slug'
     | '/ar'
     | '/es'
     | '/playground'
+    | '/supply-chain'
   id:
     | '__root__'
     | '/'
@@ -556,7 +567,6 @@ export interface FileRouteTypes {
     | '/site-survey'
     | '/ss726-liquid-cooling-standard'
     | '/state-of-liquid-cooling-2026'
-    | '/supply-chain'
     | '/tdp-to-rack-kw'
     | '/uqd-quick-disconnects'
     | '/wet-bulb-free-cooling'
@@ -566,9 +576,11 @@ export interface FileRouteTypes {
     | '/playground/derating'
     | '/playground/rack-builder'
     | '/playground/room-load'
+    | '/supply-chain/$slug'
     | '/ar/'
     | '/es/'
     | '/playground/'
+    | '/supply-chain/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -604,7 +616,6 @@ export interface RootRouteChildren {
   SiteSurveyRoute: typeof SiteSurveyRoute
   Ss726LiquidCoolingStandardRoute: typeof Ss726LiquidCoolingStandardRoute
   StateOfLiquidCooling2026Route: typeof StateOfLiquidCooling2026Route
-  SupplyChainRoute: typeof SupplyChainRoute
   TdpToRackKwRoute: typeof TdpToRackKwRoute
   UqdQuickDisconnectsRoute: typeof UqdQuickDisconnectsRoute
   WetBulbFreeCoolingRoute: typeof WetBulbFreeCoolingRoute
@@ -614,9 +625,11 @@ export interface RootRouteChildren {
   PlaygroundDeratingRoute: typeof PlaygroundDeratingRoute
   PlaygroundRackBuilderRoute: typeof PlaygroundRackBuilderRoute
   PlaygroundRoomLoadRoute: typeof PlaygroundRoomLoadRoute
+  SupplyChainSlugRoute: typeof SupplyChainSlugRoute
   ArIndexRoute: typeof ArIndexRoute
   EsIndexRoute: typeof EsIndexRoute
   PlaygroundIndexRoute: typeof PlaygroundIndexRoute
+  SupplyChainIndexRoute: typeof SupplyChainIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -845,13 +858,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof StateOfLiquidCooling2026RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/supply-chain': {
-      id: '/supply-chain'
-      path: '/supply-chain'
-      fullPath: '/supply-chain'
-      preLoaderRoute: typeof SupplyChainRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/tdp-to-rack-kw': {
       id: '/tdp-to-rack-kw'
       path: '/tdp-to-rack-kw'
@@ -936,6 +942,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PlaygroundRoomLoadRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/supply-chain/': {
+      id: '/supply-chain/'
+      path: '/supply-chain'
+      fullPath: '/supply-chain/'
+      preLoaderRoute: typeof SupplyChainIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/supply-chain/$slug': {
+      id: '/supply-chain/$slug'
+      path: '/supply-chain/$slug'
+      fullPath: '/supply-chain/$slug'
+      preLoaderRoute: typeof SupplyChainSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -972,7 +992,6 @@ const rootRouteChildren: RootRouteChildren = {
   SiteSurveyRoute: SiteSurveyRoute,
   Ss726LiquidCoolingStandardRoute: Ss726LiquidCoolingStandardRoute,
   StateOfLiquidCooling2026Route: StateOfLiquidCooling2026Route,
-  SupplyChainRoute: SupplyChainRoute,
   TdpToRackKwRoute: TdpToRackKwRoute,
   UqdQuickDisconnectsRoute: UqdQuickDisconnectsRoute,
   WetBulbFreeCoolingRoute: WetBulbFreeCoolingRoute,
@@ -982,9 +1001,11 @@ const rootRouteChildren: RootRouteChildren = {
   PlaygroundDeratingRoute: PlaygroundDeratingRoute,
   PlaygroundRackBuilderRoute: PlaygroundRackBuilderRoute,
   PlaygroundRoomLoadRoute: PlaygroundRoomLoadRoute,
+  SupplyChainSlugRoute: SupplyChainSlugRoute,
   ArIndexRoute: ArIndexRoute,
   EsIndexRoute: EsIndexRoute,
   PlaygroundIndexRoute: PlaygroundIndexRoute,
+  SupplyChainIndexRoute: SupplyChainIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
