@@ -15,6 +15,10 @@ const faqs = [
     q: 'What is the ASHRAE W-class on a server spec sheet?',
     a: 'It is the coolant supply temperature the server is certified to accept — W17 through W45, number in °C. A W32 or W40 server runs on warm water, enabling efficient or chiller-less facility cooling; a W17-only server forces cold water and higher energy use. Match server class and CDU design or you will pay for it in efficiency.',
   },
+  {
+    q: 'What coolant does the GB200 NVL72 need?',
+    a: 'Per the MGX rack spec NVIDIA contributed to OCP: up to 130 L/min rack coolant flow at ~10 psid node pressure drop, 120 kW rack power with 85% of heat captured by liquid, PG/water-based coolant family (PG25 typical), 5 bar max operating pressure, 25/50 µm filtration, UQD-04 blind-mate couplings on trays. NVIDIA designs MGX racks for 45 °C warm-water inlets, with facilities supplying ~41 °C water to the CDUs. Sources: OCP MGX Rack & Trays Specification (Oct 2024); NVIDIA Vera Rubin POD blog (MGX cooling design points).',
+  },
 ]
 
 export const Route = createFileRoute('/liquid-ready-servers')({

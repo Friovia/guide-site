@@ -112,6 +112,11 @@
           "desc": "OCP sizes UQD04–UQD40, table"
         },
         {
+          "path": "/orv3-manifold",
+          "title": "ORv3 manifold spec",
+          "desc": "Blind-mate manifold quoted: 50 psig, PG25, 24 valves"
+        },
+        {
           "path": "/liquid-cooling-fluids",
           "title": "Fluids & PFAS",
           "desc": "PG25 vs oils vs fluorinated fluids"

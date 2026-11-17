@@ -32,6 +32,7 @@ import { Route as LiquidReadyServersRouteImport } from './routes/liquid-ready-se
 import { Route as LiquidToAirVsLiquidToLiquidRouteImport } from './routes/liquid-to-air-vs-liquid-to-liquid'
 import { Route as MaintenanceScheduleRouteImport } from './routes/maintenance-schedule'
 import { Route as NewsRouteImport } from './routes/news'
+import { Route as Orv3ManifoldRouteImport } from './routes/orv3-manifold'
 import { Route as PressureDropRouteImport } from './routes/pressure-drop'
 import { Route as PueMathRouteImport } from './routes/pue-math'
 import { Route as RfqScopeChecklistRouteImport } from './routes/rfq-scope-checklist'
@@ -171,6 +172,11 @@ const NewsRoute = NewsRouteImport.update({
   path: '/news',
   getParentRoute: () => rootRouteImport,
 } as any)
+const Orv3ManifoldRoute = Orv3ManifoldRouteImport.update({
+  id: '/orv3-manifold',
+  path: '/orv3-manifold',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PressureDropRoute = PressureDropRouteImport.update({
   id: '/pressure-drop',
   path: '/pressure-drop',
@@ -303,6 +309,7 @@ export interface FileRoutesByFullPath {
   '/liquid-to-air-vs-liquid-to-liquid': typeof LiquidToAirVsLiquidToLiquidRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
+  '/orv3-manifold': typeof Orv3ManifoldRoute
   '/pressure-drop': typeof PressureDropRoute
   '/pue-math': typeof PueMathRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
@@ -349,6 +356,7 @@ export interface FileRoutesByTo {
   '/liquid-to-air-vs-liquid-to-liquid': typeof LiquidToAirVsLiquidToLiquidRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
+  '/orv3-manifold': typeof Orv3ManifoldRoute
   '/pressure-drop': typeof PressureDropRoute
   '/pue-math': typeof PueMathRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
@@ -396,6 +404,7 @@ export interface FileRoutesById {
   '/liquid-to-air-vs-liquid-to-liquid': typeof LiquidToAirVsLiquidToLiquidRoute
   '/maintenance-schedule': typeof MaintenanceScheduleRoute
   '/news': typeof NewsRoute
+  '/orv3-manifold': typeof Orv3ManifoldRoute
   '/pressure-drop': typeof PressureDropRoute
   '/pue-math': typeof PueMathRoute
   '/rfq-scope-checklist': typeof RfqScopeChecklistRoute
@@ -444,6 +453,7 @@ export interface FileRouteTypes {
     | '/liquid-to-air-vs-liquid-to-liquid'
     | '/maintenance-schedule'
     | '/news'
+    | '/orv3-manifold'
     | '/pressure-drop'
     | '/pue-math'
     | '/rfq-scope-checklist'
@@ -490,6 +500,7 @@ export interface FileRouteTypes {
     | '/liquid-to-air-vs-liquid-to-liquid'
     | '/maintenance-schedule'
     | '/news'
+    | '/orv3-manifold'
     | '/pressure-drop'
     | '/pue-math'
     | '/rfq-scope-checklist'
@@ -536,6 +547,7 @@ export interface FileRouteTypes {
     | '/liquid-to-air-vs-liquid-to-liquid'
     | '/maintenance-schedule'
     | '/news'
+    | '/orv3-manifold'
     | '/pressure-drop'
     | '/pue-math'
     | '/rfq-scope-checklist'
@@ -583,6 +595,7 @@ export interface RootRouteChildren {
   LiquidToAirVsLiquidToLiquidRoute: typeof LiquidToAirVsLiquidToLiquidRoute
   MaintenanceScheduleRoute: typeof MaintenanceScheduleRoute
   NewsRoute: typeof NewsRoute
+  Orv3ManifoldRoute: typeof Orv3ManifoldRoute
   PressureDropRoute: typeof PressureDropRoute
   PueMathRoute: typeof PueMathRoute
   RfqScopeChecklistRoute: typeof RfqScopeChecklistRoute
@@ -769,6 +782,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof NewsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/orv3-manifold': {
+      id: '/orv3-manifold'
+      path: '/orv3-manifold'
+      fullPath: '/orv3-manifold'
+      preLoaderRoute: typeof Orv3ManifoldRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/pressure-drop': {
       id: '/pressure-drop'
       path: '/pressure-drop'
@@ -943,6 +963,7 @@ const rootRouteChildren: RootRouteChildren = {
   LiquidToAirVsLiquidToLiquidRoute: LiquidToAirVsLiquidToLiquidRoute,
   MaintenanceScheduleRoute: MaintenanceScheduleRoute,
   NewsRoute: NewsRoute,
+  Orv3ManifoldRoute: Orv3ManifoldRoute,
   PressureDropRoute: PressureDropRoute,
   PueMathRoute: PueMathRoute,
   RfqScopeChecklistRoute: RfqScopeChecklistRoute,
