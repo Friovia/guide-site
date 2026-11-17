@@ -51,7 +51,7 @@ function VendorProfilePage({ profile: p }: { profile: VendorProfile }) {
     .filter(b => b.seg)
 
   const factRows: [string, string | null, string?][] = [
-    ['Headquarters', factValue(p.hq), p.website],
+    ['Headquarters', factValue(p.hq)],
     ['Founded', factValue(p.founded)],
     ['Ownership', factValue(p.ownership)],
     ['Chain segments', segmentBlocks.map(b => b.seg!.label).join(' · ') || 'not published'],
