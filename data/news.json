@@ -1,23 +1,66 @@
 {
   "note": "Industry radar data layer. Facts policy applies here too: every item links to a source; nothing is invented. items[] = dated news events; milestones[] = the curated industry timeline (high GEO value, feed-agnostic). The fetch-news pipeline (scripts/fetch-news.mjs) merges automated items in and preserves pinned/manual entries.",
   "curated": false,
-  "last_fetched": "2026-11-16",
+  "last_fetched": "2026-11-17",
   "items": [
+    {
+      "date": "2026-11-17",
+      "title": "Siemens Expands Liquid Cooling Portfolio with New Stainless Steel Intelligent Valve for AI Data Centres",
+      "source": "Machine Maker",
+      "url": "https://themachinemaker.com/news/siemens-expands-liquid-cooling-portfolio-with-new-stainless-steel-intelligent-valve-for-ai-data-centres/",
+      "channel": "product",
+      "note": "",
+      "image": "https://assets.new.siemens.com/siemens/assets/api/uuid:79293dfe-7ff8-4e8a-9d87-7976b5f6bf9e/width:1024/026-Intelligent-Valve-SS.png"
+    },
+    {
+      "date": "2026-11-17",
+      "title": "ZutaCore Unveils Z₂O: The End of Water in AI Data Center Cooling",
+      "source": "FF News",
+      "url": "https://ffnews.com/news/zutacore-unveils-new-waterless-cooling-architecture-at-sc26-a7487552",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Why Immersion Cooling Still Hasn't Gone Mainstream",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/cooling/why-immersion-cooling-still-hasn-t-gone-mainstream",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-17",
+      "title": "Immersion cooling adoption faces cost, cultural barriers",
+      "source": "ET Datacenters",
+      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/immersion-cooling-adoption-faces-cost-cultural-barriers/135923302",
+      "channel": "technology",
+      "note": ""
+    },
     {
       "date": "2026-11-16",
       "title": "Why AI Data Centers are Turning to Liquid Cooling Technologies",
       "source": "Analytics Insight",
       "url": "https://www.analyticsinsight.net/artificial-intelligence/why-ai-data-centers-are-turning-to-liquid-cooling-technologies",
       "channel": "technology",
+      "note": "",
+      "image": "https://media.assettype.com/analyticsinsight%2F2026-11-13%2Fkp50vxay%2FWhy-AI-Data-Centers-are-Turning-to-Liquid-Cooling-Technologies.jpg?w=1200&amp;ar=40%3A21&amp;auto=format%2Ccompress&amp;ogImage=true&amp;mode=crop&amp;enlarge=true&amp;overlay=false&amp;overlay_position=bottom&amp;overlay_width=100"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Panth Infinity explores liquid cooling technology for AI data centres through UAE subsidiary",
+      "source": "Daily Pioneer",
+      "url": "https://dailypioneer.com/business/panth-infracon-liquid-cooling-ai-data-centres-uae-subsidiary",
+      "channel": "technology",
       "note": ""
     },
     {
       "date": "2026-11-16",
-      "title": "LONGWELL Releases Axial Fan Selection Set for Heat Rejection in Liquid-Cooled Data Centers",
-      "source": "Press Release Hub",
-      "url": "https://pressreleasehub.pa.media/article/longwell-releases-axial-fan-selection-set-for-heat-rejection-in-liquid-cooled-data-centers-89294.html",
+      "title": "LONGWELL Releases Axial Fan Selection Set for Heat Rejection in Liquid-Cooled Data Centers - V-news.it",
+      "source": "Google News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbjlmRER0WXRqdDJmb3Vpa09Hd1l0NmI5SW5UR08xNER4QVkxeEhXeG1ZRjdTSkNvUkg3LV9XdXhWVkE2bXFmamd3TXdlS0R4bUIzNTlES2RPQUpFYjg1S21sSkpkbk5kQl9MbFBfWkVNNzU1VVNNVzVHNkpXUzBwN1VmWG93RjVtTGZiRzAtVWZuUFNSdkQ4TFRtS3Y5bHVEOE5EX3lKYW41V3ZSX2NZNk9Gdw?oc=5",
       "channel": "product",
-      "note": ""
+      "note": "",
+      "image": "https://content-media.pa.media/press-release/picture/2026/11/16/01M7HQ7ZWSG1CFSKDZHAAREAPB.jpg?fix=bounds&amp;w=1200"
     },
     {
       "date": "2026-11-16",
@@ -33,6 +76,73 @@
       "source": "openPR.com",
       "url": "https://www.openpr.com/news/4690981/data-center-cooling-solutions-market-to-reach-usd-31-822-million",
       "channel": "technology",
+      "note": "",
+      "image": "https://cdn.open-pr.com/L/b/Lb16928810_g.jpg"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Hitachi builds Ibaraki lab to test AI data center cooling",
+      "source": "Bing News",
+      "url": "https://jp.ibtimes.com/hitachi-builds-ibaraki-lab-test-ai-data-center-cooling-105249",
+      "channel": "technology",
+      "note": "The facility combines liquid- and air-cooled servers to test temperature prediction and controls, supporting HMAX Data Center development.",
+      "image": "https://d.jp.ibtimes.com/en/full/1007279/hitachi-builds-ai-data-center-cooling-test-lab-ibaraki.jpg"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Dell AI Factory news blast headlined by liquid-cooled storage",
+      "source": "Blocks & Files",
+      "url": "https://www.blocksandfiles.com/flash/2026/11/16/dell-ai-factory-news-blast-headlined-by-liquid-cooled-storage/5310114",
+      "channel": "technology",
+      "note": "",
+      "image": "https://image.blocksandfiles.com/?imageId=5310118&width=800"
+    },
+    {
+      "date": "2026-11-16",
+      "title": "The University of Münster deploys Zutacore's waterless, two-phase liquid cooling",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/the-university-of-m%C3%BCnster-deploys-zutacores-waterless-two-phase-liquid-cooling/",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Ecolab Unveils Advanced AI Data Center Cooling Platform, Ticker ECL",
+      "source": "GuruFocus",
+      "url": "https://www.gurufocus.com/news/9201456/ecolab-unveils-advanced-ai-data-center-cooling-platform-ticker-ecl",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Obsidian Mission Critical Launches to Bridge Service Gap for Liquid Cooled Data Centers",
+      "source": "markets.businessinsider.com",
+      "url": "https://markets.businessinsider.com/news/stocks/obsidian-mission-critical-launches-to-bridge-service-gap-for-liquid-cooled-data-centers-1036769651",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-16",
+      "title": "Aviemore Launches Sealless Magnetic Coupling Pump Platform for Liquid-Cooled AI Data Centers",
+      "source": "KuCoin",
+      "url": "https://www.kucoin.com/news/flash/aviemore-launches-sealless-magnetic-coupling-pump-platform-for-liquid-cooled-ai-data-centers",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-16",
+      "title": "nVent Features Expanded Liquid Cooling and Power Portfolio at SC26",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/11/16/3404164/0/en/nvent-features-expanded-liquid-cooling-and-power-portfolio-at-sc26.html",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-16",
+      "title": "nVent unveils advanced liquid cooling and 800V DC power solutions for AI data centers at SC26",
+      "source": "Pluang",
+      "url": "https://pluang.com/en/news-feed/nvent-perluas-portofolio-pendinginan-cair-dan-daya-sc26",
+      "channel": "product",
       "note": ""
     },
     {
@@ -64,80 +174,12 @@
     },
     {
       "date": "2026-11-13",
-      "title": "Sponsored: Why AI infrastructure must rethink facility water loop management",
-      "source": "DCD",
-      "url": "https://www.datacenterdynamics.com/en/opinions/why-ai-infrastructure-must-rethink-facility-water-loop-management/",
-      "channel": "technology",
-      "note": "Managing the primary facility water loop as mission-critical infrastructure for high-density, liquid-cooled AI computing",
-      "image": "https://media.datacenterdynamics.com/media/images/Dipti_Singh_2.2e16d0ba.fill-750x500.jpg"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Siemens’ new stainless steel valve expands liquid cooling offering for AI data centres",
-      "source": "Data Centre Solutions",
-      "url": "https://datacentre.solutions/news/24843-siemens-new-stainless-steel-valve-expands-liquid-cooling-offering-for-ai-data-centres",
-      "channel": "product",
-      "note": "",
-      "image": "https://assets.new.siemens.com/siemens/assets/api/uuid:79293dfe-7ff8-4e8a-9d87-7976b5f6bf9e/width:1024/026-Intelligent-Valve-SS.png"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Vertiv, Dow and Solenis upgrade AI data center cooling",
-      "source": "Bing News",
-      "url": "https://www.newsbytesapp.com/news/science/vertiv-dow-and-solenis-upgrade-ai-data-center-cooling/tldr",
-      "channel": "product",
-      "note": ""
-    },
-    {
-      "date": "2026-11-13",
-      "title": "How AI Is Rewriting the Rules of Data Center Cooling",
-      "source": "Data Center Frontier",
-      "url": "https://www.datacenterfrontier.com/sponsored/article/55411681/trane-how-ai-is-rewriting-the-rules-of-data-center-cooling",
-      "channel": "technology",
-      "note": ""
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Samsung Electronics in talks to buy Modine to expand AI data center cooling",
-      "source": "Chosunbiz",
-      "url": "https://biz.chosun.com/en/en-it/2026/11/13/7T3RZVTN2ZGNHOQ7GX2XPBYGNY/",
-      "channel": "product",
-      "note": "",
-      "image": "https://biz.chosun.com/resizer/v2/LYC6AF6R6BCDBBMSIEP7NDGLZU.jpg?auth=5fbeb7e39f5e6a211c2b0ed4602737c5df20e5c9f3339344b8b7b28494e4a849&amp;width=692&amp;height=363&amp;smart=true"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Liquid cooling crucial for India's sustainable data centers",
-      "source": "ET Datacenters",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-crucial-for-indias-sustainable-data-centers/135786283",
+      "title": "Samsung Wants to Buy an American AI Data Center Cooling Company",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/13/samsung-wants-to-buy-an-american-ai-data-center-cooling-company/",
       "channel": "technology",
       "note": "",
-      "image": "https://etimg.etb2bimg.com/thumb/msid-135786283,imgsize-484574,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/liquid-cooling-crucial-for-indias-sustainable-data-centers.jpg"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Samsung Electronics Eyes $5.6 Billion Modine Deal, Targeting 'Europe + North America' Twin Engines in AI Data Center Cooling",
-      "source": "BigGo Finance",
-      "url": "https://finance.biggo.com/news/4ff6c6ef-d5d9-459c-8f94-7b717341a381",
-      "channel": "technology",
-      "note": ""
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Gates Industrial (GTES) Unveils ThermalCool 2100SS Pump For AI Data Center Cooling",
-      "source": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-gtes/gates-industrial/news/gates-industrial-gtes-unveils-thermalcool-2100ss-pump-for-ai",
-      "channel": "product",
-      "note": "",
-      "image": "https://images.simplywall.st/asset/industry/3072000-choice2-card/1788970327270?w=1600&amp;h=900&amp;fit=cover"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "National Stock Exchange of India deploys direct-to-chip liquid cooling at data center",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/national-stock-exchange-of-india-deploys-direct-to-chip-liquid-cooling-at-data-center/",
-      "channel": "technology",
-      "note": ""
+      "image": "https://247wallst.com/wp-content/uploads/2022/10/imageForEntry14-uf4.jpg"
     },
     {
       "date": "2026-11-13",
@@ -150,6 +192,67 @@
     },
     {
       "date": "2026-11-13",
+      "title": "Gates Industrial (GTES) Unveils ThermalCool 2100SS Pump For AI Data Center Cooling",
+      "source": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-gtes/gates-industrial/news/gates-industrial-gtes-unveils-thermalcool-2100ss-pump-for-ai",
+      "channel": "product",
+      "note": "",
+      "image": "https://images.simplywall.st/asset/industry/3072000-choice2-card/1788970327270?w=1600&amp;h=900&amp;fit=cover"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Samsung Electronics Eyes $5.6 Billion Modine Deal, Targeting 'Europe + North America' Twin Engines in AI Data Center Cooling",
+      "source": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/4ff6c6ef-d5d9-459c-8f94-7b717341a381",
+      "channel": "technology",
+      "note": "",
+      "image": "https://img.biggo.com/tRlQp4scZrBnT5zMA0--VLohrxCy44bSkxkeEC6ikTU/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExLzRmZjZjNmVmLWQ1ZDktNDU5Yy04Zjk0LTdiNzE3MzQxYTM4MV8xNzk0NTUzMzkxX2RlZmF1bHQuanBn.jpg"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Liquid cooling crucial for India's sustainable data centers",
+      "source": "ET Datacenters",
+      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-crucial-for-indias-sustainable-data-centers/135786283",
+      "channel": "technology",
+      "note": "",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-135786283,imgsize-484574,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/liquid-cooling-crucial-for-indias-sustainable-data-centers.jpg"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Samsung Electronics in talks to buy Modine to expand AI data center cooling",
+      "source": "Chosunbiz",
+      "url": "https://biz.chosun.com/en/en-it/2026/11/13/7T3RZVTN2ZGNHOQ7GX2XPBYGNY/",
+      "channel": "product",
+      "note": "",
+      "image": "https://biz.chosun.com/resizer/v2/LYC6AF6R6BCDBBMSIEP7NDGLZU.jpg?auth=5fbeb7e39f5e6a211c2b0ed4602737c5df20e5c9f3339344b8b7b28494e4a849&amp;width=692&amp;height=363&amp;smart=true"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "How AI Is Rewriting the Rules of Data Center Cooling",
+      "source": "Data Center Frontier",
+      "url": "https://www.datacenterfrontier.com/sponsored/article/55411681/trane-how-ai-is-rewriting-the-rules-of-data-center-cooling",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Vertiv, Dow and Solenis upgrade AI data center cooling",
+      "source": "Bing News",
+      "url": "https://www.newsbytesapp.com/news/science/vertiv-dow-and-solenis-upgrade-ai-data-center-cooling/tldr",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Sponsored: Why AI infrastructure must rethink facility water loop management",
+      "source": "DCD",
+      "url": "https://www.datacenterdynamics.com/en/opinions/why-ai-infrastructure-must-rethink-facility-water-loop-management/",
+      "channel": "technology",
+      "note": "Managing the primary facility water loop as mission-critical infrastructure for high-density, liquid-cooled AI computing",
+      "image": "https://media.datacenterdynamics.com/media/images/Dipti_Singh_2.2e16d0ba.fill-750x500.jpg"
+    },
+    {
+      "date": "2026-11-13",
       "title": "Samsung in talks to acquire data center cooling company Modine Manufacturing - report",
       "source": "Data Center Dynamics",
       "url": "https://www.datacenterdynamics.com/en/news/samsung-in-talks-to-acquire-data-center-cooling-company-modine-manufacturing-report/",
@@ -158,31 +261,37 @@
       "image": "https://media.datacenterdynamics.com/media/images/Modine.2e16d0ba.fill-1200x630.png"
     },
     {
-      "date": "2026-11-13",
-      "title": "Samsung Wants to Buy an American AI Data Center Cooling Company",
-      "source": "24/7 Wall St.",
-      "url": "https://247wallst.com/investing/2026/11/13/samsung-wants-to-buy-an-american-ai-data-center-cooling-company/",
+      "date": "2026-11-12",
+      "title": "Gates launches liquid cooling pump for AI data centers",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/company-news/gates-launches-liquid-cooling-pump-for-ai-data-centers-93CH-5023350",
+      "channel": "investment",
+      "note": ""
+    },
+    {
+      "date": "2026-11-12",
+      "title": "DCD Survey: Direct liquid cooling",
+      "source": "From deployment to lifecycle",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/dcd-survey-direct-liquid-cooling-from-deployment-to-lifecycle/",
       "channel": "technology",
       "note": "",
-      "image": "https://247wallst.com/wp-content/uploads/2022/10/imageForEntry14-uf4.jpg"
+      "image": "https://media.datacenterdynamics.com/media/images/Castrol_CORE_Survey_Cover.2e16d0ba.fill-1200x630.png"
     },
     {
       "date": "2026-11-12",
-      "title": "Vertiv expands liquid cooling ecosystem with Dow and Solenis",
-      "source": "varindia",
-      "url": "https://www.varindia.com/news/vertiv-expands-liquid-cooling-ecosystem-with-dow-and-solenis",
+      "title": "Vertiv expands partnerships to support AI-scale liquid cooling infrastructure",
+      "source": "Manufacturing Today India",
+      "url": "https://www.manufacturingtodayindia.com/vertiv-expands-partnerships-to-support-ai-scale-liquid-cooling-infrastructure",
       "channel": "product",
-      "note": "",
-      "image": "https://newapi.varindia.com/storage/news/2026/11/O7pqsJ3MrfFSlaH3jGBuoJTFG7IPRzAtB3hBa0aQ.jpg"
+      "note": ""
     },
     {
       "date": "2026-11-12",
-      "title": "GF Launches Intelligent Multi Control Valve for Direct Liquid Cooling in High-Density Data Centres",
-      "source": "Machine Maker",
-      "url": "https://themachinemaker.com/news/gf-launches-intelligent-multi-control-valve-for-direct-liquid-cooling-in-high-density-data-centres/",
-      "channel": "product",
-      "note": "",
-      "image": "https://themachinemaker.com/wp-content/uploads/2026/11/GF.jpg"
+      "title": "TotalEnergies Lubrifiants’ Coolant Keep Plate Protects Ultra-Fast Charging Batteries Against Thermal Runaway - DirectIndustry e-Magazine",
+      "source": "Emag",
+      "url": "https://emag.directindustry.com/2026/11/12/totalenergies-lubrifiants-coolant-keep-plate-protects-ultra-fast-charging-batteries-against-thermal-runaway/?ki-cf-botcl=1",
+      "channel": "technology",
+      "note": ""
     },
     {
       "date": "2026-11-12",
@@ -195,16 +304,26 @@
     },
     {
       "date": "2026-11-12",
-      "title": "TotalEnergies Lubrifiants’ Coolant Keep Plate Protects Ultra-Fast Charging Batteries Against Thermal Runaway - DirectIndustry e-Magazine",
-      "source": "Emag",
-      "url": "https://emag.directindustry.com/2026/11/12/totalenergies-lubrifiants-coolant-keep-plate-protects-ultra-fast-charging-batteries-against-thermal-runaway/?ki-cf-botcl=1",
-      "channel": "technology",
-      "note": ""
+      "title": "GF Launches Intelligent Multi Control Valve for Direct Liquid Cooling in High-Density Data Centres",
+      "source": "Machine Maker",
+      "url": "https://themachinemaker.com/news/gf-launches-intelligent-multi-control-valve-for-direct-liquid-cooling-in-high-density-data-centres/",
+      "channel": "product",
+      "note": "",
+      "image": "https://themachinemaker.com/wp-content/uploads/2026/11/GF.jpg"
     },
     {
       "date": "2026-11-12",
-      "title": "Schneider Electric Launches Coolant Distribution Unit for AI Data Centers",
-      "source": "thelec.net",
+      "title": "Vertiv expands liquid cooling ecosystem with Dow and Solenis",
+      "source": "varindia",
+      "url": "https://www.varindia.com/news/vertiv-expands-liquid-cooling-ecosystem-with-dow-and-solenis",
+      "channel": "product",
+      "note": "",
+      "image": "https://newapi.varindia.com/storage/news/2026/11/O7pqsJ3MrfFSlaH3jGBuoJTFG7IPRzAtB3hBa0aQ.jpg"
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Schneider Electric Launches Coolant Distribution Unit for AI Data Centers - THE ELEC, Korea Electronics Industry Media",
+      "source": "Google News",
       "url": "https://www.thelec.net/news/articleView.html?idxno=15565",
       "channel": "product",
       "note": "",
@@ -212,64 +331,21 @@
     },
     {
       "date": "2026-11-12",
-      "title": "Vertiv expands partnerships to support AI-scale liquid cooling infrastructure",
-      "source": "Manufacturing Today India",
-      "url": "https://www.manufacturingtodayindia.com/vertiv-expands-partnerships-to-support-ai-scale-liquid-cooling-infrastructure",
+      "title": "National Stock Exchange of India deploys direct-to-chip liquid cooling at data center",
+      "source": "Bing News",
+      "url": "https://www.datacenterdynamics.com/en/news/national-stock-exchange-of-india-deploys-direct-to-chip-liquid-cooling-at-data-center/",
       "channel": "product",
-      "note": ""
-    },
-    {
-      "date": "2026-11-12",
-      "title": "DCD Survey: Direct liquid cooling | From deployment to lifecycle",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/whitepapers/dcd-survey-direct-liquid-cooling-from-deployment-to-lifecycle/",
-      "channel": "technology",
       "note": "",
-      "image": "https://media.datacenterdynamics.com/media/images/Castrol_CORE_Survey_Cover.2e16d0ba.fill-1200x630.png"
-    },
-    {
-      "date": "2026-11-12",
-      "title": "Gates launches liquid cooling pump for AI data centers",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/company-news/gates-launches-liquid-cooling-pump-for-ai-data-centers-93CH-5023350",
-      "channel": "investment",
-      "note": ""
+      "image": "https://media.datacenterdynamics.com/media/images/Building_Image_3_full.2e16d0ba.fill-1200x630.jpg"
     },
     {
       "date": "2026-11-11",
-      "title": "NSE deploys direct-to-chip liquid cooling for AI workloads, plans expansion to 224 GPUs",
-      "source": "CRN Asia",
-      "url": "https://www.crnasia.com/india/news/2026/nse-deploys-direct-to-chip-liquid-cooling-for-ai-workloads-plans-expansion-to-224-gpus",
-      "channel": "technology",
+      "title": "Data Center Cooling Market to Reach US$ 42 Bn by 2031, Growing at 16.5% CAGR as AI Racks Push Cooling From Air to Liquid: Wissen Research",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/data-center-cooling-market-to-reach-us-42-bn-by-2031--growing-at-16-5-cagr-as-ai-racks-push-cooling-from-air-to-liquid-wissen-research-302936853.html",
+      "channel": "product",
       "note": "",
-      "image": "https://www.millenniumpost.in/images/logo.png"
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Data center free cooling: running chillers only when needed",
-      "source": "DCD",
-      "url": "https://www.datacenterdynamics.com/en/whitepapers/data-center-free-cooling-running-chillers-only-when-needed/",
-      "channel": "technology",
-      "note": "A guide to trim chilling, and how CDU approach and supply temperature set your chiller hours",
-      "image": "https://media.datacenterdynamics.com/media/images/NautilusDT_Free_Cooling_WhitePaper.2e16d0ba.fill-750x500.jpg"
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Shell and FAW Trucks are testing an immersion cooling battery that bathes truck cells in liquid, and Shell says early results point to potential climbing gains of up to 98 percent, pending final validation",
-      "source": "ECOticias.com",
-      "url": "https://www.ecoticias.com/en/shell-and-faw-trucks-are-testing-an-immersion-cooling-battery-that-bathes-truck-cells-in-liquid-and-shell-says-early-results-point-to-potential-climbing-gains-of-up-to-98-percent-pending-final-valid/53943/",
-      "channel": "technology",
-      "note": "",
-      "image": "https://www.ecoticias.com/en/wp-content/uploads/2026/11/shell-starship-hybrid-concept-truck.jpg"
-    },
-    {
-      "date": "2026-11-11",
-      "title": "Q&A | Liquid cooling is changing how we design, and deploy the entire rack: Matt McGuff, Jabil",
-      "source": "W.Media",
-      "url": "https://w.media/qa-liquid-cooling-is-changing-how-we-design-and-deploy-the-entire-rack-matt-mcguff-jabil/",
-      "channel": "technology",
-      "note": "",
-      "image": "https://w.media/wp-content/uploads/2026/11/QA-with-Matt-CGuff-Jabil-1024x536.png"
+      "image": "https://mmx.prnewswire.com/media/MS1837774/Wissen-Research-Logo.jpg?id=OA3072933&amp;p=facebook"
     },
     {
       "date": "2026-11-11",
@@ -282,38 +358,48 @@
     },
     {
       "date": "2026-11-11",
-      "title": "Data Center Cooling Market to Reach US$ 42 Bn by 2031, Growing at 16.5% CAGR as AI Racks Push Cooling From Air to Liquid: Wissen Research",
-      "source": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/data-center-cooling-market-to-reach-us-42-bn-by-2031--growing-at-16-5-cagr-as-ai-racks-push-cooling-from-air-to-liquid-wissen-research-302936853.html",
-      "channel": "product",
-      "note": "",
-      "image": "https://mmx.prnewswire.com/media/MS1837774/Wissen-Research-Logo.jpg?id=OA3072933&amp;p=facebook"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Why AI Data Centres Need Better Coolant Visibility",
-      "source": "Data Centre Magazine",
-      "url": "https://datacentremagazine.com/news/why-ai-data-centres-need-better-coolant-visibility",
-      "channel": "technology",
-      "note": ""
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Data centre liquid cooling needs standardised commissioning",
-      "source": "ET Datacenters",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/data-centre-liquid-cooling-needs-standardised-commissioning/135696665",
-      "channel": "standards",
-      "note": "",
-      "image": "https://etimg.etb2bimg.com/thumb/msid-135696665,imgsize-450005,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/data-centre-liquid-cooling-needs-standardised-commissioning.jpg"
-    },
-    {
-      "date": "2026-11-10",
-      "title": "Clean the Sky - PFAS-Free Data Center Coolants",
-      "source": "Trend Hunter",
-      "url": "https://www.cleanthesky.com/innovation/pfasfree-data-center-coolants",
+      "title": "Q&A | Liquid cooling is changing how we design, and deploy the entire rack: Matt McGuff, Jabil",
+      "source": "W.Media",
+      "url": "https://w.media/qa-liquid-cooling-is-changing-how-we-design-and-deploy-the-entire-rack-matt-mcguff-jabil/",
       "channel": "technology",
       "note": "",
-      "image": "https://cdn.trendhunterstatic.com/thumbs/652/pfasfree-data-center-coolants.jpeg"
+      "image": "https://w.media/wp-content/uploads/2026/11/QA-with-Matt-CGuff-Jabil-1024x536.png"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Shell and FAW Trucks are testing an immersion cooling battery that bathes truck cells in liquid, and Shell says early results point to potential climbing gains of up to 98 percent, pending final validation",
+      "source": "ECOticias.com",
+      "url": "https://www.ecoticias.com/en/shell-and-faw-trucks-are-testing-an-immersion-cooling-battery-that-bathes-truck-cells-in-liquid-and-shell-says-early-results-point-to-potential-climbing-gains-of-up-to-98-percent-pending-final-valid/53943/",
+      "channel": "technology",
+      "note": "",
+      "image": "https://www.ecoticias.com/en/wp-content/uploads/2026/11/shell-starship-hybrid-concept-truck.jpg"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Data center free cooling: running chillers only when needed",
+      "source": "DCD",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/data-center-free-cooling-running-chillers-only-when-needed/",
+      "channel": "technology",
+      "note": "A guide to trim chilling, and how CDU approach and supply temperature set your chiller hours",
+      "image": "https://media.datacenterdynamics.com/media/images/NautilusDT_Free_Cooling_WhitePaper.2e16d0ba.fill-750x500.jpg"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "NSE deploys direct-to-chip liquid cooling for AI workloads, plans expansion to 224 GPUs",
+      "source": "CRN Asia",
+      "url": "https://www.crnasia.com/india/news/2026/nse-deploys-direct-to-chip-liquid-cooling-for-ai-workloads-plans-expansion-to-224-gpus",
+      "channel": "technology",
+      "note": "",
+      "image": "https://www.millenniumpost.in/images/logo.png"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Waterloo team cools chip hotspots with single coolant drops",
+      "source": "Bioengineer.org",
+      "url": "https://bioengineer.org/waterloo-team-cools-chip-hotspots-with-single-coolant-drops/",
+      "channel": "technology",
+      "note": "",
+      "image": "https://bioengineer.org/wp-content/uploads/2026/11/stackrss-featured-2763.png"
     },
     {
       "date": "2026-11-10",
@@ -326,48 +412,37 @@
     },
     {
       "date": "2026-11-10",
-      "title": "Waterloo team cools chip hotspots with single coolant drops",
-      "source": "Bioengineer.org",
-      "url": "https://bioengineer.org/waterloo-team-cools-chip-hotspots-with-single-coolant-drops/",
+      "title": "Clean the Sky - PFAS-Free Data Center Coolants",
+      "source": "Trend Hunter",
+      "url": "https://www.cleanthesky.com/innovation/pfasfree-data-center-coolants",
       "channel": "technology",
       "note": "",
-      "image": "https://bioengineer.org/wp-content/uploads/2026/11/stackrss-featured-2763.png"
+      "image": "https://cdn.trendhunterstatic.com/thumbs/652/pfasfree-data-center-coolants.jpeg"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Data centre liquid cooling needs standardised commissioning",
+      "source": "ET Datacenters",
+      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/data-centre-liquid-cooling-needs-standardised-commissioning/135696665",
+      "channel": "standards",
+      "note": "",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-135696665,imgsize-450005,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/data-centre-liquid-cooling-needs-standardised-commissioning.jpg"
+    },
+    {
+      "date": "2026-11-10",
+      "title": "Why AI Data Centres Need Better Coolant Visibility",
+      "source": "Data Centre Magazine",
+      "url": "https://datacentremagazine.com/news/why-ai-data-centres-need-better-coolant-visibility",
+      "channel": "technology",
+      "note": ""
     },
     {
       "date": "2026-11-09",
-      "title": "Data Center Cooling CDU Pumps Market to Reach USD 5,500.47",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/11/09/3398282/0/en/data-center-cooling-cdu-pumps-market-to-reach-usd-5-500-47-million-by-2035-as-ai-racks-move-to-liquid-cooling-and-megawatt-scale-cdus.html",
+      "title": "Airsys Expands Global Leadership Team With Six Executive Appointments to Support AI Data Center Cooling Growth",
+      "source": "citybiz",
+      "url": "https://www.citybiz.co/article/931532/airsys-expands-global-leadership-team-with-six-executive-appointments-to-support-ai-data-center-cooling-growth/",
       "channel": "product",
-      "note": "",
-      "image": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "NSE rolls out direct-to-chip liquid cooling to scale AI computing capabilities; plans to scale GPU capacit",
-      "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-rolls-out-direct-to-chip-liquid-cooling-to-scale-ai-computing-capabilities-plans-to-scale-gpu-capacity-beyond-80-this-quarter/articleshow/135676358.cms?from=mdr",
-      "channel": "technology",
-      "note": "",
-      "image": "https://img.etimg.com/thumb/msid-135676480,width-1200,height-900,imgsize-6096018,overlay-etmarkets/articleshow.jpg"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "Digital Realty launches liquid cooling lab in São Paulo, Brazil",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-launches-liquid-cooling-lab-in-s%C3%A3o-paulo-brazil/",
-      "channel": "product",
-      "note": "",
-      "image": "https://media.datacenterdynamics.com/media/images/digital_realty_dril_brazil.2e16d0ba.fill-1200x630.png"
-    },
-    {
-      "date": "2026-11-09",
-      "title": "NSE deploys direct-to-chip liquid cooling to support AI workloads; check key details",
-      "source": "Business Today",
-      "url": "https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09",
-      "channel": "technology",
-      "note": "",
-      "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6af1a23eb210d-nse-said-the-initiative-is-part-of-its-effort-to-build-scalable-and-resilient-technology-infrastruct-093645313-16x9.jpg"
+      "note": ""
     },
     {
       "date": "2026-11-09",
@@ -380,11 +455,39 @@
     },
     {
       "date": "2026-11-09",
-      "title": "Airsys Expands Global Leadership Team With Six Executive Appointments to Support AI Data Center Cooling Growth",
-      "source": "citybiz",
-      "url": "https://www.citybiz.co/article/931532/airsys-expands-global-leadership-team-with-six-executive-appointments-to-support-ai-data-center-cooling-growth/",
+      "title": "NSE deploys direct-to-chip liquid cooling to support AI workloads; check key details",
+      "source": "Business Today",
+      "url": "https://www.businesstoday.in/markets/trending-stocks/story/nse-deploys-direct-to-chip-liquid-cooling-to-support-ai-workloads-check-key-details-566521-2026-11-09",
+      "channel": "technology",
+      "note": "",
+      "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202611/6af1a23eb210d-nse-said-the-initiative-is-part-of-its-effort-to-build-scalable-and-resilient-technology-infrastruct-093645313-16x9.jpg"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Digital Realty launches liquid cooling lab in São Paulo, Brazil",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-launches-liquid-cooling-lab-in-s%C3%A3o-paulo-brazil/",
       "channel": "product",
-      "note": ""
+      "note": "",
+      "image": "https://media.datacenterdynamics.com/media/images/digital_realty_dril_brazil.2e16d0ba.fill-1200x630.png"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "NSE rolls out direct-to-chip liquid cooling to scale AI computing capabilities; plans to scale GPU capacit",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-rolls-out-direct-to-chip-liquid-cooling-to-scale-ai-computing-capabilities-plans-to-scale-gpu-capacity-beyond-80-this-quarter/articleshow/135676358.cms?from=mdr",
+      "channel": "technology",
+      "note": "",
+      "image": "https://img.etimg.com/thumb/msid-135676480,width-1200,height-900,imgsize-6096018,overlay-etmarkets/articleshow.jpg"
+    },
+    {
+      "date": "2026-11-09",
+      "title": "Data Center Cooling CDU Pumps Market to Reach USD 5,500.47",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/11/09/3398282/0/en/data-center-cooling-cdu-pumps-market-to-reach-usd-5-500-47-million-by-2035-as-ai-racks-move-to-liquid-cooling-and-megawatt-scale-cdus.html",
+      "channel": "product",
+      "note": "",
+      "image": "https://ml.globenewswire.com/Resource/Download/01eb1f79-0c67-420b-b423-376619f975cd"
     },
     {
       "date": "2026-11-09",
@@ -406,21 +509,12 @@
     },
     {
       "date": "2026-11-05",
-      "title": "Garrett Motion to Supply Oil-Free Compressors for Data Center Cooling in Asia-Pacific",
-      "source": "Refindustry",
-      "url": "https://refindustry.com/news/garrett-motion-to-supply-oil-free-compressors-for-data-center-cooling-in-asia-pacific/",
-      "channel": "technology",
+      "title": "Chemours releases two fluids for two-phase liquid cooling",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/chemours-releases-two-fluids-for-two-phase-liquid-cooling/",
+      "channel": "product",
       "note": "",
-      "image": "https://refindustry.com/wp-content/uploads/2026/11/Garrett-Motion-to-Supply-Oil-Free-Compressors-for-Data-Center-Cooling-in-Asia-Pacific.jpg"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035",
-      "source": "Global Market Insights Inc.",
-      "url": "https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.gminsights.com/cdn-cgi/image/fit=scale-down,format=webp,quality=60,width=1200/image/rd/semiconductors-and-electronics/ai-data-center-liquid-cooling-market-size-by-component-2025-and-2035-usd-billion.webp"
+      "image": "https://media.datacenterdynamics.com/media/images/assets_MS2024766_000001_Chemours-.2e16d0ba.fill-1200x630.png"
     },
     {
       "date": "2026-11-05",
@@ -430,102 +524,6 @@
       "channel": "product",
       "note": "",
       "image": "https://www.hpcwire.com/wp-content/uploads/2026/11/the_chemours_company.png"
-    },
-    {
-      "date": "2026-11-05",
-      "title": "Chemours releases two fluids for two-phase liquid cooling",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/chemours-releases-two-fluids-for-two-phase-liquid-cooling/",
-      "channel": "product",
-      "note": "",
-      "image": "https://media.datacenterdynamics.com/media/images/assets_MS2024766_000001_Chemours-.2e16d0ba.fill-1200x630.png"
-    },
-    {
-      "date": "2026-11-04",
-      "title": "Does Nvidia's liquid cooling make data centers use less water?",
-      "source": "Bing News",
-      "url": "https://www.msn.com/en-us/news/other/does-nvidias-liquid-cooling-make-data-centers-use-less-water/ar-AA2gKGI8",
-      "channel": "product",
-      "note": "Nvidia announced it's greatly improved water usage for its data centers with liquid cooling. But that doesn't mean it's solved the looming energy crisis."
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Why flow measurement is emerging as a critical design consideration in liquid cooled data centers",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/opinions/why-flow-measurement-is-emerging-as-a-critical-design-consideration-in-liquid-cooled-data-centers/",
-      "channel": "technology",
-      "note": "",
-      "image": "https://media.datacenterdynamics.com/media/images/My_Portrait.0a4b6476.fill-1200x630.jpg"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Liquid cooling demands new data centre measurement standards",
-      "source": "ET Datacenters",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-demands-new-data-centre-measurement-standards/135505806",
-      "channel": "standards",
-      "note": "",
-      "image": "https://etimg.etb2bimg.com/thumb/msid-135505806,imgsize-503976,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/liquid-cooling-demands-new-data-centre-measurement-standards.jpg"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Liquid cooling retrofits complex for existing data centers",
-      "source": "ET Datacenters",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers/135479076",
-      "channel": "technology",
-      "note": "",
-      "image": "https://etimg.etb2bimg.com/thumb/msid-135479076,imgsize-469782,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/liquid-cooling-retrofits-complex-for-existing-data-centers.jpg"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Data Center Liquid Cooling Fluids Market to Reach USD 4.05",
-      "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4679980/data-center-liquid-cooling-fluids-market-to-reach-usd-4-05",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.open-pr.com/L/b/Lb03160098_g.jpg"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Liquid Cooling Is Changing What Data Centers Need to Measure",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/cooling/liquid-cooling-is-changing-what-data-centers-need-to-measure",
-      "channel": "technology",
-      "note": "",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/bltde767004205f0310/6ae8caaf60521853fb43abcd/Closeup_of_high-performance_gpu_servers_with_liquid_cooling_and_ai_processing_units.png?disable=upscale&width=1200&height=630&fit=crop"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Data Center Cooling in 2026: Why the Future Isn't Air vs. Liquid, It's Air and Liquid",
-      "source": "Bing News",
-      "url": "https://www.datacenterfrontier.com/sponsored/article/55416205/data-center-cooling-in-2026-why-the-future-isnt-air-vs-liquid-its-air-and-liquid",
-      "channel": "technology",
-      "note": "Tom Carroll of ebm-papst Americas discusses the cooling trends shaping the next generation of AI-ready facilities."
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Chemours unveils liquid cooling solution for high-performance computing, data centers",
-      "source": "Bing News",
-      "url": "https://www.msn.com/en-us/technology/cloud-computing/chemours-unveils-liquid-cooling-solution-for-high-performance-computing-data-centers/ar-AA2gFEo8",
-      "channel": "product",
-      "note": "The rapid expansion of artificial intelligence (AI) has triggered a surge in high-performance computing ...",
-      "image": "https://s.yimg.com/lo/mysterio/api/be4ca5eb141d09f5eda28e0c6beb58d303d142cbe73a06544f0478c5d315aa4c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finteresting_engineering_646%2F6e80a4b3bf5696004092fa0dc106ff82.jpg"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Accelsius Provides Two-Phase Direct-to-Chip Cooling to Support NSF ES2 Energy Efficiency Research at Villanova University",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/energy/articles/accelsius-provides-two-phase-direct-130000217.html",
-      "channel": "technology",
-      "note": ""
-    },
-    {
-      "date": "2026-11-02",
-      "title": "Chemours launches HFO-based two-phase cooling fluids",
-      "source": "Cooling Post",
-      "url": "https://www.coolingpost.com/world-news/chemours-launches-hfo-based-two-phase-cooling-fluids/",
-      "channel": "product",
-      "note": "",
-      "image": "https://www.coolingpost.com/wp-content/uploads/2025/03/chemours_ntt-hibaya_opteon-2p50-product-trial-websize.jpg"
     }
   ],
   "milestones": [
