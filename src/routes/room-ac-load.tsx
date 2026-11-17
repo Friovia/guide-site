@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -47,6 +48,8 @@ function RoomAcPage() {
         <b>1.1 × the IT load</b>: a 30 kW rack needs ≈ 33 kW ≈ 9.4 refrigeration tons of cooling
         in the room. Liquid cooling moves heat; it does not destroy it.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">P<sub>AC</sub> [kW] ≈ 1.1 × P<sub>IT</sub> [kW]&nbsp;&nbsp;→&nbsp;&nbsp;tons = P<sub>AC</sub> / 3.517</div>

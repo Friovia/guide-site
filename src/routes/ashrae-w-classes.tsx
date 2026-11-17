@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -46,6 +47,8 @@ function WClassesPage() {
         Higher classes reject heat into warmer water, enabling chiller-free operation — if the IT
         hardware supports it.
       </p>
+
+      <PageToc />
 
       <h2>The table</h2>
       <figure className="fig" style={{ marginInline:"0" }}>

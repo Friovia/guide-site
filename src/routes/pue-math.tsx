@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -46,6 +47,8 @@ function PuePage() {
         Liquid cooling reaches 1.05-1.2 where air needs 1.4-1.6 — but the number assumes
         facility-scale infrastructure and honest climate, which single-cabinet deployments don't have.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">PUE = (P<sub>IT</sub> + P<sub>cooling</sub> + P<sub>power loss</sub> + P<sub>misc</sub>) / P<sub>IT</sub></div>

@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { seoHead } from '~/lib/seo'
+import { PageToc } from '~/components/PageToc'
 
 export const Route = createFileRoute('/changelog')({
   head: () => ({
@@ -17,6 +18,8 @@ function ChangelogPage() {
     <main className="container" style={{ padding: '40px 20px' }}>
       <h1>Changelog</h1>
       <p className="updated">Freshness log — data and articles are revised as products and standards change.</p>
+
+      <PageToc />
 
       <h2 style={{ marginTop: 24 }}>2026-10-12</h2>
       <ul>

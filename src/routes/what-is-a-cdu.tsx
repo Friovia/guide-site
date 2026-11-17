@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -52,6 +53,8 @@ function CduPage() {
         <img src="/img/ai/cdu-inrow.png" alt="In-row coolant distribution unit in a data center aisle" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — An in-row CDU between racks: pumps, heat exchanger and controls behind one service panel. AI-generated illustration (Z-Image Turbo) — representative, not a specific product. For the real thing, see the TSUBAME3.0 photo below.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>What it actually does</h2>
       <p>

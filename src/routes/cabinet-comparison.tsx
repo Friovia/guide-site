@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
 import data from '~/data/products.json'
+import { PageToc } from '~/components/PageToc'
 
 export const Route = createFileRoute('/cabinet-comparison')({
   ...pageRoute({
@@ -44,6 +45,8 @@ function CabinetComparisonPage() {
         </div>
         <figcaption><b>FIG. 1</b> — Rack-level cooling products for micro data centers, compiled {data.updated}. Per-row sources: vendor names link to manufacturer pages. Prices unpublished segment-wide (❌).</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>The gap</h2>
       <p style={{ maxWidth:"700px" }}>{data.gap_statement}</p>

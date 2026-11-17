@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -56,6 +57,8 @@ function RfqPage() {
         </table>
         <figcaption><b>FIG. 1</b> — Twelve lines that make two quotes comparable. Items 1, 4 and 12 are where most "mysterious" price gaps live.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>How to run it</h2>
       <ul>

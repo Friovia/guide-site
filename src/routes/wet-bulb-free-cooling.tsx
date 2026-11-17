@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -52,6 +53,8 @@ function WetBulbPage() {
         <img src="/img/ai/drycooler-roof.png" alt="Industrial dry coolers with axial fans on a building roof" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Where facility heat lands: rooftop dry coolers. Their output tracks the weather — wet-bulb decides how cold "cold" gets. AI-generated illustration (Z-Image Turbo) — representative, not a specific site.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">T<sub>sink,min</sub> ≈ T<sub>wet-bulb</sub> + 6 K (tower)&nbsp;&nbsp;·&nbsp;&nbsp;dry cooler: T<sub>wb</sub> → T<sub>dry-bulb</sub> + ~10 K</div>

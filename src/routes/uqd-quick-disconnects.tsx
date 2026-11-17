@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -40,6 +41,8 @@ function UqdPage() {
         <img src="/img/ai/uqd-coupling.png" alt="Macro photograph of dripless quick-disconnect coolant couplings" loading="lazy" style={{ width:"100%", maxWidth:"620px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Dripless quick disconnects up close: the valved halves that close on separation. AI-generated illustration (Z-Image Turbo) — representative, not a specific product.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>The size table</h2>
       <figure className="fig" style={{ marginInline:"0" }}>

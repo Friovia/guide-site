@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
 import { ChainCanvas } from '~/components/ChainCanvas'
 import data from '~/data/vendors.json'
+import { PageToc } from '~/components/PageToc'
 
 const companyCount = data.segments.reduce((n, s) => n + s.companies.length, 0)
 
@@ -57,6 +58,8 @@ function SupplyChainPage() {
 
       {data.segments.map(s => (
         <section key={s.id} id={s.id} style={{ marginTop:"36px" }}>
+          <PageToc />
+
           <h2 style={{ marginBottom:"4px" }}>{s.label}</h2>
           <p className="src" style={{ marginTop:"0" }}>{s.note}</p>
           <figure className="fig" style={{ marginInline:"0" }}>

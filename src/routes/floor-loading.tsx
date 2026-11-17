@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -47,6 +48,8 @@ function FloorPage() {
         five times a typical office floor's design load (~3 kN/m²). In hospitals, offices and
         renovated buildings, this check comes before any cooling math.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">load [kN/m²] = m [kg] × 9.81 / (w [m] × d [m])&nbsp;&nbsp;·&nbsp;&nbsp;1 kN/m² ≈ 102 kg/m²</div>

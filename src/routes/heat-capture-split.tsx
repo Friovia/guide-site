@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -48,6 +49,8 @@ function CapturePage() {
         P<sub>liquid</sub> = capture × P<sub>IT</sub>. A 40 kW rack at 75% capture sends
         30 kW to liquid and 10 kW to air — and the air share still needs the room to remove it.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">P<sub>liquid</sub> [kW] = capture × P<sub>IT</sub> [kW]&nbsp;&nbsp;·&nbsp;&nbsp;P<sub>air</sub> = (1 − capture) × P<sub>IT</sub></div>

@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
 import { LoopSim } from '~/components/LoopSim'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -55,6 +56,8 @@ function WhatIsPage() {
           </p>
         </div>
       </div>
+
+      <PageToc />
 
       <h2>The one-sentence version</h2>
       <p>

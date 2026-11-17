@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
 import news from '~/data/news.json'
+import { PageToc } from '~/components/PageToc'
 
 const channels = [
   { id: 'all', label: 'All' },
@@ -49,6 +50,8 @@ function NewsPage() {
         Facts policy applies — <b>every item links to its source; nothing is invented</b>.
         The curated timeline below is the durable view; dated items rotate.
       </p>
+
+      <PageToc />
 
       <h2>Milestones — the industry so far</h2>
       <figure className="fig" style={{ marginInline:"0" }}>

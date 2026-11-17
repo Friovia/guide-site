@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -49,6 +50,8 @@ function SiteSurveyPage() {
         </table>
         <figcaption><b>FIG. 1</b> — The six-point survey. Items 1, 3 and 5 fail most often in offices and clinics.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>Climate check</h2>
       <p style={{ maxWidth:"680px" }}>

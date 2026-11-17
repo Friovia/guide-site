@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -53,6 +54,8 @@ function ColdPlateVsImmersionPage() {
         <img src="/img/ai/immersion-tank.webp" alt="Immersion cooling tank with server blades submerged in clear dielectric fluid" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Single-phase immersion: blades bathed in dielectric fluid. AI-generated illustration (Z-Image Turbo) — representative, not a specific product; real systems photographed below.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>How each works</h2>
       <p>

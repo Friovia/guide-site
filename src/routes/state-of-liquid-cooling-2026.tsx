@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -46,6 +47,8 @@ function State2026Page() {
           </p>
         </div>
       </div>
+
+      <PageToc />
 
       <h2>The power cliff became a plateau</h2>
       <p style={{ maxWidth:"680px" }}>

@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -56,6 +57,8 @@ function VsAirPage() {
         <img src="/img/ai/dc-hall.png" alt="Data center hall with rows of tall server racks" loading="lazy" style={{ width:"100%", maxWidth:"680px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — The room every kW has to leave: rack rows and the air that carries (or fails to carry) the heat. AI-generated illustration (Z-Image Turbo) — representative, not a specific facility.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>The honest answer about "when liquid becomes necessary"</h2>
       <p>

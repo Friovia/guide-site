@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -52,6 +53,8 @@ function PressurePage() {
         ≈ 20 kPa over 3 m</b> (f = 0.035). If the loop's total drop exceeds the CDU's available head,
         flow falls below the formula on paper — and the rack overheats on a Friday afternoon.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">ΔP = f × (L / D) × (ρ × v² / 2)&nbsp;&nbsp;·&nbsp;&nbsp;v = Q / A</div>

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -48,6 +49,8 @@ function ApproachPage() {
         linearly with it — which is why a cabinet rated 86.5 kW at 45 °C coolant / 25 °C air
         (Vertiv XDU070) delivers about half at 35 °C air.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">capacity ≈ rated × (approach / approach<sub>rated</sub>)&nbsp;&nbsp;·&nbsp;&nbsp;approach ≤ 5 °C → ≈ 0</div>

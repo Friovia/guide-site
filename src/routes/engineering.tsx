@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { seoHead, articleJsonLd, jsonLdHead } from '~/lib/seo'
+import { PageToc } from '~/components/PageToc'
 
 export const Route = createFileRoute('/engineering')({
   head: () => ({
@@ -40,6 +41,8 @@ function EngineeringPage() {
         the same derivations the configurator on
         <a href="https://friovia.com" rel="noopener">friovia.com</a> runs.
       </p>
+
+      <PageToc />
 
       <h2>Load &amp; flow</h2>
       <ChanList items={[

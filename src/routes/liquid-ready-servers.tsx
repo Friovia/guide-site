@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -52,6 +53,8 @@ function LiquidReadyServersPage() {
         <img src="/img/ai/coldplate-macro.png" alt="Macro photograph of a copper cold plate with microchannel fins" loading="lazy" style={{ width:"100%", maxWidth:"640px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — What "cold plate coverage" means up close: microchannels and coolant ports. AI-generated illustration (Z-Image Turbo) — representative, not a specific product.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>The five checks</h2>
       <table>

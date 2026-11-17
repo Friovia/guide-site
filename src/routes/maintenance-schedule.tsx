@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -51,6 +52,8 @@ function MaintenancePage() {
         </table>
         <figcaption><b>FIG. 1</b> — Default intervals. Trend matters more than thresholds: a clean absolute number that is drifting is a failing system.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>The three failures this schedule catches</h2>
       <ul>

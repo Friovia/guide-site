@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -34,6 +35,8 @@ function CommissioningPage() {
         fill, verify flow and ΔT against the calculated values, prove leak detection, then ramp
         load</b>. Acceptance is measured numbers against the RFQ, not a handshake.
       </p>
+
+      <PageToc />
 
       <h2>The sequence</h2>
       <figure className="fig" style={{ marginInline:"0" }}>

@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -47,6 +48,8 @@ function StandardsPage() {
           </p>
         </div>
       </div>
+
+      <PageToc />
 
       <h2>The map</h2>
       <table>

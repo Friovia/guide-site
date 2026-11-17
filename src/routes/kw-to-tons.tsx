@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -39,6 +40,8 @@ function KwToTonsPage() {
         One refrigeration ton equals <b>3.517 kW</b> of heat removal — converting is just division:
         <b>tons = kW ÷ 3.517</b>. A 70 kW cooling load is ≈ 19.9 tons.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">tons = kW ÷ 3.517&nbsp;&nbsp;·&nbsp;&nbsp;kW = tons × 3.517&nbsp;&nbsp;·&nbsp;&nbsp;1 ton = 12,000 BTU/h</div>

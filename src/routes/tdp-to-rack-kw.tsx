@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -53,6 +54,8 @@ function TdpPage() {
         <img src="/img/ai/gpu-board.png" alt="GPU accelerator board with copper cold plates over the processors" loading="lazy" style={{ width:"100%", maxWidth:"620px", display:"block", border:"1px solid var(--rule)" }} />
         <figcaption><b>PLATE 1</b> — Where the watts live: a accelerator board with cold plates over the big chips. AI-generated illustration (Z-Image Turbo) — representative, not a specific product.</figcaption>
       </figure>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">P<sub>node</sub> ≈ (Σ P<sub>GPU</sub> + Σ P<sub>CPU</sub>) × 1.2&nbsp;&nbsp;·&nbsp;&nbsp;P<sub>rack</sub> = N × P<sub>node</sub></div>

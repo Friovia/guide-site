@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { pageRoute } from '~/lib/page'
+import { PageToc } from '~/components/PageToc'
 
 const faqs = [
   {
@@ -46,6 +47,8 @@ function FlowPage() {
         temperature drop: <b>P kW at ΔT °C needs P × 60 / (4.186 × ΔT) L/min</b> —
         50 kW of liquid-captured heat at ΔT 8 °C needs 89.6 L/min.
       </p>
+
+      <PageToc />
 
       <h2>Formula</h2>
       <div className="formula">flow [L/min] = P<sub>liquid</sub> [kW] × 60 / (4.186 × ΔT [°C])</div>
