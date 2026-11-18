@@ -5,7 +5,10 @@
     {
       "slug": "coolit-systems",
       "name": "CoolIT Systems",
-      "segments": ["cold-plates", "cdus"],
+      "segments": [
+        "cold-plates",
+        "cdus"
+      ],
       "tagline": "Direct liquid cooling specialist — liquid-to-liquid and liquid-to-air CDUs, cold plates and rack manifolds; its DLC technology cools the Frontier exascale supercomputer.",
       "hq": "Calgary, Alberta, Canada",
       "founded": 2001,
@@ -70,7 +73,10 @@
     {
       "slug": "asetek",
       "name": "Asetek",
-      "segments": ["cold-plates", "cdus"],
+      "segments": [
+        "cold-plates",
+        "cdus"
+      ],
       "tagline": "Danish pioneer of warm-water direct-to-chip server cooling — integrated pump-and-cold-plate D2C coolers plus the InRackCDU (up to 80 kW/rack); its data center hardware line is now listed as heritage technology after the 2021 HPC exit.",
       "hq": "Aalborg, Denmark",
       "founded": 1997,
@@ -124,7 +130,10 @@
     {
       "slug": "boyd-corporation",
       "name": "Boyd Corporation",
-      "segments": ["cold-plates", "cdus"],
+      "segments": [
+        "cold-plates",
+        "cdus"
+      ],
       "tagline": "Thermal-management veteran — 5M+ liquid cold plates delivered to hyperscalers, rack manifolds and megawatt-class CDUs; its thermal business is now part of Eaton.",
       "hq": "Boca Raton, Florida, USA (current official site; pre-divestiture sources list Modesto, CA)",
       "founded": 1928,
@@ -184,7 +193,9 @@
     {
       "slug": "motivair",
       "name": "Motivair",
-      "segments": ["cdus"],
+      "segments": [
+        "cdus"
+      ],
       "tagline": "Data center liquid cooling specialist (now 'Motivair by Schneider Electric') — CDUs up to 3.5 MW, dynamic cold plates, ChilledDoor rear-door heat exchangers and chillers; its CDUs cool six of the world's top ten supercomputers.",
       "hq": "Lancaster (Buffalo), New York, USA",
       "founded": 1988,
@@ -244,7 +255,11 @@
     {
       "slug": "vertiv",
       "name": "Vertiv",
-      "segments": ["cdus", "integrators", "micro-dc"],
+      "segments": [
+        "cdus",
+        "integrators",
+        "micro-dc"
+      ],
       "tagline": "Critical-infrastructure vendor whose CoolChip CDU line (70 kW to 2,300 kW, liquid-to-air and liquid-to-liquid) distributes coolant for direct-to-chip and rear-door cooling in AI data centers.",
       "hq": "Westerville, Ohio, USA",
       "founded": 1946,
@@ -304,7 +319,9 @@
     {
       "slug": "delta-electronics",
       "name": "Delta Electronics",
-      "segments": ["cdus"],
+      "segments": [
+        "cdus"
+      ],
       "tagline": "Power and thermal management supplier offering chip-to-system liquid cooling for AI data centers — GoCool liquid-to-liquid and liquid-to-air CDUs, cold plates and two-phase immersion.",
       "hq": "Taipei, Taiwan",
       "founded": 1971,
@@ -357,9 +374,364 @@
       ]
     },
     {
+      "slug": "nvent",
+      "name": "nVent",
+      "segments": [
+        "cdus",
+        "interconnects"
+      ],
+      "tagline": "Electrical infrastructure supplier (nVent HOFFMAN / Schroff) whose liquid cooling portfolio spans in-rack to multi-megawatt CDUs, racks, manifolds and rear-door heat exchangers for AI/HPC.",
+      "hq": "London, England, UK (global HQ); St. Louis Park, Minnesota, USA (U.S. HQ)",
+      "founded": 2018,
+      "ownership": "NYSE: NVT (spun off from Pentair in 2018)",
+      "website": "https://www.nvent.com",
+      "productLines": [
+        {
+          "name": "RackChiller CDU800",
+          "note": "In-row liquid-to-liquid CDU rated 800+ kW at 4 K approach; 35\"W × 47\"D footprint, redundant pumps, 3-inch tri-clamp connections",
+          "source": "https://www.nvent.com/en-us/hoffman/rackchiller-cdu800-coolant-distribution-unit"
+        },
+        {
+          "name": "Project Deschutes Open CDU",
+          "note": "2 MW at 3 °C approach and 500 GPM, N+1 sealless pumps — built to Google's Deschutes 5.0 CDU specification; OCP Accepted",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/nvent-project-deschutes-open-cdu"
+        },
+        {
+          "name": "CX121 CDU",
+          "note": "Modular CDU up to 2.3 MW, unveiled at SC26, production starting late 2026",
+          "source": "https://www.globenewswire.com/news-release/2026/11/16/3404164/0/en/nvent-features-expanded-liquid-cooling-and-power-portfolio-at-sc26.html"
+        },
+        {
+          "name": "Liquid-to-Air Sidecar HRU",
+          "note": "Liquid-to-air CDU enabling liquid cooling for up to two racks without a facility water system",
+          "source": "https://www.nvent.com/en-us/data-solutions/liquid-air-coolant-distribution-units-existing-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Featured an expanded liquid cooling portfolio at SC26 including the 2.3 MW CX121 CDU, citing more than 4 GW of liquid cooling deployed",
+          "source": "https://www.globenewswire.com/news-release/2026/11/16/3404164/0/en/nvent-features-expanded-liquid-cooling-and-power-portfolio-at-sc26.html"
+        },
+        {
+          "year": "2026",
+          "text": "Expanded liquid cooling manufacturing capacity with a new 160,000 sq ft site for AI/HPC demand",
+          "source": "https://investors.nvent.com/press-releases/press-release-details/2026/nVent-Expands-Data-Center-Liquid-Capacity/default.aspx"
+        },
+        {
+          "year": "2025",
+          "text": "Unveiled a modular liquid cooling and power portfolio at SC25 and a joint reference architecture with Siemens",
+          "source": "https://investors.nvent.com/press-releases/press-release-details/2025/nVent-Unveils-New-Liquid-Cooling-and-Power-Portfolio-at-SC25"
+        }
+      ],
+      "ocp": "Project Deschutes Open CDU is OCP Accepted and listed in the OCP Marketplace, built to Google's Deschutes 5.0 specification.",
+      "faq": [
+        {
+          "q": "What is nVent's largest CDU?",
+          "a": "The CX121 modular CDU at up to 2.3 MW (unveiled SC26, production late 2026); shipping today the RackChiller CDU800 covers 800+ kW at 4 K approach, and the OCP-Accepted Project Deschutes Open CDU delivers 2 MW at 3 °C."
+        },
+        {
+          "q": "Does nVent have an OCP-accepted CDU?",
+          "a": "Yes — the Project Deschutes Open CDU (2 MW at 3 °C, 500 GPM, N+1 sealless pumps) is OCP Accepted, built to Google's Deschutes 5.0 specification."
+        }
+      ]
+    },
+    {
+      "slug": "rittal",
+      "name": "Rittal",
+      "segments": [
+        "interconnects",
+        "integrators"
+      ],
+      "tagline": "German enclosure and IT infrastructure maker — Liquid Cooling Package air/water heat exchangers plus water-based direct-to-chip CDUs from 70 kW to 1 MW.",
+      "hq": "Herborn, Hesse, Germany",
+      "founded": 1961,
+      "ownership": "Private — Rittal GmbH & Co. KG, largest company of the family-owned Friedhelm Loh Group",
+      "website": "https://www.rittal.com",
+      "productLines": [
+        {
+          "name": "Liquid Cooling Package (LCP Rack/Inline CW)",
+          "note": "Rack-mounted and inline air/water heat exchangers dissipating up to 60 kW per enclosure in closed-loop operation",
+          "source": "https://www.rittal.com/us_en/apps/download/img/uploads/LiquidCoolingPackageBrochure_US346-BR-TR_SingleWeb.pdf"
+        },
+        {
+          "name": "CDU In-Row (Direct Liquid Cooling)",
+          "note": "Rittal's most powerful CDU at 1 MW cooling output — water-based single-phase direct-to-chip, hot-swappable pumps, sensors and controller",
+          "source": "https://www.rittal.com/us-en_US/products/Direct-Liquid-Cooling"
+        },
+        {
+          "name": "CDU In-Rack (Direct Liquid Cooling)",
+          "note": "150 kW liquid-to-liquid in-rack CDU fed from the building water supply",
+          "source": "https://www.rittal.com/us-en_US/products/Direct-Liquid-Cooling"
+        },
+        {
+          "name": "Rear door heat exchanger with coolant circulation unit",
+          "note": "70 kW liquid-to-air rear-door heat exchanger (water/glycol), for single racks or medium-density rooms",
+          "source": "https://www.rittal.com/us-en_US/products/Direct-Liquid-Cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "1 MW modular CDU using water-based direct liquid cooling, designed following OCP Open Rack V3 (ORv3) principles, profiled for AI data centers",
+          "source": "https://www.cablinginstall.com/data-center/press-release/55273786/1-mw-modular-cooling-unit-for-ai-data-centers"
+        },
+        {
+          "year": "2024",
+          "text": "Presented the >1 MW modular coolant distribution unit at OCP Global Summit 2024",
+          "source": "https://www.rittal.com/us-en_US/News/OCP-2024--Press-Release"
+        },
+        {
+          "year": "2024",
+          "text": "Announced development of megawatt-range water-based single-phase direct chip liquid cooling for AI power densities",
+          "source": "https://www.rittal.com/com-en/Company/Presse/Pressemeldungen/PI_DLC"
+        }
+      ],
+      "ocp": "Long-time OCP participant — DLC portfolio adapted to OCP architecture including a 100% OCP-compliant ORv3 rack; the 1+ MW CDU presented at OCP Global Summit 2024.",
+      "faq": [
+        {
+          "q": "What liquid cooling does Rittal offer?",
+          "a": "Two families: the classic LCP air/water heat exchangers (up to 60 kW per enclosure) for closed-loop rack cooling, and water-based direct-to-chip CDUs — 150 kW in-rack, 70 kW liquid-to-air rear-door, and a 1 MW in-row flagship designed along ORv3 principles."
+        },
+        {
+          "q": "Is Rittal's 1 MW CDU tied to OCP standards?",
+          "a": "Yes — Rittal presented the 1 MW modular CDU at OCP Global Summit 2024 and designs its DLC portfolio to OCP Open Rack V3 principles, including a 100% OCP-compliant ORv3 rack."
+        }
+      ]
+    },
+    {
+      "slug": "zutacore",
+      "name": "ZutaCore",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "HyperCool — waterless two-phase direct-to-chip cooling (dielectric fluid, boiling and condensation) for multi-kW AI processors.",
+      "hq": "San Jose, California, USA (R&D center in Israel)",
+      "founded": 2016,
+      "ownership": "Private (venture-funded; strategic investments from Wiwynn and Mitsubishi Heavy Industries)",
+      "website": "https://zutacore.com",
+      "productLines": [
+        {
+          "name": "HyperCool",
+          "note": "Waterless two-phase direct-to-chip platform: sealed-loop boiling/condensation with dielectric fluid; company states support for 4,000 W+ accelerators",
+          "source": "https://zutacore.com/"
+        },
+        {
+          "name": "OmniTherm cold plates",
+          "note": "Two-Phase Matrix Flow Boiling cold plates (pool-boiling stability with flow-boiling scalability), targeting reversed-orientation servers and back-side power delivery",
+          "source": "https://blog.zutacore.com/press-releases/zutacore-omnitherm-cold-plate-cooling-for-reversed-orientation"
+        },
+        {
+          "name": "Z2O",
+          "note": "Waterless architecture running one two-phase loop from cold plates to rooftop heat rejection (Munters SyCool dry coolers) — no CDU, no facility water; repeatable 625 kW IT block with modelled pPUE 1.03 and zero water",
+          "source": "https://blog.zutacore.com/press-releases/zutacore-unveils-z2o-zero-h2o-near-zero-cooling-e"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Unveiled Z2O at SC26 with launch partner Munters; first installation on ASRock Rack's NVIDIA HGX B300 server described as fully integrated waterless liquid cooling",
+          "source": "https://blog.zutacore.com/press-releases/zutacore-unveils-z2o-zero-h2o-near-zero-cooling-e"
+        },
+        {
+          "year": "2025",
+          "text": "Launched OmniTherm cold plates for reversed-orientation servers and back-side power delivery (Oct 14, 2025)",
+          "source": "https://blog.zutacore.com/press-releases/zutacore-omnitherm-cold-plate-cooling-for-reversed-orientation"
+        },
+        {
+          "year": "2024",
+          "text": "Wiwynn strategic partnership and investment; HyperCool demonstrated cooling a Wiwynn AI rack at 132 kW/rack with NVIDIA GB200 at Computex 2024",
+          "source": "https://zutacore.com/wiwynn-press-release"
+        }
+      ],
+      "ocp": "Says it helped lead development of the OCP Dielectric Coolant Fluid Base Specification v1.0; recurring OCP Global Summit participant.",
+      "faq": [
+        {
+          "q": "How is ZutaCore different from water-based direct-to-chip?",
+          "a": "HyperCool uses a dielectric fluid that boils and condenses in a sealed loop — no water at or near the silicon. Z2O extends that loop all the way to rooftop dry coolers (Munters SyCool), eliminating the CDU and facility water entirely in a repeatable 625 kW IT block the company models at pPUE 1.03."
+        },
+        {
+          "q": "What OCP specification did ZutaCore work on?",
+          "a": "The OCP Dielectric Coolant Fluid Base Specification v1.0 for two-phase dielectric heat-transfer fluids — ZutaCore says it helped lead its development."
+        }
+      ]
+    },
+    {
+      "slug": "jetcool",
+      "name": "JetCool",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Microconvective (microjet) direct-to-chip specialist — SmartPlate cold plates, SmartSense CDUs (up to 300 kW/rack) and vertically integrated rack cooling, now part of Flex.",
+      "hq": "Littleton, Massachusetts, USA",
+      "founded": 2019,
+      "ownership": "Subsidiary of Flex (NASDAQ: FLEX) since November 2024; slated for Flex's planned Axiom Solutions International spin-off (expected early 2027)",
+      "website": "https://jetcool.com",
+      "productLines": [
+        {
+          "name": "SmartPlate cold plates",
+          "note": "Microconvective/microjet direct-to-chip cold plates including hotspot-targeted embedded silicon cooling, for standard and custom silicon",
+          "source": "https://jetcool.com/"
+        },
+        {
+          "name": "SmartSense CDU",
+          "note": "6U rack-mounted liquid-to-liquid CDU rated up to 300 kW per rack (e.g. 300 kW at ~400 LPM, 7 °C approach), scalable to 1.8-2 MW+ per row",
+          "source": "https://jetcool.com/coolant-distribution-units-smartsense-cdu"
+        },
+        {
+          "name": "SmartPlate System (liquid-assisted air)",
+          "note": "Hybrid liquid-assisted air-cooled server line for facilities transitioning from air to liquid without infrastructure changes",
+          "source": "https://jetcool.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Flex announced its Cloud and Power Infrastructure business (including JetCool) will spin off as Axiom Solutions International — Form 10 filed, completion expected early 2027",
+          "source": "https://investors.flex.com/news/news-details/2026/Flex-Announces-New-Company-Name-for-the-Planned-Cloud-and-Power-Infrastructure-Spin-Off-and-Files-Form-10-Registration-Statement/default.aspx"
+        },
+        {
+          "year": "2025",
+          "text": "Launched the SmartSense CDU (April 29, 2025): up to 300 kW per rack, scaling to 2 MW+ row-level — highlighted at OCP EMEA Summit 2025",
+          "source": "https://jetcool.com/post/smartsense-coolant-distribution-unit-launch"
+        },
+        {
+          "year": "2024",
+          "text": "Flex acquired JetCool Technologies (Nov 14, 2024) to expand its data center and power portfolio",
+          "source": "https://investors.flex.com/news/news-details/2024/Flex-Acquires-JetCool-to-Expand-Data-Center-and-Power-Portfolio/default.aspx"
+        }
+      ],
+      "ocp": "JetCool and Flex showcased scalable rack-level liquid cooling (SmartSense CDU, live GPU cooling demos) at OCP EMEA Summit 2025.",
+      "faq": [
+        {
+          "q": "Who owns JetCool?",
+          "a": "Flex (NASDAQ: FLEX) acquired it in November 2024; Flex's Cloud and Power Infrastructure business — including JetCool — is planned to spin off as Axiom Solutions International, with Form 10 filed and completion expected early 2027. Verify the entity before contracting."
+        },
+        {
+          "q": "What is JetCool's SmartSense CDU capacity?",
+          "a": "Up to 300 kW per rack (6U liquid-to-liquid, ~400 LPM at 7 °C approach), scalable to 1.8-2 MW+ per row with multiple units."
+        }
+      ]
+    },
+    {
+      "slug": "daikin",
+      "name": "Daikin",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Global HVAC manufacturer building a full data-center liquid cooling stack — facility CDUs (400 kW-2.5 MW), Chilldyne negative-pressure direct-to-chip, and rack-to-ambient heat rejection.",
+      "hq": "Osaka, Japan",
+      "founded": 1924,
+      "ownership": "TYO: 6367",
+      "website": "https://www.daikin.com",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Unit range",
+          "note": "Facility CDU between FWS and TCS loops: 400 kW to 2.5 MW per unit, up to 10 units in parallel with centralized temperature/pressure control, AISI 316L stainless hydraulic circuit (press release states orderable from Nov 1, 2027, as published)",
+          "source": "https://www.daikin.eu/en_us/press-releases/daikin-ai-data-center-portfolio-expansion-new-coolant-distribution-unit.html"
+        },
+        {
+          "name": "Chilldyne CF-CDU300",
+          "note": "Patented negative-pressure (vacuum) direct-to-chip CDU for up to 300 kW of high-density servers — full system of CDU, manifold and cold plate, via Daikin Applied's Nov 2025 acquisition of Chilldyne",
+          "source": "https://chilldyne.com/cooling-distribution-unit-cdu-cf-cdu300"
+        },
+        {
+          "name": "D60-W AI Factory Reference Architecture",
+          "note": "60 MW rack-to-ambient cooling design for NVIDIA-platform AI factories — direct liquid cooling (~92% of thermal load per trade press), oil-free water-cooled chillers, dry coolers and waterside economization",
+          "source": "https://www.daikinapplied.com/industry-solutions/data-center-solutions/D60W-ai-factory-reference-architecture"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Introduced D60-W, a 60 MW AI factory cooling reference architecture built around NVIDIA platforms",
+          "source": "https://www.daikinapplied.com/daikin-blog/post/2026/11/10/daikin-applied-introduces-60-mw-ai-factory-cooling-reference-architecture"
+        },
+        {
+          "year": "2026",
+          "text": "Launched the CDU line (400 kW-2.5 MW per unit) with the iDCM platform extended to full data-hall management",
+          "source": "https://www.daikin.eu/en_us/press-releases/daikin-ai-data-center-portfolio-expansion-new-coolant-distribution-unit.html"
+        },
+        {
+          "year": "2025",
+          "text": "Daikin Applied acquired Chilldyne (announced Nov 4, 2025), adding negative-pressure direct-to-chip liquid cooling; also completed the acquisition of DDC Solutions (modular cooling cabinets) in August 2025",
+          "source": "https://www.prnewswire.com/news-releases/daikin-applied-expands-data-center-offering-with-acquisition-of-chilldyne-302603220.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacities does Daikin offer?",
+          "a": "The facility CDU line spans 400 kW to 2.5 MW per unit, with up to 10 units in parallel under centralized control. Via Chilldyne (acquired Nov 2025) it also offers the negative-pressure CF-CDU300 for up to 300 kW of direct-to-chip servers."
+        },
+        {
+          "q": "Why did Daikin acquire Chilldyne?",
+          "a": "Chilldyne's patented negative-pressure (vacuum) direct-to-chip system — CDU, manifold and cold plate — added a leak-tolerant DLC line to Daikin Applied's data center portfolio (announced November 2025)."
+        }
+      ]
+    },
+    {
+      "slug": "envicool",
+      "name": "Envicool",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Shenzhen-listed precision cooling leader — the Coolinside full-chain liquid cooling portfolio spans cold plates, manifolds, UQD/UQDB couplings, coolant and CDUs for high-density AI data centers.",
+      "hq": "Shenzhen, Guangdong, China",
+      "founded": 2005,
+      "ownership": "SZSE: 002837",
+      "website": "https://en.envicool.net",
+      "productLines": [
+        {
+          "name": "In-row liquid-to-air CDU (XCRow120WCA2H1)",
+          "note": "Rear-door fan + liquid-to-air heat exchanger for liquid-cooled servers with no facility water needed: 120 kW heat exchange capacity per cabinet, dual pumps, N+1 fans",
+          "source": "https://en.envicool.net/productinfo595/31.html"
+        },
+        {
+          "name": "In-rack liquid-to-liquid CDU",
+          "note": "4U rack-mount CDU with built-in plate heat exchanger: 15/30/80 kW per unit, 1+1 redundant pumps and power supplies — for small data centers and high-density racks",
+          "source": "https://en.envicool.net/productinfo70/33.html"
+        },
+        {
+          "name": "Deschutes 5 CDU",
+          "note": "OCP Accepted CDU built to Google's Deschutes 5 spec: 2 MW at 3 °C ATD, 500 GPM (1890 LPM), 80 PSI available pressure, N+1 sealless pumps",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/envicool-deschutes-5-cdu"
+        },
+        {
+          "name": "Coolinside full-chain components",
+          "note": "UQD/UQDB quick disconnects (OCP spec), SoluKing long-life coolant, manifolds, secondary loops, leak detection — plus modular immersion systems (immersion kW ratings: not published)",
+          "source": "https://en.envicool.net"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Reuters reports Google is in talks with Envicool and other Chinese firms about purchasing liquid cooling equipment for its data centers",
+          "source": "https://www.reuters.com/world/china/google-talks-with-chinas-envicool-others-buy-data-centre-cooling-systems-sources-2026-03-17"
+        },
+        {
+          "year": "2025",
+          "text": "Presented 'Envicool Full-Chain Liquid Cooling: 2GW+ Deployment Case Study' at the 2025 OCP Global Summit; its 2025 semi-annual report states the Coolinside line has been adopted by mainstream compute chip vendors",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224505163.pdf"
+        }
+      ],
+      "ocp": "OCP member with OCP Accepted products in the Marketplace: the Deschutes 5 CDU (Google spec) and Universal Quick Disconnect / blind-mate couplings; multi-GW full-chain case studies presented at the 2024 and 2025 OCP Global Summits.",
+      "faq": [
+        {
+          "q": "Does Envicool have an OCP-accepted CDU?",
+          "a": "Yes — the Deschutes 5 CDU: 2 MW at 3 °C ATD, 500 GPM, 80 PSI available pressure with N+1 sealless pumps, built to Google's Project Deschutes spec and OCP Accepted. Its UQD/UQDB couplings are also OCP-listed."
+        },
+        {
+          "q": "What does Envicool offer for sites without facility water?",
+          "a": "An in-row liquid-to-air CDU (XCRow120WCA2H1) with 120 kW heat exchange capacity per cabinet — dual pumps, N+1 fans, no facility water required — plus 15/30/80 kW in-rack liquid-to-liquid units for smaller rooms."
+        }
+      ]
+    },
+    {
       "slug": "staubli",
       "name": "Stäubli",
-      "segments": ["interconnects"],
+      "segments": [
+        "interconnects"
+      ],
       "tagline": "Swiss quick-disconnect specialist whose OCP-compliant UQD/UQDB dry-break couplings are a de-facto standard interface for direct-to-chip liquid cooling in AI data centers.",
       "hq": "Pfäffikon, Schwyz, Switzerland",
       "founded": 1892,
@@ -419,7 +791,9 @@
     {
       "slug": "cpc",
       "name": "CPC (Colder Products)",
-      "segments": ["interconnects"],
+      "segments": [
+        "interconnects"
+      ],
       "tagline": "Quick-disconnect specialist whose Everis UQD couplings (developed with Intel to the OCP spec) provide the dripless rack- and cold-plate-level connections used in hyperscale AI liquid cooling.",
       "hq": "Arden Hills, Minnesota, USA",
       "founded": 1978,
@@ -472,9 +846,64 @@
       ]
     },
     {
+      "slug": "parker-hannifin",
+      "name": "Parker Hannifin",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Motion-and-controls giant whose Quick Coupling Division supplies OCP-standard UQD and UQDB couplings, manifolds and hoses connecting cold plates, racks and CDUs.",
+      "hq": "Cleveland (Mayfield Heights), Ohio, USA",
+      "founded": 1917,
+      "ownership": "NYSE: PH",
+      "website": "https://www.parker.com",
+      "productLines": [
+        {
+          "name": "UQD Series (Universal Quick Disconnect)",
+          "note": "Flat-face, non-spill push-button quick disconnects for servers, racks and CDUs — OCP Inspired product based on UQD Specification v1.0, cross-compatible with other UQD makers; NVIDIA Partner Network approved per Parker's page",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/parker-uqd-series-universal-quick-disconnect-couplings"
+        },
+        {
+          "name": "UQDB Series (blind-mate)",
+          "note": "Flat-face blind-mate couplings to the OCP/Intel UQDB specification; floating plug element accommodates ~1 mm misalignment, interoperable with other OCP-approved UQDB makers",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/parker-universal-quick-disconnect-blindmate-couplings-for-liquid-cooling"
+        },
+        {
+          "name": "Manifolds, hoses and QDC assemblies",
+          "note": "Quick Coupling Division portfolio of UQD/UQDB couplings, manifolds and hose assemblies for direct-to-chip deployments",
+          "source": "https://www.parker.com/us/en/divisions/quick-coupling-division.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "OCP announced UQD v2 at the October 2025 Global Summit — Parker Hannifin listed among contributors to UQD Specification v2.0.0 alongside AMD, Meta, CEJN and Safeway; also launched new ergonomic color-coded push-button UQD couplings",
+          "source": "https://www.opencompute.org/contribution-family/cold-plate"
+        },
+        {
+          "year": "2020",
+          "text": "OCP published the UQD Specification Rev 1.0 (Sept 4, 2020), first developed by a working group including Stäubli, Parker and CPC — the basis of today's interchangeable liquid-cooling QD ecosystem",
+          "source": "https://www.staubli.com/cz/en/news/global/2025/staubli-at-ocp.html"
+        }
+      ],
+      "ocp": "Founding working-group member (with Stäubli and CPC) of the original UQD Specification Rev 1.0; UQD Series is an OCP Inspired Marketplace product; contributor to UQD Specification v2.0.0.",
+      "faq": [
+        {
+          "q": "Was Parker part of the original OCP UQD working group?",
+          "a": "Yes — the UQD Specification Rev 1.0 (published Sept 4, 2020) was developed by a working group including Stäubli, Parker and CPC. Parker is also a listed contributor to UQD v2.0.0 (2025)."
+        },
+        {
+          "q": "Are Parker UQD couplings compatible with other vendors?",
+          "a": "Yes — that is the point of the OCP UQD standard: Parker's UQD/UQDB products are built to the OCP specifications and are cross-compatible/interoperable with other OCP-approved manufacturers."
+        }
+      ]
+    },
+    {
       "slug": "liquidstack",
       "name": "LiquidStack",
-      "segments": ["immersion", "cdus"],
+      "segments": [
+        "immersion",
+        "cdus"
+      ],
       "tagline": "Immersion cooling pioneer — two-phase and single-phase DataTanks plus direct-to-chip CDUs for AI-scale heat loads.",
       "hq": "Carrollton, Texas, USA",
       "founded": 2012,
@@ -532,9 +961,120 @@
       ]
     },
     {
+      "slug": "submer",
+      "name": "Submer",
+      "segments": [
+        "immersion"
+      ],
+      "tagline": "Immersion-cooling pioneer — single-phase dielectric SmartPods (up to 361 kW per pod, OCP ORv3-compatible) plus liquid-cooled modular data center design & build.",
+      "hq": "Barcelona, Spain (Americas HQ: Houston, Texas)",
+      "founded": 2015,
+      "ownership": "Private ($55.5M growth round led by M&G in 2024)",
+      "website": "https://submer.com",
+      "productLines": [
+        {
+          "name": "SmartPod EXO",
+          "note": "Hyperscale immersion platform: up to 361 kW heat dissipation per pod, 50RU of 19\"/21\" gear or 47OU of OCP ORv3 gear, built-in 2N pump and CDU redundancy, hot-water operation up to 60 °C for free/dry cooling and heat reuse",
+          "source": "https://submer.com/smartpod/exo"
+        },
+        {
+          "name": "SmartPod EVO",
+          "note": "Plug-and-play single-phase immersion pod, up to 140 kW heat dissipation, quick modular installation",
+          "source": "https://submer.com/smartpod/smartpod-evo-the-easiest-path-to-immersion-cooling-submer"
+        },
+        {
+          "name": "SmartPod for MiTAC hyperconverged solutions",
+          "note": "Immersion tank paired with OCP-recognized MiTAC hyperconverged servers: >100 kW dissipation, 45U or 22U, 19\" or 21\" OCP support, 1.03 PUE, zero water waste — listed in the OCP Marketplace",
+          "source": "https://www.opencompute.org/marketplace/it-infrastructure/submer-flexible-immersion-cooling-for-hyperconverged-solutions"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Surpassed 500 MW of liquid-cooled infrastructure deployed and expanded into data center Design & Build services (Rubix), marking 10 years as a company; CleanSpark selected Submer as its first strategic partner for AI data center expansion in North America",
+          "source": "https://submer.com/about-us"
+        },
+        {
+          "year": "2024",
+          "text": "Closed a $55.5M all-equity growth round led by M&G with Planet First Partners participating; launched SmartPod EXO the same year",
+          "source": "https://submer.com/blog/press/growth-round-for-greener-ai-factories-and-datacenters"
+        }
+      ],
+      "ocp": "Developed the SmartPod OCP Open Rack v3 immersion pod in collaboration with OCP; SmartPod + MiTAC solution listed in the OCP Marketplace; participant in OCP immersion cooling proof-of-concept work.",
+      "faq": [
+        {
+          "q": "What is Submer's largest immersion pod?",
+          "a": "SmartPod EXO — up to 361 kW per pod with 2N pump/CDU redundancy, taking 50RU of 19\"/21\" gear or 47OU of OCP ORv3, and running hot water up to 60 °C to enable free cooling and heat reuse."
+        },
+        {
+          "q": "How much immersion cooling has Submer deployed?",
+          "a": "The company states it surpassed 500 MW of liquid-cooled infrastructure deployed in 2025, its tenth year, and presented multi-GW full-chain case studies with CleanSpark among its North American partners."
+        }
+      ]
+    },
+    {
+      "slug": "grc",
+      "name": "GRC (Green Revolution Cooling)",
+      "segments": [
+        "immersion"
+      ],
+      "tagline": "Austin-based pioneer of single-phase immersion cooling — ElectroSafe-fluid ICEraQ rack systems, containerized ICEtank data centers, and since 2025 direct-liquid-cooling CDUs.",
+      "hq": "Austin, Texas, USA",
+      "founded": 2009,
+      "ownership": "Private (Samsung Ventures invested in 2025)",
+      "website": "https://www.grcooling.com",
+      "productLines": [
+        {
+          "name": "ICEraQ (SX / Flex / Micro)",
+          "note": "Single-phase immersion rack systems with integrated CDU — supports up to 368 kW IT load; company claims up to 95% lower cooling energy",
+          "source": "https://www.grcooling.com/iceraq/"
+        },
+        {
+          "name": "ICEraQ Nano",
+          "note": "10U liquid-to-air edge immersion rack, up to 13 kW, no chilled water required — launched November 2025",
+          "source": "https://www.grcooling.com/press_releases/grc-expands-immersion-cooling-to-the-edge-with-new-iceraq-nano-system/"
+        },
+        {
+          "name": "ReliaSys IR500 CDU",
+          "note": "Up to 500 kW coolant distribution unit for direct liquid cooling and rear-door heat exchangers — launched November 2025",
+          "source": "https://www.grcooling.com/press_releases/grc-launches-reliasys-ir500-cdu/"
+        },
+        {
+          "name": "ElectroSafe fluids",
+          "note": "Proprietary single-phase dielectric coolant line used across GRC immersion systems",
+          "source": "https://www.grcooling.com/electro-safe-fluids/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "UNICOM Engineering and GRC launched fully integrated immersion-cooled AI solutions for evaluation, deployment and industrial-scale adoption",
+          "source": "https://www.grcooling.com/press_releases/unicom-engineering-and-grc-launch-fully-integrated-immersion-cooled-ai-solutions-to-simplify-evaluation-deployment-and-industrial-scale-adoption/"
+        },
+        {
+          "year": "2025",
+          "text": "Samsung Ventures invested in GRC and Samsung C&T formed a strategic partnership in its latest funding round; Cisco and GRC formed an engineering alliance on immersion cooling",
+          "source": "https://www.grcooling.com/press_releases/in-response-to-explosive-growth-in-liquid-cooling-demand-samsung-ventures-invests-in-grc-as-samsung-ct-forms-strategic-partnership-in-latest-funding-round/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is GRC's largest immersion system?",
+          "a": "The ICEraQ single-phase immersion rack family — integrated CDU supporting up to 368 kW IT load. At the other end, the ICEraQ Nano (Nov 2025) is a 10U liquid-to-air edge rack up to 13 kW with no chilled water."
+        },
+        {
+          "q": "Does GRC also make direct-to-chip products?",
+          "a": "Yes — since November 2025: the ReliaSys IR500 CDU delivers up to 500 kW for direct liquid cooling and rear-door heat exchangers."
+        }
+      ]
+    },
+    {
       "slug": "baltimore-aircoil",
       "name": "Baltimore Aircoil (BAC)",
-      "segments": ["heat-rejection", "immersion"],
+      "segments": [
+        "heat-rejection",
+        "immersion"
+      ],
       "tagline": "Heat rejection for liquid-cooled data centers — cooling towers, hybrid and dry coolers — plus the COBALT single-phase immersion system.",
       "hq": "Jessup, Maryland, USA",
       "founded": 1938,
@@ -588,6 +1128,186 @@
         {
           "q": "Are BAC immersion tanks certified?",
           "a": "Yes — the CorTex tank was certified (Dec 2025) under the Intel Data Center Certified Solution for Immersion Cooling program for 4th/5th-gen Xeon, a program developed with Intel, ExxonMobil, Hypertec and Micron."
+        }
+      ]
+    },
+    {
+      "slug": "evapco",
+      "name": "EVAPCO",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Employee-owned heat-transfer manufacturer — dry coolers, adiabatic and hybrid closed-circuit coolers, and evaporative towers for heat rejection in liquid-cooled data centers.",
+      "hq": "Taneytown, Maryland, USA",
+      "founded": 1976,
+      "ownership": "Private (employee-owned since 1984)",
+      "website": "https://www.evapco.com",
+      "productLines": [
+        {
+          "name": "eco-Air Series APEX (EAW-HD)",
+          "note": "CTI-certified, water-free factory-assembled dry cooler for high-density data centers — introduced February 2026 (per-unit kW/MBH figures: not published on the announcement page)",
+          "source": "https://www.evapco.com/news/introducing-eco-airtm-series-apextm"
+        },
+        {
+          "name": "eco-Air Titan",
+          "note": "EVAPCO's largest adiabatic cooler for large-scale heat-rejection duty including data centers — announced 2025, fans up to 36 ft diameter",
+          "source": "https://www.evapco.com/news/ahr-2025-evapco-launches-air-cooled-heat-exchanger-large-scale-heat-rejection-duty"
+        },
+        {
+          "name": "Eco-ATWB-H hybrid closed-circuit cooler",
+          "note": "Hybrid dry + evaporative closed-circuit cooler in EVAPCO's data center heat-rejection lineup",
+          "source": "https://www.evapco.com/data-center-cooling"
+        },
+        {
+          "name": "Factory-assembled cooling towers",
+          "note": "CTI-certified evaporative open-loop towers offered alongside the dry/hybrid lines for data center heat rejection",
+          "source": "https://www.evapco.com/data-center-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Introduced eco-Air Series APEX — its largest factory-assembled CTI-certified dry cooler for high-density, mission-critical data centers (Feb 2026)",
+          "source": "https://www.evapco.com/news/introducing-eco-airtm-series-apextm"
+        },
+        {
+          "year": "2025",
+          "text": "Unveiled eco-Air Titan at AHR Expo 2025 for large-scale heat rejection and announced production expansion in the US, Belgium and China",
+          "source": "https://www.evapco.com/news/ahr-2025-evapco-launches-air-cooled-heat-exchanger-large-scale-heat-rejection-duty"
+        },
+        {
+          "year": "2024",
+          "text": "Announced Taneytown world-headquarters expansion: 45,000 sq ft of office space and 275 new jobs (Maryland Governor's office)",
+          "source": "https://governor.maryland.gov/news/press-releases/governor-moore-announces-evapco-headquarters-expansion-adding-275-new-jobs-carroll-county"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does EVAPCO offer for water-free data center heat rejection?",
+          "a": "The eco-Air dry cooler line — including the APEX series (introduced Feb 2026, EVAPCO's largest factory-assembled CTI-certified dry cooler) and the Titan adiabatic cooler (2025, fans up to 36 ft) — plus Eco-ATWB-H hybrid units that blend dry and evaporative operation."
+        }
+      ]
+    },
+    {
+      "slug": "alfa-laval",
+      "name": "Alfa Laval",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Swedish heat-transfer specialist — brazed and gasketed plate heat exchangers at the core of data center liquid cooling, inside CDUs and in heat-rejection, free-cooling and heat-reuse loops.",
+      "hq": "Lund, Sweden",
+      "founded": 1883,
+      "ownership": "STO: ALFA",
+      "website": "https://www.alfalaval.com",
+      "productLines": [
+        {
+          "name": "Brazed plate heat exchangers",
+          "note": "Described as the market's most comprehensive brazed plate line — a custom CB-series unit is the core heat exchanger inside Boyd's 2.3 MW ROL2300 in-row CDU",
+          "source": "https://www.alfalaval.us/media/stories/data-center-cooling/cooling-the-ai-revolution"
+        },
+        {
+          "name": "Gasketed plate-and-frame heat exchangers",
+          "note": "Industrial gasketed PHEs for data center free cooling / waterside economizers and heat recovery, with AHRI thermal performance certification offered",
+          "source": "https://www.alfalaval.com/industries/hvac/data-center-cooling/"
+        },
+        {
+          "name": "Liquid cooling solutions (direct-to-chip and immersion)",
+          "note": "Heat-transfer offering spanning direct-to-chip CDU loops and single-phase/two-phase immersion configurations",
+          "source": "https://www.alfalaval.com/industries/energy-and-utilities/data-centers/data-center-cooling/liquid-cooling"
+        },
+        {
+          "name": "Self-cleaning filters and strainers",
+          "note": "Automatically self-cleaning cylindrical filter baskets protecting heat exchangers from fouling in data center cooling systems",
+          "source": "https://www.alfalaval.com/industries/hvac/data-center-cooling/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "An Alfa Laval brazed plate heat exchanger is the core of Boyd's ROL2300 in-row CDU (up to 2.3 MW) — Alfa Laval supplies the heat exchanger; the CDU is Boyd's product",
+          "source": "https://www.alfalaval.us/media/stories/data-center-cooling/cooling-the-ai-revolution"
+        },
+        {
+          "year": "2024",
+          "text": "Collaboration with Boyd announced on a direct-to-chip liquid cooling system for ultra-high-density AI/HPC racks",
+          "source": "https://www.alfalaval.us/media/stories/data-center-cooling/innovative-direct-to-chip-data-center-cooling-system"
+        },
+        {
+          "year": "2023",
+          "text": "Announced Platinum membership of the Open Compute Project Foundation",
+          "source": "https://www.alfalaval.us/media/news/2023/alfa-laval-joins-open-compute-project-to-accelerate-sustainable-data-centers"
+        }
+      ],
+      "ocp": "Platinum member of the Open Compute Project Foundation since 2023.",
+      "faq": [
+        {
+          "q": "What does Alfa Laval make for liquid cooling?",
+          "a": "The heat exchangers, not complete CDUs: brazed plate units inside CDUs (a custom CB-series unit sits at the core of Boyd's 2.3 MW ROL2300), gasketed plate-and-frame exchangers for free cooling and heat reuse, plus self-cleaning filters protecting the loops."
+        },
+        {
+          "q": "Is Alfa Laval involved in OCP?",
+          "a": "Yes — a Platinum member of the Open Compute Project Foundation since 2023."
+        }
+      ]
+    },
+    {
+      "slug": "sugon-dataenergy",
+      "name": "Sugon DataEnergy",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Beijing-listed, Sugon-affiliated full-stack liquid cooling provider — immersion phase-change (C8000), cold-plate (C7000), CDU/manifold components and modular data centers; first to commercialize immersion phase-change cooling at scale in China.",
+      "hq": "Beijing (Haidian District), China",
+      "founded": 2002,
+      "ownership": "BSE: 920808 (IPO November 2022, originally listed as 872808)",
+      "website": "https://dataenergy.sugon.com",
+      "productLines": [
+        {
+          "name": "C8000 series (immersion phase-change)",
+          "note": "C8000 V3.0 rack supports >900 kW (MW-class), heat flux >200 W/cm², PUE <1.04 — billed as the world's first MW-class phase-change immersion full-rack solution (April 2026)",
+          "source": "https://app.xinhuanet.com/news/article.html?articleId=202604092711f1735b1848c6980fba03f3a1e689"
+        },
+        {
+          "name": "C7000 series (cold-plate / air-liquid hybrid)",
+          "note": "Cold-plate and wind-liquid hybrid cooling products, including C7000 2.0 and the C7000-F phase-change indirect liquid cooling solution",
+          "source": "https://www.sugon.com/product/storage/news_detail/2999?cate_p_id="
+        },
+        {
+          "name": "Cold-plate liquid cooling components",
+          "note": "CDU (liquid heat-exchange unit), VCDU vertical flow-distribution manifolds, prefabricated piping systems and cold-plate cooling kits",
+          "source": "https://dataenergy.sugon.com"
+        },
+        {
+          "name": "Modular data centers (C500/C1000/C2000/C9000, Silicon Cube)",
+          "note": "Micro, row-level, pool-level and containerized modular data center portfolio plus the vertical Silicon Cube facility design",
+          "source": "https://dataenergy.sugon.com"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "China's first national data center liquid cooling standard, GB/T 48023-2026 (Technical Specification for Cold-Plate Liquid Cooling Systems in Data Centers), released July 2026 with Sugon DataEnergy as chief drafting unit — effective February 1, 2027",
+          "source": "https://www.sugon.com/product/storage/news_detail/2999?cate_p_id="
+        },
+        {
+          "year": "2026",
+          "text": "Released C8000 V3.0 (April 2026) — MW-class phase-change immersion full-rack solution at >900 kW per rack",
+          "source": "https://app.xinhuanet.com/news/article.html?articleId=202604092711f1735b1848c6980fba03f3a1e689"
+        },
+        {
+          "year": "2025",
+          "text": "Launched the C7000-F, presented as China's first phase-change indirect liquid cooling data center solution",
+          "source": "https://www.sugon.com/product/storage/news_detail/2999?cate_p_id="
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Sugon DataEnergy's most powerful immersion system?",
+          "a": "The C8000 V3.0 (April 2026) — a phase-change immersion full-rack solution supporting >900 kW per rack with heat flux >200 W/cm² and PUE <1.04, billed as the world's first MW-class offering of its kind."
+        },
+        {
+          "q": "Did Sugon DataEnergy write China's liquid cooling standard?",
+          "a": "It was chief drafting unit of GB/T 48023-2026 — China's first national standard for cold-plate liquid cooling systems in data centers, released July 2026 and effective February 1, 2027."
         }
       ]
     }

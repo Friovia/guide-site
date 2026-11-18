@@ -21,6 +21,11 @@ function ChangelogPage() {
 
       <PageToc />
 
+      <h2 style={{ marginTop: 24 }}>2026-11-18</h2>
+      <ul>
+        <li><b>Vendor profiles, batch 2 (+12 → 22 of 98)</b>: nVent, Rittal, ZutaCore, JetCool, Daikin, Envicool, Parker Hannifin, Submer, GRC, EVAPCO, Alfa Laval, Sugon DataEnergy. Same facts policy — highlights include two OCP-Accepted Google Deschutes CDUs (nVent, Envicool), China's first national liquid cooling standard with Sugon DataEnergy as chief drafting unit (GB/T 48023-2026), and the waterless two-phase Z2O architecture (ZutaCore × Munters).</li>
+      </ul>
+
       <h2 style={{ marginTop: 24 }}>2026-11-17</h2>
       <ul>
         <li><b>Vendor profile pages launch</b> (<code>/supply-chain/&lt;slug&gt;</code>): a new data layer (<code>data/vendor-profiles.json</code>) deepens the supply-chain map with per-company pages — company card, liquid-cooling product lines, key events, standards participation and FAQ, each with a 2-4 entry product table sourced to official pages. First batch: ten companies — CoolIT, Asetek, Boyd, Motivair, Vertiv, Delta, Stäubli, CPC, LiquidStack, BAC. Same facts policy as everywhere else: every claim carries a source URL; unverifiable fields render as <b>not published</b>, never estimated. <code>scripts/check-nav.mjs</code> now enforces conservation both ways — every profile must be in sitemap+llms.txt, and no /supply-chain/* URL may exist without a profile behind it.</li>
