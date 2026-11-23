@@ -100,10 +100,13 @@ export function PumpChart({ pumpCurves, selected, speedPct, systemCurve, operati
     const headAtEdge = ((H - B - onCurve(pts, xMax, true).y) / (H - T - B)) * yMax
     return first[1] - headAtEdge > first[1] * 0.5
   }
+  // Steep curve: the label sits above-right of the curve at 80% of the head axis — the curve falls
+  // away towards the lower right, so that corner stays clear. Flat curve: centred at mid-range but
+  // at the height of its left third, where a gently falling curve is highest under the label.
   const curveLabel = (pts: readonly [number, number][]) =>
     isSteep(pts)
-      ? { ...onCurve(pts, -0.8 * yMax, false), dx: 8, dy: 18, anchor: 'start' as const }
-      : { ...onCurve(pts, 0.42 * xMax, true), dx: 0, dy: -8, anchor: 'middle' as const }
+      ? { ...onCurve(pts, -0.8 * yMax, false), dx: 10, dy: -6, anchor: 'start' as const }
+      : { x: onCurve(pts, 0.5 * xMax, true).x, y: onCurve(pts, 0.3 * xMax, true).y, dx: 0, dy: -8, anchor: 'middle' as const }
   const sysLabel = { ...onCurve(systemCurve, 0.25 * xMax, true), dx: 0, dy: 14, anchor: 'middle' as const }
   const ownLabel = ownScaled.length ? curveLabel(ownScaled) : null
   const ownPublishedLabel = ownPublished.length ? curveLabel(ownPublished) : null

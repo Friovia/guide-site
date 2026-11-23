@@ -256,7 +256,7 @@
         {
           "path": "/playground/configurator",
           "title": "Rack configurator",
-          "desc": "Scenario to feasibility note — kernel-driven chain, CDU choice and pump operating point, downloadable calculation note"
+          "desc": "Scenario to feasibility note — kernel-driven chain, two node platforms, CDU choice and pump setpoint, catalog screen, downloadable calculation note"
         },
         {
           "path": "/playground/rack-builder",

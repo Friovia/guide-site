@@ -16,7 +16,7 @@ Radar:
 
 Basics:
 
-  - [Rack configurator](https://liquidcoolingguide.com/playground/configurator): scenario → load → CDU & pump operating point → thermal chain → calculation note — the open-source kernel picks the best-evidenced CDU from its sourced curve library, traces the system curve, and reports any run outside its evidenced data domain as not judgeable (bit-identical parity gate in CI); dew-point red line, ASHRAE W-class, downloadable calc note.
+  - [Rack configurator](https://liquidcoolingguide.com/playground/configurator): scenario → node platform → CDU & pump operating point → thermal chain → calculation note — two node platforms (OAI 8-OAM tray; HGX H100/H200-class 8-GPU node); the open-source kernel picks the best-evidenced CDU from its sourced curve library, holds the flow window with an automatic pump setpoint, traces the system curve, reports any run outside its evidenced data domain as not judgeable (bit-identical parity gate in CI), and screens the rack builder's catalog by nameplate; dew-point red line, ASHRAE W-class, downloadable calc note.
 - [Playground](https://liquidcoolingguide.com/playground): Interactive tools — rack configurator, rack builder, capacity derating simulator, room load calculator. All computation in-browser; formulas shown with user values substituted.
   - [Rack builder](https://liquidcoolingguide.com/playground/rack-builder): assemble a rack from server types, set room temperature, get liquid/air heat split, derated cabinet capacity, coolant flow (L/min), room AC requirement and verdicts.
   - [Derating simulator](https://liquidcoolingguide.com/playground/derating): capacity-vs-ambient curve, approach-temperature model anchored to Vertiv XDU070 published data (86.5 kW @ 45°C coolant / 25°C air).

@@ -49,6 +49,47 @@ export const SCENARIOS: Record<ScenarioId, ScenarioPreset> = {
   },
 }
 
+// ---- Node platforms: what ONE rack branch contains, from the sourced curve library (sim/curves.ts) ----
+export type PlatformId = 'oai-8oam' | 'hgx-h200'
+
+export interface HotSpotModel {
+  thetaKPerW: number                    // case-to-inlet, K/W
+  flowLpmRange: [number, number]        // per cold plate, the flow range θ is evidenced for
+  splitN: number                        // cold plates per node the branch flow splits across
+  note: string
+}
+
+export interface PlatformSpec {
+  id: PlatformId
+  label: string
+  summary: string
+  branchCurveIds: string[]              // series elements of one node branch
+  couplers: string                      // how couplers are modelled — say it when it is an assumption
+  capture: number                       // share of the node's IT load that reaches the liquid (registered assumption)
+  designKw: number                      // IT load per node the branch model was evidenced for
+  minLpm: number                        // guaranteed minimum branch flow, L/min (the kernel reports a branch below it)
+  hotSpot: HotSpotModel | null          // null = the library has no sourced hot-spot θ → T_case is not evaluated
+}
+
+export const PLATFORMS: Record<PlatformId, PlatformSpec> = {
+  'oai-8oam': {
+    id: 'oai-8oam', label: 'OAI 8-OAM accelerator tray',
+    summary: 'One branch = the OAI 8-OAM PCL 4x2 chain (OCP OAI liquid-cooling guidelines) plus the OCP UQD06 worst-case envelope.',
+    branchCurveIds: ['coldplate-oai-8oam-4x2-pcl-pg25', 'qd-ocp-uqd06-mincv-envelope-pg25'],
+    couplers: 'the OCP UQD06 worst-case compliant pair',
+    capture: 1, designKw: 10, minLpm: 8,
+    hotSpot: { thetaKPerW: 0.02185, flowLpmRange: [1.5, 3.5], splitN: 8, note: 'Wiwynn per-plate 0.019 upper bound ×1.15 PG25 (cold-plate.jsonc entry)' },
+  },
+  'hgx-h200': {
+    id: 'hgx-h200', label: 'HGX H100/H200-class 8-GPU node',
+    summary: 'One branch = the ToneCooling HGX H200 8-GPU + NVSwitch cold-plate group (vendor page, PG25-corrected, anchored at its max-ΔP limit) plus a worst-case UQD04 pair.',
+    branchCurveIds: ['coldplate-hgx-h200-8gpu-tonecooling-tx-45c-pg25', 'qd-ocp-uqd04-mincv-envelope-pg25'],
+    couplers: 'one worst-case compliant UQD04 pair (OCP envelope) — the tray\u2019s actual coupler type is not in the library, so the conservative one is modelled',
+    capture: 0.8, designKw: 7.6, minLpm: 6,
+    hotSpot: null,
+  },
+}
+
 // ---- CDUs the library can model: sourced pump and/or heat-exchanger curves (sim/curves.ts) ----
 export type CduId = 'cdu40' | 'xcrow080' | 'cdu121'
 
@@ -88,7 +129,6 @@ export const CDUS: CduSpec[] = [
     hx: { curveId: 'hx-vertiv-coolchip-cdu121', ratedTcsLpm: 120, ...hxCapacity('hx-vertiv-coolchip-cdu121') },
   },
 ]
-const CDU_BY_ID: Record<CduId, CduSpec> = Object.fromEntries(CDUS.map(c => [c.id, c])) as Record<CduId, CduSpec>
 
 /** Published pump curves at nominal speed, [L/min, kPa] — for the operating-point chart. */
 export const PUMP_CURVES: { cdu: CduId; points: [number, number][] }[] = CDUS
@@ -97,50 +137,47 @@ export const PUMP_CURVES: { cdu: CduId; points: [number, number][] }[] = CDUS
 
 export interface ConfigInput {
   scenario: ScenarioId
-  nodes: number        // liquid-cooled nodes in the rack (1..12)
-  kwPerNode: number    // IT load per node, kW (8-OAM platform assumption)
-  cdu: CduId | 'auto'  // 'auto' = the CDU whose evidence covers this operating point best
-  speedPct: number     // pump speed, % of the published pump curve (100 = as published)
+  platform: PlatformId
+  nodes: number                      // liquid-cooled nodes in the rack (1..12)
+  kwPerNode: number                  // IT load per node, kW
+  cdu: CduId | 'auto'                // 'auto' = the CDU whose evidence covers this operating point best
+  speedPct: number | 'auto'          // pump speed, % of the published pump curve (100 = as published); 'auto' = hold the flow window
 }
 
 /** The reference-case input: same network, CDU and 8 × 10 kW load as the V&V anchor, pump at the
  *  published speed. The parity gate pins this one bit-for-bit. It is NOT the landing state — its
  *  flow sits just under the OAI window, so it opens red. */
-export const REFERENCE_INPUT: ConfigInput = { scenario: 'tropical', nodes: 8, kwPerNode: 10, cdu: 'cdu121', speedPct: 100 }
+export const REFERENCE_INPUT: ConfigInput = { scenario: 'tropical', platform: 'oai-8oam', nodes: 8, kwPerNode: 10, cdu: 'cdu121', speedPct: 100 }
 
-/** Landing state: feasible AND inside the kernel's evidenced domain, so the page opens on a
- *  judgment the kernel stands behind. */
-export const DEFAULT_INPUT: ConfigInput = { scenario: 'hospital', nodes: 8, kwPerNode: 8, cdu: 'auto', speedPct: 100 }
+/** Landing state: six HGX-class nodes (45.6 kW) in a hospital room — feasible AND inside the
+ *  kernel's evidenced domain, so the page opens on a judgment the kernel stands behind. */
+export const DEFAULT_INPUT: ConfigInput = { scenario: 'hospital', platform: 'hgx-h200', nodes: 6, kwPerNode: 7.6, cdu: 'auto', speedPct: 'auto' }
 
 export const SPEED_RANGE: [number, number] = [30, 100]
 
 // ---- Reference-case inherited constants (see file header for provenance) ----
 const SUPPLY_C = 32
 const RETURN_C = 42
-const THETA_K_PER_W = 0.02185        // Wiwynn 8-OAM case-to-inlet ×1.15 PG25
 const T_CASE_MAX_C = 80              // placeholder cap — swap for server vendor spec before quoting
-const THETA_FLOW_RANGE: [number, number] = [1.5, 3.5]   // per cold plate, L/min
-const THETA_SPLIT_N = 8
 const FWS_FLOW_LPM = 100             // facility-side flow, reference case
 const FWS_CP = 4180                  // water, Incropera Table A.6 order
 const FWS_RHO = 1000
-const BRANCH_CURVE_IDS = ['coldplate-oai-8oam-4x2-pcl-pg25', 'qd-ocp-uqd06-mincv-envelope-pg25']
 const BRANCH_PIPE = { dMm: 19.1, lenM: 2.5, k: 2 }
 const SUPPLY_PIPE = { dMm: 50.8, lenM: 3, k: 3, epsMm: 0.045 }
-/** OAI flow guideline: 1.25–2.0 L/min per kW of heat (liquid side). */
+/** OAI flow guideline: 1.25–2.0 L/min per kW of heat carried by the liquid. */
 export const OAI_FLOW_WINDOW: [number, number] = [1.25, 2.0]
 /** Heat-exchanger rated-flow bands as registered in the kernel (sim/p1/solve.ts FLOWBAND_*_PCT):
  *  ±10% advisory, ±25% the edge of trust. Display only — the verdict itself comes from the kernel. */
 const HX_WARN_PCT = 10
 const HX_TRUST_PCT = 25
 
-export function buildP0Input(input: ConfigInput, cdu: CduSpec, speedPct: number): P0Input {
+export function buildP0Input(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec, speedPct: number): P0Input {
   if (cdu.pumpCurveId === null) throw new Error(`${cdu.label}: no pump curve — hydraulics are not computable`)
   const branch = (i: number) => ({
     id: `node-${i + 1}`,
-    curveIds: BRANCH_CURVE_IDS,
+    curveIds: platform.branchCurveIds,
     pipe: BRANCH_PIPE,
-    minLpm: 8,
+    minLpm: platform.minLpm,
   })
   // The pump curves carry no rated frequency (the datasheets state none) and only the speed RATIO
   // enters the kernel's affinity-law scaling — so speed is carried in percent of the published
@@ -152,7 +189,7 @@ export function buildP0Input(input: ConfigInput, cdu: CduSpec, speedPct: number)
   return {
     schema: 'p0/v0.1',
     dataVersion: RACK_DATA_VERSION,
-    meta: { 工具: 'liquidcoolingguide.com configurator (C0)', 场景: input.scenario, 节点: `${input.nodes} × ${input.kwPerNode} kW` },
+    meta: { 工具: 'liquidcoolingguide.com configurator', 场景: input.scenario, 节点: `${input.nodes} × ${input.kwPerNode} kW` },
     case: {
       tSupplyC: SUPPLY_C,
       tReturnC: RETURN_C,
@@ -160,26 +197,29 @@ export function buildP0Input(input: ConfigInput, cdu: CduSpec, speedPct: number)
       supplyPipe: SUPPLY_PIPE,
       branches: Array.from({ length: input.nodes }, (_, i) => branch(i)),
     },
-    curves: Object.fromEntries([cdu.pumpCurveId, ...BRANCH_CURVE_IDS].map(id => [id, RACK_CURVES[id]])),
+    curves: Object.fromEntries([cdu.pumpCurveId, ...platform.branchCurveIds].map(id => [id, RACK_CURVES[id]])),
   }
 }
 
-export function buildP1Input(input: ConfigInput, cdu: CduSpec, p0: P0Output): P1Input {
+export function buildP1Input(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec, p0: P0Output): P1Input {
   const sc = SCENARIOS[input.scenario]
   const nodeW = input.kwPerNode * 1000
-  const hotSpot = {
-    qW: nodeW / 8,                    // hottest die of the 8-OAM platform
-    thetaKPerW: THETA_K_PER_W,
-    thetaRef: 'inlet' as const,
-    tCaseMaxC: T_CASE_MAX_C,
-    thetaFlowLpmRange: THETA_FLOW_RANGE,
-    thetaFlowSplitN: THETA_SPLIT_N,
-    note: 'Wiwynn per-plate 0.019 upper bound ×1.15 PG25 (cold-plate.jsonc entry)',
-  }
+  const hotSpot = platform.hotSpot
+    ? {
+        qW: nodeW / 8,                // hottest die of the platform
+        thetaKPerW: platform.hotSpot.thetaKPerW,
+        thetaRef: 'inlet' as const,
+        tCaseMaxC: T_CASE_MAX_C,
+        thetaFlowLpmRange: platform.hotSpot.flowLpmRange,
+        thetaFlowSplitN: platform.hotSpot.splitN,
+        note: platform.hotSpot.note,
+      }
+    : undefined
+  const load = (id: string) => ({ id, qW: nodeW, ...(platform.capture < 1 ? { capturePct: platform.capture * 100 } : {}), ...(hotSpot ? { hotSpot } : {}) })
   return {
     schema: 'p1/v0.1',
     dataVersion: RACK_DATA_VERSION,
-    meta: { 工具: 'liquidcoolingguide.com configurator (C0)', 场景: input.scenario },
+    meta: { 工具: 'liquidcoolingguide.com configurator', 场景: input.scenario },
     case: {
       fluid: 'pg25',
       supplySource: {
@@ -188,7 +228,7 @@ export function buildP1Input(input: ConfigInput, cdu: CduSpec, p0: P0Output): P1
         fws: { supplyC: sc.fwsSupplyC, flowLpm: FWS_FLOW_LPM, cpJkgK: FWS_CP, rhoKgM3: FWS_RHO, note: `scenario preset ${input.scenario}: facility water ${sc.fwsSupplyC} °C; water properties, Incropera A.6 order` },
       },
       flows: p0.branches.filter(b => !b.shutdown).map(b => ({ id: b.id, qLpm: b.qLpm })),
-      loads: p0.branches.map(b => ({ id: b.id, qW: nodeW, hotSpot })),
+      loads: p0.branches.map(b => load(b.id)),
       room: { ...sc.room },
       wClass: 'W32',
     },
@@ -202,57 +242,155 @@ export function pumpCurveAt(points: readonly [number, number][], speedPct: numbe
   return points.map(([q, h]) => [q * s, h * s * s])
 }
 
-export interface Gate { id: string; label: string; pass: boolean; detail: string }
-
-/** Short names for gate ids — what the comparison table and the calculation note print. */
-const GATE_SHORT: Record<string, string> = {
-  'pump-curve': 'no pump curve', 'p0-converged': 'hydraulic solve', capacity: 'HX capacity', 'flow-window': 'OAI window',
-  'evidenced-domain': 'evidenced domain', dew: 'dew point', wclass: 'ASHRAE W32', tcase: 'T_case margin',
-}
-export const gateShortName = (id: string): string => GATE_SHORT[id] ?? id
+export interface Gate { id: string; label: string; pass: boolean; detail: string; notEvaluated?: boolean }
 
 /** Registered data-domain bounds on flow — display only, so the page can say WHICH bound binds. */
 export interface FlowBounds {
-  perNode: { oai: [number, number]; theta: [number, number] }  // L/min per node
+  liquidKw: number                                              // per node: the IT load that reaches the liquid
+  perNode: {
+    oai: [number, number]                                       // L/min per node
+    theta: [number, number] | null                              // cold-plate θ domain, when the platform has one
+    curve: [number, number]                                     // the branch curves' own flow domain
+  }
   total: { hxWarn: [number, number]; hxTrust: [number, number] } // L/min, vs the selected HX's rated flow
 }
 
 export interface CduComparison {
   cdu: CduSpec
-  feasible: boolean   // every gate green at the published pump speed
+  feasible: boolean   // every gate green with the pump at its automatic setpoint
   trusted: boolean    // the kernel stands behind its own output
   failing: string[]   // gate ids that fail
+}
+
+/** One cooling product from the rack builder's catalog, screened on nameplate only. */
+export interface CatalogProduct {
+  id: string
+  name: string
+  type?: string
+  ratedKw?: number | null
+  coolantC?: number | null
+  ratedRoomC?: number | null
+  minApproachK?: number | null
+  facility?: string
+}
+export interface CatalogRow {
+  product: CatalogProduct
+  verdict: 'fits' | 'undersized' | 'not published'
+  note: string
 }
 
 export interface ChainResult {
   input: ConfigInput
   cdu: CduSpec
+  platform: PlatformSpec
+  speedPct: number                    // resolved: 'auto' becomes the setpoint the kernel confirmed
+  speedAuto: boolean
   loadKw: number                      // total rack IT load
   p0: P0Output | null                 // null = the selected CDU has no pump curve
   p1: P1Output | null
   gates: Gate[]
   trusted: boolean                    // the kernel stands behind its own output (p1.converged): no data-domain excursion
-  converged: boolean                  // all gates green
+  converged: boolean                  // all gates green (gates marked notEvaluated do not block)
   p0Warnings: string[]                // kernel messages, English (kernel-messages.ts)
   p1Warnings: string[]
   bounds: FlowBounds
   systemCurve: [number, number][]     // kernel-traced [L/min, kPa] points on this network's system curve
-  comparison: CduComparison[]         // every CDU at the published pump speed — what 'auto' chooses from
+  comparison: CduComparison[]         // every CDU at its automatic setpoint — what 'auto' chooses from
+  catalog: CatalogRow[]               // nameplate screen of the rack builder's catalog for this load
 }
 
 function hydraulicOk(p0: P0Output | null): p0 is P0Output {
   return p0 !== null && p0.converged && p0.inputInvalid.length === 0
 }
 
-function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResult {
+/** Flow range a branch curve is evidenced for: between the first and the last published point. */
+function branchDomain(platform: PlatformSpec): [number, number] {
+  let lo = 0
+  let hi = Infinity
+  for (const id of platform.branchCurveIds) {
+    const pts = RACK_CURVES[id].points
+    lo = Math.max(lo, pts[0][0])
+    hi = Math.min(hi, pts[pts.length - 1][0])
+  }
+  return [lo, hi]
+}
+
+/** Per-node flow that satisfies the registered bounds at once — the OAI window on the liquid load,
+ *  the cold-plate θ domain, the branch curves' own domain and (unless `withHx` is false) the HX's
+ *  trust band, kept one point inside its edge so rounding the pump speed cannot tip the run
+ *  outside. Null when they do not overlap: no pump can make that configuration judgeable.
+ *  Policy over registered data, not physics. */
+function flowInterval(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec, withHx = true): [number, number] | null {
+  const [cLo, cHi] = branchDomain(platform)
+  const margin = (HX_TRUST_PCT - 1) / 100
+  let lo = Math.max(input.kwPerNode * platform.capture * OAI_FLOW_WINDOW[0], cLo)
+  let hi = Math.min(input.kwPerNode * platform.capture * OAI_FLOW_WINDOW[1], cHi)
+  if (withHx) {
+    lo = Math.max(lo, (cdu.hx.ratedTcsLpm * (1 - margin)) / input.nodes)
+    hi = Math.min(hi, (cdu.hx.ratedTcsLpm * (1 + margin)) / input.nodes)
+  }
+  if (platform.hotSpot) {
+    lo = Math.max(lo, platform.hotSpot.splitN * platform.hotSpot.flowLpmRange[0])
+    hi = Math.min(hi, platform.hotSpot.splitN * platform.hotSpot.flowLpmRange[1])
+  }
+  // A zero-width interval is treated as none: a single admissible flow value is not a band a pump
+  // speed (an integer percent) can be trusted to hit.
+  return lo < hi ? [lo, hi] : null
+}
+
+/** Pump speed (integer %) that puts the operating point nearest a target total flow, by asking
+ *  the kernel (flow rises monotonically with speed). Null when the CDU has no pump curve. */
+export function speedForFlow(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec, qTarget: number): number | null {
+  if (cdu.pumpCurveId === null) return null
+  // Search on the kernel's raw flow, converged or not: a solve that left a curve's domain still
+  // reports a flow, and discarding it would break the monotonicity the search relies on. Whether
+  // the result is admissible is the caller's question (see autoSpeed).
+  const qAt = (s: number): number => {
+    const q = solveP0(buildP0Input(input, cdu, platform, s)).qTotalLpm
+    return q !== null && Number.isFinite(q) ? q : 0
+  }
+  let lo = SPEED_RANGE[0]
+  let hi = SPEED_RANGE[1]
+  if (qTarget >= qAt(hi)) return hi
+  if (qTarget <= qAt(lo)) return lo
+  for (let i = 0; i < 12; i++) {
+    const mid = (lo + hi) / 2
+    if (qAt(mid) < qTarget) lo = mid
+    else hi = mid
+  }
+  return Math.round(hi)
+}
+
+/** The pump's automatic setpoint: a CDU holds its flow window by slowing the pump when the
+ *  published-speed flow overshoots it. The full interval (flow window ∩ curve ranges ∩ HX band) is
+ *  tried first; when the HX band cannot be met at any flow this node can take, the pump still holds
+ *  the part it controls (flow window ∩ curve ranges), so the chain runs and the evidenced-domain
+ *  gate names the HX band. A throttled speed is adopted only if the kernel confirms a converged
+ *  solve inside that interval; otherwise the pump stays at the published speed. */
+function autoSpeed(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec): number {
+  if (cdu.pumpCurveId === null) return 100
+  const interval = flowInterval(input, cdu, platform) ?? flowInterval(input, cdu, platform, false)
+  if (!interval) return 100
+  const qNominal = solveP0(buildP0Input(input, cdu, platform, 100)).branches[0]?.qLpm ?? NaN
+  if (!(qNominal > interval[1])) return 100
+  const target = (interval[1] - 0.25 * (interval[1] - interval[0])) * input.nodes
+  const s = speedForFlow(input, cdu, platform, target)
+  if (s === null || s >= 100) return 100
+  const r = solveP0(buildP0Input(input, cdu, platform, s))
+  const q = r.branches[0]?.qLpm ?? NaN
+  return hydraulicOk(r) && q >= interval[0] && q <= interval[1] ? s : 100
+}
+
+function solveChain(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec, trace: boolean): ChainResult {
   const loadKw = input.nodes * input.kwPerNode
   const gates: Gate[] = []
-  const p0 = cdu.pumpCurveId === null ? null : solveP0(buildP0Input(input, cdu, input.speedPct))
+  const speedPct = input.speedPct === 'auto' ? autoSpeed(input, cdu, platform) : input.speedPct
+  const p0 = cdu.pumpCurveId === null ? null : solveP0(buildP0Input(input, cdu, platform, speedPct))
   const ok = hydraulicOk(p0)
   // p1.converged doubles as the kernel's trust flag: it goes false whenever the run leaves an
   // evidenced data domain (HX rated-flow band, cold-plate θ range), yet the temperatures still
   // come back finite. So it has to be gated explicitly — an untrusted run is never a judgment.
-  const p1 = ok ? solveP1(buildP1Input(input, cdu, p0)) : null
+  const p1 = ok ? solveP1(buildP1Input(input, cdu, platform, p0)) : null
   const trusted = p1 !== null && p1.converged === true
 
   if (p0 === null) {
@@ -278,18 +416,19 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
     id: 'capacity',
     label: 'Inside the heat exchanger\u2019s evidenced range',
     pass: loadKw <= cdu.hx.maxKw,
-    detail: `${loadKw} kW vs ${cdu.hx.maxKw} kW at ${cdu.hx.maxAtdK} K ATD (last point of the sourced HX curve)`,
+    detail: `${loadKw.toFixed(1)} kW vs ${cdu.hx.maxKw} kW at ${cdu.hx.maxAtdK} K ATD (last point of the sourced HX curve)`,
   })
 
   const qPerNode = ok ? (p0.branches[0]?.qLpm ?? 0) : 0
-  const lo = input.kwPerNode * OAI_FLOW_WINDOW[0]
-  const hi = input.kwPerNode * OAI_FLOW_WINDOW[1]
+  const liquidKw = input.kwPerNode * platform.capture
+  const lo = liquidKw * OAI_FLOW_WINDOW[0]
+  const hi = liquidKw * OAI_FLOW_WINDOW[1]
   gates.push({
     id: 'flow-window',
     label: 'Flow in OAI window (1.25-2.0 L/min/kW)',
     pass: ok && qPerNode >= lo && qPerNode <= hi,
     detail: ok
-      ? `${qPerNode.toFixed(2)} L/min per node vs ${lo.toFixed(1)}-${hi.toFixed(1)} L/min window`
+      ? `${qPerNode.toFixed(2)} L/min per node vs ${lo.toFixed(1)}-${hi.toFixed(1)} L/min window (${liquidKw.toFixed(1)} kW carried by the liquid)`
       : p0 === null ? 'not computable — no pump curve' : 'not computable — hydraulic solve did not converge',
   })
 
@@ -299,7 +438,7 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
       label: 'Inside the kernel\u2019s evidenced domain',
       pass: trusted,
       detail: trusted
-        ? 'HX rated-flow band and cold-plate θ range both hold — the temperatures below are a judgment'
+        ? 'HX rated-flow band and branch curve ranges hold — the temperatures below are a judgment'
         : 'kernel flags this run as outside its evidenced domain — the temperatures below are extrapolation, not a judgment (see kernel messages)',
     })
     gates.push({
@@ -314,13 +453,23 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
       pass: p1.wClassPass === true,
       detail: `checked ${p1.wClassCheckC?.toFixed(1)} °C vs W32 max ${p1.wClassMaxSupplyC} °C`,
     })
-    const worst = Math.min(...p1.nodes.map(n => n.tCaseMarginC ?? Infinity))
-    gates.push({
-      id: 'tcase',
-      label: 'Cold-plate case-temperature margin',
-      pass: p1.nodes.every(n => n.tCaseMarginC !== null && n.tCaseMarginC > 0),
-      detail: `worst node margin ${worst === Infinity ? 'n/a' : worst.toFixed(1) + ' K'} to T_case ${T_CASE_MAX_C} °C (placeholder cap)`,
-    })
+    if (platform.hotSpot === null) {
+      gates.push({
+        id: 'tcase',
+        label: 'Cold-plate case-temperature margin',
+        pass: true,
+        notEvaluated: true,
+        detail: `not evaluated — the library has no sourced hot-spot θ for ${platform.label}; get the server vendor\u2019s case limit before quoting`,
+      })
+    } else {
+      const worst = Math.min(...p1.nodes.map(n => n.tCaseMarginC ?? Infinity))
+      gates.push({
+        id: 'tcase',
+        label: 'Cold-plate case-temperature margin',
+        pass: p1.nodes.every(n => n.tCaseMarginC !== null && n.tCaseMarginC > 0),
+        detail: `worst node margin ${worst === Infinity ? 'n/a' : worst.toFixed(1) + ' K'} to T_case ${T_CASE_MAX_C} °C (placeholder cap)`,
+      })
+    }
   } else {
     const why = p0 === null ? 'not computable — no pump curve' : 'thermal chain skipped — hydraulic solve did not converge'
     for (const id of ['evidenced-domain', 'dew', 'wclass', 'tcase']) gates.push({ id, label: id, pass: false, detail: why })
@@ -328,9 +477,11 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
 
   const rated = cdu.hx.ratedTcsLpm
   const bounds: FlowBounds = {
+    liquidKw,
     perNode: {
-      oai: [input.kwPerNode * OAI_FLOW_WINDOW[0], input.kwPerNode * OAI_FLOW_WINDOW[1]],
-      theta: [THETA_FLOW_RANGE[0] * THETA_SPLIT_N, THETA_FLOW_RANGE[1] * THETA_SPLIT_N],
+      oai: [lo, hi],
+      theta: platform.hotSpot ? [platform.hotSpot.splitN * platform.hotSpot.flowLpmRange[0], platform.hotSpot.splitN * platform.hotSpot.flowLpmRange[1]] : null,
+      curve: branchDomain(platform),
     },
     total: {
       hxWarn: [rated * (1 - HX_WARN_PCT / 100), rated * (1 + HX_WARN_PCT / 100)],
@@ -343,7 +494,7 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
   const systemCurve: [number, number][] = []
   if (trace && cdu.pumpCurveId !== null) {
     for (let s = SPEED_RANGE[1]; s >= SPEED_RANGE[0]; s -= 4) {
-      const r = solveP0(buildP0Input(input, cdu, s))
+      const r = solveP0(buildP0Input(input, cdu, platform, s))
       if (hydraulicOk(r) && (r.qTotalLpm ?? 0) > 0 && r.pumpDpKPa !== null) systemCurve.push([r.qTotalLpm as number, r.pumpDpKPa])
     }
     systemCurve.reverse()
@@ -352,6 +503,9 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
   return {
     input,
     cdu,
+    platform,
+    speedPct,
+    speedAuto: input.speedPct === 'auto',
     loadKw,
     p0,
     p1,
@@ -363,58 +517,62 @@ function solveChain(input: ConfigInput, cdu: CduSpec, trace: boolean): ChainResu
     bounds,
     systemCurve,
     comparison: [],
+    catalog: [],
   }
 }
 
-function atPublishedSpeed(input: ConfigInput, cdu: CduSpec) {
-  const r = solveChain({ ...input, speedPct: 100 }, cdu, false)
+/** Nameplate screen of the rack builder's catalog for this load — a first filter, not a model:
+ *  no derating, no hydraulics. L2A ratings are at their rated room temperature; the room-heat and
+ *  derating questions belong to the derating simulator. Unpublished ratings stay a red light. */
+export function screenCatalog(products: readonly CatalogProduct[], loadKw: number, roomC: number): CatalogRow[] {
+  const load = loadKw.toFixed(1)
+  return products.map(product => {
+    if (product.ratedKw == null) return { product, verdict: 'not published', note: 'no published rating — a red light, never a guess' }
+    if (loadKw > product.ratedKw) return { product, verdict: 'undersized', note: `${product.ratedKw} kW rating vs ${load} kW load` }
+    const air = typeof product.type === 'string' && product.type.toUpperCase() === 'L2A'
+    if (!air) return { product, verdict: 'fits', note: `${product.ratedKw} kW rating covers the ${load} kW load; needs a tempered facility-water loop` }
+    const ratedRoom = product.ratedRoomC ?? Number.NaN
+    return {
+      product,
+      verdict: 'fits',
+      note: `${product.ratedKw} kW at ${Number.isNaN(ratedRoom) ? 'rated' : ratedRoom + ' °C'} room air covers the ${load} kW load`
+        + (roomC > ratedRoom ? ` — this scenario is ${roomC} °C: derating is modelled in the derating simulator, not here` : '')
+        + '; the room must absorb the air share',
+    }
+  })
+}
+
+function atAutoSetpoint(input: ConfigInput, cdu: CduSpec, platform: PlatformSpec) {
+  const r = solveChain({ ...input, speedPct: 'auto' }, cdu, platform, false)
   const cmp: CduComparison = { cdu, feasible: r.converged, trusted: r.trusted, failing: r.gates.filter(g => !g.pass).map(g => g.id) }
   return { r, cmp }
 }
 
 /** 'auto' ranks every CDU by evidence, not by nameplate: fewest failing gates first, then the run
  *  closest to its HX rated flow, then the smaller unit. */
-function rankCdu(input: ConfigInput) {
+function rankCdu(input: ConfigInput, platform: PlatformSpec) {
   return CDUS
     .map((cdu, order) => {
-      const { r, cmp } = atPublishedSpeed(input, cdu)
-      return { cdu, r, cmp, order, dev: r.p1?.hx?.ratedFlowDevPct ?? Infinity }
+      const { r, cmp } = atAutoSetpoint(input, cdu, platform)
+      return { cdu, cmp, order, dev: r.p1?.hx?.ratedFlowDevPct ?? Infinity }
     })
     .sort((a, b) => a.cmp.failing.length - b.cmp.failing.length || a.dev - b.dev || a.order - b.order)
 }
 
-function resolveCdu(input: ConfigInput, ranked: ReturnType<typeof rankCdu>) {
-  return input.cdu === 'auto' ? ranked[0] : ranked.find(x => x.cdu.id === input.cdu) ?? ranked[0]
+export interface RunOptions {
+  trace?: boolean                              // false skips the system-curve ladder (sweeps don't draw it)
+  catalog?: readonly CatalogProduct[]          // the rack builder's cooling products, for the nameplate screen
 }
 
-/** One full chain. `trace: false` skips the system-curve ladder (sweeps and gates don't draw it). */
-export function runChain(input: ConfigInput, opts: { trace?: boolean } = {}): ChainResult {
-  const ranked = rankCdu(input)
-  const picked = resolveCdu(input, ranked)
-  const result = solveChain(input, picked.cdu, opts.trace !== false)
+/** One full chain. */
+export function runChain(input: ConfigInput, opts: RunOptions = {}): ChainResult {
+  const platform = PLATFORMS[input.platform]
+  const ranked = rankCdu(input, platform)
+  const picked = input.cdu === 'auto' ? ranked[0].cdu : ranked.find(x => x.cdu.id === input.cdu)?.cdu ?? ranked[0].cdu
+  const result = solveChain(input, picked, platform, opts.trace !== false)
   result.comparison = ranked.map(x => x.cmp)
+  result.catalog = opts.catalog ? screenCatalog(opts.catalog, result.loadKw, SCENARIOS[input.scenario].room.tAirC) : []
   return result
-}
-
-/** Pump speed (integer %) that puts the operating point nearest a target total flow, by asking
- *  the kernel (flow rises monotonically with speed). Null when the CDU has no pump curve. */
-export function speedForFlow(input: ConfigInput, qTarget: number): number | null {
-  const cdu = resolveCdu(input, rankCdu(input)).cdu
-  if (cdu.pumpCurveId === null) return null
-  const qAt = (s: number): number => {
-    const r = solveP0(buildP0Input(input, cdu, s))
-    return hydraulicOk(r) ? (r.qTotalLpm ?? 0) : 0
-  }
-  let lo = SPEED_RANGE[0]
-  let hi = SPEED_RANGE[1]
-  if (qTarget >= qAt(hi)) return hi
-  if (qTarget <= qAt(lo)) return lo
-  for (let i = 0; i < 12; i++) {
-    const mid = (lo + hi) / 2
-    if (qAt(mid) < qTarget) lo = mid
-    else hi = mid
-  }
-  return Math.round(hi)
 }
 
 const num = (n: number | null | undefined, d = 1) => (n === null || n === undefined || !Number.isFinite(n) ? '—' : n.toFixed(d))
@@ -427,9 +585,11 @@ export function buildReport(r: ChainResult): string {
   lines.push(`# Liquid cooling rack feasibility note (configurator)`)
   lines.push('')
   lines.push(`- Scenario: **${sc.label}** — ${sc.blurb}`)
-  lines.push(`- Load: **${input.nodes} × ${input.kwPerNode} kW = ${r.loadKw} kW** (8-OAM per-node platform assumption)`)
-  lines.push(`- Network: ORv3-style rack, OAI 8-OAM cold plates 4x2 PCL + UQD06, supply/return ${SUPPLY_C}/${RETURN_C} °C, PG25`)
-  lines.push(`- CDU: **${r.cdu.label}**${input.cdu === 'auto' ? ' (chosen automatically — best-evidenced for this operating point)' : ''}; pump ${input.speedPct >= 100 ? 'at the published curve speed' : `at ${input.speedPct}% of the published curve speed (affinity laws)`}`)
+  lines.push(`- Load: **${input.nodes} × ${input.kwPerNode.toFixed(1)} kW = ${r.loadKw.toFixed(1)} kW** IT (${(r.bounds.liquidKw * input.nodes).toFixed(1)} kW carried by the liquid at ${Math.round(r.platform.capture * 100)}% capture)`)
+  lines.push(`- Node platform: **${r.platform.label}** — ${r.platform.summary}`)
+  lines.push(`- Branch model: couplers = ${r.platform.couplers}; branch curves evidenced for ${r.bounds.perNode.curve[0]}–${r.bounds.perNode.curve[1]} L/min per node`)
+  lines.push(`- Network: ORv3-style rack, supply/return ${SUPPLY_C}/${RETURN_C} °C, PG25`)
+  lines.push(`- CDU: **${r.cdu.label}**${input.cdu === 'auto' ? ' (chosen automatically — best-evidenced for this operating point)' : ''}; pump ${r.speedAuto ? `automatic setpoint → ${r.speedPct}% of the published curve speed` : `at ${r.speedPct >= 100 ? 'the published curve speed' : `${r.speedPct}% of the published curve speed (affinity laws)`}`}`)
   lines.push('')
   lines.push(`## Hydraulics (p0-hydraulics v${p0?.versions.solver ?? '—'})`)
   lines.push('')
@@ -449,25 +609,42 @@ export function buildReport(r: ChainResult): string {
     if (p1.hx) lines.push(`- HX: ${p1.hx.mode} — Q=${num(p1.hx.qKw)} kW, ATD ${num(p1.hx.atdK)} K${p1.hx.ratedFlowDevPct !== null ? ` (rated-flow deviation ${num(p1.hx.ratedFlowDevPct)}%)` : ''}`)
     lines.push(`- Dew point ${num(p1.dewPointC)} °C vs supply ${num(p1.tSupplyC)} °C — margin **${num(p1.dewMarginK)} K**, pass=${p1.dewPass}`)
     lines.push(`- W32 check: ${num(p1.wClassCheckC)} °C vs max ${num(p1.wClassMaxSupplyC)} °C — pass=${p1.wClassPass}`)
-    const worstNode = p1.nodes.length
-      ? p1.nodes.reduce((w, n) => ((n.tCaseMarginC ?? Infinity) < (w.tCaseMarginC ?? Infinity) ? n : w), p1.nodes[0])
-      : null
-    if (worstNode) lines.push(`- Worst node (${worstNode.id}): T_case ${num(worstNode.tCaseC)} °C, margin ${num(worstNode.tCaseMarginC)} K (cap ${T_CASE_MAX_C} °C placeholder)`)
+    if (r.platform.hotSpot) {
+      const worstNode = p1.nodes.length
+        ? p1.nodes.reduce((w, n) => ((n.tCaseMarginC ?? Infinity) < (w.tCaseMarginC ?? Infinity) ? n : w), p1.nodes[0])
+        : null
+      if (worstNode) lines.push(`- Worst node (${worstNode.id}): T_case ${num(worstNode.tCaseC)} °C, margin ${num(worstNode.tCaseMarginC)} K (cap ${T_CASE_MAX_C} °C placeholder)`)
+    } else {
+      lines.push(`- T_case: not evaluated — the library has no sourced hot-spot θ for ${r.platform.label}`)
+    }
     if (r.p1Warnings.length) lines.push(`- Kernel messages: ${r.p1Warnings.join('; ')}`)
     lines.push('')
   }
-  lines.push(`## CDUs compared (published pump speed)`)
+  lines.push(`## CDUs compared (pump at its automatic setpoint)`)
   lines.push('')
   for (const c of r.comparison) {
     lines.push(`- ${c.cdu.label}: ${c.feasible ? 'feasible' : c.trusted ? 'gated' : 'not judgeable'}${c.failing.length ? ` — fails ${c.failing.map(gateShortName).join(', ')}` : ''}`)
   }
+  if (r.catalog.length) {
+    lines.push('')
+    lines.push(`## Catalog screen (nameplate only — no derating, no hydraulics)`)
+    lines.push('')
+    for (const c of r.catalog) lines.push(`- ${c.product.name}: ${c.verdict} — ${c.note}`)
+  }
   lines.push('')
   lines.push(`## Verdict`)
   lines.push('')
-  for (const g of r.gates) lines.push(`- ${g.pass ? 'PASS' : 'FAIL'} — ${g.label}: ${g.detail}`)
+  for (const g of r.gates) lines.push(`- ${g.pass ? (g.notEvaluated ? 'NOT EVALUATED' : 'PASS') : 'FAIL'} — ${g.label}: ${g.detail}`)
   lines.push('')
   lines.push(`---`)
   lines.push(`Solver versions: p0 ${p0?.versions.solver ?? '—'} / p1 ${p1?.versions.solver ?? '—'} · props ${p0?.versions.props ?? '—'} · data ${p0?.versions.dataVersion ?? RACK_DATA_VERSION}`)
   lines.push(`Boundary: results are feasibility judgments up to the UQD coupling plane — not a performance guarantee. θ cap ${T_CASE_MAX_C} °C is a placeholder; replace with the server vendor's spec before quoting. Generated by the liquid cooling guide configurator (kernel-driven, no hand-written physics).`)
   return lines.join('\n')
 }
+
+/** Short names for gate ids — what the comparison table and the calculation note print. */
+const GATE_SHORT: Record<string, string> = {
+  'pump-curve': 'no pump curve', 'p0-converged': 'hydraulic solve', capacity: 'HX capacity', 'flow-window': 'OAI window',
+  'evidenced-domain': 'evidenced domain', dew: 'dew point', wclass: 'ASHRAE W32', tcase: 'T_case margin',
+}
+export const gateShortName = (id: string): string => GATE_SHORT[id] ?? id
