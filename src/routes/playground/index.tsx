@@ -6,7 +6,7 @@ export const Route = createFileRoute('/playground/')({
   head: () => ({
     ...seoHead({
       title: 'Playground — interactive liquid cooling tools',
-      description: 'Interactive liquid cooling playground: live coolant-loop simulator, rack builder, capacity derating simulator, room load calculator — learn by moving numbers, all in-browser.',
+      description: 'Interactive liquid cooling playground: kernel-driven rack configurator, live coolant-loop simulator, rack builder, capacity derating simulator, room load calculator — learn by moving numbers, all in-browser.',
       path: '/playground',
     }),
   }),
@@ -26,6 +26,7 @@ function PlaygroundPage() {
 
       <h2>The tools</h2>
       <div className="idx">
+        <a href="/playground/configurator" className="idx-row"><span className="idx-title">Rack configurator</span><span className="idx-desc">Scenario → load → CDU &amp; pump operating point → thermal chain → calculation note. The open-source kernel picks the best-evidenced CDU and refuses to judge outside its data — drag the operating point to see why a configuration passes or fails</span><span className="idx-arrow">→</span></a>
         <a href="/playground/rack-builder" className="idx-row"><span className="idx-title">Rack builder</span><span className="idx-desc">Pick real server platforms (GB200 NVL72, HGX B200/H100, MI300X) and real cooling products (Vertiv CDU 70, STULZ, Asetek L2L) — derated capacity, flow and facility needs settle live, every selection sourced</span><span className="idx-arrow">→</span></a>
         <a href="/playground/derating" className="idx-row"><span className="idx-title">Derating simulator</span><span className="idx-desc">Capacity vs room temperature as a draggable curve — exactly what 25 °C → 35 °C does to an L2A CDU</span><span className="idx-arrow">→</span></a>
         <a href="/playground/room-load" className="idx-row"><span className="idx-title">Room load calculator</span><span className="idx-desc">Cabinet kW, installed AC, existing heat — live verdict on whether the room can host the cabinet</span><span className="idx-arrow">→</span></a>
