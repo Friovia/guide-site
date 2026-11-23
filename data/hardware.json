@@ -1,6 +1,6 @@
 {
-  "note": "Hardware picker data for the rack builder. Facts policy: server power figures are TDP-formula budgets (ΣGPU + ΣCPU) × 1.2 — the same model as /tdp-to-rack-kw — computed from publicly stated accelerator TDPs; GB200 NVL72 is the vendor-stated rack figure. Cooling products reuse the verified comparison data layer (capacity anchors per row). Never present these as measured draw.",
-  "updated": "2026-11-13",
+  "note": "Hardware picker data for the rack builder. Facts policy: server power figures are either vendor-stated (the row's note says so and links the vendor document) or TDP-formula budgets (ΣGPU + ΣCPU) × 1.2 — the same model as /tdp-to-rack-kw — computed from publicly stated accelerator TDPs. Cooling products reuse the verified comparison data layer (capacity anchors per row). Never present these as measured draw.",
+  "updated": "2026-11-23",
   "servers": [
     {
       "id": "gb200-nvl72",
@@ -25,12 +25,12 @@
     {
       "id": "vr-nvl72",
       "name": "NVIDIA Vera Rubin NVL72 rack",
-      "chip": "72× Rubin (2,300 W Max-P) + 36× Vera CPU",
-      "kw": 220,
+      "chip": "72× Rubin + 36× Vera CPU",
+      "kw": 227,
       "u": 48,
       "capture": 1,
-      "note": "First racks shipped Sept 2026 (Supermicro, CoreWeave). 180-220 kW Max-P / 150-170 kW Max-Q per SemiAnalysis co-design analysis; 100% liquid coverage, zero fans — never present as measured draw",
-      "source": "https://ir.supermicro.com/news/news-details/2026/default.aspx"
+      "note": "Vendor-stated rack power (NVIDIA Vera Rubin datasheet): MaxP 227 kW / MaxQ 187 kW / MaxLPS 156 kW — shown at MaxP, the design ceiling; never present as measured draw. 100% liquid cooling, no fans, 45 °C coolant inlet. Supermicro announced shipping September 2026",
+      "source": "https://dam-cdn.nvd.orangelogic.com/AssetLink/56p68o47y6f1yucpubl0ump1c0aif422.pdf"
     },
     {
       "id": "hgx-b200",
@@ -55,11 +55,11 @@
     {
       "id": "rubin-nvl8",
       "name": "8× Rubin node (HGX/DGX Rubin NVL8)",
-      "chip": "8× Rubin (2,300 W Max-P) + 2× Xeon 6 (360 W)",
-      "kw": 22.9,
+      "chip": "8× Rubin + 2× Intel Xeon 6776P (DGX Rubin NVL8)",
+      "kw": 24,
       "u": 2,
       "capture": 0.8,
-      "note": "TDP budget: (8×2300 + 720) × 1.2 — matches NVIDIA/ODM-stated ~24 kW. Liquid-only platform (no air SKU); hybrid configs keep CPUs on air",
+      "note": "Vendor-stated system power usage ~24 kW (DGX Rubin NVL8) — a vendor figure, not a TDP budget; that page publishes no per-GPU TDP",
       "source": "https://www.nvidia.com/en-us/data-center/dgx-rubin-nvl8/"
     },
     {

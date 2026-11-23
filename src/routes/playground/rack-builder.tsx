@@ -74,8 +74,8 @@ function RackBuilderTool() {
       <h1>Rack builder — the product picker</h1>
       <p style={{ maxWidth:"680px" }}>
         Select a real cooling product and real server platforms, set the room, and watch capacity derate
-        against it. Server watts are TDP budgets (ΣGPU + ΣCPU) × 1.2 from public specs — every selection
-        links its source. Same physics as the <a href="/coolant-flow-rate">formulas section</a>.
+        against it. Server watts are vendor-stated figures or TDP budgets (ΣGPU + ΣCPU) × 1.2 from
+        public specs — never measured draw; every selection links its source. Same physics as the <a href="/coolant-flow-rate">formulas section</a>.
       </p>
 
       {/* Cooling product picker */}
@@ -166,7 +166,7 @@ function RackBuilderTool() {
             </tr>
           </tbody>
         </table>
-        <figcaption><b>FIG. 1</b> — Live build. Flow: L/min = kW × 60 / (4.186 × ΔT). Derating: approach-temperature model on the selected product's rating point. Watts are TDP budgets, not measured draw.</figcaption>
+        <figcaption><b>FIG. 1</b> — Live build. Flow: L/min = kW × 60 / (4.186 × ΔT). Derating: approach-temperature model on the selected product's rating point. Watts are vendor-stated figures or TDP budgets, not measured draw.</figcaption>
       </figure>
 
       <h2>Try this</h2>

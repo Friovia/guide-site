@@ -8,7 +8,7 @@
       "segments": [
         "chips"
       ],
-      "tagline": "The chip vendor whose GB200/GB300 NVL72 and Vera Rubin rack-scale systems are forcing data centers into direct liquid cooling — ~120-142 kW racks today, 100% liquid-cooled fan-free racks with 45 °C PG25 coolant next.",
+      "tagline": "The chip vendor whose GB200/GB300 NVL72 and Vera Rubin rack-scale systems are forcing data centers into direct liquid cooling — ~120-142 kW racks today; the 100% liquid-cooled, fan-free Vera Rubin NVL72 is rated up to 227 kW (MaxP) with 45 °C PG25 coolant.",
       "hq": "Santa Clara, California, USA",
       "founded": 1993,
       "ownership": "NASDAQ: NVDA",
@@ -30,12 +30,22 @@
           "source": "https://developer.nvidia.com/blog/nvidia-vera-rubin-pod-seven-chips-five-rack-scale-systems-one-ai-supercomputer/"
         },
         {
+          "name": "Vera Rubin NVL72 — power envelope",
+          "note": "Official datasheet ratings: MaxP 227 kW, MaxQ 187 kW, MaxLPS 156 kW (MaxLPS is NVIDIA's DSX suite for maximizing output inside a fixed power budget); 72 Rubin GPUs + 36 Vera CPUs per rack, 45 °C coolant inlet",
+          "source": "https://dam-cdn.nvd.orangelogic.com/AssetLink/56p68o47y6f1yucpubl0ump1c0aif422.pdf"
+        },
+        {
           "name": "MGX modular rack architecture",
           "note": "Third-generation modular rack/reference design unifying compute, networking, cooling and power (OCP MGX Accelerated Computing Rack and Trays Specification); LPX configuration scales 256 LPU accelerators in a single liquid-cooled MGX rack",
           "source": "https://www.nvidia.com/en-us/data-center/products/mgx/"
         }
       ],
       "facts": [
+        {
+          "year": "2026",
+          "text": "The official Vera Rubin datasheet rates the NVL72 rack at 227 kW (MaxP), 187 kW (MaxQ) and 156 kW (MaxLPS), for a 45 °C coolant inlet — 72 Rubin GPUs and 36 Vera CPUs per rack",
+          "source": "https://dam-cdn.nvd.orangelogic.com/AssetLink/56p68o47y6f1yucpubl0ump1c0aif422.pdf"
+        },
         {
           "year": "2026",
           "text": "Rubin described as the world's first 100% liquid-cooled platform — every chip and networking component cooled entirely by liquid, \"no fans anywhere in the system\"; PG25 coolant (75% water / 25% propylene glycol) enters at up to 45 °C and exits ~55 °C, enabling chiller-less dry-cooler heat rejection with near-zero water consumption",
@@ -56,7 +66,7 @@
       "faq": [
         {
           "q": "Why is NVIDIA pushing data centers to liquid cooling?",
-          "a": "Rack density: GB200 NVL72 needs ~120 kW per rack and GB300 NVL72 up to 142 kW — beyond air. Vera Rubin NVL72 goes fully liquid: 100% liquid-cooled, no fans anywhere in the system, PG25 coolant entering at up to 45 °C so heat can be rejected by dry coolers with near-zero water."
+          "a": "Rack density: GB200 NVL72 needs ~120 kW per rack, GB300 NVL72 up to 142 kW, and NVIDIA's datasheet rates the Vera Rubin NVL72 at up to 227 kW (MaxP) — beyond air. Vera Rubin NVL72 goes fully liquid: 100% liquid-cooled, no fans anywhere in the system, PG25 coolant entering at up to 45 °C so heat can be rejected by dry coolers with near-zero water."
         },
         {
           "q": "What coolant do NVIDIA racks use?",

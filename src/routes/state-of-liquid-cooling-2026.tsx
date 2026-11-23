@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     q: 'Has the Rubin generation started shipping?',
-    a: 'Yes. NVIDIA launched Rubin at CES 2026 (January), ramped it into full production in May, and the first Vera Rubin NVL72 racks shipped September 23 (Supermicro), with CoreWeave running production workloads from September 30. The generation is defined by 2.3 kW-class GPUs, 180-220 kW racks, official 45 °C warm-water cooling and 100% liquid coverage — there is no air-cooled SKU.',
+    a: 'Yes. NVIDIA launched Rubin at CES 2026 (January), ramped it into full production in May, and Supermicro announced it was shipping Vera Rubin NVL72 racks on September 23, with CoreWeave running production workloads from September 30. The generation is defined by racks NVIDIA rates at 227 kW (MaxP), official 45 °C warm-water cooling and 100% liquid coverage — there is no air-cooled SKU.',
   },
   {
     q: 'What replaced 3M fluorinated cooling fluids?',
@@ -39,8 +39,8 @@ function State2026Page() {
           <h3>TL;DR</h3>
           <p>
             Above ~30 kW, liquid is no longer a choice — it is the physics. The Rubin generation —
-            2.3 kW-class GPUs in 100%-liquid racks fed with 45 °C warm water — started shipping in
-            September 2026. Fluorinated fluids are gone
+            racks NVIDIA rates at up to 227 kW, 100%-liquid and fed with 45 °C warm water — is in
+            production shipping (Supermicro, September 2026). Fluorinated fluids are gone
             (3M exited PFAS manufacturing at end-2025), leaving PG25 water-glycol as the default.
             Standards matured (OCP ORv3, SS 726:2026 for the tropics). What still does not exist:
             a turnkey, facility-free liquid cabinet in the 20-50 kW class — the gap this site tracks.
@@ -64,11 +64,13 @@ function State2026Page() {
       <h2>The Rubin generation is shipping</h2>
       <p style={{ maxWidth:"680px" }}>
         What was a roadmap item at the start of 2026 is now delivery news: NVIDIA launched Rubin at
-        CES in January (in production on day one), announced the full-production ramp in May, and the
-        first <a href="https://ir.supermicro.com/news/news-details/2026/default.aspx">Vera Rubin NVL72
-        racks shipped September 23</a> (Supermicro — up to 6,000 racks/month at full production), with
+        CES in January (in production on day one), announced the full-production ramp in May, and
+        <a href="https://ir.supermicro.com/news/news-details/2026/Supermicro-Now-Shipping-NVIDIA-Vera-Rubin-NVL72-Racks/default.aspx">Supermicro's
+        September 23 announcement that it is shipping Vera Rubin NVL72 racks</a> (up to 6,000
+        racks/month at full production), with
         <a href="https://www.coreweave.com">CoreWeave running production workloads on them from
-        September 30</a>. Engineering meaning: 2.3 kW-class GPUs (Max-P), 180-220 kW racks,
+        September 30</a>. Engineering meaning: a rack <a href="https://dam-cdn.nvd.orangelogic.com/AssetLink/56p68o47y6f1yucpubl0ump1c0aif422.pdf">NVIDIA's
+        datasheet rates at 227 kW (MaxP)</a>,
         45 °C warm-water cooling made official, and 100% liquid coverage with zero fans — the first
         platform generation with no air-cooled SKU at all. AMD's Helios racks (MI455X) entered full
         production the same quarter, so the physics now applies across both ecosystems. The
