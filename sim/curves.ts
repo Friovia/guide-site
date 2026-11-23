@@ -2,6 +2,7 @@
 // 源：p0-hydraulics/test-case/rack-orv3.json + p1-thermal-chain/test-case/rack-orv3-thermal.json
 // （dataVersion component-curves@2026-10-20-hx78）。政策：无源不入库；本文件只是曲线库既源条目的
 // 分发形态，溯源看各 provenance 字段。
+// 另按 id 从曲线库追加（平台模型用）：coldplate-hgx-h200-8gpu-tonecooling-tx-45c-pg25、qd-ocp-uqd04-mincv-envelope-pg25
 // typedRackCurves/typedHxCurves：运行时逐条结构校验后返回求解器类型——调用侧不再 as 断言。
 import type { Curve } from './p0/types.ts'
 import type { HxCurve } from './p1/types.ts'
@@ -249,6 +250,64 @@ const RACK_RAW = {
       "type": "datasheet",
       "retrieved": "2026-10-20",
       "uncertainty": "像素轨迹数字化 ±3%（Maximum Pump Performance 红线）+ PG25 密度修正；bypass <33 LPM 段偏乐观；功耗 970W"
+    }
+  },
+  "coldplate-hgx-h200-8gpu-tonecooling-tx-45c-pg25": {
+    "x": "L/min",
+    "y": "kPa",
+    "points": [
+      [
+        6,
+        14.881
+      ],
+      [
+        8,
+        26.455
+      ],
+      [
+        10,
+        41.336
+      ],
+      [
+        12,
+        59.5239
+      ]
+    ],
+    "basis": "PG25 @ 25°C（水基准 ×SG 1.0334 修正：SG=ρ(DOWFROST LC25,25°C)/ρ(水,25°C)=1030.3/997.0，ΔP∝ρ）",
+    "provenance": {
+      "url": "https://www.tonecoolingtexas.com/nvidia-h200-liquid-cold-plate-usa/",
+      "type": "datasheet",
+      "retrieved": "2026-10-17",
+      "uncertainty": "厂商页单点（10 L/min 推荐，40 kPa 为 max 压降上限而非实测额定）+ 二次律形状插值，形状借自同类，绝对值有据且偏保守（按上限锚定）；纯水基准，PG25 使用需按政策#5 修正；PG25 修正：密度项按 SG@25°C 精确（原标定温度下比值变化 <0.4%），黏度项（湍流区 ~2-3%）未计入"
+    }
+  },
+  "qd-ocp-uqd04-mincv-envelope-pg25": {
+    "x": "L/min",
+    "y": "kPa",
+    "points": [
+      [
+        5,
+        10.2307
+      ],
+      [
+        6.44,
+        17.0511
+      ],
+      [
+        8,
+        26.2484
+      ],
+      [
+        10,
+        41.1293
+      ]
+    ],
+    "basis": "PG25 @ 25°C（水基准 ×SG 1.0334 修正：SG=ρ(DOWFROST LC25,25°C)/ρ(水,25°C)=1030.3/997.0，Cv 口径 ΔP∝SG）",
+    "provenance": {
+      "url": "https://www.opencompute.org/wp-content/uploads/2026/10/OCP-Design-Spec_UQD_v2.0.0.pdf",
+      "type": "ocp-spec",
+      "retrieved": "2026-10-17",
+      "uncertainty": "非实测产品曲线，是规范限值包络：Table 6 规定 UQD04 Cv_min=1.1（最差合规件），经 OCP 定义式换算的最差情况 ΔP；最好情况 Cv_max=1.6 对应 @6.44 L/min 仅 7.8 kPa；规范建议的 ΔP=AQ²+BQ 系数 A/B 本版(v2.0.0)标注 planned review 尚未定义；PG25 修正：密度项按 SG 精确，黏度项（湍流区 ~2-3%）未计入"
     }
   }
 } as Record<string, RawCurve>;

@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "5c170c81b409a0c6d75693284f40778c8f46345f",
+  "sourceCommit": "abe99f818c77c3f520e845e8cc050d6394f501b6",
   "sourceRepo": "liquid-cooling-system/simulation",
-  "generatedAt": "2026-10-26T13:32:28.320Z",
+  "generatedAt": "2026-11-23T10:46:23.607Z",
   "versions": {
     "p0Solver": "0.2.0",
     "p1Solver": "0.2.0",
@@ -21,6 +21,6 @@
     "sim/p1/hx.ts": "bc7b6d14fbccd497",
     "sim/p1/thermal.ts": "c2e4c10d640ec672",
     "sim/p1/solve.ts": "6cdc35d2c4587509",
-    "sim/curves.ts": "75e2ae8671b025e4"
+    "sim/curves.ts": "69efccfaea5b72b8"
   }
 }
