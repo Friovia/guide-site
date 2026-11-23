@@ -50,6 +50,7 @@ import { Route as WhatIsLiquidCoolingRouteImport } from './routes/what-is-liquid
 import { Route as ArIndexRouteImport } from './routes/ar/index'
 import { Route as EsIndexRouteImport } from './routes/es/index'
 import { Route as PlaygroundIndexRouteImport } from './routes/playground/index'
+import { Route as PlaygroundConfiguratorRouteImport } from './routes/playground/configurator'
 import { Route as PlaygroundDeratingRouteImport } from './routes/playground/derating'
 import { Route as PlaygroundRackBuilderRouteImport } from './routes/playground/rack-builder'
 import { Route as PlaygroundRoomLoadRouteImport } from './routes/playground/room-load'
@@ -265,6 +266,11 @@ const PlaygroundIndexRoute = PlaygroundIndexRouteImport.update({
   path: '/playground/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PlaygroundConfiguratorRoute = PlaygroundConfiguratorRouteImport.update({
+  id: '/playground/configurator',
+  path: '/playground/configurator',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PlaygroundDeratingRoute = PlaygroundDeratingRouteImport.update({
   id: '/playground/derating',
   path: '/playground/derating',
@@ -330,6 +336,7 @@ export interface FileRoutesByFullPath {
   '/what-is-a-cdu': typeof WhatIsACduRoute
   '/what-is-a-micro-data-center': typeof WhatIsAMicroDataCenterRoute
   '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
+  '/playground/configurator': typeof PlaygroundConfiguratorRoute
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
   '/playground/room-load': typeof PlaygroundRoomLoadRoute
@@ -378,6 +385,7 @@ export interface FileRoutesByTo {
   '/what-is-a-cdu': typeof WhatIsACduRoute
   '/what-is-a-micro-data-center': typeof WhatIsAMicroDataCenterRoute
   '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
+  '/playground/configurator': typeof PlaygroundConfiguratorRoute
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
   '/playground/room-load': typeof PlaygroundRoomLoadRoute
@@ -427,6 +435,7 @@ export interface FileRoutesById {
   '/what-is-a-cdu': typeof WhatIsACduRoute
   '/what-is-a-micro-data-center': typeof WhatIsAMicroDataCenterRoute
   '/what-is-liquid-cooling': typeof WhatIsLiquidCoolingRoute
+  '/playground/configurator': typeof PlaygroundConfiguratorRoute
   '/playground/derating': typeof PlaygroundDeratingRoute
   '/playground/rack-builder': typeof PlaygroundRackBuilderRoute
   '/playground/room-load': typeof PlaygroundRoomLoadRoute
@@ -477,6 +486,7 @@ export interface FileRouteTypes {
     | '/what-is-a-cdu'
     | '/what-is-a-micro-data-center'
     | '/what-is-liquid-cooling'
+    | '/playground/configurator'
     | '/playground/derating'
     | '/playground/rack-builder'
     | '/playground/room-load'
@@ -525,6 +535,7 @@ export interface FileRouteTypes {
     | '/what-is-a-cdu'
     | '/what-is-a-micro-data-center'
     | '/what-is-liquid-cooling'
+    | '/playground/configurator'
     | '/playground/derating'
     | '/playground/rack-builder'
     | '/playground/room-load'
@@ -573,6 +584,7 @@ export interface FileRouteTypes {
     | '/what-is-a-cdu'
     | '/what-is-a-micro-data-center'
     | '/what-is-liquid-cooling'
+    | '/playground/configurator'
     | '/playground/derating'
     | '/playground/rack-builder'
     | '/playground/room-load'
@@ -622,6 +634,7 @@ export interface RootRouteChildren {
   WhatIsACduRoute: typeof WhatIsACduRoute
   WhatIsAMicroDataCenterRoute: typeof WhatIsAMicroDataCenterRoute
   WhatIsLiquidCoolingRoute: typeof WhatIsLiquidCoolingRoute
+  PlaygroundConfiguratorRoute: typeof PlaygroundConfiguratorRoute
   PlaygroundDeratingRoute: typeof PlaygroundDeratingRoute
   PlaygroundRackBuilderRoute: typeof PlaygroundRackBuilderRoute
   PlaygroundRoomLoadRoute: typeof PlaygroundRoomLoadRoute
@@ -921,6 +934,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PlaygroundIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/playground/configurator': {
+      id: '/playground/configurator'
+      path: '/playground/configurator'
+      fullPath: '/playground/configurator'
+      preLoaderRoute: typeof PlaygroundConfiguratorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/playground/derating': {
       id: '/playground/derating'
       path: '/playground/derating'
@@ -998,6 +1018,7 @@ const rootRouteChildren: RootRouteChildren = {
   WhatIsACduRoute: WhatIsACduRoute,
   WhatIsAMicroDataCenterRoute: WhatIsAMicroDataCenterRoute,
   WhatIsLiquidCoolingRoute: WhatIsLiquidCoolingRoute,
+  PlaygroundConfiguratorRoute: PlaygroundConfiguratorRoute,
   PlaygroundDeratingRoute: PlaygroundDeratingRoute,
   PlaygroundRackBuilderRoute: PlaygroundRackBuilderRoute,
   PlaygroundRoomLoadRoute: PlaygroundRoomLoadRoute,

@@ -16,6 +16,7 @@ Radar:
 
 Basics:
 
+  - [Rack configurator](https://liquidcoolingguide.com/playground/configurator): scenario → load → hydraulics (p0) → thermal chain (p1) → calculation note — every number from the open-source kernel (bit-identical parity gate in CI), dew-point red line, ASHRAE W-class, downloadable calc note.
 - [Playground](https://liquidcoolingguide.com/playground): Interactive tools — rack builder, capacity derating simulator, room load calculator. All computation in-browser; formulas shown with user values substituted.
   - [Rack builder](https://liquidcoolingguide.com/playground/rack-builder): assemble a rack from server types, set room temperature, get liquid/air heat split, derated cabinet capacity, coolant flow (L/min), room AC requirement and verdicts.
   - [Derating simulator](https://liquidcoolingguide.com/playground/derating): capacity-vs-ambient curve, approach-temperature model anchored to Vertiv XDU070 published data (86.5 kW @ 45°C coolant / 25°C air).

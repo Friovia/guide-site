@@ -254,6 +254,11 @@
           "desc": "Interactive tools — learn by moving numbers"
         },
         {
+          "path": "/playground/configurator",
+          "title": "Rack configurator",
+          "desc": "Scenario to feasibility note — kernel-driven chain, downloadable calculation note"
+        },
+        {
           "path": "/playground/rack-builder",
           "title": "Rack builder",
           "desc": "Assemble a rack, watch capacity derate live"
