@@ -111,20 +111,28 @@ function ConfiguratorPage() {
                 {(() => { const q = p0.branches[0]?.qLpm ?? 0; const [lo, hi] = OAI_FLOW_WINDOW.map(w => w * input.kwPerNode); return q >= lo && q <= hi ? <b style={{ color: '#1a7f37' }}>in window</b> : <b style={{ color: '#c0392b' }}>outside window ({lo.toFixed(1)}-{hi.toFixed(1)})</b> })()}
               </td>
             </tr>
-            {p0.warnings.length > 0 && <tr><th>Warnings</th><td colSpan={2} className="src">{p0.warnings.join(' · ')}</td></tr>}
+            {result.p0Warnings.length > 0 && <tr><th>Kernel messages</th><td colSpan={2} className="src">{result.p0Warnings.join(' · ')}</td></tr>}
           </tbody>
         </table>
         <figcaption>Curves: pump &amp; cold plate &amp; UQD from the source-attributed curve library (datasheet / OCP spec, ±15% uncertainty bands registered per curve).</figcaption>
       </figure>
 
-      <h2>③ Thermal chain {p1 ? <GateBadge ok={p1.dewPass === true && p1.wClassPass === true} text="p1" /> : null}</h2>
+      <h2>③ Thermal chain {p1 ? <GateBadge ok={result.trusted} text="p1" /> : null}</h2>
       {p1 ? (
         <>
           <p style={{ maxWidth: '680px' }}>
             Heat flows chip → cold plate → coolant → CDU heat exchanger → facility water. The kernel checks the dew-point
             red line (condensation), the ASHRAE W32 facility-water class, and cold-plate case temperature against the load.
+            It also refuses to judge outside its evidenced data domain: every curve is sourced for a rated flow range, and a
+            run that leaves it is reported as extrapolation — not as a verdict.
           </p>
-          <figure className="fig" style={{ marginInline: '0', maxWidth: '760px' }}>
+          {!result.trusted && (
+            <p style={{ maxWidth: '760px', marginInline: '0', borderLeft: '3px solid #c0392b', paddingLeft: '12px' }}>
+              <b>Outside the kernel's evidenced domain.</b> This run left the flow range its curves are sourced for, so the
+              temperatures below are extrapolation and cannot back a feasibility judgment. The kernel messages say which range.
+            </p>
+          )}
+          <figure className="fig" style={{ marginInline: '0', maxWidth: '760px', opacity: result.trusted ? 1 : 0.55 }}>
             <table>
               <tbody>
                 <tr><th>Rack supply / return</th><td><b>{fmt(p1.tSupplyC)} / {fmt(p1.tReturnC)} °C</b></td><td className="src">ΔT rack {fmt(p1.dtRackK)} K</td></tr>
@@ -137,14 +145,14 @@ function ConfiguratorPage() {
                 <tr>
                   <th>ASHRAE W32</th>
                   <td>{p1.wClassPass === true ? <b style={{ color: '#1a7f37' }}>PASS</b> : <b style={{ color: '#c0392b' }}>FAIL</b>}</td>
-                  <td className="src">checked {fmt(p1.wClassCheckC)} °C vs max {p1.wClassMaxSupplyC} °C</td>
+                  <td className="src">checked {fmt(p1.wClassCheckC)} °C vs max {fmt(p1.wClassMaxSupplyC)} °C</td>
                 </tr>
                 <tr>
                   <th>Worst T_case margin</th>
                   <td>{(() => { const worst = Math.min(...p1.nodes.map(n => n.tCaseMarginC ?? Infinity)); return worst === Infinity ? '—' : <b style={{ color: worst > 0 ? '#1a7f37' : '#c0392b' }}>{fmt(worst)} K</b> })()}</td>
                   <td className="src">cap 80 °C is a placeholder — swap in the server vendor spec before quoting</td>
                 </tr>
-                {p1.warnings.length > 0 && <tr><th>Warnings</th><td colSpan={2} className="src">{p1.warnings.join(' · ')}</td></tr>}
+                {result.p1Warnings.length > 0 && <tr><th>Kernel messages</th><td colSpan={2} className="src">{result.p1Warnings.join(' · ')}</td></tr>}
               </tbody>
             </table>
             <figcaption>θ = 0.02185 K/W (Wiwynn 8-OAM upper bound ×1.15 PG25) — assumption registered, not invented.</figcaption>
@@ -159,9 +167,14 @@ function ConfiguratorPage() {
         The same run emits a calculation note you can hand to a reviewer — inputs, results, verdicts, versions and the
         boundary statement (feasibility judgment up to the UQD plane, not a performance guarantee).
       </p>
-      <div style={{ display: 'flex', gap: '10px', alignItems: 'center', marginBottom: '10px' }}>
+      <div style={{ display: 'flex', gap: '10px', alignItems: 'center', marginBottom: '10px', flexWrap: 'wrap' }}>
         <b style={{ fontSize: '15px' }}>
-          Verdict: {result.converged ? <span style={{ color: '#1a7f37' }}>configuration feasible</span> : <span style={{ color: '#c0392b' }}>check the red gates above</span>}
+          Verdict:{' '}
+          {result.converged
+            ? <span style={{ color: '#1a7f37' }}>configuration feasible</span>
+            : result.trusted
+              ? <span style={{ color: '#c0392b' }}>check the red gates above</span>
+              : <span style={{ color: '#c0392b' }}>not judgeable with this CDU — outside the kernel's evidenced domain</span>}
         </b>
         <button onClick={download} style={{ padding: '6px 14px', borderRadius: '9999px', border: '1px solid #476582', background: '#f1f1f1', cursor: 'pointer', fontSize: '13px' }}>
           Download note (.md)

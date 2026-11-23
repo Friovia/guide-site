@@ -7,11 +7,15 @@
 // degradation, HX slope 30.25 kW/K from the Vertiv CoolChip CDU121 datasheet, UQD06
 // Cv_min envelope from OCP spec v2.0.0. Changing a scenario preset changes inputs
 // only — never physics.
+// Kernel runtime messages arrive in Chinese (upstream English release pending); kernel-messages.ts
+// rewrites them at the display boundary — render p0Warnings/p1Warnings, never p0/p1.warnings.
+// (The .ts extension is required: the parity gate loads this file with node's native type stripping.)
 import { solve as solveP0 } from '../../sim/p0/solve.ts'
 import type { P0Input, P0Output } from '../../sim/p0/types.ts'
 import { solve as solveP1 } from '../../sim/p1/solve.ts'
 import type { P1Input, P1Output } from '../../sim/p1/types.ts'
 import { typedRackCurves, typedHxCurves, RACK_DATA_VERSION } from '../../sim/curves.ts'
+import { englishKernelMessages } from './kernel-messages.ts'
 
 export type ScenarioId = 'hospital' | 'campus' | 'tropical'
 
@@ -51,7 +55,15 @@ export interface ConfigInput {
   kwPerNode: number   // IT load per node, kW (8-OAM platform assumption)
 }
 
-export const DEFAULT_INPUT: ConfigInput = { scenario: 'tropical', nodes: 8, kwPerNode: 10 }
+/** The reference-case input: same network and the same 8 × 10 kW load as the V&V anchor. The
+ *  parity gate pins this one bit-for-bit. It is NOT the landing state — its flow sits just
+ *  under the OAI window, so it opens red. */
+export const REFERENCE_INPUT: ConfigInput = { scenario: 'tropical', nodes: 8, kwPerNode: 10 }
+
+/** Landing state: feasible AND inside the kernel's evidenced domain, so the page opens on a
+ *  judgment the kernel stands behind. Today only the 8-node network is inside that domain —
+ *  fewer nodes fall out of the HX rated-flow band, more fall out of the cold-plate θ range. */
+export const DEFAULT_INPUT: ConfigInput = { scenario: 'hospital', nodes: 8, kwPerNode: 8 }
 
 // ---- Reference-case inherited constants (see file header for provenance) ----
 const SUPPLY_C = 32
@@ -139,6 +151,9 @@ export interface ChainResult {
   p0: P0Output
   p1: P1Output | null
   gates: Gate[]
+  trusted: boolean                    // the kernel stands behind its own output (p1.converged): no data-domain excursion
+  p0Warnings: string[]                // kernel messages, English (kernel-messages.ts)
+  p1Warnings: string[]
   converged: boolean                  // all gates green
 }
 
@@ -147,12 +162,17 @@ export function runChain(input: ConfigInput): ChainResult {
   const p1 = p0.inputInvalid.length === 0 && p0.converged ? solveP1(buildP1Input(input, p0)) : null
   const gates: Gate[] = []
   const loadKw = input.nodes * input.kwPerNode
+  const hydraulicOk = p0.converged && p0.inputInvalid.length === 0
+  // p1.converged doubles as the kernel's trust flag: it goes false whenever the run leaves an
+  // evidenced data domain (HX rated-flow band, cold-plate θ range), yet the temperatures still
+  // come back finite. So it has to be gated explicitly — an untrusted run is never a judgment.
+  const trusted = p1 !== null && p1.converged === true
 
   gates.push({
     id: 'p0-converged',
     label: 'Hydraulic solve converged',
-    pass: p0.converged && p0.inputInvalid.length === 0,
-    detail: p0.inputInvalid.length ? `invalid input: ${p0.inputInvalid.join('; ')}` : `pump operating point at ${p0.qTotalLpm?.toFixed(1)} L/min total, ${p0.pumpDpKPa?.toFixed(1)} kPa`,
+    pass: hydraulicOk,
+    detail: p0.inputInvalid.length ? `invalid input: ${englishKernelMessages(p0.inputInvalid).join('; ')}` : `pump operating point at ${p0.qTotalLpm?.toFixed(1)} L/min total, ${p0.pumpDpKPa?.toFixed(1)} kPa`,
   })
 
   const qPerNode = p0.branches[0]?.qLpm ?? 0
@@ -166,6 +186,14 @@ export function runChain(input: ConfigInput): ChainResult {
   })
 
   if (p1) {
+    gates.push({
+      id: 'evidenced-domain',
+      label: "Inside the kernel's evidenced domain",
+      pass: trusted,
+      detail: trusted
+        ? 'HX rated-flow band and cold-plate θ range both hold — the temperatures below are a judgment'
+        : 'kernel flags this run as outside its evidenced domain — the temperatures below are extrapolation, not a judgment (see kernel messages)',
+    })
     gates.push({
       id: 'dew',
       label: 'Dew-point red line',
@@ -186,10 +214,20 @@ export function runChain(input: ConfigInput): ChainResult {
       detail: `worst node margin ${worst === Infinity ? 'n/a' : worst.toFixed(1) + ' K'} to T_case ${T_CASE_MAX_C} °C (placeholder cap)`,
     })
   } else {
-    for (const id of ['dew', 'wclass', 'tcase']) gates.push({ id, label: id, pass: false, detail: 'thermal chain skipped — hydraulic solve failed' })
+    for (const id of ['evidenced-domain', 'dew', 'wclass', 'tcase']) gates.push({ id, label: id, pass: false, detail: 'thermal chain skipped — hydraulic solve failed' })
   }
 
-  return { input, loadKw, p0, p1, gates, converged: gates.every(g => g.pass) }
+  return {
+    input,
+    loadKw,
+    p0,
+    p1,
+    gates,
+    trusted,
+    p0Warnings: englishKernelMessages(p0.warnings),
+    p1Warnings: englishKernelMessages(p1?.warnings ?? []),
+    converged: gates.every(g => g.pass),
+  }
 }
 
 /** Markdown calculation note — same discipline as the kernel's calc-note output. */
@@ -207,11 +245,12 @@ export function buildReport(r: ChainResult): string {
   lines.push('')
   lines.push(`- Converged: ${p0.converged}; total flow **${p0.qTotalLpm?.toFixed(2)} L/min** at pump ${p0.pumpDpKPa?.toFixed(1)} kPa (${p0.pumpHeadM?.toFixed(1)} m head)`)
   lines.push(`- Per-branch: ${p0.branches.map(b => `${b.id} ${b.qLpm.toFixed(2)} L/min (${b.sharePct.toFixed(1)}%)`).join(' · ')}`)
-  if (p0.warnings.length) lines.push(`- Warnings: ${p0.warnings.join('; ')}`)
+  if (r.p0Warnings.length) lines.push(`- Kernel messages: ${r.p0Warnings.join('; ')}`)
   lines.push('')
   if (p1) {
     lines.push(`## Thermal chain (p1-thermal-chain v${p1.versions.solver})`)
     lines.push('')
+    lines.push(`- Evidenced domain: ${r.trusted ? 'inside — the temperatures below are a judgment' : 'OUTSIDE — the kernel flags this run as extrapolation, not a judgment'}`)
     lines.push(`- Rack supply/return: **${p1.tSupplyC.toFixed(1)} / ${p1.tReturnC.toFixed(1)} °C** (ΔT rack ${p1.dtRackK.toFixed(1)} K)`)
     if (p1.hx) lines.push(`- HX: ${p1.hx.mode} — Q=${p1.hx.qKw.toFixed(1)} kW, ATD ${p1.hx.atdK?.toFixed(1)} K${p1.hx.ratedFlowDevPct !== null ? ` (rated-flow deviation ${p1.hx.ratedFlowDevPct.toFixed(1)}%)` : ''}`)
     lines.push(`- Dew point ${p1.dewPointC?.toFixed(1)} °C vs supply ${p1.tSupplyC.toFixed(1)} °C — margin **${(p1.dewMarginK ?? 0).toFixed(1)} K**, pass=${p1.dewPass}`)
@@ -220,7 +259,7 @@ export function buildReport(r: ChainResult): string {
       ? p1.nodes.reduce((w, n) => ((n.tCaseMarginC ?? Infinity) < (w.tCaseMarginC ?? Infinity) ? n : w), p1.nodes[0])
       : null
     if (worstNode) lines.push(`- Worst node (${worstNode.id}): T_case ${worstNode.tCaseC?.toFixed(1)} °C, margin ${worstNode.tCaseMarginC?.toFixed(1)} K (cap ${T_CASE_MAX_C} °C placeholder)`)
-    if (p1.warnings.length) lines.push(`- Warnings: ${p1.warnings.join('; ')}`)
+    if (r.p1Warnings.length) lines.push(`- Kernel messages: ${r.p1Warnings.join('; ')}`)
     lines.push('')
   }
   lines.push(`## Verdict`)

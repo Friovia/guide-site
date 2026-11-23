@@ -1,13 +1,18 @@
 #!/usr/bin/env node
-// configurator-parity.mjs — the configurator's C0 acceptance gate.
+// configurator-parity.mjs — the configurator's acceptance gate.
 //
-// Asserts that the guide-site configurator chain (src/lib/configurator.ts) is a
-// faithful parameterization of the V&V'd reference cases: with the default
-// input (tropical, 8 nodes × 10 kW) its p0/p1 outputs must be BIT-IDENTICAL to
-// solving the reference case files directly (simulation repo test-case
-// rack-orv3.json / rack-orv3-thermal.json). Any drift = the page would be
-// showing numbers the kernel never verified. Runs as part of `pnpm generate`.
-import { readFileSync } from 'node:fs'
+// 1. The guide-site configurator chain (src/lib/configurator.ts) must be a faithful
+//    parameterization of the V&V'd reference cases: with the REFERENCE input (tropical,
+//    8 nodes × 10 kW) its p0/p1 outputs must be BIT-IDENTICAL to solving the reference case
+//    files directly (simulation repo test-case rack-orv3.json / rack-orv3-thermal.json).
+//    Any drift = the page would be showing numbers the kernel never verified.
+// 2. Off-reference inputs must still produce a full, honest chain.
+// 3. The report must state the boundary and versions.
+// 4. Verdict honesty: the landing state must be feasible AND kernel-trusted; a run outside
+//    the kernel's evidenced domain must fail the evidenced-domain gate; and no CJK may reach
+//    the page text or the report.
+// Runs as part of `pnpm generate`.
+import { readFileSync, existsSync } from 'node:fs'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -17,7 +22,7 @@ const viaUrl = p => pathToFileURL(p).href
 
 const { solve: solveP0 } = await import(viaUrl(join(ROOT, 'sim/p0/solve.ts')))
 const { solve: solveP1 } = await import(viaUrl(join(ROOT, 'sim/p1/solve.ts')))
-const { runChain, DEFAULT_INPUT } = await import(viaUrl(join(ROOT, 'src/lib/configurator.ts')))
+const { runChain, buildReport, DEFAULT_INPUT, REFERENCE_INPUT } = await import(viaUrl(join(ROOT, 'src/lib/configurator.ts')))
 
 let failures = 0
 const eq = (name, a, b) => {
@@ -26,13 +31,12 @@ const eq = (name, a, b) => {
   else console.log(`✓ ${name} bit-identical`)
 }
 
-// ---- 1. default input ≡ reference cases (bit-identical outputs) ----
+// ---- 1. reference input ≡ reference cases (bit-identical outputs) ----
 // The reference cases live in the SIBLING simulation repo (not vendored here),
 // so this section runs only where that checkout exists (dev machines, the
 // simulation repo's own CI). On the CF Pages build machine there is no sibling
-// repo — sections 2-3 below still gate the chain itself.
-import { existsSync } from 'node:fs'
-const chain = runChain(DEFAULT_INPUT)
+// repo — sections 2-4 below still gate the chain itself.
+const chain = runChain(REFERENCE_INPUT)
 if (existsSync(join(SIM, 'p0-hydraulics/test-case/rack-orv3.json'))) {
   const refP0In = JSON.parse(readFileSync(join(SIM, 'p0-hydraulics/test-case/rack-orv3.json'), 'utf8'))
   const refP1In = JSON.parse(readFileSync(join(SIM, 'p1-thermal-chain/test-case/rack-orv3-thermal.json'), 'utf8'))
@@ -44,6 +48,8 @@ if (existsSync(join(SIM, 'p0-hydraulics/test-case/rack-orv3.json'))) {
   const refP1Live = structuredClone(refP1In)
   refP1Live.case.flows = chain.p0.branches.filter(b => !b.shutdown).map(b => ({ id: b.id, qLpm: b.qLpm }))
   eq('p1 output vs reference case (live flows)', chain.p1, solveP1(refP1Live))
+  if (!chain.trusted) { failures++; console.error('✗ the reference input is not kernel-trusted — the V&V anchor left its evidenced domain') }
+  else console.log('✓ reference input is inside the kernel\'s evidenced domain')
 } else {
   console.log('ℹ reference-case diff skipped (no sibling simulation repo on this machine) — chain self-checks below still run')
 }
@@ -58,14 +64,38 @@ for (const cfg of [
   if (!(r.p0.converged && r.p0.inputInvalid.length === 0 && r.p1 && typeof r.p1.dewPass === 'boolean')) {
     failures++; console.error(`✗ config ${JSON.stringify(cfg)} did not produce a full honest chain`, { p0Conv: r.p0.converged, p1: !!r.p1 })
   } else {
-    console.log(`✓ config ${cfg.scenario} ${cfg.nodes}×${cfg.kwPerNode} kW solved (verdict ${r.converged ? 'feasible' : 'gated'})`)
+    console.log(`✓ config ${cfg.scenario} ${cfg.nodes}×${cfg.kwPerNode} kW solved (verdict ${r.converged ? 'feasible' : r.trusted ? 'gated' : 'outside evidenced domain'})`)
   }
 }
 
 // ---- 3. report must state the boundary and versions ----
-const report = (await import(viaUrl(join(ROOT, 'src/lib/configurator.ts')))).buildReport(chain)
+const report = buildReport(chain)
 for (const must of ['not a performance guarantee', 'feasibility', 'versions', 'p0 0.2.0']) {
   if (!report.includes(must)) { failures++; console.error(`✗ report missing: "${must}"`) }
 }
+
+// ---- 4. verdict honesty + zero CJK on every rendered surface ----
+const CJK = /[\u4e00-\u9fff]/
+const renderedText = r => [...r.p0Warnings, ...r.p1Warnings, ...r.gates.map(g => `${g.label}: ${g.detail}`), buildReport(r)]
+
+const landing = runChain(DEFAULT_INPUT)
+if (!(landing.converged && landing.trusted)) {
+  failures++; console.error('✗ landing state is not a feasible, kernel-trusted run:', JSON.stringify(DEFAULT_INPUT), landing.gates.filter(g => !g.pass).map(g => g.id))
+} else {
+  console.log(`✓ landing state (${DEFAULT_INPUT.scenario} ${DEFAULT_INPUT.nodes}×${DEFAULT_INPUT.kwPerNode} kW) is feasible and inside the evidenced domain`)
+}
+const offDomain = runChain({ scenario: 'hospital', nodes: 4, kwPerNode: 8 })
+const domainGate = offDomain.gates.find(g => g.id === 'evidenced-domain')
+if (offDomain.trusted || offDomain.converged || domainGate?.pass !== false) {
+  failures++; console.error('✗ off-domain run (hospital 4×8 kW) is not stopped by the evidenced-domain gate')
+} else {
+  console.log('✓ off-domain run (hospital 4×8 kW) fails the evidenced-domain gate — never presented as feasible')
+}
+for (const cfg of [DEFAULT_INPUT, REFERENCE_INPUT, { scenario: 'hospital', nodes: 1, kwPerNode: 4 }, { scenario: 'tropical', nodes: 12, kwPerNode: 20 }, { scenario: 'campus', nodes: 10, kwPerNode: 6 }]) {
+  const leaks = renderedText(runChain(cfg)).filter(s => CJK.test(s))
+  if (leaks.length) { failures++; console.error(`✗ CJK reached rendered text for ${JSON.stringify(cfg)}`, leaks.slice(0, 3)) }
+}
+if (!failures) console.log('✓ no CJK in kernel messages, gate details or reports')
+
 console.log(failures ? `✗ configurator parity FAILED (${failures})` : '✓ configurator parity passed (page numbers = kernel numbers)')
 process.exit(failures ? 1 : 0)
