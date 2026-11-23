@@ -1606,6 +1606,11 @@
       ],
       "facts": [
         {
+          "year": "2026",
+          "text": "Houston colocation deployment: COBALT single-phase immersion with BAC heat rejection ran year-round without mechanical cooling",
+          "source": "https://naturalrefrigerants.com/news/part-2-bacs-heat-rejection-and-single-phase-immersion-technology-provide-end-to-end-cooling-solution-for-data-centers"
+        },
+        {
           "year": "2025",
           "text": "BAC's CorTex immersion tank certified under the Intel Data Center Certified Solution for Immersion Cooling program for 4th/5th-gen Xeon — program developed with Intel, ExxonMobil, Hypertec and Micron (Dec 2, 2025)",
           "source": "https://baltimoreaircoil.com/news/announcements/immersion-cooling-tank-data-center-certification-intel"
@@ -1614,11 +1619,6 @@
           "year": "2025",
           "text": "Launched upgraded CorTex-powered immersion tanks (Oct 9, 2025) in 16/32/38/48RU sizes as the indoor half of the COBALT system",
           "source": "https://baltimoreaircoil.com/news/product-updates/immersion-cooling-tanks-powered-cortex-technology"
-        },
-        {
-          "year": "2026",
-          "text": "Houston colocation deployment: COBALT single-phase immersion with BAC heat rejection ran year-round without mechanical cooling",
-          "source": "https://naturalrefrigerants.com/news/part-2-bacs-heat-rejection-and-single-phase-immersion-technology-provide-end-to-end-cooling-solution-for-data-centers"
         }
       ],
       "ocp": "Listed in the OCP membership directory; no project-level contributions verifiable from public sources.",
