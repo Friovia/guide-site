@@ -76,6 +76,7 @@ for (const must of ['not a performance guarantee', 'feasibility', 'versions', 'p
 
 // ---- 4. verdict honesty + zero CJK on every rendered surface ----
 const CJK = /[\u4e00-\u9fff]/
+const UNTRANSLATED = 'Kernel message not yet translated'
 const renderedText = r => [...r.p0Warnings, ...r.p1Warnings, ...r.gates.map(g => `${g.label}: ${g.detail}`), buildReport(r)]
 
 const landing = runChain(DEFAULT_INPUT)
@@ -91,11 +92,24 @@ if (offDomain.trusted || offDomain.converged || domainGate?.pass !== false) {
 } else {
   console.log('✓ off-domain run (hospital 4×8 kW) fails the evidenced-domain gate — never presented as feasible')
 }
-for (const cfg of [DEFAULT_INPUT, REFERENCE_INPUT, { scenario: 'hospital', nodes: 1, kwPerNode: 4 }, { scenario: 'tropical', nodes: 12, kwPerNode: 20 }, { scenario: 'campus', nodes: 10, kwPerNode: 6 }]) {
-  const leaks = renderedText(runChain(cfg)).filter(s => CJK.test(s))
-  if (leaks.length) { failures++; console.error(`✗ CJK reached rendered text for ${JSON.stringify(cfg)}`, leaks.slice(0, 3)) }
+// sweep the whole input range: no CJK may reach the page or the report, and every kernel message
+// the configurator can reach must have a real translation (no generic fallback line)
+let swept = 0, trustedStates = 0
+const cjkLeaks = new Set(), fallbacks = new Set()
+for (const scenario of ['tropical', 'hospital', 'campus']) {
+  for (let nodes = 1; nodes <= 12; nodes++) {
+    for (let kw = 4; kw <= 20; kw += 1) {
+      const r = runChain({ scenario, nodes, kwPerNode: kw })
+      swept++
+      if (r.trusted) trustedStates++
+      for (const s of renderedText(r)) if (CJK.test(s)) cjkLeaks.add(s.slice(0, 120))
+      for (const w of [...r.p0Warnings, ...r.p1Warnings]) if (w.startsWith(UNTRANSLATED)) fallbacks.add(w)
+    }
+  }
 }
-if (!failures) console.log('✓ no CJK in kernel messages, gate details or reports')
+if (cjkLeaks.size) { failures++; console.error(`✗ CJK reached rendered text in ${cjkLeaks.size} distinct strings`, [...cjkLeaks].slice(0, 3)) }
+if (fallbacks.size) { failures++; console.error('✗ kernel messages without a translation fell back to the generic line') }
+if (!cjkLeaks.size && !fallbacks.size) console.log(`✓ swept ${swept} input states: no CJK in gate details, kernel messages or reports; every reachable kernel message translated`)
 
 console.log(failures ? `✗ configurator parity FAILED (${failures})` : '✓ configurator parity passed (page numbers = kernel numbers)')
 process.exit(failures ? 1 : 0)

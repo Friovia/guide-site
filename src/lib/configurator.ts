@@ -7,8 +7,9 @@
 // degradation, HX slope 30.25 kW/K from the Vertiv CoolChip CDU121 datasheet, UQD06
 // Cv_min envelope from OCP spec v2.0.0. Changing a scenario preset changes inputs
 // only — never physics.
-// Kernel runtime messages arrive in Chinese (upstream English release pending); kernel-messages.ts
-// rewrites them at the display boundary — render p0Warnings/p1Warnings, never p0/p1.warnings.
+// Kernel runtime messages are Chinese by design (their text is locked by the kernel's golden
+// vectors); kernel-messages.ts rewrites them to English at the display boundary — render
+// p0Warnings/p1Warnings, never p0/p1.warnings.
 // (The .ts extension is required: the parity gate loads this file with node's native type stripping.)
 import { solve as solveP0 } from '../../sim/p0/solve.ts'
 import type { P0Input, P0Output } from '../../sim/p0/types.ts'
