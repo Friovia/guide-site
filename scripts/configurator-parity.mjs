@@ -51,10 +51,11 @@ if (existsSync(join(SIM, 'p0-hydraulics/test-case/rack-orv3.json'))) {
   const refP0In = JSON.parse(readFileSync(join(SIM, 'p0-hydraulics/test-case/rack-orv3.json'), 'utf8'))
   const refP1In = JSON.parse(readFileSync(join(SIM, 'p1-thermal-chain/test-case/rack-orv3-thermal.json'), 'utf8'))
   eq('p0 output vs reference case', chain.p0, solveP0(refP0In))
-  // NOTE: refP1In's flows are a STALE snapshot of an older p0 output (curve library
-  // revised after capture). The honest p1 parity is chain-consistency: the reference
-  // case with flows replaced by the chain's LIVE p0 output must reproduce chain.p1
-  // bit-identically — proving the configurator adds zero physics of its own.
+  // Since the re-capture in the simulation repo (2026-11-23) the thermal reference case carries
+  // the hydraulic reference case's own flows, so the committed file must reproduce chain.p1 as-is.
+  eq('p1 output vs reference case (file as committed)', chain.p1, solveP1(refP1In))
+  // Chain-consistency proof on top: the reference case with flows replaced by the chain's LIVE p0
+  // output must also reproduce chain.p1 bit-identically — the configurator adds zero physics.
   const refP1Live = structuredClone(refP1In)
   refP1Live.case.flows = chain.p0.branches.filter(b => !b.shutdown).map(b => ({ id: b.id, qLpm: b.qLpm }))
   eq('p1 output vs reference case (live flows)', chain.p1, solveP1(refP1Live))
