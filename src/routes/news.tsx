@@ -15,7 +15,7 @@ const channels = [
 const faqs = [
   {
     q: 'What are the biggest milestones in data center liquid cooling?',
-    a: 'The arc runs: turnkey liquid micro-cabinets appear (STULZ × CoolIT, 2018); ASHRAE codifies coolant temperature classes W17-W45 (2019); 3M announces and then completes its PFAS exit (2022-2025), redirecting fluid choices toward PG25 water-glycol; NVIDIA\u2019s GB200 NVL72 mainstreams ~120 kW liquid-cooled racks (2024); OCP standardizes blind-mate manifolds (ORv3 Rev 1.0, 2024); and Singapore publishes SS 726:2026, the first national standard for tropical liquid cooling.',
+    a: 'The arc runs: turnkey liquid micro-cabinets appear (STULZ × CoolIT, 2017); ASHRAE codifies coolant temperature classes W17-W45 (2019); 3M announces and then completes its PFAS exit (2022-2025), redirecting fluid choices toward PG25 water-glycol; NVIDIA\u2019s GB200 NVL72 mainstreams ~120 kW liquid-cooled racks (2024); OCP standardizes blind-mate manifolds (ORv3 Rev 1.0, 2024); and Singapore publishes SS 726:2026, the first national standard for tropical liquid cooling.',
   },
   {
     q: 'Why did 3M stop making liquid cooling fluids?',
@@ -27,7 +27,7 @@ export const Route = createFileRoute('/news')({
   ...pageRoute({
     path: '/news',
     title: 'Liquid cooling industry radar — news, milestones, standards',
-    description: 'What is moving in data center liquid cooling: a curated industry timeline (STULZ×CoolIT 2018, ASHRAE W-classes, 3M PFAS exit, GB200-era 120 kW racks, OCP ORv3, SS 726:2026) plus dated items across technology, products, investment and standards — every entry sourced.',
+    description: 'What is moving in data center liquid cooling: a curated industry timeline (STULZ×CoolIT 2017, ASHRAE W-classes, 3M PFAS exit, GB200-era 120 kW racks, OCP ORv3, SS 726:2026) plus dated items across technology, products, investment and standards — every entry sourced.',
     article: { title: 'Industry radar', description: 'Liquid cooling news and the curated milestone timeline.', datePublished: '2026-10-08', dateModified: '2026-10-08' },
     faq: faqs,
     component: NewsPage,

@@ -1,7 +1,69 @@
 {
   "note": "Per-vendor profile pages under /supply-chain/<slug>. Facts policy: every claim carries a source URL; fields we cannot source are omitted — never invented. Rendering: src/routes/supply-chain/$slug.tsx joins this file's segments ids back to data/vendors.json (the directory layer stays the single source for segment membership). Prerender URL truth derives from the slugs here (vite.config.ts + scripts/check-nav.mjs). Adding a profile = one object here + the company must already have a row in vendors.json.",
-  "updated": "2026-11-17",
+  "updated": "2026-11-23",
   "profiles": [
+    {
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "segments": [
+        "chips"
+      ],
+      "tagline": "The chip vendor whose GB200/GB300 NVL72 and Vera Rubin rack-scale systems are forcing data centers into direct liquid cooling — ~120-142 kW racks today, 100% liquid-cooled fan-free racks with 45 °C PG25 coolant next.",
+      "hq": "Santa Clara, California, USA",
+      "founded": 1993,
+      "ownership": "NASDAQ: NVDA",
+      "website": "https://www.nvidia.com",
+      "productLines": [
+        {
+          "name": "GB200 NVL72",
+          "note": "Rack-scale system of 72 Blackwell GPUs + 36 Grace CPUs in one NVLink domain; ~120 kW per rack at full load, managed by direct liquid cooling with blind-mate manifolds and floating blind-mate tray connectors",
+          "source": "https://docs.nvidia.com/mission-control/docs/systems-administration-guide/2.0.0/prs/faq.html"
+        },
+        {
+          "name": "GB300 NVL72",
+          "note": "Fully liquid-cooled rack-scale design (72 Blackwell Ultra GPUs + 36 Grace CPUs); full rack requires up to 142 kW, with integrated tray-level and rack-level liquid leak detection",
+          "source": "https://docs.nvidia.com/enterprise-reference-architectures/nvl72-ai-factory/latest/components.html"
+        },
+        {
+          "name": "Vera Rubin NVL72",
+          "note": "MGX racks can be 100% liquid-cooled: fanless, cable-free compute trays, 45 °C warm-water inlets (facility water ~41 °C to CDUs), PG25 coolant rated up to 10 years in a closed loop; in full production, shipping 2H 2026",
+          "source": "https://developer.nvidia.com/blog/nvidia-vera-rubin-pod-seven-chips-five-rack-scale-systems-one-ai-supercomputer/"
+        },
+        {
+          "name": "MGX modular rack architecture",
+          "note": "Third-generation modular rack/reference design unifying compute, networking, cooling and power (OCP MGX Accelerated Computing Rack and Trays Specification); LPX configuration scales 256 LPU accelerators in a single liquid-cooled MGX rack",
+          "source": "https://www.nvidia.com/en-us/data-center/products/mgx/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Rubin described as the world's first 100% liquid-cooled platform — every chip and networking component cooled entirely by liquid, \"no fans anywhere in the system\"; PG25 coolant (75% water / 25% propylene glycol) enters at up to 45 °C and exits ~55 °C, enabling chiller-less dry-cooler heat rejection with near-zero water consumption",
+          "source": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/"
+        },
+        {
+          "year": "2025",
+          "text": "At OCP Global Summit 2025 unveiled the Vera Rubin NVL72 rack: 100% liquid-cooled compute trays, 45 °C liquid cooling, a liquid-cooled busbar and 800 VDC power; 50+ MGX partners preparing Vera Rubin racks",
+          "source": "https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin/"
+        },
+        {
+          "year": "2024",
+          "text": "Contributed the GB200 NVL72 rack and its liquid-cooled compute/switch tray designs to the OCP — to efficiently manage the 120 kW cooling capacity the rack requires",
+          "source": "https://developer.nvidia.com/blog/nvidia-contributes-nvidia-gb200-nvl72-designs-to-open-compute-project/"
+        }
+      ],
+      "ocp": "Contributed the GB200 NVL72 rack and liquid-cooled tray designs (MGX-derived — the OCP MGX Accelerated Computing Rack and Trays Specification) at OCP Global Summit 2024; showcased the Vera Rubin NVL72 45 °C rack with 50+ MGX partners at OCP 2025. Source: developer.nvidia.com",
+      "faq": [
+        {
+          "q": "Why is NVIDIA pushing data centers to liquid cooling?",
+          "a": "Rack density: GB200 NVL72 needs ~120 kW per rack and GB300 NVL72 up to 142 kW — beyond air. Vera Rubin NVL72 goes fully liquid: 100% liquid-cooled, no fans anywhere in the system, PG25 coolant entering at up to 45 °C so heat can be rejected by dry coolers with near-zero water."
+        },
+        {
+          "q": "What coolant do NVIDIA racks use?",
+          "a": "PG25 — 75% water / 25% propylene glycol. NVIDIA's Vera Rubin program runs it in closed loops with inlets up to 45 °C (facility water ~41 °C to the CDUs) and rates it for up to 10 years in a closed loop."
+        }
+      ]
+    },
     {
       "slug": "coolit-systems",
       "name": "CoolIT Systems",
@@ -898,6 +960,446 @@
       ]
     },
     {
+      "slug": "dell-technologies",
+      "name": "Dell Technologies",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Liquid-cooled PowerEdge XE9680L/XE9712 AI servers and NVIDIA GB200/GB300 NVL72 rack-scale systems, plus the Dell PowerCool direct liquid cooling portfolio for dense AI racks.",
+      "hq": "Round Rock, Texas, USA",
+      "founded": 1984,
+      "ownership": "NYSE: DELL",
+      "website": "https://www.dell.com",
+      "productLines": [
+        {
+          "name": "PowerEdge XE9680L",
+          "note": "4U, 2-socket direct liquid-cooled AI server — up to 8x NVIDIA HGX B200 (SXM, Gen5 NVLink/NVSwitch) or H200 GPUs, dual 5th-gen Intel Xeon Scalable; positioned for up to 100 kW racks (72 B200 GPUs per rack)",
+          "source": "https://www.dell.com/en-us/infohub/articles/dell-poweredge-xe9680l-first-mlperf-tm-training-v5-0-results-on-the-liquid-cooled-nvidia-hgx-b200-platform"
+        },
+        {
+          "name": "PowerEdge XE9712 / Integrated Rack Scalable Systems (GB300 NVL72)",
+          "note": "Liquid-cooled compute sleds inside Dell IRSS racks forming the NVIDIA GB300 NVL72 (72 Blackwell Ultra GPUs); announced March 2025, available 2H 2025",
+          "source": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-and-nvidia-unveil-next-generation-enterprise-ai-solutions"
+        },
+        {
+          "name": "Dell PowerCool",
+          "note": "Direct liquid cooling infrastructure portfolio (Dell Technologies World, May 2025): rack-mount CDU with up to 160 kW liquid cooling capacity (per Dell's Oct 2025 internal testing) and PowerCool Enclosed technology claimed to cut energy use up to 60%",
+          "source": "https://www.dell.com/en-us/shop/storage-servers-and-networking-for-business/sf/poweredge-power-cooling-servers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Delivered the market's first NVIDIA GB300 NVL72 to CoreWeave (July 2025) as liquid-cooled Dell Integrated Rack Scalable Systems — 72 Blackwell Ultra GPUs, built with Switch and Vertiv",
+          "source": "https://www.dell.com/en-us/blog/dell-delivers-market-s-first-nvidia-gb300-nvl72-to-coreweave"
+        },
+        {
+          "year": "2025",
+          "text": "Introduced the Dell PowerCool direct liquid cooling portfolio at Dell Technologies World (May 2025)",
+          "source": "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~05~dell-technologies-fuels-enterprise-ai-innovation-with-infrastructure-solutions-and-services.htm"
+        }
+      ],
+      "ocp": "Builds OCP-aligned rack systems — the IRSS family including the IR7000 rack based on the OCP Open Rack v3 standard, presented at OCP Global Summit 2025 (source: dell.com OCP blog).",
+      "faq": [
+        {
+          "q": "What liquid-cooled AI servers does Dell offer?",
+          "a": "The PowerEdge XE9680L (4U, 8x HGX B200/H200, for up to 100 kW racks) and the XE9712 sleds inside Dell IRSS racks that form the NVIDIA GB300 NVL72 — plus its own PowerCool CDU line (rack-mount CDU up to 160 kW per Dell's Oct 2025 testing)."
+        },
+        {
+          "q": "Did Dell ship the first GB300 NVL72?",
+          "a": "Dell says it delivered the market's first NVIDIA GB300 NVL72 to CoreWeave in July 2025, as liquid-cooled Integrated Rack Scalable Systems built with Switch and Vertiv."
+        }
+      ]
+    },
+    {
+      "slug": "hpe",
+      "name": "HPE",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Cray-heritage direct liquid cooling — including an industry-first 100% fanless DLC architecture — applied to Cray XD and ProLiant XD AI servers and its NVIDIA GB200 NVL72 rack-scale system.",
+      "hq": "Houston, Texas, USA",
+      "founded": 2015,
+      "ownership": "NYSE: HPE (2015 Hewlett-Packard spin-off; Cray heritage via acquisition)",
+      "website": "https://www.hpe.com",
+      "productLines": [
+        {
+          "name": "NVIDIA GB200 NVL72 by HPE",
+          "note": "Rack-scale Grace Blackwell system (72 Blackwell GPUs, 36 Grace CPUs) with direct liquid cooling, using a liquid-to-liquid CDU to remove rack heat",
+          "source": "https://www.hpe.com/us/en/collaterals/collateral.a50009224enw.html"
+        },
+        {
+          "name": "HPE Cray XD670",
+          "note": "8U GPU server, up to 8x NVIDIA H100/H200; factory direct liquid cooling option in which liquid captures ~70% of system heat (GPUs/CPUs), remainder air-cooled",
+          "source": "https://www.hpe.com/us/en/collaterals/collateral.a50004292enw.html"
+        },
+        {
+          "name": "ProLiant Compute XD685",
+          "note": "5U, 8-way GPU server (dual AMD EPYC 9005) offered as a Direct Liquid Cooling configuration with 8x liquid-cooled AMD Instinct MI355X OAM GPUs (288 GB each)",
+          "source": "https://buy.hpe.com/us/en/Compute/Rack-Servers/Proliant-Compute-XD600-Servers/Proliant-Compute-XD600-Server/HPE-ProLiant-Compute-XD685-Direct-Liquid-Cooling-Server/p/S4R96A"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Began global shipments of the ProLiant Compute XD685 with liquid-cooled AMD Instinct MI355X GPUs (Oct 30, 2025); HPE's Lux AI cluster runs on these DLC nodes",
+          "source": "https://community.hpe.com/t5/ai-unlocked/hpe-proliant-compute-xd685-is-now-shipping-with-amd-instinct/ba-p/7257698"
+        },
+        {
+          "year": "2025",
+          "text": "Announced shipment of its first NVIDIA Grace Blackwell system, the GB200 NVL72, with direct liquid cooling (Feb 13, 2025)",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2025/02/hpe-announces-shipment-of-its-first-nvidia-grace-blackwell-system.html"
+        },
+        {
+          "year": "2024",
+          "text": "Announced the industry's first 100% fanless direct liquid cooling systems architecture, claiming a 90% reduction in cooling power vs traditional air-cooled systems",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/10/hpe-announces-industrys-first-100-fanless-direct-liquid-cooling-systems-architecture.html"
+        }
+      ],
+      "ocp": "Demonstrates open compute standards at OCP Global Summit, including open heterogeneous AI data center architectures (2026).",
+      "faq": [
+        {
+          "q": "What is HPE's fanless liquid cooling claim?",
+          "a": "At OCP Global Summit 2024 HPE announced the industry's first 100% fanless direct liquid cooling systems architecture, claiming 90% lower cooling power consumption versus traditional air-cooled systems."
+        },
+        {
+          "q": "Which HPE AI servers are liquid-cooled?",
+          "a": "The Cray XD670 (8U, 8x H100/H200, factory DLC capturing ~70% of system heat), the ProLiant Compute XD685 (8x liquid-cooled AMD MI355X), and the NVIDIA GB200 NVL72 rack-scale system with liquid-to-liquid CDU."
+        }
+      ]
+    },
+    {
+      "slug": "supermicro",
+      "name": "Supermicro",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Direct liquid cooling built into rack-scale AI systems (GB200/GB300/Vera Rubin NVL72) and standard servers — DLC-2 captures up to 98% of system heat, with mass DLC rack manufacturing capacity.",
+      "hq": "San Jose, California, USA",
+      "founded": 1993,
+      "ownership": "NASDAQ: SMCI",
+      "website": "https://www.supermicro.com",
+      "productLines": [
+        {
+          "name": "NVIDIA GB200 NVL72 SuperCluster",
+          "note": "Fully liquid-cooled rack-scale AI system with 72 NVIDIA Blackwell GPUs in a single rack (~1.36 metric tons); claimed up to 25x greater energy efficiency vs prior generation",
+          "source": "https://www.supermicro.com/datasheet/datasheet_SuperCluster_GB200_NVL72.pdf"
+        },
+        {
+          "name": "Supermicro DLC-2",
+          "note": "Next-generation direct liquid cooling covering CPUs, GPUs, DIMMs, VRMs, PCIe switches and power supplies — captures up to 98% of system heat; in-rack CDU up to 250 kW per rack, in-row CDU up to 1.8 MW; claimed up to 40% data center power reduction vs air",
+          "source": "https://www.supermicro.com/en/pressreleases/supermicros-dlc-2-next-generation-direct-liquid-cooling-solutions-aims-reduce-data"
+        },
+        {
+          "name": "DLC server/rack portfolio",
+          "note": "Company-wide DLC capability across 4 global production locations with capacity for over 2,000 liquid-cooled racks per month (company claim)",
+          "source": "https://www.supermicro.com/en/solutions/liquid-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Now shipping NVIDIA Vera Rubin NVL72 racks (72 Rubin GPUs, 36 Vera CPUs), already running at CoreWeave, Google Cloud, Microsoft Azure, OCI and Nebius; also introduced the 256-CPU, 100% liquid-cooled Vera CPU Rack (Oct 2026)",
+          "source": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Now-Shipping-NVIDIA-Vera-Rubin-NVL72-Racks/default.aspx"
+        },
+        {
+          "year": "2025",
+          "text": "Announced DLC-2 next-generation direct liquid cooling (May 2025) and began volume shipments of NVIDIA Blackwell Ultra systems — HGX B300 and GB300 NVL72 racks (Sept 2025)",
+          "source": "https://ir.supermicro.com/news/news-details/2025/Supermicro-Begins-Volume-Shipments-of-NVIDIA-Blackwell-Ultra-Systems-and-Rack-Plug-and-Play-Data-Center-Scale-Solutions/default.aspx"
+        }
+      ],
+      "ocp": "Expanded its integrated OCP portfolio (Oct 2026): rack-scale AI/HPC systems on OCP standards, ORv3 and ORW racks, 48V DC busbar, OCP-accepted systems, rear-door heat exchangers, and FlexTwin on the ORv3 rack (source: supermicro.com press release).",
+      "faq": [
+        {
+          "q": "What is Supermicro DLC-2?",
+          "a": "Its second-generation direct liquid cooling: cold plates on CPUs, GPUs, DIMMs, VRMs, PCIe switches and power supplies, capturing up to 98% of system heat — with in-rack CDUs to 250 kW per rack and in-row CDUs to 1.8 MW, claimed to cut data center power ~40% vs air."
+        },
+        {
+          "q": "How many liquid-cooled racks can Supermicro build?",
+          "a": "The company states capacity for over 2,000 liquid-cooled racks per month across 4 global production locations (company claim, supermicro.com)."
+        }
+      ]
+    },
+    {
+      "slug": "lenovo",
+      "name": "Lenovo",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "The Neptune portfolio brings direct warm-water cooling to ThinkSystem servers and NVIDIA GB200/GB300 NVL72 rack-scale systems — chiller-free 100 kW+ racks with up to 100% heat removal.",
+      "hq": "Beijing, China",
+      "founded": 1984,
+      "ownership": "HKEX: 0992 / OTCMKTS: LNVGY (ADR)",
+      "website": "https://www.lenovo.com",
+      "productLines": [
+        {
+          "name": "ThinkSystem N1380 Neptune",
+          "note": "13U direct water-cooled chassis for standard 19-inch racks (NVIDIA GB200-based platform): 8 tray slots, four 15 kW power conversion stations, Neptune direct water cooling distribution; up to 3 chassis (24 trays, 96 GPUs) per rack with 100% heat removal claim",
+          "source": "https://lenovopress.lenovo.com/datasheet/ds0187-lenovo-thinksystem-n1380-neptune"
+        },
+        {
+          "name": "ThinkSystem SC777 V4 Neptune",
+          "note": "Direct water-cooled server using warm water up to 45 °C, eliminating chillers for most customers",
+          "source": "https://www.lenovo.com/us/en/servers-storage/neptune/"
+        },
+        {
+          "name": "Lenovo NVIDIA GB300 NVL72 Rack Scale AI",
+          "note": "Liquid-cooled rack-scale Blackwell Ultra system (72 GPUs) — hybrid cooling: CPUs/GPUs/NVSwitch on cold plates, OSFP/storage/power distribution air-cooled; CDU, rear manifold, quick disconnects and cold plates included",
+          "source": "https://lenovopress.lenovo.com/lp2357-lenovo-nvidia-gb300-nvl72-rack-scale-ai"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Reported Neptune liquid-cooling revenue up roughly 300% year-over-year, and expanded Neptune across the data center portfolio at cluster, rack and node levels (Dec 2025)",
+          "source": "https://www.hpcwire.com/off-the-wire/lenovo-expands-neptune-liquid-cooling-to-advance-sustainable-ai-infrastructure"
+        },
+        {
+          "year": "2024",
+          "text": "Announced the next era of Neptune water cooling (Oct 2024): open-loop direct warm-water cooling for the NVIDIA GB200 Grace Blackwell architecture, with the N1380 enabling 100 kW+ racks",
+          "source": "https://news.lenovo.com/pressroom/press-releases/next-era-of-lenovo-neptune-water-cooling-efficiently-powers-nvidia-blackwell-and-ai-at-every-scale"
+        }
+      ],
+      "ocp": "Joined the Open Compute Project as a Gold member (2016).",
+      "faq": [
+        {
+          "q": "What is Lenovo Neptune?",
+          "a": "Lenovo's direct warm-water cooling family: the N1380 Neptune chassis (up to 3 per 19-inch rack = 96 GB200-based GPUs, 100% heat removal claim), the SC777 V4 running on 45 °C warm water chiller-free, and GB300 NVL72 rack-scale systems with hybrid cold-plate/air cooling."
+        },
+        {
+          "q": "How fast is Lenovo's liquid cooling business growing?",
+          "a": "Lenovo reported Neptune liquid-cooling revenue up roughly 300% year-over-year in 2025, adopted across CSP, enterprise and SMB customers."
+        }
+      ]
+    },
+    {
+      "slug": "dow",
+      "name": "Dow",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Materials-science company whose inhibited propylene glycol line — notably pre-diluted 25% DOWFROST LC 25, the \"PG25\" coolant named in the OCP cold-plate fluid guideline — targets direct-to-chip loops, with DOWFROST HD for facility water.",
+      "hq": "Midland, Michigan, USA",
+      "founded": 1897,
+      "ownership": "NYSE: DOW (Dow Inc.)",
+      "website": "https://www.dow.com",
+      "productLines": [
+        {
+          "name": "DOWFROST LC 25",
+          "note": "Pre-diluted 25% inhibited propylene glycol fluid, \"commonly referred to as PG25\", for direct-to-chip and datacom equipment cooling loops: freeze protection to -10 °C, use range -10 °C to 90 °C, dyed fluorescent yellow for leak detection",
+          "source": "https://www.dow.com/en-us/pdp.dowfrost-lc-25-heat-transfer-fluid.497419z.html"
+        },
+        {
+          "name": "DOWFROST LC 55",
+          "note": "PG55-grade companion in the LC line — listed among the PG55 fluids the OCP guideline authors have used in single-phase cold-plate racks",
+          "source": "https://www.opencompute.org/documents/guidelines-for-using-propylene-glycol-based-heat-transfer-fluids-in-single-phase-cold-plate-based-liquid-cooled-racks-final-pdf"
+        },
+        {
+          "name": "DOWFROST HD",
+          "note": "94% propylene glycol with corrosion inhibitors for facility water loop duty in closed-loop HVAC systems",
+          "source": "https://www.dow.com/en-us/market/mkt-electronics/sub-elec-data-center-cooling.html"
+        },
+        {
+          "name": "DOWSIL immersion cooling fluids",
+          "note": "Silicone-based single-phase dielectric fluids: dielectric constant 2.1-2.2, viscosity 10-30 cSt at 40 °C, low GWP, zero ODP",
+          "source": "https://www.dow.com/en-us/market/mkt-electronics/sub-elec-data-center-cooling.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Launched the Dow Coolant Care Network — end-to-end fluid testing, analysis and mitigation support for direct-to-chip systems running DOWFROST LC/HD (May 18, 2026)",
+          "source": "https://corporate.dow.com/en-us/news/press-releases/dow-coolant-care-network.html"
+        },
+        {
+          "year": "2024",
+          "text": "DOWFROST LC listed on the OCP Marketplace as an OCP Accepted PG25 coolant for datacom equipment cooling systems (Oct 7, 2024), tied to the OCP PG-fluid guideline V1.0.0",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/dowfrost-lc-heat-transfer-fluid"
+        }
+      ],
+      "ocp": "DOWFROST LC is an OCP Accepted PG25 coolant in the OCP Marketplace; Dow co-authored the OCP guideline \"Using Propylene Glycol Based Heat Transfer Fluids in Single Phase Cold Plate Based Liquid Cooled Racks V1.0.0\" (with Third Coast Chemicals, Intel and Meta).",
+      "faq": [
+        {
+          "q": "Is DOWFROST LC 25 the same as PG25?",
+          "a": "Essentially — Dow's LC 25 is a pre-diluted 25% inhibited propylene glycol fluid \"commonly referred to as PG25\", and it is the fluid named in the OCP propylene-glycol guideline for single-phase cold-plate racks. It is OCP Accepted and listed in the OCP Marketplace."
+        },
+        {
+          "q": "Does Dow make immersion cooling fluids too?",
+          "a": "Yes — DOWSIL silicone-based single-phase dielectric fluids (dielectric constant 2.1-2.2, 10-30 cSt at 40 °C), alongside the DOWFROST glycol lines for direct-to-chip and facility loops."
+        }
+      ]
+    },
+    {
+      "slug": "dynalene",
+      "name": "Dynalene",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "U.S. specialty heat transfer fluid maker — an NVIDIA DSX Ready PG25 coolant (PG-D25) for direct-to-chip loops, PAO dielectric fluids for single-phase immersion, and inhibited glycols for facility water loops.",
+      "hq": "Whitehall, Pennsylvania, USA",
+      "founded": 1997,
+      "ownership": "Private (Dynalene, Inc.; incorporated 1997 as Advanced Fluid Technologies, renamed Dynalene in 2005)",
+      "website": "https://www.dynalene.com",
+      "productLines": [
+        {
+          "name": "Dynalene PG-D25 (PG-D Series)",
+          "note": "Propylene glycol PG25 coolant for direct-to-chip cooling from USP-grade PG with a proprietary additive package; passes ASTM D8040/D7437/D1881; qualified as an NVIDIA DSX Ready Coolant Solution",
+          "source": "https://www.dynalene.com/dynalene-pg-25-qualifies-as-an-nvidia-dsx-ready-coolant-solution"
+        },
+        {
+          "name": "Dynalene PAO Series",
+          "note": "Polyalphaolefin dielectric fluids for immersion cooling, plus in-house fluid testing (pH, glycol concentration, conductivity, turbidity, inhibitors, contaminants) and filtration/desiccation equipment",
+          "source": "https://www.dynalene.com/dynalene-to-present-fluid-monitoring-from-sensors-to-insights-at-the-2026-ocp-global-summit"
+        },
+        {
+          "name": "PG facility glycols and LC low-conductivity glycols",
+          "note": "Facility-loop propylene glycols plus low-electrical-conductivity LC-PG/LC-EG/LC-Bio grades; PG-D Series described as PFAS-free",
+          "source": "https://www.dynalene.com/data-centers"
+        },
+        {
+          "name": "BioGlycol-D25",
+          "note": "Bio-based glycol (25%) for direct-to-chip cooling applications",
+          "source": "https://www.dynalene.com/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "PG-D25 qualified as an NVIDIA DSX Ready Coolant Solution for AI factory liquid cooling — PG25 coolants for secondary-loop single-phase direct-to-chip systems (Nov 2, 2026)",
+          "source": "https://www.dynalene.com/dynalene-pg-25-qualifies-as-an-nvidia-dsx-ready-coolant-solution"
+        },
+        {
+          "year": "2026",
+          "text": "Announced OCP Accepted recognition for PG-D25 (Aug 12, 2026); co-presented \"Fluid Monitoring: From Sensors to Insights\" at the 2026 OCP Global Summit (Oct 2026)",
+          "source": "https://natlawreview.com/press-releases/dynalene-achieves-open-compute-project-ocp-acceptedtm-status-advanced-data"
+        }
+      ],
+      "ocp": "PG-D25 is listed in the OCP Marketplace against the OCP PG-fluid guideline V1.0.0; Dynalene announced OCP Accepted recognition (Aug 2026) and co-presented fluid monitoring at the 2026 OCP Global Summit.",
+      "faq": [
+        {
+          "q": "What is Dynalene's NVIDIA-certified coolant?",
+          "a": "PG-D25 — a PG25 propylene glycol coolant qualified (Nov 2026) as an NVIDIA DSX Ready Coolant Solution for single-phase direct-to-chip AI factory loops, passing ASTM D8040/D7437/D1881."
+        },
+        {
+          "q": "Does Dynalene make immersion fluids?",
+          "a": "Yes — PAO-based single-phase dielectric fluids, plus bio-based BioGlycol-D25 for direct-to-chip and low-conductivity LC grades for specialized loops."
+        }
+      ]
+    },
+    {
+      "slug": "grundfos",
+      "name": "Grundfos",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Danish pump group whose CDU pump portfolio for OEMs — CME/CM, NBE/NKE, BM+CUE — circulates coolant in liquid cooling loops, with MTRE pumps recirculating dielectric fluid in immersion tanks.",
+      "hq": "Bjerringbro, Denmark",
+      "founded": 1945,
+      "ownership": "Private — Grundfos Foundation (Poul Due Jensen Foundation) 87.9%, founder's family 8.8%, employees 3.3%",
+      "website": "https://www.grundfos.com",
+      "productLines": [
+        {
+          "name": "CME/CM 32-2 (CDU coolant pump)",
+          "note": "Higher-flow extension of the CM/CME range Grundfos calls the long-time OEM favourite for CDUs: CR 32 hydraulics + MGE motors, up to 50 m³/h and 35 m head, Tri-Clamp connections",
+          "source": "https://www.grundfos.com/us/learn/research-and-insights/high-flow-and-head-in-a-compact-design-for-coolant-distribution-units"
+        },
+        {
+          "name": "NBE / NKE end-suction pumps",
+          "note": "High-flow low-pressure cooling duty; cast iron or stainless (SS316/Duplex) with quick tri-clamp connections and pre-fittable sensors",
+          "source": "https://www.grundfos.com/solutions/industries/industrial-manufacturing-oems/it-cooling"
+        },
+        {
+          "name": "BM pressure boosting pumps + CUE drives",
+          "note": "Leakage-free BM range that integrates into CDU solutions; CUE drives with the AEO VT algorithm saving an additional 5-15% energy at stable flow rates",
+          "source": "https://www.grundfos.com/solutions/industries/industrial-manufacturing-oems/it-cooling"
+        },
+        {
+          "name": "MTRE pumps for immersion cooling",
+          "note": "Recirculate dielectric fluid in immersion tanks (Greece's first immersion-cooled data center: 2× 3 kW MTRE 15-3/3 per tank, duty+standby, Viton seals, IE5 motors)",
+          "source": "https://www.grundfos.com/about-us/cases/mtre-pumps-for-immersion-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Immersion cooling case with Asperitas: CRNE E-pumps with integrated pressure/flow measurement estimating flow from differential pressure — no external flow meters needed",
+          "source": "https://www.grundfos.com/about-us/cases/Asperitas-and-Grundfos-advance-immersion-cooling-efficiency-and-reliability"
+        },
+        {
+          "year": "2025",
+          "text": "OEM \"IT Cooling for Data Centers\" portfolio published (April 2025): CME/CRE pumps rated for coolants including high-viscosity fluids at ~20-50 °C, spanning battery rooms, immersion and in-row CDUs",
+          "source": "https://www.grundfos.com/solutions/industries/industrial-manufacturing-oems/it-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Grundfos pumps go into CDUs?",
+          "a": "The CM/CME range is the long-time OEM favourite (the 32-2 extension reaches 50 m³/h at 35 m head with Tri-Clamp connections); NBE/NKE end-suction and BM boosting pumps with CUE drives cover larger loops."
+        },
+        {
+          "q": "Does Grundfos serve immersion cooling?",
+          "a": "Yes — MTRE pumps recirculate dielectric fluid in immersion tanks, and its 2026 Asperitas case used CRNE E-pumps that estimate flow from differential pressure, removing external flow meters."
+        }
+      ]
+    },
+    {
+      "slug": "danfoss",
+      "name": "Danfoss",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Family- and foundation-owned Danish group supplying nearly every CDU component except the pump itself — brazed plate heat exchangers, CoolTrain valve trains, smart control valves, controllers, sensors and drives — plus Hansen quick couplings.",
+      "hq": "Nordborg, Denmark",
+      "founded": 1933,
+      "ownership": "Private — Bitten & Mads Clausen's Foundation and the Clausen family hold 99.89% of the votes (Danfoss A/S, unlisted)",
+      "website": "https://www.danfoss.com",
+      "productLines": [
+        {
+          "name": "B3-260C brazed plate heat exchanger",
+          "note": "Symmetric fishbone-pattern plate HX for data center CDUs: up to 1 MW, optimized for ~2 K LMTD single-phase parallel-flow duty",
+          "source": "https://www.danfoss.com/en-us/about-danfoss/news/dcs/danfoss-launches-new-brazed-plate-heat-exchanger-for-data-center-cooling"
+        },
+        {
+          "name": "XB67 brazed plate heat exchanger",
+          "note": "High-efficiency liquid-to-liquid portfolio delivering 2-4 °C approach temperatures, enabling CDU development up to 1.3 MW",
+          "source": "https://www.danfoss.com/en/about-danfoss/news/dcs/go-beyond-from-data-center-liquid-cooling-to-industrial-heat-pumps"
+        },
+        {
+          "name": "CoolTrain 2 valve train + e-QC/e-PC smart valves",
+          "note": "Plug-and-play valve train for up to 233 kW of liquid cooling; e-QC/e-PC valves balance rack flows up to 333 L/min (88 GPM) with UL-certified NovoCon M2 actuators",
+          "source": "https://www.danfoss.com/en-us/about-danfoss/news/cf/danfoss-to-showcase-end-to-end-solutions-for-ai-ready-data-centers-at-supercomputing-2026"
+        },
+        {
+          "name": "CDU control layer (Alsmart, iC7-HVACR, sensors)",
+          "note": "Controllers, pressure-independent control valves, pressure/temperature sensors, strainers and iC7 VFDs — the drives regulate pump speed; Danfoss's portfolio lists no pump product of its own",
+          "source": "https://www.danfoss.com/en/industries/buildings-commercial/dps/data-center-liquid-cooling/coolant-distribution-units-for-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "SC26 launches (Nov 9): CoolTrain 2 (233 kW), Hansen FD83 2.5-inch quick-disconnect coupling, DataCryo 7G crimp fittings and e-QC/e-PC smart valves to 333 L/min rack flows",
+          "source": "https://www.danfoss.com/en-us/about-danfoss/news/cf/danfoss-to-showcase-end-to-end-solutions-for-ai-ready-data-centers-at-supercomputing-2026"
+        },
+        {
+          "year": "2026",
+          "text": "Began brazed plate heat exchanger production at its expanded Monterrey, Mexico plant for data center cooling demand (Feb 9); presented the XB67 CDU portfolio (2-4 °C approach, 1.3 MW) at MCE 2026",
+          "source": "https://www.danfoss.com/en-us/about-danfoss/news/cf/danfoss-expands-heat-exchanger-production-to-mexico"
+        }
+      ],
+      "ocp": "States it is an OCP Solution Provider; the Danfoss Hansen UQDB coupling is listed as designed with the OCP community, alongside an ORv3 Blind Mate Quick Connector (BMQC).",
+      "faq": [
+        {
+          "q": "Does Danfoss make CDU pumps?",
+          "a": "No — its published CDU portfolio covers heat exchangers, valve trains, control valves, controllers, sensors and iC7 drives (which regulate pump speed), but lists no pump product. The pumps come from makers like Grundfos."
+        },
+        {
+          "q": "How big are Danfoss CDU heat exchangers?",
+          "a": "The B3-260C brazed plate unit handles up to 1 MW optimized for ~2 K LMTD; the XB67 portfolio delivers 2-4 °C approach temperatures, enabling CDUs up to 1.3 MW."
+        }
+      ]
+    },
+    {
       "slug": "liquidstack",
       "name": "LiquidStack",
       "segments": [
@@ -1247,6 +1749,116 @@
         {
           "q": "Is Alfa Laval involved in OCP?",
           "a": "Yes — a Platinum member of the Open Compute Project Foundation since 2023."
+        }
+      ]
+    },
+    {
+      "slug": "schneider-electric",
+      "name": "Schneider Electric",
+      "segments": [
+        "integrators",
+        "micro-dc"
+      ],
+      "tagline": "Data center physical-infrastructure incumbent turned end-to-end liquid cooling integrator — CDUs, rear doors, cold plates, chillers, controls and micro data centers — anchored by its acquisition of Motivair.",
+      "hq": "Rueil-Malmaison, France",
+      "founded": 1836,
+      "ownership": "Euronext Paris: SU (Schneider Electric SE)",
+      "website": "https://www.se.com",
+      "productLines": [
+        {
+          "name": "EcoStruxure liquid cooling portfolio (with Motivair)",
+          "note": "CDU family scaling 105 kW to 2.5 MW; ChilledDoor rear-door heat exchanger up to 75 kW/rack (Open19/OCP compatible); liquid-to-air HDU rejecting 100 kW in a 600 mm footprint and supporting water loops to 132 kW; dynamic cold plates; chillers and TCS loops",
+          "source": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-unveils-liquid-cooling-portfolio-with-motivair-featuring-dedicated-solutions-and-services-for-hpc-and-ai-workloads-68d69e595c9dbb622505caf3"
+        },
+        {
+          "name": "AI Factory reference designs (co-developed with NVIDIA)",
+          "note": "Reference designs for liquid-cooled NVIDIA AI clusters: 7.392 MW GB200 NVL72 and 7.536 MW GB300 NVL72 (RD111 supports up to ~227 kW per rack); Sept 2025 designs add integrated power management and liquid cooling controls for NVIDIA Mission Control",
+          "source": "https://www.se.com/us/en/work/solutions/ai-factory/reference-designs"
+        },
+        {
+          "name": "EcoStruxure Micro Data Center",
+          "note": "All-in-one edge enclosures (6U-42U; sealed R-Series, S-Series, soundproof C-Series) — power, cooling, security and management; pre-validated partner designs at 3-5 kW with Cisco, Dell EMC, HPE, Lenovo; this line is air/enclosure-cooled, not liquid",
+          "source": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/micro/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Unveiled its first complete end-to-end liquid cooling portfolio with Motivair (Sept 29): CDUs 105 kW-2.5 MW, thermal performance claimed in 6 of the world's top-10 supercomputers, NVIDIA certification, and Motivair's fourth plant (Buffalo, NY) tripling output",
+          "source": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-unveils-liquid-cooling-portfolio-with-motivair-featuring-dedicated-solutions-and-services-for-hpc-and-ai-workloads-68d69e595c9dbb622505caf3"
+        },
+        {
+          "year": "2025",
+          "text": "Closed the controlling-stake Motivair acquisition in February 2025 (75% for ~$850M announced Oct 2024, remainder to follow); announced integrated power+cooling-controls reference designs for GB300 NVL72 (Sept 18)",
+          "source": "https://www.se.com/us/en/about-us/newsroom/news/press-releases/schneider-electric-announces-new-reference-designs-featuring-integrated-power-management-and-liquid-cooling-controls-supporting-nvidia-mission-control-and-nvidia-gb300-nvl72-68ca8fdd5e6c6f9d3a096133"
+        }
+      ],
+      "ocp": "ChilledDoor rack-level liquid cooling listed as compatible with Open19/OCP rack standards; formal corporate OCP membership not verified.",
+      "faq": [
+        {
+          "q": "What did Schneider Electric buy from Motivair?",
+          "a": "A ~75% controlling stake for ~$850M cash (announced Oct 2024, closed February 2025), with the remainder expected by 2028 — Motivair now operates as 'Motivair by Schneider Electric'."
+        },
+        {
+          "q": "What liquid cooling does Schneider offer?",
+          "a": "An end-to-end EcoStruxure portfolio built around Motivair: CDUs 105 kW-2.5 MW, ChilledDoor 75 kW rear-door heat exchangers, a 100 kW liquid-to-air HDU, dynamic cold plates, chillers and controls — plus NVIDIA co-developed AI factory reference designs up to ~227 kW per rack."
+        }
+      ]
+    },
+    {
+      "slug": "stulz",
+      "name": "STULZ",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Hamburg precision-cooling veteran bridging facility plant and the rack — CyberCool CDUs, an OCP-accepted 2 MW Deschutes CDU, and the liquid-cooled Micro DC cabinet launched with CoolIT.",
+      "hq": "Hamburg, Germany",
+      "founded": 1947,
+      "ownership": "Private, family-owned STULZ Group",
+      "website": "https://www.stulz.com",
+      "productLines": [
+        {
+          "name": "CyberCool CDU",
+          "note": "Coolant distribution units rated 345-1,380 kW across two sizes; facility water 32 °C / technology loop 36 °C for ASHRAE W32-W+ warm-water free cooling; serves liquid-to-chip and immersion loops; 50 µm TCS filtration, sanitary-grade stainless piping",
+          "source": "https://www.stulz.com/products/detail/cybercool-cdu"
+        },
+        {
+          "name": "Deschutes CDU (CyberCool Liquid Cooling Distribution Unit)",
+          "note": "OCP Accepted CDU built to Google's Deschutes 5.0 specification: 2 MW at 3 °C approach, 500 GPM (1,890 LPM), 80 PSI, N+1 seal-less pumps, 0.2 µm side-stream filtration",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/stulz-deschutes-cdu-cybercool-liquid-cooling-distribution-unit"
+        },
+        {
+          "name": "Micro DC",
+          "note": "Factory-integrated 'server room in a rack': 42U, 600/800 mm widths, IP54/IP55 options; P-series (Prodigy 4-11 kW) or C-series (CyberRow 4-20 kW) cooling with CW, DX, glycol economizer and liquid chip-cooling options",
+          "source": "https://www.stulz.com/products/detail/micro-dc"
+        },
+        {
+          "name": "CyberRack SideCooler",
+          "note": "Closed-loop water-cooled rack-side unit for edge and micro data centers (launched Sept 2025): installs between racks or inside a Micro DC, hot-swappable fans, high water temperatures for extended free cooling",
+          "source": "https://www.stulz.com/newsroom/detail/cyberrack-sidecooler-efficient-cooling-for-high-density-loads"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Deschutes CDU listed OCP Accepted (built to Google's Project Deschutes 5.0 spec: 2 MW at 3 °C, 500 GPM); introduced the CyberRack SideCooler for high-density edge racks (Sept 2025)",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/stulz-deschutes-cdu-cybercool-liquid-cooling-distribution-unit"
+        },
+        {
+          "year": "2017",
+          "text": "STULZ and CoolIT Systems launched the liquid-cooled Micro DC for HPC/edge (June 2017) — CoolIT Rack DCLC capturing 60-80% of server heat at chip level with an integrated STULZ unit handling the rest; 48U rack scalable beyond 80 kW of IT load, marketed as the partners' first 'Chip-to-Atmosphere' offering",
+          "source": "https://www.prweb.com/releases/stulz_and_coolit_systems_launch_liquid_cooled_micro_data_center_for_hpc/prweb14434268.htm"
+        }
+      ],
+      "ocp": "Deschutes CDU (CyberCool Liquid Cooling Distribution Unit) is OCP Accepted and listed in the OCP Marketplace, built to Google's Project Deschutes 5.0 CDU specification. Source: opencompute.org",
+      "faq": [
+        {
+          "q": "What is STULZ's OCP-accepted CDU?",
+          "a": "The Deschutes CDU (CyberCool LC distribution unit): 2 MW at 3 °C approach, 500 GPM, 80 PSI, N+1 seal-less pumps — built to Google's Project Deschutes 5.0 specification and listed OCP Accepted."
+        },
+        {
+          "q": "Was the STULZ-CoolIT liquid-cooled micro DC the first of its kind?",
+          "a": "The partners marketed their 2017 Micro DC as the first 'Chip-to-Atmosphere' offering: CoolIT Rack DCLC cold plates captured 60-80% of server heat while a STULZ precision-cooling unit handled the remainder in a 48U rack scalable beyond 80 kW."
         }
       ]
     },

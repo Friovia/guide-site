@@ -21,6 +21,12 @@ function ChangelogPage() {
 
       <PageToc />
 
+      <h2 style={{ marginTop: 24 }}>2026-11-23</h2>
+      <ul>
+        <li><b>Vendor profiles, batch 3 (+11 → 33 of 98)</b>: NVIDIA, Dell, HPE, Supermicro, Lenovo (chips + liquid-cooled servers), Schneider Electric, STULZ (integrators), Dow, Dynalene (fluids), Grundfos, Danfoss (components) — every previously uncovered major segment now has profile pages. Same sourced-facts policy throughout.</li>
+        <li><b>Fact corrections from the batch research</b>: the STULZ×CoolIT liquid-cooled micro DC launched <b>2017</b> (PRWeb original, June 19), not 2018 — fixed in the radar timeline, the 2026 digest and llms.txt. Directory notes sharpened: Dow's unsourced market-share wording replaced with the OCP-guideline fact; Danfoss's note now names its actual portfolio (brazed plate HXs, valve trains, controllers, Hansen couplings — <b>no pump product</b>, its drives regulate third-party pumps).</li>
+      </ul>
+
       <h2 style={{ marginTop: 24 }}>2026-11-18</h2>
       <ul>
         <li><b>Vendor profiles, batch 2 (+12 → 22 of 98)</b>: nVent, Rittal, ZutaCore, JetCool, Daikin, Envicool, Parker Hannifin, Submer, GRC, EVAPCO, Alfa Laval, Sugon DataEnergy. Same facts policy — highlights include two OCP-Accepted Google Deschutes CDUs (nVent, Envicool), China's first national liquid cooling standard with Sugon DataEnergy as chief drafting unit (GB/T 48023-2026), and the waterless two-phase Z2O architecture (ZutaCore × Munters).</li>

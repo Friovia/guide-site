@@ -113,7 +113,7 @@ function State2026Page() {
         micro data centers stop at ~10 kW on air, and their liquid products start at 40-70 kW as
         components for AI halls. A turnkey, facility-free liquid cabinet for 20-50 kW — the
         hospital-edge, factory-edge, campus-edge case — remains essentially uncovered since the
-        2018 STULZ×CoolIT attempt. Whoever fills it defines the category.
+        2017 STULZ×CoolIT attempt. Whoever fills it defines the category.
       </p>
 
       <h2>Related</h2>

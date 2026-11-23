@@ -11,7 +11,7 @@ Locales:
 
 Radar:
 
-- [Industry radar](https://liquidcoolingguide.com/news): dated items across technology, products, investment and standards — every entry links to its source — plus the curated milestone timeline (STULZ×CoolIT 2018, ASHRAE W-classes 2019, 3M PFAS exit 2022-2025, GB200-era racks and ORv3 2024, SS 726:2026).
+- [Industry radar](https://liquidcoolingguide.com/news): dated items across technology, products, investment and standards — every entry links to its source — plus the curated milestone timeline (STULZ×CoolIT 2017, ASHRAE W-classes 2019, 3M PFAS exit 2022-2025, GB200-era racks and ORv3 2024, SS 726:2026).
 - [State of liquid cooling 2026](https://liquidcoolingguide.com/state-of-liquid-cooling-2026): the annual digest — direct-to-chip default above 30 kW, PG25 wins the fluid question, standards consolidated, tropics become the main event, and the 20-50 kW turnkey gap persists.
 
 Basics:
@@ -84,6 +84,17 @@ Reference:
   - [EVAPCO profile](https://liquidcoolingguide.com/supply-chain/evapco): vendor profile — eco-Air APEX CTI-certified dry coolers (2026), Titan adiabatic (36 ft fans), Eco-ATWB-H hybrids; employee-owned.
   - [Alfa Laval profile](https://liquidcoolingguide.com/supply-chain/alfa-laval): vendor profile — brazed/gasketed plate heat exchangers (the HX inside Boyd's 2.3 MW ROL2300); OCP Platinum member.
   - [Sugon DataEnergy profile](https://liquidcoolingguide.com/supply-chain/sugon-dataenergy): vendor profile — C8000 V3.0 MW-class phase-change immersion (>900 kW/rack), C7000 cold-plate line, chief drafting unit of China's GB/T 48023-2026 (BSE: 920808).
+  - [NVIDIA profile](https://liquidcoolingguide.com/supply-chain/nvidia): vendor profile — the chip vendor driving the switch: GB200/GB300 NVL72 ~120-142 kW racks, Vera Rubin 100% liquid fan-free with 45 °C PG25; GB200 designs contributed to OCP.
+  - [Dell Technologies profile](https://liquidcoolingguide.com/supply-chain/dell-technologies): vendor profile — PowerEdge XE9680L (8x HGX B200, 100 kW racks), GB300 NVL72 IRSS racks (first delivered to CoreWeave), PowerCool CDU line to 160 kW.
+  - [HPE profile](https://liquidcoolingguide.com/supply-chain/hpe): vendor profile — Cray-heritage DLC: industry-first 100% fanless architecture claim (2024), Cray XD670 (~70% liquid capture), GB200 NVL72 and MI355X-cooled XD685.
+  - [Supermicro profile](https://liquidcoolingguide.com/supply-chain/supermicro): vendor profile — DLC-2 capturing up to 98% of system heat (in-rack CDU 250 kW, in-row 1.8 MW); 2,000+ liquid-cooled racks/month capacity; shipping Vera Rubin NVL72.
+  - [Lenovo profile](https://liquidcoolingguide.com/supply-chain/lenovo): vendor profile — Neptune warm-water cooling: N1380 chassis (96 GB200 GPUs/rack, 100% heat removal), 45 °C chiller-free SC777, GB300 NVL72 systems.
+  - [Dow profile](https://liquidcoolingguide.com/supply-chain/dow): vendor profile — DOWFROST LC 25, the pre-diluted PG25 named in the OCP guideline (OCP Accepted); DOWSIL dielectric immersion fluids; Coolant Care Network.
+  - [Dynalene profile](https://liquidcoolingguide.com/supply-chain/dynalene): vendor profile — PG-D25 PG25 coolant qualified NVIDIA DSX Ready (2026), PAO immersion fluids, bio-glycol and low-conductivity lines.
+  - [Grundfos profile](https://liquidcoolingguide.com/supply-chain/grundfos): vendor profile — CM/CME the long-time OEM CDU pump (32-2 to 50 m³/h), NBE/NKE and BM ranges, MTRE pumps for immersion tanks.
+  - [Danfoss profile](https://liquidcoolingguide.com/supply-chain/danfoss): vendor profile — CDU components except the pump: B3-260C/XB67 brazed plate HXs (1-1.3 MW, 2-4 °C approach), CoolTrain 2 valve train, Alsmart controllers, Hansen couplings.
+  - [Schneider Electric profile](https://liquidcoolingguide.com/supply-chain/schneider-electric): vendor profile — end-to-end integrator via Motivair (75% acquired 2025): CDUs 105 kW-2.5 MW, ChilledDoor, HDU, NVIDIA AI-factory reference designs to ~227 kW/rack.
+  - [STULZ profile](https://liquidcoolingguide.com/supply-chain/stulz): vendor profile — CyberCool CDUs 345-1,380 kW, OCP-Accepted 2 MW Deschutes CDU, Micro DC cabinets and the 2017 CoolIT chip-to-atmosphere partnership.
 - [UQD quick disconnects](https://liquidcoolingguide.com/uqd-quick-disconnects): The OCP UQD family UQD04–UQD40 (number ≈ nominal L/min); size table, dripless and blind-mate mechanics, the pressure-drop trap.
 - [ORv3 manifold spec](https://liquidcoolingguide.com/orv3-manifold): the OCP Open Rack V3 blind-mate manifold quoted — 50 psig working pressure, 60 °C max fluid, PG25, ≤5% flow distribution target, 24-valve reference design, W45-class 17–65 °C operation, plus the OAI 1.25–2.0 L/min/kW flow rules and what the spec deliberately does not publish.
 - [Fluids & PFAS](https://liquidcoolingguide.com/liquid-cooling-fluids): PG25 vs oils vs fluorinated fluids — PFAS regulation, 3M's 2025 exit, transport/disposal rules, loop maintenance.

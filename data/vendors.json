@@ -311,7 +311,7 @@
         {
           "name": "Dow",
           "hq": "US",
-          "note": "DOWFROST/WF glycol lines behind most PG25-class coolants",
+          "note": "DOWFROST LC 25 — the pre-diluted PG25 coolant named in the OCP guideline; DOWSIL dielectric fluids for immersion",
           "source": "https://www.dow.com/"
         },
         {
@@ -403,7 +403,7 @@
         {
           "name": "Danfoss",
           "hq": "DK",
-          "note": "Valves, controls and sensors for hydronic loops",
+          "note": "Brazed plate heat exchangers, valve trains, controllers, sensors and drives for CDUs; Hansen quick couplings",
           "source": "https://www.danfoss.com/"
         },
         {
