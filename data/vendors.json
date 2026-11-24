@@ -29,7 +29,7 @@
         {
           "name": "Mueller Industries",
           "hq": "US",
-          "note": "Vertically integrated copper tube, fittings and brass rod maker supplying U.S. data center construction; acquired the Bison Metals tube mill in March 2026",
+          "note": "Vertically integrated copper tube, fittings and brass rod maker supplying U.S. data center construction; announced an agreement in March 2026 to acquire Bison Metals Technologies (closing date not announced)",
           "source": "https://www.muellerindustries.com/",
           "evidence": "https://ir.muellerindustries.com/news/press-releases/detail/197/mueller-industries-inc-reports-third-quarter-2026-earnings"
         },
@@ -268,7 +268,7 @@
           "hq": "US",
           "note": "Custom direct-to-chip liquid cooling: single- and two-phase microchannel cold plates (AX-NV2 for NVIDIA B200), heat flux control to 1,000 W/cm2 for AI/HPC racks",
           "source": "https://www.mikrostechnologies.com/",
-          "evidence": "https://www.mikrostechnologies.com"
+          "evidence": "https://www.mikrostechnologies.com/company/about.html"
         },
         {
           "name": "Cofan Thermal",
@@ -626,7 +626,7 @@
           "hq": "US",
           "note": "Data center cooling: Airedale DCS chillers (TurboChill/DeltaChill/OptiChill), 1 MW coolant distribution units, chillers and fan walls for AI infrastructure",
           "source": "https://www.airedale.com/",
-          "evidence": "https://www.airedale.com/products/dcs-chillers"
+          "evidence": "https://www.airedale.com/data-centers/liquid-cooling"
         },
         {
           "name": "Carrier",
@@ -654,7 +654,7 @@
           "hq": "US",
           "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
           "source": "https://nautilusdt.com/",
-          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+          "evidence": "https://nautilusdt.com/"
         },
         {
           "name": "Boston Limited",
@@ -683,13 +683,6 @@
           "note": "Data center cooling equipment under its BASX brand: liquid-to-liquid and liquid-to-air CDUs, free-cooling chillers, CRAHs and fan walls, manufactured in Tulsa and Longview, Texas",
           "source": "https://www.aaon.com/",
           "evidence": "https://www.aaon.com/news/aaon-awarded-liquid-cooling-data-center-orders-totaling-approximately-174.5-million"
-        },
-        {
-          "name": "Lennox International",
-          "hq": "US",
-          "note": "Lennox Data Centre Solutions: PhaseFlow modular refrigerant-based heat rejection platform supporting single- and two-phase direct-to-chip loops; CRAHs, fan walls, CDUs and chillers (Apx DCS line)",
-          "source": "https://www.lennox.com/",
-          "evidence": "https://www.lennox.com/datacenters"
         },
         {
           "name": "Nortek Data Center Cooling",
@@ -724,7 +717,7 @@
           "hq": "CA",
           "note": "Oil-free magnetic-bearing centrifugal chillers plus data center product line including chilled-water fan walls, CRAH/CRAC units and coolant distribution units (300-2,500 kW)",
           "source": "https://www.smardt.com/",
-          "evidence": "https://www.smardt.com"
+          "evidence": "https://www.smardt.com/products/coolant-distribution-unit"
         },
         {
           "name": "DDC Solutions",
@@ -1718,7 +1711,7 @@
           "hq": "US",
           "note": "Data center cooling: Airedale DCS chillers (TurboChill/DeltaChill/OptiChill), 1 MW coolant distribution units, chillers and fan walls for AI infrastructure",
           "source": "https://www.airedale.com/",
-          "evidence": "https://www.airedale.com/products/dcs-chillers"
+          "evidence": "https://www.airedale.com/data-centers/liquid-cooling"
         },
         {
           "name": "Gunter",
@@ -1781,7 +1774,7 @@
           "hq": "US",
           "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
           "source": "https://nautilusdt.com/",
-          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+          "evidence": "https://nautilusdt.com/"
         },
         {
           "name": "AAON (BASX)",
@@ -1793,7 +1786,7 @@
         {
           "name": "Lennox International",
           "hq": "US",
-          "note": "Lennox Data Centre Solutions: PhaseFlow modular refrigerant-based heat rejection platform supporting single- and two-phase direct-to-chip loops; CRAHs, fan walls, CDUs and chillers (Apx DCS line)",
+          "note": "Lennox Data Center Solutions: PhaseFlow modular, refrigerant-based cooling platform for AI and high-density data centers, whose single facility loop supports air cooling plus single- and two-phase direct-to-chip cooling",
           "source": "https://www.lennox.com/",
           "evidence": "https://www.lennox.com/datacenters"
         },
@@ -1816,12 +1809,12 @@
           "hq": "CA",
           "note": "Oil-free magnetic-bearing centrifugal chillers plus data center product line including chilled-water fan walls, CRAH/CRAC units and coolant distribution units (300-2,500 kW)",
           "source": "https://www.smardt.com/",
-          "evidence": "https://www.smardt.com"
+          "evidence": "https://www.smardt.com/products/coolant-distribution-unit"
         },
         {
           "name": "Multistack",
           "hq": "US",
-          "note": "Modular oil-free magnetic-bearing (MagLev) chillers, 60-1,400 tons water-cooled and 60-300 tons air-cooled, with N+1 modular redundancy and free-cooling options used in data center heat rejection loops",
+          "note": "Modular oil-free magnetic-bearing chillers with modular redundancy and free-cooling options, used in data center heat rejection loops",
           "source": "https://www.multistack.com/",
           "evidence": "https://www.multistack.com"
         },
@@ -2532,7 +2525,7 @@
           "hq": "US",
           "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
           "source": "https://nautilusdt.com/",
-          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+          "evidence": "https://nautilusdt.com/"
         },
         {
           "name": "Axiom Solutions International",
@@ -3170,7 +3163,7 @@
           "hq": "US",
           "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
           "source": "https://nautilusdt.com/",
-          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+          "evidence": "https://nautilusdt.com/"
         },
         {
           "name": "Kao Data",

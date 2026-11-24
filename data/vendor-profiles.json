@@ -5694,6 +5694,1332 @@
           "a": "Gates issued its March 2025 data center announcement from Denver, Colorado, and the company trades on the New York Stock Exchange under ticker GTES; a founding year is not stated on the pages reviewed."
         }
       ]
+    },
+    {
+      "slug": "jabil",
+      "name": "Jabil",
+      "segments": [
+        "servers",
+        "integrators"
+      ],
+      "tagline": "Jabil is an NYSE-listed electronics manufacturing services company building AI data-center infrastructure, including rack-level liquid cooling: microchannel cold plates from its Mikros acquisition, integrated CDU and rack plumbing, manifolds and liquid-cooled switch integration.",
+      "hq": "St. Petersburg, United States",
+      "founded": 1992,
+      "ownership": "NYSE: JBL",
+      "website": "https://www.jabil.com/",
+      "productLines": [
+        {
+          "name": "Microchannel cold plates (Mikros)",
+          "note": "Microchannel cold-plate design and manufacturing from Mikros Technologies, acquired October 2024; Jabil presents cold plates as the foundation of its AI data-center liquid-cooling stack for direct-to-chip cooling.",
+          "source": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        },
+        {
+          "name": "Integrated CDU and rack plumbing",
+          "note": "Integrated coolant distribution unit and rack plumbing solutions for AI racks, designed for flexible compatibility with air, liquid and hybrid cooling systems per Jabil's data-center infrastructure pages.",
+          "source": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        },
+        {
+          "name": "Manifolds",
+          "note": "Rack manifold designs for distributing coolant to server cold plates within direct-to-chip liquid-cooling loops, offered alongside Jabil's CDU and rack plumbing integration services.",
+          "source": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        },
+        {
+          "name": "Liquid-cooled switch integration",
+          "note": "Integration of liquid-cooled switches for networking and AI clusters, plus thermal strategies for co-packaged optics (CPO).",
+          "source": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Jabil's newsroom carried a September 9, 2026 Global SMT & Packaging article, 'Liquid Cooling: From Engineering Solutions to Commercial Enterprise', on the commercialization of its Mikros liquid-cooling business.",
+          "source": "https://www.jabil.com/about-us/news-recognitions-policies/newsroom.html"
+        },
+        {
+          "year": "2025",
+          "text": "IEEE Spectrum's October 13, 2025 article 'Next-Gen AI Needs Liquid Cooling' featured Jabil's Mikros microchannel cold-plate technology for next-generation AI systems.",
+          "source": "https://www.jabil.com/about-us/news-recognitions-policies/newsroom.html"
+        },
+        {
+          "year": "2024",
+          "text": "Jabil announced the acquisition of Mikros Technologies on October 3, 2024 to support demand for liquid cooling in AI data centers, adding microchannel cold-plate capability to its data-center infrastructure business.",
+          "source": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Jabil make liquid cooling hardware itself?",
+          "a": "Yes. Following its October 2024 acquisition of Mikros Technologies, Jabil designs and manufactures microchannel cold plates and offers integrated CDU and rack plumbing solutions, manifold designs and liquid-cooled switch integration for AI data centers."
+        },
+        {
+          "q": "Where does co-packaged optics fit in?",
+          "a": "Jabil's data-center infrastructure pages list thermal strategies for co-packaged optics (CPO) alongside liquid-cooled switch integration, so thermal management extends to optical and networking hardware, not only server cold plates."
+        },
+        {
+          "q": "Is Jabil a contract manufacturer or a cooling vendor?",
+          "a": "Jabil is an NYSE-listed electronics manufacturing services company. In data centers it integrates liquid cooling at rack level - cold plates, CDU and plumbing, manifolds, liquid-cooled switches - and supports air, liquid and hybrid cooling systems."
+        },
+        {
+          "q": "When did Jabil enter direct-to-chip liquid cooling?",
+          "a": "Jabil announced its acquisition of microchannel cold-plate specialist Mikros Technologies on October 3, 2024, to support demand for liquid cooling in AI data centers."
+        }
+      ]
+    },
+    {
+      "slug": "mikros-technologies",
+      "name": "Mikros Technologies",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Mikros Technologies designs single- and two-phase microchannel cold plates for direct-to-chip liquid cooling, with published heat-flux control up to 1,000 W/cm2 and liquid-to-chip cooling cited at the 1 MW Frontier supercomputer scale; it has operated as a Jabil company since October 2024.",
+      "hq": "Claremont, New Hampshire, United States",
+      "founded": 1991,
+      "ownership": "Subsidiary of Jabil (NYSE: JBL)",
+      "website": "https://www.mikrostechnologies.com/",
+      "productLines": [
+        {
+          "name": "MIKROMATRIX microchannel cold plates",
+          "note": "MIKROMATRIX is Mikros' liquid-cooling technology platform for single- and two-phase direct-to-chip cooling of CPUs, GPUs, transceivers, IGBTs, lasers and optics; Jabil's acquisition release cites cooling capability over one kilowatt per square centimeter.",
+          "source": "https://www.mikrostechnologies.com/company/about.html"
+        },
+        {
+          "name": "AX-NV2 cold plate for NVIDIA B200",
+          "note": "Direct-to-chip cold plate announced November 13, 2024, described by Mikros as customizable cooling ready for NVIDIA's B200 GPU in the Blackwell generation.",
+          "source": "https://www.mikrostechnologies.com/"
+        },
+        {
+          "name": "Two-phase microchannel cooling",
+          "note": "Mikros designs both single- and two-phase liquid cooling; its site cites heat control at 1,000 W/cm2 and 'Liquid-to-Chip Cooling at the 1 MW Frontier' supercomputer.",
+          "source": "https://www.mikrostechnologies.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "A September 9, 2026 Global SMT & Packaging feature, 'Liquid Cooling: From Engineering Solutions to Commercial Enterprise', profiled how the Mikros liquid-cooling team moved from collaborative engineering services to commercial cold-plate production at scale under Jabil.",
+          "source": "https://www.jabil.com/about-us/news-recognitions-policies/newsroom.html"
+        },
+        {
+          "year": "2024",
+          "text": "On November 13, 2024, Mikros announced the AX-NV2 direct-to-chip cold plate, described as customizable cooling ready for NVIDIA's B200 GPU (Blackwell).",
+          "source": "https://www.mikrostechnologies.com/"
+        },
+        {
+          "year": "2024",
+          "text": "Jabil completed its acquisition of Mikros Technologies on October 1, 2024 (announced October 3, 2024), bringing proprietary microchannel cold plates able to cool over one kilowatt per square centimeter into Jabil's AI data-center offering.",
+          "source": "https://www.mikrostechnologies.com/company/press-releases/jabil-acquisition.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What heat flux can Mikros cold plates handle?",
+          "a": "Mikros materials cite microchannel cold plates that can cool over one kilowatt per square centimeter, and the company's site states heat-flux control at 1,000 W/cm2; designs span single- and two-phase operation."
+        },
+        {
+          "q": "Which NVIDIA GPUs does Mikros support?",
+          "a": "Mikros announced the AX-NV2 direct-to-chip cold plate on November 13, 2024 as customizable cooling ready for NVIDIA's B200 GPU in the Blackwell generation."
+        },
+        {
+          "q": "Who owns Mikros today?",
+          "a": "Mikros operates as a Jabil company; Jabil completed the acquisition on October 1, 2024 and announced it on October 3, 2024 to support demand for liquid cooling in AI data centers."
+        },
+        {
+          "q": "Has Mikros liquid cooling been used at supercomputer scale?",
+          "a": "Mikros' site cites 'Liquid-to-Chip Cooling at the 1 MW Frontier', referencing its liquid-to-chip cooling technology at the 1 MW scale of the Frontier supercomputer."
+        }
+      ]
+    },
+    {
+      "slug": "lennox-international",
+      "name": "Lennox International",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Lennox International is an NYSE-listed HVAC manufacturer with more than 130 years of thermal expertise. Its new Lennox Data Center Solutions unit offers PhaseFlow, a modular refrigerant-based heat rejection platform for AI and high-density data centers that supports single- and two-phase direct-to-chip cooling strategies.",
+      "hq": "NOT_FOUND",
+      "founded": 1895,
+      "ownership": "NYSE: LII",
+      "website": "https://www.lennox.com/",
+      "productLines": [
+        {
+          "name": "PhaseFlow",
+          "note": "Modular, scalable, refrigerant-based heat rejection platform: cools the process fluid for rack-level heat removal, supports air cooling plus single- and two-phase direct-to-chip strategies, and delivers refrigerant directly to CDUs, with air-cooled or optional low-water adiabatic configurations.",
+          "source": "https://www.lennox.com/datacenters"
+        },
+        {
+          "name": "PhaseFlow waterless configuration",
+          "note": "Waterless PhaseFlow setup excludes cooling towers and cooling-tower water use and is stated at zero operational water, with N+1 redundancy as baseline and N+X or 2N options.",
+          "source": "https://www.lennox.com/datacenters"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Lennox's PhaseFlow data center pages cite modeling by Syska Hennessy Group that found 10-25% lower energy use than conventional chillers in a 200 MW reference architecture using Phoenix BIN weather data.",
+          "source": "https://www.lennox.com/datacenters"
+        },
+        {
+          "year": "2026",
+          "text": "Lennox Data Center Solutions presents PhaseFlow as a modular cooling platform built for AI and high-density data centers, in which a single refrigerant-based facility loop supports air cooling plus single-phase and two-phase direct-to-chip cooling strategies",
+          "source": "https://www.lennox.com/datacenters"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is PhaseFlow?",
+          "a": "PhaseFlow is Lennox's modular, scalable, refrigerant-based cooling platform for data centers. It operates in the heat rejection loop, cooling the process fluid responsible for rack-level heat removal, and supports air cooling plus single- and two-phase direct-to-chip cooling strategies."
+        },
+        {
+          "q": "Does PhaseFlow support direct-to-chip liquid cooling?",
+          "a": "Yes. Lennox states PhaseFlow supports single- and two-phase direct-to-chip cooling strategies and delivers refrigerant directly to CDUs, noting additional efficiency potential with two-phase liquid cooling architectures."
+        },
+        {
+          "q": "How water-efficient is PhaseFlow?",
+          "a": "PhaseFlow's waterless configuration excludes cooling towers and is stated at zero operational water use; an optional low-water adiabatic configuration is also offered, with refrigerants including CO2 and lower-GWP HFO/HFC options."
+        },
+        {
+          "q": "Is Lennox new to data centers?",
+          "a": "Lennox introduced Lennox Data Center Solutions on November 19, 2026, applying its stated 130+ years of thermal expertise to AI and high-density data center cooling, starting with the PhaseFlow platform."
+        }
+      ]
+    },
+    {
+      "slug": "nautilus-data-technologies",
+      "name": "Nautilus Data Technologies",
+      "segments": [
+        "buyers",
+        "micro-dc",
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "Nautilus Data Technologies develops the EcoCore liquid-cooling platform - in-row, facility-wide and containerized CDUs rated up to 10 MW of heat rejection with zero-water cooling technology - and operates its own waterborne Stockton data center, targeting AI retrofits and new builds.",
+      "hq": "NOT_FOUND",
+      "founded": 2013,
+      "ownership": "NOT_FOUND",
+      "website": "https://nautilusdt.com/",
+      "productLines": [
+        {
+          "name": "EcoCore FCD",
+          "note": "Facility-wide CDU providing 4,000 kW of heat rejection per unit; supports hot aisle, rear-door, immersion and direct-to-chip cooling, deployed as skidded units off the white space per Nautilus' retrofit guidance.",
+          "source": "https://nautilusdt.com/"
+        },
+        {
+          "name": "EcoCore XCD",
+          "note": "Perimeter-deployable containerized CDU rated up to 10 MW of heat rejection per module, placing facility-scale liquid cooling outside the data hall.",
+          "source": "https://nautilusdt.com/"
+        },
+        {
+          "name": "EcoCore RCD",
+          "note": "In-row CDU rejecting up to 2 MW of heat in 1.2 m2 of floor space, available in liquid-to-liquid and liquid-to-air configurations.",
+          "source": "https://nautilusdt.com/"
+        },
+        {
+          "name": "EcoCore Infrastructure",
+          "note": "Prefabricated 2.5 MW blocks made of nine combined units covering MEP, structure and data hall; Nautilus states the platform scales from 500 kW to multi-megawatt capacity in under 9 months with N+1 redundancy.",
+          "source": "https://nautilusdt.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Nautilus announced on August 4, 2026 that it had been named an NVIDIA AI Infrastructure Partner, supporting its EcoCore liquid-cooling platform for AI workloads.",
+          "source": "https://nautilusdt.com/press-release/"
+        },
+        {
+          "year": "2026",
+          "text": "Nautilus announced on May 27, 2026 that its cooling unit surpassed AI GPU performance targets.",
+          "source": "https://nautilusdt.com/press-release/"
+        },
+        {
+          "year": "2025",
+          "text": "On September 8, 2025, Nautilus announced an expanded suite of EcoCore CDU products for AI data center cooling.",
+          "source": "https://nautilusdt.com/press-release/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What rack densities does Nautilus cooling target?",
+          "a": "Nautilus materials frame legacy designs at 5-15 kW per rack against AI loads pushing 50 kW, 100 kW and beyond; its 2015 waterborne prototype achieved a PUE of 1.05 with 75 kW rack densities, later 120 kW."
+        },
+        {
+          "q": "Is Nautilus a component vendor or an operator?",
+          "a": "Both: it sells the EcoCore CDU product line and operates its own Stockton data center, where its waterborne approach was first prototyped in 2015 and recognized by the US Navy and NetApp."
+        },
+        {
+          "q": "How fast can EcoCore capacity be deployed?",
+          "a": "Nautilus states the platform scales from 500 kW to multi-megawatt capacity in under 9 months, with N+1 redundancy and prefabricated 2.5 MW blocks that combine MEP, structure and data hall units."
+        },
+        {
+          "q": "What does Nautilus recommend for AI retrofits?",
+          "a": "Its retrofit guidance says most near-term AI capacity comes from existing colocation, hyperscale and enterprise sites, and that facility-scale CDUs let operators phase in high-density AI cooling alongside live workloads with minimal disruption."
+        }
+      ]
+    },
+    {
+      "slug": "nextgenergy",
+      "name": "NextGenergy",
+      "segments": [
+        "cdus",
+        "integrators"
+      ],
+      "tagline": "NextGenergy, a Toronto company incorporated in 2025, supplies prefabricated liquid-cooling systems for AI data halls - factory-built skids, ORv3 racks, CDUs and cooling plant - plus liquid-loop testing, commissioning and field services across North America; its founding team credits nearly 1,000 MW of prior liquid-cooling delivery.",
+      "hq": "Toronto, Canada",
+      "founded": 2025,
+      "ownership": "NOT_FOUND",
+      "website": "https://nextgenergy.ai/",
+      "productLines": [
+        {
+          "name": "Prefabricated cooling skids",
+          "note": "Factory-built skids for AI data halls, designed or integrated by NextGenergy and built by qualified manufacturing partners; performance is confirmed per project rather than quoted as fixed ratings.",
+          "source": "https://nextgenergy.ai/"
+        },
+        {
+          "name": "CDUs (integrated per project)",
+          "note": "CDUs are selected from several manufacturers per project, with data sheets covering rated heat load (kW), flows, pressure drop, pump redundancy (N, N+1, 2N), MAWP and wetted materials at stated conditions.",
+          "source": "https://nextgenergy.ai/platform/cdu"
+        },
+        {
+          "name": "Racks, manifolds and cold plates",
+          "note": "ORv3 and 19-inch racks, rack manifolds and quick disconnects, plus direct-to-chip cold plates and coolants within its prefabricated platform offering.",
+          "source": "https://nextgenergy.ai/"
+        },
+        {
+          "name": "Liquid-loop field services",
+          "note": "Liquid-loop testing, commissioning and operations across North America, organized around a four-gate commissioning process and a three-tier operations programme.",
+          "source": "https://nextgenergy.ai/company/about"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On November 18, 2026, NextGenergy published a white paper on commissioning and site acceptance for liquid-cooled AI data centres.",
+          "source": "https://nextgenergy.ai/company/news"
+        },
+        {
+          "year": "2026",
+          "text": "On October 1, 2026, NextGenergy opened registration for its Liquid Cooling Academy, a free Level 1 technician course offered in English and Chinese.",
+          "source": "https://nextgenergy.ai/company/news"
+        },
+        {
+          "year": "2025",
+          "text": "NextGenergy states it was incorporated in 2025; its founding team's liquid-cooling experience runs from 2020, with nearly 1,000 MW delivered through a previous company counted to the first quarter of 2026.",
+          "source": "https://nextgenergy.ai/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does NextGenergy manufacture its own CDUs?",
+          "a": "No. NextGenergy selects CDUs from several manufacturers per project; its data sheets cover rated heat load (kW), flows, pressure drop, pump redundancy (N, N+1, 2N), MAWP and wetted materials at stated conditions, with performance confirmed per project."
+        },
+        {
+          "q": "What experience does the founding team have?",
+          "a": "The company states its founding team delivered nearly 1,000 MW of liquid cooling through a previous company, counted to the first quarter of 2026, with six years of liquid-cooling focus dating from 2020."
+        },
+        {
+          "q": "What services come with the hardware?",
+          "a": "Field services cover liquid-loop testing, commissioning and operations across North America, organized around four commissioning gates and a three-tier operations programme."
+        },
+        {
+          "q": "What training resources does NextGenergy offer?",
+          "a": "It opened registration for a free Level 1 Liquid Cooling Academy technician course in October 2026, runs a browser-based liquid cooling simulator, and published a white paper on commissioning and site acceptance for liquid-cooled AI data centres."
+        }
+      ]
+    },
+    {
+      "slug": "nibco",
+      "name": "NIBCO",
+      "segments": [
+        "components",
+        "interconnects"
+      ],
+      "tagline": "NIBCO INC., an Elkhart, Indiana manufacturer of valves and fittings, offers a comprehensive hydronic portfolio for data center liquid cooling - ball, butterfly, check and balancing valves, strainers, actuators and air separators - led by the 585HP ball valve rated up to 1,000 PSI.",
+      "hq": "Elkhart, Indiana, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.nibco.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooling valve portfolio",
+          "note": "Ball valves, butterfly valves, check valves, balancing valves, strainers, actuators and air separators positioned as a full range of hydronic system components for data center cooling from a single manufacturer.",
+          "source": "https://blog.nibco.com/building-reliability-simplifying-liquid-cooling-for-the-next-generation-of-data-centers"
+        },
+        {
+          "name": "NIBCO 585HP ball valve",
+          "note": "High-performance ball valve rated up to 1,000 PSI for high-pressure data center cooling loops, backed by extended warranties per NIBCO's liquid-cooling article.",
+          "source": "https://blog.nibco.com/building-reliability-simplifying-liquid-cooling-for-the-next-generation-of-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "NIBCO's August 12, 2026 article presented its comprehensive data-center liquid-cooling portfolio - ball, butterfly, check and balancing valves, strainers, actuators and air separators - led by the 585HP high-performance ball valve rated up to 1,000 PSI.",
+          "source": "https://blog.nibco.com/building-reliability-simplifying-liquid-cooling-for-the-next-generation-of-data-centers"
+        },
+        {
+          "year": "2026",
+          "text": "The same August 2026 article states the portfolio's valves and fittings use lead-free copper alloys and low-carbon stainless steel, chosen for durability and compatibility with modern cooling fluids such as propylene glycol and deionized water.",
+          "source": "https://blog.nibco.com/building-reliability-simplifying-liquid-cooling-for-the-next-generation-of-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What NIBCO products apply to data center liquid cooling?",
+          "a": "NIBCO's article lists ball valves, butterfly valves, check valves, balancing valves, strainers, actuators and air separators as a full range of hydronic components from a single manufacturer, led by the 585HP high-performance ball valve rated up to 1,000 PSI."
+        },
+        {
+          "q": "What materials and fluids are the valves designed for?",
+          "a": "Valves and fittings are made of lead-free copper alloys and low-carbon stainless steel, chosen for durability and compatibility with modern cooling fluids; the article names propylene glycol and deionized water."
+        },
+        {
+          "q": "Where is NIBCO based?",
+          "a": "NIBCO INC. lists its address as 1516 Middlebury Street, Elkhart, Indiana, in the contact details of its liquid-cooling blog post."
+        },
+        {
+          "q": "What rack densities does NIBCO cite as the driver?",
+          "a": "The article frames rising rack densities - from around 15 kW toward more than 100 kW - as the driver for reliable hydronic components in next-generation data center cooling loops."
+        }
+      ]
+    },
+    {
+      "slug": "molex",
+      "name": "Molex",
+      "segments": [
+        "interconnects",
+        "components"
+      ],
+      "tagline": "Molex, a Koch-owned connectivity and electronics manufacturer based in Lisle, Illinois, supplies OCP-compliant liquid-cooling interfaces, cold plate cages, leak-detection cables and liquid-cooled busbars; its multi-channel liquid-cooled busbars support currents up to 15,000 A for AI racks approaching the 1-MW threshold.",
+      "hq": "Lisle, Illinois, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Koch Industries (private)",
+      "website": "https://www.molex.com/",
+      "productLines": [
+        {
+          "name": "Multi-Channel Liquid Cooled Busbars",
+          "note": "Liquid-cooled power busbars with up to seven coolant channels, supporting currents up to 15,000 A (roadmap to 25,000 A) with a stated 15C T-Rise at 15,000 A; Molex simulations cite up to 20% greater cooling efficiency than single-channel designs, with ORV3 and HPR footprint compatibility.",
+          "source": "https://www.molex.com/en-us/news/molex-unveils-multi-channel-liquid-cooled-busbar-capability-at-computex-2026"
+        },
+        {
+          "name": "VaporConnect Optical Feedthrough Modules",
+          "note": "Cassette-based sealed optical feedthroughs for two-phase immersion tanks, up to 576 fibers per module with MPO, LC and VSFF connector options and helium-leak-tested gaskets; reference designs became commercially available in Q1 2025.",
+          "source": "https://www.prnewswire.com/news-releases/molex-unveils-versatile-vaporconnect-optical-feedthrough-modules-enabling-thermal-management-innovations-to-address-ai-driven-data-center-growth-302254979.html"
+        },
+        {
+          "name": "OCP-compliant liquid-cooling interfaces and cold plate cages",
+          "note": "Blind-mate, dry-break liquid-cooling interfaces plus integrated cold plate cages and floating thermal bridges that move heat away from processors and transceivers while reducing fluid ingress risk during maintenance.",
+          "source": "https://www.molex.com/en-us/industries-applications/data-center-thermal-management"
+        },
+        {
+          "name": "Leak Detection Cables",
+          "note": "Leak-detection cables with integrated telemetry that detect moisture and fluid anomalies early across liquid-cooled and immersion-cooled AI infrastructure.",
+          "source": "https://www.molex.com/en-us/industries-applications/data-center-thermal-management"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "At Computex 2026 (announced June 2, 2026), Molex debuted Multi-Channel Liquid Cooled Busbars supporting currents up to 15,000 A with a 15C T-Rise, up to seven coolant channels and up to 20% greater cooling efficiency than single-channel designs in Molex simulations, compatible with ORV3 and HPR mechanical standards.",
+          "source": "https://www.molex.com/en-us/news/molex-unveils-multi-channel-liquid-cooled-busbar-capability-at-computex-2026"
+        },
+        {
+          "year": "2025",
+          "text": "Molex's VaporConnect optical feedthrough reference designs became commercially available in Q1 2025, per the September 23, 2024 introduction of the cassette-based modules for two-phase immersion cooling tanks.",
+          "source": "https://www.prnewswire.com/news-releases/molex-unveils-versatile-vaporconnect-optical-feedthrough-modules-enabling-thermal-management-innovations-to-address-ai-driven-data-center-growth-302254979.html"
+        },
+        {
+          "year": "2024",
+          "text": "On September 23, 2024, Molex introduced VaporConnect Optical Feedthrough Modules for two-phase immersion cooling, with up to 576 fibers per module and MPO, LC and VSFF connector options.",
+          "source": "https://www.prnewswire.com/news-releases/molex-unveils-versatile-vaporconnect-optical-feedthrough-modules-enabling-thermal-management-innovations-to-address-ai-driven-data-center-growth-302254979.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Molex's liquid-cooled busbar?",
+          "a": "Debuted at Computex 2026, the Multi-Channel Liquid Cooled Busbar integrates liquid cooling into the power path, with up to seven coolant channels, currents up to 15,000 A (roadmap to 25,000 A) and a 15C T-Rise at 15,000 A; Molex simulations cite up to 20% greater cooling efficiency than single-channel designs."
+        },
+        {
+          "q": "Which mechanical standards does it fit?",
+          "a": "The busbars maintain footprint compatibility with ORV3 and HPR mechanical standards and work with dielectric and non-dielectric liquids, easing integration into existing facility cooling loops and transitions toward 1-MW rack architectures."
+        },
+        {
+          "q": "What does Molex offer for leak safety?",
+          "a": "OCP-compliant dry-break liquid-cooling interfaces reduce fluid ingress risk during maintenance, and leak-detection cables with integrated telemetry detect moisture and fluid anomalies early in liquid-cooled and immersion-cooled environments."
+        },
+        {
+          "q": "Is Molex a cold plate maker?",
+          "a": "Molex positions integrated cold plate cages and thermal bridges within its thermal management ecosystem, moving heat away from processors and transceivers alongside connectivity products such as Mirror Mezz connectors (up to 270 differential pairs) and PowerWize."
+        }
+      ]
+    },
+    {
+      "slug": "modexus-solutions",
+      "name": "Modexus Solutions (Airedale)",
+      "segments": [
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "Airedale by Modine is the data center cooling brand of Modine Manufacturing, whose Data Centers & Commercial HVAC business now operates as Modexus Solutions following a shareholder-approved corporate name change. It builds DCS chillers from 200 kW to 3+MW, 400 kW-2 MW+ coolant distribution units and edge cooling for AI infrastructure.",
+      "hq": "Racine, Wisconsin, United States",
+      "founded": 1916,
+      "ownership": "NYSE: MOD",
+      "website": "https://www.airedale.com/",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Units (CDU)",
+          "note": "Liquid-liquid heat exchanger CDU rated 400 kW to 2 MW+ with N+1 pumps, drives and filters; a skid-based CDU for scalable data center deployment was unveiled in October 2025.",
+          "source": "https://www.airedale.com/data-centers/liquid-cooling"
+        },
+        {
+          "name": "DCS chillers (TurboChill, DeltaChill, OptiChill)",
+          "note": "TurboChill DCS rated 200-1,830 kW, DeltaChill DCS 110-1,010 kW and OptiChill DCS 1.85 MW using R134a; TurboChill DCS gained a stainless-steel extension for liquid-cooled data centers in November 2025, and TurboChill 3+MW launched in February 2026.",
+          "source": "https://www.airedale.com/products/dcs-chillers"
+        },
+        {
+          "name": "EdgeBox 10",
+          "note": "Edge data center cooling unit with a 10 kW thermal load (18 kW with appropriate heat rejection), 5.6 sq ft footprint, stated partial PUE of 1.03 and 8RU of server capacity at under 60 dB.",
+          "source": "https://www.airedale.com/data-centers/liquid-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On May 26, 2026, Modine announced a long-term capacity agreement with a strategic data center customer that guarantees supply of Airedale by Modine cooling products for calendar years 2027 through 2029.",
+          "source": "https://www.prnewswire.com/news-releases/modine-announces-landmark-4-billion-long-term-capacity-agreement-through-2029-with-strategic-data-center-customer-for-airedale-by-modine-cooling-solutions-302779610.html"
+        },
+        {
+          "year": "2026",
+          "text": "In February 2026, Airedale by Modine launched TurboChill 3+MW chillers, advancing air-cooled efficiency for AI data centers.",
+          "source": "https://www.airedale.com/news"
+        },
+        {
+          "year": "2025",
+          "text": "In November 2025, Airedale by Modine announced a stainless steel extension of the TurboChill DCS chiller for liquid cooling data centers, following an October 2025 unveiling of its skid-based CDU.",
+          "source": "https://www.airedale.com/news"
+        },
+        {
+          "year": "2025",
+          "text": "In August 2025, Modine opened an India facility to manufacture data center cooling equipment for the APAC region.",
+          "source": "https://www.airedale.com/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacity does Airedale by Modine offer?",
+          "a": "Its CDU is a liquid-liquid heat exchanger rated 400 kW to 2 MW+ with N+1 pumps, drives and filters; a skid-based CDU for scalable deployment was unveiled in October 2025."
+        },
+        {
+          "q": "Which chillers serve liquid-cooled AI data centers?",
+          "a": "The DCS line spans TurboChill DCS (200-1,830 kW), DeltaChill DCS (110-1,010 kW) and OptiChill DCS (1.85 MW, R134a); a stainless-steel TurboChill DCS extension for liquid-cooling data centers followed in November 2025, and TurboChill 3+MW launched in February 2026."
+        },
+        {
+          "q": "Who owns Airedale?",
+          "a": "Airedale products are branded 'Airedale by Modine'; Modine's Data Centers & Commercial HVAC business now operates as Modexus Solutions after shareholders approved a corporate name change, and the company trades as NYSE: MOD."
+        },
+        {
+          "q": "Does Airedale serve edge deployments?",
+          "a": "The EdgeBox 10 handles a 10 kW thermal load (18 kW with appropriate heat rejection) in a 5.6 sq ft footprint, with a stated partial PUE of 1.03 and 8RU of server capacity at under 60 dB."
+        }
+      ]
+    },
+    {
+      "slug": "sanmina",
+      "name": "Sanmina",
+      "segments": [
+        "servers",
+        "integrators"
+      ],
+      "tagline": "Sanmina is a US electronics manufacturing services provider that completed its acquisition of ZT Systems' data center infrastructure manufacturing business from AMD on October 27, 2025, adding large New Jersey and Texas facilities with advanced liquid cooling capabilities for cloud and AI rack integration.",
+      "hq": "San Jose, California, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NASDAQ: SANM",
+      "website": "https://www.sanmina.com/",
+      "productLines": [
+        {
+          "name": "ZT Systems rack integration (Sanmina business)",
+          "note": "Data center infrastructure manufacturing business acquired from AMD in October 2025; large state-of-the-art facilities in New Jersey and Texas described as having advanced liquid cooling capabilities, plus an operation in the Netherlands, serving hyperscaler and OEM customers.",
+          "source": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        },
+        {
+          "name": "AI, Compute & Storage Infrastructure",
+          "note": "Sanmina product line covering cloud and AI infrastructure manufacturing, listed alongside Thermal & Power Systems on the company's corporate page.",
+          "source": "https://www.sanmina.com/company/"
+        },
+        {
+          "name": "Thermal & Power Systems",
+          "note": "Sanmina product line listed on its corporate page, covering thermal and power systems manufacturing for its communications networks and cloud infrastructure end markets.",
+          "source": "https://www.sanmina.com/company/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Sanmina completed its acquisition of ZT Systems' data center infrastructure manufacturing business from AMD on October 27, 2025, adding large manufacturing facilities in New Jersey and Texas with advanced liquid cooling capabilities and an operation in the Netherlands.",
+          "source": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        },
+        {
+          "year": "2025",
+          "text": "Under the completed transaction, Sanmina becomes a preferred NPI manufacturing partner for AMD cloud rack and cluster-scale AI solutions, and the company states the deal expands its ability to serve hyperscaler and OEM customers in the Cloud and AI end-market.",
+          "source": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did Sanmina acquire from AMD?",
+          "a": "Sanmina completed the acquisition of ZT Systems' data center infrastructure manufacturing business on October 27, 2025. The deal adds large manufacturing facilities in New Jersey and Texas with advanced liquid cooling capabilities, plus an operation in the Netherlands."
+        },
+        {
+          "q": "Does Sanmina manufacture AI rack-scale systems?",
+          "a": "Sanmina states it becomes a preferred NPI manufacturing partner for AMD cloud rack and cluster-scale AI solutions, and that the acquisition deepens hyperscaler relationships across its Cloud and AI end market."
+        },
+        {
+          "q": "Where is Sanmina headquartered and how is it listed?",
+          "a": "The October 2025 announcement was issued from San Jose, California, and the release identifies Sanmina Corporation as trading on NASDAQ under the ticker SANM."
+        },
+        {
+          "q": "Where does Sanmina perform liquid-cooled rack integration?",
+          "a": "Through the acquired ZT Systems business: large manufacturing facilities in New Jersey and Texas described as having advanced liquid cooling capabilities, plus an operation in the Netherlands."
+        }
+      ]
+    },
+    {
+      "slug": "smardt",
+      "name": "Smardt",
+      "segments": [
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "Smardt is a Montreal, Canada chiller manufacturer describing oil-free innovation since 2005. Its data center range spans a 300-2,500 kW coolant distribution unit, chilled-water fan walls, CRAH/CRAC units, dry coolers and chillers up to 12,660 kW that the company says support warmer-water and direct-to-chip liquid cooling loops.",
+      "hq": "Montreal, Quebec, Canada",
+      "founded": 2005,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.smardt.com/",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Unit (CDU)",
+          "note": "300-2,500 kW (85-711 TR) CDU that transfers heat from liquid-cooled IT equipment to the facility water loop; secondary rated flow 20.4-196.5 m3/h, temperature control +/-0.5 C, differential pressure +/-0.1 bar, primary side 35 C, secondary up to 39 C, sound level up to 65 dB(A), redundant core components.",
+          "source": "https://www.smardt.com/products/coolant-distribution-unit"
+        },
+        {
+          "name": "Water-cooled oil-free chillers",
+          "note": "Core range 160-5,625 kW and Ultra range 1,055-12,660 kW water-cooled chillers; the company describes oil-free innovation since 2005 across its chiller portfolio.",
+          "source": "https://www.smardt.com/"
+        },
+        {
+          "name": "Air-cooled chillers",
+          "note": "AeroPure AF 211-2,500 kW, AE/AD 140-1,760 kW and E-Class 160-1,860 kW air-cooled chiller ranges for heat rejection duty.",
+          "source": "https://www.smardt.com/"
+        },
+        {
+          "name": "Data center air products",
+          "note": "Chilled Water Fan Wall 85-500 kW, Dual Cooling Source Fan Wall 45-250 kW, CRAH 35-230 kW and CRAC 30-90 kW for white-space cooling alongside the liquid cooling line.",
+          "source": "https://www.smardt.com/"
+        },
+        {
+          "name": "Dry Cooler",
+          "note": "340-1,418 kW dry coolers that reject heat from liquid cooling loops using outdoor air, with optional spray/wet-film enhancement, modular capacity expansion and EC fans.",
+          "source": "https://www.smardt.com/solutions/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Smardt exhibited at Data Centre World Asia 2026 at Marina Bay Sands, Singapore (29 September 2026) and presented its data center cooling expertise in Guangzhou, China (21 March 2026).",
+          "source": "https://www.smardt.com/news"
+        },
+        {
+          "year": "2025",
+          "text": "Smardt documented a rapid-replacement chiller deployment for a mission-critical New York-region data center, with chillers of roughly 400 TR per unit delivered in early 2025 after one chiller was damaged in transport just before delivery.",
+          "source": "https://www.smardt.com/solutions/data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What coolant distribution units does Smardt offer for data centers?",
+          "a": "A single CDU product line covering 300-2,500 kW (85-711 TR), with secondary rated flow of 20.4-196.5 m3/h, temperature control of +/-0.5 C, differential pressure control of +/-0.1 bar, primary side 35 C and secondary side up to 39 C."
+        },
+        {
+          "q": "Does Smardt support direct-to-chip liquid cooling?",
+          "a": "The company states that its chillers, dry coolers and CDUs support warmer water and direct-to-chip loops, responding to the shift to liquid cooling for AI and high-density compute."
+        },
+        {
+          "q": "What heat rejection options does Smardt provide for liquid cooling loops?",
+          "a": "Dry coolers from 340 to 1,418 kW with EC fans and optional spray or wet-film enhancement, plus air-cooled chillers up to 2,500 kW and water-cooled chillers up to 12,660 kW."
+        },
+        {
+          "q": "Where is Smardt based and since when?",
+          "a": "Smardt's site lists locations in the Montreal area (Dorval and Kirkland), Quebec, Canada, and the company describes oil-free innovation since 2005."
+        }
+      ]
+    },
+    {
+      "slug": "old-world-industries",
+      "name": "Old World Industries",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Old World Industries is a Northbrook, Illinois producer of automotive and commercial fluids whose THERMAL CHARGE glycol heat transfer fluid line targets data center liquid cooling. Its prediluted PG25 propylene glycol fluid is rated for direct-to-chip liquid cooling, closed-loop systems and data center cooling loops.",
+      "hq": "Northbrook, Illinois, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.owi.com/",
+      "productLines": [
+        {
+          "name": "THERMAL CHARGE PG25 Heat Transfer Fluid",
+          "note": "Prediluted, ready-to-use propylene glycol/deionized water formula with a proprietary corrosion inhibitor package; freeze point 12 F (-11 C), boiling point 213 F (101 C); rated for direct-to-chip liquid cooling, closed-loop systems and data center cooling; sold in bulk or 55-gallon drums.",
+          "source": "https://www.owi.com/commercial/resources/in-the-know/newsroom/data-centers-heat-transfer"
+        },
+        {
+          "name": "THERMAL CHARGE propylene glycol fluids",
+          "note": "Propylene glycol heat transfer fluid variants including PG, PG Orange, PGSE, PGXL and PGHD within the commercial THERMAL CHARGE brand, alongside PEAK and FINAL CHARGE coolants.",
+          "source": "https://www.owi.com/about-us"
+        },
+        {
+          "name": "THERMAL CHARGE ethylene glycol fluids",
+          "note": "Ethylene glycol heat transfer fluid variants including EG, EGSE, EGHD, XL and XL NOAT for commercial closed-loop cooling applications.",
+          "source": "https://www.owi.com/about-us"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On October 14, 2026 OWI published industry guidance on heat transfer fluid liquid cooling reducing data center costs, citing cooling energy cut by up to 90 percent, facility-wide energy use reduced 20-30 percent and server hardware life extended by up to 25 percent.",
+          "source": "https://www.owi.com/commercial/resources/in-the-know/newsroom/htf-liquid-cooling-reduce-data-costs"
+        },
+        {
+          "year": "2026",
+          "text": "A July 15, 2026 OWI article on data center heat transfer described glycol-based closed-loop cooling for direct-to-chip cold plates, immersion cooling and rear-door heat exchangers, and promoted THERMAL CHARGE PG25 as its fluid for these liquid cooling loops.",
+          "source": "https://www.owi.com/commercial/resources/in-the-know/newsroom/data-centers-heat-transfer"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which OWI fluid is rated for direct-to-chip liquid cooling?",
+          "a": "THERMAL CHARGE PG25, a prediluted propylene glycol/deionized water formula with a proprietary corrosion inhibitor package, freeze point of 12 F (-11 C) and boiling point of 213 F (101 C), sold in bulk or 55-gallon drums; the company claims it has one of the longest service lifespans of any glycol HTF on the market."
+        },
+        {
+          "q": "What glycol chemistries does the THERMAL CHARGE line cover?",
+          "a": "Propylene glycol variants (PG, PG Orange, PGSE, PGXL, PGHD) and ethylene glycol variants (EG, EGSE, EGHD, XL, XL NOAT), with PG25 as the prediluted data center offering."
+        },
+        {
+          "q": "Where is Old World Industries headquartered?",
+          "a": "At 3100 Sanders Road, Suite 400, Northbrook, Illinois 60062; the company cites five decades of liquid cooling expertise and 50 Years of Excellence on its site, but states no founding year."
+        },
+        {
+          "q": "What benefits does OWI cite for glycol liquid cooling in data centers?",
+          "a": "In its October 14, 2026 industry article OWI cites cooling energy cut by up to 90 percent, facility-wide energy use reduced 20-30 percent, an 18-24 month payback period, and server hardware life extended by up to 25 percent."
+        }
+      ]
+    },
+    {
+      "slug": "nortek-data-center-cooling",
+      "name": "Nortek Data Center Cooling",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Nortek Data Center Cooling, part of Madison Air and based in Oklahoma City, supplies coolant distribution units for AI and hyperscale data centers. Its CDU line covers 300 kW to over 1.2 MW in compact 2N-redundant form factors serving direct liquid cooling plates, rear-door heat exchangers and in-row coolers.",
+      "hq": "Oklahoma City, Oklahoma, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Madison Air",
+      "website": "https://www.nortekdatacenter.com/",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Units (CDU)",
+          "note": "Liquid cooling CDUs supplying coolant directly to technical racks at 300 kW to over 1.2 MW; down to 48U size; 2N redundancy as default with hot-swappable components; moves heat from a closed-loop pressurized secondary circuit to a chilled-water primary loop, serving liquid cooling plates, rear-door heat exchangers and in-row coolers.",
+          "source": "https://www.nortekdatacenter.com/cdu"
+        },
+        {
+          "name": "Skidded CDU (announced)",
+          "note": "Announced skidded CDU configurable from 1 MW to more than 5 MW in the base offering, with interconnected modules scaling beyond 10 MW, aimed at high-density AI, HPC and hyperscale operators who would otherwise line up multiple 1 MW units.",
+          "source": "https://www.nortekdatacenter.com/nortek-announces-5mw-cdu-for-liquid-cooling/"
+        },
+        {
+          "name": "CoilWall Series",
+          "note": "Fan coil wall units bringing cooled air into data center halls; packaged cabinet design with minimal onsite construction, modular customizable variants (CoilWall Array, Base, Cased), in-house optimized coils, high-performance fans and free-cooling support using outdoor air.",
+          "source": "https://www.nortekdatacenter.com/coilwall-series/"
+        },
+        {
+          "name": "CRAH and RDHX families",
+          "note": "Computer room air handlers and rear-door heat exchanger product families listed alongside the CDU and CoilWall lines; the site notes related patented technology also appears in Nortek CRAHs, StatePoint and custom air handlers.",
+          "source": "https://www.nortekdatacenter.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In October 2025 Nortek announced a skidded CDU for liquid-cooled data centers configurable from 1 MW to more than 5 MW, with interconnected modules able to scale beyond 10 MW, targeted at high-density AI, HPC and hyperscale deployments.",
+          "source": "https://www.nortekdatacenter.com/nortek-announces-5mw-cdu-for-liquid-cooling/"
+        },
+        {
+          "year": "2025",
+          "text": "The same announcement notes that Nortek DCC deployed its StatePoint liquid cooling technology at Empyrion Digital's 29.4 MW KR1 Gangnam data center in Seoul, South Korea, and lists DigitalEdge as a customer in the Philippines.",
+          "source": "https://www.nortekdatacenter.com/nortek-announces-5mw-cdu-for-liquid-cooling/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacities does Nortek Data Center Cooling offer?",
+          "a": "The standard CDU line ranges from 300 kW to over 1.2 MW in sizes down to 48U with 2N redundancy as default; an announced skidded CDU is configurable from 1 MW to more than 5 MW, with interconnected modules scaling beyond 10 MW."
+        },
+        {
+          "q": "What loads can Nortek CDUs serve?",
+          "a": "Direct liquid-cooling plates, rear-door heat exchangers and in-row coolers; the CDU moves heat from a closed-loop pressurized secondary circuit into a chilled-water primary loop and is marketed as AI-ready for hyperscale, colocation and edge applications."
+        },
+        {
+          "q": "Who owns Nortek Data Center Cooling?",
+          "a": "The company's own announcement describes Nortek DCC as part of Madison Air; its headquarters address is 200 W. John Kilpatrick Service Road, Oklahoma City, Oklahoma."
+        },
+        {
+          "q": "Are the larger skidded CDUs shipping today?",
+          "a": "The 1 MW to 5 MW+ skidded CDU with modules scaling beyond 10 MW is described as announced in October 2025; the shipping line documented on the CDU product page remains 300 kW to over 1.2 MW."
+        }
+      ]
+    },
+    {
+      "slug": "rle-technologies",
+      "name": "RLE Technologies (Parameter)",
+      "segments": [
+        "components"
+      ],
+      "tagline": "RLE leak detection is now a brand of Parameter, formed in 2024 from RLE Technologies and NDSL, the Cellwatch parent. Its XD Series modular platform is purpose-built for liquid-cooled AI data centers, alongside the LD Series of sensing cables and spot sensors. Acuity Inc. agreed in October 2026 to acquire Parameter.",
+      "hq": "Fort Collins, Colorado, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Brand of Parameter; acquisition by Acuity (NYSE: AYI) agreed in October 2026, closing expected late 2026",
+      "website": "https://parameter-tech.com/",
+      "productLines": [
+        {
+          "name": "XD Series leak detection",
+          "note": "Newer modular leak detection line for liquid-cooled AI and data center facilities, featuring native MQTT protocols, PoE+ capability and full-stack local relays, designed for high-density deployments at scale with emphasis on speed, precision and simplified deployment.",
+          "source": "https://parameter-tech.com/rle-leak-detection"
+        },
+        {
+          "name": "LD Series leak detection",
+          "note": "Controllers, sensing cables and spot detectors described as built on 40 years of industry technology; usable as a full system or component-by-component with third-party systems, with real-time leak location, configurable thresholds, signal buffering against false alerts, and BMS integration via BACnet, Modbus and SNMP.",
+          "source": "https://parameter-tech.com/rle-leak-detection"
+        },
+        {
+          "name": "CellWatch battery monitoring",
+          "note": "Sister Parameter brand from the NDSL side of the merger, providing battery monitoring for mission-critical facilities alongside RLE leak detection and environmental monitoring.",
+          "source": "https://parameter-tech.com/about"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On October 26, 2026 Parameter Technologies announced a definitive agreement to be acquired by Acuity Inc. (NYSE: AYI), upon closing becoming part of Distech Controls within the Acuity Intelligent Spaces segment; the transaction is expected to close in late 2026.",
+          "source": "https://www.businesswire.com/news/home/20261025826664/en/Parameter-Technologies-Announces-Agreement-to-Be-Acquired-by-Acuity-Inc.-as-Part-of-Distech-Controls"
+        },
+        {
+          "year": "2026",
+          "text": "Parameter's current line-up includes the XD Series, a modular leak detection platform with native MQTT protocols, PoE+ capability and full-stack local relays, purpose-built for liquid-cooled AI data centers and high-density deployments at scale.",
+          "source": "https://parameter-tech.com/rle-leak-detection"
+        },
+        {
+          "year": "2024",
+          "text": "May River Capital announced on December 11, 2024 that NDSL Group, parent of Cellwatch battery monitoring, had merged with RLE Technologies, the Fort Collins leak detection specialist, forming the platform company now operating as Parameter.",
+          "source": "https://mayrivercapital.com/nsdl-merges-with-rle"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the relationship between RLE Technologies and Parameter?",
+          "a": "RLE Technologies merged with NDSL Group, the parent of Cellwatch battery monitoring, in a combination announced December 11, 2024 by May River Capital; the merged company operates as Parameter and sells RLE leak detection as a brand."
+        },
+        {
+          "q": "What leak detection does Parameter offer for liquid-cooled AI data centers?",
+          "a": "The XD Series modular platform with native MQTT protocols, PoE+ capability and full-stack local relays, plus the LD Series of controllers, sensing cables and spot detectors with BACnet, Modbus and SNMP integration."
+        },
+        {
+          "q": "Is Parameter being acquired?",
+          "a": "Yes. On October 26, 2026 Parameter Technologies announced a definitive agreement to be acquired by Acuity Inc. (NYSE: AYI); upon closing it will become part of Distech Controls within the Acuity Intelligent Spaces segment, with closing expected in late 2026."
+        },
+        {
+          "q": "Where is the company located?",
+          "a": "Parameter is headquartered at 4557 Denrose Ct, Fort Collins, Colorado, with engineering and service operations in Raleigh, North Carolina and sales and service capabilities in Milton Keynes, United Kingdom."
+        }
+      ]
+    },
+    {
+      "slug": "penflex",
+      "name": "Penflex",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Penflex, founded 1902 and based in Gilbertsville, Pennsylvania, manufactures flexible stainless steel hose and braid assemblies used from CDU internals to facility water systems in data center liquid cooling. Its Clean ID manufacturing removes internal lubricants, and the company states it is the first U.S. metal hose manufacturer.",
+      "hq": "Gilbertsville, Pennsylvania, United States",
+      "founded": 1902,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.penflex.com/",
+      "productLines": [
+        {
+          "name": "Clean ID hose assemblies",
+          "note": "Hose made without internal tooling, lubricants or forming fluid for cleanliness-critical cooling loops; Clean ID P3, introduced as a sister product to the P3 corrugated lineup, targets data center, HVAC and cryogenic applications; assemblies are argon-purged at welding, can be helium mass spectrometer leak tested and bagged for shipment.",
+          "source": "https://www.penflex.com/news/data-center-cooling-hose-feature-industrial-supply-magazine"
+        },
+        {
+          "name": "P3 Series annular hose",
+          "note": "Lightweight, flexible annular corrugated stainless hose for tight spaces, used in CDU connections including pumps, heat exchangers, manifolds and supply/return lines.",
+          "source": "https://www.penflex.com/industries/data-center-liquid-cooling"
+        },
+        {
+          "name": "P5 Series large diameter hose",
+          "note": "Large diameter annular hose used for HVAC connections such as chiller and pump tie-ins in facility water systems serving data centers.",
+          "source": "https://www.penflex.com/industries/data-center-liquid-cooling"
+        },
+        {
+          "name": "Data Center Hoses",
+          "note": "Flexible metal hose assemblies in austenitic stainless steel compatible with glycol and commercial refrigerants, available in diameters from 1/4 in to 24 in, used inside CDUs, as transfer lines between cooling components and as conduit protection.",
+          "source": "https://www.penflex.com/products/hose-assemblies/data-center-hoses"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On May 21, 2026 Penflex reported its data center cooling hose feature in Industrial Supply Magazine's May/June 2026 issue, introducing the Clean ID P3, a sister product to the P3 corrugated hose lineup made without internal lubricant, targeted at data center, HVAC and cryogenic applications.",
+          "source": "https://www.penflex.com/news/data-center-cooling-hose-feature-industrial-supply-magazine"
+        },
+        {
+          "year": "2026",
+          "text": "The same May 2026 feature notes that Penflex has expanded production capacity and, driven by Buy American Act requirements, is developing an AIS-certified line of hose and braid that is melted and drawn in the United States from local wire and strip suppliers.",
+          "source": "https://www.penflex.com/news/data-center-cooling-hose-feature-industrial-supply-magazine"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What hose assemblies does Penflex offer for data center liquid cooling?",
+          "a": "Stainless steel braided assemblies in diameters from 1/4 in to 24 in, including Clean ID hose made without internal lubricants, the lightweight P3 annular series and the large-diameter P5 series for HVAC connections."
+        },
+        {
+          "q": "Where are these hoses used in a liquid-cooled facility?",
+          "a": "Inside cooling distribution units (pumps, heat exchangers, manifolds, supply and return lines), in facility water systems such as chiller and pump connections, and as conduit protection; the company says they support direct-to-chip, immersion and rear-door heat exchanger approaches."
+        },
+        {
+          "q": "What is Clean ID manufacturing?",
+          "a": "A process that makes hose without internal tooling, lubricants or forming fluid so the inside is clean without post-cleaning; assemblies are TIG welded with argon purging by ASME Section IX certified welders and can be helium mass spectrometer tested."
+        },
+        {
+          "q": "How long has Penflex been in business and where is it located?",
+          "a": "Penflex dates its start to 1902 and describes itself as the first U.S. metal hose manufacturer; it operates from a 100,000 sq ft headquarters and factory in Gilbertsville, Pennsylvania, with a Houston warehouse added in 2020."
+        }
+      ]
+    },
+    {
+      "slug": "tranter",
+      "name": "Tranter",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Tranter manufactures gasketed plate-and-frame and welded shell-and-plate heat exchangers. Its Superchanger line with GT and AT plate series is offered for CDUs in direct-to-chip liquid cooling, free cooling and heat recovery in data centers.",
+      "hq": "Houston, TX, USA",
+      "founded": 1932,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.tranter.com/",
+      "productLines": [
+        {
+          "name": "Superchanger with GT plates",
+          "note": "Gasketed plate-and-frame heat exchangers positioned by Tranter for high-capacity liquid cooling in modern data center infrastructure, including CDU duty for direct-to-chip cooling; Tranter cites LMTDs as low as 1 K on the GT-165 plate.",
+          "source": "https://www.tranter.com/industries-applications/data-centers"
+        },
+        {
+          "name": "AT (AHRI) series",
+          "note": "Gasketed plate heat exchanger series with AHRI Certified performance, offered for data center liquid cooling applications including free cooling with cooling tower intermediate duty and seawater free cooling.",
+          "source": "https://www.tranter.com/industries-applications/data-centers"
+        },
+        {
+          "name": "Shell and plate heat exchangers",
+          "note": "Welded plate-pack units applied as water-cooled chiller evaporators and condensers, heat pump evaporators, high-temperature heat recovery condensers and compressor oil coolers in data center cooling plants.",
+          "source": "https://www.tranter.com/industries-applications/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Published the article 'How Tranter plate heat exchangers support data center sustainability' on 17 September 2026, on plate heat exchanger use in data center cooling.",
+          "source": "https://www.tranter.com/news"
+        },
+        {
+          "year": "2025",
+          "text": "Released the customer case 'Precision cooling for a digital powerhouse' on 28 October 2025, describing a data center precision-cooling application of Tranter plate heat exchangers.",
+          "source": "https://www.tranter.com/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Tranter supply for data center liquid cooling?",
+          "a": "Gasketed plate heat exchangers under the Superchanger line, with GT plates for high-capacity liquid cooling and AT plates with AHRI Certified performance, plus welded shell-and-plate units. Tranter lists CDUs for direct-to-chip liquid cooling, free cooling and heat recovery as applications."
+        },
+        {
+          "q": "Where are Tranter plate heat exchangers used in a data center?",
+          "a": "Tranter lists CDU duty for direct-to-chip liquid cooling, open-air and seawater free cooling, cooling tower intermediate exchangers, chiller evaporators and condensers, and hybrid and high-temperature heat recovery."
+        },
+        {
+          "q": "Does Tranter publish certified performance for data center duty?",
+          "a": "Yes, the AT (AHRI) plate series is listed with AHRI Certified performance for reliable liquid cooling on Tranter's data centers page; the GT series targets high-capacity liquid cooling."
+        },
+        {
+          "q": "When was Tranter founded and who owns it?",
+          "a": "Tranter states it was founded in 1932 and has been in business for over 90 years. Its website does not state an owner or parent company, so ownership is NOT_FOUND."
+        }
+      ]
+    },
+    {
+      "slug": "zaxis",
+      "name": "ZAxis",
+      "segments": [
+        "materials"
+      ],
+      "tagline": "ZAxis is a privately owned maker of leak test instruments and precision metering pumps in Salt Lake City. Its testers cover pressure/vacuum decay, mass flow and helium trace-gas methods used to leak-test cold plates, CDUs, manifolds and quick disconnects for data center liquid cooling.",
+      "hq": "Salt Lake City, UT, USA",
+      "founded": 1998,
+      "ownership": "Private",
+      "website": "https://zaxisinc.com/",
+      "productLines": [
+        {
+          "name": "Liquid-Cooling Component Leak Testers",
+          "note": "Product line for leak testing cold plates, CDUs, manifolds and quick disconnects: gross leak detection by pressure decay, vacuum decay and mass flow, and fine leak detection by helium or hydrogen forming-gas trace gas via sniffing, accumulation and hard vacuum methods.",
+          "source": "https://zaxisinc.com/blog/liquid-cooling-cold-plate-cdu-leak-testing-guide"
+        },
+        {
+          "name": "Z5 modular air leak tester",
+          "note": "5-inch modular air leak tester with 0.00001 PSI test result resolution, 2-1000 PSIG positive and 0-14.7 PSI vacuum pressure range, up to 4 test ports and 100 stored programs, supporting pressure/vacuum decay, occlusion, mass flow, burst and chamber tests.",
+          "source": "https://zaxisinc.com/products/"
+        },
+        {
+          "name": "Z-Charge and Z-Ion helium systems",
+          "note": "Helium trace-gas leak test systems listed for detecting the smallest leak paths, including liquid cooling components; trace-gas leak rates are expressed in units such as mbar-L/s or Pa-m3/s depending on conditions.",
+          "source": "https://zaxisinc.com/products/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 21 October 2026 published three liquid cooling guides: 'Leak Testing Cold Plates & CDUs for AI Data Centers', 'Pressure Decay vs Trace Gas for Direct-to-Chip Liquid Cooling' and 'Quick-Disconnect & Rack Manifold Leak Testing'.",
+          "source": "https://zaxisinc.com/blog/"
+        },
+        {
+          "year": "2026",
+          "text": "Announced a patent for 'Volumetric Air Leak Test' for compliant parts in a 12 May 2026 blog post, adding to its leak testing method portfolio.",
+          "source": "https://zaxisinc.com/blog/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling parts can ZAxis testers check?",
+          "a": "ZAxis guides cover leak testing of cold plates, CDUs, rack manifolds and quick disconnects for AI data center direct-to-chip liquid cooling, published on its blog in October 2026."
+        },
+        {
+          "q": "Which leak test methods does ZAxis offer?",
+          "a": "Pressure decay, vacuum decay and mass flow for gross leaks, and helium or hydrogen forming-gas trace gas using sniffing, accumulation or hard vacuum for fine leaks, per ZAxis's liquid cooling leak testing guide."
+        },
+        {
+          "q": "What are the published specs of the Z5 air leak tester?",
+          "a": "The Z5 has 0.00001 PSI test result resolution, a 2-1000 PSIG positive and 0-14.7 PSI vacuum pressure range, up to 4 test ports, 100 stored programs, and runs pressure/vacuum decay, occlusion, mass flow, burst and chamber tests."
+        },
+        {
+          "q": "Is ZAxis a public company?",
+          "a": "No. ZAxis states it is still a privately owned company, trusted since 1998, headquartered in Salt Lake City, Utah."
+        }
+      ]
+    },
+    {
+      "slug": "alloy-enterprises",
+      "name": "Alloy Enterprises",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Alloy Enterprises designs and U.S.-manufactures leak-tight, single-piece aluminum and copper cold plates using its patented Stack Forging process, for direct liquid cooling of GPUs, CPUs, memory modules and power electronics. Johnson Controls signed an agreement to acquire it in February 2026.",
+      "hq": "Burlington, MA, USA",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Johnson Controls (NYSE: JCI)",
+      "website": "https://alloyenterprises.co/",
+      "productLines": [
+        {
+          "name": "Aluminum direct liquid cooling cold plates",
+          "note": "Single-piece, leak-tight aluminum cold plates with embedded microchannel geometries made by Stack Forging; the company cites pressure drop reduced by up to 4x, thermal resistance improved by over 35% and up to 18% PUE improvement, and a newsroom item reports a cold plate achieving 4,350 W cooling at a lower flow rate than the OCP standard.",
+          "source": "https://alloyenterprises.co/cold-plates"
+        },
+        {
+          "name": "Copper direct liquid cooling",
+          "note": "Newsroom item titled 'Alloy Enterprises Unveils Copper Direct Liquid Cooling, Slashing AI Data Center Energy Use and Eliminating the Need for HVAC' announces a copper cold plate line for AI data centers; no date is shown on the news index.",
+          "source": "https://alloyenterprises.co/news"
+        },
+        {
+          "name": "Vapor chambers, oscillating heat pipes and wafer cooling chucks",
+          "note": "Thermal management components beyond cold plates, listed as single-piece, leak-tight parts with embedded microgeometries for electronics cooling applications.",
+          "source": "https://alloyenterprises.co/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 18 February 2026 Johnson Controls announced it had signed an agreement to acquire Alloy Enterprises to strengthen its data center thermal management portfolio, citing Alloy's direct liquid cooling components and Stack Forging process.",
+          "source": "https://www.johnsoncontrols.com/media-center/news/press-releases/2026/02/18/johnson-controls-signs-agreement-to-acquire-alloy-enterprises-strengthening-data-center-thermal-mana"
+        },
+        {
+          "year": "2026",
+          "text": "Following the February 2026 agreement, the Alloy Enterprises site states 'Alloy Enterprises is now part of Johnson Controls,' with page copyright attributed to Johnson Controls.",
+          "source": "https://alloyenterprises.co/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Alloy Enterprises make?",
+          "a": "Leak-tight, single-piece aluminum and copper cold plates with embedded microchannel geometries, made with its patented Stack Forging process, plus vapor chambers, oscillating heat pipes and wafer cooling chucks, for GPUs, CPUs, memory modules, NICs and power electronics."
+        },
+        {
+          "q": "What performance figures does Alloy Enterprises publish for its cold plates?",
+          "a": "Pressure drop reduced by up to 4x, thermal resistance improved by over 35%, and up to 18% PUE improvement; its newsroom also reports a cold plate achieving 4,350 W cooling at a lower flow rate than the OCP standard."
+        },
+        {
+          "q": "Who owns Alloy Enterprises?",
+          "a": "Johnson Controls (NYSE: JCI) signed an agreement on 18 February 2026 to acquire Alloy Enterprises; the Alloy Enterprises site now states it is part of Johnson Controls."
+        },
+        {
+          "q": "Where is Alloy Enterprises based?",
+          "a": "Headquartered at 20 Blanchard Road, Burlington, Massachusetts, USA, with components designed and manufactured in the U.S., serving data center, defense electronics and industrial customers."
+        }
+      ]
+    },
+    {
+      "slug": "asc-engineered-solutions",
+      "name": "ASC Engineered Solutions",
+      "segments": [
+        "interconnects",
+        "components"
+      ],
+      "tagline": "ASC Engineered Solutions supplies pipe joining, valve and support products under brands including Anvil, Gruvlok, SCI, Sharpe, ABZ Valve, FlexHead, AFCON, FPPI and Anvil-Strut. Its data centers solutions page positions these products around reliability and uptime for mission-critical facilities.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://asc-es.com/",
+      "productLines": [
+        {
+          "name": "Anvil pipe fittings and hangers",
+          "note": "Anvil-brand pipe fittings and hangers listed among ASC's brands for its data centers solutions offering, covering pipe joining and support of mechanical systems in commercial and industrial facilities.",
+          "source": "https://asc-es.com/solutions/data-centers"
+        },
+        {
+          "name": "Gruvlok grooved couplings and fittings",
+          "note": "Gruvlok grooved couplings and fittings for joining piping without welding, listed among ASC's brands presented for data center and other mission-critical facility construction.",
+          "source": "https://asc-es.com/solutions/data-centers"
+        },
+        {
+          "name": "Valves, sprinkler connections and support systems",
+          "note": "Products spanning Sharpe and ABZ Valve valves, FlexHead sprinkler connections, FPPI and AFCON lines, and Anvil-Strut supports, grouped under ASC's pipe joining, fire protection, valve and support-system categories referenced on its data centers page.",
+          "source": "https://asc-es.com/solutions/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On December 10, 2025 ASC Engineered Solutions launched two patent-pending Gruvlok rigid couplings, Fig. 74-CL and Fig. 74-SL, whose Sabertooth technology gives installers a visual and tactile check that a joint is properly tightened, even in dark or tight spaces",
+          "source": "https://www.asc-es.com/news/2025/the-gruvlok-fig-74cl-and-74sl-rigid-couplings-feature-patent-pending-sabertooth-technology-to-guarantee-a-see-it-feel-it-know-it-install-experience"
+        },
+        {
+          "year": "2021",
+          "text": "The combined company created by the Anvil International and Smith-Cooper International merger was rebranded as ASC Engineered Solutions in 2021, per the company's own history page.",
+          "source": "https://www.asc-es.com/company"
+        },
+        {
+          "year": "2019",
+          "text": "Anvil International merged with Smith-Cooper International in 2019, forming the company that became ASC Engineered Solutions, per the company's own history page.",
+          "source": "https://www.asc-es.com/company"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does ASC Engineered Solutions supply for data centers?",
+          "a": "Pipe joining, fire protection, valve and support products under brands including Anvil, Gruvlok, SCI, Sharpe, ABZ Valve, FlexHead, AFCON, FPPI and Anvil-Strut, presented on its data centers solutions page around reliability and facility uptime."
+        },
+        {
+          "q": "Does ASC publish cooling-specific specifications?",
+          "a": "No. The data centers solutions page opened for this profile names the brands and general categories but publishes no cooling- or liquid-cooling-specific specifications with units."
+        },
+        {
+          "q": "Where is ASC Engineered Solutions headquartered and who owns it?",
+          "a": "NOT_FOUND. The company pages opened for this profile state no headquarters location, ownership or parent company, only that Anvil International merged with Smith-Cooper International in 2019 and the company was rebranded ASC Engineered Solutions in 2021."
+        },
+        {
+          "q": "Does ASC have a 2025 or 2026 data center announcement?",
+          "a": "NOT_FOUND. No dated 2025 or 2026 data center or liquid cooling news item could be opened on asc-es.com within the fetch budget for this profile."
+        }
+      ]
+    },
+    {
+      "slug": "emerson",
+      "name": "Emerson",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Emerson (NYSE: EMR), headquartered in St. Louis, supplies Fisher control valves, Keystone and KTM valves and actuators for data center cooling, power and water systems, and in October 2026 introduced the Rosemount 8795 magnetic flow sensor purpose-built for data center hydronic cooling loops.",
+      "hq": "St. Louis, MO, USA",
+      "founded": "NOT_FOUND",
+      "ownership": "NYSE: EMR",
+      "website": "https://www.emerson.com/",
+      "productLines": [
+        {
+          "name": "Fisher control valves for cooling loops",
+          "note": "Fisher Vee-Ball V200, easy-e EZ and easy-e ES control valves listed on Emerson's data center valves page for cooling loop duty in data center cooling, power and water systems; no sizing specifications are published on that page.",
+          "source": "https://www.emerson.com/en/final-control/catalog/solutions/common-applications/data-center-valves"
+        },
+        {
+          "name": "Keystone and KTM valves",
+          "note": "Keystone Series GR butterfly valves, Keystone CompoSeal composite butterfly valves and KTM Series EB1 floating ball valves presented on Emerson's data center valves page for data center applications.",
+          "source": "https://www.emerson.com/en/final-control/catalog/solutions/common-applications/data-center-valves"
+        },
+        {
+          "name": "Rosemount 8795 Magnetic Flow Sensor",
+          "note": "Announced 8 October 2026; purpose-built for data center hydronic cooling in chilled water and water-glycol loops sized 2-18 inches, with 0.5% accuracy at 0D using Short Run Installation software, 0.2% plus or minus 2 mm/s at 5U/2D or longer straight runs, 0.1% repeatability, PTFE liner, stainless-steel electrodes and 5 uS/cm minimum conductivity.",
+          "source": "https://www.emerson.com/en/corporate/news/2026/emersons-new-flow-measurement-improves-data-center-reliability"
+        },
+        {
+          "name": "Actuators, regulators and valve automation",
+          "note": "Actuators, check valves, pressure relief and safety valves, regulators and manifolds, and solenoid valves and controls listed as data center product categories, supported by more than 200 service centers worldwide.",
+          "source": "https://www.emerson.com/en/final-control/catalog/solutions/common-applications/data-center-valves"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Introduced the Rosemount 8795 Magnetic Flow Sensor on 8 October 2026, purpose-built for data center hydronic cooling applications in chilled water and water-glycol loops sized 2-18 inches, feeding BMS and DCIM systems for PUE, WUE and CUE efficiency calculations.",
+          "source": "https://www.emerson.com/en/corporate/news/2026/emersons-new-flow-measurement-improves-data-center-reliability"
+        },
+        {
+          "year": "2026",
+          "text": "In an Emerson Automation Experts blog post of March 4, 2026, Inside Data Center Builds: The Critical Role of Valves, Emerson explained that in a facility cooled direct to the chip the valves sit close to the chips themselves, that the cooling system as a whole is where valves are most critical, and that a single building can contain 2,000 to 4,000 valves",
+          "source": "http://www.emersonautomationexperts.com/2026/valves-actuators-regulators/inside-data-center-builds-critical-role-valves/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Emerson supply for data center cooling systems?",
+          "a": "Fisher Vee-Ball V200, easy-e EZ and easy-e ES control valves, Keystone Series GR and CompoSeal butterfly valves, KTM Series EB1 floating ball valves, plus actuators, check and relief valves, regulators, manifolds and solenoid valves, per its data center valves page."
+        },
+        {
+          "q": "What is the Rosemount 8795?",
+          "a": "A magnetic flow sensor announced 8 October 2026 for chilled water and water-glycol cooling loops sized 2-18 inches, with 0.5% accuracy at 0D (Short Run Installation software with a compatible transmitter), 0.2% at 5U/2D or longer runs, and 0.1% repeatability."
+        },
+        {
+          "q": "Where is Emerson headquartered and how is it listed?",
+          "a": "Emerson's investor site lists its global headquarters at 8027 Forsyth Boulevard, St. Louis, Missouri, and its shares trade on the New York Stock Exchange under the ticker EMR."
+        },
+        {
+          "q": "When was Emerson founded?",
+          "a": "NOT_FOUND. Emerson's investor site notes a 137-year history but the pages opened for this profile do not state an explicit founding year, so none is given."
+        }
+      ]
+    },
+    {
+      "slug": "zt-systems",
+      "name": "ZT Systems",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "ZT Systems, founded 1994 and based in Secaucus, New Jersey, designs and builds compute, storage and accelerator infrastructure for cloud and telecom providers. Sanmina completed its purchase of ZT's data center infrastructure manufacturing business from AMD in October 2025, including facilities with liquid cooling capabilities.",
+      "hq": "Secaucus, NJ, USA",
+      "founded": 1994,
+      "ownership": "Subsidiary of Sanmina (NASDAQ: SANM)",
+      "website": "https://ztsystems.com/",
+      "productLines": [
+        {
+          "name": "Integrated racks",
+          "note": "Validated rack-level solutions with burn-in and thermal testing before shipping in shock-resistant crates, listed under ZT's solutions for hyperscale compute, GPU/accelerator and HPC deployments.",
+          "source": "https://ztsystems.com/solutions/"
+        },
+        {
+          "name": "XPO200 systems",
+          "note": "Purpose-built server solutions referenced across ZT's GPU/accelerator and OCP-related solution categories for cloud and telecom infrastructure.",
+          "source": "https://ztsystems.com/solutions/"
+        },
+        {
+          "name": "ACX200 accelerated computing solutions",
+          "note": "Referenced on ZT's homepage as solutions featuring NVIDIA GB200 Grace Blackwell Superchips for accelerated computing; the page does not state availability dates or cooling specifications.",
+          "source": "https://ztsystems.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 27 October 2025 Sanmina (NASDAQ: SANM) completed its acquisition of ZT Systems' data center infrastructure manufacturing business from AMD, with Sanmina as preferred NPI manufacturing partner for AMD cloud rack and cluster-scale AI solutions; ZT facilities in New Jersey and Texas are described as having large amounts of power and advanced liquid cooling capabilities.",
+          "source": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        },
+        {
+          "year": "2025",
+          "text": "On 31 March 2025 AMD completed its acquisition of ZT Systems, with ZT's systems design teams joining AMD's Data Center Solutions unit to speed rack-scale AI system deployment, and AMD stating it planned to divest the U.S.-based data center infrastructure manufacturing business.",
+          "source": "https://ir.amd.com/news-events/press-releases/detail/1240/amd-completes-acquisition-of-zt-systems"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does ZT Systems do?",
+          "a": "Designs, manufactures and deploys data center infrastructure for cloud and telecom providers, spanning hyperscale compute, storage, GPU/accelerator and integrated rack solutions; its About page says it ships hundreds of thousands of servers annually as part of Sanmina."
+        },
+        {
+          "q": "Who owns ZT Systems?",
+          "a": "Sanmina (NASDAQ: SANM) completed its acquisition of ZT Systems' data center infrastructure manufacturing business from AMD on 27 October 2025; AMD had completed its own acquisition of ZT Systems on 31 March 2025."
+        },
+        {
+          "q": "What happened to ZT's rack-scale AI design business?",
+          "a": "Per AMD's 31 March 2025 release, ZT's systems design teams joined AMD's Data Center Solutions unit to speed rack-scale AI system deployment, while the manufacturing business was divested to Sanmina."
+        },
+        {
+          "q": "Do ZT facilities support liquid cooling?",
+          "a": "The October 2025 announcement states ZT Systems brings facilities in New Jersey and Texas with large amounts of power and advanced liquid cooling capabilities, now within Sanmina's footprint."
+        }
+      ]
+    },
+    {
+      "slug": "super-radiator-coils",
+      "name": "Super Radiator Coils",
+      "segments": [
+        "components",
+        "heat-rejection"
+      ],
+      "tagline": "Family-owned US coil manufacturer founded in 1928 that engineers custom heating and cooling coils for data center electronics cooling and liquid-loop heat rejection, with in-house wind tunnel testing and more than 1 million sq ft of production space.",
+      "hq": "NOT_FOUND",
+      "founded": 1928,
+      "ownership": "Private (family-owned)",
+      "website": "https://www.superradiatorcoils.com/",
+      "productLines": [
+        {
+          "name": "Custom data center cooling coils",
+          "note": "Engineered-to-order heating and cooling coils for data center electronics cooling, designed to meet kW/CFM and GPM-per-kW targets; more than 10,000 fin design, thickness and material combinations with densities up to 24 fins per inch, and wind tunnel performance testing at installation angles from 0 to 90 degrees.",
+          "source": "https://www.superradiatorcoils.com/industries/data-center-electronic-cooling"
+        },
+        {
+          "name": "Thermal Innovation Center prototyping and testing",
+          "note": "In-house Thermal Innovation Center providing wind tunnel performance testing, custom leak testing programs and coil flushing before shipment; nearly 30 mechanical engineers draft hundreds of coil designs each month, from initial design and prototyping through production and delivery.",
+          "source": "https://www.superradiatorcoils.com/industries/data-center-electronic-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Its data center electronics cooling page lists a 3 October 2025 announcement of a hot gas reheat software feature in its coil engineering toolset, alongside 2025 guidance on approach temperature (16 April 2025) and an AHR Expo 2025 preview (16 January 2025).",
+          "source": "https://www.superradiatorcoils.com/industries/data-center-electronic-cooling"
+        },
+        {
+          "year": "2021",
+          "text": "Published guidance on water quality and filtration in liquid-cooled data centers (12 January 2021), covering facility water system strainers of 35-40 mesh (about 400-500 microns) and ASHRAE TC 9.9 technology cooling system recommendations including pH 7-9 and filtering particles of 10 microns or larger.",
+          "source": "https://www.superradiatorcoils.com/blog/water-quality-and-filtration-in-liquid-cooled-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Super Radiator Coils supply for data center liquid cooling?",
+          "a": "Custom-engineered heating and cooling coils for data center electronics cooling, designed to kW/CFM and GPM-per-kW targets, with fin densities up to 24 fins per inch and wind tunnel testing at installation angles from 0 to 90 degrees."
+        },
+        {
+          "q": "Is Super Radiator Coils a catalog supplier?",
+          "a": "No. Coils are engineered to order: nearly 30 mechanical engineers draft hundreds of designs each month, and an in-house Thermal Innovation Center provides wind tunnel performance testing, custom leak testing and coil flushing before shipment."
+        },
+        {
+          "q": "Where does the company manufacture?",
+          "a": "At several ISO 9001:2015-certified locations, listed on its site as Minneapolis, Arizona and Richmond, totaling more than 1 million combined square feet of production space."
+        },
+        {
+          "q": "When was the company founded and who owns it?",
+          "a": "The company states it was founded in 1928 and describes itself as a family-owned engineering and manufacturing company."
+        }
+      ]
     }
   ]
 }
