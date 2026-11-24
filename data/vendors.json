@@ -52,7 +52,7 @@
           "hq": "FR",
           "note": "Leak and flow testers for liquid-cooled data center components: cold plates, CDUs, heat exchangers, immersion tanks (F620, D620, MF520, HX-490S tracer gas)",
           "source": "https://www.ateq.com/",
-          "evidence": "https://atequsa.com/ateq-usa-ensures-leak-free-data-center-cooling"
+          "evidence": "https://atequsa.com/applications/data-center-cooling"
         },
         {
           "name": "ZAxis",
@@ -247,14 +247,7 @@
           "hq": "CH",
           "note": "Thermal co-design software and services for cold plate/cooling architecture; OCP Cooling Environments Cold Plate Performance contributor",
           "source": "https://corintis.com/",
-          "evidence": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
-        },
-        {
-          "name": "Iceotope",
-          "hq": "GB",
-          "note": "Chassis-level precision liquid cooling for AI/HPC servers (KoolFlow-style sealed liquid cooling); OEM/ODM co-design and IP licensing, edge reference designs",
-          "source": "https://www.iceotope.com/",
-          "evidence": "https://www.iceotope.com/company/news"
+          "evidence": "https://corintis.com/"
         },
         {
           "name": "Accelsius",
@@ -668,7 +661,7 @@
           "hq": "IN",
           "note": "India-based CDU maker: SentraFlo liquid-to-liquid CDUs from 200 kW to 2 MW for direct-to-chip cooling, single-phase immersion systems and hybrid load banks for commissioning",
           "source": "https://www.refroid.com/",
-          "evidence": "https://www.networkworld.com/article/3997011/refroid-launches-indias-first-data-center-cdus.html"
+          "evidence": "https://www.refroid.com/about-us"
         },
         {
           "name": "Accelsius",
@@ -865,7 +858,7 @@
         {
           "name": "CEJN",
           "hq": "SE",
-          "note": "Quick couplings for data-center liquid cooling: OCP UQD/UQDB/BMQC blind-mate, LQC screw-to-connect for CDUs, ultraFLOW for immersion tanks",
+          "note": "Quick couplings for data-center liquid cooling: OCP UQD (hand-mate) and UQDB/BMQC (blind-mate) couplings, LQC screw-to-connect couplings for CDUs and ultraFLOW couplings for immersion tanks",
           "source": "https://www.cejn.com/",
           "evidence": "https://www.cejn.com/en-us/applications/data-centers"
         },
@@ -1407,7 +1400,7 @@
           "hq": "IN",
           "note": "India-based CDU maker: SentraFlo liquid-to-liquid CDUs from 200 kW to 2 MW for direct-to-chip cooling, single-phase immersion systems and hybrid load banks for commissioning",
           "source": "https://www.refroid.com/",
-          "evidence": "https://www.networkworld.com/article/3997011/refroid-launches-indias-first-data-center-cdus.html"
+          "evidence": "https://www.refroid.com/about-us"
         },
         {
           "name": "Tongfei",
@@ -1512,9 +1505,9 @@
         {
           "name": "Castrol",
           "hq": "GB",
-          "note": "Castrol ON direct liquid cooling PG 25 / PG 25T fluids for direct-to-chip data centre cooling; immersion dielectric fluids in development",
+          "note": "Castrol ON PG 25 propylene-glycol fluid for direct-to-chip data centre cooling, plus dielectric fluids for immersion cooling (a bp brand)",
           "source": "https://www.castrol.com/",
-          "evidence": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling.html"
+          "evidence": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling/direct-liquid-cooling-fluids.html"
         },
         {
           "name": "Dober",
@@ -2305,9 +2298,9 @@
         {
           "name": "Iceotope",
           "hq": "GB",
-          "note": "Chassis-level precision liquid cooling for AI/HPC servers (KoolFlow-style sealed liquid cooling); OEM/ODM co-design and IP licensing, edge reference designs",
+          "note": "Chassis-level precision liquid cooling for AI and HPC servers: sealed, self-contained units that position against cold-plate approaches, with OEM and ODM co-design and IP licensing",
           "source": "https://www.iceotope.com/",
-          "evidence": "https://www.iceotope.com/company/news"
+          "evidence": "https://www.iceotope.com/reference-designs/datacenter"
         },
         {
           "name": "Cloud&Heat Technologies",
@@ -2729,7 +2722,7 @@
           "hq": "CH",
           "note": "Thermal co-design software and services for cold plate/cooling architecture; OCP Cooling Environments Cold Plate Performance contributor",
           "source": "https://corintis.com/",
-          "evidence": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+          "evidence": "https://corintis.com/"
         },
         {
           "name": "Ansys",

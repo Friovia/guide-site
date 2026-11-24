@@ -7020,6 +7020,1334 @@
           "a": "The company states it was founded in 1928 and describes itself as a family-owned engineering and manufacturing company."
         }
       ]
+    },
+    {
+      "slug": "ateq",
+      "name": "ATEQ",
+      "segments": [
+        "materials"
+      ],
+      "tagline": "ATEQ is a leak and flow test instrument maker, established in 1975, whose testers are applied to liquid-cooled data center hardware: cold plates, heat exchangers, CDUs, immersion tanks and coolant pipes.",
+      "hq": "Les Clayes-sous-Bois, France",
+      "founded": 1975,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.ateq.com/",
+      "productLines": [
+        {
+          "name": "F620",
+          "note": "Differential pressure-decay leak tester with configurable sensors, part of ATEQ USA's lineup for leak testing data center cooling hardware: heat exchangers, direct-to-chip and cold-plate modules, CDUs and immersion cooling tanks.",
+          "source": "https://atequsa.com/applications/data-center-cooling"
+        },
+        {
+          "name": "D620 / MF520",
+          "note": "Flow tester (D620) and mass flow tester (MF520) named by ATEQ USA for data center cooling applications, covering liquid-carrying parts such as cold plates, CDUs, heat exchangers and coolant pipes.",
+          "source": "https://atequsa.com/applications/data-center-cooling"
+        },
+        {
+          "name": "HX-490S",
+          "note": "Tracer-gas sniffer leak tester named by ATEQ USA for leak location on data center cooling hardware, listed alongside the MS-40GT high-sensitivity tester.",
+          "source": "https://atequsa.com/applications/data-center-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "ATEQ USA's data center cooling applications page (April 2026) lists the F620, D620, MF520 and HX-490S testers for leak and flow testing of heat exchangers, direct-to-chip and cold-plate modules, CDUs, immersion cooling tanks and coolant pipes.",
+          "source": "https://atequsa.com/applications/data-center-cooling"
+        },
+        {
+          "year": "2026",
+          "text": "ATEQ USA published 'Ensures Leak-Free Data Center Cooling' (February 2026), naming the F620 pressure-decay tester, D620 flow tester, MF520 mass flow tester and HX-490S tracer gas sniffer for data center cooling leak tests.",
+          "source": "https://atequsa.com/ateq-usa-ensures-leak-free-data-center-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which ATEQ testers are named for data center liquid cooling?",
+          "a": "ATEQ USA names the F620 differential pressure-decay leak tester, D620 flow tester, MF520 mass flow tester, HX-490S tracer gas sniffer and MS-40GT high-sensitivity tester for data center cooling leak and flow testing."
+        },
+        {
+          "q": "What liquid-cooled components do ATEQ testers cover?",
+          "a": "ATEQ USA's data center page covers heat exchangers, direct-to-chip and cold-plate modules, coolant distribution units (CDUs), immersion cooling tanks and coolant pipes."
+        },
+        {
+          "q": "Where is ATEQ based and how long has it made leak testers?",
+          "a": "ATEQ's group headquarters is ATEQ SAS in Les Clayes-sous-Bois, France, and the company has made leak testing and measurement instruments since 1975, with local teams in more than 35 countries."
+        },
+        {
+          "q": "Does ATEQ publish leak-rate or pressure specifications on its data center pages?",
+          "a": "No. The ATEQ USA data center cooling pages name the tester models and the components they cover but do not publish leak-rate, pressure or flow specifications with units."
+        }
+      ]
+    },
+    {
+      "slug": "amiad",
+      "name": "Amiad",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Amiad is an Israel-based water filtration company with over 60 years of filtration technology. For data centers it offers DATA Klin, a self-cleaning packaged disc-filter series for cooling towers and side-stream loops, covering systems from 0.5 MW edge sites to 500 MW hyperscale campuses.",
+      "hq": "Israel",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.amiad.com/",
+      "productLines": [
+        {
+          "name": "DATA Klin",
+          "note": "Self-cleaning packaged disc-filter series for data center cooling towers on a live side-stream loop, built on Spin Klin NOVA disc technology; standard 55 um filtration rating with an overall 10-400 um range.",
+          "source": "https://datacentercoolingwater.amiad.com"
+        },
+        {
+          "name": "Spin Klin NOVA units",
+          "note": "Packaged units from the 3-inch Nova Single (18 m3/h / 80 gpm) and 4-inch Nova Plus Single (55 m3/h / 240 gpm) up to the 6-inch Nova Plus Trio (164 m3/h / 720 gpm); no pressure ratings published on the page.",
+          "source": "https://datacentercoolingwater.amiad.com"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Amiad presents DATA Klin, a self-cleaning packaged Spin Klin NOVA disc-filter series for data center cooling towers, on a dedicated site (copyright 2026) sized for 0.5 MW edge sites up to 500 MW hyperscale campuses, with ISO 18471 verification cited.",
+          "source": "https://datacentercoolingwater.amiad.com"
+        },
+        {
+          "year": "2026",
+          "text": "The DATA Klin page publishes flow ratings from 18 m3/h (80 gpm) for the 3-inch Nova Single to 164 m3/h (720 gpm) for the 6-inch Nova Plus Trio, with a standard 55 um rating and a 10-400 um filtration range.",
+          "source": "https://datacentercoolingwater.amiad.com"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Amiad offer for data center cooling?",
+          "a": "DATA Klin, a self-cleaning packaged disc-filter series using Spin Klin NOVA disc technology, aimed at data center cooling towers and side-stream filtration from 0.5 MW edge sites to 500 MW hyperscale campuses."
+        },
+        {
+          "q": "What filtration degrees does DATA Klin provide?",
+          "a": "A standard 55 um rating with an overall range of 10-400 um, per the DATA Klin page, and the page cites ISO 18471 verification."
+        },
+        {
+          "q": "What flow rates are published for DATA Klin units?",
+          "a": "From 18 m3/h (80 gpm) for the 3-inch Nova Single, 55 m3/h (240 gpm) for the 4-inch Nova Plus Single, up to 164 m3/h (720 gpm) for the 6-inch Nova Plus Trio."
+        },
+        {
+          "q": "Where is Amiad based?",
+          "a": "The about page states Amiad operates its headquarters and R&D center in Israel and has worked on filtration technology for 60 years; a founding year is not stated on the pages reviewed."
+        }
+      ]
+    },
+    {
+      "slug": "belimo",
+      "name": "Belimo",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Belimo manufactures field devices for HVAC control - actuators, control valves, sensors and meters - and maps them to data center liquid cooling: the Energy Valve and EPIV serve CDU, cold plate, rear-door heat exchanger and two-phase immersion applications.",
+      "hq": "Hinwil, Switzerland",
+      "founded": 1975,
+      "ownership": "SIX: BEAN",
+      "website": "https://www.belimo.com/",
+      "productLines": [
+        {
+          "name": "Energy Valve",
+          "note": "Communicating control valve listed by Belimo for data center applications: CDU, cold plate, rear-door heat exchanger (RDHx), two-phase immersion cooling, CRAH and fan wall; provides data to a Building Management System when connected.",
+          "source": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        },
+        {
+          "name": "EPIV",
+          "note": "Electronic pressure-independent valve; listed data center applications are CDU, RDHx, two-phase immersion cooling, CRAH and fan wall, and it is named as a communicating device that feeds data to a BMS.",
+          "source": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        },
+        {
+          "name": "CCV",
+          "note": "Characterized control valves listed for CDU, RDHx, fan wall, headers and isolation valve duties in data center cooling loops.",
+          "source": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        },
+        {
+          "name": "Butterfly valves and damper actuators",
+          "note": "Butterfly valves are listed for central plant, headers and isolation valve duties; damper actuators for CRAH, fan wall, outside air and generator applications.",
+          "source": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Belimo's data center cooling solutions page (2026 copyright) positions the Energy Valve for CDU, cold plate, RDHx, two-phase immersion cooling, CRAH and fan-wall applications, and the EPIV for CDU, RDHx and two-phase immersion cooling, backed by a downloadable direct-to-chip Energy Valve brochure.",
+          "source": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        },
+        {
+          "year": "2026",
+          "text": "The page carries a data center blog and webinar series covering EPIV-based cooling, single- and two-phase cold-plate solutions and differential-pressure control for liquid cold plates with the Energy Valve.",
+          "source": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Belimo products are listed for data center cooling?",
+          "a": "The page lists Energy Valve, EPIV, CCV characterized control valves, butterfly valves and damper actuators, and states Belimo offers actuators, valves, sensors and meters for data center cooling."
+        },
+        {
+          "q": "What liquid-cooling applications does the Energy Valve cover?",
+          "a": "CDU, cold plate, rear-door heat exchanger (RDHx), two-phase immersion cooling, CRAH and fan wall, per the Belimo data center cooling solutions page."
+        },
+        {
+          "q": "What warranty does Belimo give on its products?",
+          "a": "The page states a 5-year warranty on the entire product line, which Belimo links to its quality control and product design."
+        },
+        {
+          "q": "Where is Belimo headquartered?",
+          "a": "BELIMO Holding AG is at Brunnenbachstrasse 1, 8340 Hinwil, Switzerland, and the site cites 50 years of experience providing field devices for energy-efficient HVAC control."
+        }
+      ]
+    },
+    {
+      "slug": "bollfilter",
+      "name": "BOLLFILTER",
+      "segments": [
+        "fluids",
+        "components"
+      ],
+      "tagline": "BOLLFILTER is the filtration brand of Boll & Kirch Filterbau GmbH (founded 1950, Kerpen, Germany). Its automatic self-cleaning backwash and duplex filters protect data center cooling water from intake to the CDU, guarding direct-to-chip microchannels, heat exchangers, pipes, valves and pumps.",
+      "hq": "Kerpen, Germany",
+      "founded": 1950,
+      "ownership": "BOLL & KIRCH Filterbau GmbH; Dr. Heinz Lux Foundation became a shareholder in 2023",
+      "website": "https://www.bollfilter.com/",
+      "productLines": [
+        {
+          "name": "Automatic backwash filters",
+          "note": "Self-cleaning filters presented for data center cooling water, protecting the full cooling circuit from water intake to the CDU, including direct-to-chip microchannels, heat exchangers, pipes, valves and pumps.",
+          "source": "https://www.bollfilter.com/applications/treatment-of-water-systems/data-centers"
+        },
+        {
+          "name": "Duplex filters",
+          "note": "Duplex/double filters for closed cooling loops, with filter elements customizable from coarse to fine to guard components such as heat exchangers, valves and pumps.",
+          "source": "https://www.bollfilter.com/applications/treatment-of-water-systems/data-centers"
+        },
+        {
+          "name": "Simplex filters",
+          "note": "Simplex filter family listed alongside the automatic backwash and duplex ranges in BOLLFILTER's liquid filtration program.",
+          "source": "https://www.bollfilter.com/"
+        },
+        {
+          "name": "Fine filter units",
+          "note": "Fine filter units in tubular and flatsheet plant configurations, plus plate and tubular membranes, listed in BOLLFILTER's broader water treatment program.",
+          "source": "https://www.bollfilter.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "BOLLFILTER's data centers application page (2026 copyright) positions automatic self-cleaning backwash filters to protect the cooling circuit from water intake to the CDU, including direct-to-chip microchannels etched into processor silicon, heat exchangers, pipes, valves and pumps.",
+          "source": "https://www.bollfilter.com/applications/treatment-of-water-systems/data-centers"
+        },
+        {
+          "year": "2026",
+          "text": "The same page offers duplex/double filters for closed cooling loops with filter elements customizable from coarse to fine, and notes water's thermal conductivity is more than 20 times higher than air's.",
+          "source": "https://www.bollfilter.com/applications/treatment-of-water-systems/data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does BOLLFILTER offer for data center cooling?",
+          "a": "Automatic self-cleaning (backwash) filters and duplex/double filters for the cooling water circuit, presented for duties from water intake to the CDU on the BOLLFILTER data centers application page."
+        },
+        {
+          "q": "What components do these filters protect?",
+          "a": "Direct-to-chip microchannels etched into processor silicon, heat exchangers, pipes, valves and pumps, per the data centers application page."
+        },
+        {
+          "q": "Are micron ratings published for data center filtration?",
+          "a": "No micron ratings or flow figures are published on the data centers page; BOLLFILTER states filter elements are customizable from coarse to fine."
+        },
+        {
+          "q": "Where is BOLLFILTER based and how old is the company?",
+          "a": "Boll & Kirch Filterbau GmbH is at Siemensstrasse 10-14, 50170 Kerpen, Germany. The history page dates the founding to 1950 in Cologne-Ehrenfeld, and the site cites over 75 years of experience."
+        }
+      ]
+    },
+    {
+      "slug": "burkert",
+      "name": "Burkert",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Buerkert Fluid Control Systems is a 100 percent family-run maker of valves, sensors and control electronics based in Ingelfingen, Germany. Its data center cooling program pairs control valves and valve islands with FLOWave flowmeters and online analysis for CDUs, manifolds, rear-door heat exchangers and direct-to-chip or immersion loops.",
+      "hq": "Ingelfingen, Germany",
+      "founded": "NOT_FOUND",
+      "ownership": "Private (company page states family-run business 100%)",
+      "website": "https://www.burkert-usa.com/",
+      "productLines": [
+        {
+          "name": "FLOWave flowmeters",
+          "note": "FLOWave flowmeters are named on the data center cooling applications page for coolant monitoring duties at CDUs, manifolds and sampling wells or maintenance points.",
+          "source": "https://www.burkert-usa.com/en/industries-solutions/solutions/applications/data-center-cooling-applications"
+        },
+        {
+          "name": "Control valves and angle-seat valves",
+          "note": "Control valves and angle-seat valves are listed for chiller loops, coolant distribution units (positive-pressure), rear-door heat exchangers and direct-to-chip or immersion systems, with valve islands for manifold control.",
+          "source": "https://www.burkert-usa.com/en/industries-solutions/solutions/applications/data-center-cooling-applications"
+        },
+        {
+          "name": "8905 Online Analysis System",
+          "note": "The 8905 Online Analysis System with Type 8619 multi-parameter controller is offered for water-quality monitoring, with conductivity, pH, ORP, turbidity and temperature sensors.",
+          "source": "https://www.burkert-usa.com/en/industries-solutions/solutions/applications/data-center-cooling-applications"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "As of 2026, Buerkert's data center cooling applications page covers chiller loops, CDUs, manifolds, rear-door heat exchangers and server-side direct-to-chip or immersion cooling, naming FLOWave flowmeters, the 8905 Online Analysis System and the Type 8619 multi-parameter controller.",
+          "source": "https://www.burkert-usa.com/en/industries-solutions/solutions/applications/data-center-cooling-applications"
+        },
+        {
+          "year": "2025",
+          "text": "Buerkert's corporate facts page is labeled Status 2025 and describes the company as a 100 percent family-run fluid control business making valves, sensors, control electronics and flow automation solutions, headquartered in Ingelfingen, Germany.",
+          "source": "https://www.burkert.com/en/company-career/company/about-buerkert"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Buerkert supply for data center cooling?",
+          "a": "Control valves, angle-seat valves, valve islands, FLOWave flowmeters and online analysis, presented for chiller loops, coolant distribution units, manifolds, rear-door heat exchangers and direct-to-chip or immersion systems."
+        },
+        {
+          "q": "What monitoring products are named for coolant quality?",
+          "a": "The 8905 Online Analysis System with the Type 8619 multi-parameter controller, plus conductivity, pH, ORP, turbidity and temperature sensors, are named for water-quality monitoring in data center cooling."
+        },
+        {
+          "q": "Who owns Buerkert and where is it based?",
+          "a": "The company page states Buerkert is a 100 percent family-run business; the site footer gives the headquarters as Christian-Buerkert-Strasse 13-17, 74653 Ingelfingen, Germany."
+        },
+        {
+          "q": "Are flow or temperature specifications published on the data center page?",
+          "a": "No. The data center cooling applications page names products and applications but publishes no flow ranges, temperatures or pipe sizes with units."
+        }
+      ]
+    },
+    {
+      "slug": "castrol",
+      "name": "Castrol",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Castrol, the lubricants brand owned by bp and founded in 1899, sells Castrol ON fluids for data centre cooling: a Direct Liquid Cooling PG 25 grade for direct-to-chip loops and Immersion Cooling Fluids that submerge hardware in dielectric liquid.",
+      "hq": "NOT_FOUND",
+      "founded": 1899,
+      "ownership": "Subsidiary of bp",
+      "website": "https://www.castrol.com/",
+      "productLines": [
+        {
+          "name": "Castrol ON Direct Liquid Cooling PG 25",
+          "note": "PG 25 grade named for direct-to-chip cooling, computer room AC units, datacom equipment center cooling and glycol loop heat exchangers; an extended technical datasheet, PDS and SDS are downloadable, with no numeric specifications shown on the page.",
+          "source": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling/direct-liquid-cooling-fluids.html"
+        },
+        {
+          "name": "Castrol ON Immersion Cooling Fluids",
+          "note": "Immersion cooling fluids described as submerging components in dielectric liquid for insulation and cooling, offered alongside the direct-to-chip fluid under the Castrol ON range.",
+          "source": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "As of 2026, Castrol's data centre and IT cooling page markets two Castrol ON families: a direct-to-chip liquid cooling fluid that dissipates heat directly from critical electronic components, and immersion cooling fluids, with partnerships with system manufacturers, research institutions and hardware providers.",
+          "source": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling.html"
+        },
+        {
+          "year": "2025",
+          "text": "Castrol's direct liquid cooling brochure is dated 2025 and the page names Castrol ON Direct Liquid Cooling PG 25 for direct-to-chip cooling, computer room AC units, datacom equipment center cooling and glycol loop heat exchangers.",
+          "source": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling/direct-liquid-cooling-fluids.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Castrol ON fluids are offered for data centres?",
+          "a": "A Direct Liquid Cooling PG 25 grade for direct-to-chip cooling and Castrol ON Immersion Cooling Fluids, per the Castrol data centre and IT cooling pages."
+        },
+        {
+          "q": "Where is PG 25 applied?",
+          "a": "The page lists direct-to-chip cooling, computer room AC units, datacom equipment center cooling and glycol loop heat exchangers as applications for Castrol ON Direct Liquid Cooling PG 25."
+        },
+        {
+          "q": "Who owns Castrol and when was it founded?",
+          "a": "The heritage page states Castrol was founded in 1899 and that Burmah-Castrol was purchased by bp in 2000, making Castrol part of bp."
+        },
+        {
+          "q": "Are technical specifications published for PG 25?",
+          "a": "No numeric specifications appear on the page; Castrol provides an extended technical datasheet, PDS and SDS as downloadable documents."
+        }
+      ]
+    },
+    {
+      "slug": "cejn",
+      "name": "CEJN",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "CEJN is an independent, family-owned Swedish quick coupling manufacturer, founded in 1955. For data centers it supplies hot-swappable couplings across the liquid cooling loop: OCP UQD, UQDB and BMQC for manifolds and chassis, screw-to-connect couplings for CDUs and ultraFLOW for immersion tanks.",
+      "hq": "Skovde, Sweden",
+      "founded": 1955,
+      "ownership": "Private (company states independent family-owned business, third generation)",
+      "website": "https://www.cejn.com/",
+      "productLines": [
+        {
+          "name": "OCP UQD",
+          "note": "Latching-style hand-mate quick connector with spill-free connection and disconnection under operation (hot-swap), push-lock style hose connection without clamps or crimping ferrules, and a compact design for data center manifolds.",
+          "source": "https://www.cejn.com/en-us/applications/data-centers"
+        },
+        {
+          "name": "OCP UQDB / OCP BMQC",
+          "note": "Blind-mate coupling solutions developed within the OCP initiative: UQDB features +/- 1 mm radial misalignment tolerance, while BMQC tolerates +/- 5 mm radial and 2.7 degrees angular misalignment, suiting chassis moving in and out of racks.",
+          "source": "https://www.cejn.com/en-us/applications/data-centers"
+        },
+        {
+          "name": "LQC for CDUs",
+          "note": "Non-drip high-flow quick coupling with a screw-to-connect mechanism for data center Coolant Distribution Units, offering high flow capacity, minimal pressure drop and connection under working pressure.",
+          "source": "https://www.cejn.com/en-us/applications/data-centers"
+        },
+        {
+          "name": "ultraFLOW",
+          "note": "Compact, lightweight flat-face non-drip quick connectors with low pressure drop, designed for connecting and disconnecting immersion cooling tanks in limited spaces while carrying facility cooling water.",
+          "source": "https://www.cejn.com/en-us/applications/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "As of 2026, CEJN's data center page lists OCP UQD hand-mate couplings with spill-free hot-swap function, OCP UQDB blind-mate couplings with +/- 1 mm radial misalignment tolerance, OCP BMQC with +/- 5 mm radial and 2.7 degree angular tolerance, and screw-to-connect CDU couplings.",
+          "source": "https://www.cejn.com/en-us/applications/data-centers"
+        },
+        {
+          "year": "2018",
+          "text": "CEJN launched ultraFLOW, a quick connector for liquid cooling of electronics, in 2018, after beginning to launch quick connectors for liquid cooling in the late 2010s.",
+          "source": "https://www.cejn.com/en-gb/about-cejn"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does CEJN offer for data center liquid cooling?",
+          "a": "OCP UQD hand-mate couplings for manifolds, OCP UQDB and BMQC blind-mate couplings for chassis, screw-to-connect high-flow couplings for CDUs, and ultraFLOW flat-face couplings for immersion cooling tanks."
+        },
+        {
+          "q": "What misalignment tolerances do the blind-mate couplings have?",
+          "a": "The OCP UQDB features +/- 1 mm radial misalignment tolerance; the OCP BMQC has +/- 5 mm radial and 2.7 degrees angular misalignment tolerance, per the CEJN data center page."
+        },
+        {
+          "q": "Is CEJN involved in the Open Compute Project?",
+          "a": "CEJN states it is a contributor to the OCP community, designing interchangeable quick connect solutions alongside industry and chassis manufacturers, and says UQDB and BMQC were developed within OCP with CEJN as one of the main contributors."
+        },
+        {
+          "q": "Who owns CEJN and where is it based?",
+          "a": "CEJN AB in Skovde, Sweden, is the international head office; the company describes itself as an independent, family-owned business founded in 1955 and now led by the third generation of owners."
+        }
+      ]
+    },
+    {
+      "slug": "boston-limited",
+      "name": "Boston Limited",
+      "segments": [
+        "servers",
+        "integrators",
+        "cdus"
+      ],
+      "tagline": "Boston Limited is a UK-based server and AI infrastructure solutions provider active for over three decades. It sells GlacierCore CDUs and liquid, immersion and rear-door cooling deployments, integrating partner technologies from Castrol, LM TEK, Submer, Supermicro and ZutaCore.",
+      "hq": "United Kingdom",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of SourceCode (per Boston site branding)",
+      "website": "https://boston.co.uk/",
+      "productLines": [
+        {
+          "name": "GlacierCore CDU line",
+          "note": "Models 1100-0, 1110-0, 1200-0, 1210-0 and 1220-0 are featured as Boston's liquid cooling solutions; the page does not publish kW or flow specifications for these units.",
+          "source": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "name": "Immersion cooling deployments",
+          "note": "Full-system immersion in dielectric, non-conductive liquid within sealed tanks, described with protection against short circuits and airborne contaminants and heat capture through a heat exchanger for reuse or recovery.",
+          "source": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "name": "Single- and two-phase DLC and RDHx",
+          "note": "Single-phase DLC cools CPUs, GPUs and memory via cold plates; two-phase DLC uses a dielectric fluid that boils at approximately 40-50 degrees C inside the cold plate; RDHx rear doors cool hot exhaust air for retrofit environments.",
+          "source": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "name": "Partner cooling portfolio",
+          "note": "Boston lists cooling solution partners: Castrol ON immersion fluids, LM TEK liquid cooling, Submer end-to-end immersion systems, Supermicro liquid-cooled server platforms and ZutaCore direct-on-chip technology.",
+          "source": "https://boston.co.uk/solutions/liquid-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Boston's liquid cooling page (published January 2026, updated November 2026) features the GlacierCore line - models 1100-0, 1110-0, 1200-0, 1210-0 and 1220-0 - and cooling types spanning immersion, single- and two-phase DLC and rear-door heat exchangers.",
+          "source": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "year": "2026",
+          "text": "The same page names Castrol ON immersion fluids, LM TEK liquid cooling, Submer immersion systems, Supermicro liquid-cooled server platforms and ZutaCore direct-on-chip technology as Boston's cooling solution partners.",
+          "source": "https://boston.co.uk/solutions/liquid-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling types does Boston offer?",
+          "a": "Immersion cooling in sealed dielectric tanks, single-phase direct liquid cooling with cold plates on CPUs, GPUs and memory, two-phase DLC with a dielectric boiling at roughly 40-50 degrees C, and RDHx rear-door systems for retrofit environments."
+        },
+        {
+          "q": "Which GlacierCore CDU models are featured?",
+          "a": "GlacierCore 1100-0, 1110-0, 1200-0, 1210-0 and 1220-0 appear as featured liquid cooling solutions; no kW or flow specifications are published on the page."
+        },
+        {
+          "q": "Which cooling partners does Boston work with?",
+          "a": "Castrol (ON immersion fluids), LM TEK (liquid cooling solutions), Submer (immersion systems), Supermicro (liquid-cooled server platforms) and ZutaCore (direct-on-chip cooling), per the Boston liquid cooling page."
+        },
+        {
+          "q": "Who is Boston Limited?",
+          "a": "A UK-based solutions provider of servers, storage, workstations and AI infrastructure, active for over three decades, with presence listed across the UK, USA, Austria, Australia, France, Germany, India, Taiwan, South Africa and Switzerland."
+        }
+      ]
+    },
+    {
+      "slug": "corintis",
+      "name": "Corintis",
+      "segments": [
+        "software",
+        "cold-plates"
+      ],
+      "tagline": "Swiss cooling-technology company developing microfluidic, chip-tailored liquid cooling: it designs, builds, tests and mass-produces microfluidic cold plates and co-packaged cooling for high-power data-center chips, with a Glacierware design platform in closed beta.",
+      "hq": "Saint-Sulpice, Switzerland",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://corintis.com/",
+      "productLines": [
+        {
+          "name": "Microfluidic cold plates and co-packaged cooling",
+          "note": "Targeted microfluidic cooling tailored per chip; the company's platform covers design, build, test and mass production, targeting higher TDP with less flow rate and pressure drop. Homepage demo graphic cites a GPU at 1893 W with 40 °C+ inlet temperature.",
+          "source": "https://corintis.com/"
+        },
+        {
+          "name": "Glacierware design platform",
+          "note": "Cold-plate design platform listed as 'currently in closed beta'; positioned as the company's design environment for liquid-cooling co-design.",
+          "source": "https://corintis.com/"
+        },
+        {
+          "name": "Cooling co-design services",
+          "note": "Services for designing and validating liquid-cooling architectures for data-center and HPC applications, from co-design through testing.",
+          "source": "https://corintis.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Corintis's Glacierware design platform is listed as 'currently in closed beta' on the company site, which also lists offices in Saint-Sulpice (Switzerland), Munich (Germany) and Bellevue, WA (USA).",
+          "source": "https://corintis.com/"
+        },
+        {
+          "year": "2025",
+          "text": "Microsoft announced a cooling collaboration with Corintis: lab-scale microfluidic channels etched into the silicon removed heat up to three times better than cold plates (depending on workload and configuration) and cut the maximum temperature rise of silicon inside a GPU by 65 percent, cooling a server running a simulated Teams meeting.",
+          "source": "https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips"
+        }
+      ],
+      "ocp": "Corintis SA co-leads the Cold Plate Performance workstream of OCP's Cooling Environments project, listed alongside ToffeeX and Celestica. Source: https://www.opencompute.org/projects/cooling-environments/cold-plate",
+      "faq": [
+        {
+          "q": "What does Corintis offer for data-center liquid cooling?",
+          "a": "Microfluidic cold plates and co-packaged cooling for high-power chips, covering design, build, test and mass production, plus the Glacierware design platform, which is currently in closed beta."
+        },
+        {
+          "q": "Where is Corintis based?",
+          "a": "Headquartered at Rue des Jordils 38, 1025 Saint-Sulpice, Switzerland, with additional offices in Munich, Germany and Bellevue, Washington (USA)."
+        },
+        {
+          "q": "What did Microsoft announce with Corintis in 2025?",
+          "a": "A lab-scale microfluidic cooling collaboration: channels etched into the silicon removed heat up to three times better than cold plates and reduced the maximum temperature rise of silicon in a GPU by 65 percent."
+        },
+        {
+          "q": "What is Corintis's role in the OCP?",
+          "a": "Corintis SA co-leads the Cold Plate Performance workstream within OCP's Cooling Environments project, listed alongside ToffeeX and Celestica."
+        }
+      ]
+    },
+    {
+      "slug": "exaion",
+      "name": "Exaion",
+      "segments": [
+        "buyers",
+        "immersion",
+        "heat-reuse"
+      ],
+      "tagline": "French operator of secure HPC/AI cloud data centres using immersion cooling, refurbished hardware and exclusively low-carbon energy, with waste heat recovered through local loops; it reports 4 data centres and deploys across Europe and North America, and is 64%-owned by MARA France since February 2026.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of MARA - MARA France acquired 64% of share capital (Feb 2026); EDF Group remains a minority shareholder",
+      "website": "https://www.exaion.com/",
+      "productLines": [
+        {
+          "name": "Immersion-cooled HPC/AI private cloud",
+          "note": "Private cloud infrastructure and managed services for AI/HPC built on refurbished hardware, immersion cooling techniques and exclusively low-carbon energy; site lists 1,250 GPUs, 37 PB of storage and 99.9% availability across 4 data centres, hosted in its own data centres or on client premises.",
+          "source": "https://www.exaion.com/"
+        },
+        {
+          "name": "Enterprise AI PaaS",
+          "note": "Platform services for deploying LLMs (RAG, fine-tuning, inference) with open-source orchestration (OpenStack for IaaS, Kubernetes for PaaS); part of the Exaion offering that runs on its immersion-cooled infrastructure.",
+          "source": "https://www.exaion.com/"
+        },
+        {
+          "name": "Waste-heat recovery loops",
+          "note": "The company states that waste heat from its data centres is recovered through local loops, with CO2 and energy use monitored continuously.",
+          "source": "https://www.exaion.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 20 February 2026 MARA announced that MARA France acquired 64% of Exaion's share capital after French regulatory review; EDF Group remains a minority shareholder and a client, and NJJ acquired a 10% minority stake in MARA France.",
+          "source": "https://ir.mara.com/news-events/press-releases/detail/1415/edf-pulse-ventures-joins-forces-with-mara-and-njj-to-support-a-new-phase-of-exaions-development-and-strengthen-its-industrial-and-technological-momentum"
+        },
+        {
+          "year": "2026",
+          "text": "Exaion's site lists 4 data centres, 1,250 GPUs and 37 PB of storage at 99.9% availability, states it uses immersion cooling and refurbished hardware powered exclusively by low-carbon energy, and that waste heat is recovered through local loops.",
+          "source": "https://www.exaion.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Who owns Exaion?",
+          "a": "MARA France acquired 64% of Exaion's share capital, announced as completed on 20 February 2026; EDF Group remains a minority shareholder and a client, and NJJ holds a 10% minority stake in MARA France."
+        },
+        {
+          "q": "What cooling technology does Exaion use?",
+          "a": "Its data centres use immersion cooling techniques with refurbished hardware and exclusively low-carbon energy sources; waste heat is recovered through local loops and CO2 and energy use are monitored continuously."
+        },
+        {
+          "q": "What does Exaion sell?",
+          "a": "High-performance private infrastructure and managed cloud services for AI/HPC, including an Enterprise AI PaaS for LLM deployment (RAG, fine-tuning, inference), hosted in its own data centres or on client premises."
+        }
+      ]
+    },
+    {
+      "slug": "dug-technology",
+      "name": "DUG Technology",
+      "segments": [
+        "immersion"
+      ],
+      "tagline": "Australian HPC-as-a-service and geoscience company whose patented DUG Cool immersion cooling runs its own data centres (Houston Skybox, called 'among the largest single-phase immersion-cooling deployments in the world' in the BAC announcement) and is licensed exclusively worldwide to Baltimore Aircoil for high-density data centres.",
+      "hq": "West Perth, Australia",
+      "founded": 2003,
+      "ownership": "ASX: DUG",
+      "website": "https://dug.com/",
+      "productLines": [
+        {
+          "name": "DUG Cool immersion cooling",
+          "note": "Patented industrial immersion cooling 'developed by an operator, for operators', refined through production use for over a decade. Site claims power consumption reduced by up to 51% versus a traditional air-cooled data centre, water use reduced by up to 25%, a non-flammable, non-conductive and biodegradable fluid, and 85% less synthetic refrigerants.",
+          "source": "https://dug.com/dug-cool"
+        },
+        {
+          "name": "DUG Nomad containers",
+          "note": "Self-contained cooled containers for low-latency AI inference in edge, remote or integrated environments: the Nomad 10 fits a standard 10 ft Hi-Cube shipping container with up to 80 kW of IT heat rejection; the Nomad 40 scales to 1 MW. Runs NVIDIA H100 GPUs with no external chillers or plumbing.",
+          "source": "https://dug.com/nomad/"
+        },
+        {
+          "name": "DUG HPC Cloud (HPCaaS)",
+          "note": "High-performance computing as a service from DUG's own immersion-cooled facilities, which the company describes as some of the largest immersion-cooled in the world; serves geoscience and other scientific workloads.",
+          "source": "https://dug.com/dug-cool"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "DUG's Nomad container line, detailed in 2026-dated brochures, packages its cooling in a standard 10 ft Hi-Cube container: the Nomad 10 rejects up to 80 kW of IT heat and the Nomad 40 up to 1 MW, targeting NVIDIA H100-based AI inference with self-contained cooling and no external chillers.",
+          "source": "https://dug.com/nomad/"
+        },
+        {
+          "year": "2024",
+          "text": "On 7 August 2024 Baltimore Aircoil Company announced an exclusive worldwide licensing agreement with DUG Technology, covering the patented DUG Cool immersion-cooling technology for high-density data centres, with rights to use, manufacture, market and sell it; DUG's Skybox data centre in Houston was described as among the largest single-phase immersion-cooling deployments in the world.",
+          "source": "https://baltimoreaircoil.com/news/announcements/bac-dug-immersion-cooling-technology"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is DUG Cool?",
+          "a": "A patented industrial immersion-cooling design refined through more than a decade of production use in DUG's own data centres. The company claims power consumption reduced by up to 51% and water use by up to 25% versus a traditional air-cooled data centre, using a non-flammable, non-conductive, biodegradable fluid."
+        },
+        {
+          "q": "Who can buy DUG Cool technology?",
+          "a": "Baltimore Aircoil Company holds exclusive worldwide rights to use, manufacture, market and sell the patented DUG Cool technology under an agreement announced 7 August 2024; DUG continues to use it in its own HPC facilities."
+        },
+        {
+          "q": "What is the DUG Nomad?",
+          "a": "A self-contained containerized data centre line: the Nomad 10 provides up to 80 kW of IT heat rejection in a standard 10 ft Hi-Cube container and the Nomad 40 up to 1 MW, for AI inference in edge or remote sites, with no external chillers or plumbing."
+        },
+        {
+          "q": "What kind of company is DUG?",
+          "a": "Founded in 2003 and headquartered in West Perth, Australia, DUG Technology (ASX: DUG) provides geoscience services, the DUG Insight software suite and HPC as a service from immersion-cooled data centres."
+        }
+      ]
+    },
+    {
+      "slug": "e4-computer-engineering",
+      "name": "E4 Computer Engineering",
+      "segments": [
+        "servers",
+        "integrators"
+      ],
+      "tagline": "Italian HPC and AI system integrator that builds liquid-cooled supercomputing platforms: its EuroHPC TEXTAROSSA work delivered a two-phase, direct on-chip evaporative cooling demonstrator, and a 2025 partnership with UNICOM Engineering brings immersion cooling into its AI infrastructure offering.",
+      "hq": "Scandiano (Reggio Emilia), Italy",
+      "founded": 2002,
+      "ownership": "Private - Italian joint-stock company (S.p.A.); no stock listing stated",
+      "website": "https://www.e4company.com/",
+      "productLines": [
+        {
+          "name": "Two-phase liquid-cooled servers (TEXTAROSSA/InQuattro)",
+          "note": "Direct on-chip evaporative cooling: an aluminum or copper cold plate acts as a multi-micro-channel evaporator on CPU/GPU; dielectric, non-flammable, low-GWP coolant circulates in a hermetically sealed loop with a rack-level liquid-to-liquid condensing unit. Shown on Ampere Mt. Collins 2U with Altra Max (128 cores per socket, TDP up to 250 W, 8 TB memory).",
+          "source": "https://www.e4company.com/en/liquid-cooling"
+        },
+        {
+          "name": "Liquid-cooling retrofit for E4 systems",
+          "note": "The two-phase thermal management solution can be applied to selected E4 systems that are already air cooled, replacing air cooling for the CPUs, which E4 identifies as the most thermally sensitive components, with stated improved Power Usage Effectiveness (no numeric PUE published).",
+          "source": "https://www.e4company.com/en/liquid-cooling"
+        },
+        {
+          "name": "Liquid-cooled HPC/AI cluster integration",
+          "note": "Design, deployment and support of HPC clusters, AI and hyperconverged infrastructures for academic and industrial customers; since May 2025 paired with UNICOM Engineering's thermal management and immersion cooling solutions for high AI power densities in Italy and Switzerland.",
+          "source": "https://www.unicomengineering.com/news/unicom-engineering-announces-strategic-partnership-with-e4-computer-engineering"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 6 May 2025 UNICOM Engineering and E4 announced a strategic partnership for AI-ready infrastructure in the Italian and Swiss markets: UNICOM Engineering contributes expertise in liquid cooling technologies - thermal management and immersion cooling solutions - and custom servers, while E4 contributes design, deployment and support of complex HPC and AI environments.",
+          "source": "https://www.unicomengineering.com/news/unicom-engineering-announces-strategic-partnership-with-e4-computer-engineering"
+        },
+        {
+          "year": "2023",
+          "text": "At ISC 2023 in Hamburg (21-25 May 2023) E4 presented a server prototype from the EU EuroHPC project TEXTAROSSA with an innovative two-phase cooling system, described by E4 as a world premiere, built on the Ampere Mt. Collins 2U platform with Altra Max processors and aimed at near-future exascale computing.",
+          "source": "https://www.e4company.com/en/2023/06/hpc-energetic-efficiency-liquid-cooling-server-isc-2023"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling technology does E4 use?",
+          "a": "A two-phase, direct on-chip evaporative system: a multi-micro-channel cold plate evaporates a dielectric, non-flammable, low-GWP coolant on the CPU or GPU inside a hermetically sealed loop, with a rack-level liquid-to-liquid condensing unit rejecting the heat."
+        },
+        {
+          "q": "Which hardware has demonstrated it?",
+          "a": "An Ampere Mt. Collins 2U server with Altra Max ARM processors: dual socket, 128 cores per socket at 3 GHz, TDP up to 250 W per socket, up to 32 DDR4-3200 DIMMs and 8 TB memory, presented at ISC 2023 within the EuroHPC TEXTAROSSA project."
+        },
+        {
+          "q": "What did E4 announce in 2025?",
+          "a": "A strategic partnership with UNICOM Engineering, announced 6 May 2025, combining UNICOM's liquid cooling technologies (thermal management and immersion cooling) and custom servers with E4's HPC/AI design and deployment for Italian and Swiss customers."
+        },
+        {
+          "q": "Who is E4 Computer Engineering?",
+          "a": "An Italian company operating since 2002 (site copyright 2002-2021), headquartered in Scandiano, Reggio Emilia, that designs, deploys and supports HPC clusters, cloud, data analytics, AI and hyperconverged infrastructures."
+        }
+      ]
+    },
+    {
+      "slug": "eviden",
+      "name": "Eviden (Bull)",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "European supercomputer maker whose BullSequana platforms rely on direct liquid cooling: the XH3500, unveiled November 2025, is 100% fanless with 40 °C warm-water facility supply and heat-reuse support, and the XH3000 architecture underlies JUPITER, Europe's first exascale system at Juelich.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Part of Atos Group - Eviden is the Atos Group brand for hardware and software products (Eviden SAS)",
+      "website": "https://www.bull.com/",
+      "productLines": [
+        {
+          "name": "BullSequana XH3500",
+          "note": "Converged HPC/AI supercomputing platform with 100% fanless 5th-generation Direct Liquid Cooling, warm water support (40 °C / 104 °F facility supply), an in-rack Coolant Distribution Unit for simplified scaling, full-rack direct liquid cooling for complete heat capture, and heat-reuse readiness. Unveiled 13 November 2025.",
+          "source": "https://www.bull.com/en/products/hpc/bullsequana-xh3500-supercomputer"
+        },
+        {
+          "name": "BullSequana XH3000",
+          "note": "Supercomputer architecture on which EuroHPC JU's JUPITER is built: approximately 24,000 NVIDIA GH200 Grace Hopper Superchips delivering 1 exaflop, with a highly efficient warm-water cooling system whose waste heat is integrated into the Juelich campus heating network.",
+          "source": "https://www.eurohpc-ju.europa.eu/jupiter-officially-propels-europe-exascale-era-2025-11-17_en"
+        },
+        {
+          "name": "Direct liquid cooling subsystems",
+          "note": "Rack-level liquid cooling implementation across the BullSequana XH line: in-rack CDUs, full-rack direct liquid cooling for complete heat capture and support for heat reuse and free-cooling strategies for greener operations.",
+          "source": "https://www.bull.com/en/products/hpc/bullsequana-xh3500-supercomputer"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 17 November 2025 EuroHPC JU announced that JUPITER, built on Eviden's BullSequana XH3000 architecture with approximately 24,000 NVIDIA GH200 Grace Hopper Superchips, propels Europe into the exascale era at 1 exaflop; its warm-water cooling feeds waste heat into the Juelich campus heating network and it ranked number 4 on the November 2025 TOP500.",
+          "source": "https://www.eurohpc-ju.europa.eu/jupiter-officially-propels-europe-exascale-era-2025-11-17_en"
+        },
+        {
+          "year": "2025",
+          "text": "On 13 November 2025 Eviden unveiled the BullSequana XH3500 converged HPC/AI platform with 100% fanless 5th-generation Direct Liquid Cooling, warm water support at 40 °C facility supply, and cooling that supports heat reuse and free-cooling strategies.",
+          "source": "https://www.bull.com/en/press-releases/bullsequana-xh3500-supercomputing-platform-ai-hpc"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the BullSequana XH3500?",
+          "a": "Eviden's converged HPC/AI platform unveiled on 13 November 2025: 100% fanless 5th-generation direct liquid cooling with warm water support (40 °C / 104 °F facility supply), an in-rack CDU, full-rack direct liquid cooling for complete heat capture, and heat-reuse readiness."
+        },
+        {
+          "q": "What is JUPITER and what cooling does it use?",
+          "a": "Europe's first exascale supercomputer, hosted at the Juelich Supercomputing Centre and built on Eviden's BullSequana XH3000 architecture with about 24,000 NVIDIA GH200 Superchips; it uses a highly efficient warm-water cooling system whose waste heat is integrated into the campus heating network."
+        },
+        {
+          "q": "Who owns the Bull supercomputer business?",
+          "a": "Eviden is part of Atos Group and is described by the company as the Atos Group brand for hardware and software products; Bull is its supercomputing line."
+        },
+        {
+          "q": "How efficient is JUPITER?",
+          "a": "EuroHPC JU states that JUPITER's booster partition delivers over 63 billion operations per watt, calling it the most energy-efficient exascale system worldwide, and it ranked number 4 on the November 2025 TOP500."
+        }
+      ]
+    },
+    {
+      "slug": "gunter",
+      "name": "Gunter",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Heat-rejection manufacturer (since 1931, 5 factories, presence in 80+ countries) whose dry, adiabatic and hybrid coolers serve data centers: High Density Dry Coolers and VARIO units with hydroBLU pre-cooling, grouped under a dedicated Gunter Data Center Solutions division announced in May 2026.",
+      "hq": "NOT_FOUND",
+      "founded": 1931,
+      "ownership": "NOT_FOUND",
+      "website": "https://guntner.com/",
+      "productLines": [
+        {
+          "name": "High Density Dry Cooler",
+          "note": "Hybrid system combining dry and evaporative cooling for high heat-rejection loads, positioned by Gunter as avoiding the water waste and pollution associated with traditional cooling towers; part of the data center application portfolio.",
+          "source": "https://guntner.com/en-us/applications/data-center"
+        },
+        {
+          "name": "V-shape VARIO Dry Cooler with hydroBLU",
+          "note": "Fully configurable V-shaped dry cooler combined with the hydroBLU intelligent adiabatic pre-cooling solution; Gunter positions it as the choice for areas with high ambient temperatures, supporting free-cooling strategies where possible.",
+          "source": "https://guntner.com/en-us/applications/data-center"
+        },
+        {
+          "name": "aicore air controls",
+          "note": "Controls and IoT platform used with the dry and adiabatic coolers for precise control and efficient pre-cooling in high ambient conditions and to enable free-cooling strategies.",
+          "source": "https://guntner.com/en-us/applications/data-center"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In May 2026 the Gunter Group launched Gunter Data Center Solutions, a dedicated division combining Gunter and JAEGGI teams and integrating portfolios of dry coolers, adiabatic and hybrid solutions; the launch coverage reports more than 1,600 Gunter/JAEGGI units already deployed in data centers worldwide, providing over 4.5 GW of cooling capacity.",
+          "source": "https://refindustry.com/news/g-ntner-launches-data-center-cooling-division-in-germany"
+        },
+        {
+          "year": "2026",
+          "text": "Gunter's data center page states that Gunter Data Center Solutions has engineered cooling solutions for data centers worldwide for over 35 years, and lists case studies in the UK/Germany, Italy (ESA), USA, Austria, Sweden and China.",
+          "source": "https://guntner.com/en-us/applications/data-center"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Gunter sell for data center cooling?",
+          "a": "Heat rejection: the High Density Dry Cooler (a hybrid of dry and evaporative cooling), V-shape VARIO dry coolers with hydroBLU adiabatic pre-cooling, and aicore air controls for precise control and free cooling."
+        },
+        {
+          "q": "What is Gunter Data Center Solutions?",
+          "a": "A dedicated division launched by the Gunter Group in May 2026, combining Gunter and JAEGGI teams and integrating dry, adiabatic and hybrid cooling portfolios for data centers."
+        },
+        {
+          "q": "How much data center cooling has Gunter deployed?",
+          "a": "Launch coverage in May 2026 reports more than 1,600 Gunter/JAEGGI units deployed in data centers worldwide, providing over 4.5 GW of cooling capacity across Europe, North America, South America and Asia."
+        },
+        {
+          "q": "How long has Gunter been in business?",
+          "a": "The company traces its origins to 1931, with 5 factories, 3 logistics centers and presence in more than 80 countries, and says it has engineered data center cooling solutions for over 35 years."
+        }
+      ]
+    },
+    {
+      "slug": "endress-hauser",
+      "name": "Endress+Hauser",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Process instrumentation group supplying the measurement layer for data-center liquid cooling: flow balancing across racks, temperature stability to avoid hotspots, pressure monitoring for leaks and pump issues, and liquid analysis of coolant quality, from the compact rack-level Picomag to Proline Promag meters on primary loops.",
+      "hq": "NOT_FOUND",
+      "founded": 1953,
+      "ownership": "Family-owned - shares are held by the descendants of the founder; 18,000+ employees worldwide",
+      "website": "https://www.endress.com/",
+      "productLines": [
+        {
+          "name": "Picomag compact electromagnetic flowmeter",
+          "note": "Multivariable device combining volume flow, temperature and conductivity measurement in DN15 to DN50 (1/2 to 2 inch) lines; accuracy +/-0.8% o.r. +/-0.1% o.f.s, up to 750 l/min, medium -10 to 70 °C, max. 16 bar, IO-Link and 4-20 mA outputs, IP65/67, 5-year warranty; suited to secondary circuits, skids and tight spaces.",
+          "source": "https://www.endress.com/en/field-instruments-overview/flow-measurement-product-overview/electromagnetic-flowmeter-picomag-inline-dma"
+        },
+        {
+          "name": "Data center cooling instrumentation portfolio",
+          "note": "Flow, temperature, pressure and liquid analysis for cooling optimization: balanced flow for consistent heat transport across racks; pressure monitoring detects restrictions, leaks, imbalance or pump issues; liquid analysis guards coolant quality against contamination, corrosion or fouling across CDU primary and secondary loops.",
+          "source": "https://www.endress.com/en/industry-expertise/power-energy/data-center-cooling-optimization-infrastructure-efficiency"
+        },
+        {
+          "name": "Proline Promag W 300/500 electromagnetic flowmeters",
+          "note": "Per Endress+Hauser's data-center announcement, Proline Promag W 300/500 covers larger-diameter primary cooling loops and complements the Picomag so that instrumentation spans every stage of a data center facility's cooling architecture.",
+          "source": "https://www.us.endress.com/en/endress-hauser-group/news-and-stories/picomag-electromagnetic-flow-variant-for-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 9 March 2026 Endress+Hauser announced a Picomag electromagnetic flowmeter variant for data centers and OEMs in the US market: available in 1 and 2 inch, delivered with Bluetooth deactivated from the factory for sites that prohibit wireless communication, with IO-Link and standard outputs, designed to integrate into standardized cooling skids, secondary distribution loops and rack-level cooling modules.",
+          "source": "https://www.us.endress.com/en/endress-hauser-group/news-and-stories/picomag-electromagnetic-flow-variant-for-data-centers"
+        },
+        {
+          "year": "2026",
+          "text": "Endress+Hauser's data center cooling page positions its sensors, inline measurement, analyzer transmitters and digital integration as tools that help large data center facilities reduce energy use, improve water quality and extend equipment life across CDU primary and secondary loops.",
+          "source": "https://www.endress.com/en/industry-expertise/power-energy/data-center-cooling-optimization-infrastructure-efficiency"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Endress+Hauser offer for data center cooling?",
+          "a": "Instrumentation across four families - flow, temperature, pressure and liquid analysis - to balance heat transport across racks, avoid hotspots and overcooling, detect leaks or pump issues, and monitor cooling fluid quality for contamination, corrosion or fouling."
+        },
+        {
+          "q": "What is the data-center Picomag variant?",
+          "a": "Announced 9 March 2026 for the US market: a compact electromagnetic flowmeter combining flow, temperature and conductivity measurement in 1 and 2 inch lines, shipped with Bluetooth deactivated for data centers and OEMs that prohibit wireless communication, connecting via IO-Link, 4-20 mA, pulse, switch or 2-10 V."
+        },
+        {
+          "q": "What are the Picomag's key specifications?",
+          "a": "DN15 to DN50 process connections, volume flow accuracy of +/-0.8% o.r. +/-0.1% o.f.s, measuring range up to 750 l/min, medium temperature -10 to 70 °C (85 °C short-term), maximum process pressure 16 bar, IP65/67 protection and a 5-year warranty."
+        },
+        {
+          "q": "What does Endress+Hauser offer for primary loops?",
+          "a": "Proline Promag W 300/500 electromagnetic flowmeters for larger-diameter primary cooling loops, which the company says complement the Picomag to cover every stage of a data center's cooling architecture."
+        }
+      ]
+    },
+    {
+      "slug": "continental",
+      "name": "Continental",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "German technology company (founded 1871) whose Continental Industry division supplies data cooling hoses for direct-to-chip liquid cooling: ExtremeFlex DataGuard and DataGuard source lines feed server manifolds, while FlexCool Jumper and Blade hoses carry glycol-based coolant to individual server blades and their cold plates.",
+      "hq": "Hanover, Germany",
+      "founded": 1871,
+      "ownership": "Officially listed on the German stock exchanges in Frankfurt, Hamburg, Hanover and Stuttgart; OTC ADR in the US",
+      "website": "https://www.continental-industry.com/",
+      "productLines": [
+        {
+          "name": "ExtremeFlex DataGuard",
+          "note": "External feed line that transfers glycol-based coolants engineered for direct-to-chip cooling; part of Continental's Data Cooling Solutions portfolio for high-density data center equipment.",
+          "source": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        },
+        {
+          "name": "FlexCool Jumper",
+          "note": "Receives cooling fluid from the source line system, transitioning from the manifold to individual server blades; the flexible jumper connecting rack distribution to each blade.",
+          "source": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        },
+        {
+          "name": "FlexCool Blade",
+          "note": "Transfers coolant to the cold plate, targeting the portion(s) of the blade generating the most heat; the final hose link in the direct-to-chip cooling path.",
+          "source": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        },
+        {
+          "name": "DataGuard source line",
+          "note": "Kink- and twist-resistant source line hose that delivers a constant supply of coolant directly to server manifolds, completing the four-product data cooling line-up.",
+          "source": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On its 2026 product page, Continental lists the four-product data cooling line-up for glycol-based direct-to-chip cooling and states that it is a participating member of the Open Compute Project (OCP); the group's ContiTech sector operates the continental-industry.com business.",
+          "source": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        },
+        {
+          "year": "2025",
+          "text": "Continental's Data Cooling Solutions brochure (2025 English edition, linked from the official product page) documents the data cooling hose portfolio for stable liquid-cooling cycles in high-density data center equipment: DataGuard and ExtremeFlex DataGuard source lines plus FlexCool Jumper and FlexCool Blade hoses.",
+          "source": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which data cooling hoses does Continental offer?",
+          "a": "Four products: ExtremeFlex DataGuard, an external feed line for glycol-based direct-to-chip coolants; DataGuard, a kink- and twist-resistant source line to server manifolds; FlexCool Jumper, from manifold to server blades; and FlexCool Blade, to the cold plate."
+        },
+        {
+          "q": "What coolants do the hoses carry?",
+          "a": "The page describes the hoses as transferring glycol-based coolants engineered for direct-to-chip cooling, from the source line system through manifolds to server blades and cold plates."
+        },
+        {
+          "q": "Is Continental involved in the Open Compute Project?",
+          "a": "Yes - Continental states on its data cooling page that it is a participating member of the Open Compute Project (OCP)."
+        },
+        {
+          "q": "What is Continental?",
+          "a": "A German company founded in 1871, organized since 1 January 2026 into the Tires and ContiTech sectors; the data cooling hoses are sold through the Continental Industry (ContiTech) business, and the share is listed on the German stock exchanges in Frankfurt, Hamburg, Hanover and Stuttgart."
+        }
+      ]
+    },
+    {
+      "slug": "iceotope",
+      "name": "Iceotope",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "UK company, founded 2005 in Sheffield, that develops chassis-level precision liquid cooling for AI and HPC servers, delivered through OEM/ODM co-design and IP licensing, with published datacenter and edge reference designs.",
+      "hq": "Sheffield, United Kingdom",
+      "founded": 2005,
+      "ownership": "Private",
+      "website": "https://www.iceotope.com/",
+      "productLines": [
+        {
+          "name": "Integrated liquid-cooled chassis (DL380-IC, XE7740-IC)",
+          "note": "Chassis-level precision liquid cooling described as cooling processors, memory, storage and PSUs ('direct to everything'); data sheets are listed for DL380-IC and XE7740-IC integrated chassis; delivered through OEM/ODM co-design and IP licensing.",
+          "source": "https://www.iceotope.com/reference-designs/datacenter"
+        },
+        {
+          "name": "Datacenter reference design",
+          "note": "Liquid-cooled chassis and server solutions for high-density, low-latency workloads, stated to be compatible with existing rack deployments; the company cites up to 6x more compute per square meter versus air cooling.",
+          "source": "https://www.iceotope.com/reference-designs/datacenter"
+        },
+        {
+          "name": "Edge reference design",
+          "note": "Precision liquid-cooled AI inferencing clusters integrating compute, cooling, networking, memory and storage; stated to be deployable without facility water or dry chillers. The company cites 100% less water, 40% less power and 84% less cooling per kW of IT equipment power.",
+          "source": "https://www.iceotope.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Iceotope reported a portfolio milestone of 200 patents granted and pending across its chassis-level precision liquid cooling technology; the company site now cites 228 patents pending, issued and allowed.",
+          "source": "https://www.iceotope.com/company/news"
+        },
+        {
+          "year": "2025",
+          "text": "At GITEX Global 2025 (October 9, 2025), Iceotope showcased its precision liquid cooling technology jointly with Giga Computing and nVent, focused on sustainable AI infrastructure.",
+          "source": "https://www.iceotope.com/company/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What exactly does Iceotope sell?",
+          "a": "Rather than selling finished racks, Iceotope co-designs and licenses its chassis-level precision liquid cooling to OEMs and ODMs and publishes reference designs; integrated-chassis data sheets listed include DL380-IC and XE7740-IC."
+        },
+        {
+          "q": "How does chassis-level liquid cooling differ from cold-plate racks?",
+          "a": "Iceotope describes its approach as 'direct to everything', sealing liquid cooling at the chassis level to cover processors, memory, storage and PSUs, in contrast to cold-plate approaches; the company notes PSUs can generate up to 15% of total rack heat."
+        },
+        {
+          "q": "Can Iceotope cooling be deployed at edge sites?",
+          "a": "The Edge reference design targets precision liquid-cooled AI inferencing clusters and is stated to be deployable without facility water or dry chillers."
+        },
+        {
+          "q": "Where is the company based and who owns it?",
+          "a": "Iceotope was founded in 2005 in Sheffield, UK, and is privately held; no parent company or public listing is mentioned on its company page."
+        }
+      ]
+    },
+    {
+      "slug": "refroid-technologies",
+      "name": "Refroid Technologies",
+      "segments": [
+        "cdus",
+        "immersion"
+      ],
+      "tagline": "Indian company, founded 2021 and headquartered in Hyderabad, supplying coolant distribution units, liquid racks and manifolds, immersion cooling pods and hybrid load banks for AI, HPC, high-density and edge data-center cooling.",
+      "hq": "Hyderabad, India",
+      "founded": 2021,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.refroid.com/",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Units, Liquid Racks & Manifolds",
+          "note": "CDU and liquid rack/manifold products for AI, HPC, high-density data center, edge and modular deployments. The directory's source article covers SentraFlo liquid-to-liquid CDUs at 200 kW to 2 MW for direct-to-chip cooling; capacity figures are not published on the site pages opened (NOT_FOUND).",
+          "source": "https://www.refroid.com/"
+        },
+        {
+          "name": "Immersion Cooling PODS (EcoPod, MiniPod, ISOPod)",
+          "note": "EcoPod compact units for high-density workloads, MiniPod edge-ready pods, and ISOPod fully standardized pods stated to be built for hyperscale, mission-critical deployments. The company cites closed-loop zero-water designs and ASHRAE TC9.9 compliance.",
+          "source": "https://www.refroid.com/"
+        },
+        {
+          "name": "Thermion Hybrid Load Banks",
+          "note": "Load banks that simulate real-world IT loads for validating liquid and hybrid (air plus liquid) cooling infrastructure, used in commissioning of direct-to-chip and immersion installations.",
+          "source": "https://www.refroid.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On May 22, 2025 Refroid launched the SentraFlo Series of liquid-to-liquid CDUs developed and made in India, with customizable capacities from 200 kW to 2 MW; shipments were to begin by the end of June 2025, and the range also covers rack manifolds and a secondary fluid network plumbing architecture",
+          "source": "https://www.prnewswire.com/in/news-releases/refroid-redefines-data-center-cooling-with-the-launch-of-sentraflo-series-indias-first-indigenously-developed-liquid-to-liquid-cdus-for-next-gen-infrastructure-302462842.html"
+        },
+        {
+          "year": "2025",
+          "text": "Refroid's website carries blog posts of June 16-17, 2025 on liquid cooling for next-generation data centers, including one on the AI revolution's demand for cooling that covers hybrid thermal simulators (load banks) and one on liquid immersion cooling for India's data infrastructure",
+          "source": "https://www.refroid.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What immersion cooling products does Refroid offer?",
+          "a": "Three pod variants: EcoPod compact units for high-density workloads, MiniPod edge-ready pods, and ISOPod fully standardized pods stated to be built for hyperscale, mission-critical deployments."
+        },
+        {
+          "q": "What are Thermion Hybrid Load Banks for?",
+          "a": "They simulate real-world IT loads to validate liquid and hybrid (air plus liquid) cooling infrastructure, supporting commissioning of direct-to-chip and immersion installations."
+        },
+        {
+          "q": "Where is Refroid based and when was it founded?",
+          "a": "Refroid Technologies was founded in 2021 and is headquartered in Hyderabad, India; its ownership structure is not stated on the pages opened."
+        },
+        {
+          "q": "What performance claims does the company publish?",
+          "a": "Refroid cites up to 50%+ cooling energy savings, closed-loop zero-water designs and ASHRAE TC9.9 compliance; no capacity figures were published on the site pages opened."
+        }
+      ]
+    },
+    {
+      "slug": "mta",
+      "name": "MTA",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Italian manufacturer M.T.A. S.r.l., based in Tribano and part of the Trane Technologies group, supplies air-cooled, free-cooling and heat-recovery chillers used for data-centre cooling and heat rejection.",
+      "hq": "Tribano, Italy",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Trane Technologies plc (M.T.A. S.r.l. a socio unico, under Trane Technologies direction and coordination)",
+      "website": "https://www.mta-it.com/",
+      "productLines": [
+        {
+          "name": "Free-cooling chillers for data centres",
+          "note": "MTA's data-centre page presents free-cooling chillers stated to ensure energy savings of up to 45% versus conventional chillers; free-cooling is offered as a dedicated category of its process-cooling line, alongside air-cooled and water-cooled chillers.",
+          "source": "https://www.mta-it.com/eng/applications/air-conditioning-systems/data-centers.php"
+        },
+        {
+          "name": "ARIES G air-cooled chillers",
+          "note": "Air-cooled chillers with R454B refrigerant covering 160-858 kW cooling capacity; the March 2026 ARIES G FC version adds integrated free cooling for energy-efficient process cooling. Companion ranges include TAE G (7-244 kW, R513A/R454B) and TAEevo TECH (9-256 kW, R410A).",
+          "source": "https://www.mta-it.com/eng/products/process-cooling/air-cooled-chillers-1/"
+        },
+        {
+          "name": "GEMINI modular chillers",
+          "note": "Modular air-cooled chillers: GEMINI at 87-164 kW with R454B scroll compressors, and GEMINI N at 64-125 kW with R290 and inverter scroll compressors, launched 3 August 2026 for comfort and process cooling.",
+          "source": "https://www.mta-it.com/eng/products/process-cooling/air-cooled-chillers-1/"
+        },
+        {
+          "name": "Chillers with integrated heat recovery",
+          "note": "For data centres MTA also offers products with integrated heat recovery, stated to minimise waste energy consumption, plus remote monitoring stated to reduce installation cost.",
+          "source": "https://www.mta-it.com/eng/applications/air-conditioning-systems/data-centers.php"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 5 June 2026 MTA introduced modular low-GWP chillers and heat pumps offering 300 kW of heating and 320 kW of cooling capacity in a footprint of under 9 square metres.",
+          "source": "https://www.mta-it.com/eng/news/"
+        },
+        {
+          "year": "2026",
+          "text": "On 15 May 2026 MTA launched the GEMINI modular air-to-water chillers and heat pumps using R454B refrigerant for scalable, compact installations.",
+          "source": "https://www.mta-it.com/eng/news/"
+        },
+        {
+          "year": "2026",
+          "text": "On 6 March 2026 MTA launched ARIES G FC, air-cooled chillers with integrated free cooling for energy-efficient industrial process cooling.",
+          "source": "https://www.mta-it.com/eng/news/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does MTA offer for data-centre cooling?",
+          "a": "Free-cooling chillers stated to deliver energy savings of up to 45% versus conventional chillers, chillers with integrated heat recovery stated to minimise waste energy consumption, and remote monitoring stated to reduce installation cost."
+        },
+        {
+          "q": "In what capacity ranges do MTA chillers run?",
+          "a": "Published air-cooled ranges include ARIES G at 160-858 kW (R454B), GEMINI at 87-164 kW, TAE G at 7-244 kW and TAEevo TECH at 9-256 kW; modular low-GWP units launched in June 2026 provide 320 kW cooling in under 9 square metres."
+        },
+        {
+          "q": "Who owns MTA?",
+          "a": "M.T.A. S.r.l. a socio unico, headquartered in Tribano (PD), Italy, is subject to the direction and coordination of Trane Technologies plc; its founding year is not stated on the pages opened."
+        },
+        {
+          "q": "What has MTA launched recently?",
+          "a": "In 2026 MTA launched ARIES G FC free-cooling chillers (6 March), the GEMINI modular R454B chillers and heat pumps (15 May) and the modular low-GWP chillers and heat pumps of 5 June; the GEMINI N R290 modular range followed on 3 August 2026."
+        }
+      ]
+    },
+    {
+      "slug": "oleon",
+      "name": "Oleon",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Oleochemicals producer of the Avril group supplying QLOE, a plant-based dielectric liquid for single-phase server immersion cooling aimed at HPC, hyperscale, edge and AI data centres.",
+      "hq": "Edegem (Antwerp), Belgium",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Avril (French agri-food group; site wording: a company of Avril)",
+      "website": "https://www.oleon.com/",
+      "productLines": [
+        {
+          "name": "QLOE immersion cooling fluids",
+          "note": "Biobased dielectric liquids for single-phase immersion cooling of servers, made from plant-based raw materials. Published properties: flash point 210 C; PFAS-free, renewable and biodegradable; not classified as toxic, irritant or hazardous to humans; low viscosity; zero global warming potential and no bio-accumulation.",
+          "source": "https://qloe.cool"
+        },
+        {
+          "name": "Data-centre immersion cooling programme",
+          "note": "Marketed for HPC, hyperscale, edge, AI, deep learning, blockchain and GPU-as-a-Service workloads, with stated conformity with Open Compute Project standards, partnerships listing Submer, AI Green Bytes, Airsys, MIDAS and Iceotope, and an application lab in Venette (Paris area) offering live demonstrations.",
+          "source": "https://www.oleon.com/markets/server-immersion-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 29 January 2026 Oleon announced a strategic collaboration with Iceotope covering its QLOE immersion cooling fluids, adding to earlier ecosystem partnerships with Submer, AI Green Bytes, Airsys and MIDAS listed on its server immersion cooling page.",
+          "source": "https://qloe.cool"
+        },
+        {
+          "year": "2024",
+          "text": "On November 19, 2024 Oleon unveiled its Qloe brand of biobased immersion cooling liquids for data center cooling through immersion cooling, made from plant-based renewable materials",
+          "source": "https://www.oleon.com/press-room/oleon-unveils-new-brand-qloe"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is QLOE?",
+          "a": "A range of plant-based dielectric liquids for single-phase immersion cooling of servers: flash point 210 C, PFAS-free, renewable, biodegradable, low viscosity, zero global warming potential, and not classified as toxic, irritant or hazardous to humans."
+        },
+        {
+          "q": "Which data-centre workloads is QLOE aimed at?",
+          "a": "Oleon markets QLOE for HPC, hyperscale, edge, AI, deep learning, blockchain and GPU-as-a-Service installations, and states conformity with Open Compute Project standards."
+        },
+        {
+          "q": "Who owns Oleon and where is it based?",
+          "a": "Oleon is a company of the French Avril group, registered in Belgium; the directory lists its head office as Edegem (Antwerp), Belgium. Its founding year is not stated on the pages opened."
+        },
+        {
+          "q": "Where can QLOE be seen running?",
+          "a": "Oleon operates a QLOE application lab in Venette (Paris area), France, offering live demonstrations of immersion cooling setups; visits can be booked, and a bio-based installation in Venette is listed on its immersion cooling page."
+        }
+      ]
+    },
+    {
+      "slug": "perstorp",
+      "name": "Perstorp",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Specialty chemicals group headquartered in Malmö, Sweden and part of PETRONAS Chemicals Group Berhad, supplying the Synmerse DC range of PFAS-free synthetic ester dielectric fluids for single-phase immersion cooling of AI and HPC data centres.",
+      "hq": "Malmö, Sweden",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of PETRONAS Chemicals Group Berhad (Perstorp Holding AB)",
+      "website": "https://www.perstorp.com/",
+      "productLines": [
+        {
+          "name": "Synmerse DC immersion cooling fluids",
+          "note": "Synthetic ester dielectric fluids for single-phase immersion cooling, developed and tested with OEMs and ODMs. Four grades: Synmerse DC (balanced viscosity and fire safety), DC-L (ultra-low viscosity), DC-Lx (ultra-low viscosity with material compatibility) and DC-R (highest fire-safety requirements). PFAS-free, readily biodegradable, high fl …",
+          "source": "https://www.perstorp.com/en/products/engineered_fluids_solutions/thermal_management_fluids/innovative_solutions_for_data_center_cooling/immersion_cooling"
+        },
+        {
+          "name": "Advanced liquid cooling fluid development with Intel (Open IP)",
+          "note": "Announced 25 June 2024: a collaboration with Intel on Open IP Advanced Liquid Cooling to develop synthetic thermal management fluids. 2026 webinars cover dielectric fluids for cold-plate and direct-to-chip cooling - announced and under development, separate from the Synmerse immersion grades sold today.",
+          "source": "https://www.perstorp.com/en/news"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 27 April 2026 Perstorp ran the webinar 'Cold Plate Cooling Reinvented: Trusted Dielectric Fluids for Next-Gen Data Centres', part of a 2026 liquid-cooling programme that also covered H-DINI high-density AI infrastructure supporting 6G.",
+          "source": "https://www.perstorp.com/en/news"
+        },
+        {
+          "year": "2025",
+          "text": "Perstorp took part in the OCP Global Summit 2025 in San Jose (13-16 October 2025), listed among its data-centre sector events alongside next-generation liquid cooling at Data Centre World London on 4-5 March 2026.",
+          "source": "https://www.perstorp.com/en/news"
+        },
+        {
+          "year": "2024",
+          "text": "On 1 October 2024 Perstorp launched Synmerse DC, described as a high-performing immersion cooling fluid for safe and reliable operations.",
+          "source": "https://www.perstorp.com/en/news"
+        },
+        {
+          "year": "2024",
+          "text": "On 25 June 2024 Perstorp announced a collaboration with Intel on Open IP Advanced Liquid Cooling for the development of synthetic thermal management fluids.",
+          "source": "https://www.perstorp.com/en/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Synmerse grades does Perstorp offer?",
+          "a": "Four single-phase immersion grades: Synmerse DC for balanced viscosity and fire safety, DC-L for ultra-low viscosity, DC-Lx for ultra-low viscosity with material compatibility, and DC-R for the highest fire-safety requirements."
+        },
+        {
+          "q": "Are Synmerse fluids PFAS-free?",
+          "a": "Yes. Perstorp states the synthetic ester fluids are PFAS-free and readily biodegradable, with high flash/fire point and extended fluid life from oxidative and thermal stability; numeric property values are not published on the page opened."
+        },
+        {
+          "q": "Who owns Perstorp and where is it based?",
+          "a": "Perstorp Holding AB is headquartered at Neptunigatan 1, Malmö, Sweden, and is part of PETRONAS Chemicals Group Berhad; the founding year is not stated on the pages opened."
+        },
+        {
+          "q": "What is the Intel collaboration about?",
+          "a": "Announced 25 June 2024, it covers development of synthetic thermal management fluids for Intel's Open IP Advanced Liquid Cooling; it is announced development work, separate from the Synmerse immersion grades on sale today."
+        }
+      ]
+    },
+    {
+      "slug": "ksb",
+      "name": "KSB",
+      "segments": [
+        "components"
+      ],
+      "tagline": "German pump and valve manufacturer KSB SE & Co. KGaA, founded in 1871, supplies components for data-centre liquid cooling: hermetically sealed canned-motor pumps for coolant distribution units plus smart control and shut-off valves.",
+      "hq": "NOT_FOUND",
+      "founded": 1871,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.ksb.com/",
+      "productLines": [
+        {
+          "name": "EtaSeco canned-motor pump",
+          "note": "Hermetically sealed, low-maintenance canned-motor pump designed for liquid cooling applications in coolant distribution units (CDUs), with a stated design service life of 30 years and flexible integration into the available installation space. Flow-rate and motor-size figures are not published on the page opened.",
+          "source": "https://www.ksb.com/en-nl/solutions/data-centres"
+        },
+        {
+          "name": "BOA-Systronic ePIC measurement and control valve",
+          "note": "Smart, pressure-independent measurement and control valve for CDU circuits: monitors and controls flow direction, volume flow rate, supply and return temperature, thermal output and quantity of heat, for optimal flow distribution and energy-efficient CDU operation.",
+          "source": "https://www.ksb.com/en-nl/solutions/data-centres"
+        },
+        {
+          "name": "BOAX-S/SF butterfly valves",
+          "note": "Butterfly valves that shut off the cooling circuit quickly and reliably during maintenance or servicing without interrupting wider data-centre operations.",
+          "source": "https://www.ksb.com/en-nl/solutions/data-centres"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "KSB reported that its pumps were selected for 11 data centre cooling projects, with more than 600 units for the primary cooling systems across pump types including Etanorm, Etabloc, Omega, Movitec and MoviBloc, and nearly 300 pumps for the secondary cooling circuits and CDUs, among them the EtaSeco canned-motor pump",
+          "source": "https://www.ksb.com/en-cn/about-ksb/press-releases/ksb-pumps-selected-for-multiple-data-centre-cooling-projects"
+        },
+        {
+          "year": "2024",
+          "text": "In a KSB technology article of October 30, 2024 on cooling data centres for artificial intelligence, KSB states that its EtaSeco canned-motor pump is ideal for CDUs in data centres and that its compact design lets it be integrated into modern cooling systems and CDUs",
+          "source": "https://www.ksb.com/en-global/stream-of-stories/technology/cooling-data-centres"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does KSB supply for liquid-cooled data centres?",
+          "a": "The EtaSeco canned-motor pump for CDU liquid cooling, BOA-Systronic ePIC measurement and control valves, and BOAX-S/SF butterfly valves, supporting rear-door heat exchangers, direct-to-chip cooling for racks above 100 kW, and immersion cooling."
+        },
+        {
+          "q": "What is the EtaSeco pump designed for?",
+          "a": "A hermetically sealed, low-maintenance canned-motor pump for liquid cooling applications in CDUs, designed with a 30-year service life and flexible integration into the available installation space."
+        },
+        {
+          "q": "What does the BOA-Systronic ePIC valve do?",
+          "a": "It is a smart, pressure-independent measurement and control valve that monitors and controls flow direction, volume flow rate, supply and return temperature, thermal output and quantity of heat, supporting energy-efficient CDU operation."
+        },
+        {
+          "q": "Who is KSB?",
+          "a": "KSB SE & Co. KGaA was founded in Germany in 1871; the group's headquarters city and stock exchange listing are not stated on the pages opened (NOT_FOUND)."
+        }
+      ]
     }
   ]
 }
