@@ -8348,6 +8348,569 @@
           "a": "KSB SE & Co. KGaA was founded in Germany in 1871; the group's headquarters city and stock exchange listing are not stated on the pages opened (NOT_FOUND)."
         }
       ]
+    },
+    {
+      "slug": "valeo",
+      "name": "Valeo",
+      "segments": [
+        "heat-rejection",
+        "components"
+      ],
+      "tagline": "Automotive supplier Valeo applies its heat-exchanger and thermal-systems technology to data-center liquid cooling, with aluminum rear-door heat exchangers, single-phase and two-phase direct-to-chip systems with CDUs, and zero-water immersion units for micro-edge compute.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the Paris Stock Exchange (per Valeo press-release boilerplate, February 2026)",
+      "website": "https://www.valeo.com/",
+      "productLines": [
+        {
+          "name": "Aluminium Rear Door Heat Exchanger",
+          "note": "Aluminum radiator module installed on the rear of IT racks to capture heat at its source, from high-power IT workloads to edge data centers. Valeo's October 2025 release cites 30% greater heat-capture efficiency and 80% lower weight than copper versions, with automotive-grade corrosion protection.",
+          "source": "https://www.valeo.com/en/catalogue/ths/aluminium-rear-door-heat-exchange/"
+        },
+        {
+          "name": "Aluminum heat exchangers for rack doors and fan walls",
+          "note": "Presented at OCP Global Summit 2026 and co-validated with OVHcloud: 38% increase in cooling capacity and 65% in power density versus traditional copper solutions, 25% lower fan electrical consumption, and corrosion coating tested to more than 10 years equivalent operating life.",
+          "source": "https://www.valeo.com/en/valeo-presents-breakthrough-aluminum-cooling-technology-for-data-centers-at-ocp-global-summit-2026-and-reaches-significant-durability-milestones/"
+        },
+        {
+          "name": "Two-Phase Direct-to-Chip Liquid Cooling with CDU",
+          "note": "Direct-to-chip liquid cooling shown at Data Centre World Paris 2025, using dielectric fluid instead of water in the cooling distribution unit. Valeo lists both single-phase and two-phase DLC systems in its data-center portfolio.",
+          "source": "https://www.valeo.com/en/valeo-showcases-next-generation-smart-cooling-technologies-at-data-centre-world-paris-2025/"
+        },
+        {
+          "name": "Edge Data Center Immersion Cooling Unit",
+          "note": "Outdoor immersion cooling unit for micro-edge compute described as zero-water; 1 kW cooling capacity at 50°C ambient temperature in a 1U to 2U form factor, requiring no facility water.",
+          "source": "https://www.valeo.com/en/valeo-showcases-next-generation-smart-cooling-technologies-at-data-centre-world-paris-2025/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Ahead of OCP Global Summit 2026 (October 12-15, San Jose), Valeo presented aluminum heat-exchanger technology for rack rear-door modules and fan walls, reporting a 38% increase in cooling capacity and 65% in power density versus traditional copper solutions, 25% lower fan electrical consumption, and coating durability beyond a 10-year equivalent operating life, with testing being pushed to 15 years. The technology was co-validated with OVHcloud.",
+          "source": "https://www.valeo.com/en/valeo-presents-breakthrough-aluminum-cooling-technology-for-data-centers-at-ocp-global-summit-2026-and-reaches-significant-durability-milestones/"
+        },
+        {
+          "year": "2025",
+          "text": "At Data Centre World Paris 2025 (November 5-6, Paris Expo Porte de Versailles), Valeo showcased aluminum rear-door heat exchangers with 30% greater efficiency and 80% lower weight than copper versions, a two-phase direct-to-chip system with a CDU using dielectric fluids instead of water, and an outdoor immersion cooling unit rated 1 kW at 50°C ambient for edge data centers.",
+          "source": "https://www.valeo.com/en/valeo-showcases-next-generation-smart-cooling-technologies-at-data-centre-world-paris-2025/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Valeo offer for data centers?",
+          "a": "Valeo's data-center cooling portfolio includes aluminum rear-door heat exchangers for rack doors and fan walls, single-phase and two-phase direct-to-chip liquid cooling systems with cooling distribution units, and zero-water immersion units for micro-edge compute applications."
+        },
+        {
+          "q": "How does Valeo's aluminum rear-door heat exchanger compare with copper versions?",
+          "a": "Valeo reported in October 2025 that its aluminum RDHX captures heat with 30% greater efficiency and is 80% lighter than copper versions; at OCP Global Summit 2026 it reported a 38% increase in cooling capacity and 65% higher power density versus traditional copper solutions, plus 25% lower fan electrical consumption."
+        },
+        {
+          "q": "Where has Valeo's data-center cooling technology been validated?",
+          "a": "Valeo states that its aluminum cooling technology for rack rear-door modules and fan walls was co-validated with OVHcloud, and that corrosion-protection coating testing has reached the equivalent of more than 10 years of operating life, with tests being extended toward 15 years."
+        },
+        {
+          "q": "Is Valeo a data-center cooling specialist?",
+          "a": "No. Valeo is an automotive supplier listed on the Paris Stock Exchange that applies automotive heat-exchanger and thermal technology to data-center cooling; its data-center products cover rear-door heat exchangers, direct-to-chip liquid cooling and immersion units."
+        }
+      ]
+    },
+    {
+      "slug": "synano",
+      "name": "Synano",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Synano is a Delft-based nanofluid manufacturer supplying NanoOils (alumina nanoparticles in dielectric base oils such as GTL and PAO-2) for single-phase immersion cooling of servers, GPUs and power electronics, plus water-, propylene-glycol- and ethylene-glycol-based NanoCoolants and NanoAdditives.",
+      "hq": "Delft, Netherlands",
+      "founded": 2017,
+      "ownership": "NOT_FOUND",
+      "website": "https://synano.eu/",
+      "productLines": [
+        {
+          "name": "NanoOils",
+          "note": "Dielectric immersion-cooling oils with alumina nanoparticles, stated to deliver up to 15% higher heat transfer than conventional dielectric oils, for submerging servers, GPUs, AI servers and power electronics in standard immersion tanks. Base oils include GTL, PAO-2 and ester additives; PAO2-NanoOil passed Submer immersion fluid validation.",
+          "source": "https://synano.eu/"
+        },
+        {
+          "name": "NanoCoolants",
+          "note": "Water-, propylene glycol- and ethylene glycol-based coolants with alumina nanoparticles; AG One is described as a biostatic water-based fluid with alumina nanoparticles. EG50 NanoCoolant delivered 7.4% better heat transfer in a GP Elite dyno test on a Porsche GT4 engine.",
+          "source": "https://synano.eu/"
+        },
+        {
+          "name": "NanoAdditives",
+          "note": "Nano-additive concentrates for oil-based coolants that let operators upgrade existing dielectric fluids with Synano nanoparticles; the company states its nanoparticles are metal or metal oxides with 100x higher thermal conductivity than liquids.",
+          "source": "https://synano.eu/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Synano published a full white paper on GRC and Grundfos validation of its NanoOil for immersion cooling and opened its webshop so NanoCoolants can be ordered worldwide (September 2026).",
+          "source": "https://synano.eu/news"
+        },
+        {
+          "year": "2026",
+          "text": "Synano announced that its PAO2-Nano fluid passed Submer immersion fluid validation, published as a case study in August 2026.",
+          "source": "https://synano.eu/news"
+        },
+        {
+          "year": "2025",
+          "text": "Synano demonstrated NanoOil immersion cooling live at OCP Global Summit 2025 in October 2025, reporting strong interest from the direct liquid cooling and immersion cooling industry.",
+          "source": "https://synano.eu/news"
+        },
+        {
+          "year": "2025",
+          "text": "In July 2025 Synano announced independent validation of its nanofluids at APL GmbH and first shipments of nano-enhanced cooling fluids to industrial partners; in August 2025 it doubled its office and laboratory space.",
+          "source": "https://synano.eu/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Synano sell for immersion cooling?",
+          "a": "NanoOils are dielectric oils with alumina nanoparticles for single-phase immersion cooling of servers, GPUs, AI servers and power electronics in standard immersion tanks, stated to give up to 15% higher heat transfer than conventional dielectric oils. NanoAdditives and water-, PG- and EG-based NanoCoolants complete the range."
+        },
+        {
+          "q": "Have Synano fluids been validated by third parties?",
+          "a": "Yes. Synano reports validation with Submer (PAO2-Nano passed Submer immersion fluid validation), with GRC and Grundfos (white paper published September 2026), and independent testing at APL GmbH in July 2025; fluids are tested per REACH, ASTM and IEC standards."
+        },
+        {
+          "q": "Who is Synano?",
+          "a": "A Dutch startup founded in 2017 by a team of thermal and nano-materials experts from TU Delft research, based in Delft, Netherlands, that stabilizes nanoparticles in low-viscosity fluids and reports consistent heat-transfer increases above 10%."
+        },
+        {
+          "q": "Where can Synano fluids be bought?",
+          "a": "Since September 2026 the Synano webshop is live and NanoCoolants are available to order worldwide; the company also reports first shipments of nano-enhanced cooling fluids to industrial partners since July 2025."
+        }
+      ]
+    },
+    {
+      "slug": "te-connectivity",
+      "name": "TE Connectivity",
+      "segments": [
+        "interconnects",
+        "components"
+      ],
+      "tagline": "TE Connectivity is a global connector and sensor manufacturer whose data-center liquid cooling portfolio spans pressure, temperature and ultrasonic liquid-level sensors for coolant loops, liquid-cooled power busbars and liquid-cooled high-speed I/O built around the Open Rack v3 ecosystem.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.te.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling sensors",
+          "note": "High-precision pressure sensing that stabilizes pump performance, temperature sensors, and ultrasonic level sensors giving reliable readings even in aerated liquids, for CDUs (liquid-to-air and liquid-to-liquid), manifolds, cold plates, heat exchangers, pumps, filters, expansion tanks and piping in deionized water and water-glycol coolants such as PG25.",
+          "source": "https://www.te.com/en/industries/data-centers-ai/applications/sensors-in-data-center-liquid-cooling.html"
+        },
+        {
+          "name": "Liquid-cooled power busbar assembly",
+          "note": "Power busbar with integrated liquid cooling, showcased at OCP EMEA Summit 2025, designed so rack power distribution can follow rising AI rack power requirements without increasing busbar footprint.",
+          "source": "https://www.te.com/en/about-te/events/ocp-emea-2025.html"
+        },
+        {
+          "name": "High-speed I/O liquid cooling and thermal bridge hybrid",
+          "note": "Combination of TE patented thermal bridge components with a liquid cooling cold plate to address thermal challenges in high-speed I/O for AI, HPC and data center applications.",
+          "source": "https://www.te.com/en/about-te/events/ocp-emea-2025.html"
+        },
+        {
+          "name": "ORv3 rack power distribution",
+          "note": "Power distribution compatible with Open Rack v3, including integrated busbar assemblies, custom power cable assemblies, RAPID LOCK cable assemblies, CROWN CLIP Jr busbar clips, ELCON Mini connectors and next-generation MULTI-BEAM Plus power connectors.",
+          "source": "https://www.te.com/en/about-te/events/ocp-emea-2025.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its March 13, 2026 release ahead of OFC 2026, TE Connectivity described a high-density optical backplane with front-panel connectivity that integrates liquid cooling, among optical, copper and thermal innovations for AI architectures",
+          "source": "https://www.te.com/en/about-te/news-center/te-ofc-2026.html"
+        },
+        {
+          "year": "2025",
+          "text": "At OCP EMEA Summit 2025 (April 29-30, Dublin, booth B3), TE Connectivity showcased a liquid-cooled power busbar assembly for rising AI rack power, a high-speed I/O liquid cooling and thermal bridge hybrid combining patented thermal bridge components with a liquid cooling cold plate, and Open Rack v3 compatible power distribution.",
+          "source": "https://www.te.com/en/about-te/events/ocp-emea-2025.html"
+        }
+      ],
+      "ocp": "TE Connectivity is listed on the OCP Marketplace for its busbar assembly with liquid cooling, with related links to the Open Rack V3 base specification; the listing page shows no acceptance status or date.",
+      "faq": [
+        {
+          "q": "Which sensors does TE offer for data center liquid cooling?",
+          "a": "Pressure sensors for high-precision sensing that stabilizes pump performance, temperature sensors, and ultrasonic liquid level sensors that deliver reliable readings even in aerated liquids, deployed across CDUs (liquid-to-air and liquid-to-liquid), manifolds, cold plates, heat exchangers, pumps, filters, expansion tanks and piping."
+        },
+        {
+          "q": "In which cooling loops are the sensors used?",
+          "a": "TE positions its sensors across the secondary technology cooling system loop and the primary facility water system, in coolants including deionized water and water-glycol mixtures such as PG25."
+        },
+        {
+          "q": "What is TE liquid-cooled power busbar?",
+          "a": "A power busbar assembly with integrated liquid cooling, showcased at OCP EMEA Summit 2025, intended to let rack power distribution keep up with rising AI rack power requirements without increasing the busbar footprint."
+        },
+        {
+          "q": "Is TE involved with OCP?",
+          "a": "TE exhibited at OCP EMEA Summit 2025 in Dublin and is listed on the OCP Marketplace for its busbar assembly with liquid cooling, linked to the Open Rack V3 base specification; the marketplace listing carries no acceptance status or date."
+        }
+      ]
+    },
+    {
+      "slug": "calyos",
+      "name": "Calyos",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Calyos, based in Charleroi, Belgium, designs passive, pumpless two-phase cooling loops - heat pipes, loop heat pipes, micro-channel and pulsating heat pipes - for AI servers, switches and edge compute, moving heat to remote air exchangers without pumps.",
+      "hq": "Charleroi, Belgium",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.calyos-tm.com/",
+      "productLines": [
+        {
+          "name": "Airgrade AI server GPU tray",
+          "note": "Passive two-phase cooling tray for AI server GPUs, dissipated up to 12 kW without pumps; showcased at Data Centre World Asia in September 2026.",
+          "source": "https://www.calyos-tm.com/markets/data-centers"
+        },
+        {
+          "name": "Pumpless loop heat pipes",
+          "note": "Two-phase loop heat pipes carry heat from CPUs, GPUs and switch ASICs to remote air exchangers; demonstrated on a single 1,500 W switch ASIC and a 600 W CPU with >150 W hotspots in a 2U chassis at 300 CFM.",
+          "source": "https://www.calyos-tm.com/markets/data-centers"
+        },
+        {
+          "name": "Two-phase cooling for 2CRSi edge AI server",
+          "note": "Portable pumpless loop heat pipe cooling for the 2CRSi edge AI server, dissipating up to 12 kW; the collaboration was announced in June 2026.",
+          "source": "https://www.calyos-tm.com/markets/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In November 2026 Calyos and Euro Heat Pipes launched the Two-Phase Valley, a joint European ecosystem for two-phase cooling; in September 2026 Calyos showcased its passive two-phase Airgrade solution for AI servers at Data Centre World Asia.",
+          "source": "https://www.calyos-tm.com/news"
+        },
+        {
+          "year": "2026",
+          "text": "In April 2026 Calyos presented its air-cooled AI server concept ('AI GenAIRation') at the OCP EMEA Summit; in June 2026 it announced a collaboration with 2CRSi on two-phase cooling for edge AI servers.",
+          "source": "https://www.calyos-tm.com/news"
+        },
+        {
+          "year": "2025",
+          "text": "In December 2025 Calyos was selected for NATO's DIANA 2026 cohort to optimize data centre cooling, and in November 2025 it presented a hybrid air/two-phase cooled server with Valeo at Data Center World Paris.",
+          "source": "https://www.calyos-tm.com/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do Calyos cooling loops need pumps?",
+          "a": "No. Calyos builds passive, pumpless two-phase loops - heat pipes, loop heat pipes, micro-channel and pulsating heat pipes - that move heat by phase change and capillary action to remote air exchangers, with no moving parts in the loop."
+        },
+        {
+          "q": "What heat loads has Calyos demonstrated for data center hardware?",
+          "a": "On its data center page Calyos cites its Airgrade AI server GPU tray and 2CRSi edge AI server cooling at up to 12 kW, a single 1,500 W switch ASIC, a 600 W CPU with >150 W hotspots in a 2U chassis at 300 CFM, and a 300 W FPGA in a 1U chassis."
+        },
+        {
+          "q": "Where is Calyos based and how active is it in the data center ecosystem?",
+          "a": "Calyos is located in Charleroi, Belgium (Zoning De Jumet). Its 2025-2026 news lists appearances at the OCP Global Summit 2025 and OCP EMEA Summit 2026, Data Centre World Asia 2026, and selection for NATO's DIANA 2026 cohort on data centre cooling."
+        }
+      ]
+    },
+    {
+      "slug": "seco-warwick",
+      "name": "SECO/WARWICK",
+      "segments": [
+        "materials"
+      ],
+      "tagline": "SECO/WARWICK, headquartered in Swiebodzin, Poland, is a publicly traded industrial furnace maker (traded since 2007). Its CAB and vacuum brazing lines - Active Only CAB, EV/CAB, Vector, VAB Line - braze the aluminium cooling plates and heat exchangers used in liquid cooling systems.",
+      "hq": "Swiebodzin, Poland",
+      "founded": "NOT_FOUND",
+      "ownership": "Publicly listed company, traded since 2007 (SECO/WARWICK)",
+      "website": "https://www.secowarwick.com/",
+      "productLines": [
+        {
+          "name": "CAB furnaces (Controlled Atmosphere Brazing)",
+          "note": "Fluxless CAB lines for aluminium assemblies, in use by SECO/WARWICK since 1984; the vacuum purge semi-continuous Active Only CAB furnace is applied to brazing battery cooling plates and automotive heat exchangers, per the company's 2019 brazing article.",
+          "source": "https://www.secowarwick.com/en/news/controlled-atmosphere-brazing-hev"
+        },
+        {
+          "name": "EV/CAB, Semi-Continuous and Universal CAB Batch lines",
+          "note": "CAB product series for high-volume aluminium brazing; in November 2026 a Chinese partner ordered a semi-continuous CAB line for demanding tube-and-bar heat exchangers.",
+          "source": "https://www.secowarwick.com/en/news/"
+        },
+        {
+          "name": "Vector and VAB Line vacuum furnaces",
+          "note": "Vacuum furnace lines (Vector, CaseMaster Evolution, UniCase Master, Pit-LPC, VAB Line) covering vacuum brazing and heat treatment, the fluxless joining route for aluminium and copper cooling components.",
+          "source": "https://www.secowarwick.com/en/products/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In November 2026 a Chinese partner ordered a semi-continuous CAB brazing line from SECO/WARWICK for demanding tube-and-bar aluminium heat exchangers, per the company's news page.",
+          "source": "https://www.secowarwick.com/en/news/"
+        },
+        {
+          "year": "2019",
+          "text": "SECO/WARWICK's March 2019 brazing article positions CAB furnaces, including the vacuum purge semi-continuous Active Only CAB delivered to a North American aftermarket maker, as the preferred joining technology for aluminium battery cooling plates in HEV/EV vehicles; the company notes CAB activity since 1984.",
+          "source": "https://www.secowarwick.com/en/news/controlled-atmosphere-brazing-hev"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does SECO/WARWICK relate to liquid cooling hardware?",
+          "a": "SECO/WARWICK sells the brazing furnaces used to join aluminium cooling plates and heat exchangers - components of liquid cooling systems. Its published brazing guidance covers cooling plates for vehicles, and its CAB and vacuum lines are used for fluxless aluminium brazing."
+        },
+        {
+          "q": "Which furnace series are offered?",
+          "a": "Controlled Atmosphere Brazing series include CAB Furnaces, EV/CAB, Semi-Continuous Brazing, Universal CAB Batch and Aftermarket lines; vacuum lines include Vector, CaseMaster Evolution, UniCase Master, Pit-LPC and VAB Line, plus custom-designed furnaces."
+        },
+        {
+          "q": "Who owns SECO/WARWICK and where is it based?",
+          "a": "SECO/WARWICK is headquartered at Sobieskiego 8, 66-200 Swiebodzin, Poland, and is a publicly listed company traded since 2007, with customers in over 30 countries per its own pages."
+        }
+      ]
+    },
+    {
+      "slug": "superx",
+      "name": "SuperX",
+      "segments": [
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "SuperX, a Singapore-based company and subsidiary of NASDAQ-listed SuperX AI Technology Limited, builds full-stack AI infrastructure: its CryoPod modular cooling enclosure integrates a liquid cooling CDU, circulation pump and dry air cooler in models rated 680-900 kW, alongside AI servers (XI6150, B300/B200) and 800VDC digital power.",
+      "hq": "Singapore, Singapore",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of SuperX AI Technology Limited (NASDAQ: SUPX)",
+      "website": "https://www.superx.sg/",
+      "productLines": [
+        {
+          "name": "CryoPod 680 / 700 / 880 / 900",
+          "note": "Modular dry-cooler enclosure integrating a liquid cooling CDU, primary circulation pump and pipework plus sprinkler system. Rated heat transfer 680/700/880/900 kW with 35 C liquid supply at 30 C ambient, flows 833-1,000 L/min, max 10 bar, 25% ethylene glycol or water coolant, DN100 connections, 400V 50/60Hz, 6,000-6,700 kg.",
+          "source": "https://www.superx.sg/products/cryopod"
+        },
+        {
+          "name": "AI servers and AI rack systems",
+          "note": "AI servers including the XI6150 and B300/B200 systems and an NVIDIA GB300-based AI rack; a first order of 128 NVIDIA B300 servers from Ezisight was announced in August 2026.",
+          "source": "https://www.superx.sg/"
+        },
+        {
+          "name": "Digital power and modular data center products",
+          "note": "Digital power products including Panama-800VDC, Aurora-800VDC, GreenPort and Energy Vault, a Powercore AI-factory offering and a Micro-Modular Data Center, complementing its cooling systems for AI sites.",
+          "source": "https://www.superx.sg/products/cryopod"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 12 November 2026 SuperX made its U.S. exhibition debut at SC26, showcasing full-stack AI infrastructure solutions spanning AI servers, cooling and digital power.",
+          "source": "https://www.superx.sg/"
+        },
+        {
+          "year": "2026",
+          "text": "On 28 August 2026 SuperX announced a first order of 128 NVIDIA B300 servers from Ezisight, its entry into the Australian market; a further B300 order from Woodman followed for Japan.",
+          "source": "https://www.superx.sg/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the SuperX CryoPod?",
+          "a": "A modular cooling enclosure that integrates a liquid cooling CDU, primary circulation pump and pipeline, a sprinkler system and a dry air cooler in one unit, aimed at AI data centers. Four models (680, 700, 880, 900) are rated at 680-900 kW heat transfer capacity."
+        },
+        {
+          "q": "What are the CryoPod's operating parameters?",
+          "a": "Rated liquid supply temperature is 35 C at 30 C ambient, max pressure 10 bar, flows 833 L/min (680/700 models) or 1,000 L/min (880/900), coolant of 25% ethylene glycol or water, DN100 connections, 400V 50/60Hz power, in a 6058x2438x5792 mm enclosure weighing 6,000-6,700 kg."
+        },
+        {
+          "q": "Who owns SuperX and what else does it sell?",
+          "a": "SuperX AI Pte. Ltd. of Singapore is a subsidiary of SuperX AI Technology Limited, listed on NASDAQ as SUPX. Beyond cooling, it sells AI servers (XI6150, B300/B200, GB300 rack), 800VDC digital power and micro-modular data centers."
+        }
+      ]
+    },
+    {
+      "slug": "shell",
+      "name": "Shell",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Shell plc produces liquid cooling fluids for data centres, including a propylene glycol-based PG25 direct liquid cooling fluid and a proprietary dielectric single-phase immersion cooling fluid made from natural gas via its gas-to-liquids (GTL) technology, complemented by the Shell MIDEL ester fluid range.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Shell plc (public limited company)",
+      "website": "https://www.shell.com/",
+      "productLines": [
+        {
+          "name": "Shell DLC Fluid (PG25)",
+          "note": "Propylene glycol-based PG25 coolant engineered for direct-to-chip liquid cooling, aimed at heat transfer performance, long-term corrosion protection and extended operational life; qualified as NVIDIA DSX Ready Coolant, per Shell.",
+          "source": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html"
+        },
+        {
+          "name": "Shell Immersion Cooling Fluid",
+          "note": "Dielectric single-phase immersion fluid made from natural gas using Shell's gas-to-liquids (GTL) technology; certified by Intel for use with 4th and 5th Gen Intel Xeon processors in data centres worldwide.",
+          "source": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html"
+        },
+        {
+          "name": "Shell MIDEL ester fluids",
+          "note": "Ester transformer-fluid range complementing the liquid cooling portfolio: MIDEL 7131 meets IEC 61099 and ASTM D8240 (K3 class) and MIDEL eN 1204/eN 1215 meet IEC 61039 and ASTM D6871 (K2 class); FM Approved and UL classified.",
+          "source": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Shell announced NVIDIA DSX Ready Coolant qualification for its direct liquid cooling (DLC) fluid, a PG25 propylene glycol coolant for direct-to-chip applications; per Shell, NVIDIA is the first to announce qualification of the fluid, just over a year after its launch (page updated 9 November 2026).",
+          "source": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html"
+        },
+        {
+          "year": "2026",
+          "text": "On April 20, 2026 Keppel and Shell announced an immersion liquid cooling testbed at an operational Keppel data centre in Singapore, using Shell’s gas-to-liquids-based immersion cooling fluid in a live server tank; it was to be operational by May 2026 for twelve months",
+          "source": "https://www.keppel.com/media/keppel-and-shell-to-launch-advanced-immersion-liquid-cooling-testbed-for-more-sustainable-data-centres"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling fluids does Shell sell for data centres?",
+          "a": "Shell sells a propylene glycol-based PG25 direct liquid cooling fluid for direct-to-chip applications and a dielectric single-phase immersion cooling fluid made from natural gas via its GTL technology, with the Shell MIDEL ester range complementing the portfolio."
+        },
+        {
+          "q": "What third-party validation do the fluids have?",
+          "a": "Per Shell, its DLC Fluid received NVIDIA DSX Ready Coolant qualification (NVIDIA being the first to announce qualification of the fluid), and its Immersion Cooling Fluids are certified by Intel for use with 4th and 5th Gen Intel Xeon processors in data centres worldwide."
+        },
+        {
+          "q": "What performance figures does Shell publish for immersion cooling?",
+          "a": "Shell cites up to 48% energy footprint reduction, up to 40% CPU speed increase, up to 80% floor-space saving and up to 33% lower total cost of ownership for single-phase immersion, figures it bases on a Mordor Intelligence market report and Shell internal evaluations, noting results vary by site."
+        },
+        {
+          "q": "Has Shell used immersion cooling itself?",
+          "a": "Shell reports that Shell IT deployed an immersion-cooled HPC cluster within its Houston data center with help from AMD and Penguin Solutions, and that Shell worked with Asperitas on an energy-efficient HPC cluster upgrade in Amsterdam."
+        }
+      ]
+    },
+    {
+      "slug": "vaisala",
+      "name": "Vaisala",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Finnish measurement company supplying humidity, dew point and temperature transmitters and monitoring systems for data-center cooling, including the Origo platform launched in February 2026; its guidance for liquid-cooled halls is to keep coolant supply at least 2 degrees C above measured ambient dew point.",
+      "hq": "Vantaa, Finland",
+      "founded": 1936,
+      "ownership": "Series A and K shares; series A shares listed on Nasdaq Helsinki",
+      "website": "https://www.vaisala.com/",
+      "productLines": [
+        {
+          "name": "Origo10 Series transmitters",
+          "note": "Modular HVAC transmitter family with exchangeable probes measuring humidity, temperature, CO2 and dew point; the Origo platform was launched with a February 2, 2026 press release on cutting cooling waste in data centers and is listed among Vaisala's recommended data-center products.",
+          "source": "https://www.vaisala.com/en/industries-applications/hvac-measurement/data-centers"
+        },
+        {
+          "name": "Indigo Supervisor",
+          "note": "Monitoring hub that connects up to 100 sensors to one touchscreen with one Modbus TCP connection; Vaisala announced it for data centers on September 29, 2026, saying the challenge is shifting from measurement coverage to operational scalability.",
+          "source": "https://www.vaisala.com/en/newsroom"
+        },
+        {
+          "name": "HUMICAP humidity and temperature instruments",
+          "note": "Probe and transmitter family for data-center air conditions, including HMP110 and HMP113 HUMICAP probes, HMT120/130 transmitters, and wall- and duct-mounted HMW110, HMD60 and HMD110 units, all listed on Vaisala's data-center application page.",
+          "source": "https://www.vaisala.com/en/industries-applications/hvac-measurement/data-centers"
+        },
+        {
+          "name": "viewLinc Cloud Suite",
+          "note": "Cloud-based continuous environmental monitoring platform offered for data centers, complemented by the Vaisala Care for Data Centers service combining calibration, probe pools and the MyVaisala portal.",
+          "source": "https://www.vaisala.com/en/industries-applications/hvac-measurement/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On September 29, 2026 Vaisala launched Indigo Supervisor for data centers, a monitoring system that manages up to 100 measurement points as a single system as environmental monitoring shifts from coverage to scalability.",
+          "source": "https://www.vaisala.com/en/newsroom"
+        },
+        {
+          "year": "2026",
+          "text": "On September 8, 2026 Vaisala launched Care services to help data centers maintain measurement accuracy at scale, covering measurements that support cooling performance in larger, AI-driven facilities.",
+          "source": "https://www.vaisala.com/en/newsroom"
+        },
+        {
+          "year": "2026",
+          "text": "On February 2, 2026 Vaisala launched the Origo modular transmitter platform with the press release 'What's the cost of a half-degree? Vaisala's new Origo slashes cooling waste in data centers'.",
+          "source": "https://www.vaisala.com/en/newsroom"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Vaisala offer for liquid-cooled data centers?",
+          "a": "Measurement and monitoring rather than cooling hardware: Origo10 transmitters with exchangeable probes, Indigo Supervisor for up to 100 measurement points, HUMICAP probes and viewLinc monitoring. Vaisala's guidance for liquid-cooled halls is to keep coolant supply temperature at least 2 degrees C above the measured ambient dew point."
+        },
+        {
+          "q": "Does Vaisala make coolant distribution units or cold plates?",
+          "a": "No. Its data-center offering consists of measurement instruments, monitoring software and services, used to control cooling and manage condensation risk around liquid cooling loops."
+        },
+        {
+          "q": "When did Vaisala launch the Origo platform for data centers?",
+          "a": "February 2, 2026, with a press release on reducing cooling waste in data centers; Indigo Supervisor followed on September 29, 2026 and data-center Care services on September 8, 2026."
+        },
+        {
+          "q": "Where is Vaisala listed?",
+          "a": "Vaisala has series A and K shares; its series A shares are listed on Nasdaq Helsinki."
+        }
+      ]
+    },
+    {
+      "slug": "usystems",
+      "name": "USystems",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "UK maker of the ColdLogik line of rear door heat exchangers (CL20, CL21 and CL23, with the CL23 rated up to 200 kW per rack), matching coolant distribution units and in-row coolers; acquired by the Legrand group in July 2022 and now part of its data-centre offering.",
+      "hq": "Bedford, United Kingdom",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Legrand; acquired by the Legrand group on July 29, 2022",
+      "website": "https://www.usystems.com/",
+      "productLines": [
+        {
+          "name": "ColdLogik CL23 Active Rear Door Heat Exchanger",
+          "note": "Active rear door heat exchanger rated at up to 200 kW per rack; the announcement of the Legrand acquisition described the ColdLogik rear door cooler range as 0.1 to 200 kW plus per rack, covering retrofit and new build; a FastTrack delivery version is offered.",
+          "source": "https://www.usystems.com/all-products/rear-door-heat-exchangers"
+        },
+        {
+          "name": "ColdLogik CL20 and CL21 Rear Door Heat Exchangers",
+          "note": "CL20 is the active model described as the original intelligent rear door heat exchanger; CL21 is the passive model offering high-performance cooling at zero operational cost. Both are available in FastTrack versions for faster delivery.",
+          "source": "https://www.usystems.com/all-products"
+        },
+        {
+          "name": "ColdLogik Coolant Distribution Unit",
+          "note": "CDU that separates primary and secondary fluid circuits through a plate heat exchanger; stated to fit the footprint of a standard 42U rack, 800 mm wide by 1200 mm deep. Capacity and flow figures are not stated on the pages opened.",
+          "source": "https://www.usystems.com/all-products"
+        },
+        {
+          "name": "CL80 InRow Coolers",
+          "note": "In-row cooler family listed in 300W and 600W variants, with a FastTrack version configurable at 42U extendable to 52U and 600 mm or 800 mm widths, shipped in 4 to 6 weeks.",
+          "source": "https://www.usystems.com/all-products"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In August 2025 USystems published a case study describing a decade of ColdLogik intelligent cooling at Cambridge University, highlighting efficiency and adaptability of the rear door heat exchanger deployment.",
+          "source": "https://www.usystems.com/knowledge-hub"
+        },
+        {
+          "year": "2022",
+          "text": "On July 29, 2022 the Legrand group announced the acquisition of Bedford-based USystems Ltd, adding the ColdLogik rear door cooler technology with a cooling range of 0.1 to 200 kW plus per rack to its data centre solutions.",
+          "source": "https://www.usystems.com/knowledge-hub-posts/legrand-group-expands-data-center-service-with-acquisition-of-usystems-ltd"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling capacity do ColdLogik rear door heat exchangers offer?",
+          "a": "The CL23 active rear door heat exchanger is rated at up to 200 kW per rack, and the range announced with the Legrand acquisition spans 0.1 to 200 kW plus per rack, covering both retrofit and new build deployments. A passive CL21 model cools with zero operational cost."
+        },
+        {
+          "q": "Who owns USystems?",
+          "a": "USystems Ltd, headquartered in Bedford, United Kingdom, was acquired by the Legrand group; the acquisition was announced on July 29, 2022. The company's founding year is not stated on the pages opened."
+        },
+        {
+          "q": "What does the ColdLogik CDU provide?",
+          "a": "The ColdLogik coolant distribution unit separates primary and secondary fluid circuits using a plate heat exchanger and fits the footprint of a standard 42U rack, 800 mm wide by 1200 mm deep; published capacity and flow figures were not found on the product pages."
+        },
+        {
+          "q": "Is there a recent ColdLogik deployment reference?",
+          "a": "An August 2025 case study on the USystems knowledge hub describes ten years of ColdLogik intelligent cooling operation at Cambridge University."
+        }
+      ]
     }
   ]
 }

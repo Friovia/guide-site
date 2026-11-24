@@ -2074,7 +2074,7 @@
         {
           "name": "Vaisala",
           "hq": "FI",
-          "note": "Humidity, dew point and temperature transmitters (Origo10, HUMICAP, DMP6) and monitoring for data center cooling and ASHRAE envelopes",
+          "note": "Humidity, dew-point and temperature transmitters for data center cooling (Origo10, HUMICAP) and dew-point guidance for liquid-cooled racks",
           "source": "https://www.vaisala.com/",
           "evidence": "https://www.vaisala.com/en/industries-applications/hvac-measurement/data-centers"
         },
