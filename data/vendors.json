@@ -240,7 +240,7 @@
           "hq": "US",
           "note": "Data center solutions: CDUs, single- and two-phase liquid cold plates, manifolds, pumped two-phase systems, liquid-air heat exchangers, Tekgard chillers",
           "source": "https://www.1-act.com/",
-          "evidence": "https://www.1-act.com"
+          "evidence": "https://www.1-act.com/industries/data-centers/"
         },
         {
           "name": "Corintis",
@@ -261,7 +261,7 @@
           "hq": "US",
           "note": "NeuCool two-phase direct-to-chip liquid cooling with dielectric refrigerant; 4,500W+ per socket; in-rack two-phase CDU (IR150); partners include NVIDIA, Dell, Legrand, Johnson Controls",
           "source": "https://www.accelsius.com/",
-          "evidence": "https://www.accelsius.com"
+          "evidence": "https://accelsius.com/ir150"
         },
         {
           "name": "Mikros Technologies",
@@ -633,7 +633,7 @@
           "hq": "US",
           "note": "QuantumLeap data center thermal management: AquaEdge/AquaForce chillers, Aero air handling, and Coolant Distribution Units for direct-to-chip cooling",
           "source": "https://www.carrier.com/",
-          "evidence": "https://www.carrier.com/us/en/commercial/data-centers"
+          "evidence": "https://www.carrier.com/commercial/en/us/news/news-article/new-carrier-coolant-distribution-unit-expands-data-center-solutions.html"
         },
         {
           "name": "Ecolab (Nalco Water)",
@@ -647,7 +647,7 @@
           "hq": "US",
           "note": "Data center solutions: CDUs, single- and two-phase liquid cold plates, manifolds, pumped two-phase systems, liquid-air heat exchangers, Tekgard chillers",
           "source": "https://www.1-act.com/",
-          "evidence": "https://www.1-act.com"
+          "evidence": "https://www.1-act.com/industries/data-centers/"
         },
         {
           "name": "Nautilus Data Technologies",
@@ -675,7 +675,7 @@
           "hq": "US",
           "note": "NeuCool two-phase direct-to-chip liquid cooling with dielectric refrigerant; 4,500W+ per socket; in-rack two-phase CDU (IR150); partners include NVIDIA, Dell, Legrand, Johnson Controls",
           "source": "https://www.accelsius.com/",
-          "evidence": "https://www.accelsius.com"
+          "evidence": "https://accelsius.com/ir150"
         },
         {
           "name": "AAON (BASX)",
@@ -729,7 +729,7 @@
         {
           "name": "DDC Solutions",
           "hq": "US",
-          "note": "Ultra-high-density rack cabinets with patented self-contained hybrid air+liquid cooling; S-Series v4 cabinet supports 100kW air cooling and is liquid-to-chip ready beyond 1MW per cabinet for AI/HPC",
+          "note": "Ultra-high-density rack cabinets with hybrid air and liquid cooling: S-4 up to 85 kW and S-5 up to 100 kW air-side per cabinet, GPUVault up to 200 kW, with direct-to-chip liquid integration for 1 MW+ per rack",
           "source": "https://ddcsolutions.com/",
           "evidence": "https://ddcsolutions.com/daikin-applied-completes-acquisition-of-ddc-solutions"
         },
@@ -923,7 +923,7 @@
           "hq": "US",
           "note": "OCP-compliant UQD/UQDB quick disconnect couplings, Data Master Cooling Hose, Data Center Couplings and Data Center Pumps lines",
           "source": "https://www.gates.com/",
-          "evidence": "https://www.gates.com/content/gates/us/en/fluid-power/hydraulic-hose-and-couplings/quick-disconnect-couplers.p.7245-110000-000000.html"
+          "evidence": "https://www.gates.com/us/en/innovations-and-solutions/industrial-and-off-highway-solutions/data-center-cooling-systems.html"
         },
         {
           "name": "Titan Fittings",
@@ -1283,7 +1283,7 @@
         {
           "name": "DDC Solutions",
           "hq": "US",
-          "note": "Ultra-high-density rack cabinets with patented self-contained hybrid air+liquid cooling; S-Series v4 cabinet supports 100kW air cooling and is liquid-to-chip ready beyond 1MW per cabinet for AI/HPC",
+          "note": "Ultra-high-density rack cabinets with hybrid air and liquid cooling: S-4 up to 85 kW and S-5 up to 100 kW air-side per cabinet, GPUVault up to 200 kW, with direct-to-chip liquid integration for 1 MW+ per rack",
           "source": "https://ddcsolutions.com/",
           "evidence": "https://ddcsolutions.com/daikin-applied-completes-acquisition-of-ddc-solutions"
         },
@@ -1514,7 +1514,7 @@
           "hq": "US",
           "note": "Water treatment and coolant services for 200+ data centers; PG25 direct-to-chip chemistry; OCP Cooling Environments contributor; Dow Coolant Care Network provider",
           "source": "https://www.chemtreat.com/",
-          "evidence": "https://www.prnewswire.com/news-releases/chemtreat-joins-dows-coolant-care-network-as-strategic-national-provider-for-ai-data-center-cooling-302774970.html"
+          "evidence": "https://www.chemtreat.com/data-centers/"
         },
         {
           "name": "Castrol",
@@ -1528,7 +1528,7 @@
           "hq": "US",
           "note": "COOLWAVE DC-25 PG25-class heat transfer fluid, an OCP Accepted solution; DC-series engineered data center coolants (DC-25/DC-30/DC-55)",
           "source": "https://www.dober.com/",
-          "evidence": "https://www.dober.com/performance-fluids/resources/pg-25-coolant-data-centers"
+          "evidence": "https://www.dober.com/data-center-coolants"
         },
         {
           "name": "Cargill (Bioindustrial)",
@@ -1587,11 +1587,11 @@
           "evidence": "https://synano.eu"
         },
         {
-          "name": "Honeywell",
+          "name": "Solstice Advanced Materials",
           "hq": "US",
-          "note": "Solstice E-Cooling line of two-phase dielectric liquid heat transfer fluids for cooling high-performance electronics and data center servers, with ultra-low GWP",
-          "source": "https://www.honeywell.com/",
-          "evidence": "https://www.honeywell.com/us/en/news/press-releases/2020/02/honeywell-launches-innovative-cooling-technology-for-electronics-data-centers"
+          "note": "Two-phase dielectric liquid cooling fluids for data center cold plates and other electronics cooling solutions; the Advanced Materials business spun off from Honeywell in October 2025 (Nasdaq: SOLS)",
+          "source": "https://www.solstice.com/",
+          "evidence": "https://www.solstice.com/us/en/applications/air-conditioning-refrigeration-and-heating/data-centers"
         },
         {
           "name": "ExxonMobil",
@@ -1767,7 +1767,7 @@
           "hq": "US",
           "note": "QuantumLeap data center thermal management: AquaEdge/AquaForce chillers, Aero air handling, and Coolant Distribution Units for direct-to-chip cooling",
           "source": "https://www.carrier.com/",
-          "evidence": "https://www.carrier.com/us/en/commercial/data-centers"
+          "evidence": "https://www.carrier.com/commercial/en/us/news/news-article/new-carrier-coolant-distribution-unit-expands-data-center-solutions.html"
         },
         {
           "name": "Super Radiator Coils",
@@ -2139,7 +2139,7 @@
           "hq": "US",
           "note": "Data center solutions: CDUs, single- and two-phase liquid cold plates, manifolds, pumped two-phase systems, liquid-air heat exchangers, Tekgard chillers",
           "source": "https://www.1-act.com/",
-          "evidence": "https://www.1-act.com"
+          "evidence": "https://www.1-act.com/industries/data-centers/"
         },
         {
           "name": "Burkert",

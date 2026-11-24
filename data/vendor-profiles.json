@@ -4456,6 +4456,1244 @@
           "a": "Founding year, headquarters city and stock listing are marked NOT_FOUND: the homepage opened states neither a founding year nor a headquarters city (only a Seoul phone area code and a 1991 note on FFU production)."
         }
       ]
+    },
+    {
+      "slug": "amphenol",
+      "name": "Amphenol",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Amphenol Industrial Operations, based in Endicott, New York and part of interconnect manufacturer Amphenol, supplies quick-disconnect and blind-mate liquid cooling connectors (UQD/UQDB, MQD, SHQD, LQC, BMQC) used in direct-to-chip cooling loops from server trays to CDU source lines in AI data centers.",
+      "hq": "Wallingford, Connecticut, USA",
+      "founded": 1986,
+      "ownership": "NYSE: APH",
+      "website": "https://amphenol-industrial.com/",
+      "productLines": [
+        {
+          "name": "UQD / UQDB quick disconnects",
+          "note": "Push-pull UQD and blind-mate UQDB connectors stated to meet OCP Universal Quick Disconnect specs; offered in OCP sizes 02, 04, 06 and 08, inline or right-angle, barb or threaded; operating pressure 0-0.6 MPa with safe maximum 2 MPa; stainless steel housings and dry-break bidirectional shut-off valves.",
+          "source": "https://amphenol-industrial.com/liquid-cooling-connectors-launch"
+        },
+        {
+          "name": "SHQD source-line connectors",
+          "note": "High-flow source-line quick disconnects for CDU-to-manifold runs, available in 1 in, 1.5 in and 2 in sizes with rated flow up to 800 L/min, dual interlock safety features, and thread, hose barb or sanitary flange terminations.",
+          "source": "https://amphenol-industrial.com/expanded-liquid-cooling-connectors"
+        },
+        {
+          "name": "MQD compact quick disconnects",
+          "note": "Compact push-pull quick disconnects for space-constrained computer-tray cooling loops, in sizes 02, 03 and 04 with straight and 90-degree versions, low flow resistance, corrosion-resistant materials and QR-code traceability.",
+          "source": "https://amphenol-industrial.com/expanded-liquid-cooling-connectors"
+        },
+        {
+          "name": "LQC and BMQC connectors",
+          "note": "Screw-to-connect LQC connectors for higher-flow cold plate and manifold loops, and BMQC blind-mate connectors tolerant to misalignment for rack-level Open Rack V3 installations.",
+          "source": "https://amphenol-industrial.com/products/liquid-cooling-systems"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Amphenol Industrial Operations expanded its liquid cooling connector portfolio for AI data centers: MQD compact disconnects in sizes 02, 03 and 04, UQD/UQDB Rev 2.0 with more fully defined geometry and improved flow performance, and SHQD source-line connectors rated up to 800 L/min for CDU-to-manifold lines.",
+          "source": "https://amphenol-industrial.com/expanded-liquid-cooling-connectors"
+        },
+        {
+          "year": "2025",
+          "text": "Announced launch of the UQD and UQDB liquid cooling connector series meeting OCP Universal Quick Disconnect specifications: four standardized OCP sizes (02, 04, 06, 08), inline or right-angle body styles, barb or threaded terminations, 0-0.6 MPa operating pressure with a safe maximum of 2 MPa.",
+          "source": "https://amphenol-industrial.com/liquid-cooling-connectors-launch"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which OCP specification do Amphenol Industrial's liquid cooling connectors follow?",
+          "a": "The UQD and UQDB series are stated to meet OCP Universal Quick Disconnect specifications and are offered in the four standardized OCP sizes 02, 04, 06 and 08; the UQD/UQDB Rev 2.0 update aligns with updated Open Compute Project requirements for high-performance liquid cooling systems."
+        },
+        {
+          "q": "What flow do the SHQD source-line connectors support?",
+          "a": "SHQD connectors are offered in 1 in, 1.5 in and 2 in sizes with a rated flow of up to 800 L/min and dual interlock safety features, with thread, hose barb or sanitary flange terminations for CDU-to-manifold connections."
+        },
+        {
+          "q": "What coolants can be used with these connectors?",
+          "a": "The connectors are compatible with deionized water, ethylene glycol and propylene glycol coolants, with stainless steel housings and EPDM-based aerospace-grade seal options (FKM and FMVQ also offered)."
+        },
+        {
+          "q": "Who offers these connectors and from where?",
+          "a": "The liquid cooling connector families are offered by Amphenol Industrial Operations, based in Endicott, New York, part of Amphenol."
+        }
+      ]
+    },
+    {
+      "slug": "api-heat-transfer",
+      "name": "API Heat Transfer",
+      "segments": [
+        "components",
+        "heat-rejection"
+      ],
+      "tagline": "API Heat Transfer, a heat exchanger manufacturer with US roots in Buffalo, New York (company formed 1962, heritage to 1947), supplies gasketed plate, shell-and-tube, brazed and dry-cooler heat exchangers for data center liquid cooling, including direct-to-chip, rear-door and immersion architectures.",
+      "hq": "Buffalo, New York, USA",
+      "founded": 1962,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.apiheattransfer.com/",
+      "productLines": [
+        {
+          "name": "SIGMA M186 gasketed plate heat exchanger",
+          "note": "Plate-and-frame unit supporting up to 15 MW of cooling capacity per unit, positioned for AI, HPC and high-density data center cooling across water-side free cooling and primary loop duties.",
+          "source": "https://www.apiheattransfer.com/industry/data-centers"
+        },
+        {
+          "name": "Shell and tube heat exchangers",
+          "note": "Custom shell and tube, extended-surface, U-tube and Type 500 units with capacities up to 30 MW, used for large liquid cooling loop duties in data centers.",
+          "source": "https://www.apiheattransfer.com/industry/data-centers"
+        },
+        {
+          "name": "Brazed and bar-plate heat exchangers",
+          "note": "Aluminum brazed plate and T-bar units up to 3 MW, including compact colocation cooling modules for space-constrained data center installs.",
+          "source": "https://www.apiheattransfer.com/industry/data-centers"
+        },
+        {
+          "name": "V-Bank dry coolers",
+          "note": "Dry heat rejection packages delivering 2.5+ MW per site in roughly 500 sq ft, used at immersion cooling and crypto data center sites.",
+          "source": "https://www.apiheattransfer.com/industry/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Launched the SIGMA M186 heat exchanger for large-scale data center cooling: a gasketed plate-and-frame unit purpose-engineered for hyperscale and AI data center applications.",
+          "source": "https://www.apiheattransfer.com/news"
+        },
+        {
+          "year": "2026",
+          "text": "Opened a third manufacturing plant in Suzhou, China, described by the company as a milestone expanding its heat exchanger manufacturing capacity.",
+          "source": "https://www.apiheattransfer.com/news"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much cooling can one SIGMA M186 unit support?",
+          "a": "The SIGMA M186 gasketed plate-and-frame heat exchanger supports up to 15 MW of cooling capacity per unit and is positioned for AI, HPC and high-density data center cooling, covering water-side free cooling and primary loop scenarios."
+        },
+        {
+          "q": "Which data center cooling architectures do API heat exchangers support?",
+          "a": "The company states its primary heat exchanger technologies are compatible with direct-to-chip, rear-door and immersion cooling architectures, as well as CDU and liquid loop isolation."
+        },
+        {
+          "q": "Where does API Heat Transfer manufacture?",
+          "a": "Manufacturing facilities cited include Buffalo and Arcade, New York; Racine and Franklin, Wisconsin; Montgomery, Alabama; Bretten, Germany; and three plants in Suzhou, China, with the third Suzhou plant opened in May 2026."
+        }
+      ]
+    },
+    {
+      "slug": "armstrong-fluid-technology",
+      "name": "Armstrong Fluid Technology",
+      "segments": [
+        "components",
+        "integrators"
+      ],
+      "tagline": "Armstrong Fluid Technology supplies Design Envelope pumps and the Design Envelope EVERCOOL integrated automation platform for data center chiller plants, positioned for rapid deployment in mission-critical cooling with hot-standby redundancy and brand-agnostic control of chillers, towers and pumps.",
+      "hq": "Toronto, Ontario, Canada",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://armstrongfluidtechnology.com/",
+      "productLines": [
+        {
+          "name": "Design Envelope EVERCOOL",
+          "note": "Automation and optimization for air-cooled or water-cooled chilled water systems in data centers; meets Uptime Institute requirements for all Tiers; controls up to six chillers, six cooling towers, six chilled water and six condenser water pumps with redundant sensors and valves; cites up to 30% less site work and up to 40% lower cooling plant energy costs.",
+          "source": "https://armstrongfluidtechnology.com/products/design-envelope-evercool"
+        },
+        {
+          "name": "Design Envelope pumps",
+          "note": "Pumps for data center cooling loops paired with advanced control solutions and Active Performance Management for uptime assurance; the company cites long service life and modular packaged cooling solutions that can be configured, sourced, assembled and shipped quickly.",
+          "source": "https://armstrongfluidtechnology.com/en/datacenter"
+        },
+        {
+          "name": "Plant optimization peripherals",
+          "note": "Related products listed on the EVERCOOL data center page - ECO*Pulse, TOWERMAX and the Flow-Q Controller - covering sensing, tower optimization and pump control duties in chilled water plants.",
+          "source": "https://armstrongfluidtechnology.com/products/design-envelope-evercool"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On January 13, 2026 Armstrong ran a webinar, Design Considerations for Hydronic Components Required in Liquid Cooling in Data Centers, covering materials of construction and coolant-distribution practice for pumps, heat exchangers and other components of liquid-cooled data center design",
+          "source": "https://info.armstrongfluidtechnology.com/lp-january13-2026-na-design-considerations-for-hydronic-components-required-in-liquid-cooling-in-data-centers"
+        },
+        {
+          "year": "2020",
+          "text": "Announced the launch of Design Envelope EVERCOOL, an automation platform for mission-critical cooling that meets Uptime Institute requirements for data centers, reduces site commissioning time by up to 30% and coordinates cooling system operation to cut energy costs by up to 40%.",
+          "source": "https://blog.armstrongfluidtechnology.com/tag/plant-automation"
+        },
+        {
+          "year": "2014",
+          "text": "Exhibited its data center cooling and air conditioning portfolio at Datacenter Dynamics Converged in London (19-20 November 2014), presenting chilled water system control based on Hartman LOOP digital relational control technology.",
+          "source": "https://blog.armstrongfluidtechnology.com/tag/plant-automation"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Design Envelope EVERCOOL?",
+          "a": "An integrated automation and optimization solution for data center chiller plants. It is pre-engineered, pre-programmed and pre-tested, works with all brands of chillers, pumps and automation systems, and meets Uptime Institute requirements for all Tiers of data centers."
+        },
+        {
+          "q": "How large a plant can EVERCOOL control?",
+          "a": "The platform controls up to six chillers, six cooling towers, six chilled water pumps and six condenser water pumps with redundant sensors and valves, and the company states there are no limitations in plant size and cooling capacity."
+        },
+        {
+          "q": "What savings does Armstrong cite for EVERCOOL?",
+          "a": "Armstrong cites up to 25% shorter design time, up to 30% less site work, up to 40% lower cooling plant energy costs using demand-based control and patented parallel control optimization, and up to 25% lower equipment life cycle cost via Active Performance Management."
+        },
+        {
+          "q": "Where is Armstrong Fluid Technology based?",
+          "a": "The company issues its official announcements from Toronto, Ontario, Canada, as shown by the Toronto datelines on its media blog releases."
+        }
+      ]
+    },
+    {
+      "slug": "aaon",
+      "name": "AAON (BASX)",
+      "segments": [
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "AAON, an HVAC manufacturer founded in 1988 and headquartered in Tulsa, Oklahoma, serves data center liquid cooling through its BASX brand: liquid-to-liquid and liquid-to-air coolant distribution units, free-cooling chillers and CRAHs, made in Longview, Texas with a Memphis plant announced in November 2024.",
+      "hq": "Tulsa, Oklahoma, USA",
+      "founded": 1988,
+      "ownership": "NASDAQ: AAON",
+      "website": "https://www.aaon.com/",
+      "productLines": [
+        {
+          "name": "BASX Coolant Distribution Units (CDUs)",
+          "note": "Liquid-to-liquid CDUs regulating coolant flow, temperature and pressure between IT equipment and facility water loops; design capacity starting at 2 MW with stated plans to exceed 8 MW, N+1 redundancy, stainless steel build and 25- and 50-micron filtration to protect cold plates; liquid-to-air retrofit cited at roughly 20-50 kW per rack.",
+          "source": "https://basx.com/resources/liquid-cooling"
+        },
+        {
+          "name": "BASX free cooling chillers",
+          "note": "Heat rejection for the coolant loop that uses ambient outdoor conditions when possible to reduce mechanical cooling demand, integrated with BASX CDUs as a complete direct-to-chip ecosystem.",
+          "source": "https://basx.com/resources/liquid-cooling"
+        },
+        {
+          "name": "Direct-to-chip rack components",
+          "note": "Cold plates and rack manifolds listed by BASX as components of its direct-to-chip liquid cooling systems, paired with the CDU and heat rejection equipment.",
+          "source": "https://basx.com/resources/liquid-cooling"
+        },
+        {
+          "name": "Data center air-side equipment",
+          "note": "Computer room air handlers (CRAHs), air-cooled systems and direct evaporative coolers for data centers, slated for production at the new Memphis, Tennessee facility alongside liquid-to-liquid and liquid-to-air CDUs.",
+          "source": "https://www.aaon.com/news/aaon-announces-expansion-plans-to-increase-production-capacity-with-new-facility-in-memphis-tennessee"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Production of the BASX-brand custom thermal management systems ordered for a liquid cooling deployment was slated to start in early 2025 at Longview, Texas, in existing and newly constructed facilities, with the majority of deliveries in the first half of 2025.",
+          "source": "https://www.aaon.com/news/aaon-awarded-liquid-cooling-data-center-orders-totaling-approximately-174.5-million"
+        },
+        {
+          "year": "2024",
+          "text": "Announced purchase of a 787,000 sq ft facility in Memphis, Tennessee to expand production capacity for the data center market, slated to make air-cooled systems, CRAHs, direct evaporative coolers and liquid-to-liquid plus liquid-to-air CDUs, with limited production expected in early 2025.",
+          "source": "https://www.aaon.com/news/aaon-announces-expansion-plans-to-increase-production-capacity-with-new-facility-in-memphis-tennessee"
+        },
+        {
+          "year": "2024",
+          "text": "Announced it was awarded liquid cooling data center orders under the BASX brand, including a custom-designed thermal management system supporting a liquid cooling deployment for a hyperscale-type customer's data center.",
+          "source": "https://www.aaon.com/news/aaon-awarded-liquid-cooling-data-center-orders-totaling-approximately-174.5-million"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Under which brand does AAON sell data center liquid cooling equipment?",
+          "a": "AAON sells data center cooling equipment under its BASX brand. AAON is headquartered in Tulsa, Oklahoma, was founded in 1988 and trades on NASDAQ under the ticker AAON; BASX liquid cooling equipment is manufactured in Longview, Texas, with Memphis, Tennessee capacity added."
+        },
+        {
+          "q": "What capacity do BASX CDUs support?",
+          "a": "BASX liquid-to-liquid CDUs have a design capacity starting at 2 MW per unit with stated plans to exceed 8 MW, N+1 redundancy, stainless steel construction and 25- and 50-micron filtration to protect cold plates."
+        },
+        {
+          "q": "Where are BASX data center products manufactured?",
+          "a": "In Longview, Texas (existing and new facilities producing from early 2025) and at a 787,000 sq ft Memphis, Tennessee facility announced in November 2024 for CRAHs, air-cooled systems, direct evaporative coolers and liquid-to-liquid and liquid-to-air CDUs."
+        },
+        {
+          "q": "What did the October 2024 liquid cooling order cover?",
+          "a": "AAON announced data center cooling orders under the BASX brand, including a custom-designed thermal management system supporting a liquid cooling deployment for a hyperscale-type customer's data center, with the majority of production and delivery in the first half of 2025."
+        }
+      ]
+    },
+    {
+      "slug": "advanced-cooling-technologies",
+      "name": "Advanced Cooling Technologies",
+      "segments": [
+        "cold-plates",
+        "cdus",
+        "components"
+      ],
+      "tagline": "Advanced Cooling Technologies (ACT), founded in 2003 and based in Lancaster, Pennsylvania, builds pumped two-phase liquid cooling for AI and HPC data centers: two-phase CDUs at 1 MW, 200 kW and 15 kW, single- and two-phase cold plates and manifolds, with a dedicated US cold plate manufacturing facility announced in 2026.",
+      "hq": "Lancaster, Pennsylvania, USA",
+      "founded": 2003,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.1-act.com/",
+      "productLines": [
+        {
+          "name": "Two-phase coolant distribution units",
+          "note": "Direct-to-chip two-phase CDUs in three sizes: a 1 MW unit with 200-1200 kW dynamic load range validated in 2026 at more than 1 MW total cooling capacity and within 5 degC chilled-water approach; a 200 kW end-of-row unit with N+1 pump redundancy; and a 15 kW in-rack unit in an 8U, 19-inch rack format for edge and telecom loads. One CDU cools up to 10 racks.",
+          "source": "https://www.1-act.com/thermal-solutions/data-center-solutions/coolant-distribution-units/"
+        },
+        {
+          "name": "Single- and two-phase cold plates",
+          "note": "Cold plates that remove heat at the source for high-power data center hardware; ACT announced a dedicated 50,000 sq ft Lancaster, Pennsylvania facility with initial capacity expected to exceed approximately 500,000 cold plates annually for AI processors.",
+          "source": "https://www.1-act.com/about/news/act-expands-u-s-manufacturing-to-scale-cold-plate-production-for-ai-data-center-cooling/"
+        },
+        {
+          "name": "Manifolds and liquid-air heat exchangers",
+          "note": "Custom manifolds for uniform fluid distribution across cold plates in direct-to-chip loops, plus liquid-air heat exchangers listed among ACT's active thermal solutions for rejecting heat to air.",
+          "source": "https://www.1-act.com/industries/data-centers/"
+        },
+        {
+          "name": "Tekgard environmental control units and chillers",
+          "note": "Tekgard ECUs, the Vaphtek ECU and Tekgard chillers round out the product range for environmental control and cooling duties; ACT also provides full-rack integration of cold plates, manifolds and CDUs.",
+          "source": "https://www.1-act.com/industries/data-centers/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Announced a 50,000 sq ft manufacturing facility in Lancaster, Pennsylvania dedicated to US production of single-phase and two-phase cold plates for AI processors, with initial capacity expected to exceed approximately 500,000 cold plates annually, ramping in phases.",
+          "source": "https://www.1-act.com/about/news/act-expands-u-s-manufacturing-to-scale-cold-plate-production-for-ai-data-center-cooling/"
+        },
+        {
+          "year": "2026",
+          "text": "Validated its 1 MW two-phase CDU with more than 1 MW of total cooling capacity, a 200-1200 kW dynamic load range and chilled-water temperature approach within 5 degC, testing thermal performance, stability and control response across varying loads and conditions.",
+          "source": "https://www.1-act.com/thermal-solutions/data-center-solutions/coolant-distribution-units/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacities does ACT offer?",
+          "a": "ACT offers two-phase CDUs at three scales: a 1 MW unit (200-1200 kW dynamic load range, validated in 2026 at more than 1 MW cooling capacity and within 5 degC chilled-water approach), a 200 kW end-of-row unit with N+1 pump redundancy, and a 15 kW in-rack unit in an 8U, 19-inch format for edge and telecom applications."
+        },
+        {
+          "q": "How many racks can one ACT CDU cool?",
+          "a": "ACT states that one of its CDUs reliably cools up to 10 racks, regulating temperature, pressure and flow for direct-to-chip liquid cooling."
+        },
+        {
+          "q": "Where does ACT manufacture cold plates?",
+          "a": "In Lancaster, Pennsylvania, where a dedicated 50,000 sq ft facility announced in May 2026 is expected to produce more than approximately 500,000 single-phase and two-phase cold plates annually for AI processors."
+        },
+        {
+          "q": "When was ACT founded and where is it based?",
+          "a": "Advanced Cooling Technologies, Inc. was founded in 2003 as an R&D company and is headquartered in Lancaster, Pennsylvania, where it also manufactures."
+        }
+      ]
+    },
+    {
+      "slug": "accelsius",
+      "name": "Accelsius",
+      "segments": [
+        "cdus",
+        "cold-plates"
+      ],
+      "tagline": "Accelsius, based in Austin, Texas and founded by Innventure, develops the NeuCool two-phase direct-to-chip liquid cooling platform using a non-conductive dielectric refrigerant, spanning the in-rack IR150 (up to 150 kW) and row-based MR250 (250 kW+) CDUs for AI and HPC racks.",
+      "hq": "Austin, Texas, USA",
+      "founded": "NOT_FOUND",
+      "ownership": "Founded by Innventure, Inc. (NASDAQ: INV)",
+      "website": "https://www.accelsius.com/",
+      "productLines": [
+        {
+          "name": "NeuCool IR150 in-rack CDU",
+          "note": "Rack-level two-phase direct-to-chip unit integrating a two-phase CDU into a 200 mm portion of an 800 mm-wide enclosure with 42U of IT space; up to 150 kW cooling; R-1233zd(E) refrigerant; 55 psi max pressure; 375 L/min facility flow; 20 micron filtration; ASHRAE W27 rated, W45 derated; 1+1 hot-swappable pumps; max 2.6 kW consumption.",
+          "source": "https://accelsius.com/ir150"
+        },
+        {
+          "name": "NeuCool MR250 row CDU",
+          "note": "Row-based two-phase direct-to-chip CDU rated at 250 kW+ per rack for large-scale high-density deployments, with a 15-inch NeuView touchscreen, vaporators and manifolds.",
+          "source": "https://accelsius.com/accelsius-announces-neucool-ir150-hyperstart-program"
+        },
+        {
+          "name": "NeuCool platform and cold plates",
+          "note": "Two-phase direct-to-chip cooling with a non-conductive dielectric refrigerant: 4500W+ per socket, 0.020 degC/W thermal resistance at a 700W+ TDP, roughly 75-80% of CPU and GPU heat removed, supporting Intel, AMD EPYC and NVIDIA Grace, H100, H200, B200 and MI325X/MI355X hardware.",
+          "source": "https://www.accelsius.com/"
+        },
+        {
+          "name": "NeuCool Thermal Simulation Rack (TSR)",
+          "note": "Thermal test platform offered alongside the CDUs for validating two-phase direct-to-chip cooling deployments before production use.",
+          "source": "https://accelsius.com/accelsius-announces-neucool-ir150-hyperstart-program"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Announced the IR150 will be deployed at the EdgeConneX Global Training Center in Houston, Texas - described by the company as the first deployment of its fully integrated IT rack plus CDU, which confines the failure domain to a single rack.",
+          "source": "https://accelsius.com/accelsius-to-deploy-ir150-at-edgeconnex"
+        },
+        {
+          "year": "2026",
+          "text": "Announced general availability of the NeuCool IR150 at Data Center World 2026 (April 20-23, Washington, DC) and launched the NeuCool HyperStart program to help hyperscalers, neoclouds and partners validate two-phase direct-to-chip cooling and incorporate it into reference designs.",
+          "source": "https://accelsius.com/accelsius-announces-neucool-ir150-hyperstart-program"
+        },
+        {
+          "year": "2026",
+          "text": "Debuted the NeuCool IR150 at NVIDIA GTC on March 16, 2026: up to 150 kW in an 800 mm enclosure with 200 mm for cooling and 600 mm for servers, warm-water compatible to ASHRAE W45 (45 degC facility water), supporting NVIDIA Blackwell GPUs and designed with headroom for Vera Rubin.",
+          "source": "https://www.innventure.com/investor-news/accelsius-makes-nvidia-gtc-debut-neucoolr-ir150-industrys-first"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the NeuCool IR150?",
+          "a": "A rack-level two-phase direct-to-chip unit that combines a two-phase CDU, 42U of IT space and built-in liquid and vapor manifolds in one 800 mm-wide enclosure, with up to 150 kW of cooling capacity; about 200 mm is allocated to cooling infrastructure and 600 mm to servers."
+        },
+        {
+          "q": "What refrigerant does NeuCool use?",
+          "a": "A non-conductive dielectric refrigerant, R-1233zd(E), with an A1 safety rating and low global warming potential; no water runs in the rack, so a leak will not damage IT equipment. R-515B specifications were listed as expected mid-2025."
+        },
+        {
+          "q": "Besides the IR150, what CDUs does Accelsius offer?",
+          "a": "The NeuCool MR250, a row-based two-phase CDU rated at 250 kW+ per rack with a 15-inch NeuView touchscreen, plus the NeuCool Thermal Simulation Rack for pre-deployment thermal testing."
+        },
+        {
+          "q": "Who founded Accelsius and where is it based?",
+          "a": "Accelsius LLC is based in Austin, Texas and was founded by Innventure, Inc. (NASDAQ: INV); it is also an NVIDIA Inception program member."
+        }
+      ]
+    },
+    {
+      "slug": "advanced-thermal-solutions",
+      "name": "Advanced Thermal Solutions",
+      "segments": [
+        "components",
+        "cdus",
+        "cold-plates"
+      ],
+      "tagline": "Advanced Thermal Solutions, Inc. (ATS) supplies a broad liquid cooling catalogue spanning laboratory units to data center infrastructure: the 4 MW CDU-X, a 235 kW rack-mount CDU, ArctiQ direct-to-chip cold plates, heat exchangers, chillers, flow meters and leak detectors.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.qats.com/",
+      "productLines": [
+        {
+          "name": "CDU-X coolant distribution unit",
+          "note": "Floor-mounted liquid-to-liquid CDU delivering 4 MW of cooling with redundant pumps and PLC automation, aimed at AI, HPC and mission-critical data center liquid cooling loops.",
+          "source": "https://www.qats.com/Products/Liquid-Cooling"
+        },
+        {
+          "name": "iCDM-X cooling distribution module",
+          "note": "Compact self-contained module providing up to 1.6 MW of cooling for AI GPUs and other chips with only 3 kW of power draw and no external coolant; integrates pumps, heat exchangers and digital monitoring of temperature, pressure and flow for smaller AI data centers.",
+          "source": "https://www.qats.com/cms/2025/06"
+        },
+        {
+          "name": "CDU-RM250 rack CDU and iCDM modules",
+          "note": "4U rack-mount liquid-to-liquid CDU delivering 235 kW with redundant operation for rack-level data center cooling, alongside 10 kW and 20 kW liquid-to-air iCDM modules (including a rugged IP65 version with PLC control) for labs, testing and immersion cooling.",
+          "source": "https://www.qats.com/Products/Liquid-Cooling"
+        },
+        {
+          "name": "ArctiQ DLC cold plates",
+          "note": "Processor-specific direct-to-chip cold plates for AI processors, GPUs and CPUs with optimized coolant flow paths; the wider cold plate range covers microchannel, tubed, dual-sided high-flow, drillable DIY and custom designs.",
+          "source": "https://www.qats.com/Products/Liquid-Cooling"
+        },
+        {
+          "name": "Heat exchangers, chillers and monitoring",
+          "note": "High-fin-density liquid-to-air heat exchangers and compact picoHEX units, recirculating chillers from 150 W to 2,300 W plus thermoelectric and immersion models, digital flow meters tracking flow and temperature, and leak detectors that automatically shut off coolant flow.",
+          "source": "https://www.qats.com/Products/Liquid-Cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Published a technical article on hybrid air-plus-liquid cooling for data centers, covering combined use of CDUs and direct-to-chip cold plates with air cooling for high-density racks.",
+          "source": "https://www.qats.com/cms"
+        },
+        {
+          "year": "2025",
+          "text": "Introduced the ATS iCDM-X cooling distribution module with up to 1.6 MW of cooling for AI GPUs at 3 kW power draw with no external coolant required, together with ICEcrystal cold plates delivering 1.5 kW of jet impingement cooling onto AI chip hotspots.",
+          "source": "https://www.qats.com/cms/2025/06"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is ATS's largest coolant distribution unit?",
+          "a": "The CDU-X, a floor-mounted liquid-to-liquid CDU delivering 4 MW of cooling with redundant pumps and PLC automation for AI, HPC and mission-critical data centers."
+        },
+        {
+          "q": "What did ATS introduce in June 2025?",
+          "a": "The iCDM-X cooling distribution module, providing up to 1.6 MW of cooling for AI GPUs with 3 kW power draw and no external coolant, plus ICEcrystal cold plates delivering 1.5 kW of jet impingement cooling directly onto AI chip hotspots."
+        },
+        {
+          "q": "What rack-level CDU does ATS offer?",
+          "a": "The CDU-RM250, a 4U rack-mount liquid-to-liquid CDU delivering 235 kW with redundant operation for rack-level data center cooling; smaller 10 kW and 20 kW liquid-to-air iCDM modules serve labs and testing."
+        },
+        {
+          "q": "What cold plates and accessories does ATS catalog include?",
+          "a": "ArctiQ processor-specific direct-to-chip cold plates plus microchannel, tubed, dual-sided and custom designs, liquid-to-air heat exchangers, picoHEX compact units, chillers from 150 W to 2,300 W, digital flow meters and leak detectors that shut off coolant flow automatically."
+        }
+      ]
+    },
+    {
+      "slug": "celestica",
+      "name": "Celestica",
+      "segments": [
+        "servers",
+        "cdus"
+      ],
+      "tagline": "Electronics design and manufacturing company that builds liquid-cooling hardware for hyperscaler data centers: in-row and in-rack cooling distribution units (CDUs), cold plates and manifolds, integrated into AI racks co-designed from the ASIC level upward.",
+      "hq": "Toronto, Ontario, Canada",
+      "founded": 1996,
+      "ownership": "NYSE: CLS",
+      "website": "https://www.celestica.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling distribution units (CDUs)",
+          "note": "Coolant distribution units offered in two form factors: in-row CDUs placed between racks (higher capacity, easier maintenance, need floor space) and in-rack CDUs built into the rack (smaller footprint, simpler deployment, suited to edge and high-density deployments).",
+          "source": "https://www.celestica.com/blog/article/ai-infrastructure-for-the-data-center-and-beyond"
+        },
+        {
+          "name": "Cold plates and manifolds",
+          "note": "Cold plates and fluid manifolds for direct liquid cooling of processors, used in both single-phase systems and dual-phase (liquid-to-vapor) architectures that the company describes as offering higher heat transfer.",
+          "source": "https://www.celestica.com/blog/article/ai-infrastructure-for-the-data-center-and-beyond"
+        },
+        {
+          "name": "Platform Solutions rack integration",
+          "note": "Custom compute nodes, blades and full rack integration marketed as open Platform Solutions for AI; Celestica states its engineers co-design solutions with silicon partners, beginning at the ASIC/chip level and extending to complete racks.",
+          "source": "https://www.celestica.com/blog/article/ai-infrastructure-for-the-data-center-and-beyond"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On October 12, 2026 Celestica introduced the DS6005, a 1.5 Open Rack Unit data center switch that combines co-packaged optics with liquid cooling, shown at the OCP Global Summit",
+          "source": "https://hostingjournalist.com/tech-wire/celestica-introduces-liquid-cooled-optical-switch-for-ai-data-centers"
+        },
+        {
+          "year": "2025",
+          "text": "On September 17, 2025 Celestica published an overview of its liquid cooling offering for AI infrastructure: cooling distribution units in in-row and in-rack form factors, cold plates and manifolds, and single-phase and dual-phase liquid cooling for high-density AI racks",
+          "source": "https://www.celestica.com/blog/article/ai-infrastructure-for-the-data-center-and-beyond"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling hardware does Celestica offer for data centers?",
+          "a": "Cooling distribution units (CDUs) in in-row and in-rack form factors, plus cold plates and manifolds, supporting single-phase and dual-phase liquid cooling. The company states its advanced CDU designs have helped hyperscaler customers optimize data center thermal footprints."
+        },
+        {
+          "q": "What is the difference between Celestica's in-row and in-rack CDUs?",
+          "a": "In-row CDUs sit between racks and offer higher capacity and easier maintenance but require floor space. In-rack CDUs are built into the rack, giving a smaller footprint and simpler deployment, which the company positions for edge and high-density deployments."
+        },
+        {
+          "q": "Does Celestica sell complete liquid-cooled racks?",
+          "a": "Yes. Within its Platform Solutions for AI infrastructure, Celestica co-designs solutions with silicon partners from the ASIC/chip level through custom nodes and blades to complete racks, including liquid-cooled configurations for hyperscaler customers."
+        }
+      ]
+    },
+    {
+      "slug": "ddc-solutions",
+      "name": "DDC Solutions",
+      "segments": [
+        "cdus",
+        "servers"
+      ],
+      "tagline": "San Diego manufacturer of ultra-high-density rack containment cabinets that combine air and liquid cooling inside the rack; its S-Series supports up to 100 kW air-side per cabinet and 1MW+ with direct-liquid-cooling integration for AI and GPU deployments. A subsidiary of Daikin Applied since August 2025.",
+      "hq": "San Diego, California, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Daikin Applied",
+      "website": "https://ddcsolutions.com/",
+      "productLines": [
+        {
+          "name": "S-4 high-density cooling cabinet",
+          "note": "Enterprise and mixed-density rack containment unit with a flexible footprint that supports standard and OCP racks; provides high-density air-side cooling with a liquid-ready design for adding direct-to-chip cooling later.",
+          "source": "https://ddcsolutions.com/s-series-containment-units/"
+        },
+        {
+          "name": "S-5 GPU cooling cabinet",
+          "note": "42-inch wide, deeper form factor built for next-generation GPU roll-in racks, in-rack CDUs and external electrical demarcation; part of the S-Series platform rated up to 1MW+ cooling per rack with integrated CDU.",
+          "source": "https://ddcsolutions.com/s-5-next-gen-gpu-cooling/"
+        },
+        {
+          "name": "GPUVault enclosure",
+          "note": "Retrofit-first enclosure for legacy and low-ceiling facilities: two containment units with a heat exchanger in the middle deliver up to 200 kW combined air-side cooling, with secure water routing for adding liquid cooling.",
+          "source": "https://ddcsolutions.com/s-vault-gpuvault-enclosure/"
+        },
+        {
+          "name": "DCIM software",
+          "note": "Data center infrastructure management software for real-time monitoring and automated per-cabinet cooling control of DDC's hybrid air+liquid cooling cabinets.",
+          "source": "https://ddcsolutions.com/daikin-applied-completes-acquisition-of-ddc-solutions"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On March 10, 2026 DDC announced the S-5 GPU cooling cabinet, a 42-inch-wide, 96-inch-deep enclosure that takes up to 100 kW of air-side load per cabinet with optional liquid-to-chip coolant paths; the S-Series platform spans 85 kW (S-4), 100 kW (S-5) and 200 kW (GPUVault, a three-cabinet module) and supports 1 MW+ with direct-to-chip cooling; initial S-5 shipments began in April 2026",
+          "source": "https://ddcsolutions.com/ddc-expands-s-series-gpu-rack-containment"
+        },
+        {
+          "year": "2025",
+          "text": "Daikin Applied completed its acquisition of DDC Solutions, announced August 18, 2025. DDC operates as a Daikin Applied subsidiary with its full leadership team remaining in place, adding ultra-high-density cooling cabinets and management software for data centers to Daikin Applied's portfolio.",
+          "source": "https://ddcsolutions.com/daikin-applied-completes-acquisition-of-ddc-solutions"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does DDC Solutions make?",
+          "a": "Ultra-high-density cooling cabinets and management software for data centers, using a patented hybrid system that combines air and liquid cooling directly within the rack. Models include the S-4, the GPU-focused S-5, and the retrofit-oriented GPUVault."
+        },
+        {
+          "q": "How much heat can a DDC cabinet handle?",
+          "a": "Per the March 2026 release: up to 85 kW air-side for the S-4, up to 100 kW for the S-5 and up to 200 kW combined for the GPUVault, with direct-to-chip liquid integration supporting 1 MW+ per rack. The S-4 is liquid-ready so direct-to-chip cooling can be added later."
+        },
+        {
+          "q": "Who owns DDC Solutions?",
+          "a": "Daikin Applied completed its acquisition of DDC Solutions, announced August 18, 2025. DDC operates as a Daikin Applied subsidiary, and the full DDC Solutions leadership team remained in their current roles."
+        },
+        {
+          "q": "Can DDC cabinets fit standard or OCP racks?",
+          "a": "The S-4 supports standard and OCP rack widths with a flexible footprint, while the S-5 uses a 42-inch wide, deeper form factor for GPU roll-in racks, in-rack CDUs and external electrical demarcation."
+        }
+      ]
+    },
+    {
+      "slug": "chemtreat",
+      "name": "ChemTreat",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Industrial water treatment company and Veralto operating company supplying coolant chemistry for data center liquid cooling: CTSolutions D2C propylene glycol 25% and 50% heat transfer fluids, monitoring and Dow Coolant Care Network support, serving over 200 data center facilities in North America.",
+      "hq": "Glen Allen, Virginia, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Veralto",
+      "website": "https://www.chemtreat.com/",
+      "productLines": [
+        {
+          "name": "CTSolutions D2C coolant programs",
+          "note": "Direct-to-chip coolant chemistry: propylene glycol 25% and 50% heat transfer fluids, aqueous coolants with bio-static capability, and specialty stabilized oxidizing and non-oxidizing biocides, backed by certified coolant performance testing, in-line monitoring, leak detection and automated feed systems.",
+          "source": "https://www.chemtreat.com/data-centers/"
+        },
+        {
+          "name": "Dow Coolant Care Network services",
+          "note": "As a strategic service provider nationally and the only preferred service provider in Virginia, ChemTreat handles sampling, mitigation and fluid health optimization with Dow-qualified labs for DOWFROST LC and DOWFROST HD heat transfer fluids used in direct-to-chip cooling loops and facility loops, from design phase through steady-state operations.",
+          "source": "https://www.prnewswire.com/news-releases/chemtreat-joins-dows-coolant-care-network-as-strategic-national-provider-for-ai-data-center-cooling-302774970.html"
+        },
+        {
+          "name": "Facility cooling water treatment",
+          "note": "Cooling tower and facility water chemistry for data center campuses: FlexPro and FlexCorr non-phosphorus/low-phosphorus corrosion inhibitors, MultiCuRE yellow metal protection, CalciTect and QuadDetect tagged deposit control, SurfClean 2.0 halogen stabilizer and biodispersant, plus adiabatic media-life and Legionella sampling programs.",
+          "source": "https://www.chemtreat.com/data-centers/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "ChemTreat joined Dow's Coolant Care Network as a strategic service provider nationally for AI data center cooling, announced May 18, 2026. The network coordinates fluid supply, testing, data analysis and in-field support; ChemTreat serves over 200 data center sites and is the only preferred service provider in Virginia.",
+          "source": "https://www.prnewswire.com/news-releases/chemtreat-joins-dows-coolant-care-network-as-strategic-national-provider-for-ai-data-center-cooling-302774970.html"
+        },
+        {
+          "year": "2026",
+          "text": "ChemTreat published the white paper The Framework for Operational Readiness in Data Center Cooling Systems (2026): CDUs move heat from the technology cooling system loop to facility water through plate-and-frame heat exchangers, cold plates need laminar flow, coolant particles should stay below 1 µm during commissioning, and continuous monitoring is needed to catch chemistry drift",
+          "source": "https://www.chemtreat.com/resources/white-papers/the-framework-for-operational-readiness-in-data-center-cooling-systems"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What coolant chemistry does ChemTreat offer for direct-to-chip loops?",
+          "a": "CTSolutions D2C programs: propylene glycol 25% and 50% heat transfer fluids, aqueous coolants with bio-static capability, and specialty stabilized oxidizing and non-oxidizing biocides, supported by certified coolant performance testing, in-line monitoring, leak detection and automated feed systems."
+        },
+        {
+          "q": "What is ChemTreat's role in Dow's Coolant Care Network?",
+          "a": "Announced May 18, 2026, ChemTreat is a strategic service provider nationally and the only preferred service provider in Virginia. It handles sampling, mitigation and fluid health optimization with Dow-qualified labs for DOWFROST LC and DOWFROST HD fluids used in direct-to-chip and facility loops."
+        },
+        {
+          "q": "How many data centers does ChemTreat serve?",
+          "a": "ChemTreat states it supports over 200 data center facilities across North America, covering cooling water, closed loops, adiabatic systems and direct-to-chip coolant programs."
+        },
+        {
+          "q": "Who owns ChemTreat and where is it based?",
+          "a": "ChemTreat is listed among Veralto's operating companies, described there as offering industrial water treatment solutions. The company says it is headquartered in Richmond, Virginia, with its footer address in Glen Allen, VA 23060."
+        }
+      ]
+    },
+    {
+      "slug": "carrier",
+      "name": "Carrier",
+      "segments": [
+        "heat-rejection",
+        "cdus"
+      ],
+      "tagline": "HVAC and building technology company (NYSE: CARR) whose QuantumLeap portfolio provides chip-to-chiller data center thermal management: AquaEdge and AquaForce chillers, Aero air handling units, coolant distribution units for direct-to-chip liquid cooling, Nlyte DCIM software and lifecycle services.",
+      "hq": "Palm Beach Gardens, Florida, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NYSE: CARR",
+      "website": "https://www.carrier.com/",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Units (CDUs)",
+          "note": "Direct-to-chip CDUs bridging IT equipment to facility cooling, in sizes from 1.3 to 5MW with approach temperatures as low as 3.6 F (2 C) versus the common 7.2 F (4 C). Carrier cites up to 50% less non-IT energy use than legacy cooling and up to 15% chiller energy savings with a high-efficiency heat exchanger option; available worldwide since November 2025.",
+          "source": "https://www.carrier.com/commercial/en/us/news/news-article/new-carrier-coolant-distribution-unit-expands-data-center-solutions.html"
+        },
+        {
+          "name": "AquaEdge and AquaForce chillers",
+          "note": "AquaEdge 30CF air-cooled centrifugal, AquaForce 30XV air-cooled screw, and AquaEdge 19MV/19DV water-cooled chillers (19DV with EquiDrive compressors; restart to full capacity in under 150 seconds). The QuantumLeap chiller generation is marketed as 30% more efficient than prior generations, with free cooling and elevated chilled water temperatures.",
+          "source": "https://www.carrier.com/us/en/commercial/data-centers"
+        },
+        {
+          "name": "Aero air handling units",
+          "note": "Aero 39DC and 39M air handling units, custom and semi-custom with configurable fans, filters and factory controls, forming the airside of the QuantumLeap data center cooling suite.",
+          "source": "https://www.carrier.com/us/en/commercial/data-centers"
+        },
+        {
+          "name": "Integrated data center management software",
+          "note": "Integrated Data Center Management unifies cooling with WebCTRL building automation and Nlyte DCIM (Asset Optimizer, Energy Optimizer). Carrier states Nlyte is deployed in more than 300 data centers managing over one million racks, alongside the Abound digital platform for remote diagnostics and predictive maintenance.",
+          "source": "https://www.prnewswire.com/news-releases/carrier-introduces-quantumleap-a-comprehensive-suite-of-innovative-energy-efficient-solutions-for-data-center-thermal-management-302370558.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On November 4, 2025 Carrier announced a new Coolant Distribution Unit for its QuantumLeap portfolio: unit sizes from 1.3 to 5MW, approach temperatures as low as 3.6 F (2 C), cited savings of up to 50% in non-IT energy use versus legacy cooling technologies, with worldwide availability through multiple Carrier manufacturing sites.",
+          "source": "https://www.carrier.com/commercial/en/us/news/news-article/new-carrier-coolant-distribution-unit-expands-data-center-solutions.html"
+        },
+        {
+          "year": "2025",
+          "text": "On February 6, 2025 Carrier introduced QuantumLeap, a suite of data center thermal management solutions extending from chip to chiller: chillers marketed as 30% more efficient than prior generations, a coolant distribution unit for direct-to-chip liquid cooling first shown at SuperComputing24, Automated Logic controls, Nlyte DCIM deployed in more than 300 data centers, and global lifecycle service with the Abound platform.",
+          "source": "https://www.prnewswire.com/news-releases/carrier-introduces-quantumleap-a-comprehensive-suite-of-innovative-energy-efficient-solutions-for-data-center-thermal-management-302370558.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Carrier QuantumLeap?",
+          "a": "A suite of thermal and integrated management solutions for data centers introduced on February 6, 2025, spanning chip to chiller: AquaEdge and AquaForce chillers, Aero air handling units, coolant distribution units for direct-to-chip liquid cooling, Automated Logic controls, Nlyte DCIM software and lifecycle services with the Abound digital platform."
+        },
+        {
+          "q": "What CDU capacities and performance does Carrier publish?",
+          "a": "Coolant Distribution Units come in sizes from 1.3 to 5MW with approach temperatures as low as 3.6 F (2 C), compared with the more common 7.2 F (4 C). Carrier cites up to 50% reduction in non-IT energy use versus legacy cooling and up to 15% chiller energy savings with the high-efficiency heat exchanger option."
+        },
+        {
+          "q": "Are Carrier's data center CDUs available now?",
+          "a": "Yes. In its November 4, 2025 announcement Carrier stated the CDU is now available worldwide through multiple Carrier manufacturing sites, supporting global supply and in-region sourcing at scale."
+        },
+        {
+          "q": "What software does Carrier offer for data center cooling?",
+          "a": "Integrated Data Center Management unifies cooling systems with WebCTRL building automation and Nlyte DCIM, including Nlyte Asset Optimizer and Energy Optimizer. Carrier states Nlyte is deployed in more than 300 data centers managing over one million racks."
+        }
+      ]
+    },
+    {
+      "slug": "cofan-thermal",
+      "name": "Cofan Thermal",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Thermal management manufacturer headquartered in Dallas, Texas, with 30+ years in thermal products, offering direct liquid-cooling cold plates, OSFP thermal solutions for 800G to 3.2T optical transceivers adaptable to air- and liquid-cooled systems, vapor chambers and custom heatsinks, manufactured across Taiwan, Vietnam and China.",
+      "hq": "Dallas, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://cofanthermal.com/",
+      "productLines": [
+        {
+          "name": "Cold plates",
+          "note": "Heat exchanger components integrated into electronic systems that circulate a cooling fluid through channels to efficiently remove heat generated by components and maintain optimal operating temperatures, for direct liquid cooling of electronics.",
+          "source": "https://cofanthermal.com"
+        },
+        {
+          "name": "OSFP heatsinks for optical transceivers",
+          "note": "Thermal solutions supporting optical transceivers from 800G up to 3.2T, described as adaptable to both air- and liquid-cooled systems for efficient thermal performance across a wide range of deployment scenarios.",
+          "source": "https://cofanthermal.com"
+        },
+        {
+          "name": "Vapor chambers and heat pipes",
+          "note": "Flat sealed vapor-chamber devices containing a small amount of liquid that vaporizes and condenses to transfer heat away from components, complemented by sealed heat-pipe assemblies using phase-change principles.",
+          "source": "https://cofanthermal.com"
+        },
+        {
+          "name": "Custom thermal design and CFD services",
+          "note": "Computational Fluid Dynamics studies and custom thermal design, with engineering, prototyping and integration offered from the company's USA sales and support operations; listed certificates include ITAR, ISO, IATF, OHSAS, RoHS and UL.",
+          "source": "https://cofanthermal.com"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Cofan Thermal's current product homepage (last modified August 12, 2026) lists liquid-cooling cold plates and OSFP heatsinks for 800G-3.2T optical transceivers among active product lines, with cold plate product imagery published in August 2026 and OSFP imagery from March 2026.",
+          "source": "https://cofanthermal.com"
+        },
+        {
+          "year": "2025",
+          "text": "Opened its Vietnam manufacturing facility, according to a company blog item dated February 2025",
+          "source": "https://www.cofanthermal.com/blog-news-and-updates"
+        },
+        {
+          "year": "2024",
+          "text": "Announced a factory expansion for liquid-cooled cold plates, enlarging the production floor and upgrading equipment for liquid-cooled cold plate manufacturing, according to a company blog item dated April 2024",
+          "source": "https://www.cofanthermal.com/blog-news-and-updates"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Cofan Thermal offer?",
+          "a": "Cold plates that circulate cooling fluid through channels to remove heat from electronic components, OSFP heatsink solutions for optical transceivers from 800G up to 3.2T adaptable to both air- and liquid-cooled systems, and vapor chambers and heat pipes that move heat via phase change."
+        },
+        {
+          "q": "Where does Cofan Thermal operate?",
+          "a": "Headquarters in Dallas, Texas (R&D, sales, marketing and financing), plus Fremont, California and Toronto, Ontario. Manufacturing and engineering sites include Vietnam (heatsink and metal fabrication), Taiwan (R&D, CFD and MCPCB manufacturing) and several Dongguan, China plants for passive/active cooling, sheet metal and vapor chamber manufacturing."
+        },
+        {
+          "q": "What engineering services does Cofan Thermal provide?",
+          "a": "Computational Fluid Dynamics studies to design and implement cooling solutions, custom thermal design, engineering, prototyping and integration from its USA operations. Listed certificates: ITAR, ISO, IATF, OHSAS, RoHS and UL."
+        },
+        {
+          "q": "How long has Cofan Thermal been in business?",
+          "a": "The company states more than 30 years in thermal products and manufacturing, spanning design, prototyping and production. An exact founding year is not published on its site."
+        }
+      ]
+    },
+    {
+      "slug": "dober",
+      "name": "Dober",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Dober is a family-owned specialty chemical formulator in Woodridge, Illinois whose COOLWAVE DC line of USP-grade propylene glycol coolants serves single-phase direct-to-chip liquid cooling in AI/HPC data centers. COOLWAVE DC-25 is a prediluted PG25 coolant recognized under the Open Compute Project.",
+      "hq": "Woodridge, Illinois, United States",
+      "founded": 1957,
+      "ownership": "Private (family-owned)",
+      "website": "https://www.dober.com/",
+      "productLines": [
+        {
+          "name": "COOLWAVE DC-25",
+          "note": "Prediluted 25% USP-grade propylene glycol coolant for single-phase direct-to-chip cold-plate loops; freeze protection to 10.3 F (-12.1 C), burst protection to -4.0 F (-20.1 C), boiling point up to 214.7 F; compatible with copper, aluminum, plastics and elastomers.",
+          "source": "https://www.dober.com/data-center-coolants"
+        },
+        {
+          "name": "COOLWAVE DC-30",
+          "note": "USP-grade propylene glycol blend for direct-to-chip cooling with freeze protection to -7.9 F (-13.4 C), burst protection to -18.0 F (-27.5 C) and boiling point up to 216 F; viscosity 2.75 mPa-s at 20 C.",
+          "source": "https://www.dober.com/data-center-coolants"
+        },
+        {
+          "name": "COOLWAVE DC-55",
+          "note": "USP-grade propylene glycol blend for cold climates and outdoor loops; freeze protection to -40 F (-40 C), burst protection below -60 F, boiling point up to 221 F; viscosity 8.78 mPa-s at 20 C and 2.89 mPa-s at 50 C.",
+          "source": "https://www.dober.com/data-center-coolants"
+        },
+        {
+          "name": "DC-Custom",
+          "note": "Custom-engineered data center coolant formulations offered alongside the standard DC series; specifications vary by formulation and are defined with the customer.",
+          "source": "https://www.dober.com/data-center-coolants"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Dober announced that COOLWAVE DC-25 earned Open Compute Project recognition, initially OCP Inspired and later stated by Dober as an OCP Accepted solution for data center liquid cooling.",
+          "source": "https://www.dober.com/performance-fluids/resources/coolwave-ocp-inspired"
+        },
+        {
+          "year": "2026",
+          "text": "The OCP marketplace lists COOLWAVE DC 25 as a prediluted 25% USP-grade propylene glycol coolant for single-phase cold-plate cooling, associated with the approved OCP propylene glycol heat transfer fluid contribution and meeting ASTM D8039 and D8040 corrosion requirements.",
+          "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/coolwave-dc-heat-transfer-fluids"
+        }
+      ],
+      "ocp": "COOLWAVE DC 25 is listed in the OCP marketplace as an OCP Accepted, ready-to-use PG25 direct-to-chip coolant, associated with the OCP-approved propylene glycol heat transfer fluid guidelines contribution (https://www.opencompute.org/marketplace/facilities-physical-infrastructure/coolwave-dc-heat-transfer-fluids).",
+      "faq": [
+        {
+          "q": "What is COOLWAVE DC-25?",
+          "a": "A prediluted 25% USP-grade propylene glycol coolant for single-phase direct-to-chip cold-plate loops, with freeze protection to 10.3 F (-12.1 C) and corrosion inhibitors meeting ASTM D8039/D8040 requirements. Dober lists it as an OCP Accepted solution."
+        },
+        {
+          "q": "Which fluids make up the COOLWAVE DC line?",
+          "a": "COOLWAVE DC-25, DC-30 and DC-55, all USP-grade propylene glycol blends, plus DC-Custom formulations. Freeze protection ranges from 10.3 F on DC-25 down to -40 F on DC-55, with burst protection below -60 F on DC-55."
+        },
+        {
+          "q": "What OCP recognition does Dober hold?",
+          "a": "Dober announced COOLWAVE DC-25 initially earned OCP Inspired recognition and is now stated as OCP Accepted. The OCP marketplace associates the fluid with the approved OCP propylene glycol heat transfer fluid contribution."
+        },
+        {
+          "q": "Is Dober a public company?",
+          "a": "No. Dober describes itself as a third-generation family business founded in 1957, headquartered in Woodridge, Illinois."
+        }
+      ]
+    },
+    {
+      "slug": "ecolab",
+      "name": "Ecolab (Nalco Water)",
+      "segments": [
+        "fluids",
+        "cdus"
+      ],
+      "tagline": "Ecolab, through its Nalco Water business, supplies coolant chemistry, monitoring and lifecycle services for direct-to-chip liquid cooling in AI and HPC data centers. Its Liquid Cooling All In program combines 3D TRASAR technology and propylene glycol coolants with cold-plate products from CoolIT, an Ecolab company.",
+      "hq": "Saint Paul, Minnesota, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NYSE: ECL",
+      "website": "https://www.ecolab.com/",
+      "productLines": [
+        {
+          "name": "Liquid Cooling All In",
+          "note": "Full-lifecycle direct liquid cooling offering for HPC and AI data centers: 3D TRASAR chemistry and monitoring for direct-to-chip loops and cooling water, propylene glycol coolant with quality-control protocols, and Lifecycle Performance Services covering design, installation, commissioning and ongoing operations, with CoolIT cold-plate products.",
+          "source": "https://www.ecolab.com/en-us/pages/nwwt/liquid-cooling-all-in"
+        },
+        {
+          "name": "3D TRASAR for Direct-to-Chip Liquid Cooling",
+          "note": "Monitoring and support program for direct-to-chip loops: continuous coolant health monitoring, quarterly on-site checks and 24/7 remote monitoring from the Ecolab Global Intelligence Center; watches glycol degradation, contamination from server change-outs, and fluid loss or leaks.",
+          "source": "https://www.ecolab.com/en-us/offerings/nwwt/3d-trasar-technology-for-direct-to-chip-liquid-cooling"
+        },
+        {
+          "name": "Nalco Water propylene glycol coolant",
+          "note": "Propylene glycol heat-transfer fluid for direct liquid cooling loops, supplied with quality-control protocols and paired with 3D TRASAR monitoring within the Liquid Cooling All In program.",
+          "source": "https://www.ecolab.com/en-us/pages/nwwt/liquid-cooling-all-in"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Ecolab's Liquid Cooling All In program is a full-lifecycle direct liquid cooling offering for AI and HPC data centers combining Nalco Water chemistry, 3D TRASAR monitoring and lifecycle services; Ecolab exhibited the program at SC26 in Chicago, November 15-20, 2026.",
+          "source": "https://www.ecolab.com/en-us/pages/nwwt/liquid-cooling-all-in"
+        },
+        {
+          "year": "2026",
+          "text": "Within the program, CoolIT operates as an Ecolab company, supplying data center and server cold-plate products and global professional services alongside Ecolab's coolant chemistry and monitoring.",
+          "source": "https://www.ecolab.com/en-us/pages/nwwt/liquid-cooling-all-in"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Ecolab's Liquid Cooling All In program?",
+          "a": "A full-lifecycle direct liquid cooling offering for AI and HPC data centers. It combines 3D TRASAR chemistry and monitoring, propylene glycol coolant with quality-control protocols, and lifecycle performance services covering design through ongoing operations, with CoolIT cold-plate products."
+        },
+        {
+          "q": "What does 3D TRASAR for direct-to-chip cooling monitor?",
+          "a": "It continuously monitors coolant health, glycol degradation from high-temperature operation, contamination such as server change-out debris, and fluid loss or leaks, with quarterly on-site checks and 24/7 remote monitoring from the Ecolab Global Intelligence Center."
+        },
+        {
+          "q": "What is CoolIT's relationship to Ecolab?",
+          "a": "CoolIT is an Ecolab company. Its data center and server cold-plate products and global professional services are offered inside Ecolab's Liquid Cooling All In program alongside Nalco Water chemistry."
+        },
+        {
+          "q": "Where is Ecolab headquartered and how is it listed?",
+          "a": "Ecolab is headquartered at 1 Ecolab Place, St. Paul, Minnesota, and its shares are listed on the New York Stock Exchange under the ticker ECL. The company describes more than a century of innovation; its founding year is not stated on the pages reviewed."
+        }
+      ]
+    },
+    {
+      "slug": "gradian-thermal-solutions",
+      "name": "Gradian Thermal Solutions",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Gradian Thermal Solutions is a Maple Grove, Minnesota manufacturer of data center liquid cooling equipment, operating the former DeepCoolAI liquid cooling line. It supplies liquid-to-liquid and liquid-to-air CDUs, active rear-door heat exchangers, load banks and coolant refill carts for high-density AI workloads.",
+      "hq": "Maple Grove, Minnesota, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://gradian.com/",
+      "productLines": [
+        {
+          "name": "In-Rack Liquid-to-Liquid CDUs",
+          "note": "In-rack coolant distribution units rated 80-200 kW, supporting standard 19-inch racks and OCP ORv3 rack architectures for rack-scale direct liquid cooling.",
+          "source": "https://gradian.com/cdus/liquid-to-liquid"
+        },
+        {
+          "name": "In-Row Liquid-to-Liquid CDUs",
+          "note": "In-row coolant distribution units rated 600 kW to 2.5 MW as standard, modular up to 5 MW, 7.5 MW, 10 MW and beyond for facility-wide direct liquid cooling deployment.",
+          "source": "https://gradian.com/cdus/liquid-to-liquid"
+        },
+        {
+          "name": "Liquid-to-Air CDUs",
+          "note": "Liquid-to-air CDUs offered in in-row and in-rack configurations for scalable cooling from a single rack to facility-wide deployment where no facility water loop is available.",
+          "source": "https://gradian.com/deepcoolai"
+        },
+        {
+          "name": "Active Rear Door Heat Exchangers",
+          "note": "Active rear-door heat exchangers that capture heat at the rack exhaust for air-to-liquid cooling of high-density racks within the Gradian liquid cooling portfolio.",
+          "source": "https://gradian.com/deepcoolai"
+        },
+        {
+          "name": "Load Banks and Coolant Refill Carts",
+          "note": "Air, liquid and hybrid load banks for validation and deployment execution, plus mobile self-contained carts for filling, flushing and replenishing liquid cooling loops.",
+          "source": "https://gradian.com/deepcoolai"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "As of 2026, DeepCoolAI operates as part of Gradian Thermal Solutions, with the same team headquartered in Maple Grove, Minnesota, offering CDUs, rear-door heat exchangers, load banks and refill carts under the Gradian brand.",
+          "source": "https://gradian.com/deepcoolai"
+        },
+        {
+          "year": "2026",
+          "text": "The company's current liquid-to-liquid CDU range spans in-rack units of 80-200 kW supporting 19-inch and OCP ORv3 rack architectures and in-row units of 600 kW to 2.5 MW standard, modular to 5 MW, 7.5 MW and 10 MW and beyond.",
+          "source": "https://gradian.com/cdus/liquid-to-liquid"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU configurations does Gradian offer?",
+          "a": "Liquid-to-liquid CDUs in in-rack (80-200 kW, fitting standard 19-inch and OCP ORv3 racks) and in-row (600 kW to 2.5 MW standard, modular to 5, 7.5 and 10 MW and beyond) configurations, plus liquid-to-air CDUs from single-rack to facility-wide scale."
+        },
+        {
+          "q": "What is the relationship between DeepCoolAI and Gradian?",
+          "a": "DeepCoolAI is now part of Gradian Thermal Solutions. The same team, headquartered in Maple Grove, Minnesota, continues to offer the liquid cooling products under the Gradian name."
+        },
+        {
+          "q": "Does Gradian supply equipment beyond CDUs?",
+          "a": "Yes: active rear-door heat exchangers, air, liquid and hybrid load banks for validation and deployment, rack manifolds, and mobile self-contained carts for filling, flushing and replenishing liquid cooling loops."
+        },
+        {
+          "q": "Where can I find the company's founding date or ownership details?",
+          "a": "Not published on the pages reviewed: Gradian's site states its Maple Grove, Minnesota headquarters but does not state a founding year or ownership structure, so these are marked NOT_FOUND here."
+        }
+      ]
+    },
+    {
+      "slug": "hose-master",
+      "name": "Hose Master",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Hose Master is a Cleveland, Ohio manufacturer of corrugated stainless steel metal hose and metal expansion joints. Its Masterflex hose assemblies connect liquid cooling components including manifolds, cold plates, CDUs, immersion systems and rear-door heat exchangers in hyperscale data centers.",
+      "hq": "Cleveland, Ohio, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.hosemaster.com/",
+      "productLines": [
+        {
+          "name": "Masterflex corrugated metal hose",
+          "note": "Close-pitch corrugated stainless steel hose assemblies with external braid for pressure tolerance, positioned by Hose Master for hyperscale data center cooling applications across manifolds, cold plates, CDUs, immersion cooling and rear-door heat exchangers; all-stainless construction supports fire safety.",
+          "source": "https://www.hosemaster.com/data-centers"
+        },
+        {
+          "name": "Corrugated hose series (Annuflex, PressureFlex HP, PressureMax HP)",
+          "note": "Additional corrugated metal hose series offered alongside Masterflex in the company's general high-pressure flexible hose portfolio; Hose Master also manufactures stripwound metal hose.",
+          "source": "https://www.hosemaster.com/data-centers"
+        },
+        {
+          "name": "Metal expansion joints and hose for cooling systems",
+          "note": "Metal hoses and expansion joints for data center cooling infrastructure, listed for air-cooled and liquid-cooled systems (direct or indirect cooling), heat exchanger connections, pump and compressor connections, and air blowers.",
+          "source": "https://www.hosemaster.com/industries-applications/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Hose Master's current data center offering supplies Masterflex corrugated stainless steel hose assemblies for hyperscale cooling applications spanning manifolds, cold plates, coolant distribution units, immersion cooling and rear-door heat exchangers.",
+          "source": "https://www.hosemaster.com/data-centers"
+        },
+        {
+          "year": "2026",
+          "text": "In a current article, 'Why Liquid Cooling and Metal Hoses Are the Future of Data Centers', Hose Master states that liquid cooling can cut power use by as much as 15% and that liquids transfer heat up to 25 times more efficiently than air, arguing for stainless corrugated hose with welded fittings and seismic protection.",
+          "source": "https://www.hosemaster.com/news/why-liquid-cooling-and-metal-hoses-are-the-future-of-data-centers-88179"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Hose Master product is aimed at data center liquid cooling?",
+          "a": "Masterflex, a close-pitch corrugated stainless steel hose assembly with external braid for pressure tolerance. Hose Master describes it as well-suited to hyperscale data center cooling, with all-stainless construction supporting fire safety."
+        },
+        {
+          "q": "Which liquid cooling components use Hose Master assemblies?",
+          "a": "The company lists manifolds, cold plates, coolant distribution units, immersion cooling and rear-door heat exchangers, plus heat exchanger, pump and compressor connections in air-cooled and liquid-cooled (direct or indirect) systems."
+        },
+        {
+          "q": "Where does Hose Master operate from?",
+          "a": "Headquarters at 1233 East 222nd Street, Cleveland, Ohio, with additional locations in Houston, Atlanta and Reno."
+        },
+        {
+          "q": "Is Hose Master publicly traded?",
+          "a": "Its founding year and ownership structure are not published on the pages reviewed, so both are marked NOT_FOUND here; only its Cleveland headquarters and three other US locations are stated."
+        }
+      ]
+    },
+    {
+      "slug": "hyve-solutions",
+      "name": "Hyve Solutions",
+      "segments": [
+        "servers",
+        "integrators"
+      ],
+      "tagline": "Hyve Solutions designs, integrates and thermally validates rack-scale direct liquid cooling for hyperscale AI and HPC customers, building complete liquid-cooled rack systems that ship wet or dry under unified design and manufacturing operations. It is part of TD SYNNEX.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of TD SYNNEX",
+      "website": "https://www.hyvesolutions.com/",
+      "productLines": [
+        {
+          "name": "Liquid Cooling Infrastructure Services",
+          "note": "Rack-scale direct liquid cooling services: in-house design, integration and thermal validation under unified design and manufacturing operations; DLC cold plates move heat through closed-loop systems integrated with Hyve compute, networking and rack platforms for AI, HPC and enterprise.",
+          "source": "https://www.hyvesolutions.com/services/liquid-cooling"
+        },
+        {
+          "name": "Liquid-cooled test pods (Olive Branch, MS)",
+          "note": "Liquid-cooled pods brought up at the Olive Branch, Mississippi facility in summer 2025, offering extensive NVIDIA GPU testing with custom testing available on request for liquid-cooled systems.",
+          "source": "https://www.hyvesolutions.com/newsroom/hyve-solutions-unveils-comprehensive-ai-infrastructure-portfolio-at-nvidia-gtc-2025"
+        },
+        {
+          "name": "Orion rack platform",
+          "note": "Rack platform in Hyve's AI infrastructure portfolio offering both air and liquid cooling options, demonstrated at NVIDIA GTC 2025 with Vertiv liquid cooling technology.",
+          "source": "https://www.hyvesolutions.com/newsroom/hyve-solutions-unveils-comprehensive-ai-infrastructure-portfolio-at-nvidia-gtc-2025"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Hyve's current liquid cooling offering provides rack-scale, performance-tested direct liquid cooling systems with design, integration and thermal validation done in-house, integrated with its compute, networking and rack platforms, shipping wet or dry per customer requirements.",
+          "source": "https://www.hyvesolutions.com/services/liquid-cooling"
+        },
+        {
+          "year": "2025",
+          "text": "On March 18, 2025 at NVIDIA GTC, Hyve unveiled its AI infrastructure portfolio and announced it was bringing up liquid-cooled pods at its Olive Branch, Mississippi facility in summer 2025, offering extensive NVIDIA GPU testing with custom testing on request.",
+          "source": "https://www.hyvesolutions.com/newsroom/hyve-solutions-unveils-comprehensive-ai-infrastructure-portfolio-at-nvidia-gtc-2025"
+        },
+        {
+          "year": "2025",
+          "text": "The GTC 2025 portfolio includes the Orion rack with air and liquid cooling options, demonstrated using Vertiv liquid cooling technology.",
+          "source": "https://www.hyvesolutions.com/newsroom/hyve-solutions-unveils-comprehensive-ai-infrastructure-portfolio-at-nvidia-gtc-2025"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling services does Hyve provide?",
+          "a": "Rack-scale direct liquid cooling covering design, integration and thermal validation in-house. DLC cold plates move heat through closed-loop systems, integrated with Hyve compute, networking and rack platforms, and complete racks ship wet or dry as the customer requires, validated before delivery."
+        },
+        {
+          "q": "Where does Hyve test liquid-cooled systems?",
+          "a": "At liquid-cooled pods at its Olive Branch, Mississippi facility, announced in March 2025 for bring-up in summer 2025, providing extensive NVIDIA GPU testing with custom testing available on request."
+        },
+        {
+          "q": "Who owns Hyve Solutions?",
+          "a": "Hyve Solutions is part of TD SYNNEX, as stated on hyvesolutions.com."
+        },
+        {
+          "q": "Where is Hyve headquartered and when was it founded?",
+          "a": "Its website does not state a headquarters city or founding year on the pages reviewed, so both are marked NOT_FOUND here; its liquid cooling test facility in Olive Branch, Mississippi is documented."
+        }
+      ]
+    },
+    {
+      "slug": "exxonmobil",
+      "name": "ExxonMobil",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "ExxonMobil Product Solutions supplies the EM DC series of PFAS-free, single-phase dielectric immersion cooling fluids for AI, HPC and edge data centers. In November 2025, Intel designated ExxonMobil's single-phase immersion fluids as warranty-supported for 4th and 5th generation Xeon processors.",
+      "hq": "Spring, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NYSE: XOM",
+      "website": "https://www.exxonmobilchemical.com/",
+      "productLines": [
+        {
+          "name": "EM DC 3150 series (3150/3151/3152)",
+          "note": "Low-viscosity PFAS-free single-phase immersion cooling fluids, 5.0-6.4 cSt at 40 C per ASTM D445 with flash points of 149-157 C per ASTM D92, for high-performance and edge computing data centers.",
+          "source": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        },
+        {
+          "name": "EM DC 3220",
+          "note": "PFAS-free single-phase immersion cooling fluid with 19.0 cSt viscosity at 40 C per ASTM D445 and 220 C flash point per ASTM D92.",
+          "source": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        },
+        {
+          "name": "EM DC 3235 Super",
+          "note": "PFAS-free single-phase immersion cooling fluid with 14.3 cSt viscosity at 40 C per ASTM D445 and 234 C flash point per ASTM D92.",
+          "source": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        },
+        {
+          "name": "EM DC 3250",
+          "note": "PFAS-free single-phase immersion cooling fluid with 31.0 cSt viscosity at 40 C per ASTM D445 and 246 C flash point per ASTM D92, the highest flash point in the listed range.",
+          "source": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        },
+        {
+          "name": "EM DC 1210 (AP)",
+          "note": "PFAS-free single-phase immersion cooling fluid with 30.4 cSt viscosity at 40 C per ASTM D445 and 225 C flash point per ASTM D92.",
+          "source": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "ExxonMobil's current data center portfolio lists PFAS-free single-phase immersion cooling fluids spanning 5.0 to 31.0 cSt at 40 C, with a collaboration with Intel to develop and certify energy-efficient liquid cooling for Xeon technology and partnerships with UNICOM Engineering and Submer.",
+          "source": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        },
+        {
+          "year": "2025",
+          "text": "On November 17, 2025, Intel designated ExxonMobil's single-phase immersion fluids 'Intel Supported Immersion Fluids', warranty-supported for 4th and 5th generation Intel Xeon processors, with an immersion warranty rider covering the immersion tank, ExxonMobil fluids and IT equipment validated at Intel labs, extendable to other tank and IT configurations.",
+          "source": "https://newswire.telecomramblings.com/2025/11/exxonmobil-intel-drive-next-gen-data-center-cooling-with-warranty-backed-solution"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What are ExxonMobil's EM DC fluids?",
+          "a": "A portfolio of PFAS-free single-phase dielectric immersion cooling fluids for high-performance and edge computing data centers, with viscosities from 5.0 to 31.0 cSt at 40 C (ASTM D445) and flash points from 149 to 246 C (ASTM D92)."
+        },
+        {
+          "q": "What did the November 2025 Intel announcement cover?",
+          "a": "ExxonMobil's single-phase immersion fluids were designated 'Intel Supported Immersion Fluids', recognized as warranty-supported for 4th and 5th generation Intel Xeon processors. Intel offers an immersion warranty rider covering the tank, ExxonMobil fluids and IT equipment validated at Intel labs, extendable to other configurations."
+        },
+        {
+          "q": "Which partners are named on ExxonMobil's data center cooling page?",
+          "a": "Intel, with whom ExxonMobil is collaborating to develop and certify next-generation liquid cooling for Xeon technology, plus UNICOM Engineering and Submer."
+        },
+        {
+          "q": "Where is ExxonMobil headquartered?",
+          "a": "The corporation's global headquarters is its 385-acre campus in Spring, Texas (Houston area), opened in 2014 and built to accommodate more than 10,000 employees and visitors."
+        }
+      ]
+    },
+    {
+      "slug": "gates",
+      "name": "Gates",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Gates (NYSE: GTES) is a Denver, Colorado maker of engineered fluid power and power transmission products. Its data center liquid cooling portfolio spans UQD/UQDB quick disconnect couplings, Data Master and MegaFlex EPDM cooling hose, and ThermalCool pumps for in-rack and in-row CDUs.",
+      "hq": "Denver, Colorado, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NYSE: GTES",
+      "website": "https://www.gates.com/",
+      "productLines": [
+        {
+          "name": "UQD/UQDB Quick Disconnect Couplings",
+          "note": "Universal quick disconnect couplings providing secure, spill-free connections for in-rack liquid cooling applications, listed on the OCP marketplace and associated with Intel's UQD Specification Rev 1.0; designed to work with Gates Data Master cooling hoses.",
+          "source": "https://www.gates.com/us/en/innovations-and-solutions/industrial-and-off-highway-solutions/data-center-cooling-systems.html"
+        },
+        {
+          "name": "Data Master cooling hose",
+          "note": "Hose line from 7/32 to 1 inch ID with zinc-free, peroxide-cured EPDM tube; flame-resistant to UL94 V-0, ozone-resistant and compatible with coolants such as PG25; used in CRAC/CRAH units, chilled water systems, direct-to-chip liquid cooling and in-row/in-rack cooling.",
+          "source": "https://www.gates.com/us/en/innovations-and-solutions/innovations/data-master-hose-line.html"
+        },
+        {
+          "name": "Data Master MegaFlex hose",
+          "note": "Large-ID, high-flow hose variant announced March 28, 2025 in 1.25-2 inch sizes (now listed up to 4 inch ID) for high-flow supply loops and glycol transfer in large-scale data centers; peroxide-cured EPDM tube and MegaFlex design technology for faster coolant flow.",
+          "source": "https://investors.gates.com/news/press-release-details/2025/Gates-Expands-Data-Center-Cooling-Portfolio-with-Breakthrough-Large-Diameter-Hose/default.aspx"
+        },
+        {
+          "name": "ThermalCool Data Center Pumps",
+          "note": "Axial flux pumps made to customer specifications for in-rack and in-row coolant distribution units within the Gates data center cooling portfolio.",
+          "source": "https://www.gates.com/us/en/innovations-and-solutions/industrial-and-off-highway-solutions/data-center-cooling-systems.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "The current Data Master hose line spans 7/32 to 1 inch ID with MegaFlex up to 4 inch ID, UL94 V-0 flame resistance, ozone resistance and PG25 coolant compatibility, serving CRAC/CRAH, chilled water, direct-to-chip and in-row/in-rack cooling.",
+          "source": "https://www.gates.com/us/en/innovations-and-solutions/innovations/data-master-hose-line.html"
+        },
+        {
+          "year": "2026",
+          "text": "Gates' current data center cooling systems portfolio also lists ThermalCool axial flux pumps built to specification for in-rack and in-row CDUs, alongside UQD/UQDB couplings, and describes Gates as a Silver Member of the Open Compute Project.",
+          "source": "https://www.gates.com/us/en/innovations-and-solutions/industrial-and-off-highway-solutions/data-center-cooling-systems.html"
+        },
+        {
+          "year": "2025",
+          "text": "On March 28, 2025 Gates announced the expansion of its data center cooling portfolio with Data Master MegaFlex large-diameter hose in 1.25-2 inch sizes, available beginning April 2025, featuring a peroxide-cured EPDM tube and, per Gates, up to 75% tighter minimum bend radius than competitive alternatives.",
+          "source": "https://investors.gates.com/news/press-release-details/2025/Gates-Expands-Data-Center-Cooling-Portfolio-with-Breakthrough-Large-Diameter-Hose/default.aspx"
+        }
+      ],
+      "ocp": "Gates describes itself as a Silver Member of the Open Compute Project, and its Universal Quick Disconnect couplings are listed on the OCP marketplace, associated with the approved Intel UQD Specification Rev 1.0 contribution; the OCP listing currently shows no separate OCP recognition (https://www.opencompute.org/marketplace/facilities-physical-infrastructure/gates-universal-quick-disconnect-uqd-couplings).",
+      "faq": [
+        {
+          "q": "What does Gates sell for data center liquid cooling?",
+          "a": "UQD/UQDB quick disconnect couplings for spill-free in-rack connections, the Data Master hose family (7/32 to 1 inch ID, plus MegaFlex up to 4 inch ID) with zinc-free peroxide-cured EPDM tubes, and ThermalCool axial flux pumps for in-rack and in-row CDUs."
+        },
+        {
+          "q": "When did Gates launch Data Master MegaFlex?",
+          "a": "Announced March 28, 2025, available beginning April 2025 in 1.25-2 inch sizes for high-flow supply loops and glycol transfer; Gates states a peroxide-cured EPDM tube and up to 75% tighter minimum bend radius than competitive alternatives. The line is now listed up to 4 inch ID."
+        },
+        {
+          "q": "Are Gates UQD couplings OCP Accepted?",
+          "a": "Gates states it is a Silver Member of the Open Compute Project, and its UQD couplings are listed on the OCP marketplace associated with Intel's UQD Specification Rev 1.0. The OCP listing itself currently shows no OCP recognition for the product."
+        },
+        {
+          "q": "Where is Gates based and how is it listed?",
+          "a": "Gates issued its March 2025 data center announcement from Denver, Colorado, and the company trades on the New York Stock Exchange under ticker GTES; a founding year is not stated on the pages reviewed."
+        }
+      ]
     }
   ]
 }
