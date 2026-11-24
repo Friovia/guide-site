@@ -212,7 +212,7 @@
           "hq": "TW",
           "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
           "source": "https://www.kenmec.com/",
-          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+          "evidence": "https://www.kenmec.com/en/industry_category.aspx?id=10"
         },
         {
           "name": "LG Electronics",
@@ -528,7 +528,7 @@
           "hq": "TW",
           "note": "Brazed plate heat exchanger maker with a data center cooling division; independently developed 800kW and KR1000 ~1MW-class in-row liquid-to-liquid CDUs for direct-to-chip racks; also supplies manifolds",
           "source": "https://www.kaori.com.tw/",
-          "evidence": "https://heat-exchanger-world.com/kaori-develops-large-scale-in-row-800kw-l-l-cdu"
+          "evidence": "https://www.kaori.com.tw/en/modules/immersion/about"
         },
         {
           "name": "Sunon",
@@ -541,8 +541,8 @@
           "name": "Quanta Computer",
           "hq": "TW",
           "note": "AI server ODM (QCT brand); QoolRack liquid-to-air and liquid-to-liquid direct-to-chip racks with in-rack CDU, plus MGX liquid-cooled servers for GB200/GB300",
-          "source": "https://www.quanta.com.tw/",
-          "evidence": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+          "source": "https://www.quantatw.com/",
+          "evidence": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Brings-Extensive-Line-up-of-NVIDIA-Accelerated-Infrastructure-to-COMPUTEX-2025/2/0"
         },
         {
           "name": "Foxconn",
@@ -570,7 +570,7 @@
           "hq": "TW",
           "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
           "source": "https://www.kenmec.com/",
-          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+          "evidence": "https://www.kenmec.com/en/industry_category.aspx?id=10"
         },
         {
           "name": "Cryomax Cooling System",
@@ -582,7 +582,7 @@
         {
           "name": "Nidec",
           "hq": "JP",
-          "note": "Liquid cooling supplier with a 2 MW Project Deschutes CDU built to the Google OCP spec, 300 kW in-rack CDUs, in-row CDUs under the US MOTORS brand, manifolds and quick disconnects",
+          "note": "Liquid cooling supplier with a prototype 2 MW Project Deschutes CDU built to the Google OCP specification (December 2025), 4U in-rack CDUs up to 300 kW, in-row CDUs, quick disconnects and manifolds",
           "source": "https://www.nidec.com/",
           "evidence": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
         },
@@ -839,7 +839,7 @@
           "hq": "TW",
           "note": "Connector maker (CPU sockets) that launched liquid cooling quick disconnect couplings for server racks to enter the AI liquid cooling market",
           "source": "https://www.lotes.cc/",
-          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+          "evidence": "https://www.lotes.cc/"
         },
         {
           "name": "BizLink",
@@ -865,7 +865,7 @@
         {
           "name": "Nidec",
           "hq": "JP",
-          "note": "Liquid cooling supplier with a 2 MW Project Deschutes CDU built to the Google OCP spec, 300 kW in-rack CDUs, in-row CDUs under the US MOTORS brand, manifolds and quick disconnects",
+          "note": "Liquid cooling supplier with a prototype 2 MW Project Deschutes CDU built to the Google OCP specification (December 2025), 4U in-rack CDUs up to 300 kW, in-row CDUs, quick disconnects and manifolds",
           "source": "https://www.nidec.com/",
           "evidence": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
         },
@@ -1131,7 +1131,7 @@
           "hq": "TW",
           "note": "Server chassis and rack maker; NVIDIA MGX partner developing liquid-cooled chassis and full-rack mechanical integration for AI servers",
           "source": "https://www.chenbro.com/",
-          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+          "evidence": "https://www.chenbro.com/en-US/product/MGX"
         },
         {
           "name": "Wiwynn",
@@ -1144,8 +1144,8 @@
           "name": "Quanta Computer",
           "hq": "TW",
           "note": "AI server ODM (QCT brand); QoolRack liquid-to-air and liquid-to-liquid direct-to-chip racks with in-rack CDU, plus MGX liquid-cooled servers for GB200/GB300",
-          "source": "https://www.quanta.com.tw/",
-          "evidence": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+          "source": "https://www.quantatw.com/",
+          "evidence": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Brings-Extensive-Line-up-of-NVIDIA-Accelerated-Infrastructure-to-COMPUTEX-2025/2/0"
         },
         {
           "name": "Foxconn",
@@ -1365,12 +1365,12 @@
           "hq": "TW",
           "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
           "source": "https://www.kenmec.com/",
-          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+          "evidence": "https://www.kenmec.com/en/industry_category.aspx?id=10"
         },
         {
           "name": "Mitsubishi Heavy Industries",
           "hq": "JP",
-          "note": "Container-type data centers combining immersion, air and water cooling, including a 12 ft 40 kVA-class unit and a container immersion program with KDDI and NESIC since 2021",
+          "note": "Container-type and edge data centers with built-in liquid cooling: a 12 ft 40 kVA-class immersion unit in its KDDI and NESIC program since 2021, and the DIAVAULT line launched in 2026 with two-phase direct chip cooling",
           "source": "https://www.mhi.com/",
           "evidence": "https://www.mhi.com/news/231004.html"
         },
@@ -1386,7 +1386,7 @@
           "hq": "KR",
           "note": "LiquidStack's Korea partner; builds direct liquid cooling and single/two-phase immersion systems with CDUs, tanks, piping, quick couplings, fluids and monitoring",
           "source": "http://www.e-pki.com/",
-          "evidence": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+          "evidence": "http://www.e-pki.com/renew_about_en/busi1.php"
         },
         {
           "name": "IMMERSEKOOL",
@@ -1465,7 +1465,7 @@
           "hq": "KR",
           "note": "Refiner selling immersion cooling fluid (Kixx Immersion Fluid S, launched 2023) and Kixx DLC Fluid PG25 for direct liquid cooling, supplied to Korean data centers",
           "source": "https://www.gscaltex.com/",
-          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+          "evidence": "https://gscaltexmediahub.com/news/gscaltex_launches_direct_liquid_cooling_dlc_fluid_for_data_centers_eng"
         },
         {
           "name": "S-Oil",
@@ -1486,7 +1486,7 @@
           "hq": "KR",
           "note": "LiquidStack's Korea partner; builds direct liquid cooling and single/two-phase immersion systems with CDUs, tanks, piping, quick couplings, fluids and monitoring",
           "source": "http://www.e-pki.com/",
-          "evidence": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+          "evidence": "http://www.e-pki.com/renew_about_en/busi1.php"
         },
         {
           "name": "Veolia (Water Technologies)",
@@ -1669,7 +1669,7 @@
           "hq": "TW",
           "note": "Brazed plate heat exchanger maker with a data center cooling division; independently developed 800kW and KR1000 ~1MW-class in-row liquid-to-liquid CDUs for direct-to-chip racks; also supplies manifolds",
           "source": "https://www.kaori.com.tw/",
-          "evidence": "https://heat-exchanger-world.com/kaori-develops-large-scale-in-row-800kw-l-l-cdu"
+          "evidence": "https://www.kaori.com.tw/en/modules/immersion/about"
         },
         {
           "name": "Panasonic",
@@ -1969,7 +1969,7 @@
         {
           "name": "Nidec",
           "hq": "JP",
-          "note": "Liquid cooling supplier with a 2 MW Project Deschutes CDU built to the Google OCP spec, 300 kW in-rack CDUs, in-row CDUs under the US MOTORS brand, manifolds and quick disconnects",
+          "note": "Liquid cooling supplier with a prototype 2 MW Project Deschutes CDU built to the Google OCP specification (December 2025), 4U in-rack CDUs up to 300 kW, in-row CDUs, quick disconnects and manifolds",
           "source": "https://www.nidec.com/",
           "evidence": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
         },
@@ -2272,7 +2272,7 @@
           "hq": "KR",
           "note": "LiquidStack's Korea partner; builds direct liquid cooling and single/two-phase immersion systems with CDUs, tanks, piping, quick couplings, fluids and monitoring",
           "source": "http://www.e-pki.com/",
-          "evidence": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+          "evidence": "http://www.e-pki.com/renew_about_en/busi1.php"
         },
         {
           "name": "Chunghwa System Integration",
@@ -2530,7 +2530,7 @@
         {
           "name": "Mitsubishi Heavy Industries",
           "hq": "JP",
-          "note": "Container-type data centers combining immersion, air and water cooling, including a 12 ft 40 kVA-class unit and a container immersion program with KDDI and NESIC since 2021",
+          "note": "Container-type and edge data centers with built-in liquid cooling: a 12 ft 40 kVA-class immersion unit in its KDDI and NESIC program since 2021, and the DIAVAULT line launched in 2026 with two-phase direct chip cooling",
           "source": "https://www.mhi.com/",
           "evidence": "https://www.mhi.com/news/231004.html"
         },

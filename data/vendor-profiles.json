@@ -2391,6 +2391,1378 @@
           "a": "DAYUAN is headquartered at No. 689 Xicheng Road, Zeguo Town, Wenling, Taizhou, Zhejiang, China, with production bases in Wenling and Hefei. It traces its origins to 1990 and is listed on the Shanghai Stock Exchange under code 603757."
         }
       ]
+    },
+    {
+      "slug": "asrock-rack",
+      "name": "ASRock Rack",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "ASRock-affiliated server company established in 2013; its 4U16X-GNR2/ZC pairs the NVIDIA HGX B300 platform with ZutaCore HyperCool waterless two-phase direct liquid cooling, and it showcased liquid-cooled AI platforms with the NVIDIA Rubin GPU at GTC 2026.",
+      "hq": "Taipei, Taiwan",
+      "founded": 2013,
+      "ownership": "Subsidiary of ASRock (TWSE: 3515)",
+      "website": "https://www.asrockrack.com/",
+      "productLines": [
+        {
+          "name": "4U16X-GNR2/ZC",
+          "note": "4U GPU server announced October 13, 2025, integrating the NVIDIA HGX B300 platform with ZutaCore HyperCool waterless two-phase direct liquid cooling; uses a non-conductive, non-corrosive dielectric fluid to remove heat directly at the chip and is designed for safe operation even in the rare case of a leak.",
+          "source": "https://www.asrockrack.com/general/news.asp?id=272"
+        },
+        {
+          "name": "Liquid-cooled AI platforms with NVIDIA Rubin GPU",
+          "note": "Showcase announced March 16, 2026: liquid-cooled AI platforms powered by the NVIDIA Rubin GPU at NVIDIA GTC 2026, extending the liquid-cooling portfolio beyond the HGX B300 generation. Specific model names were not listed on the news index page.",
+          "source": "https://www.asrockrack.com/general/news.asp"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On March 16, 2026, the ASRock Rack newsroom announced liquid-cooled AI platforms with the NVIDIA Rubin GPU showcased at NVIDIA GTC 2026, extending its liquid-cooled portfolio beyond the HGX B300 generation.",
+          "source": "https://www.asrockrack.com/general/news.asp"
+        },
+        {
+          "year": "2025",
+          "text": "On October 13, 2025, ASRock Rack announced the 4U16X-GNR2/ZC, integrating the NVIDIA HGX B300 platform with ZutaCore HyperCool waterless two-phase direct liquid cooling, and showcased it at the OCP Global Summit 2025 (October 14-16, San Jose Convention Center, booth C31), alongside the air-cooled 8U16X-GNR2 and the MGX-based 4UXGM-GNR2 CX8.",
+          "source": "https://www.asrockrack.com/general/news.asp?id=272"
+        },
+        {
+          "year": "2013",
+          "text": "ASRock Rack Inc. was established in 2013, specializing in cloud-computing server hardware while inheriting ASRock's design concepts and leveraging ASRock's distribution channels, per the company description in its press release.",
+          "source": "https://www.asrockrack.com/general/news.asp?id=272"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is ASRock Rack's flagship liquid-cooled server?",
+          "a": "The 4U16X-GNR2/ZC, announced October 13, 2025: a 4U server integrating the NVIDIA HGX B300 platform with ZutaCore HyperCool waterless two-phase direct liquid cooling, designed for reasoning AI, agentic inference and physical-world AI workloads."
+        },
+        {
+          "q": "How does the waterless liquid cooling in the 4U16X-GNR2/ZC work?",
+          "a": "ZutaCore's two-phase, waterless technology uses a non-conductive, non-corrosive dielectric fluid to remove heat directly at the chip; the design ensures safe operation even in the rare case of a leak."
+        },
+        {
+          "q": "Where was the 4U16X-GNR2/ZC shown?",
+          "a": "At the OCP Global Summit 2025, held October 14-16, 2025 at the San Jose Convention Center, booth C31; the launch announcement was dated October 13, 2025."
+        },
+        {
+          "q": "Has ASRock Rack shown liquid cooling for newer GPU generations?",
+          "a": "Yes. On March 16, 2026 its newsroom announced liquid-cooled AI platforms with the NVIDIA Rubin GPU showcased at NVIDIA GTC 2026."
+        }
+      ]
+    },
+    {
+      "slug": "asus",
+      "name": "ASUS",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Taiwan-based server maker listed as TWSE: 2357; its Optimized Liquid-Cooling Solutions span direct-to-chip, in-row CDU and hybrid cooling for NVIDIA Vera Rubin NVL72-era AI data centers, delivered with a partner framework that includes Schneider, Vertiv, Auras Technology and Cooler Master.",
+      "hq": "Taipei, Taiwan",
+      "founded": 1989,
+      "ownership": "TWSE: 2357",
+      "website": "https://servers.asus.com/",
+      "productLines": [
+        {
+          "name": "ASUS Optimized Liquid-Cooling Solutions",
+          "note": "Portfolio announced February 23, 2026, spanning direct-to-chip (D2C), in-row CDU-based cooling and hybrid configurations, targeting thermal, power and density challenges of next-generation NVIDIA Vera Rubin NVL72 system-based data centers; goals stated by ASUS are reduced energy consumption, lower PUE and higher rack density.",
+          "source": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
+        },
+        {
+          "name": "DLC integration for NVIDIA GB200 NVL72 and HGX H200 systems",
+          "note": "Direct liquid-cooling implementation designed and engineered by ASUS for its AI server deployments, exemplified by the NCHC system combining a Nano4 NVIDIA HGX H200 cluster with an NVIDIA GB200 NVL72 system and achieving a PUE of 1.18.",
+          "source": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On February 23, 2026, ASUS announced its Optimized Liquid-Cooling Solutions and a strategic partner framework for next-generation AI and HPC data centers, naming Schneider and Vertiv as infrastructure partners plus Auras Technology and Cooler Master for precision components, and announced Diamond Sponsor participation (booth #421) at NVIDIA GTC 2026, March 16-19, San Jose.",
+          "source": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
+        },
+        {
+          "year": "2026",
+          "text": "In the same February 2026 announcement, ASUS described its deployment for Taiwan's National Center for High-performance Computing (NCHC): a dual-compute architecture with a Nano4 NVIDIA HGX H200 cluster and NVIDIA GB200 NVL72 system, described by ASUS as Taiwan's first fully liquid-cooled AI supercomputer deployment of this architecture, achieving a PUE of 1.18.",
+          "source": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling options does ASUS offer for AI data centers?",
+          "a": "ASUS Optimized Liquid-Cooling Solutions, announced February 23, 2026, span direct-to-chip (D2C), in-row CDU-based cooling and hybrid configurations, aimed at next-generation NVIDIA Vera Rubin NVL72 system-based data centers."
+        },
+        {
+          "q": "What is the NCHC deployment?",
+          "a": "A liquid-cooled AI supercomputer ASUS designed and engineered for Taiwan's National Center for High-performance Computing, combining a Nano4 NVIDIA HGX H200 cluster with an NVIDIA GB200 NVL72 system; ASUS describes it as Taiwan's first fully liquid-cooled deployment of this architecture, with a PUE of 1.18."
+        },
+        {
+          "q": "Which partners supply ASUS's liquid-cooling framework?",
+          "a": "ASUS names Schneider and Vertiv as infrastructure partners, with precision components from Auras Technology and Cooler Master, alongside its collaboration with NVIDIA."
+        },
+        {
+          "q": "Where was the ASUS liquid-cooling ecosystem showcased?",
+          "a": "ASUS announced Diamond Sponsor participation at NVIDIA GTC 2026, March 16-19 in San Jose, USA, at booth #421, under the theme Trusted AI, Total Flexibility."
+        }
+      ]
+    },
+    {
+      "slug": "bizlink",
+      "name": "BizLink",
+      "segments": [
+        "interconnects",
+        "components"
+      ],
+      "tagline": "Interconnect group founded in 1996 with its parent established in New Taipei City, Taiwan (Taiwan listing code 3665); supplies liquid-cooled rack busbars, liquid-cooled OSFP cages, rack management controllers with daisy-chain leak detection, and 800V/400Vdc liquid-cooled power for OCP and NVIDIA MGX racks.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 1996,
+      "ownership": "TWSE: 3665",
+      "website": "https://www.bizlinktech.com/",
+      "productLines": [
+        {
+          "name": "Direct Liquid Cooling Rack Busbar",
+          "note": "Liquid-cooled rack power busbar designed for OCP liquid-cooled racks; stated specifications: thermal rise below 30 degrees C at any condition, voltage drop below 0.1 V at 44OU height, pressure drop below 40 PSI at 44OU and 5 LPM, recommended flow rate 0.15-5 LPM (1.32 GPM); CSA IEC62368-1 G.15 compliance stated.",
+          "source": "https://www.bizlinktech.com/products/direct-liquid-cooling-rack-busbar"
+        },
+        {
+          "name": "Liquid-cooled OSFP cages and 1.6T connectivity",
+          "note": "Liquid-cooled OSFP cages for 1.6T OSFP switches, shown at OCP Global Summit 2026, alongside 448G bulk cable, 1.6T solutions, CPO and 800G/1.6T XPO optical transceivers for AI data center connectivity.",
+          "source": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
+        },
+        {
+          "name": "Rack Management Controllers with leak detection",
+          "note": "Rack Management Controllers (RMCs) with daisy-chain leak detection, showcased at OCP Global Summit 2026 as part of BizLink's liquid cooling monitoring portfolio for AI data center racks.",
+          "source": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
+        },
+        {
+          "name": "Liquid-cooled power for OCP and NVIDIA MGX racks",
+          "note": "800V/400Vdc power solutions for OCP and NVIDIA MGX racks plus liquid-cooled integrated and next-generation power designs for power and compute racks, presented at OCP Global Summit 2026.",
+          "source": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On October 7, 2026 in San Jose, BizLink announced its showcase at OCP Global Summit 2026: 800V/400Vdc solutions for OCP and NVIDIA MGX racks, liquid-cooled integrated power designs, liquid-cooled OSFP cages for 1.6T switches, and Rack Management Controllers with daisy-chain leak detection, with Interplex presented as part of BizLink Group.",
+          "source": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
+        },
+        {
+          "year": "1996",
+          "text": "BizLink was founded in 1996, with its parent company established in New Taipei City, Taiwan; operations started in 1997 through BizLink Technology, Inc. in Fremont, California, and the group is listed on Taiwan's market under code 3665 per its investor relations page.",
+          "source": "https://www.bizlinktech.com/company-overview"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does BizLink offer?",
+          "a": "A liquid-cooled rack busbar for OCP liquid-cooled racks, liquid-cooled OSFP cages for 1.6T switches, rack management controllers with daisy-chain leak detection, and liquid-cooled integrated power designs for OCP and NVIDIA MGX racks."
+        },
+        {
+          "q": "What are the published specs of the Direct Liquid Cooling Rack Busbar?",
+          "a": "Thermal rise below 30 degrees C at any condition, voltage drop below 0.1 V at 44OU height, pressure drop below 40 PSI at 44OU and 5 LPM, recommended flow 0.15-5 LPM (1.32 GPM), with CSA IEC62368-1 G.15 compliance."
+        },
+        {
+          "q": "Where is BizLink headquartered and listed?",
+          "a": "The parent company is established in New Taipei City, Taiwan; BizLink was founded in 1996, began operations in 1997 via Fremont, California, and its investor page lists the company under Taiwan market code 3665."
+        },
+        {
+          "q": "What is Interplex's relationship to BizLink?",
+          "a": "Interplex is part of BizLink Group and was presented alongside BizLink's OCP Global Summit 2026 showcase as a designer and manufacturer of high-precision interconnect solutions."
+        }
+      ]
+    },
+    {
+      "slug": "chenbro",
+      "name": "Chenbro",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Taiwan server-chassis maker founded in 1983; its NVIDIA MGX line includes liquid-cooled 1U and 2U compute trays for GB200 NVL72/NVL36 racks with blind-mate liquid cooling, and a 4U liquid-cooled chassis for up to 16 single-slot GPUs with an internal coolant manifold.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 1983,
+      "ownership": "TWSE: 8210",
+      "website": "https://www.chenbro.com/",
+      "productLines": [
+        {
+          "name": "MGX 1U Compute Tray (GB200 NVL72)",
+          "note": "Liquid-cooled 1U compute tray fitting two GB200 Superchips with blind-mate liquid cooling support; part of an 18-tray rack configuration with 36 Grace CPUs and 72 Blackwell GPUs. Listed on Chenbro's MGX page with a Q3 2025 launch date.",
+          "source": "https://www.chenbro.com/en-US/product/MGX"
+        },
+        {
+          "name": "MGX 2U Compute Tray (GB200 NVL36)",
+          "note": "Liquid-cooled 2U compute tray fitting two GB200 Superchips with blind-mate liquid cooling support; part of a 9-tray rack configuration with 18 Grace CPUs and 36 Blackwell GPUs. Listed on Chenbro's MGX page with a Q3 2025 launch date.",
+          "source": "https://www.chenbro.com/en-US/product/MGX"
+        },
+        {
+          "name": "MGX 4U Liquid-Cooled Server Chassis",
+          "note": "4U chassis supporting up to 16 single-slot GPUs; an internal manifold distributes coolant to the GPU card assembly, motherboard and switchboard tray, with 9 back-mounted fan brackets and compatibility with 12 redundant CRPS PSU modules. Listed with a Q3 2025 launch date.",
+          "source": "https://www.chenbro.com/en-US/product/MGX"
+        },
+        {
+          "name": "1U NVIDIA Vera Rubin server chassis (announced)",
+          "note": "Announced for COMPUTEX 2026 (June 2-5, 2026): a 1U server chassis built on the NVIDIA MGX modular architecture supporting next-generation AI server platforms, premiered alongside Chenbro's integrated Rack Level Solution with advanced liquid cooling.",
+          "source": "https://www.chenbro.com/en-US/news/release/6a1e4c889a3423c68388fb81"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "At COMPUTEX 2026 (June 2-5), Chenbro debuted its integrated Rack Level Solution for AI infrastructure and premiered a 1U NVIDIA Vera Rubin server chassis on the NVIDIA MGX architecture, alongside its MGX lineup in 1U, 2U, 4U and 6U form factors and 21-inch OCP ORV3-compliant chassis designs, emphasizing advanced liquid cooling and power configuration planning.",
+          "source": "https://www.chenbro.com/en-US/news/release/6a1e4c889a3423c68388fb81"
+        },
+        {
+          "year": "2025",
+          "text": "Chenbro's MGX product page lists liquid-cooled compute trays for GB200 NVL72 (1U, 18-tray rack, 36 Grace CPUs and 72 Blackwell GPUs) and GB200 NVL36 (2U, 9-tray rack, 18 Grace CPUs and 36 Blackwell GPUs), plus a 4U liquid-cooled chassis for up to 16 single-slot GPUs, all shown with a Q3 2025 launch date.",
+          "source": "https://www.chenbro.com/en-US/product/MGX"
+        },
+        {
+          "year": "1983",
+          "text": "Chenbro was founded in 1983 and has designed and manufactured own-brand rackmount systems, tower servers and PC chassis for over 41 years, per its corporate milestones page.",
+          "source": "https://www.chenbro.com/en-US/milestones"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Chenbro MGX products are liquid-cooled?",
+          "a": "The MGX 1U Compute Tray for GB200 NVL72 racks, the MGX 2U Compute Tray for GB200 NVL36 racks (both with blind-mate liquid cooling for two GB200 Superchips), and the MGX 4U Liquid-Cooled Server Chassis for up to 16 single-slot GPUs."
+        },
+        {
+          "q": "How does the MGX 4U liquid-cooled chassis distribute coolant?",
+          "a": "An internal manifold distributes coolant to the GPU card assembly, motherboard and switchboard tray; the chassis also provides 9 back-mounted fan brackets and works with 12 redundant CRPS PSU modules."
+        },
+        {
+          "q": "What did Chenbro announce at COMPUTEX 2026?",
+          "a": "Its integrated Rack Level Solution for AI infrastructure with advanced liquid cooling, and the premiere of a 1U NVIDIA Vera Rubin server chassis built on the NVIDIA MGX modular architecture, shown June 2-5, 2026."
+        },
+        {
+          "q": "When was Chenbro founded?",
+          "a": "Chenbro was founded in 1983 and has designed and manufactured own-brand rackmount system, tower server and PC chassis for over 41 years, per its corporate milestones page."
+        }
+      ]
+    },
+    {
+      "slug": "compal-electronics",
+      "name": "Compal Electronics",
+      "segments": [
+        "servers",
+        "immersion"
+      ],
+      "tagline": "Notebook and server ODM whose data-center lineup spans air, direct-to-chip liquid and immersion cooling; at OCP Global Summit 2025 it showed the ORv3 OG720-2A-L2 with eight AMD Instinct GPUs under direct liquid cooling and the 2U SG223-2A-I immersion server, targeting partial PUE below 1.1.",
+      "hq": "Taipei, Taiwan",
+      "founded": 1984,
+      "ownership": "TWSE: 2324",
+      "website": "https://www.compal.com/",
+      "productLines": [
+        {
+          "name": "OG720-2A-L2",
+          "note": "ORv3 7OU AI server with eight AMD Instinct GPUs and direct-to-chip liquid cooling, unveiled at OCP Global Summit 2025 (San Jose Convention Center, booth C35); the release states both new liquid-cooled servers aim for a partial PUE below 1.1.",
+          "source": "https://www.prnewswire.com/news-releases/compal-redefines-ai-driven-data-centers-with-cxl-and-liquid-cooling-innovations-at-the-2025-ocp-global-summit-302581853.html"
+        },
+        {
+          "name": "SG223-2A-I",
+          "note": "2U server accommodating eight GPUs with immersion cooling, unveiled at OCP Global Summit 2025; presented alongside the OG720-2A-L2 as part of Compal's liquid cooling server portfolio targeting partial PUE below 1.1.",
+          "source": "https://www.prnewswire.com/news-releases/compal-redefines-ai-driven-data-centers-with-cxl-and-liquid-cooling-innovations-at-the-2025-ocp-global-summit-302581853.html"
+        },
+        {
+          "name": "SD221-8A-L",
+          "note": "Server showcased at SC24 featuring ZutaCore two-phase direct liquid cooling, positioned by Compal for efficiency in confined spaces; shown alongside air-cooled models including the SG720-2A 7U high-performance AI server and SR230-2 supporting a 350 W CPU.",
+          "source": "https://www.compal.com/zh-hans/media/238/ren-bao-can-zhan-sc24-zhan-shi-ye-jie-ling-xian-si"
+        },
+        {
+          "name": "L11 Integrated Rack Solution",
+          "note": "Integrated rack solution showcased at SC24 for scalable, energy-efficient data center deployment, presented with Compal's server and cooling lineup.",
+          "source": "https://www.compal.com/zh-hans/media/238/ren-bao-can-zhan-sc24-zhan-shi-ye-jie-ling-xian-si"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On October 13, 2025, Compal announced at OCP Global Summit 2025 (San Jose Convention Center, booth C35) two liquid cooling servers: the OG720-2A-L2 ORv3 7OU with eight AMD Instinct GPUs using direct-to-chip liquid cooling and the SG223-2A-I 2U eight-GPU immersion server, both targeting partial PUE below 1.1, alongside CXL-based memory pooling innovations.",
+          "source": "https://www.prnewswire.com/news-releases/compal-redefines-ai-driven-data-centers-with-cxl-and-liquid-cooling-innovations-at-the-2025-ocp-global-summit-302581853.html"
+        },
+        {
+          "year": "2025",
+          "text": "On October 16, 2025, Compal unveiled the SGX30-2, a 10U AI server on the NVIDIA HGX B300 platform with eight NVIDIA Blackwell Ultra GPUs connected by fifth-generation NVLink and dual Intel Xeon 6 processors, at the 2025 OCP Global Summit; the announcement did not specify its cooling type.",
+          "source": "https://www.compal.com/en-us/media/293/ren-bao-2025-ocpquan-qiu-gao-feng-hui-zhan-shi-wei"
+        },
+        {
+          "year": "2024",
+          "text": "At SC24 (November 17-22, 2024, booth #3941), Compal showcased servers spanning air cooling, direct liquid cooling and immersion cooling, including the SD221-8A-L featuring ZutaCore two-phase direct liquid cooling, the 7U SG720-2A AI server, SR230-2 with up to a 350 W CPU, and the L11 Integrated Rack Solution.",
+          "source": "https://www.compal.com/zh-hans/media/238/ren-bao-can-zhan-sc24-zhan-shi-ye-jie-ling-xian-si"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooled AI servers has Compal shown at OCP?",
+          "a": "At OCP Global Summit 2025 it unveiled the OG720-2A-L2, an ORv3 7OU server with eight AMD Instinct GPUs under direct-to-chip liquid cooling, and the SG223-2A-I, a 2U eight-GPU immersion-cooled server; both target a partial PUE below 1.1."
+        },
+        {
+          "q": "What is the SD221-8A-L?",
+          "a": "A server showcased at SC24 in November 2024 featuring ZutaCore two-phase direct liquid cooling, which Compal positioned for superior efficiency in confined deployment spaces."
+        },
+        {
+          "q": "What did Compal show at SC24?",
+          "a": "At booth #3941 (November 17-22, 2024) it presented air cooling, direct liquid cooling and immersion cooling solutions, including the SD221-8A-L, the SG720-2A 7U AI server, SR230-2 with up to a 350 W CPU, and the L11 Integrated Rack Solution."
+        },
+        {
+          "q": "Did Compal announce anything at OCP 2025 besides liquid cooling?",
+          "a": "Yes: on October 16, 2025 it unveiled the SGX30-2, a 10U AI server on the NVIDIA HGX B300 platform with eight Blackwell Ultra GPUs and dual Intel Xeon 6 processors, and presented CXL memory-expansion and pooling technologies."
+        }
+      ]
+    },
+    {
+      "slug": "cooler-master",
+      "name": "Cooler Master",
+      "segments": [
+        "cdus",
+        "cold-plates"
+      ],
+      "tagline": "Cooling brand with a data-center liquid cooling catalog spanning liquid-to-liquid CDUs from 100 kW to 2500 kW and liquid-to-air CDUs from 25 kW to 300 kW, plus GPU, CPU and DIMM cold plates, wall manifolds and commissioning tools for AI infrastructure.",
+      "hq": "Taipei, Taiwan",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.coolermaster.com/",
+      "productLines": [
+        {
+          "name": "2500 kW Liquid-to-Liquid In-Row CDU",
+          "note": "46U in-row coolant distribution unit rated for a 2,500 kW heat load (1,500 kW nominal at 4 degrees C ATD), separating facility and IT loops via a brazed plate heat exchanger; secondary flow up to 4,200 LPM, facility water 2 to 45 degrees C (ASHRAE W2-W4), with fluid-condition and leakage monitoring plus group control of up to 32 units.",
+          "source": "https://www.coolermaster.com/en-global/products/2500-kW-CDU.html"
+        },
+        {
+          "name": "Liquid-to-Liquid CDU family",
+          "note": "Catalog lists liquid-to-liquid CDUs at 100 kW, 120 kW, 1400 kW and 2500 kW cooling capacity, covering rack-to-row heat rejection between facility water and IT coolant loops.",
+          "source": "https://www.coolermaster.com/en-global/catalog/data-center-cooling"
+        },
+        {
+          "name": "Liquid-to-Air CDUs",
+          "note": "Catalog lists liquid-to-air CDUs at 25 kW and 30 kW, a 75 kW liquid-to-air in-row CDU, a 300 kW AALC CDU, and the Aquagate Max Retro Mini liquid-to-air CDU for deployments without facility water.",
+          "source": "https://www.coolermaster.com/en-global/catalog/data-center-cooling"
+        },
+        {
+          "name": "Cold plates, manifolds and commissioning tools",
+          "note": "Catalog includes GPU, CPU and DIMM cold plates, a wall manifold for coolant distribution, and commissioning tools; no numeric specs for these items are published on the catalog page.",
+          "source": "https://www.coolermaster.com/en-global/catalog/data-center-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "At OCP Global Summit 2026 (San Jose, October 12-15, 2026) Cooler Master showed a liquid cooling portfolio anchored by a 2,500 kW liquid-to-liquid in-row CDU (990 GPM at a 4-5 °C approach temperature), with liquid-to-liquid CDUs from 150 to 2,500 kW, a 300 kW air-assisted liquid cooling CDU in production and a 30 kW in-rack liquid-to-air CDU planned for the fourth quarter of 2026",
+          "source": "https://datacentremagazine.com/news/cooler-master-unveils-2-500kw-cdu-for-ai-data-centres"
+        },
+        {
+          "year": "2026",
+          "text": "On May 26, 2026 Cooler Master set out an end-to-end cooling portfolio for AI infrastructure covering cold plates, coolant distribution manifolds and liquid-to-liquid and liquid-to-air CDUs, including cooling engineered for NVIDIA MGX platforms at 45 °C warm-liquid inlet temperatures",
+          "source": "https://www.coolermaster.com/en-us/cooler-master-advances-global-ai-cooling-infrastructure.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacities does Cooler Master offer?",
+          "a": "Liquid-to-liquid CDUs at 100 kW, 120 kW, 1400 kW and 2500 kW, and liquid-to-air CDUs at 25 kW, 30 kW, 75 kW (in-row) and 300 kW (AALC), per its data center cooling catalog."
+        },
+        {
+          "q": "What are the key specs of the 2500 kW CDU?",
+          "a": "46U in-row chassis, 2,500 kW heat load (1,500 kW nominal at 4 degrees C ATD), brazed plate heat exchanger, secondary flow up to 4,200 LPM, facility water 2-45 degrees C (ASHRAE W2-W4), with Redfish/Modbus management and group control of up to 32 units."
+        },
+        {
+          "q": "Does Cooler Master sell component-level liquid cooling?",
+          "a": "Yes: GPU, CPU and DIMM cold plates and a wall manifold are listed in its data center cooling catalog, alongside commissioning tools."
+        },
+        {
+          "q": "What monitoring does the 2500 kW CDU provide?",
+          "a": "It monitors flow, pressure, pH, ORP, electrical conductivity, temperature, humidity and leakage, with a 10.1-inch touchscreen and remote management via Redfish and Modbus."
+        }
+      ]
+    },
+    {
+      "slug": "asia-vital-components",
+      "name": "Asia Vital Components",
+      "segments": [
+        "cold-plates",
+        "cdus"
+      ],
+      "tagline": "Taiwanese thermal solutions provider in data-center liquid cooling; it unveiled new direct liquid cooling solutions and a 6 MW in-row CDU with predictive cooling at OCP Global Summit 2026, and has been shipping double-sided cold plates for vertical-power-delivery AI servers since November 2026, per DigiTimes reports.",
+      "hq": "Kaohsiung, Taiwan",
+      "founded": 1991,
+      "ownership": "TWSE: 3017",
+      "website": "https://www.avc.co/",
+      "productLines": [
+        {
+          "name": "6 MW In-Row CDU",
+          "note": "In-row coolant distribution unit rated at 6 MW (6,000 kW), unveiled at the OCP Global Summit 2026 (October 12-15, San Jose) and reported by DigiTimes on October 14, 2026 as AVC's headline liquid-cooling product, with added predictive cooling capability.",
+          "source": "https://www.digitimes.com/news/a20261014PD246/avc-cooling-liquid-cooling-demand-technology.html"
+        },
+        {
+          "name": "Double-sided cold plates",
+          "note": "Cold plates that accommodate vertical power delivery (VPD) designs in AI servers; DigiTimes reported on November 11, 2026 that AVC had started shipping them, with the company expecting all GPU- and ASIC-based AI servers to adopt liquid cooling by the end of 2027.",
+          "source": "https://www.digitimes.com/news/a20261111PD236/avc-liquid-cooling-ai-server-shipping-2027.html"
+        },
+        {
+          "name": "Direct liquid cooling solutions",
+          "note": "New direct liquid cooling (DLC) solutions unveiled alongside the in-row CDU at OCP Global Summit 2026, per DigiTimes coverage of the event; the paywalled article did not disclose further specifications.",
+          "source": "https://www.digitimes.com/news/a20261014PD246/avc-cooling-liquid-cooling-demand-technology.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On November 11, 2026, DigiTimes reported that AVC had started shipping double-sided cold plates for AI servers that use vertical power delivery designs, and that the company expects all GPU- and ASIC-based AI servers to adopt liquid cooling by the end of 2027.",
+          "source": "https://www.digitimes.com/news/a20261111PD236/avc-liquid-cooling-ai-server-shipping-2027.html"
+        },
+        {
+          "year": "2026",
+          "text": "On October 14, 2026, DigiTimes reported from the OCP Global Summit (October 12-15, San Jose) that AVC unveiled new liquid-cooling solutions including direct liquid cooling and an in-row CDU, headlined by a 6 MW in-row CDU with predictive cooling capability.",
+          "source": "https://www.digitimes.com/news/a20261014PD246/avc-cooling-liquid-cooling-demand-technology.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU did AVC show at OCP Global Summit 2026?",
+          "a": "A 6 MW (6,000 kW) in-row CDU with predictive cooling capability, part of a set of new liquid-cooling solutions including direct liquid cooling that AVC unveiled at the summit held October 12-15, 2026 in San Jose, per DigiTimes."
+        },
+        {
+          "q": "What cold plates does AVC ship for AI servers?",
+          "a": "Double-sided cold plates that accommodate vertical power delivery (VPD) designs; DigiTimes reported shipment started as of November 11, 2026."
+        },
+        {
+          "q": "How does AVC view liquid cooling adoption?",
+          "a": "The company expects all GPU- and ASIC-based AI servers to adopt liquid cooling by the end of 2027, as reported by DigiTimes on November 11, 2026."
+        },
+        {
+          "q": "Why is some AVC information unavailable?",
+          "a": "AVC's official website could not be retrieved by automated fetches during research (blocked or empty responses), so this profile relies on DigiTimes reporting and leaves unverified details, such as the founding year, marked NOT_FOUND."
+        }
+      ]
+    },
+    {
+      "slug": "fositek",
+      "name": "Fositek",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Taiwanese precision metal-stamping company (founded 2001, Xinzhuang District, New Taipei City) whose original business is hinges for folding phones and notebooks; its stated AI-server product direction adds water-cooling quick disconnects and server slide rails.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 2001,
+      "ownership": "TWSE: 6805",
+      "website": "https://www.fositek.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling quick disconnects",
+          "note": "Water-cooling quick couplers that connect and detach liquid cooling loop lines; described in October 2026 Taiwanese market coverage, citing the company's sustainability report, as a core AI-server product direction extending the hinge business. No published specifications located.",
+          "source": "https://www.pocket.tw/school/articles/article-mvqcc90u"
+        },
+        {
+          "name": "Server slide rails",
+          "note": "Slide rails for AI servers, identified in the same October 2026 coverage as the second AI-server product direction alongside water-cooling quick connectors.",
+          "source": "https://www.pocket.tw/school/articles/article-mvqcc90u"
+        },
+        {
+          "name": "Precision hinges and stampings",
+          "note": "Core business: metal stamping design and manufacturing, including hinge parts for folding phones, notebooks and tablets; R&D at New Taipei City headquarters with volume production at its Shenzhen plant.",
+          "source": "https://www.fositek.com/Product-Technology/Cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Taiwanese market commentary dated October 2026 describes Fositek's water-cooling quick connectors and server slide rails as its AI-server product direction, citing the company's sustainability report.",
+          "source": "https://www.pocket.tw/school/articles/article-mvqcc90u"
+        },
+        {
+          "year": "2001",
+          "text": "Fositek was established in ROC year 90; headquarters and main R&D center sit in the New Taipei Industrial Park, Xinzhuang District, with production in Shenzhen and service sites in Kunshan and Hefei.",
+          "source": "https://www.fositek.com/Product-Technology/Cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Fositek supply for data-center liquid cooling?",
+          "a": "Water-cooling quick disconnects (QD/UQD-type couplers) that connect and detach liquid cooling lines, plus server slide rails. Both are described as its AI-server product direction, extending a core business in hinges and precision metal stampings."
+        },
+        {
+          "q": "Where is Fositek based and where does it manufacture?",
+          "a": "Headquarters and the main R&D center are in the New Taipei Industrial Park, Xinzhuang District, New Taipei City, Taiwan. The main production plant is in Shenzhen, China, with service sites in Kunshan and Hefei."
+        },
+        {
+          "q": "Is Fositek listed?",
+          "a": "Yes, Fositek trades on the Taiwan Stock Exchange under code 6805."
+        },
+        {
+          "q": "What specifications are published for its liquid cooling connectors?",
+          "a": "No connector specifications such as flow rate, pressure rating or fitting sizes were located on Fositek's own website at research time; the liquid cooling product line is documented descriptively in third-party coverage citing the company's sustainability report."
+        }
+      ]
+    },
+    {
+      "slug": "foxconn",
+      "name": "Foxconn",
+      "segments": [
+        "servers",
+        "cdus"
+      ],
+      "tagline": "Hon Hai Technology Group (Foxconn), founded 1974 and headquartered in Tucheng District, New Taipei City, builds AI-server liquid cooling through subsidiary Ingrasys: NVIDIA GB300 NVL72 racks integrated with in-row CDUs, MGX servers, and customized rack-level liquid and immersion cooling solutions.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 1974,
+      "ownership": "TWSE: 2317",
+      "website": "https://www.foxconn.com/",
+      "productLines": [
+        {
+          "name": "NVIDIA GB300 NVL72 rack integration",
+          "note": "Ingrasys showcased the NVIDIA GB300 NVL72 platform integrated with an in-row CDU solution, together with the NVIDIA HGX B300 platform and new NVIDIA MGX servers for enterprise AI, at OCP Global Summit 2025 (October 14, 2025).",
+          "source": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1848"
+        },
+        {
+          "name": "Rack-level liquid and immersion cooling",
+          "note": "Customized rack-level liquid cooling and immersion cooling solutions for data centers; Ingrasys notes that a traditional air-cooled server rack can handle up to 25 kW of heat, whereas a liquid-cooled system can push the limits beyond 100 kW",
+          "source": "https://www.ingrasys.com/solutions/advanced-cooling/overview/"
+        },
+        {
+          "name": "Cooling for AI factory racks",
+          "note": "Rack-level liquid cooling presented as the enabling technology for the component densities of modern data centers without compromising performance, offered alongside Ingrasys’ AI server, storage and networking platforms",
+          "source": "https://www.ingrasys.com/solutions/advanced-cooling/overview/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "October 14, 2025, at OCP Global Summit 2025 in San Jose: Foxconn announced collaboration with NVIDIA on 800 VDC power architecture for next-generation AI factories, and Ingrasys showcased the NVIDIA GB300 NVL72 platform integrated with an in-row CDU solution.",
+          "source": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1848"
+        },
+        {
+          "year": "1974",
+          "text": "Foxconn (Hon Hai Technology Group, TWSE: 2317) was established in Taiwan in 1974; it is headquartered at No. 2, Ziyou St., Tucheng District, New Taipei City, and operates more than 230 campuses in 24 countries.",
+          "source": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1848"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Foxconn offer for AI racks?",
+          "a": "Through subsidiary Ingrasys: customized rack-level liquid cooling and immersion cooling solutions for data centers, and NVIDIA GB300 NVL72 racks integrated with an in-row CDU solution. This profile repeats only what Ingrasys’ live overview page and Foxconn’s own releases state."
+        },
+        {
+          "q": "What rack capacities does Ingrasys cite for liquid cooling?",
+          "a": "Ingrasys states that a traditional air-cooled server rack can handle up to 25 kW of heat, whereas a liquid-cooled system can push the limits beyond 100 kW, supporting the increasing component densities of modern data centers."
+        },
+        {
+          "q": "Which NVIDIA platforms does Foxconn integrate with liquid cooling?",
+          "a": "At OCP Global Summit 2025 (October 14, 2025), Ingrasys showcased the NVIDIA GB300 NVL72 platform integrated with an in-row CDU solution, plus the NVIDIA HGX B300 platform and new MGX servers for enterprise AI."
+        },
+        {
+          "q": "What is Foxconn's legal identity and headquarters?",
+          "a": "Foxconn is Hon Hai Technology Group, listed on the Taiwan Stock Exchange as TWSE: 2317, established in Taiwan in 1974 and headquartered in Tucheng District, New Taipei City."
+        }
+      ]
+    },
+    {
+      "slug": "fujitsu",
+      "name": "Fujitsu",
+      "segments": [
+        "servers",
+        "cdus"
+      ],
+      "tagline": "Japanese ICT group whose data-center liquid cooling spans FSAS Technologies' Cool-Safe single-phase direct-to-chip systems for PRIMERGY servers (CDU up to 80 kW), the PRIMERGY liquid immersion cooling system, and Fujitsu monitoring/control software for liquid-cooled servers and CDUs developed with Supermicro and Nidec.",
+      "hq": "Kawasaki, Kanagawa, Japan",
+      "founded": 1935,
+      "ownership": "TSE: 6702",
+      "website": "https://eu.fsastech.com/",
+      "productLines": [
+        {
+          "name": "Cool-Safe Liquid Cooling",
+          "note": "FSAS Technologies' single-phase, closed-loop direct-to-chip cold-plate cooling for AI/HPC: CDU with up to 80 kW cooling capacity, coolant distribution manifolds supporting up to 72 servers per rack, purpose-built PRIMECENTER Rack M2 42U LC, and liquid cooling modules attached directly to CPUs.",
+          "source": "https://eu.fsastech.com/eu/cool-safe-liquid-cooling"
+        },
+        {
+          "name": "PRIMERGY Liquid Immersion Cooling System",
+          "note": "Servers fully submerged in a non-conductive, electrically insulating dielectric fluid; a CDU circulates the fluid and transfers heat to coolant water. Fujitsu cites about 40% lower total server-system power versus air cooling and a measured PUE of 1.07; available in Japan since end of November 2018, priced from JPY 20 million excluding ICT hardware.",
+          "source": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2018/0906-01.html"
+        },
+        {
+          "name": "Liquid cooling monitoring and control software",
+          "note": "Fujitsu software for real-time monitoring of liquid-cooled servers and cooling equipment including CDUs; offered as a subscription data-center service starting in Japan in Q1 fiscal 2025, with verification at the Tatebayashi Data Center using Supermicro GPU servers and Nidec CDUs, targeting up to 40% efficiency improvement versus air cooling.",
+          "source": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2025/0417-01.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "April 17, 2025: Fujitsu, Supermicro and Nidec announced a collaboration combining Fujitsu's liquid-cooling monitoring/control software, Supermicro GPU servers and Nidec CDUs (cumulative shipments of 5,000 units as of November 2024), to be tested at Fujitsu's Tatebayashi Data Center, with a subscription datacenter offering starting in Japan in Q1 fiscal 2025.",
+          "source": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2025/0417-01.html"
+        },
+        {
+          "year": "2024",
+          "text": "April 1, 2024: FSAS Technologies Inc. launched under Fujitsu Limited, consolidating Fujitsu's Japanese hardware business, including development, manufacturing, sales and maintenance of PRIMERGY, PRIMEQUEST and ETERNUS servers and storage, with about 7,500 employees.",
+          "source": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2023/1226-01.html"
+        },
+        {
+          "year": "2018",
+          "text": "September 6, 2018: Fujitsu announced the PRIMERGY Liquid Immersion Cooling System, available in Japan from end of November 2018, citing roughly 40% reduction in total server-system power consumption versus air cooling and a measured PUE of 1.07.",
+          "source": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2018/0906-01.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Cool-Safe Liquid Cooling?",
+          "a": "FSAS Technologies' single-phase, closed-loop direct-to-chip cold-plate system for PRIMERGY servers: a CDU with up to 80 kW cooling capacity, coolant distribution manifolds supporting up to 72 servers per rack, the PRIMECENTER Rack M2 42U LC, and liquid cooling modules attached directly to CPUs."
+        },
+        {
+          "q": "Does Fujitsu offer immersion cooling?",
+          "a": "Yes. The PRIMERGY Liquid Immersion Cooling System, available in Japan since November 2018, fully submerges servers in a non-conductive dielectric fluid circulated by a CDU; Fujitsu cites about 40% lower server-system power than air cooling and a measured PUE of 1.07."
+        },
+        {
+          "q": "How does Fujitsu manage liquid-cooled infrastructure?",
+          "a": "Fujitsu's monitoring/control software provides real-time monitoring of liquid-cooled servers and equipment including CDUs. Since April 17, 2025 it is being verified with Supermicro GPU servers and Nidec CDUs at the Tatebayashi Data Center, with a subscription datacenter offering starting in Japan in Q1 fiscal 2025."
+        },
+        {
+          "q": "What is FSAS Technologies' relationship to Fujitsu?",
+          "a": "FSAS Technologies Inc. launched on April 1, 2024 under Fujitsu Limited, taking over Fujitsu's Japanese server and storage hardware business, including PRIMERGY, PRIMEQUEST and ETERNUS. Fujitsu Limited is listed on the Tokyo Stock Exchange as TSE: 6702."
+        }
+      ]
+    },
+    {
+      "slug": "gs-caltex",
+      "name": "GS Caltex",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Korean oil refiner and lubricants maker (Kixx brand, GS Tower, Gangnam-gu, Seoul) selling data-center cooling fluids: POE-based Kixx Immersion Fluid S (launched 2023, expanded 2024) and Kixx DLC Fluid PG25 for direct-to-chip cooling, launched October 14, 2025.",
+      "hq": "Seoul, South Korea",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.gscaltex.com/",
+      "productLines": [
+        {
+          "name": "Kixx DLC Fluid PG25",
+          "note": "Direct liquid cooling fluid made with propylene glycol and organic acid technology (OAT) corrosion-inhibiting additives; circulates through cooling plates to manage CPU and GPU heat in data center servers. Announced October 14, 2025.",
+          "source": "https://gscaltexmediahub.com/news/gscaltex_launches_direct_liquid_cooling_dlc_fluid_for_data_centers_eng"
+        },
+        {
+          "name": "Kixx Immersion Fluid S",
+          "note": "POE-based immersion cooling fluid for data center servers launched in 2023; lineup expanded in 2024 with S 5 and S 30 (both NSF certified, S 30 with 250 degrees C flash point), S E (biodegradable, 250 degrees C flash point) and S BIO (bio-based).",
+          "source": "https://news.kixxoil.com/next-gen-lubes-2"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "October 14, 2025: GS Caltex launched Kixx DLC Fluid PG25, a propylene glycol direct liquid cooling fluid with OAT corrosion inhibitors. The release also notes immersion fluid supplied to Samsung SDS (2024) and LG Uplus Pyeongchon data center (2025), an immersion cooling system built with Supermicro at its Daejeon R&D Center, and an MOU with GS E&C and SDT on cooling technology.",
+          "source": "https://gscaltexmediahub.com/news/gscaltex_launches_direct_liquid_cooling_dlc_fluid_for_data_centers_eng"
+        },
+        {
+          "year": "2024",
+          "text": "The Kixx Immersion Fluid S lineup was expanded with variants S 5 and S 30 (both NSF certified; S 30 with a 250 degrees C flash point), S E (biodegradable, 250 degrees C flash point) and S BIO (bio-based).",
+          "source": "https://news.kixxoil.com/next-gen-lubes-2"
+        },
+        {
+          "year": "2023",
+          "text": "GS Caltex launched Kixx Immersion Fluid S, a POE-based immersion cooling fluid for data center servers, entering the data-center cooling fluids market.",
+          "source": "https://news.kixxoil.com/next-gen-lubes-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling fluids does GS Caltex offer for data centers?",
+          "a": "Two lines: Kixx Immersion Fluid S, a POE-based immersion cooling fluid launched in 2023 and expanded in 2024 with NSF-certified, biodegradable and bio-based variants, and Kixx DLC Fluid PG25, a propylene glycol direct liquid cooling fluid with OAT corrosion inhibitors announced October 14, 2025."
+        },
+        {
+          "q": "Where have GS Caltex cooling fluids been demonstrated or supplied?",
+          "a": "Per the company announcement of October 14, 2025, its immersion cooling fluid was supplied to Samsung SDS data centers in 2024 and to LG Uplus Pyeongchon data center in 2025, and an immersion cooling system was built with Supermicro at GS Caltex Daejeon R&D Center."
+        },
+        {
+          "q": "What is Kixx DLC Fluid PG25 made of?",
+          "a": "It is a propylene glycol-based fluid with organic acid technology (OAT) corrosion-inhibiting additives, designed to circulate through cooling plates that manage heat from CPUs and GPUs in data center servers."
+        },
+        {
+          "q": "Where is GS Caltex headquartered and is it listed?",
+          "a": "GS Caltex is headquartered at GS Tower, 508 Nonhyeon-ro, Gangnam-gu, Seoul, South Korea. No stock listing for GS Caltex itself and no confirmed ownership structure were found on the pages opened for this profile (NOT_FOUND)."
+        }
+      ]
+    },
+    {
+      "slug": "kaori",
+      "name": "Kaori",
+      "segments": [
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "Taiwanese brazed plate heat exchanger maker (KAORI HEAT TREATMENT CO., LTD., since 1970, Taoyuan; TPEx: 8996) with a data-center cooling division offering in-row liquid-to-liquid CDUs above 800 kW per unit, in-rack CDUs, single-server cooling and immersion systems of 30-400 kW.",
+      "hq": "Taoyuan, Taiwan",
+      "founded": 1970,
+      "ownership": "TPEx: 8996",
+      "website": "https://www.kaori.com.tw/",
+      "productLines": [
+        {
+          "name": "In-row liquid-to-liquid CDUs",
+          "note": "In-row CDUs whose brazed plate heat exchangers support over 800 kW of cooling per unit, scalable past 3 MW with parallel units and customizable for thermal loads from 800 kW to 2.5 MW, serving one-to-many cabinet direct-to-chip liquid cooling systems.",
+          "source": "https://www.kaori.com.tw/en/modules/news/article.php?storyid=204"
+        },
+        {
+          "name": "In-rack CDUs and single-server cooling",
+          "note": "Data-center product family alongside in-row CDUs and immersion: in-rack coolant distribution units using Kaori BPHEs for compact on-demand heat removal, plus single-server liquid cooling, presented under Kaori's Data Center Advanced Liquid Cooling program which claims PUE of 1.1 or lower.",
+          "source": "https://www.kaori.com.tw/en/modules/immersion/main"
+        },
+        {
+          "name": "Immersion cooling systems",
+          "note": "Customized immersion cooling solutions from 30 kW to 400 kW with centralized temperature control; Kaori cites about 13 MW of immersion cooling deployed and case-study CDU experience from 80 kW to 2 MW, with customized CDU, immersion tank and piping network design.",
+          "source": "https://www.kaori.com.tw/en/modules/immersion/about"
+        },
+        {
+          "name": "Brazed plate heat exchangers",
+          "note": "Core component and product, designed and manufactured in-house since 1994: stainless steel plates with 99.9% pure copper brazing, standard pressure up to 30 bar (140 bar on request), maximum 200 degrees C, CE (PED) and UL certified.",
+          "source": "https://www.kaori.com.tw/en/modules/news/article.php?storyid=204"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "June 23, 2026: Kaori broke ground on a new facility in Qiaotou with production targeted by 2027, and in 2026 it announced participation in OCP APAC Summit 2026 (Taipei, August 11-12) and Super Computing 2026 (Chicago, November).",
+          "source": "https://www.kaori.com.tw/en/modules/news/"
+        },
+        {
+          "year": "2024",
+          "text": "January 31, 2024: trade press covered Kaori's independently developed large-scale in-row 800 kW liquid-to-liquid CDU for servers and direct-to-chip cold-plate cabinets, designed to manage heat output across multiple cabinets.",
+          "source": "https://heat-exchanger-world.com/kaori-develops-large-scale-in-row-800kw-l-l-cdu"
+        },
+        {
+          "year": "1970",
+          "text": "Kaori Heat Treatment Co., Ltd. has operated since 1970, building on metal processing and plate heat exchanger technologies; it has designed and manufactured brazed plate heat exchangers since 1994.",
+          "source": "https://www.kaori.com.tw/en/modules/immersion/about"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacity does Kaori offer?",
+          "a": "Kaori in-row liquid-to-liquid CDUs support over 800 kW of cooling per unit and can be scaled past 3 MW with parallel units; the company cites customizable thermal loads from 800 kW to 2.5 MW and case-study CDU experience ranging from 80 kW to 2 MW."
+        },
+        {
+          "q": "Does Kaori provide immersion cooling?",
+          "a": "Yes. It offers customized immersion cooling solutions from 30 kW to 400 kW with centralized temperature control, and cites roughly 13 MW of immersion cooling deployed, including customized CDU, immersion tank and piping network design."
+        },
+        {
+          "q": "What is Kaori's core technology?",
+          "a": "Brazed plate heat exchangers, designed and manufactured in-house since 1994: stainless steel plates with 99.9% pure copper brazing, standard pressure up to 30 bar (140 bar on request), maximum 200 degrees C, CE (PED) and UL certified. These BPHEs are key CDU components."
+        },
+        {
+          "q": "Is Kaori expanding capacity?",
+          "a": "Yes. On June 23, 2026 Kaori announced breaking ground on an NT$3.25 billion facility in Qiaotou, with production targeted by 2027."
+        }
+      ]
+    },
+    {
+      "slug": "kenmec-mechanical-engineering",
+      "name": "KENMEC Mechanical Engineering",
+      "segments": [
+        "cdus",
+        "immersion",
+        "cold-plates"
+      ],
+      "tagline": "Taiwanese automation and thermal engineering group (established 1976, Nangang District, Taipei; TPEx: 6125) whose thermal solutions division supplies liquid-to-liquid and liquid-to-air CDUs, rear door heat exchangers, two-phase immersion systems (PUE 1.02), cold plates and manifolds for data centers.",
+      "hq": "Taipei, Taiwan",
+      "founded": 1976,
+      "ownership": "TPEx: 6125",
+      "website": "https://www.kenmec.com/",
+      "productLines": [
+        {
+          "name": "In-cabinet and rack-type CDUs",
+          "note": "Liquid-to-liquid and liquid-to-air CDUs in in-cabinet and rack-type formats: in-cabinet L2L with dual pump backup, quick connectors and variable-frequency flow/temperature control; rack-type L2L with built-in heat exchanger and 1+1 backup motor; rack-type L2A with hot-swappable fans, no external chiller, ORv3 cabinet and built-in power shelf/bus bar.",
+          "source": "https://www.kenmec.com/en/industry_category.aspx?id=10"
+        },
+        {
+          "name": "Rear door heat exchangers (RDHx)",
+          "note": "Rear-door liquid cooling with no water leakage risk inside the rack, compatibility with various cabinet sizes, optional external fans to raise cooling capacity; listed as deployed at government, telecom, biotech and semiconductor company data centers.",
+          "source": "https://www.kenmec.com/en/industry_category.aspx?id=10"
+        },
+        {
+          "name": "Two-phase immersion cooling",
+          "note": "Two-phase immersion system using phase change between gas and liquid with no additional active cooling components; company-stated PUE of 1.02, maintenance without downtime and no dielectric fluid leakage; a second-generation solution underwent real-machine verification with partners at Computex Taipei 2024.",
+          "source": "https://www.kenmec.com/en/news_list.aspx"
+        },
+        {
+          "name": "Cold plates and manifolds",
+          "note": "Chip cold plates with uniform cooling surface, no water leakage risk and flow channel direction customizable to customer requirements; manifolds offered in standard round and square tube options, customizable per rack design. Coolants offered include mineral oil, coolant and dielectric fluid.",
+          "source": "https://www.kenmec.com/en/industry_category.aspx?id=10"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "May 20, 2025: at Computex 2025 in Taipei, KENMEC jointly showcased AI data center full-lifecycle solutions with Agaruda, combining digital twins, BIM, IoT asset management and CFD thermal simulation, integrating its cooling equipment with AI-based simulation for data center planning.",
+          "source": "https://agaruda.io/zh-TW/news/agaruda-computex-2025"
+        },
+        {
+          "year": "2024",
+          "text": "At Computex Taipei 2024, KENMEC conducted real-machine verification of its second-generation two-phase immersion cooling solution with partners and announced development of a high-efficiency water-to-air Sidecar for AI high-density liquid-cooled server cabinets.",
+          "source": "https://www.kenmec.com/en/news_list.aspx"
+        },
+        {
+          "year": "1976",
+          "text": "KENMEC was established in July 1976 in Taiwan and renamed KENMEC Mechanical Engineering Co., Ltd. after a March 1987 reorganization; headquarters are in Nangang District, Taipei City, with about 1,000 Taiwan employees and plants in Ruifang, Kaohsiung, Pingzhen, Suzhou, Kunshan and Hanoi.",
+          "source": "https://www.kenmec.com/en/about.aspx"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU types does KENMEC offer?",
+          "a": "Both liquid-to-liquid and liquid-to-air CDUs, in in-cabinet and rack-type formats. Features include dual pump backup and variable-frequency flow/temperature control on the in-cabinet L2L, a built-in heat exchanger with 1+1 backup motor on the rack-type L2L, and an ORv3 rack-type L2A with hot-swappable fans and no external chiller."
+        },
+        {
+          "q": "Does KENMEC provide immersion cooling?",
+          "a": "Yes. Its two-phase immersion cooling system uses phase change between gas and liquid with no additional active cooling components; the company states a PUE of 1.02, maintenance without downtime and no dielectric fluid leakage. A second-generation solution underwent real-machine verification at Computex Taipei 2024."
+        },
+        {
+          "q": "Where have KENMEC liquid cooling products been deployed?",
+          "a": "Its applications page lists data center cooling cases at government, telecom, biotech and semiconductor company data centers, using rear door heat exchanger and water-cooled rear door products."
+        },
+        {
+          "q": "What is KENMEC beyond liquid cooling?",
+          "a": "Founded in 1976 and headquartered in Nangang District, Taipei City, KENMEC Mechanical Engineering (TPEx: 6125) builds whole-plant automation, logistics centers, ASRS and MRT systems, and lists cooling solutions for data center, server, communication, energy and automotive industries among its product lines."
+        }
+      ]
+    },
+    {
+      "slug": "lg-electronics",
+      "name": "LG Electronics",
+      "segments": [
+        "cdus",
+        "cold-plates",
+        "heat-rejection",
+        "integrators"
+      ],
+      "tagline": "Korean electronics maker LG Electronics (founded 1958, Seoul; KRX: 066570) sells a chip-to-chiller liquid cooling portfolio: cold plates, a 600 kW CDU validated against NVIDIA AI infrastructure standards in July 2026, larger CDU models announced, chillers and DCCM control software, tested at its Pyeongtaek site.",
+      "hq": "Seoul, South Korea",
+      "founded": 1958,
+      "ownership": "KRX: 066570",
+      "website": "https://www.lg.com/",
+      "productLines": [
+        {
+          "name": "600 kW Coolant Distribution Unit",
+          "note": "CDU validated against NVIDIA AI infrastructure standards in July 2026 after meeting over 100 technical evaluation criteria covering cooling performance, reliability and failover for AI data centers; company-stated temperature control precision of plus or minus 0.25 degrees C; 1 MW, 2.5 MW and 4 MW models announced for sequential validation.",
+          "source": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "name": "Direct-to-chip cold plates",
+          "note": "Direct-to-chip (DTC) cooling delivers coolant to GPUs and CPUs and operates as hybrid cooling alongside air cooling; virtual sensor technology provides real-time monitoring and leak detection across the cooling loop.",
+          "source": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "name": "Chillers and chip-to-chiller portfolio",
+          "note": "Chilled water production with key components including inverters and magnetic bearing compressors produced in-house, sold together with CDUs and cold plates as a chip-to-chiller offering; the Data Center Cooling Control Manager (DCCM) adds predictive control and centralized monitoring via standard communication protocols.",
+          "source": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "July 27, 2026: LG Electronics announced it secured validation for its 600 kW Coolant Distribution Unit against NVIDIA AI infrastructure standards, meeting over 100 technical evaluation criteria on cooling performance, reliability and failover; the same post cites recent project wins at North American hyperscaler facilities and the Sinar Mas SM+ Data Center in Jakarta.",
+          "source": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "year": "2026",
+          "text": "LG operates a dedicated chip-to-chiller validation site in Pyeongtaek, South Korea, testing system-wide transient responses, temperature changes and low-load stability across the whole cooling chain, and has announced plans to seek sequential validation of 1 MW, 2.5 MW and 4 MW CDU models.",
+          "source": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "year": "1958",
+          "text": "LG Electronics dates its founding to 1958 (company site: Since 1958); its cooling announcements are issued from Seoul, South Korea.",
+          "source": "https://www.lg.com/global/about-lg"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDU capacity has LG Electronics had validated by NVIDIA?",
+          "a": "A 600 kW Coolant Distribution Unit secured validation against NVIDIA AI infrastructure standards in July 2026 after meeting over 100 technical evaluation criteria covering cooling performance, reliability and failover for high-performance AI data centers."
+        },
+        {
+          "q": "What larger CDU models has LG announced?",
+          "a": "The company has announced plans to secure validation for 1 MW, 2.5 MW and 4 MW CDU models sequentially. These are announced future models, not yet validated at the time of the July 2026 announcement."
+        },
+        {
+          "q": "What is included in LG's chip-to-chiller approach?",
+          "a": "Cold plates for direct-to-chip cooling of GPUs and CPUs working as hybrid cooling with air, CDUs, and chillers with in-house-produced inverters and magnetic bearing compressors, plus the Data Center Cooling Control Manager (DCCM) for predictive control and centralized monitoring via standard communication protocols."
+        },
+        {
+          "q": "Where does LG Electronics test its data center cooling?",
+          "a": "At a dedicated chip-to-chiller validation site in Pyeongtaek, South Korea, which tests system-wide transient responses, temperature changes and low-load stability across the whole cooling chain. The company states temperature control precision of plus or minus 0.25 degrees C, with results that may vary."
+        }
+      ]
+    },
+    {
+      "slug": "lotes",
+      "name": "Lotes",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Connector maker in Keelung, Taiwan, producing CPU sockets, memory and I/O connectors, with a Liquid Cooling Solution category of UQD/UQDB and MQD quick-disconnect couplings for cold plate and manifold cooling in AI and hyperscale data centers.",
+      "hq": "Keelung, Taiwan",
+      "founded": 1986,
+      "ownership": "TWSE: 3533",
+      "website": "https://www.lotes.cc/",
+      "productLines": [
+        {
+          "name": "UQD / UQDB",
+          "note": "Quick-disconnect coupling families listed under the Liquid Cooling Solution category on the LOTES product site; the category page shows the AUQD0001~0016 product line. The published pages do not state flow-rate or pressure specifications.",
+          "source": "https://www.lotes.cc/en/product.php"
+        },
+        {
+          "name": "MQD",
+          "note": "Coupling family featured by LOTES for cold plate and manifold cooling in AI and hyperscale data centers; listed alongside UQD/UQDB in the company's liquid cooling category.",
+          "source": "https://www.lotes.cc/"
+        },
+        {
+          "name": "FT",
+          "note": "Product family listed in the Liquid Cooling Solution category together with UQD/UQDB and MQD; the company's public pages give no further specifications for it.",
+          "source": "https://www.lotes.cc/en/product.php"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "LOTES published a news item dated June 2, 2026, 'LOTES Powers the Future of AI Factories with NVIDIA MGX', on joining the NVIDIA MGX ecosystem for AI servers.",
+          "source": "https://www.lotes.cc/en/news.php"
+        },
+        {
+          "year": "2025",
+          "text": "LOTES received Science Based Targets initiative (SBTi) certification for science-based carbon reduction targets, announced in a company news item dated October 14, 2025.",
+          "source": "https://www.lotes.cc/en/news.php"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling interconnects does LOTES offer?",
+          "a": "The Liquid Cooling Solution category on lotes.cc lists UQD/UQDB quick-disconnect couplings (the category page shows the AUQD0001~0016 line), the MQD family featured for cold plate and manifold cooling in AI and hyperscale data centers, and an FT family; the public pages publish no flow-rate or pressure figures."
+        },
+        {
+          "q": "Is liquid cooling LOTES' core business?",
+          "a": "No. Founded in 1986 and headquartered in Keelung, Taiwan, LOTES is a connector maker whose catalogue covers CPU sockets, memory connectors, slot/edge-card, I/O and cable assemblies, with liquid cooling couplings as one product category."
+        },
+        {
+          "q": "Where does LOTES trade?",
+          "a": "LOTES states on its site that it has been publicly listed on the Taiwan Stock Exchange under code 3533 since 2007."
+        }
+      ]
+    },
+    {
+      "slug": "mitsubishi-electric",
+      "name": "Mitsubishi Electric",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Electronics and industrial group whose CritiCool line serves data center cooling with MECH-iC oil-free centrifugal chillers for warm-water operation, MEWALL fanwall thermal walls and DX-P wall-mounted direct-expansion units, built with group company Mitsubishi Electric Hydronics & IT Cooling Systems S.p.A. of Italy.",
+      "hq": "Tokyo, Japan",
+      "founded": 1921,
+      "ownership": "TSE: 6503",
+      "website": "https://mitsubishicritical.com/",
+      "productLines": [
+        {
+          "name": "MECH-iC chiller",
+          "note": "Compact, oil-free centrifugal chiller system engineered for warm-water operation; published dimensional drawings cover 350-ton and 500-ton models. The vendor page gives no kW or refrigerant figures.",
+          "source": "https://mitsubishicritical.com/data-center-cooling-solutions"
+        },
+        {
+          "name": "MEWALL thermal wall",
+          "note": "Thermal wall (fanwall) cooling line; model drawings reference 402 and 462 fanwall outlines. The vendor page describes space and energy-efficiency benefits without publishing capacity numbers.",
+          "source": "https://mitsubishicritical.com/data-center-cooling-solutions"
+        },
+        {
+          "name": "CritiCool DX-P",
+          "note": "Wall-mounted direct-expansion units for pre-fabricated modular data centers and container cooling, in 10 kW, 20 kW and 40 kW nominal sizes (34,100-149,000 Btu/h), upflow or downflow; the 40 kW model is offered only in downflow with inverter compressor, and an optional economizer extends operating range to -40 degrees F.",
+          "source": "https://mitsubishicritical.com/data-center-cooling-solutions/dxp-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On July 30, 2026, Mitsubishi Electric announced MEHITS US, Inc., established in August 2026 in Mason, Ohio under Mitsubishi Electric US Holdings, converting part of an existing site in Mason to produce IT cooling equipment from April 2027, with plans to expand the lineup to liquid-cooling-compatible equipment.",
+          "source": "https://us.mitsubishielectric.com/en/pr/global/2026/0730_ld"
+        },
+        {
+          "year": "2026",
+          "text": "On July 14, 2026 Mitsubishi Electric announced the acquisition of the APAC and COMPAC groups (Utrecht Province, Netherlands), HVAC sales, installation and maintenance companies whose experience includes designing, selling, installing and maintaining data center server room cooling systems, in order to grow its data center cooling business in Europe",
+          "source": "https://www.mitsubishielectric.com/en/pr/2026/0714_ld"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What products make up CritiCool data center cooling?",
+          "a": "MECH-iC compact oil-free centrifugal chillers for warm-water operation (published drawings for 350-ton and 500-ton models), MEWALL thermal walls (402 and 462 fanwall outlines) and DX-P wall-mounted direct-expansion units in 10, 20 and 40 kW sizes with an optional economizer rated to -40 degrees F."
+        },
+        {
+          "q": "Is Mitsubishi Electric adding US production for data center cooling?",
+          "a": "Yes, per its July 30, 2026 release: MEHITS US, Inc. in Mason, Ohio was established in August 2026, converting part of an existing site to make IT cooling equipment from April 2027, and the lineup is planned to expand to liquid-cooling-compatible equipment."
+        },
+        {
+          "q": "Where is Mitsubishi Electric based and how is it listed?",
+          "a": "The company's July 30, 2026 release was issued in Tokyo and states it trades on TOKYO as 6503. The pages opened for this profile did not show a founding year, so it is recorded as NOT_FOUND."
+        }
+      ]
+    },
+    {
+      "slug": "mitsubishi-heavy-industries",
+      "name": "Mitsubishi Heavy Industries",
+      "segments": [
+        "micro-dc",
+        "immersion"
+      ],
+      "tagline": "Industrial group whose data center offering includes a 12 ft, 40 kVA-class container-type data center combining immersion, air and water cooling, container-type immersion cooling technology demonstrated with KDDI and NESIC since 2021, and one-stop power, cooling and monitoring solutions for edge data centers.",
+      "hq": "Tokyo, Japan",
+      "founded": "NOT_FOUND",
+      "ownership": "TSE: 7011",
+      "website": "https://www.mhi.com/",
+      "productLines": [
+        {
+          "name": "DIAVAULT edge data centers",
+          "note": "On-premise edge data center brand launched in February 2026 for factories, research sites and other industrial locations, covering installations from small scale to multi-megawatt inference data centers; the demonstration facility at the Yokohama Hardtech Hub cools AI GPU servers with two-phase direct-to-chip cooling",
+          "source": "https://www.mhi.com/jp/news/26022403.html"
+        },
+        {
+          "name": "Container-type data center (40 kVA-class, 12 ft)",
+          "note": "Simultaneously houses servers using immersion cooling (25 kVA), air cooling (8 kVA) and water cooling (8 kVA); reserves a 1.4 m x 1.3 m interior service space; expected PUE 1.05 for immersion alone and 1.14 combined, in a 40-degree C environment, per the October 2023 announcement.",
+          "source": "https://www.mhi.com/news/231004.html"
+        },
+        {
+          "name": "Container-type immersion cooling data center",
+          "note": "The program under development since 2021 with KDDI and NEC Networks & System Integration Corporation, aimed at small containerized data centers that cool servers with liquid; the 40 kVA-class hybrid container announced in 2023 is its successor.",
+          "source": "https://www.mhi.com/news/231004.html"
+        },
+        {
+          "name": "Data center one-stop solutions",
+          "note": "MHI positions itself as a single point of contact for highly reliable power supply, cooling and monitoring systems with integrated control for data centers, including micro-edge facilities processing data at the network periphery.",
+          "source": "https://www.mhi.com/news/231004.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Launched DIAVAULT, a brand for its on-premise edge data centers for industry, on February 24, 2026, and opened a demonstration AI data center at its Yokohama Hardtech Hub whose GPU servers are cooled by two-phase direct-to-chip cooling",
+          "source": "https://www.mhi.com/jp/news/26022403.html"
+        },
+        {
+          "year": "2023",
+          "text": "On October 4, 2023, MHI announced the 40 kVA-class 12 ft container-type data center with immersion/air-cooled hybrid cooling (immersion 25 kVA, air 8 kVA, water 8 kVA), with demonstration testing at the Yokohama Hardtech Hub and commercialization planned by the end of fiscal 2023.",
+          "source": "https://www.mhi.com/news/231004.html"
+        },
+        {
+          "year": "2022",
+          "text": "A March 29, 2022 MHI release cited on the company's news page reports a 43% reduction in server power consumption with a container-type data center using liquid-cooled servers, in trial operation at the KDDI Oyama Technical Center aiming for commercial availability in FY2024.",
+          "source": "https://www.mhi.com/news/231004.html"
+        },
+        {
+          "year": "2021",
+          "text": "MHI notes that since 2021 it has conducted demonstration experiments with KDDI Corporation and NEC Networks & System Integration Corporation toward practical container-type data centers that use an immersion cooling system with liquid to cool servers in Japan.",
+          "source": "https://www.mhi.com/news/231004.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is MHI's container-type data center?",
+          "a": "A 12 ft, 40 kVA-class container that simultaneously houses servers using immersion cooling (25 kVA), air cooling (8 kVA) and water cooling (8 kVA), with 1.4 m x 1.3 m of interior service space; in a 40-degree C environment the expected PUE is 1.05 for immersion alone and 1.14 combined."
+        },
+        {
+          "q": "Who has MHI worked with on immersion cooling?",
+          "a": "Since June 2021, MHI, KDDI and NEC Networks & System Integration Corporation (NESIC) have run demonstration experiments on container-type immersion cooling data centers; a March 29, 2022 release cited by MHI reported a 43% server power-consumption reduction in trial operation at the KDDI Oyama Technical Center."
+        },
+        {
+          "q": "When was the hybrid container announced?",
+          "a": "October 4, 2023; MHI planned to commercialize the 40 kVA-class unit by the end of fiscal 2023 after demonstration testing at the Yokohama Hardtech Hub, with Dell Technologies Japan providing a verification server and NESIC verifying IT equipment installation and server maintenance procedures."
+        }
+      ]
+    },
+    {
+      "slug": "msi",
+      "name": "MSI",
+      "segments": [
+        "servers",
+        "cdus"
+      ],
+      "tagline": "Computing hardware company (founded 1986) whose Enterprise Platform Solutions include a 21-inch 44OU OCP ORv3 liquid-cooled rack with an integrated 100 kW liquid-to-liquid CDU, liquid-cooled NVIDIA MGX GPU servers, and DC-MHS multi-node platforms for AI and cloud data centers.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 1986,
+      "ownership": "TWSE: 2377",
+      "website": "https://www.msi.com/",
+      "productLines": [
+        {
+          "name": "21-inch 44OU ORv3 Liquid-Cooled Rack",
+          "note": "Supports up to 100 kW deployments with an integrated liquid-to-liquid Coolant Distribution Unit; configurable with 28x 1OU2N Open Compute multi-node systems, using 48V busbar power distribution for high-density AI infrastructure.",
+          "source": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        },
+        {
+          "name": "CG681-S6093 (NVIDIA MGX)",
+          "note": "Liquid-cooled 6U dual-socket AMD EPYC platform supporting up to 8 NVIDIA RTX PRO 6000 Blackwell Server Liquid Cooled Edition GPUs, 32 DDR5 DIMMs and NVIDIA ConnectX-8 SuperNICs with up to 8x 400 Gbps networking, for AI training and HPC.",
+          "source": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        },
+        {
+          "name": "CD281-S4051-X4 (DC-MHS)",
+          "note": "Liquid-cooled 2OU 4-node 21-inch Open Compute platform; each node supports one AMD EPYC 9005 processor, 12 DDR5 DIMMs and 4 E1.S NVMe bays, for AI inference and cloud-native infrastructure.",
+          "source": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        },
+        {
+          "name": "XpertStation WS300 (NVIDIA DGX Station)",
+          "note": "Desktop AI supercomputer on NVIDIA DGX Station architecture with the GB300 Grace Blackwell Ultra Desktop Superchip, up to 748 GB coherent memory, 7.1 TB/s HBM3e bandwidth and a liquid-cooled thermal design in a deskside form factor.",
+          "source": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On June 2, 2026, MSI announced at COMPUTEX 2026 its 21-inch 44OU ORv3 liquid-cooled rack architecture with integrated liquid-to-liquid CDU (up to 100 kW), liquid-cooled NVIDIA MGX servers including the CG681-S6093, and DC-MHS platforms, stating it is extending MGX collaboration toward next-generation Vera Rubin rack-scale platforms.",
+          "source": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        },
+        {
+          "year": "2025",
+          "text": "In its CloudFest 2025 release (March 18, 2025) MSI states that its CD270-S4051-X4 2U 4-node server has a modular architecture that supports air cooling up to 400 W or liquid cooling up to 500 W",
+          "source": "https://www.prnewswire.com/news-releases/msi-powers-the-future-of-cloud-computing-at-cloudfest-2025-302396875.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooled rack does MSI offer?",
+          "a": "The 21-inch 44OU ORv3 liquid-cooled rack architecture supports up to 100 kW deployments with an integrated liquid-to-liquid CDU, can be configured with 28x 1OU2N Open Compute multi-node systems, and uses 48V busbar power distribution for large-scale AI infrastructure."
+        },
+        {
+          "q": "Which liquid-cooled servers were shown at COMPUTEX 2026?",
+          "a": "The CG681-S6093 liquid-cooled 6U dual-socket AMD EPYC platform with up to 8 NVIDIA RTX PRO 6000 Blackwell Server Liquid Cooled Edition GPUs and 8x 400 Gbps networking; the liquid-cooled CD281-S4051-X4 2OU 4-node DC-MHS platform; and the XpertStation WS300 desktop AI supercomputer with a liquid-cooled thermal design."
+        },
+        {
+          "q": "Is MSI a listed company?",
+          "a": "MSI (Micro-Star International) states on its about page that it was founded in 1986 and has grown from motherboards into servers, automotive electronics and AI. The official pages opened for this profile did not show a stock listing code or headquarters city, so those fields are recorded as NOT_FOUND."
+        }
+      ]
+    },
+    {
+      "slug": "nidec",
+      "name": "Nidec",
+      "segments": [
+        "cdus",
+        "components",
+        "interconnects"
+      ],
+      "tagline": "Electric motor manufacturer headquartered in Kyoto that has built a data center liquid cooling line: in-rack CDUs up to 300 kW in 4U, an in-row CDU, quick disconnects and manifolds, and a prototype 2 MW-class Project Deschutes CDU compliant with Google's Open Compute Project specification.",
+      "hq": "Kyoto, Japan",
+      "founded": 1973,
+      "ownership": "TSE: 6594",
+      "website": "https://www.nidec.com/",
+      "productLines": [
+        {
+          "name": "In-Rack CDU",
+          "note": "Four generations: Gen1.0 EIA 200 kW, Gen2.0 EIA 250 kW, Gen2.5 OCP 250 kW and Gen3.0 OCP 300 kW, in a 4U form factor; Gen2.5 and Gen3.0 are OCP ORv3 rack compliant with 51VDC busbar input, N+1 redundant pumps and control units, and hot-swappable components; managed via Redfish.",
+          "source": "https://www.nidec.com/en/product/liquid-cooling-line-up/products/in-rack"
+        },
+        {
+          "name": "Project Deschutes CDU (prototype)",
+          "note": "Prototype coolant distribution unit compliant with Google's Open Compute Project specification: 2 MW-class cooling capacity and 80 PSI high pressure to drive high-performance cold plates, a low approach temperature design, and an IEEE 519 ultra-low harmonic distortion VFD; under development toward commercial release.",
+          "source": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
+        },
+        {
+          "name": "CDU In-Row, Quick Disconnect & Manifold",
+          "note": "Lineup items on Nidec's liquid cooling site alongside the in-rack units; the company describes chillers, piping and CDUs as fully integrated, cites independently developed compact high-performance CDU pumps, and states over 13 kpcs of in-rack CDUs shipped globally.",
+          "source": "https://www.nidec.com/en/product/liquid-cooling-line-up"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Nidec's liquid cooling lineup page lists its CDU In-Rack, CDU In-Row and Quick Disconnect & Manifold products for OCP Global Summit 2026 and Data Center World Asia 2026, and states a cumulative total of over 13 kpcs of In-Rack CDUs shipped globally.",
+          "source": "https://www.nidec.com/en/product/liquid-cooling-line-up"
+        },
+        {
+          "year": "2025",
+          "text": "On December 3, 2025, Nidec announced the development of a prototype Project Deschutes CDU compliant with the Google Open Compute Project specification, exhibited at SC25 in St. Louis in November 2025; the company says it is accelerating development toward commercial release and will engage with the OCP community.",
+          "source": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDUs does Nidec sell today?",
+          "a": "The In-Rack CDU line spans four generations: Gen1.0 EIA at 200 kW, Gen2.0 EIA at 250 kW, Gen2.5 OCP at 250 kW and Gen3.0 OCP at 300 kW, all in a 4U form factor, with OCP ORv3 compliance and 51VDC busbar input on Gen2.5 and Gen3.0, N+1 redundant pumps and hot-swappable critical components."
+        },
+        {
+          "q": "What is the Project Deschutes CDU?",
+          "a": "A prototype coolant distribution unit compliant with Google's Open Compute Project specification, announced December 3, 2025 and exhibited at SC25: 2 MW-class cooling capacity, 80 PSI operating pressure, a low approach temperature design and an IEEE 519 ultra-low harmonic distortion VFD. Nidec describes it as a prototype and says development continues toward commercial release."
+        },
+        {
+          "q": "Which racks do the in-rack CDUs target?",
+          "a": "Per Nidec's product page, Gen1.0 targets racks with a single NVIDIA HGX B200, Gen2.0 a single HGX B300, Gen2.5 the NVIDIA GB300 NVL72 and MGX servers, and Gen3.0 the latest industry GPUs."
+        }
+      ]
+    },
+    {
+      "slug": "panasonic",
+      "name": "Panasonic",
+      "segments": [
+        "cdus",
+        "heat-rejection",
+        "integrators"
+      ],
+      "tagline": "Electronics group whose Heating & Ventilation A/C Company launched a liquid cooling systems business for generative AI data centers in Europe in March 2026, offering 400 kW and 800 kW CDUs and R1234ze(E) free-cooling chillers, built on its 2023 acquisition of Italy's Tecnair.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "TSE: 6752",
+      "website": "https://www.panasonic.com/global/",
+      "productLines": [
+        {
+          "name": "Coolant Distribution Units (400 kW / 800 kW)",
+          "note": "Two CDU models at 400 kW and 800 kW for generative AI data centers in Europe, with orders accepted from March 4, 2026; CDU models of 1,200 kW and above are under development, with order acceptance slated to begin within March 2026 per the announcement.",
+          "source": "https://news.panasonic.com/global/press/en260304-2"
+        },
+        {
+          "name": "Free-cooling chillers (800 kW / 1,200 kW)",
+          "note": "Two free-cooling chiller models at 800 kW and 1,200 kW using R1234ze(E), a low-GWP refrigerant with GWP of 1; free cooling uses outdoor temperatures up to 10 degrees C to generate chilled water.",
+          "source": "https://news.panasonic.com/global/press/en260304-2"
+        },
+        {
+          "name": "Hybrid air and liquid cooling systems",
+          "note": "Combined air and liquid cooling offering that Panasonic states cuts power consumption and footprint versus the individual approaches; air-side close control units come from Tecnair, and targets include hyperscale, colocation and edge data centers.",
+          "source": "https://news.panasonic.com/global/press/en260304-2"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On March 4, 2026, Panasonic announced its liquid cooling systems business for generative AI data centers in Europe, accepting orders from the same date for 400 kW and 800 kW CDUs and 800 kW and 1,200 kW free-cooling chillers on R1234ze(E), with 1,200 kW-and-above CDUs under development.",
+          "source": "https://news.panasonic.com/global/press/en260304-2"
+        },
+        {
+          "year": "2023",
+          "text": "Panasonic acquired Italy-based Tecnair S.p.A. in 2023, whose close control air-conditioning units (CCUs) for air cooling form the basis of the European data center cooling expansion announced in March 2026.",
+          "source": "https://news.panasonic.com/global/press/en260304-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling systems does Panasonic sell for AI data centers?",
+          "a": "Coolant distribution units in 400 kW and 800 kW models plus free-cooling chillers in 800 kW and 1,200 kW models using R1234ze(E) refrigerant (GWP 1); CDUs of 1,200 kW and above are under development. Orders in Europe have been accepted since March 4, 2026."
+        },
+        {
+          "q": "How do the chillers save energy?",
+          "a": "The free-cooling chillers use outdoor temperatures up to 10 degrees C to generate chilled water, and Panasonic states that combining air cooling (close control units) with liquid cooling cuts power consumption and footprint compared with using either approach alone."
+        },
+        {
+          "q": "What is behind Panasonic's European cooling business?",
+          "a": "Panasonic acquired Italy-based Tecnair S.p.A. in 2023, whose close control air-conditioning units form the basis of the European data center cooling expansion; the liquid cooling business targets hyperscalers, colocation and edge data centers."
+        }
+      ]
+    },
+    {
+      "slug": "pki",
+      "name": "PKI",
+      "segments": [
+        "immersion",
+        "integrators",
+        "fluids"
+      ],
+      "tagline": "Korean total solution provider, active in semiconductor and display equipment, materials and components, that integrates direct liquid cooling and single/two-phase immersion cooling systems for high-density server data centers and HPC, as exclusive distributor of LiquidStack in Korea.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "http://www.e-pki.com/",
+      "productLines": [
+        {
+          "name": "Direct Liquid Cooling (DLC) integration",
+          "note": "System integration services for direct liquid cooling aimed at performance and energy efficiency in high-density server data centers and high-performance computing environments, per the company's AI liquid cooling business overview.",
+          "source": "http://www.e-pki.com/renew_about_en/busi1.php"
+        },
+        {
+          "name": "Immersion cooling integration (1PIC / 2PIC)",
+          "note": "System integration for single-phase immersion cooling (1PIC) and two-phase immersion cooling (2PIC); PKI supplied a commercial-scale 48U immersion cooling tank used for testing and validation under near-real-world commercial conditions.",
+          "source": "http://www.e-pki.com/renew_about_en/busi1.php"
+        },
+        {
+          "name": "LiquidStack products in Korea",
+          "note": "PKI describes itself as LiquidStack's official partner and the exclusive distributor of LiquidStack in Korea, delivering liquid cooling solutions for AI data centers with local engineering support, and runs liquid cooling R&D proof-of-concept projects with domestic and international partners.",
+          "source": "http://www.e-pki.com/renew_about_en/busi1.php"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In April 2026 Korean trade press described PKI as LiquidStack’s official distributor and partner in Korea, with business covering direct liquid cooling (CDU) solutions for AI data centers and liquid-cooling design for high-power GPU environments, ahead of HVAC KOREA 2026 (May 13-15, Coex)",
+          "source": "https://www.epnc.co.kr/news/articleView.html?idxno=400291"
+        },
+        {
+          "year": "2025",
+          "text": "An August 26, 2025 industry article describes PKI as LiquidStack's official Korean partner and a core partner in Samsung Electronics' qualification of Chemours' Opteon two-phase immersion cooling fluid, described as Samsung's first approved two-phase fluid; PKI provided a commercial-scale 48U immersion tank, and SSD testing met all compatibility goals.",
+          "source": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does PKI provide for data center liquid cooling?",
+          "a": "PKI provides system integration for direct liquid cooling (DLC) and for single-phase and two-phase immersion cooling (1PIC, 2PIC) in high-density server data centers and HPC environments, and distributes LiquidStack products in Korea with local engineering support."
+        },
+        {
+          "q": "What is PKI's relationship with LiquidStack?",
+          "a": "PKI's own site describes it as LiquidStack's official partner and the exclusive distributor of LiquidStack in Korea, delivering liquid cooling solutions for AI data centers; it also runs liquid cooling R&D proof-of-concept projects with domestic and international partners."
+        },
+        {
+          "q": "What two-phase fluid work involved PKI?",
+          "a": "An August 26, 2025 industry article describes PKI as a core partner in Samsung Electronics' qualification of Chemours' Opteon two-phase immersion fluid, Samsung's first approved two-phase fluid; PKI supplied a commercial-scale 48U immersion tank and testing supported SSD compatibility goals."
+        }
+      ]
+    },
+    {
+      "slug": "quanta-computer",
+      "name": "Quanta Computer",
+      "segments": [
+        "servers",
+        "cdus"
+      ],
+      "tagline": "ODM established in 1988 and headquartered in Taoyuan City, whose QCT (Quanta Cloud Technology) brand sells rack-scale AI infrastructure including QoolRack direct-to-chip liquid cooling racks with in-rack CDUs and fully liquid-cooled NVIDIA GB300 NVL72 platforms.",
+      "hq": "Taoyuan City, Taiwan",
+      "founded": 1988,
+      "ownership": "TWSE: 2382",
+      "website": "https://www.quantatw.com/",
+      "productLines": [
+        {
+          "name": "QoolRack liquid-to-air (L2A)",
+          "note": "Rack-level direct-to-chip cold plate cooling with an in-rack CDU and rear-door heat exchanger; 30U of space between the CDU and a top-of-rack management switch housing up to 15 QuantaGrid D54Q-2U servers; per-slot TDP 700 W with 800 W-plus shown in tests; PUE down to 1.07 with unchilled air.",
+          "source": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+        },
+        {
+          "name": "QoolRack liquid-to-liquid (L2L)",
+          "note": "Variant for sites with existing hot and cold manifold piping; same direct-to-chip rack architecture with in-rack CDU. The February 2023 article reports rack-level cooling power cut by nearly 70% (up to 66.8%) versus air cooling, with a DC-SCM module in the CDU.",
+          "source": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+        },
+        {
+          "name": "QoolRack Sidecar",
+          "note": "Liquid-to-air cooling accessory for NVIDIA GB300 NVL72 and HGX 8-GPU accelerated racks, presented in May 2025; integrates into existing air-cooled data centers without infrastructure modifications and improves PUE.",
+          "source": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Brings-Extensive-Line-up-of-NVIDIA-Accelerated-Infrastructure-to-COMPUTEX-2025/2/0"
+        },
+        {
+          "name": "Liquid-cooled AI servers",
+          "note": "QuantaGrid D75U-1U for the NVIDIA GB300 NVL72 rack-scale system: fully liquid-cooled, 72 GPUs unified via NVLink Switch, four ConnectX-8 SuperNICs at 800 Gb/s each, BlueField-3 DPU; and the liquid-cooled QuantaGrid D75L-2U for HGX B300.",
+          "source": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Brings-Extensive-Line-up-of-NVIDIA-Accelerated-Infrastructure-to-COMPUTEX-2025/2/0"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On May 19, 2025, QCT announced at COMPUTEX 2025 the fully liquid-cooled QuantaGrid D75U-1U for NVIDIA GB300 NVL72 and the liquid-cooled QuantaGrid D75L-2U for HGX B300, plus the QoolRack Sidecar liquid-to-air accessory for GB300 NVL72 and HGX 8-GPU racks.",
+          "source": "https://www.qct.io/Press-Releases/index/PR/Server/QCT-Brings-Extensive-Line-up-of-NVIDIA-Accelerated-Infrastructure-to-COMPUTEX-2025/2/0"
+        },
+        {
+          "year": "2023",
+          "text": "QCT's QoolRack article of February 2, 2023 describes liquid-to-air and liquid-to-liquid direct-to-chip racks with in-rack CDU and DC-SCM management, reporting rack-level cooling power reductions of nearly 70% (up to 66.8%) versus air cooling and PUE of 1.07 with unchilled air.",
+          "source": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+        },
+        {
+          "year": "1999",
+          "text": "Quanta Computer was established in 1988 and its stock was listed on the Taiwan Stock Exchange on January 8, 1999, per the company's official information page.",
+          "source": "https://www.quantatw.com/quanta/english/about/information.aspx"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is QoolRack?",
+          "a": "QCT's rack-level direct-to-chip liquid cooling line: a liquid-to-air rack with an in-rack CDU and a liquid-to-liquid rack for sites with existing hot/cold manifold piping. The February 2023 article reports PUE down to 1.07 on unchilled air and rack-level cooling power cut by up to 66.8% versus air cooling."
+        },
+        {
+          "q": "How is a QoolRack liquid-to-air rack configured?",
+          "a": "The L2A rack offers 30U of space between the bottom in-rack CDU and a top-of-rack management switch, housing up to 15 QuantaGrid D54Q-2U servers with per-slot TDP of 700 W (800 W-plus shown in tests), and the CDU includes a DC-SCM module."
+        },
+        {
+          "q": "What did QCT show at COMPUTEX 2025?",
+          "a": "On May 19, 2025, QCT announced the fully liquid-cooled QuantaGrid D75U-1U for NVIDIA GB300 NVL72 (72 GPUs on NVLink, four 800 Gb/s ConnectX-8 SuperNICs), the liquid-cooled D75L-2U for HGX B300, and the QoolRack Sidecar that adds liquid-to-air cooling to GB300 NVL72 and HGX 8-GPU racks without infrastructure modifications."
+        }
+      ]
     }
   ]
 }
