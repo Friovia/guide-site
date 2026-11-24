@@ -3763,6 +3763,66 @@
           "a": "On May 19, 2025, QCT announced the fully liquid-cooled QuantaGrid D75U-1U for NVIDIA GB300 NVL72 (72 GPUs on NVLink, four 800 Gb/s ConnectX-8 SuperNICs), the liquid-cooled D75L-2U for HGX B300, and the QoolRack Sidecar that adds liquid-to-air cooling to GB300 NVL72 and HGX 8-GPU racks without infrastructure modifications."
         }
       ]
+    },
+    {
+      "slug": "tonecooling",
+      "name": "ToneCooling",
+      "segments": [
+        "cold-plates",
+        "cdus"
+      ],
+      "tagline": "Private cold plate maker founded in 2004 in Boluo, Huizhou, Guangdong, China, with a 30,000 m2 facility and about 200 employees. It offers custom direct-to-chip cold plates for GPUs and CPUs (GB200/GB300 kits, H200, AMD SP5), cooling distribution units and thermal management systems, with a ToneCooling Texas LLC entity listed on its site.",
+      "hq": "Boluo, Huizhou, China",
+      "founded": 2004,
+      "ownership": "Private",
+      "website": "https://www.tonecooling.com/",
+      "productLines": [
+        {
+          "name": "GB200 direct-to-chip cold plate kit",
+          "note": "Custom copper/aluminum cold plates for GPUs and CPUs; the site publishes GB200 kit figures of 1200 W + 1200 W + 300 W heat loads at 2.5 L/min and 35 ± 5 kPa, per its internal test data.",
+          "source": "https://www.tonecooling.com/"
+        },
+        {
+          "name": "GB300 direct-to-chip cold plate kit",
+          "note": "The site reports a measured GPU heat load of 1,066.94 W at 1.7 L/min for the GB300 kit, with thermal resistance of 0.0133/0.0130 degrees C/W; internal test data last updated April 2025.",
+          "source": "https://www.tonecooling.com/"
+        },
+        {
+          "name": "Custom cold plates, CDUs and thermal management systems",
+          "note": "The company offers custom cold plates, cooling distribution units and thermal management systems for data centers, lists cold plate assembly (with manifold) as a quote option, and states about 1,000,000 cold plates per year of capacity, 4-6 week prototype lead time, and TC1000 data of 56.41 degrees C chip temperature at 2.0 L/min.",
+          "source": "https://www.tonecooling.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "ToneCooling's website (page dated October 2026) publishes direct-to-chip cold plate test figures for NVIDIA GB200 kits (1200 W + 1200 W + 300 W at 2.5 L/min, 35 ± 5 kPa) and GB300 kits (1,066.94 W at 1.7 L/min, 0.0133/0.0130 degrees C/W thermal resistance), and lists a US entity, ToneCooling Texas LLC, alongside European and Australian entities.",
+          "source": "https://www.tonecooling.com/"
+        },
+        {
+          "year": "2004",
+          "text": "The site states the company was founded in 2004, operates a 30,000 m2 facility in Boluo, Huizhou, Guangdong, China, with about 200 employees, and claims more than 5,000,000 cold plates shipped for EV inverters and 23 years of liquid cooler R&D experience.",
+          "source": "https://www.tonecooling.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does ToneCooling make?",
+          "a": "Custom direct-to-chip cold plates for GPUs and CPUs (GB200/GB300 kits, H200, AMD SP5, Intel/AMD platforms), cold plate assembly with manifold, cooling distribution units and thermal management systems for data centers, per its website."
+        },
+        {
+          "q": "What performance does ToneCooling publish for its GB200 and GB300 kits?",
+          "a": "The site's test data shows the GB200 kit handling 1200 W + 1200 W + 300 W at 2.5 L/min and 35 ± 5 kPa, and the GB300 kit at 1,066.94 W GPU heat load at 1.7 L/min with 0.0133/0.0130 degrees C/W thermal resistance (test data last updated April 2025)."
+        },
+        {
+          "q": "Where is ToneCooling based and how large is it?",
+          "a": "Headquartered in Boluo, Huizhou, Guangdong, China, with a 30,000 m2 facility and about 200 employees, founded in 2004; the site also lists ToneCooling Texas LLC in the United States plus European and Australian entities."
+        },
+        {
+          "q": "Is ToneCooling publicly listed?",
+          "a": "The site describes the company as a private national high-tech enterprise with no stock listing mentioned. Caution: the TPEx 7892 listing named in some references belongs to a different, similarly-named Taiwanese liquid cooling company, not tonecooling.com."
+        }
+      ]
     }
   ]
 }

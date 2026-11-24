@@ -201,13 +201,6 @@
           "evidence": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
         },
         {
-          "name": "ToneCooling",
-          "hq": "TW",
-          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
-          "source": "https://www.tonecooling.com/",
-          "evidence": "https://news.cnyes.com/news/id/6311694"
-        },
-        {
           "name": "KENMEC Mechanical Engineering",
           "hq": "TW",
           "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
@@ -423,6 +416,13 @@
           "note": "Owns Asetek A/S, whose direct-to-chip liquid cooling line spans pump, cold plate and coolant loop modules, and is restarting a data-center server liquid cooling business",
           "source": "https://www.szchunqiu.com",
           "evidence": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502736.PDF"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "CN",
+          "note": "Cold plate maker founded in 2004 in Boluo, Huizhou: custom direct-to-chip cold plates for GPU and CPU sockets (GB200 and GB300 kits), cold plate assemblies with manifolds, CDUs and thermal management systems",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://www.tonecooling.com/"
         }
       ]
     },
@@ -557,13 +557,6 @@
           "note": "Server platform maker; 21-inch 44OU ORv3 liquid-cooled rack with integrated liquid-to-liquid CDU (100kW), liquid-cooled NVIDIA MGX GPU servers and DC-MHS multi-node platforms",
           "source": "https://www.msi.com/",
           "evidence": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
-        },
-        {
-          "name": "ToneCooling",
-          "hq": "TW",
-          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
-          "source": "https://www.tonecooling.com/",
-          "evidence": "https://news.cnyes.com/news/id/6311694"
         },
         {
           "name": "KENMEC Mechanical Engineering",
@@ -774,6 +767,13 @@
           "note": "Makes UQD and UQDB series liquid-cooling quick disconnects, computing cold plates, liquid cooling chassis and coolant source units for data-center servers",
           "source": "https://www.jonhon.cn",
           "evidence": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "CN",
+          "note": "Cold plate maker founded in 2004 in Boluo, Huizhou: custom direct-to-chip cold plates for GPU and CPU sockets (GB200 and GB300 kits), cold plate assemblies with manifolds, CDUs and thermal management systems",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://www.tonecooling.com/"
         }
       ]
     },
@@ -847,13 +847,6 @@
           "note": "Interconnect group showing liquid cooling solutions at OCP: liquid-cooled 1.6T OSFP cages, rack management controllers with daisy-chain leak detection, integrated liquid-cooled power for MGX racks",
           "source": "https://www.bizlinktech.com/",
           "evidence": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
-        },
-        {
-          "name": "ToneCooling",
-          "hq": "TW",
-          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
-          "source": "https://www.tonecooling.com/",
-          "evidence": "https://news.cnyes.com/news/id/6311694"
         },
         {
           "name": "UfiSpace",
@@ -1064,6 +1057,13 @@
           "note": "Makes UQD and UQDB series liquid-cooling quick disconnects, computing cold plates, liquid cooling chassis and coolant source units for data-center servers",
           "source": "https://www.jonhon.cn",
           "evidence": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "CN",
+          "note": "Cold plate maker founded in 2004 in Boluo, Huizhou: custom direct-to-chip cold plates for GPU and CPU sockets (GB200 and GB300 kits), cold plate assemblies with manifolds, CDUs and thermal management systems",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://www.tonecooling.com/"
         }
       ]
     },
@@ -1185,7 +1185,7 @@
         {
           "name": "Wistron",
           "hq": "TW",
-          "note": "AI server ODM; liquid cooling pursued through affiliate Wiwynn and a stake in liquid cooling integrator ToneCooling",
+          "note": "AI server ODM; liquid cooling pursued through affiliate Wiwynn and a stake in Yuan Titanium Technology (TPEx: 7892), a Taiwanese liquid cooling integrator",
           "source": "https://www.wistron.com/",
           "evidence": "https://news.cnyes.com/news/id/6311694"
         },
@@ -2242,15 +2242,8 @@
         {
           "name": "Wistron",
           "hq": "TW",
-          "note": "AI server ODM; liquid cooling pursued through affiliate Wiwynn and a stake in liquid cooling integrator ToneCooling",
+          "note": "AI server ODM; liquid cooling pursued through affiliate Wiwynn and a stake in Yuan Titanium Technology (TPEx: 7892), a Taiwanese liquid cooling integrator",
           "source": "https://www.wistron.com/",
-          "evidence": "https://news.cnyes.com/news/id/6311694"
-        },
-        {
-          "name": "ToneCooling",
-          "hq": "TW",
-          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
-          "source": "https://www.tonecooling.com/",
           "evidence": "https://news.cnyes.com/news/id/6311694"
         },
         {
