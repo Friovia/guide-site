@@ -2340,7 +2340,7 @@
         {
           "name": "Sudlows",
           "hq": "GB",
-          "note": "UK data center design and build consultancy; deployment partner for NTT's production immersion and direct contact liquid cooling rollout in India",
+          "note": "UK data centre design and build firm; delivery partner for NTT's production immersion and direct contact liquid cooling deployment in India; Kent plc acquired Sudlows Consulting in February 2025",
           "source": "https://www.sudlows.com/",
           "evidence": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
         },
@@ -2382,7 +2382,7 @@
         {
           "name": "Rahi Systems",
           "hq": "US",
-          "note": "Global data center solutions integrator; delivers liquid cooling turnkey solutions including ColdLogik rear-door heat exchangers (200kW+ per rack) for hyperscale and colocation customers",
+          "note": "Data center integrator that supplied turnkey ColdLogik rear-door heat-exchanger liquid cooling (200kW+ per rack) under a 2021 USystems partnership; since integrated into Wesco (Wesco Anixter)",
           "source": "https://rahi.io/",
           "evidence": "https://www.usystems.com/knowledge-hub-posts/usystems-and-rahi-partner-to-deliver-to-the-global-data-center-market"
         },
@@ -2539,14 +2539,14 @@
           "hq": "DE",
           "note": "Builds wooden micro and edge data centers and racks that integrate liquid cooling for on-site IT deployments",
           "source": "https://woodendatacenter.com/",
-          "evidence": "https://woodendatacenter.com"
+          "evidence": "https://woodendatacenter.com/"
         },
         {
           "name": "Exascale Labs",
           "hq": "US",
           "note": "Offers AI-ready modular data centers that pre-integrate liquid cooling with power and networking in factory-built containers",
           "source": "https://www.exascalelabs.ai/",
-          "evidence": "https://www.nasdaq.com/press-release/exascale-labs-and-compal-electronics-showcase-integrated-ai-infrastructure-solution"
+          "evidence": "https://www.globenewswire.com/news-release/2026/09/14/3361086/0/en/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform.html"
         }
       ]
     },
@@ -2602,8 +2602,8 @@
         {
           "name": "HITT Contracting",
           "hq": "US",
-          "note": "US contractor building data centers with liquid cooling; retrofitted an operational Santa Clara data center with 4.5MW of liquid cooling",
-          "source": "https://www.hitt-gc.com/",
+          "note": "US general contractor building AI and HPC data centers with closed-loop liquid cooling: chip cold plates, coolant distribution units and facility water loops, including retrofits and non-traditional sites",
+          "source": "https://www.hitt.com/",
           "evidence": "https://www.hitt.com/news-hub/future-data-center-construction-liquid-cooling"
         },
         {
@@ -2618,7 +2618,7 @@
           "hq": "US",
           "note": "US MEP firm building AI/hyperscale data centers with direct-to-chip liquid cooling and proprietary liquid-cooled rack systems for data vaults",
           "source": "https://southlandind.com/",
-          "evidence": "https://southlandind.com/expertise/markets/data-centers"
+          "evidence": "https://southlandind.com/project/edged-data-center"
         },
         {
           "name": "RED Engineering Design",
@@ -2665,16 +2665,16 @@
         {
           "name": "Sudlows",
           "hq": "GB",
-          "note": "UK data center design and build consultancy; deployment partner for NTT's production immersion and direct contact liquid cooling rollout in India",
+          "note": "UK data centre design and build firm; delivery partner for NTT's production immersion and direct contact liquid cooling deployment in India; Kent plc acquired Sudlows Consulting in February 2025",
           "source": "https://www.sudlows.com/",
           "evidence": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
         },
         {
           "name": "Future-tech",
           "hq": "GB",
-          "note": "UK data-centre engineering consultancy; has provided M&E infrastructure designs for direct liquid cooling projects and applications since 2012; advisory, design, delivery and maintenance services",
+          "note": "UK data-centre engineering consultancy covering advisory, design, delivery and maintenance; designs direct chip cooling and has delivered direct liquid cooling M&E designs since 2012; joined Nscale in December 2025",
           "source": "https://www.future-tech.co.uk/",
-          "evidence": "https://www.future-tech.co.uk/from-niche-to-mainstream-can-direct-liquid-cooling-make-the-jump"
+          "evidence": "https://www.future-tech.co.uk/equipment-and-solutions/cooling/data-centre-cooling-systems-and-solutions"
         },
         {
           "name": "Valicor",
@@ -2686,9 +2686,9 @@
         {
           "name": "DLB Associates",
           "hq": "US",
-          "note": "Data center MEP engineering and commissioning firm with liquid cooling design, digital-twin cooling trade-off analysis and commissioning for AI and high-density facilities",
+          "note": "Data center MEP engineering and commissioning firm with liquid cooling design, digital-twin cooling trade-off analysis and commissioning for AI and high-density facilities; Accenture majority-owned since January 2026",
           "source": "https://www.dlbassociates.com/",
-          "evidence": "https://www.dlbassociates.com"
+          "evidence": "https://dlbassociates.com/publications.html"
         },
         {
           "name": "Salute",
@@ -2750,14 +2750,14 @@
           "hq": "US",
           "note": "DCIM software vendor (dcTrack) covering data center liquid cooling education and real-time monitoring of power and environmental sensor data",
           "source": "https://www.sunbirddcim.com/",
-          "evidence": "https://www.sunbirddcim.com/blog/data-center-liquid-cooling-101/"
+          "evidence": "https://www.sunbirddcim.com/blog/now-available-dctrack-9-3-5/"
         },
         {
           "name": "ToffeeX",
           "hq": "GB",
           "note": "Physics-driven generative design software that produces cold plate, manifold and heat exchanger geometries for AI and data center cooling",
           "source": "https://toffeex.com/",
-          "evidence": "https://toffeex.com"
+          "evidence": "https://toffeex.com/industries/ai-data-center/"
         },
         {
           "name": "EkkoSense",
@@ -3274,7 +3274,7 @@
         {
           "name": "Helen",
           "hq": "FI",
-          "note": "Helsinki energy company recycling data center waste heat into district heating since 2010 (project with Equinix); expanding with new data center heat contracts",
+          "note": "Helsinki energy company owned by the city, recovering data center waste heat into district heating since 2010 with heat pumps that also cool the data centre; signed a new data centre heat contract in 2026",
           "source": "https://www.helen.fi/",
           "evidence": "https://www.helen.fi/en/companies/cooling-for-companies/Heat-recovery-service-for-data-centers/"
         },
@@ -3318,14 +3318,14 @@
           "hq": "FI",
           "note": "Energy company capturing waste heat from Microsoft data centres in Espoo and Kirkkonummi into its district heating network",
           "source": "https://www.fortum.com/",
-          "evidence": "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+          "evidence": "https://www.fortum.com/en/media/2026/05/fortum-has-started-heat-production-two-large-data-centre-sites-finland"
         },
         {
           "name": "Dalkia",
           "hq": "FR",
           "note": "Energy services company (EDF subsidiary) operating district heating networks fed by data-centre waste heat: connects Meteo France Toulouse supercomputer DCs (27 buildings) and Val d'Europe DC heat recovery",
           "source": "https://www.dalkia.com/",
-          "evidence": "https://www.districtenergy.org/blogs/district-energy/2025/07/28/waste-heat-from-meteo-france-supercomputers-to-be"
+          "evidence": "https://www.dalkia.fr/service-energetique/efficacite-energetique-industrie/green-data-center"
         }
       ]
     },

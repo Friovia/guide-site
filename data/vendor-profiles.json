@@ -9736,6 +9736,1308 @@
           "a": "An independent, not-for-profit membership association established in 1919 as the Canadian Engineering Standards Association (CESA), described on its FAQ as a solutions-based standards organization."
         }
       ]
+    },
+    {
+      "slug": "fortum",
+      "name": "Fortum",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "Fortum is an energy company operating the district heating network of the Finnish capital region. Waste heat from Microsoft's data centres in Espoo and Kirkkonummi will be recovered into the network, and in May 2026 Fortum started heat production at heat pump plants sized so the data centres can cover about 40% of the area's heat demand.",
+      "hq": "Espoo, Finland",
+      "founded": 1998,
+      "ownership": "Listed on Nasdaq Helsinki; the Fortum Group was formed in 1998 in the merger of the IVO and Neste groups",
+      "website": "https://www.fortum.com/",
+      "productLines": [
+        {
+          "name": "Data centre waste-heat recovery, Helsinki region",
+          "note": "Heat pump plants at Hepokorpi (Espoo) and Kolabacken (Kirkkonummi) with 72 water-to-water heat pumps producing up to 180 MW of district heat, 40 air-to-water heat pumps, 200 MW of electric boiler capacity and 20,000 m3 (800 MWh) heat storage; expected to cover about 40% of the area's roughly 2 TWh annual district heat demand of 250,000 users.",
+          "source": "https://www.fortum.com/en/media/2026/05/fortum-has-started-heat-production-two-large-data-centre-sites-finland"
+        },
+        {
+          "name": "District heating from recovered heat and heat pumps",
+          "note": "Waste heat and heat pumps, including wastewater treatment and smaller data centres, cover almost a quarter of network heat today; with the Microsoft data centres this rises to about 65%. Fortum reports about 85% non-fossil heat sources in 2025.",
+          "source": "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+        },
+        {
+          "name": "Data centre energy solutions",
+          "note": "Fortum offers energy solutions for data centres in the Helsinki region, including connection of waste heat to its district heating network; site requirements it lists are proximity to the network, a sufficiently large plot, fossil-free electricity supply and data connectivity.",
+          "source": "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 6 May 2026 Fortum announced it had started heat production at two large data-centre sites: heat pump plants at Hepokorpi (Espoo) and Kolabacken (Kirkkonummi) with 72 water-to-water heat pumps producing up to 180 MW of district heat, 40 air-to-water heat pumps, 200 MW of electric boilers and 20,000 m3 (800 MWh) heat storage. Waste-heat recovery from Microsoft's data centres begins step by step as construction phases complete.",
+          "source": "https://www.fortum.com/en/media/2026/05/fortum-has-started-heat-production-two-large-data-centre-sites-finland"
+        },
+        {
+          "year": "2022",
+          "text": "Fortum's collaboration with Microsoft, announced in 2022, routes waste heat from two new data centres in Espoo and Kirkkonummi into the district heating network; the data centres are expected to supply roughly 40% of the area's district heat, and about 75% of the centres' waste heat will be used annually. The work has EU NextGenerationEU funding and investment support from Finland's Ministry of Economic Affairs and Employment.",
+          "source": "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did Fortum start in May 2026?",
+          "a": "On 6 May 2026 Fortum announced it had started heat production at its heat pump plants at Hepokorpi in Espoo and Kolabacken in Kirkkonummi: 72 water-to-water heat pumps producing up to 180 MW of district heat, 40 air-to-water heat pumps, 200 MW of electric boilers and 20,000 m3 (800 MWh) of heat storage. Recovery of waste heat from Microsoft's data centres begins step by step."
+        },
+        {
+          "q": "How much district heat can come from the data centres?",
+          "a": "Fortum expects data-centre waste heat to cover roughly 40% of district heat demand in the Espoo-Kirkkonummi area, about 2 TWh per year for 250,000 users, and that about 75% of the data centres' waste heat will be used annually."
+        },
+        {
+          "q": "Which data centres supply Fortum's network?",
+          "a": "Microsoft's two data centres under construction at Hepokorpi in Espoo and Kolabacken in Kirkkonummi, Finland, will supply waste heat to Fortum's district heating network in the capital region."
+        },
+        {
+          "q": "Is the project publicly supported?",
+          "a": "Yes. Fortum's page states the waste-heat work has EU NextGenerationEU funding plus investment support from Finland's Ministry of Economic Affairs and Employment."
+        }
+      ]
+    },
+    {
+      "slug": "dalkia",
+      "name": "Dalkia",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "Dalkia is an EDF Group energy-services company that designs, builds and operates heating and cooling networks in France and provides energy services for data centres, recovering by-product heat from data centres such as the Meteo France supercomputer site in Toulouse.",
+      "hq": "Saint-André-lez-Lille, France",
+      "founded": 1937,
+      "ownership": "Subsidiary of the EDF Group, as stated on dalkia.com",
+      "website": "https://www.dalkia.com/",
+      "productLines": [
+        {
+          "name": "Green Data Center services",
+          "note": "Design, operation and optimization of data centres: ventilation and air conditioning, energy management, audits, predictive maintenance and control via digital twins on the Dalkia Analytics (Metron) platform, including server re-layout and waste-heat recovery; Dalkia states it operates 80 data centres in France.",
+          "source": "https://www.dalkia.fr/service-energetique/efficacite-energetique-industrie/green-data-center"
+        },
+        {
+          "name": "District heating and cooling networks",
+          "note": "Dalkia designs, builds and operates heating and cooling networks for local authorities, about 330 networks with 2,900 km of pipes, using recovered heat from data centres and industrial processes.",
+          "source": "https://www.dalkia.com/energy-efficiency-solutions/heating-cooling-green-network"
+        },
+        {
+          "name": "TED network, Toulouse",
+          "note": "Heating and cooling network operated by Dalkia (about 75 km of piping, more than 150 buildings, equivalent of 34,000 dwellings) that captures heat from the Espace Clement Ader data centre hosting Meteo France supercomputers to supply heating and chilled water to the Toulouse Aerospace zone.",
+          "source": "https://www.toulouseenergiedurable.fr/zoom-sur-le-reseau-ted"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "It was reported in July 2025 that waste heat from Meteo France supercomputers at the Espace Clement Ader data centre in Toulouse will heat 27 large buildings, equivalent to about 1,800 homes, via the district heating network operated by Dalkia.",
+          "source": "https://www.districtenergy.org/blogs/district-energy/2025/07/28/waste-heat-from-meteo-france-supercomputers-to-be"
+        },
+        {
+          "year": "2019",
+          "text": "The Toulouse Energie Durable (TED) heating and cooling network operated by Dalkia entered service in autumn 2019; about 75 km of piping serves more than 150 buildings, equivalent of 34,000 dwellings, including heat recovered from the Meteo France supercomputer data centre and chilled water supply for the Toulouse Aerospace zone.",
+          "source": "https://www.toulouseenergiedurable.fr/zoom-sur-le-reseau-ted"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Dalkia do with data-centre waste heat?",
+          "a": "Dalkia operates heating and cooling networks that recover by-product heat from data centres and industry. In Toulouse, its TED network captures heat from the Espace Clement Ader data centre (13,000 m2, hosting Meteo France supercomputers) to heat buildings and to supply chilled water for air conditioning in the Toulouse Aerospace zone."
+        },
+        {
+          "q": "How large is Dalkia's network and data-centre business?",
+          "a": "Dalkia reports operating about 330 heating and cooling networks with some 2,900 km of pipes, and states that it operates and optimizes 80 data centres in France."
+        },
+        {
+          "q": "Who owns Dalkia?",
+          "a": "Dalkia is a subsidiary of the EDF Group, as stated on its corporate website."
+        },
+        {
+          "q": "What was announced for Toulouse in 2025?",
+          "a": "In July 2025 it was reported that waste heat from Meteo France's Toulouse supercomputers would heat 27 large buildings, equivalent to about 1,800 homes, on the district heating network operated by Dalkia."
+        }
+      ]
+    },
+    {
+      "slug": "helen",
+      "name": "Helen",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "Helen is an energy company owned by the City of Helsinki that recovers data-centre waste heat with heat pumps into its district heating network and supplies cooling in return. It has used data-centre waste heat since 2010, and in 2026 signed to connect a new data centre expected to deliver over 500,000 MWh of heat per year.",
+      "hq": "Helsinki, Finland",
+      "founded": 1909,
+      "ownership": "Owned by the City of Helsinki, per helen.fi corporate governance page",
+      "website": "https://www.helen.fi/",
+      "productLines": [
+        {
+          "name": "Heat recovery service for data centres",
+          "note": "Helen recovers waste heat with heat pumps and feeds it into Helsinki's district heating network. Options: Helen invests in and runs the heat pump system, which also cools the data centre; the data centre builds its own system and Helen buys surplus heat at about 85 degrees C; or connection to district cooling. One data centre can heat 20,000 apartments.",
+          "source": "https://www.helen.fi/en/companies/cooling-for-companies/Heat-recovery-service-for-data-centers/"
+        },
+        {
+          "name": "Data-centre heat projects",
+          "note": "At Telia's Helsinki Data Center, up to 90% of waste heat is recovered, heating about 14,000 two-room apartments, with the figure expected to rise to 28,000. In 2026 Helen agreed with OnZero Finland Oy to connect a new data centre expected to supply more than 500,000 MWh of heat annually, about 70,000 flats, from 2027.",
+          "source": "https://www.helen.fi/en/companies/cooling-for-companies/Heat-recovery-service-for-data-centers/"
+        },
+        {
+          "name": "District cooling",
+          "note": "Helen offers district cooling connections for data centres located within its cooling network, with free cooling as a backup thanks to Finland's cool climate, alongside heat recovery.",
+          "source": "https://www.helen.fi/en/companies/cooling-for-companies/Heat-recovery-service-for-data-centers/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 31 August 2026 Helen announced an agreement with OnZero Finland Oy to connect waste heat from a new data centre into Helsinki's district heating network. Heat recovery is scheduled to begin in 2027 and, when fully operational, is expected to deliver more than 500,000 MWh of heat annually, enough to heat roughly 70,000 flats.",
+          "source": "https://www.helen.fi/en/news/2026/helen-hyodyntaa-uuden-datakeskuksen-hukkalampoa-helsingin-kaukolammossa"
+        },
+        {
+          "year": "2010",
+          "text": "Helen has used waste heat from data centres in its district heating network since 2010, as stated in its 2026 announcement of the OnZero Finland Oy agreement. At Telia's Helsinki Data Center, up to 90% of waste heat is recovered, heating about 14,000 two-room apartments, a figure expected to rise to 28,000.",
+          "source": "https://www.helen.fi/en/news/2026/helen-hyodyntaa-uuden-datakeskuksen-hukkalampoa-helsingin-kaukolammossa"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did Helen announce in August 2026?",
+          "a": "On 31 August 2026 Helen announced an agreement with OnZero Finland Oy to connect waste heat from a new data centre into Helsinki's district heating network. Recovery begins in 2027 and is expected to deliver more than 500,000 MWh of heat per year when fully operational, enough for roughly 70,000 flats."
+        },
+        {
+          "q": "How does Helen's heat-recovery service work for data centres?",
+          "a": "Three ways: Helen invests in and operates the heat pump system, which also cools the data centre, and takes the waste heat; the data centre builds its own system and Helen buys surplus heat at an input temperature of about 85 degrees C; or the data centre connects to Helen's district cooling network."
+        },
+        {
+          "q": "How long has Helen recovered data-centre heat?",
+          "a": "Helen states it has used data-centre waste heat in its district heating network since 2010. At Telia's Helsinki Data Center, up to 90% of waste heat is recovered, heating about 14,000 two-room apartments, expected to rise to 28,000."
+        },
+        {
+          "q": "Who owns Helen and when was it founded?",
+          "a": "Helen Ltd is owned by the City of Helsinki. Its history page records that the electricity company of the City of Helsinki was established in 1909, when Helsinki's small electricity companies were transferred to city ownership."
+        }
+      ]
+    },
+    {
+      "slug": "eurovent",
+      "name": "Eurovent",
+      "segments": [
+        "standards"
+      ],
+      "tagline": "Eurovent is the European HVACR industry association, founded in 1956 and based in Brussels, representing over 100 companies directly. It published its Data Centre Cooling Guidebook in November 2026, and Eurovent Certita Certification operates the ITCU certification covering IT cooling units including rear-door coolers.",
+      "hq": "Brussels, Belgium",
+      "founded": 1956,
+      "ownership": "Member-funded European industry association for HVACR manufacturers; its stated scope includes data centre cooling technologies",
+      "website": "https://www.eurovent.eu/",
+      "productLines": [
+        {
+          "name": "Data Centre Cooling Guidebook",
+          "note": "Guidebook published in November 2026. Eurovent describes it as explaining, in clear and technology-neutral terms, what data centre cooling is, how it works and why it matters, building a shared technical vocabulary for informed policy-making and aligning performance requirements with environmental goals without compromising reliability.",
+          "source": "https://www.eurovent.eu/wp-content/uploads/publications-files/eurovent_it-cooling-guidebook.pdf"
+        },
+        {
+          "name": "ITCU certification programme",
+          "note": "Operated by Eurovent Certita Certification: third-party certification of IT cooling units, covering CRAC, CRAH, rear-door coolers (active or passive) and hybrid units. Verifies declared cooling capacity, airflow, sound power and energy efficiency (EER, SEPRsens) with annual factory audits and surveillance testing; 746 certified products listed.",
+          "source": "https://www.eurovent-certification.com/en/third-party-certification/certification-programmes/itcu"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In November 2026 Eurovent published its Data Centre Cooling Guidebook, a technology-neutral explanation of what data centre cooling is, how it works and why it matters, with chapters on liquid cooling, waste heat recovery, product certification, standards and EU legislation.",
+          "source": "https://www.eurovent.eu/wp-content/uploads/publications-files/eurovent_it-cooling-guidebook.pdf"
+        },
+        {
+          "year": "2026",
+          "text": "As checked in November 2026, the ITCU programme operated by Eurovent Certita Certification certifies CRAC, CRAH, rear-door cooler and hybrid IT cooling units for data centres, with independent verification of cooling capacity, energy efficiency, airflow and acoustics, annual factory audits and surveillance testing; its directory lists 746 certified products.",
+          "source": "https://www.eurovent-certification.com/en/third-party-certification/certification-programmes/itcu"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Eurovent?",
+          "a": "Eurovent describes itself as the voice of the European HVACR industry, representing over 100 companies directly and more than 1,000 indirectly through 18 national associations. It was founded in 1956 and is based at Rue de la Loi 62, 1040 Brussels, Belgium."
+        },
+        {
+          "q": "What has Eurovent published on data-centre cooling?",
+          "a": "The Eurovent Guidebook on Data Centre Cooling (2026), published 19 November 2026. Eurovent says it explains in technology-neutral terms what data centre cooling is, how it works and why it matters, and builds a shared technical vocabulary for informed policy-making."
+        },
+        {
+          "q": "Is data-centre cooling equipment certified under Eurovent?",
+          "a": "Eurovent Certita Certification operates the ITCU programme covering CRAC, CRAH, rear-door cooler and hybrid units for data centres. It independently verifies declared cooling capacity, energy efficiency (EER, SEPRsens), airflow and acoustics, with annual factory audits and surveillance testing; the directory lists 746 certified products."
+        }
+      ]
+    },
+    {
+      "slug": "dlb-associates",
+      "name": "DLB Associates",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "DLB Associates is a US data-centre engineering firm founded in 1980 and based in Neptune, New Jersey, offering design engineering and commissioning for hyperscale, neo-cloud and colocation facilities, with a published liquid-cooling series on cold plates and CDUs. Accenture closed a 65% majority-stake acquisition in January 2026.",
+      "hq": "Neptune, New Jersey, United States",
+      "founded": 1980,
+      "ownership": "65% majority stake held by Accenture; announced 16 December 2025, closed 22 January 2026",
+      "website": "https://www.dlbassociates.com/",
+      "productLines": [
+        {
+          "name": "Data centre engineering and commissioning",
+          "note": "Engineering and consulting for data centres and mission-critical facilities since 1980: data centre site selection, due diligence, design engineering, commissioning, construction quality management and energy optimization services, serving hyperscalers, neo-clouds and colocation providers. Roughly 620 employees at the time of the Accenture announcement.",
+          "source": "https://newsroom.accenture.com/news/2025/accenture-to-acquire-majority-stake-in-dlb-to-expand-capital-projects-capabilities-for-end-to-end-data-center-development"
+        },
+        {
+          "name": "Liquid-cooling engineering publications",
+          "note": "Technical series on its publications page: Coolant Distribution Units Part 1: Design (June 2025), Liquid Cooling Cold Plates Part 1 (September 2025), Server Cold Plates Part 2 (November 2025), Liquid Cold Plates Part 3 (December 2025) and TCS Coolant Integrity Best Practices (May 2026), plus an ASHRAE TC 9.9 cold plate bulletin (December 2024).",
+          "source": "https://dlbassociates.com/publications.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 22 January 2026 Accenture completed the acquisition of a 65% majority stake in DLB Associates and its affiliate companies, first announced on 16 December 2025; DLB joined Accenture's Industry X infrastructure and capital projects practice.",
+          "source": "https://newsroom.accenture.com/news/2025/accenture-to-acquire-majority-stake-in-dlb-to-expand-capital-projects-capabilities-for-end-to-end-data-center-development"
+        },
+        {
+          "year": "2026",
+          "text": "In May 2026 DLB published TCS Coolant Integrity and System Readiness Best Practices, adding to its liquid-cooling series, which in 2025 included Coolant Distribution Units Part 1: Design (June), Liquid Cooling Cold Plates Part 1 (September), Server Cold Plates Part 2 (November) and Liquid Cold Plates Part 3 (December).",
+          "source": "https://dlbassociates.com/publications.html"
+        },
+        {
+          "year": "2024",
+          "text": "In December 2024 DLB's publications page records a new ASHRAE TC 9.9 technical bulletin, Liquid Cooling: Resiliency Guidance for Cold Plate Deployments, part of its long-running liquid-cooling technical output that began with Liquid-Cooling Trends in Data Centers in July 2019.",
+          "source": "https://dlbassociates.com/publications.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Who owns DLB Associates?",
+          "a": "Accenture acquired a 65% majority stake in DLB Associates and its affiliate companies; the deal was announced on 16 December 2025 and closed on 22 January 2026, with DLB joining Accenture's Industry X infrastructure and capital projects practice."
+        },
+        {
+          "q": "What services does DLB provide?",
+          "a": "Engineering and consulting for data centres and mission-critical facilities since 1980: site selection, due diligence, design engineering, commissioning, construction quality management and energy optimization, serving hyperscalers, neo-clouds and colocation providers."
+        },
+        {
+          "q": "What liquid-cooling work has DLB published?",
+          "a": "A technical series on its publications page: Coolant Distribution Units Part 1: Design (June 2025), Liquid Cooling Cold Plates Part 1 (September 2025), Server Cold Plates Part 2 (November 2025), Liquid Cold Plates Part 3 (December 2025) and TCS Coolant Integrity and System Readiness Best Practices (May 2026), plus an ASHRAE TC 9.9 bulletin on resiliency guidance for cold plate deployments (December 2024)."
+        },
+        {
+          "q": "Where is DLB based and how large is it?",
+          "a": "DLB was founded in 1980 and is based in Neptune, New Jersey, with roughly 620 employees at the time of the Accenture acquisition announcement."
+        }
+      ]
+    },
+    {
+      "slug": "future-tech",
+      "name": "Future-tech",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Future-tech is a UK data-centre engineering consultancy offering M&A, investment, design, construction and operations services. It lists direct chip cooling among its cooling solutions and has delivered M&E designs for direct liquid cooling projects since 2012; in December 2025 it was acquired by the AI infrastructure company Nscale.",
+      "hq": "London, United Kingdom",
+      "founded": 1990,
+      "ownership": "FUTURE-TECH S.C.I. LIMITED, private limited company; acquisition by Nscale announced 18 December 2025",
+      "website": "https://www.future-tech.co.uk/",
+      "productLines": [
+        {
+          "name": "Data centre engineering consultancy",
+          "note": "Future-tech describes itself as a specialist organisation dedicated to data centre M&A, investment, design, construction and operations focussed services, covering advisory, design, build, maintenance and management for data centres, comms rooms and server rooms. About 60 staff joined Nscale at acquisition.",
+          "source": "https://www.future-tech.co.uk/about-us"
+        },
+        {
+          "name": "Cooling systems design including direct chip cooling",
+          "note": "Designs and installs data centre cooling including direct chip cooling, direct and indirect fresh air free cooling, chilled water free cooling, water-cooled DX, hybrid systems, evaporative cooling and absorption cooling using waste heat. Cites about 2% efficiency gain per 1 degree C rise in server air-on temperature.",
+          "source": "https://www.future-tech.co.uk/equipment-and-solutions/cooling/data-centre-cooling-systems-and-solutions"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 18 December 2025 Future-tech announced it had joined Nscale, a global AI hyperscaler building GW+ greenfield data centres across Europe and North America; around 60 Future-tech designers, engineers, consultants and project managers joined Nscale.",
+          "source": "https://www.future-tech.co.uk/future-tech-joins-nscale"
+        },
+        {
+          "year": "2018",
+          "text": "In a November 2018 article Future-tech stated it had delivered M&E infrastructure designs for direct liquid cooling projects and applications since 2012, citing PUE improvements such as NREL's liquid-cooled facility reaching an annual PUE of 1.04 at 1 MW IT capacity.",
+          "source": "https://www.future-tech.co.uk/from-niche-to-mainstream-can-direct-liquid-cooling-make-the-jump"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Who owns Future-tech?",
+          "a": "On 18 December 2025 Future-tech announced that it joined Nscale, a global AI hyperscaler. Around 60 Future-tech staff, including designers, engineers, consultants and project managers, joined Nscale as part of the deal."
+        },
+        {
+          "q": "Does Future-tech work on liquid cooling?",
+          "a": "Yes. Future-tech lists direct chip cooling among the cooling solutions it designs and installs, and stated in a 2018 article that it had delivered M&E infrastructure designs for direct liquid cooling projects and applications since 2012."
+        },
+        {
+          "q": "What services does Future-tech provide?",
+          "a": "Future-tech describes itself as a specialist organisation dedicated to data centre M&A, investment, design, construction and operations focussed services, covering advisory, design, build, maintenance and management."
+        },
+        {
+          "q": "When was Future-tech founded and where is it registered?",
+          "a": "The company behind Future-tech, FUTURE-TECH S.C.I. LIMITED (company number 02567648), was incorporated on 11 December 1990 as a private limited company with a registered office in London, per Companies House."
+        }
+      ]
+    },
+    {
+      "slug": "exascale-labs",
+      "name": "Exascale Labs",
+      "segments": [
+        "micro-dc"
+      ],
+      "tagline": "Exascale Labs is a San Francisco-based next-generation AI infrastructure provider listed on Nasdaq as XLAB. Its factory-built Modular Data Centers pre-integrate power, cooling and networking for AI workloads, and its infrastructure solutions span modular data centers, HVDC power, high-density cooling and data center interconnectivity.",
+      "hq": "San Francisco, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Exascale Labs Holdings Inc., listed on Nasdaq (XLAB)",
+      "website": "https://www.exascalelabs.ai/",
+      "productLines": [
+        {
+          "name": "Modular Data Center (MDC)",
+          "note": "A factory-built container that pre-integrates power, cooling and networking for high rack densities. Showcased with Compal at COMPUTEX Taipei 2026 as a four-layer stack: Compal AI servers with direct liquid cooling for high-power GPUs, cooling, the Exascale MDC, and 800 V DC HVDC power with solid-state transformers.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2065779/000182912626005457/dboralarcacq1_ex99-1.htm"
+        },
+        {
+          "name": "AI infrastructure solutions",
+          "note": "A software-defined GPU compute platform with Token Factory, GPU-as-a-service, GPU cluster management and optimization, and infrastructure spanning modular data centers, HVDC power, high-density cooling and data center interconnectivity, supporting training, fine-tuning and high-concurrency inference.",
+          "source": "https://www.globenewswire.com/news-release/2026/09/14/3361086/0/en/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform.html"
+        },
+        {
+          "name": "800 VDC validation platform with Compal (announced)",
+          "note": "Non-binding letter of intent signed 14 September 2026 with Compal to develop a U.S.-based native 800 VDC validation platform using solid-state transformers: Compal to provide the site, GPU servers and liquid cooling systems; Exascale the modular data center, power architecture and software, responsible for deployment and testing.",
+          "source": "https://www.globenewswire.com/news-release/2026/09/14/3361086/0/en/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 14 September 2026 Exascale Labs Holdings (Nasdaq: XLAB) announced a non-binding letter of intent with Compal Electronics to jointly develop a U.S.-based native 800 VDC validation platform using solid-state transformers, combining Compal GPU servers and liquid cooling systems with Exascale's Modular Data Center and power architecture.",
+          "source": "https://www.globenewswire.com/news-release/2026/09/14/3361086/0/en/exascale-and-compal-sign-letter-of-intent-to-build-data-center-grade-native-800-vdc-validation-platform.html"
+        },
+        {
+          "year": "2026",
+          "text": "On 19 May 2026 Exascale Labs and Compal announced an integrated AI infrastructure solution to be showcased at COMPUTEX Taipei 2026 (2-5 June): Compal AI servers with direct liquid cooling for high-power GPUs, the Exascale factory-built Modular Data Center pre-integrating power, cooling and networking, and an 800 V DC HVDC power architecture with solid-state transformers.",
+          "source": "https://www.sec.gov/Archives/edgar/data/2065779/000182912626005457/dboralarcacq1_ex99-1.htm"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the Exascale Modular Data Center?",
+          "a": "A factory-built container that pre-integrates power, cooling and networking, aimed at high rack densities for AI workloads. It was showcased with Compal at COMPUTEX Taipei 2026 as part of a four-layer stack: compute, cooling, infrastructure and power, with an 800 V DC HVDC architecture using solid-state transformers."
+        },
+        {
+          "q": "Is Exascale Labs a listed company?",
+          "a": "Yes. Its September 2026 press release names the company as Exascale Labs Holdings Inc., listed on Nasdaq under the ticker XLAB. Earlier in 2026 it had entered a business combination with D. Boral ARC Acquisition I Corp."
+        },
+        {
+          "q": "What was agreed with Compal in September 2026?",
+          "a": "A non-binding letter of intent to jointly develop a U.S.-based, data-center-grade native 800 VDC validation platform. Compal would provide the site, GPU servers and liquid cooling systems; Exascale the modular data center, SST power architecture and software, leading deployment, commissioning and testing. Compal intends, subject to a definitive agreement, to acquire the Exascale-developed portion."
+        },
+        {
+          "q": "Where is Exascale Labs headquartered?",
+          "a": "San Francisco, California, according to its press releases of May and September 2026."
+        }
+      ]
+    },
+    {
+      "slug": "ekkosense",
+      "name": "EkkoSense",
+      "segments": [
+        "software"
+      ],
+      "tagline": "EkkoSense is a UK-headquartered software company founded in 2013 whose EkkoSoft Critical platform provides real-time monitoring and AI-driven optimization for data centres, including temperatures and flow rates across direct-to-chip, rear-door heat exchanger and hybrid liquid-cooled infrastructure.",
+      "hq": "United Kingdom (head office city not published on its site)",
+      "founded": 2013,
+      "ownership": "Private company backed by PE investors, per ekkosense.com",
+      "website": "https://www.ekkosense.com/",
+      "productLines": [
+        {
+          "name": "EkkoSoft Critical - Liquid Cooling Optimization",
+          "note": "Real-time monitoring of temperatures, flow rates and thermal behaviour across direct-to-chip, rear-door heat exchanger and hybrid liquid cooling deployments. Correlates liquid-cooling data with air-cooling, power and IT-load metrics in a single view, with governance controls, alerting and safety thresholds and a unified 3D operational view.",
+          "source": "https://www.ekkosense.com/ekkosoft-critical/data-center-liquid-cooling-optimization/"
+        },
+        {
+          "name": "EkkoScore",
+          "note": "A performance index for liquid cooling environments, helping teams understand how effectively thermal energy is being removed relative to IT load and operational constraints.",
+          "source": "https://www.ekkosense.com/ekkosoft-critical/data-center-liquid-cooling-optimization/"
+        },
+        {
+          "name": "EkkoSoft Critical platform and EkkoSim",
+          "note": "The wider platform includes a Data Center Digital Twin, Cooling Advisor, capacity planning, power monitoring, ESG reporting, sensors and 3DCIM under EkkoSoft Critical, plus the EkkoSim simulation offering. EkkoSense states it holds ISO 27001 and ISO 9001 accreditations and runs offices in North America, the UK, Europe and Australia.",
+          "source": "https://www.ekkosense.com/about-us/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In February 2026 EkkoSense published its Data Center Liquid Cooling Optimization capability for EkkoSoft Critical: real-time monitoring of temperatures, flow rates and thermal behaviour across direct-to-chip, rear-door heat exchanger and hybrid liquid cooling deployments, with governance controls, alerting, defined safety thresholds and the EkkoScore performance index for liquid cooling environments.",
+          "source": "https://www.ekkosense.com/ekkosoft-critical/data-center-liquid-cooling-optimization/"
+        },
+        {
+          "year": "2013",
+          "text": "EkkoSense was founded in 2013 with a mission to help organizations resolve the thermal risks their data centres face from inefficient cooling strategies, as stated on the company's about page; it now sells the EkkoSoft Critical real-time platform and EkkoSim simulation software.",
+          "source": "https://www.ekkosense.com/about-us/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does EkkoSoft Critical do for liquid-cooled data centres?",
+          "a": "It monitors temperatures, flow rates and thermal behaviour in real time across direct-to-chip, rear-door heat exchanger and hybrid liquid cooling deployments, and correlates liquid-cooling data with traditional air-cooling, power and IT-load metrics to give a single operational view across mixed cooling strategies."
+        },
+        {
+          "q": "What is EkkoScore?",
+          "a": "EkkoScore is a performance index for liquid cooling environments. It helps teams understand how effectively thermal energy is being removed relative to IT load and operational constraints."
+        },
+        {
+          "q": "How does EkkoSense help manage liquid-cooling risk?",
+          "a": "Governance controls, alerting and defined safety thresholds help operators manage the complexity of liquid cooling without introducing operational risk, supported by 3D visualization and analytics across liquid, air and hybrid cooling environments for ultra high-density AI workloads."
+        },
+        {
+          "q": "When was EkkoSense founded and where does it operate?",
+          "a": "EkkoSense was founded in 2013 and lists a UK headquarters on its website, with offices in North America, the UK, Europe and Australia. The company states it is backed by PE investors and holds ISO 27001 and ISO 9001 accreditations."
+        }
+      ]
+    },
+    {
+      "slug": "ramboll",
+      "name": "Ramboll",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Engineering consultancy whose data-centre practice advises owners on adopting liquid cooling and heat reuse, from immersion feasibility and hybrid cooling design to district-heating integration, backed by 15+ GW of designed and tested data-centre capacity.",
+      "hq": "Copenhagen, Denmark",
+      "founded": 1945,
+      "ownership": "Owned by the Ramboll Foundation (established 1971), described as its main owner and majority shareholder",
+      "website": "https://www.ramboll.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling and heat-reuse advisory",
+          "note": "Consulting that helps data-centre owners incorporate liquid cooling and heat reuse alongside site selection, energy supply, MEP engineering design, masterplanning and permitting; 15+ GW of data-centre space designed and tested and 1,000+ studies completed.",
+          "source": "https://www.ramboll.com/en-us/technology/data-centers-mission-critical-facilities/"
+        },
+        {
+          "name": "Hybrid and immersion cooling design guidance",
+          "note": "Design guidance covering full immersion cooling supporting 100 kW per rack or more, cold-plate systems that typically capture around 80% of server heat, and secondary rear-door heat exchanger or air-side systems for the residual heat.",
+          "source": "https://www.ramboll.com/en-us/is-immersion-cooling-answer-sustainable-data-centers"
+        },
+        {
+          "name": "Heat reclaim and district-heating integration",
+          "note": "Design of high-temperature heat rejection from immersion cooling so heat can be reclaimed into district heating, including water-to-water heat pumps to raise water temperature for heat-reuse applications.",
+          "source": "https://www.ramboll.com/en-us/is-immersion-cooling-answer-sustainable-data-centers"
+        },
+        {
+          "name": "Liquid-ready cooling infrastructure design",
+          "note": "Chilled-water systems installed with taps for water-cooled equipment so data halls can migrate gradually to liquid cooling, plus hall designs without raised floors, where containment trenches bring cooling water to immersion tanks and racks with leak detection.",
+          "source": "https://www.ramboll.com/en-us/is-immersion-cooling-answer-sustainable-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 23 September 2025 Ramboll published guidance for data-centre operators on cooling strategy and water use as part of NYCW 2025, covering maximising cycles of concentration and alternative water sources such as rainwater.",
+          "source": "https://www.ramboll.com/en-us/news/nycw-2025-developing-sustainable-data-centers"
+        },
+        {
+          "year": "2023",
+          "text": "Ramboll's 13 December 2023 insight described advising on a small-scale Nordic data-centre conversion to full immersion cooling with heat reclaim into district heating, and noted cold plates typically capture around 80% of server heat, leaving residual heat for secondary systems.",
+          "source": "https://www.ramboll.com/en-us/is-immersion-cooling-answer-sustainable-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Ramboll do in data-centre liquid cooling?",
+          "a": "It is an engineering consultancy that helps data-centre owners incorporate liquid cooling and heat reuse within site selection, energy supply, MEP design and permitting. Its data-centre practice lists 15+ GW of capacity designed and tested and 1,000+ studies completed."
+        },
+        {
+          "q": "Has Ramboll worked on immersion cooling projects?",
+          "a": "A December 2023 Ramboll insight describes work with a company that converted a Nordic data centre to full immersion cooling on a small scale, using the high heat-rejection temperatures for heat reclaim into a district-heating system."
+        },
+        {
+          "q": "Does Ramboll recommend full liquid cooling for every site?",
+          "a": "No. Ramboll notes cold plates typically capture around 80% of server heat, so secondary rear-door heat exchangers or air-side systems are still needed, and many owners will choose a hybrid liquid and air environment."
+        },
+        {
+          "q": "How does Ramboll prepare facilities for future liquid cooling?",
+          "a": "It designs chilled-water systems with taps for water-cooled equipment so data halls can migrate gradually, and no-raised-floor designs with containment trenches that bring cooling water to immersion tanks and racks while enabling leak detection."
+        }
+      ]
+    },
+    {
+      "slug": "red-engineering-design",
+      "name": "RED Engineering Design",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Engineering consultancy within Tractebel (ENGIE Group) that designs MEP systems for data centres, AI factories and HPC facilities, citing expertise in liquid cooling and ultra-high rack densities, including a 40MW hybrid liquid-cooled AI data centre design in Johor Bahru, Malaysia.",
+      "hq": "United Kingdom (head office city not stated on red-eng.com)",
+      "founded": 2004,
+      "ownership": "Subsidiary of Tractebel (part of ENGIE Group)",
+      "website": "https://www.red-eng.com/",
+      "productLines": [
+        {
+          "name": "AI factory and HPC liquid-cooling design",
+          "note": "Engineering services citing expertise in liquid cooling, ultra-high rack densities and resilient power systems for AI factories and HPC facilities; track record of 1,050+ projects in 75+ countries and 55 Uptime certifications across 26 facilities.",
+          "source": "https://www.red-eng.com/data-centre-solutions/"
+        },
+        {
+          "name": "Hybrid liquid-cooled data-centre MEP design",
+          "note": "MEP design consultant role on a 40MW hybrid data centre in Johor Bahru, Malaysia (project period from 1 April 2024), using liquid cooling in place of traditional air-cooled systems for high-density, high-performance AI computing; target PUE 1.3 and LEED Gold, with nine data halls planned on a 49-acre site.",
+          "source": "https://www.red-eng.com/projects/40mw-data-centre"
+        },
+        {
+          "name": "Integrated power, cooling and compute design",
+          "note": "Design of environments for increasingly dense and dynamic GPU workloads; RED announced on 25 March 2026 that it supports the NVIDIA DSX AI Factory ecosystem with this integrated infrastructure design expertise.",
+          "source": "https://www.red-eng.com/insights/red-engineering-design-supports-nvidia-dsx-ai-factory-ecosystem-with-advanced-infrastructure-design-expertise"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "RED's industry talks session on 17 September 2026 addressed a data-centre industry being reshaped by AI, liquid cooling and rapidly evolving operational models, as reported in its key-themes write-up.",
+          "source": "https://www.red-eng.com/insights/shaping-the-future-of-sustainable-data-centres-key-themes-from-ninth-talks-session"
+        },
+        {
+          "year": "2024",
+          "text": "From 1 April 2024 RED served as MEP design consultant for a 40MW hybrid data centre in Johor Bahru, Malaysia, applying liquid cooling instead of traditional air-cooled systems for high-density AI computing, with construction support through 12 months post-handover and a target PUE of 1.3.",
+          "source": "https://www.red-eng.com/projects/40mw-data-centre"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling project experience does RED have?",
+          "a": "RED was MEP design consultant for a 40MW hybrid data centre in Johor Bahru, Malaysia (project period from 1 April 2024), which uses liquid cooling rather than traditional air-cooled systems for high-density, high-performance AI computing; the design targets a PUE of 1.3."
+        },
+        {
+          "q": "What is RED's role on data-centre projects?",
+          "a": "RED provides MEP design services and construction support, including 12 months of post-handover support on the Johor Bahru project. The firm cites 1,050+ projects in 75+ countries, 900+ engineers across 16 offices and 55 Uptime certifications across 26 facilities."
+        },
+        {
+          "q": "Does RED design AI factories with liquid cooling?",
+          "a": "Yes. RED cites expertise in liquid cooling, ultra-high rack densities and resilient power systems for AI factories and HPC facilities, and on 25 March 2026 announced it supports the NVIDIA DSX AI Factory ecosystem with integrated power, cooling and compute design."
+        },
+        {
+          "q": "Who owns RED Engineering Design?",
+          "a": "RED's parent company is Tractebel, a global engineering and consulting company that is part of the ENGIE Group, according to RED's own about page. RED was founded in 2004."
+        }
+      ]
+    },
+    {
+      "slug": "salute",
+      "name": "Salute",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Data-center services provider covering direct-to-chip and immersion cooling operations, from assessments and commissioning to chemistry management and staffing. Its DTC operations service, announced at NVIDIA GTC Washington DC, is expected to support roughly 250 MW of capacity, with about 3,100 MW more estimated by end of 2027.",
+      "hq": "Franklin, Wisconsin, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://salute.com/",
+      "productLines": [
+        {
+          "name": "Direct-to-Chip (DTC) liquid cooling operations service",
+          "note": "Full-service offering covering design and operational assessment, commissioning support, a best-practices library, field-tested EOPs, MOPs and SOPs spanning chemistry management, leak detection, safety protocols and risk mitigation, plus training programs and staffing; announced at NVIDIA GTC Washington DC.",
+          "source": "https://salute.com/resources/news/salute-launches-groundbreaking-direct-to-chip-liquid-cooling-operations-service-for-ai-hpc-data-centers-at-nvidia-gtc"
+        },
+        {
+          "name": "Immersion cooling services",
+          "note": "Operations support for immersion systems that submerge entire servers in a dielectric coolant, reducing reliance on air cooling; Salute cites full immersion as supporting rack loads exceeding 150 kW per rack.",
+          "source": "https://salute.com/services/operate/data-center-cooling"
+        },
+        {
+          "name": "Air-to-liquid transition support",
+          "note": "Full Service support for air-to-liquid transitions and new liquid-cooling deployments, with in-house CFD expertise, direct-to-chip assessments from planning to execution and a 24/7 helpdesk; Salute cites DLC at 70-90 kW per rack with heat rejection above 70 degrees C versus under 40 degrees C for air systems.",
+          "source": "https://salute.com/services/operate/data-center-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Announced at NVIDIA GTC in Washington DC: a full-service Direct-to-Chip (DTC) liquid cooling operations service for AI/HPC data centers, which Salute describes as an industry first. It is expected to support roughly 250 MW of data center capacity in the coming months and an estimated 3,100 MW of additional capacity by end of 2027.",
+          "source": "https://salute.com/resources/news/salute-launches-groundbreaking-direct-to-chip-liquid-cooling-operations-service-for-ai-hpc-data-centers-at-nvidia-gtc"
+        },
+        {
+          "year": "2026",
+          "text": "Salute's current cooling services catalogue (site copyright 2026) lists direct liquid cooling and immersion cooling operations, with cited rack density limits of 15-20 kW for air cooling, 40-50 kW for rear-door air cooling, 70-90 kW for DLC and beyond 150 kW for full immersion.",
+          "source": "https://salute.com/services/operate/data-center-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling services does Salute provide?",
+          "a": "It operates direct-to-chip liquid cooling for AI/HPC data centers, covering design and operational assessment, commissioning support, chemistry management, leak detection, safety protocols, training and staffing, plus immersion cooling operations and full-service support for air-to-liquid transitions."
+        },
+        {
+          "q": "What rack densities does Salute cite for each cooling method?",
+          "a": "Its services page cites peak limits of 15-20 kW per rack for air cooling, 40-50 kW for rear-door air cooling, 70-90 kW for direct liquid cooling, and more than 150 kW per rack for full immersion, with DLC heat rejection above 70 degrees C versus under 40 degrees C for air systems."
+        },
+        {
+          "q": "What did Salute announce at NVIDIA GTC Washington DC?",
+          "a": "A full-service Direct-to-Chip (DTC) liquid cooling operations service for AI/HPC data centers, described by Salute as an industry first, expected to support roughly 250 MW of data center capacity in the coming months and an estimated 3,100 MW of additional capacity by end of 2027."
+        },
+        {
+          "q": "Does Salute help existing air-cooled sites move to liquid?",
+          "a": "Yes. Its Full Service offer covers air-to-liquid transitions and new liquid-cooling deployments, supported by in-house CFD expertise, direct-to-chip assessments from planning to execution, and a 24/7 technical helpdesk."
+        }
+      ]
+    },
+    {
+      "slug": "hitt-contracting",
+      "name": "HITT Contracting",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "US general contractor headquartered in Falls Church, Virginia, whose data center work includes liquid-cooled construction: closed-loop cold-plate systems moving heat through CDUs to facility water loops, supporting rack densities HITT quotes at up to 160 kW per rack versus 10 kW for air cooling.",
+      "hq": "Falls Church, Virginia, United States",
+      "founded": 1937,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.hitt.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled data center construction",
+          "note": "Construction of data centers using closed-loop liquid cooling: technical water circulates through cold plates on chips, transferring heat via coolant distribution units (CDUs) to a facility water loop and chilled water plant; HITT cites support for up to 160 kW per rack compared to 10 kW per rack with air cooling.",
+          "source": "https://www.hitt.com/news-hub/future-data-center-construction-liquid-cooling"
+        },
+        {
+          "name": "Liquid cooling retrofits and non-traditional sites",
+          "note": "HITT positions liquid cooling as enabling retrofits of older buildings and deployment in non-traditional locations such as edge sites, historic buildings and office basements, where air-cooling infrastructure would be impractical.",
+          "source": "https://www.hitt.com/news-hub/future-data-center-construction-liquid-cooling"
+        },
+        {
+          "name": "AI and HPC data center building",
+          "note": "General contracting for denser, more efficient data centers supporting AI and high-performance computing, with liquid cooling cited as delivering lower energy use, quieter and more compact technical spaces.",
+          "source": "https://www.hitt.com/news-hub/future-data-center-construction-liquid-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 27 August 2025 HITT published its article on liquid cooling in data center construction, describing closed-loop cold-plate systems carrying heat through CDUs to facility water loops and chilled water plants, and citing support for up to 160 kW per rack versus 10 kW per rack with air cooling.",
+          "source": "https://www.hitt.com/news-hub/future-data-center-construction-liquid-cooling"
+        },
+        {
+          "year": "2026",
+          "text": "On 10 June 2026 HITT announced it had broken ground on the Microsoft Alviso datacenter campus in San Jose, California, where HITT is general contractor for the second phase of development: 48 MW of critical capacity, with completion scheduled for 2028.",
+          "source": "https://www.hitt.com/news-hub/hitt-breaks-ground-microsoft-alviso-datacenter/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling approach does HITT build?",
+          "a": "Closed-loop systems in which technical water circulates through cold plates on chips, transfers heat via coolant distribution units (CDUs) to a facility water loop and the chilled water plant. HITT cites support for up to 160 kW per rack compared to 10 kW per rack with air cooling."
+        },
+        {
+          "q": "Can HITT retrofit existing buildings with liquid cooling?",
+          "a": "Yes. HITT says liquid cooling enables retrofits of older buildings and use of non-traditional locations such as edge sites, historic buildings and office basements, and its project teams include retrofit specialists."
+        },
+        {
+          "q": "When was HITT founded and where is it headquartered?",
+          "a": "HITT was founded in 1937 as W.A. HITT Decorating Co. and is headquartered in Falls Church, Virginia, at a LEED Silver certified headquarters on Fairview Park Drive, according to its company history page."
+        },
+        {
+          "q": "Why does HITT argue for liquid cooling in data centers?",
+          "a": "Its August 2025 article states liquids conduct heat far more efficiently than air, enabling denser and more efficient data centers with lower energy use, quieter and more compact spaces for AI and high-performance computing."
+        }
+      ]
+    },
+    {
+      "slug": "nesic",
+      "name": "NESIC",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Japanese network and system integration company (NEC Networks & System Integration Corporation, an NEC group company) that runs demonstration deployments of data-center liquid cooling, including two-phase direct-to-chip cooling in an air-cooled data center and an immersion liquid-cooling test that cut server-cooling energy use by 94%.",
+      "hq": "Tokyo, Japan",
+      "founded": 1953,
+      "ownership": "NEC group company; a 2025 news item on its English site identifies NEC as its parent company",
+      "website": "https://www.nesic.co.jp/",
+      "productLines": [
+        {
+          "name": "Two-phase direct-to-chip cooling demonstration",
+          "note": "Demonstration test of two-phase direct-to-chip cooling in an air-cooled data center, announced 20 November 2024, exploring retrofit of liquid cooling into conventional air-cooled facilities.",
+          "source": "https://www.nesic.co.jp/english/index.html"
+        },
+        {
+          "name": "Immersion liquid cooling demonstration systems",
+          "note": "Demonstration testing of a liquid cooling system for data centers that achieved a 94% reduction in the energy consumed to cool servers, announced 6 March 2023 as part of decarbonisation work.",
+          "source": "https://www.nesic.co.jp/english/index.html"
+        },
+        {
+          "name": "Data center and cloud solutions",
+          "note": "Network and system integration services for enterprises, government and public-sector customers, with a Solutions & Products portfolio that includes data center and cloud offerings and accompanying operational support services.",
+          "source": "https://www.nesic.co.jp/english/index.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "On 20 November 2024 NESIC announced the start of a demonstration test of two-phase direct-to-chip cooling in an air-cooled data center, testing liquid cooling technology inside a conventional air-cooled facility.",
+          "source": "https://www.nesic.co.jp/english/index.html"
+        },
+        {
+          "year": "2023",
+          "text": "On 6 March 2023 NESIC announced that demonstration testing of its liquid cooling system for data centers achieved a 94% reduction in the energy consumption required to cool servers, in work positioned around decarbonisation.",
+          "source": "https://www.nesic.co.jp/english/index.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling has NESIC demonstrated?",
+          "a": "Its English news page lists a 20 November 2024 announcement of a demonstration test of two-phase direct-to-chip cooling in an air-cooled data center, and a 6 March 2023 announcement that liquid cooling demonstration testing achieved a 94% reduction in the energy consumed to cool servers."
+        },
+        {
+          "q": "Is NESIC a liquid cooling equipment vendor?",
+          "a": "No. NESIC (NEC Networks & System Integration Corporation) is a network and system integration company serving enterprises, government and public-sector customers; its liquid cooling work to date is demonstration testing in data centers rather than manufacturing cooling hardware."
+        },
+        {
+          "q": "Who owns NESIC?",
+          "a": "NESIC is an NEC group company; a 2025 news item on its own English site identifies NEC as its parent company. Its head office location and founding year were not stated on the English pages reviewed."
+        },
+        {
+          "q": "What was the aim of the 2024 two-phase direct-to-chip demonstration?",
+          "a": "Announced on 20 November 2024, the demonstration test applies two-phase direct-to-chip cooling in an air-cooled data center, evaluating liquid cooling performance inside a conventional air-cooled facility."
+        }
+      ]
+    },
+    {
+      "slug": "legrand",
+      "name": "Legrand",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Electrical and digital infrastructure group whose data-centre portfolio includes cooling through specialist brands: Minkels row-based coolers (chilled water and direct expansion) and USystems ColdLogik rear-door heat exchangers (CL20 ProActive, CL21 Smart Passive, CL23 High Performance), recommended by Legrand for high-density HPC.",
+      "hq": "Limoges, France",
+      "founded": 1865,
+      "ownership": "Listed on Euronext Paris since 2006 and a CAC 40 member since 2011 (legrand.com history page)",
+      "website": "https://www.legrand.com/",
+      "productLines": [
+        {
+          "name": "Minkels row-based cooling",
+          "note": "Row-based coolers in chilled-water and direct-expansion variants that increase the cooling capacity of containment solutions, enabling higher heat density per cabinet within the Minkels racks and containment ecosystem.",
+          "source": "https://www.legrand.com/datacenter/de-en/white-space/cooling"
+        },
+        {
+          "name": "USystems ColdLogik rear-door heat exchangers",
+          "note": "Rear-door cooling offered as CL20 ProActive, CL21 Smart Passive and CL23 High Performance Capacity; Legrand describes rear-door cooling as the preferred technology for the most demanding high heat densities and recommends it for High Performance Computing (HPC) solutions.",
+          "source": "https://www.legrand.com/datacenter/de-en/white-space/cooling"
+        },
+        {
+          "name": "White-space racks, containment and ecosystem",
+          "note": "Cooling is sold within Legrand's wider white-space range (Minkels racks and cabinets, hot/cold aisle containment) and alongside data-centre brands including Raritan, Server Technology, Starline, Cablofil, Borri and Zucchini listed on Legrand's data-centre site.",
+          "source": "https://www.legrand.com/datacenter/de-en/white-space/cooling"
+        },
+        {
+          "name": "ColdLogik deployment case studies",
+          "note": "USystems' knowledge hub documents deployments, including a 12 August 2025 case study on a decade of ColdLogik rear-door heat-exchanger cooling at Cambridge University and a 10 January 2024 case study on a cooling system delivered for AI- and HPC-powered enterprises.",
+          "source": "https://www.usystems.com/knowledge-hub"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 12 August 2025 USystems, the Legrand data-centre cooling brand, published a case study covering a decade of ColdLogik rear-door heat-exchanger cooling at Cambridge University.",
+          "source": "https://www.usystems.com/knowledge-hub"
+        },
+        {
+          "year": "2024",
+          "text": "On 10 January 2024 USystems published a case study on delivering a reliable cooling system for AI- and HPC-powered enterprises, documented in its knowledge hub.",
+          "source": "https://www.usystems.com/knowledge-hub"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-side cooling does Legrand offer for data centres?",
+          "a": "Through specialist brands: Minkels row-based coolers in chilled-water and direct-expansion variants that raise heat density per cabinet, and USystems ColdLogik rear-door heat exchangers in CL20 ProActive, CL21 Smart Passive and CL23 High Performance Capacity variants."
+        },
+        {
+          "q": "What workloads does Legrand recommend rear-door cooling for?",
+          "a": "Legrand's data-centre site describes rear-door cooling as the preferred technology for the most demanding applications with high heat densities and recommends it for High Performance Computing (HPC) solutions."
+        },
+        {
+          "q": "Are there documented ColdLogik deployments?",
+          "a": "Yes. USystems' knowledge hub includes a 12 August 2025 case study on a decade of ColdLogik rear-door heat-exchanger cooling at Cambridge University, and a 10 January 2024 case study on a cooling system delivered for AI- and HPC-powered enterprises."
+        },
+        {
+          "q": "Which Legrand brands serve the data-centre white space?",
+          "a": "Legrand's data-centre site lists brands including Legrand, Minkels, Usystems, Raritan, Server Technology, Starline, Cablofil, Borri and Zucchini, spanning racks and cabinets, containment, cooling, in-rack power, KVM and structured cabling."
+        }
+      ]
+    },
+    {
+      "slug": "stantec",
+      "name": "Stantec",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Global engineering, architecture and environmental consulting firm whose data centre practice covers liquid cooling design for AI-driven heat loads, citing hybrid direct-to-chip cooling on projects such as the NTT Data Center Campus in Garland, Texas, plus energy modelling for US hyperscale clients.",
+      "hq": "Edmonton, Canada",
+      "founded": 1954,
+      "ownership": "Listed on the TSX and the NYSE under the symbol STN (stantec.com)",
+      "website": "https://www.stantec.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling design for AI data centres",
+          "note": "Design guidance and engineering covering hybrid direct-to-chip plus air-assisted cooling, rack loads commonly over 100 kW with expectations to surpass 500 kW, coolants warm up to 37 C, and CDUs typically using 25% propylene glycol.",
+          "source": "https://www.stantec.com/uk/ideas/content/blog/2026/liquid-cooling-data-centers-key-to-meeting-ai-driven-heat-demands.html"
+        },
+        {
+          "name": "Sustainability and energy modelling services",
+          "note": "BREEAM assessment, LEED certification and LEED energy modelling for data centre projects, including confidential hyperscale clients in the US.",
+          "source": "https://www.stantec.com/uk/ideas/content/blog/2026/liquid-cooling-data-centers-key-to-meeting-ai-driven-heat-demands.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Stantec UK published liquid cooling guidance for data centres (24 June 2026) addressing AI-driven heat demands: rack densities that reached over 100 kW per cabinet and are expected to surpass 500 kW, server fan energy reductions of 70-80% in liquid-cooled models, and closed-loop systems saving about 92,000 gallons of water per megawatt per year versus evaporative systems.",
+          "source": "https://www.stantec.com/uk/ideas/content/blog/2026/liquid-cooling-data-centers-key-to-meeting-ai-driven-heat-demands.html"
+        },
+        {
+          "year": "2026",
+          "text": "The same guidance cites Stantec's work on the NTT Data Center Campus in Garland, Texas, which uses hybrid direct-chip liquid cooling with air-assisted cooling, alongside LEED energy modelling for confidential US hyperscale clients.",
+          "source": "https://www.stantec.com/uk/ideas/content/blog/2026/liquid-cooling-data-centers-key-to-meeting-ai-driven-heat-demands.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling experience does Stantec cite?",
+          "a": "Stantec's UK team references the NTT Data Center Campus in Garland, Texas, which uses hybrid direct-chip liquid cooling with air-assisted cooling, and LEED energy modelling work for confidential hyperscale clients in the US."
+        },
+        {
+          "q": "What rack densities does Stantec design for?",
+          "a": "Its 2026 guidance describes loads commonly over 100 kW per cabinet today, expected to surpass 500 kW, with liquid coolants warm up to 37 C and CDUs typically using 25% propylene glycol."
+        },
+        {
+          "q": "What efficiency gains does Stantec report for liquid cooling?",
+          "a": "Stantec's guidance cites server fan energy reductions of 70-80% in liquid-cooled models, 8-12% possible savings in IT equipment energy, and closed-loop systems saving about 92,000 gallons of water per megawatt per year versus evaporative cooling."
+        }
+      ]
+    },
+    {
+      "slug": "sweco",
+      "name": "Sweco",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Stockholm-headquartered engineering and architecture consultancy. Sweco Finland delivered the Borealis Data Center campus in Kajaani in 2025, described by Sweco as the first colocation data centre in Finland using direct liquid cooling at full megawatt scale site-wide, with waste heat recovered to district heating.",
+      "hq": "Stockholm, Sweden",
+      "founded": 1997,
+      "ownership": "Listed on Nasdaq Stockholm since 21 September 1998",
+      "website": "https://www.swecogroup.com/",
+      "productLines": [
+        {
+          "name": "Data centre project management and multidiscipline engineering",
+          "note": "On the Borealis Kajaani campus Sweco Finland acted as project manager and provided electrical engineering, HVAC and cooling system design, structural engineering, architectural design and fire safety engineering, delivering the converted UPM mill building in about seven months.",
+          "source": "https://www.swecobelgium.be/en/showroom/borealis-data-center-campus-in-kajaani-delivered-in-record-time-with-swecos-project-management-expertise/"
+        },
+        {
+          "name": "Liquid cooling and district heat-reuse design",
+          "note": "Cooling system design around ambitious PUE targets for a site-wide, megawatt-scale direct liquid cooled colocation facility, with waste heat recovery into Kajaani's district heating network covering roughly 10% of the city's local heating demand.",
+          "source": "https://www.swecobelgium.be/en/showroom/borealis-data-center-campus-in-kajaani-delivered-in-record-time-with-swecos-project-management-expertise/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "The Borealis Data Center campus in Kajaani, Finland, engineered by Sweco Finland, was delivered in 2025 in about seven months; Sweco describes it as the first colocation data centre in Finland to use direct liquid cooling at full megawatt scale site-wide.",
+          "source": "https://www.swecobelgium.be/en/showroom/borealis-data-center-campus-in-kajaani-delivered-in-record-time-with-swecos-project-management-expertise/"
+        },
+        {
+          "year": "2025",
+          "text": "Waste heat from the Sweco-engineered Borealis Kajaani campus can be recovered into Kajaani's district heating network, covering roughly 10% of the city's local heating demand.",
+          "source": "https://www.swecobelgium.be/en/showroom/borealis-data-center-campus-in-kajaani-delivered-in-record-time-with-swecos-project-management-expertise/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Sweco's role in liquid-cooled data centres?",
+          "a": "Sweco Finland was project manager and designer (electrical, HVAC and cooling, structural, architectural, fire safety) for the Borealis Data Center campus in Kajaani, delivered in 2025 in about seven months."
+        },
+        {
+          "q": "How does the Kajaani campus reuse heat?",
+          "a": "Waste heat from the campus can be recovered into Kajaani's district heating network, covering roughly 10% of the city's local heating demand."
+        },
+        {
+          "q": "Where is Sweco headquartered and how large is it?",
+          "a": "Sweco is headquartered at Gjorwellsgatan 22, Stockholm, Sweden, and has about 23,000 architects, engineers and other experts. Its shares are listed on Nasdaq Stockholm."
+        }
+      ]
+    },
+    {
+      "slug": "toffeex",
+      "name": "ToffeeX",
+      "segments": [
+        "software"
+      ],
+      "tagline": "Physics-based generative design software for thermo-fluid engineering, spun out of Imperial College London and based in London. It grows GPU/CPU cold plate, manifold and heat-exchanger geometries from governing physics and chip power/heat maps rather than training data, with manufacturing constraints built in.",
+      "hq": "London, United Kingdom",
+      "founded": 2019,
+      "ownership": "Private company and Imperial College London spinout; its 2020 seed round was led by IQ Capital",
+      "website": "https://toffeex.com/",
+      "productLines": [
+        {
+          "name": "Generative cold plate and manifold design",
+          "note": "Designs GPU/CPU cold plates, direct-to-chip cooling, rack cooling and distribution manifolds for AI workloads; fins and channels are generated from the chip's power/heat map and coolant limits with flow and heat solved at every step. A customer pilot reported 12%+ better cooling than a skived-fin GPU cold plate.",
+          "source": "https://toffeex.com/industries/ai-data-center/"
+        },
+        {
+          "name": "Simulated performance benchmarking",
+          "note": "Published simulated comparisons versus skived fins include one-third the pressure drop for the same 61 C peak (1.0 m/s vs 0.3 m/s) and roughly 10% lower pressure drop versus 80 um skived fins with improved heat transfer.",
+          "source": "https://toffeex.com/industries/ai-data-center/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "ToffeeX announced a partnership with Excel3D (23 January 2026) to advance physics-driven generative design in India, extending the reach of its software for thermo-fluid component design.",
+          "source": "https://toffeex.com/news/"
+        },
+        {
+          "year": "2025",
+          "text": "ToffeeX announced a strategic partnership with CAD-IT Korea (14 January 2025) to accelerate adoption of its physics-driven generative design software in South Korea.",
+          "source": "https://toffeex.com/news/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does ToffeeX design for liquid cooling?",
+          "a": "Its software generates GPU/CPU cold plates, direct-to-chip cooling, rack cooling and distribution manifolds, growing fins and channels from the chip's power and heat maps with coolant limits, flow and heat solved at every step."
+        },
+        {
+          "q": "How is ToffeeX's approach different?",
+          "a": "It is physics-driven generative design: geometries come from governing physics with manufacturing constraints built in, not from training data. The company is a spinout of Imperial College London based in London."
+        },
+        {
+          "q": "What performance results has ToffeeX published?",
+          "a": "A customer pilot reported 12%+ better cooling versus a skived-fin GPU cold plate; simulated comparisons include one-third the pressure drop for the same 61 C peak versus 100 um skived fins."
+        }
+      ]
+    },
+    {
+      "slug": "sunbird-software",
+      "name": "Sunbird Software",
+      "segments": [
+        "software"
+      ],
+      "tagline": "Vendor of the dcTrack data center infrastructure management (DCIM) software. For liquid-cooled facilities dcTrack offers CDU modeling and telemetry, manifold modeling and liquid port tracking, alongside monitoring the company says covers over 10 billion data points a day.",
+      "hq": "Piscataway, New Jersey, United States",
+      "founded": 2015,
+      "ownership": "Owner not stated on sunbirddcim.com; an independent company since Legrand's 2015 purchase of Raritan's hardware businesses",
+      "website": "https://www.sunbirddcim.com/",
+      "productLines": [
+        {
+          "name": "dcTrack DCIM with liquid cooling tracking",
+          "note": "CDU modeling and telemetry with manifold modeling and liquid port tracking for liquid-cooled racks, within a DCIM suite the company says monitors over 10 billion data points a day across power and environmental sensors.",
+          "source": "https://www.sunbirddcim.com/"
+        },
+        {
+          "name": "Liquid cooling knowledge base and glossary",
+          "note": "Educational content covering direct-to-chip, immersion and rear-door liquid cooling, CDU/manifold operation, coolant challenges (leaks, retrofit, disposal) and reference glossary definitions for liquid cooling infrastructure.",
+          "source": "https://www.sunbirddcim.com/blog/data-center-liquid-cooling-101/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Sunbird released dcTrack 9.3.5 on 6 July 2026, a release whose feature list includes tracking and modeling of liquid cooling infrastructure in the DCIM platform.",
+          "source": "https://www.sunbirddcim.com/blog/now-available-dctrack-9-3-5/"
+        },
+        {
+          "year": "2024",
+          "text": "Sunbird published its liquid cooling 101 guide (12 January 2024) covering direct-to-chip, immersion and rear-door liquid cooling, components such as coolants, heat exchangers and pumps, and challenges including leaks, retrofit complexity and coolant disposal.",
+          "source": "https://www.sunbirddcim.com/blog/data-center-liquid-cooling-101/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Sunbird's DCIM support liquid cooling?",
+          "a": "dcTrack provides CDU modeling and telemetry, manifold modeling and liquid port tracking, and the company says its monitoring handles over 10 billion data points a day from power and environmental sensors."
+        },
+        {
+          "q": "What was added in dcTrack 9.3.5?",
+          "a": "Released 6 July 2026, dcTrack 9.3.5 includes tracking and modeling of liquid cooling infrastructure among its features."
+        },
+        {
+          "q": "Where is Sunbird Software located?",
+          "a": "The company's About page lists its address as 30 Knightsbridge Road, Suite 620, Piscataway, NJ 08854, USA."
+        }
+      ]
+    },
+    {
+      "slug": "southland-industries",
+      "name": "Southland Industries",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "US MEP engineering and construction firm founded in 1949 with over 40 GW of data center capacity constructed, spanning advanced liquid cooling strategies for AI facilities: proprietary liquid-cooled rack designs for two 6 MW data vaults in Hillsboro, Oregon and a 24 MW waterless-cooled facility in Irving, Texas.",
+      "hq": "Garden Grove, California, United States",
+      "founded": 1949,
+      "ownership": "No parent stated; its history page records a 2019 shift to a C corporation to expand employee ownership",
+      "website": "https://southlandind.com/",
+      "productLines": [
+        {
+          "name": "Data center MEPF engineering with liquid cooling",
+          "note": "Scalable MEPF design including airflow modeling, heat load analysis and advanced liquid cooling strategies, with direct-to-chip liquid cooling cited for AI facilities; the firm lists over 40 GW of capacity constructed.",
+          "source": "https://southlandind.com/expertise/markets/data-centers"
+        },
+        {
+          "name": "Proprietary liquid-cooled racks and modular pipe racks",
+          "note": "Proprietary liquid-cooled rack designs supporting two 6-megawatt data vaults for a confidential client in Hillsboro, Oregon, using modular secondary pipe rack assemblies engineered for repeatable fabrication, with production spread across five shops nationwide.",
+          "source": "https://southlandind.com/article/hyperscale-data-center-construction-supporting-ai-infrastructure"
+        },
+        {
+          "name": "Prefabrication, modular construction and energy optimization",
+          "note": "BIM/VDC-driven fabrication, prefabrication and modular construction, plus power, cooling and water optimization modeling for both air-cooled and liquid-cooled data centers.",
+          "source": "https://southlandind.com/expertise/markets/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Southland reported (31 July 2026) that as design-build partner for a confidential client in Hillsboro, Oregon it engineered and delivered proprietary liquid-cooled rack designs supporting two 6-megawatt data vaults, with modular secondary pipe rack assemblies produced across five shops nationwide.",
+          "source": "https://southlandind.com/article/hyperscale-data-center-construction-supporting-ai-infrastructure"
+        },
+        {
+          "year": "2025",
+          "text": "Southland completed work in January 2025 on the 24 MW Edged data center in Irving, Texas, whose ThermalWorks waterless cooling system supports densities up to 200 kW per rack with plug-and-play liquid cooling.",
+          "source": "https://southlandind.com/project/edged-data-center"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling systems has Southland delivered?",
+          "a": "In Hillsboro, Oregon it delivered proprietary liquid-cooled rack designs supporting two 6-megawatt data vaults, and it completed work on the 24 MW Edged Irving, Texas facility whose ThermalWorks waterless cooling supports up to 200 kW per rack with plug-and-play liquid cooling."
+        },
+        {
+          "q": "What services does Southland provide for liquid-cooled data centers?",
+          "a": "MEPF design with airflow modeling, heat load analysis and advanced liquid cooling strategies including direct-to-chip for AI facilities, plus prefabrication, modular construction, and power, cooling and water optimization modeling for air- and liquid-cooled sites."
+        },
+        {
+          "q": "How much data center capacity has Southland built?",
+          "a": "The firm states it has constructed over 40 GW of capacity, and it was founded in 1949, celebrating 75 years in 2024."
+        }
+      ]
+    },
+    {
+      "slug": "world-wide-technology",
+      "name": "World Wide Technology",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "St. Louis-based technology solutions integrator founded in 1990 with more than 14,000 employees. WWT tests liquid cooling in its Advanced Technology Center labs - experiments with two-phase direct-to-chip cooling cut CPU temperatures from 90 C to 70 C versus air cooling - and advises clients on AI-era water efficiency.",
+      "hq": "St. Louis, Missouri, United States",
+      "founded": 1990,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.wwt.com/",
+      "productLines": [
+        {
+          "name": "Advanced Technology Center liquid cooling validation",
+          "note": "Tests cooling and other solutions in its ATC lab ecosystem; published experiments with two-phase direct-to-chip liquid cooling (ZutaCore cited as an example) in which CPU temperatures dropped from 90 C to 70 C compared with air cooling, addressing devices exceeding 500 W TDP.",
+          "source": "https://www.wwt.com/wwt-research/how-to-beat-the-heat-innovative-solutions-for-data-center-efficiency-and-sustainability"
+        },
+        {
+          "name": "Sustainable IT and data center consulting",
+          "note": "Sustainable IT Briefing service assessing current state, mapping systems and identifying workloads and optimization areas, alongside published research on water-efficient cooling choices for AI data centers.",
+          "source": "https://www.wwt.com/wwt-research/how-to-beat-the-heat-innovative-solutions-for-data-center-efficiency-and-sustainability"
+        },
+        {
+          "name": "AI water-efficiency research",
+          "note": "October 2025 research on data center water use covering direct-to-chip cold plates, single- and dual-phase immersion and closed-coupled cooling as levers to reduce water consumption in AI infrastructure.",
+          "source": "https://www.wwt.com/blog/the-overlooked-water-challenge-in-the-age-of-ai"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "WWT published research (21 October 2025) on the water challenge of AI infrastructure, covering direct-to-chip, immersion and closed-coupled cooling as water-reduction levers and noting data center water use in Virginia's Data Center Alley rose nearly 66% from 2019 to 2023.",
+          "source": "https://www.wwt.com/blog/the-overlooked-water-challenge-in-the-age-of-ai"
+        },
+        {
+          "year": "2023",
+          "text": "WWT Research (22 September 2023) documented Advanced Technology Center experiments with two-phase direct-to-chip liquid cooling - citing ZutaCore's liquid-to-vapor approach - in which CPU temperatures dropped from 90 C to 70 C compared with air cooling.",
+          "source": "https://www.wwt.com/wwt-research/how-to-beat-the-heat-innovative-solutions-for-data-center-efficiency-and-sustainability"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling work does WWT perform?",
+          "a": "WWT tests liquid cooling in its Advanced Technology Center labs; its experiments with two-phase direct-to-chip cooling, citing ZutaCore as an example, dropped CPU temperatures from 90 C to 70 C compared with air cooling."
+        },
+        {
+          "q": "Does WWT advise on data center water use?",
+          "a": "Yes. Its October 2025 research covers direct-to-chip, immersion and closed-coupled cooling as water-reduction options, and notes Data Center Alley water use rose nearly 66% from 2019 to 2023."
+        },
+        {
+          "q": "How large is WWT and where is it based?",
+          "a": "WWT is headquartered in St. Louis and reports more than 14,000 employees and more than 35 years of experience."
+        }
+      ]
+    },
+    {
+      "slug": "valicor",
+      "name": "Valicor",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "US environmental services company (founded 1982, headquartered in Monroe, Ohio, owned by Pritzker Private Capital) that collects, transports, treats and disposes of the liquid waste liquid-cooled data centers generate: commissioning flushwater, glycol fluids, hydrotest water and chemical cleaning wastewater.",
+      "hq": "Monroe, United States",
+      "founded": 1982,
+      "ownership": "Subsidiary of Pritzker Private Capital (acquired 2019)",
+      "website": "https://www.valicor.com/",
+      "productLines": [
+        {
+          "name": "Data center commissioning flushwater services",
+          "note": "Bulk tanker transport and wastewater treatment for mechanical, chilled-water and closed-loop flushwater containing sediment, pipe scale, rust, oils and suspended solids, with phased or scheduled hauling aligned to commissioning timelines.",
+          "source": "https://www.valicor.com/data-center-commissioning-flushwater"
+        },
+        {
+          "name": "Glycol and chiller loop waste management",
+          "note": "Handles propylene and ethylene glycol wastewater, dilute flushwater, concentrated drain-downs, off-spec cooling fluid and rinse water containing glycol or inhibitors, plus ongoing post-commissioning service such as glycol replacement and blowdown.",
+          "source": "https://www.valicor.com/data-center-commissioning-flushwater"
+        },
+        {
+          "name": "Hydrotest and chemical cleaning wastewater",
+          "note": "Evaluation, transport and treatment of hydrotest/pressure-test water when onsite discharge is not suitable, and profiling of chemical cleaning streams containing detergents, corrosion inhibitors, passivation chemicals, biocides and metals.",
+          "source": "https://www.valicor.com/data-center-commissioning-flushwater"
+        },
+        {
+          "name": "Emergency and high-volume wastewater response",
+          "note": "Nationwide data center support including vacuum trucks, high-volume hauling, multi-truck projects, overflow and stormwater response, and after-hours service, backed by a fleet of 250+ trucks across 30+ locations in 16 states.",
+          "source": "https://www.valicor.com/datacenters"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "As documented on its 2025-26 data center services pages, Valicor operates a nationwide liquid-waste program for liquid-cooled data centers spanning cooling water, glycol and chiller loop waste, commissioning flushwater, hydrotest water, chemical cleaning wastewater and cooling tower blowdown.",
+          "source": "https://www.valicor.com/datacenters"
+        },
+        {
+          "year": "2026",
+          "text": "On 24 March 2026 Valicor announced the acquisition of the Pittsburgh-area wastewater treatment and industrial oil operations of Petromax LTD, expanding its network to 32 facilities across 16 states.",
+          "source": "https://www.valicor.com/news/valicor-pennsylvania-wastewater-treatment-acquisition"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Valicor do for liquid-cooled data centers?",
+          "a": "It collects, transports, treats and disposes of commissioning flushwater, propylene and ethylene glycol fluids, hydrotest water and chemical cleaning wastewater, with hauling phased to commissioning schedules plus ongoing glycol replacement and blowdown service."
+        },
+        {
+          "q": "How large is Valicor's operation?",
+          "a": "The company states it has 30+ locations in 16 states, a 250+ truck fleet, and recycles 300+ million gallons of wastewater per year."
+        },
+        {
+          "q": "Who owns Valicor and when was it founded?",
+          "a": "Valicor was founded in 1982 and acquired by Pritzker Private Capital in 2019; its corporate offices are in Monroe, Ohio, USA."
+        }
+      ]
+    },
+    {
+      "slug": "stockholm-exergi",
+      "name": "Stockholm Exergi",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "Stockholm district heating utility that buys waste heat from data centers: through Open District Heating and Stockholm Data Parks, data halls are cooled with heat pumps so excess heat feeds the roughly 3,000 km district heating network - currently heating 11,000 apartments with recovered excess heat.",
+      "hq": "Stockholm, Sweden",
+      "founded": "NOT_FOUND",
+      "ownership": "Stockholm Exergi Holding AB is owned 50/50 by Stockholms Stadshus AB (City of Stockholm) and Ankhiale Bidco AB",
+      "website": "https://www.stockholmexergi.se/",
+      "productLines": [
+        {
+          "name": "Open District Heating",
+          "note": "Heat-recovery marketplace in which Stockholm Exergi buys excess heat from data centers, supermarkets and industry; data halls are cooled with one or more heat pumps so the heat can be fed into the district heating network instead of being rejected via cooling towers. The utility reports currently heating 11,000 apartments with excess heat.",
+          "source": "https://www.stockholmexergi.se/en/heat-recovery/"
+        },
+        {
+          "name": "Stockholm Data Parks",
+          "note": "Program launched in January 2017 together with the City of Stockholm, Stokab and Ellevio to attract large-scale data centers whose recovered heat supplies the network; supports the goal of 100% renewable or recovered district heating energy by 2030.",
+          "source": "https://www.stockholmexergi.se/en/heat-recovery/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2017",
+          "text": "Stockholm Data Parks was launched in January 2017 by Stockholm Exergi together with the City of Stockholm, Stokab and Ellevio to attract large-scale data centers and recover their heat into the district heating network.",
+          "source": "https://www.stockholmexergi.se/en/heat-recovery/"
+        },
+        {
+          "year": "2026",
+          "text": "In a 7 April 2026 post, Digital Realty stated that its Stockholm data center campus has been connected to the Open District Heating network since 2015, that a heat-pump investment in its STO6 data center improves the yield of reusing excess heat, and that more than 30 data centers are collaborating in the scheme.",
+          "source": "https://www.digitalrealty.com/resources/blog/open-district-heating"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Stockholm Exergi use data center heat?",
+          "a": "Through Open District Heating, data halls are cooled with one or more heat pumps so excess heat feeds the district heating network; the utility reports currently heating 11,000 apartments with recovered excess heat."
+        },
+        {
+          "q": "What is Stockholm Data Parks?",
+          "a": "A program launched in January 2017 with the City of Stockholm, Stokab and Ellevio to attract large-scale data centers whose recovered heat supplies Stockholm's district heating."
+        },
+        {
+          "q": "Who owns Stockholm Exergi?",
+          "a": "The company states it is owned by the City of Stockholm and Ankhiale, and provides heat to over 800,000 Stockholmers across roughly 3,000 km of district heating pipes."
+        }
+      ]
+    },
+    {
+      "slug": "sudlows",
+      "name": "Sudlows",
+      "segments": [
+        "solutions",
+        "integrators"
+      ],
+      "tagline": "UK data centre design and build firm founded in 2014 and headquartered in Manchester, with over 100 data centre projects across 20 countries; delivery partner for NTT's first production liquid immersion and direct contact liquid cooling deployment in India. Kent plc acquired Sudlows Consulting in February 2025.",
+      "hq": "Manchester, United Kingdom",
+      "founded": 2014,
+      "ownership": "Kent plc acquired Sudlows Consulting on 25 February 2025 and presents its heritage under the Kent Data Centres brand",
+      "website": "https://www.sudlows.com/",
+      "productLines": [
+        {
+          "name": "Data centre design and build",
+          "note": "Data centre audit, design and build, testing and commissioning, and maintenance; Kent lists full in-house MEP and CSA design, 3D modelling, BIM and CFD, and Tier design expertise for its data centre business.",
+          "source": "https://kentplc.com/data-centres"
+        },
+        {
+          "name": "Liquid cooling deployment engineering",
+          "note": "Design and engineering partner (alongside Dell and client PhonePe) for NTT's conversion of a conventionally cooled facility at Navi Mumbai to liquid immersion cooling (LIC) and direct contact liquid cooling (DCLC).",
+          "source": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
+        },
+        {
+          "name": "Sustainability and commissioning services",
+          "note": "Commissioning authority and management, performance analytics and lifecycle benchmarking; listed sustainability capabilities include water-free operation and LEED Silver and Gold certified projects.",
+          "source": "https://kentplc.com/data-centres"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Kent plc announced on 25 February 2025 that it had completed the acquisition of Sudlows Consulting, entering the data centre engineering market; its release describes the firm as established in 2014 with over 100 data centre projects across 20 countries.",
+          "source": "https://kentplc.com/news-insights/kent-completes-acquisition-of-sudlows-consulting-expanding-into-high-growth-data-centre-engineering-market"
+        },
+        {
+          "year": "2023",
+          "text": "NTT announced (25 January 2023) the first production deployment of liquid immersion cooling and direct contact liquid cooling in India at its Navi Mumbai data center, a 4.8 MW facility on the Mahape campus planned to reach up to 150 MW of IT load, with Sudlows among the delivery partners alongside Dell and client PhonePe; the technologies are up to 30% more energy efficient than conventional cooling.",
+          "source": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Sudlows' liquid cooling track record?",
+          "a": "Sudlows was a design and engineering partner for NTT's Navi Mumbai deployment of liquid immersion cooling and direct contact liquid cooling, announced 25 January 2023 as the first production deployment of these technologies in India and up to 30% more energy efficient than conventional cooling."
+        },
+        {
+          "q": "Who owns Sudlows today?",
+          "a": "Kent plc completed its acquisition of Sudlows Consulting on 25 February 2025 and presents the consultancy's heritage under its Kent Data Centres brand; the release describes the firm as established in 2014 with over 100 data centre projects across 20 countries."
+        },
+        {
+          "q": "What services does the company provide?",
+          "a": "Data centre audit, design and build, testing and commissioning, and maintenance, with full in-house MEP and CSA design, 3D modelling, BIM and CFD, Tier design expertise, and commissioning management and performance analytics."
+        },
+        {
+          "q": "Where is the company headquartered?",
+          "a": "The head office is Ducie Works, 107 Hulme Hall Lane, Manchester, M40 8HH, United Kingdom."
+        }
+      ]
     }
   ]
 }
