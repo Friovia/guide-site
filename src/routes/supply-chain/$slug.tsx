@@ -15,9 +15,13 @@ const SEGMENT_RELATED: Record<string, { path: string; label: string }[]> = {
   'micro-dc': [{ path: '/what-is-a-micro-data-center', label: 'What is a micro data center?' }, { path: '/cabinet-comparison', label: 'Cabinet comparison' }],
   'integrators': [{ path: '/rfq-scope-checklist', label: 'RFQ scope checklist' }, { path: '/site-survey', label: 'Site survey' }],
   'solutions': [{ path: '/room-load-calculation', label: 'Room load calculation' }],
+  'software': [{ path: '/engineering', label: 'Engineering hub' }, { path: '/pressure-drop', label: 'Pressure drop' }],
+  'heat-reuse': [{ path: '/heat-capture-split', label: 'Heat capture split' }],
   'testing': [{ path: '/liquid-cooling-standards', label: 'Standards' }],
   'standards': [{ path: '/liquid-cooling-standards', label: 'Standards' }, { path: '/ss726-liquid-cooling-standard', label: 'SS 726' }],
 }
+
+const ALONGSIDE_MAX = 12
 
 export const Route = createFileRoute('/supply-chain/$slug')({
   loader: ({ params }) => {
@@ -136,12 +140,17 @@ function VendorProfilePage({ profile: p }: { profile: VendorProfile }) {
       )}
 
       <h2>Where it sits in the chain</h2>
-      {segmentBlocks.map(({ id, seg }) => (
-        <div key={id} style={{ maxWidth: '680px', marginBottom: '12px' }}>
-          <b><a href={`/supply-chain#${id}`}>{seg!.label}</a></b>{' '}
-          <span className="src">— alongside {seg!.companies.filter(c => c.name !== p.name).map(c => c.name).join(', ')}</span>
-        </div>
-      ))}
+      {segmentBlocks.map(({ id, seg }) => {
+        // Long segments list their headliners here and point to the table for the rest.
+        const others = seg!.companies.filter(c => c.name !== p.name).map(c => c.name)
+        return (
+          <div key={id} style={{ maxWidth: '680px', marginBottom: '12px' }}>
+            <b><a href={`/supply-chain#${id}`}>{seg!.label}</a></b>{' '}
+            <span className="src">— alongside {others.slice(0, ALONGSIDE_MAX).join(', ')}
+              {others.length > ALONGSIDE_MAX && <> and {others.length - ALONGSIDE_MAX} more (full list in the segment table)</>}</span>
+          </div>
+        )
+      })}
 
       <h2>Related</h2>
       <p>

@@ -1,6 +1,6 @@
 {
   "note": "Per-vendor profile pages under /supply-chain/<slug>. Facts policy: every claim carries a source URL; fields we cannot source are omitted — never invented. Rendering: src/routes/supply-chain/$slug.tsx joins this file's segments ids back to data/vendors.json (the directory layer stays the single source for segment membership). Prerender URL truth derives from the slugs here (vite.config.ts + scripts/check-nav.mjs). Adding a profile = one object here + the company must already have a row in vendors.json.",
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "profiles": [
     {
       "slug": "nvidia",
@@ -1419,7 +1419,7 @@
       "tagline": "Immersion cooling pioneer — two-phase and single-phase DataTanks plus direct-to-chip CDUs for AI-scale heat loads.",
       "hq": "Carrollton, Texas, USA",
       "founded": 2012,
-      "ownership": "Trane Technologies announced its acquisition on 2026-02-10 (following a 2023 minority investment); expected to close in early 2026, closing not yet confirmed",
+      "ownership": "Subsidiary of Trane Technologies (NYSE: TT) — acquisition announced 2026-02-10, completed 2026-03-03 (after a 2023 minority investment)",
       "website": "https://liquidstack.com",
       "productLines": [
         {
@@ -1446,8 +1446,8 @@
       "facts": [
         {
           "year": "2026",
-          "text": "Trane Technologies announced it will acquire LiquidStack (Feb 10, 2026), placing it in Trane's Commercial HVAC Americas business; CEO Joe Capes continues to lead. Closing expected early 2026, not yet confirmed",
-          "source": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-to-Acquire-LiquidStack-to-Accelerate-EndtoEnd-Data-Center-Thermal-Management-Solutions/default.aspx"
+          "text": "Trane Technologies completed its acquisition of LiquidStack on March 3, 2026 (announced February 10, 2026), placing it in Trane’s Commercial HVAC Americas business; the deal includes LiquidStack’s manufacturing, engineering and R&D operations in Carrollton, Texas and Hong Kong",
+          "source": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Completes-Acquisition-of-LiquidStack/default.aspx"
         },
         {
           "year": "2023",
@@ -1468,7 +1468,7 @@
         },
         {
           "q": "Who owns LiquidStack?",
-          "a": "Trane Technologies announced on 2026-02-10 that it will acquire LiquidStack, after a 2023 minority investment; the deal was expected to close in early 2026 and no closing announcement had been published when this profile was last reviewed. Verify current ownership before contracting."
+          "a": "Trane Technologies completed its acquisition of LiquidStack on March 3, 2026, following a 2023 minority investment. LiquidStack sits in Trane’s Commercial HVAC Americas business, with manufacturing, engineering and R&D in Carrollton, Texas and Hong Kong."
         }
       ]
     },
@@ -1930,6 +1930,465 @@
         {
           "q": "Did Sugon DataEnergy write China's liquid cooling standard?",
           "a": "It was chief drafting unit of GB/T 48023-2026 — China's first national standard for cold-plate liquid cooling systems in data centers, released July 2026 and effective February 1, 2027."
+        }
+      ]
+    },
+    {
+      "slug": "inventec",
+      "name": "Inventec",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Taiwanese electronics manufacturer (founded 1975, Taipei) whose data center solutions group builds NVIDIA MGX server and rack systems; its Artemis liquid-cooled rack line supports GB200/GB300 NVL72 and Vera Rubin NVL72 building blocks with rack-mounted, sidecar and row-based CDU cooling.",
+      "hq": "Taipei, Taiwan",
+      "founded": 1975,
+      "ownership": "TWSE: 2356",
+      "website": "https://www.inventec.com/",
+      "productLines": [
+        {
+          "name": "Artemis Rack (NVIDIA GB200 NVL72)",
+          "note": "48RU-class MGX rack rated max 125 kW for GB200 NVL72 building blocks; cooling options span rack-mounted, sidecar and row-based liquid cooling with an Inventec self-developed rack-mounted CDU, leakage detection and blind-mate NVLink cable cartridge and manifold.",
+          "source": "https://ebg.inventec.com/en/product/Rack"
+        },
+        {
+          "name": "Artemis II Rack (NVIDIA GB300 NVL72)",
+          "note": "Rack rated max 136 kW for GB300 NVL72 building blocks; supports sidecar and row-based liquid cooling with leakage detection and blind-mate NVLink cable cartridge and manifold design.",
+          "source": "https://ebg.inventec.com/en/product/Rack"
+        },
+        {
+          "name": "Artemis III Rack (NVIDIA Vera Rubin NVL72)",
+          "note": "48RU NVIDIA MGX rack with 228 kW TDP for Vera Rubin NVL72 building blocks; 100% liquid-cooled compute and switch tray solution, sidecar/row-based cooling, 5000 A+ power busbar and a 3RU 19-inch 110 kW power shelf built from 6x 18.3 kW PSUs.",
+          "source": "https://ebg.inventec.com/en/product/Rack"
+        },
+        {
+          "name": "Liquid-cooled AI servers",
+          "note": "P9000G7 and P5800G7 servers based on NVIDIA HGX B300 with both air and liquid cooling options, and the liquid-cooled P600G7 accelerated by NVIDIA RTX PRO 6000 Blackwell Server Edition GPU, shown in the May 2026 press release.",
+          "source": "https://ebg.inventec.com/en/news/Press%20Release/2026/119"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Showcased the Artemis III rack for NVIDIA Vera Rubin NVL72, liquid-cooled Intel Xeon 6 servers and a containerized data center solution at SC26 in a November 4, 2026 release.",
+          "source": "https://ebg.inventec.com/en/news/Press%20Release/2026/126"
+        },
+        {
+          "year": "2026",
+          "text": "Stated in its May 26, 2026 release that the Artemis III rack powered by NVIDIA Vera Rubin NVL72 is in full production, ahead of COMPUTEX 2026 (June 2-5, Nangang Exhibition Center Hall 2).",
+          "source": "https://ebg.inventec.com/en/news/Press%20Release/2026/119"
+        },
+        {
+          "year": "2026",
+          "text": "Unveiled the Artemis III rack with 72 Rubin GPUs and 36 Vera CPUs at NVIDIA GTC 2026 in a March 10, 2026 release, alongside HGX B300 and HGX Rubin NVL8 servers.",
+          "source": "https://ebg.inventec.com/en/news/Press%20Release/2026/117"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which liquid-cooled racks does Inventec offer?",
+          "a": "Three NVIDIA MGX racks: Artemis rated max 125 kW for GB200 NVL72 with rack-mounted, sidecar and row-based cooling; Artemis II rated max 136 kW for GB300 NVL72; and Artemis III with 228 kW TDP for Vera Rubin NVL72, all with leakage detection and blind-mate manifolds."
+        },
+        {
+          "q": "What is special about the Artemis III cooling design?",
+          "a": "Artemis III uses a 100% liquid cooling compute and switch tray solution served by sidecar or row-based cooling, with a blind-mate manifold, 5000 A+ current-rated power busbar and a 3RU 19-inch 110 kW power shelf made of 6x 18.3 kW PSUs."
+        },
+        {
+          "q": "Does Inventec sell liquid-cooled servers too?",
+          "a": "Yes. Its 2026 releases list P9000G7 and P5800G7 servers based on NVIDIA HGX B300 with air and liquid cooling options, the liquid-cooled P600G7 with NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, and liquid-cooled Intel Xeon 6 servers shown at SC26."
+        },
+        {
+          "q": "Who is Inventec?",
+          "a": "Inventec was established in 1975 with its Taiwan headquarters in Shilin District, Taipei, and trades on the Taiwan Stock Exchange under stock code 2356; its data center solutions group covers servers, storage, racks, accessories and cooling."
+        }
+      ]
+    },
+    {
+      "slug": "advantech",
+      "name": "Advantech",
+      "segments": [
+        "servers",
+        "integrators"
+      ],
+      "tagline": "Advantech is a Taiwanese industrial computing and IoT platform maker (TWSE: 2395). For data centers it builds the SKYRack family of integrated rack solutions that combine compute and GPU nodes with networking and air-cooling or liquid-cooling options, including CDU-integrated configurations.",
+      "hq": "Taipei, Taiwan",
+      "founded": 1983,
+      "ownership": "TWSE: 2395",
+      "website": "https://www.advantech.com/",
+      "productLines": [
+        {
+          "name": "SKYRack AI",
+          "note": "Integrated rack solution for AI training, inference and simulation, combining Intel Xeon and AMD EPYC servers, 2U/4U GPU servers based on NVIDIA MGX architecture, networking, and air-cooling or liquid-cooling options.",
+          "source": "https://www.advantech.com.cn/en-us/resources/news/advantech-showcases-skyrack-semi--skyrack-ai-at-computex-to-accelerate-enterprise-ai-deployment-with-high-perf-computing-and-integrated-architecture"
+        },
+        {
+          "name": "SKYRack SEMI",
+          "note": "Rack-level solution integrating computing nodes, GPU nodes, networking and a cooling distribution unit (CDU); certified to SEMI S2 standards and configurable as a half rack or full rack for site-specific cooling and computing requirements.",
+          "source": "https://www.advantech.com.cn/en-us/resources/news/advantech-showcases-skyrack-semi--skyrack-ai-at-computex-to-accelerate-enterprise-ai-deployment-with-high-perf-computing-and-integrated-architecture"
+        },
+        {
+          "name": "Direct-to-chip integration and monitoring",
+          "note": "Direct-to-chip cooling integrated into industrial computing platforms with thermal partner KEMMEC; the company says it is developing integrated monitoring combining wireless sensing with thermal management for liquid-cooling reliability and predictive maintenance.",
+          "source": "https://www.advantech.com.cn/en-us/resources/industry-focus/introduction-to-liquid-cooling-technology"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "At COMPUTEX 2026 (booth K0603a, Nangang Exhibition Center, Taipei) Advantech showcased SKYRack SEMI, a rack-level solution integrating a cooling distribution unit (CDU), alongside SKYRack AI rack solutions for enterprise AI deployment.",
+          "source": "https://www.advantech.com.cn/en-us/resources/news/advantech-showcases-skyrack-semi--skyrack-ai-at-computex-to-accelerate-enterprise-ai-deployment-with-high-perf-computing-and-integrated-architecture"
+        },
+        {
+          "year": "2025",
+          "text": "An Advantech industry-focus article published October 28, 2025 positions SKYRack as integrated liquid-cooling infrastructure for high-density enterprise deployments, describing rack densities moving from approximately 20 kW air-cooled racks toward 50 kW and beyond, with direct-to-chip cooling integrated through partner KEMMEC.",
+          "source": "https://www.advantech.com.cn/en-us/resources/industry-focus/introduction-to-liquid-cooling-technology"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Advantech SKYRack?",
+          "a": "SKYRack is Advantech's family of integrated rack solutions. SKYRack AI targets AI training, inference and simulation with air-cooling or liquid-cooling options and supports NVIDIA MGX-based 2U/4U GPU servers; SKYRack SEMI integrates a cooling distribution unit (CDU) and is certified to SEMI S2 standards."
+        },
+        {
+          "q": "Does Advantech build its own liquid cooling hardware?",
+          "a": "The company states it integrates advanced cooling technologies, including direct-to-chip cooling, into its industrial computing platforms through partnerships with thermal solution providers such as KEMMEC. It also says it is developing integrated monitoring solutions for liquid-cooling system reliability and predictive maintenance."
+        },
+        {
+          "q": "What rack densities does Advantech target?",
+          "a": "In its 2025 liquid-cooling overview Advantech describes traditional air-cooled racks at approximately 20 kW and next-generation AI, HPC and hyperscale deployments at 50 kW and beyond, which is where its SKYRack liquid-cooling infrastructure is aimed."
+        },
+        {
+          "q": "Who owns Advantech and where is it based?",
+          "a": "Advantech is listed on the Taiwan Stock Exchange as TWSE: 2395. Its corporate press releases are datelined Taipei, Taiwan, and the company describes itself as a provider of IoT intelligent systems and embedded platforms."
+        }
+      ]
+    },
+    {
+      "slug": "immersekool",
+      "name": "IMMERSEKOOL",
+      "segments": [
+        "cold-plates",
+        "interconnects",
+        "immersion"
+      ],
+      "tagline": "Korean manufacturer of liquid cooling connection components and systems for AI data centers, EV and power electronics: cold plates, OCP ORV2/ORV3 rack manifolds, EPDM hose kits and quick coupling modules for single- and two-phase direct liquid cooling, plus immersion chambers and built-to-order in-rack and in-row CDUs.",
+      "hq": "Busan, South Korea",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.immersekool.com/",
+      "productLines": [
+        {
+          "name": "ORV3 DLC Manifolds",
+          "note": "Blind-mate manifolds to OCP Open Rack V3.0 for high-density AI racks such as NVIDIA GB200 systems; AISI 303 stainless, maximum operating pressure 50 psi (3.45 bar), 10-65 C operating range, 5 mm nominal flow, up to 9 L/min per port, 100% helium-leak tested; an HPR variant serves racks above 100 kW.",
+          "source": "https://www.immersekool.com/immersekool/products/index.php?lang=en&cat=manifold&id=IMK-MAN-002"
+        },
+        {
+          "name": "DLC Cold Plates",
+          "note": "Cold plates for NVIDIA H100 GPUs, Intel EGS and Birch Stream-AP (BHS-AP) platforms, AMD EPYC 9004/9005 series (SP5 socket), plus DIMM/memory plates, PSB (Power System Board) plates and custom IGBT plates; sold as kits with 3/8-inch EPDM hose and UQD04 couplings.",
+          "source": "https://www.immersekool.com/immersekool/products/index.php?lang=en&cat=cold_plate"
+        },
+        {
+          "name": "EPDM Hose Kits and Quick Couplings",
+          "note": "EPDM hose kits up to 1-inch and 4-inch diameters with SUS304 stainless crimp sleeves (IMK02-IMK12 series); OCP-series quick couplings including BMQC, LQC, UQD, UQDB and FD83 plus DN3/DN8 auto couplings; 2D drawings and STEP CAD models published for UQD hose barb couplings.",
+          "source": "https://www.immersekool.com/immersekool/products/index.php?lang=en&cat=manifold"
+        },
+        {
+          "name": "Immersion Chambers and CDUs",
+          "note": "Built-to-order immersion systems: single-phase immersion tanks with circulation and coolant distribution (CDU included) and two-phase immersion chambers with condenser and heat-exchanger structures; in-rack and in-row CDUs designed to customer rack and server configurations.",
+          "source": "https://www.immersekool.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Presented AI data center direct liquid cooling solutions and products at OCP Korea Tech Day 2026, held at COEX in Seoul on August 21, 2026.",
+          "source": "https://www.immersekool.com/"
+        },
+        {
+          "year": "2026",
+          "text": "Released 2D product drawings and 3D STEP CAD models of its OCP UQD hose barb coupling crimp sleeves for download on product pages to support customer design review.",
+          "source": "https://www.immersekool.com/"
+        },
+        {
+          "year": "2026",
+          "text": "Supplied its KLC TTV 2.0 thermal-performance verification solution for AI data center direct liquid cooling within Korea and exhibited at Data Center Korea 2026 at the aT Center (November 4-6, 2026).",
+          "source": "https://www.immersekool.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does IMMERSEKOOL supply for AI data center liquid cooling?",
+          "a": "The company designs and manufactures cold plates, OCP and custom rack manifolds, EPDM hose kits and quick coupling modules for single- and two-phase direct liquid cooling, plus single- and two-phase immersion chambers and built-to-order in-rack and in-row CDUs."
+        },
+        {
+          "q": "Which OCP rack interfaces does it support?",
+          "a": "Its manifolds comply with OCP Open Rack V3.0 using blind-mate quick disconnects (BMQC), with an HPR variant for racks above 100 kW such as NVIDIA GB200 systems; hose kits pair with UQD04 couplings, and ORV2 and ORV3 manifold variants are listed."
+        },
+        {
+          "q": "What are the published ratings of its ORV3 manifold?",
+          "a": "The IMK-MAN-002 ORV3 manifold is AISI 303 stainless steel, rated to 50 psi (3.45 bar) maximum operating pressure, 10-65 C operating temperature, 5 mm nominal flow diameter and up to 9 L/min maximum flow per port, with 100% helium-leak testing."
+        },
+        {
+          "q": "Does it serve markets outside data centers?",
+          "a": "Yes. The same component portfolio targets EV and power electronics cooling, including custom cold plates for IGBT modules, and its inquiry checklist asks for cooling group, heat load in kW, interface types and delivery country."
+        }
+      ]
+    },
+    {
+      "slug": "jonhon",
+      "name": "JONHON",
+      "segments": [
+        "interconnects",
+        "cold-plates",
+        "cdus"
+      ],
+      "tagline": "JONHON is a Luoyang-based maker of optical, electrical and fluid connection products, listed on the Shenzhen Stock Exchange (002179) and controlled by AVIC. Its 2025 annual report names a liquid cooling solutions segment covering UQD/UQDB quick disconnects, cold plates, cooling chassis and coolant source units for data centers.",
+      "hq": "Luoyang, China",
+      "founded": 2002,
+      "ownership": "SZSE: 002179; controlled by Aviation Industry Corporation of China (AVIC)",
+      "website": "https://www.jonhon.cn",
+      "productLines": [
+        {
+          "name": "UQD / UQDB quick disconnects",
+          "note": "Fluid connectors named in the 2025 annual report: high-reliability UQD and UQDB series quick disconnects for computing, enabling tool-free, spill-free connection of server cold plates and coolant loops in data-center liquid cooling systems.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+        },
+        {
+          "name": "Mini-QDB / XBMC micro quick disconnects",
+          "note": "Micro liquid-cooling quick disconnects for optical module cooling: Mini-QDB with maximum outer diameter 10.2 mm and XBMC with maximum outer diameter 9 mm, radial float of 0.5 mm, flow up to 0.9 L/min, dual seals rated for 1,500 mating cycles; sized for QSFP-DD, OSFP and XPO module formats.",
+          "source": "https://www.c-fol.net/m/news/view.php?id=20260811135732"
+        },
+        {
+          "name": "Cold plates, cooling chassis and coolant source units",
+          "note": "The 2025 annual report lists high-efficiency liquid cooling plates for computing, liquid cooling chassis, coolant source units and fluid transfer piping and assemblies; the company website describes data-center cooling systems supporting both cold-plate and immersion cooling.",
+          "source": "https://www.jonhon.cn/Business/Data.htm"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "JONHON is acknowledged among the companies that provided feedback on the OCP Universal Quick Disconnect (UQD) Specification v2.0.0, dated September 22, 2026. The specification defines design and test criteria for supplier-interchangeable hand-mate and blind-mate (UQDB) liquid-cooling quick disconnects.",
+          "source": "https://www.opencompute.org/documents/ocp-design-spec-uqd-v2-0-0-pdf"
+        },
+        {
+          "year": "2026",
+          "text": "JONHON introduced the Mini-QDB and XBMC micro liquid-cooling quick disconnect series for cooling inside optical modules, with maximum outer diameters of 10.2 mm and 9 mm, radial float of 0.5 mm, flow up to 0.9 L/min, and a dual-seal design rated for 1,500 mating cycles, targeting QSFP-DD, OSFP and XPO module formats.",
+          "source": "https://www.c-fol.net/m/news/view.php?id=20260811135732"
+        },
+        {
+          "year": "2025",
+          "text": "The 2025 annual report names a Liquid Cooling Solutions and Other Products segment listing UQD and UQDB series fluid connectors for computing, high-efficiency liquid cooling plates, liquid cooling chassis, coolant source units and fluid transfer piping, and records the creation of a dedicated liquid cooling business division.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+        }
+      ],
+      "ocp": "Acknowledged for feedback in the OCP Universal Quick Disconnect (UQD) Specification v2.0.0 dated September 22, 2026, alongside Dell, Intel, Amphenol, Staubli and Parker.",
+      "faq": [
+        {
+          "q": "What liquid cooling products does JONHON make for data centers?",
+          "a": "Its 2025 annual report lists a liquid cooling solutions segment with high-reliability UQD and UQDB series fluid connectors for computing, high-efficiency liquid cooling plates, liquid cooling chassis, coolant source units and fluid transfer piping and assemblies. The company website data center section describes a cooling system built from fluid connectors, cold plates, piping and coolant sources, supporting both cold-plate and immersion cooling."
+        },
+        {
+          "q": "Is JONHON involved in OCP liquid cooling standards?",
+          "a": "Yes. JONHON is listed among the companies acknowledged for feedback in the OCP Universal Quick Disconnect (UQD) Specification v2.0.0, dated September 22, 2026, which defines design and test criteria for interchangeable hand-mate and blind-mate (UQDB) quick disconnects used in data-center liquid cooling."
+        },
+        {
+          "q": "What are the Mini-QDB micro quick disconnects?",
+          "a": "Mini-QDB and XBMC are micro liquid-cooling quick disconnects for optical modules, introduced in August 2026. The Mini-QDB has a maximum outer diameter of 10.2 mm and the XBMC 9 mm, with radial float of 0.5 mm, flow up to 0.9 L/min and a dual-seal design rated for 1,500 mating cycles, sized for QSFP-DD, OSFP and XPO module formats."
+        },
+        {
+          "q": "Where is JONHON based and who controls it?",
+          "a": "JONHON is headquartered in Luoyang, Henan, China, and is listed on the Shenzhen Stock Exchange under code 002179. Its actual controller is Aviation Industry Corporation of China (AVIC), as stated in its 2025 annual report."
+        }
+      ]
+    },
+    {
+      "slug": "frd",
+      "name": "FRD",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "FRD (Shenzhen FRD Science & Technology, SZSE: 300602) is a Shenzhen-based maker of electromagnetic shielding and thermal management materials and devices, founded in 1993. Its thermal line spans liquid-cooling cold plates, heat pipes and vapor chambers",
+      "hq": "Shenzhen, China",
+      "founded": 1993,
+      "ownership": "SZSE: 300602",
+      "website": "https://www.frd.cn",
+      "productLines": [
+        {
+          "name": "Server liquid cooling cold plates",
+          "note": "Server liquid-cooling plates described in the 2025 annual report as eliminating cascading and increasing heat-exchange area for high-power chips, with single-point cold plates dissipating more than 800 W, used for liquid cooling of server and data-center compute chips with low energy consumption and low noise.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225544669.pdf"
+        },
+        {
+          "name": "Heat pipe and vapor chamber cooling modules",
+          "note": "Heat pipe and VC vapor chamber cooling modules for telecom and server equipment, covering whole-board, high-power and high-heat-flux applications; the annual report states FRD has co-developed 3D VC and VCE special-purpose radiators with customers.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225544669.pdf"
+        },
+        {
+          "name": "Liquid Cooling Plate",
+          "note": "Produced with two patented processes, air blowing with brazing and stamping with brazing, in automated production in Changzhou; patents CN 202011321551X and US 11975376B2; applied to power battery packs, energy storage battery packs, telecom equipment and 5G base stations.",
+          "source": "https://en.frd.cn/prod_view.aspx?TypeId=71&Id=179&FId=t3:71:3"
+        },
+        {
+          "name": "Thermal interface materials",
+          "note": "Self-developed range of 11 categories and more than 80 products providing total thermal solutions, with thermal conductivity grades from 1 to 120 W/mK and UL 94 V0 flammability recognition for Canada and the USA; graphite films reach up to 1,850 W/mK in-plane and 15 W/mK through-plane.",
+          "source": "https://en.frd.cn/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "The 2025 annual report, published on April 28, 2026, lists server liquid cooling among its product applications, describing cold plates that dissipate more than 800 W per point for server and data-center compute chips and heat pipe/VC cooling modules including co-developed 3D VC and VCE radiators.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225544669.pdf"
+        },
+        {
+          "year": "2024",
+          "text": "FRD listed its Liquid Cooling Plate product line on its official website in September 2024, based on patented air-blowing-plus-brazing and stamping-plus-brazing processes with automated production in Changzhou and patents CN 202011321551X and US 11975376B2.",
+          "source": "https://en.frd.cn/prod_view.aspx?TypeId=71&Id=179&FId=t3:71:3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does FRD offer for servers and data centers?",
+          "a": "Its 2025 annual report lists server liquid cooling products: cold plates that dissipate more than 800 W per single point, designed for liquid cooling of server and data-center compute chips with high efficiency and low noise, plus heat pipe and VC cooling modules for telecom and server equipment, including 3D VC and VCE radiators developed with customers."
+        },
+        {
+          "q": "How are FRD liquid cooling plates manufactured?",
+          "a": "The company produces liquid cooling plates with two processes, air blowing with brazing and stamping with brazing, in automated production in Changzhou. The solution is based on patented technology under Chinese patent CN 202011321551X and US patent 11975376B2, with high thermal conductivity and temperature uniformity."
+        },
+        {
+          "q": "What thermal materials does FRD provide alongside liquid cooling?",
+          "a": "FRD offers self-developed thermal interface materials in 11 categories and more than 80 products, with conductivity grades from 1 to 120 W/mK and UL 94 V0 recognition, plus graphite films with up to 1,850 W/mK in-plane and 15 W/mK through-plane conductivity, supporting total thermal solutions for electronics and servers."
+        },
+        {
+          "q": "Where is FRD based and listed?",
+          "a": "FRD was founded in Shenzhen in 1993 and is headquartered there, with production bases in Shenzhen, Suzhou, Changzhou, Foshan and Vietnam. It is listed on the Shenzhen Stock Exchange under code 300602."
+        }
+      ]
+    },
+    {
+      "slug": "chunqiu-electronics",
+      "name": "Chunqiu Electronics",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Chunqiu Electronics (SSE: 603890) makes laptop structural modules and new energy vehicle parts. Through the 2026 acquisition of Danish liquid cooling company Asetek A/S it gained AIO liquid cooling modules and a restarting server liquid cooling business for data centers.",
+      "hq": "Suzhou, China",
+      "founded": 2011,
+      "ownership": "SSE: 603890; owns Asetek A/S via wholly owned subsidiary CQXA Holdings Pte. Ltd.",
+      "website": "https://www.szchunqiu.com",
+      "productLines": [
+        {
+          "name": "Asetek AIO liquid cooling modules",
+          "note": "Liquid cooling modules comprising pumps, fittings, tubing and coolant, applied mainly to desktop systems and planned to extend to data-center liquid cooling per the 2026 interim report; Asetek supplies brands including Dell, HP, ASUS and NZXT and works with AMD and Intel on new product launches.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502736.PDF"
+        },
+        {
+          "name": "Emma V3 [Gen10] AIO architecture",
+          "note": "Flagship AIO cooling architecture unveiled at COMPUTEX 2026 with an optimized 4 mm offset cold plate design, dual-offset layout and center-groove micro-channels; delivers 1.5 C lower thermal resistance and roughly 45 percent lower perceived acoustic volume than the previous generation.",
+          "source": "https://www.asetek.com/company/newsroom/press-releases/asetek-unveils-next-gen-aio-liquid-cooling-architecture-for-ai-workstation-and-ai-pc-at-computex-2026/"
+        },
+        {
+          "name": "Workstation liquid cooling for Xeon and Threadripper",
+          "note": "Workstation cooling for Intel Xeon and AMD Ryzen Threadripper processors with full IHS coverage unlocking TDPs above 450 W, shown at COMPUTEX 2026; Asetek has worked on workstation cooling since 2021 and has integrated with Chunqiu for manufacturing scale in Asia.",
+          "source": "https://www.asetek.com/company/newsroom/press-releases/asetek-unveils-next-gen-aio-liquid-cooling-architecture-for-ai-workstation-and-ai-pc-at-computex-2026/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Asetek unveiled the Emma V3 [Gen10] next-generation AIO liquid cooling architecture at COMPUTEX 2026, with a 4 mm offset cold plate design and micro-channel tuning, and showed workstation solutions for Intel Xeon and AMD Ryzen Threadripper with full IHS coverage unlocking TDPs above 450 W, following its strategic integration with Chunqiu for manufacturing scale in Asia.",
+          "source": "https://www.asetek.com/company/newsroom/press-releases/asetek-unveils-next-gen-aio-liquid-cooling-architecture-for-ai-workstation-and-ai-pc-at-computex-2026/"
+        },
+        {
+          "year": "2026",
+          "text": "Chunqiu Electronics completed its full tender offer for Nasdaq Copenhagen-listed Asetek A/S: accepts representing 95.3 percent of shares (303,298,827 shares) were received by April 13, 2026, settlement occurred on April 21, 2026, compulsory acquisition of remaining shares followed, and delisting was approved. The offer price was DKK 1.72 per share, with total consideration capped at DKK 547,371,523.76.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-06-02/1225343204.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The 2026 interim report states that Asetek has begun restarting its dormant server liquid cooling business and is engaging overseas customers, with Chunqiu combining Asetek data-center liquid cooling experience and its own manufacturing capability to re-enter the data-center liquid cooling market.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502736.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Chunqiu Electronics do in data-center liquid cooling?",
+          "a": "Through its 2026 acquisition of Danish company Asetek A/S, Chunqiu Electronics gained liquid cooling modules built around pumps, fittings, tubing and coolant. Asetek has more than a decade of data-center liquid cooling experience, and the 2026 interim report states its dormant server liquid cooling business is restarting with overseas customers being engaged."
+        },
+        {
+          "q": "How did the Asetek acquisition proceed?",
+          "a": "Chunqiu Electronics announced a voluntary cash offer in November 2025 through its Singapore subsidiary CQXA Holdings Pte. Ltd. at DKK 1.72 per share, capped at DKK 547,371,523.76 in total. Accepts reached 95.3 percent of shares by April 13, 2026, settlement was completed on April 21, 2026, followed by compulsory acquisition of remaining shares and delisting from Nasdaq Copenhagen."
+        },
+        {
+          "q": "What are Asetek liquid cooling specifications?",
+          "a": "At COMPUTEX 2026 Asetek unveiled the Emma V3 [Gen10] architecture with an optimized 4 mm offset cold plate, dual-offset layout and center-groove micro-channels, delivering 1.5 C lower thermal resistance and about 45 percent lower perceived acoustic volume than the previous generation, plus workstation cooling for Xeon and Threadripper above 450 W TDP."
+        },
+        {
+          "q": "Where is Chunqiu Electronics based and listed?",
+          "a": "Chunqiu Electronics (Suzhou Chunqiu Electronic Technology Co., Ltd.) is based in Kunshan, Suzhou, Jiangsu, China, and is listed on the Shanghai Stock Exchange under code 603890. It was founded in 2011 and also owns Asetek A/S through its subsidiary CQXA Holdings Pte. Ltd."
+        }
+      ]
+    },
+    {
+      "slug": "dayuan",
+      "name": "DAYUAN",
+      "segments": [
+        "components"
+      ],
+      "tagline": "DAYUAN (Zhejiang Dayuan Pumps Industrial, SSE: 603757) traces its origins to 1990 in Wenling, Taizhou, Zhejiang, and makes residential, commercial and industrial pumps under the Dayuan and Xinhu brands. Its shield canned-motor pumps circulate coolant in liquid cooling systems for data centers, AI computing, energy storage and vehicles.",
+      "hq": "Taizhou, China",
+      "founded": 1990,
+      "ownership": "SSE: 603757",
+      "website": "https://www.dayuan.com",
+      "productLines": [
+        {
+          "name": "Xinhu shield liquid cooling pumps",
+          "note": "Canned-motor shield pumps that circulate coolant for liquid cooling in data centers, AI computing, energy storage, hydrogen fuel cells, electric vehicles and wind power; the 2025 annual report states 7.5 kW to 37 kW models are finalized and in batch production, with 40 kW and above units in prototyping.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
+        },
+        {
+          "name": "CDU core main pump",
+          "note": "A 37 kW CDU core main pump completed review by a domestic customer and a North American customer as of the 2025 annual report disclosure date; the company works with Vertiv and Taiwan channel partners to bring the product into global AI compute cooling chains, with 380 V to 800 V power-side capability.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
+        },
+        {
+          "name": "Fluorine pumps for immersion and phase-change cooling",
+          "note": "Special-media fluorine pumps for immersion and phase-change liquid cooling, adapted to reduce cavitation and size and improve integration; micro pumps for edge AI device cooling are partially commercialized, supported by motor control algorithms and miniaturized electromagnetic design.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "The 2025 annual report, published April 24, 2026, states the 37 kW CDU core main pump completed review by domestic and North American customers, the 7.5 kW to 37 kW pump range is finalized and in batch production, and 40 kW and above models are in prototyping, with cooperation ties to thermal management vendors including Envicool, Vertiv, Foxconn Industrial Internet, Nidec, Jonhon and ZTE.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "In 2025 the company hosted a liquid cooling ecosystem co-building summit with a 2026 market outlook for the AI computing sector and completed testing, sampling and certification of its shield liquid cooling pumps with computing-service customers, achieving initial deployments in new scenarios.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The company reported continued development of fluorine pumps for immersion and phase-change liquid cooling and commercialization of first micro pump products for edge AI device cooling, strengthening refrigerant-compatible materials selection and thermal-fluid simulation capabilities.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What pumps does DAYUAN make for data-center liquid cooling?",
+          "a": "Its commercial business includes liquid cooling pumps based on Xinhu shield canned-motor pump technology, used to drive coolant circulation in data-center and AI computing liquid cooling systems. The 2025 annual report states 7.5 kW to 37 kW models are finalized and in batch production, with 40 kW and above products in prototyping and a 37 kW CDU core main pump qualified by domestic and North American customers."
+        },
+        {
+          "q": "What is the Xinhu brand?",
+          "a": "Xinhu is DAYUAN's shield pump brand, widely used in hot water circulation, thermal-control liquid cooling, chemical and nuclear power industrial applications. The 2025 annual report describes it as heat-resistant, corrosion-resistant and stable-running, and states the company cooperates with thermal vendors including Envicool, Vertiv, Foxconn Industrial Internet, Nidec, Jonhon and ZTE."
+        },
+        {
+          "q": "Does DAYUAN serve immersion cooling?",
+          "a": "Yes. The 2025 annual report describes special-media fluorine pumps for immersion and phase-change liquid cooling, adapted to address cavitation, size and integration challenges, plus micro pumps for edge AI device electronic cooling that are partially commercialized."
+        },
+        {
+          "q": "Where is DAYUAN based and listed?",
+          "a": "DAYUAN is headquartered at No. 689 Xicheng Road, Zeguo Town, Wenling, Taizhou, Zhejiang, China, with production bases in Wenling and Hefei. It traces its origins to 1990 and is listed on the Shanghai Stock Exchange under code 603757."
         }
       ]
     }

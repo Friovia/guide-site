@@ -7,8 +7,8 @@ const STAGE_MAP: Record<string, number> = {
   materials: 0,
   'cold-plates': 1, cdus: 1, interconnects: 1, fluids: 1, components: 1, 'heat-rejection': 1,
   chips: 2, servers: 2, immersion: 2, integrators: 2, 'micro-dc': 2,
-  solutions: 3, testing: 3,
-  buyers: 4,
+  solutions: 3, software: 3, testing: 3,
+  buyers: 4, 'heat-reuse': 4,
 }
 const TITLES = [
   'MATERIALS',
@@ -17,10 +17,12 @@ const TITLES = [
   'DELIVERY & ASSURANCE',
   'BUYERS & OPERATIONS',
 ]
+// `short` is the canvas label for segments whose full name would not fit a 200-unit column.
+const canvasLabel = (seg: { label: string; short?: string }) => seg.short || seg.label.split(' (')[0].split(' — ')[0]
 const stages = TITLES.map((title, i) => ({
   title,
   x: 20 + i * 220,
-  segs: (vendors.segments as { id: string, label: string, companies: unknown[] }[]).filter(s => STAGE_MAP[s.id] === i),
+  segs: (vendors.segments as { id: string, label: string; short?: string; companies: unknown[] }[]).filter(s => STAGE_MAP[s.id] === i),
 }))
 
 export function ChainCanvas() {
@@ -49,7 +51,7 @@ export function ChainCanvas() {
             <text x={st.x + 100} y="112" textAnchor="middle" className="cc-stage">{i + 1} · {st.title}</text>
             {st.segs.map((seg, j) => (
               <g key={seg.id}>
-                <text x={st.x + 14} y={144 + j * 24} className="cc-seg">· {seg.label.split(' (')[0].split(' — ')[0]}</text>
+                <text x={st.x + 14} y={144 + j * 24} className="cc-seg">· {canvasLabel(seg)}</text>
                 <text x={st.x + 186} y={144 + j * 24} textAnchor="end" className="cc-cnt">{seg.companies.length}</text>
               </g>
             ))}

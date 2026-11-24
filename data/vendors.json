@@ -1,11 +1,12 @@
 {
-  "note": "Liquid cooling supply chain map — who makes what, upstream to downstream. Facts policy: each entry links the company's official site; the note states its liquid-cooling-relevant role only (no funding/market-size claims). Expand by adding rows; the page renders from this file. Last reviewed: 2026-10-08.",
-  "updated": "2026-11-13",
+  "note": "Liquid cooling supply chain map — who makes what, upstream to downstream. Facts policy: each entry links the company's official site; the note states its liquid-cooling-relevant role only (no funding/market-size claims). Expand by adding rows; the page renders from this file. Last reviewed: 2026-11-24.",
+  "updated": "2026-11-24",
   "segments": [
     {
       "id": "materials",
-      "label": "Materials & precision manufacturing (upstream)",
-      "note": "Before anyone builds a cold plate: copper and aluminum stock, CNC machining, vacuum brazing, sheet metal — the invisible margin layer of the whole chain.",
+      "label": "Materials, fabrication & production equipment (upstream)",
+      "note": "Before anyone builds a cold plate: copper and aluminum stock, CNC machining, vacuum brazing, sheet metal — and the furnaces and leak-test benches that make and check the parts. The invisible margin layer of the whole chain.",
+      "short": "Materials",
       "companies": [
         {
           "name": "Jiangxi Copper",
@@ -24,6 +25,69 @@
           "hq": "DE",
           "note": "Copper semi-finished products into European thermal chains",
           "source": "https://www.aurubis.com/"
+        },
+        {
+          "name": "Mueller Industries",
+          "hq": "US",
+          "note": "Vertically integrated copper tube, fittings and brass rod maker supplying U.S. data center construction; acquired the Bison Metals tube mill in March 2026",
+          "source": "https://www.muellerindustries.com/",
+          "evidence": "https://ir.muellerindustries.com/news/press-releases/detail/197/mueller-industries-inc-reports-third-quarter-2026-earnings"
+        },
+        {
+          "name": "Wieland",
+          "hq": "DE",
+          "note": "MicroCool cold plates with MDT pin fin and friction stir welding; immersion cooling components for data centers, HPC and power electronics; copper alloy strip",
+          "source": "https://www.wieland.com/",
+          "evidence": "https://www.wieland.com/products/finished-parts-and-components/electronics-cooling-components/cold-plates"
+        },
+        {
+          "name": "SECO/WARWICK",
+          "hq": "PL",
+          "note": "Vacuum and controlled-atmosphere brazing furnaces for aluminium/copper liquid cooling cold plates; published guidance on vacuum brazing for liquid cooling components",
+          "source": "https://www.secowarwick.com/",
+          "evidence": "https://www.secowarwick.com/en/news/controlled-atmosphere-brazing-hev"
+        },
+        {
+          "name": "ATEQ",
+          "hq": "FR",
+          "note": "Leak and flow testers for liquid-cooled data center components: cold plates, CDUs, heat exchangers, immersion tanks (F620, D620, MF520, HX-490S tracer gas)",
+          "source": "https://www.ateq.com/",
+          "evidence": "https://atequsa.com/ateq-usa-ensures-leak-free-data-center-cooling"
+        },
+        {
+          "name": "ZAxis",
+          "hq": "US",
+          "note": "Leak test instruments for liquid cooling components: pressure/vacuum decay, mass flow, helium tracer (Z-Charge/Z-Ion) testers for cold plates, CDUs, manifolds, QDs",
+          "source": "https://zaxisinc.com/",
+          "evidence": "https://zaxisinc.com/blog/liquid-cooling-cold-plate-cdu-leak-testing-guide"
+        },
+        {
+          "name": "Allied",
+          "hq": "CN",
+          "note": "Makes liquid-cooling heat dissipation devices including water cooling plates, vapor chambers and heat pipes, with data centers listed among the application fields",
+          "source": "https://www.allied-corp.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "name": "Jiangnan Copper",
+          "hq": "CN",
+          "note": "Makes copper liquid-cooling substrates and customized micro-channel cold plates for high-computing data centers, AI servers and high-density heat sources",
+          "source": "https://www.jiangnancopper.com",
+          "evidence": "https://www.jiangnancopper.com/product/15"
+        },
+        {
+          "name": "Jones Tech",
+          "hq": "CN",
+          "note": "Supplies liquid cooling modules for servers, switches, optical modules and power supplies, with thermal materials and cold plates for AI servers in volume delivery",
+          "source": "https://www.jones-corp.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        },
+        {
+          "name": "Huafon Aluminium",
+          "hq": "CN",
+          "note": "Produces aluminum heat-transfer sheet, strip and foil stock for heat exchangers and water cooling plates, with data-center thermal management a named main application",
+          "source": "https://www.huafeng.com",
+          "evidence": "https://www.huafeng.com/product/8.html"
         }
       ]
     },
@@ -60,7 +124,7 @@
         {
           "name": "CoolIT Systems",
           "hq": "CA",
-          "note": "Largest independent cold-plate supplier; also CHx-series CDUs; partner in the 2018 STULZ micro DC",
+          "note": "Independent cold-plate supplier with CHx-series CDUs; partner in the STULZ liquid-cooled micro DC (2017)",
           "source": "https://www.coolitsystems.com/"
         },
         {
@@ -86,6 +150,279 @@
           "hq": "US",
           "note": "Cold plates and heat exchangers, industrial-to-server range",
           "source": "https://www.wakefield-vette.com/"
+        },
+        {
+          "name": "Asia Vital Components",
+          "hq": "TW",
+          "note": "Taiwanese thermal module maker; supplies cold plates, rack manifolds with quick disconnects, CDUs and chassis for NVIDIA GB200/GB300 AI servers; showed 6MW in-row CDU at OCP",
+          "source": "https://www.avc.co/",
+          "evidence": "https://www.digitimes.com/news/a20261014PD246/avc-cooling-liquid-cooling-demand-technology.html"
+        },
+        {
+          "name": "Cooler Master",
+          "hq": "TW",
+          "note": "PC cooling brand turned data center liquid cooling supplier: liquid-to-liquid CDUs up to 2.5MW, liquid-to-air CDUs, GPU/CPU/DIMM cold plates, wall manifolds and commissioning tools",
+          "source": "https://www.coolermaster.com/",
+          "evidence": "https://www.coolermaster.com/en-global/catalog/data-center-cooling"
+        },
+        {
+          "name": "Chenbro",
+          "hq": "TW",
+          "note": "Server chassis and rack maker; NVIDIA MGX partner developing liquid-cooled chassis and full-rack mechanical integration for AI servers",
+          "source": "https://www.chenbro.com/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "Sunon",
+          "hq": "TW",
+          "note": "Cooling fan maker with end-to-end liquid cooling line: CPU/DIMM cold plates (incl. 3D-printed with 3D Architech), 200kW L2L 5U in-rack CDU, L2A CDUs; NVIDIA MGX ecosystem partner",
+          "source": "https://www.sunonusa.com/",
+          "evidence": "https://www.sunonusa.com/showcasing-liquid-cooling-solutions-for-next-generation-ai-computing"
+        },
+        {
+          "name": "Jentech",
+          "hq": "TW",
+          "note": "Vapor chamber and precision stamped parts maker; listed among Taiwan cold plate suppliers for AI servers, plus package-level heat spreaders and DLC module development",
+          "source": "https://www.jentech.com.tw/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "Forcecon",
+          "hq": "TW",
+          "note": "Thermal module maker listed among Taiwan cold-plate/thermal concept stocks; developing water cold plates and immersion cooling products for servers",
+          "source": "https://www.forcecon.com/",
+          "evidence": "https://www.growin.ai/zh/my/blog/industry/thermal-management-stock"
+        },
+        {
+          "name": "ASUS",
+          "hq": "TW",
+          "note": "AI server vendor with ground-up DLC portfolio: direct-to-chip and in-row CDU cooling for Vera Rubin NVL72, HGX and AI POD systems; PUE 1.18 at Taiwan NCHC GB200 deployment",
+          "source": "https://servers.asus.com/",
+          "evidence": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "TW",
+          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://news.cnyes.com/news/id/6311694"
+        },
+        {
+          "name": "KENMEC Mechanical Engineering",
+          "hq": "TW",
+          "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
+          "source": "https://www.kenmec.com/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "LG Electronics",
+          "hq": "KR",
+          "note": "Chip-to-chiller liquid cooling portfolio: a 600 kW CDU validated by NVIDIA in July 2026, cold plates and chillers, with 1 MW to 4 MW CDU models planned",
+          "source": "https://www.lg.com/",
+          "evidence": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "name": "IMMERSEKOOL",
+          "hq": "KR",
+          "note": "Korean maker of liquid cooling components: cold plates, rack manifolds, EPDM hose kits and quick couplings for single- and two-phase direct liquid cooling and immersion",
+          "source": "https://www.immersekool.com/",
+          "evidence": "https://www.immersekool.com"
+        },
+        {
+          "name": "Advanced Thermal Solutions",
+          "hq": "US",
+          "note": "Liquid cooling catalogue: CDUs (CDU-X 4 MW), ArctiQ direct-to-chip cold plates, heat exchangers, chillers, flow meters, leak detectors",
+          "source": "https://www.qats.com/",
+          "evidence": "https://www.qats.com/Products/Liquid-Cooling"
+        },
+        {
+          "name": "Wieland",
+          "hq": "DE",
+          "note": "MicroCool cold plates with MDT pin fin and friction stir welding; immersion cooling components for data centers, HPC and power electronics; copper alloy strip",
+          "source": "https://www.wieland.com/",
+          "evidence": "https://www.wieland.com/products/finished-parts-and-components/electronics-cooling-components/cold-plates"
+        },
+        {
+          "name": "Advanced Cooling Technologies",
+          "hq": "US",
+          "note": "Data center solutions: CDUs, single- and two-phase liquid cold plates, manifolds, pumped two-phase systems, liquid-air heat exchangers, Tekgard chillers",
+          "source": "https://www.1-act.com/",
+          "evidence": "https://www.1-act.com"
+        },
+        {
+          "name": "Corintis",
+          "hq": "CH",
+          "note": "Thermal co-design software and services for cold plate/cooling architecture; OCP Cooling Environments Cold Plate Performance contributor",
+          "source": "https://corintis.com/",
+          "evidence": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+        },
+        {
+          "name": "Iceotope",
+          "hq": "GB",
+          "note": "Chassis-level precision liquid cooling for AI/HPC servers (KoolFlow-style sealed liquid cooling); OEM/ODM co-design and IP licensing, edge reference designs",
+          "source": "https://www.iceotope.com/",
+          "evidence": "https://www.iceotope.com/company/news"
+        },
+        {
+          "name": "Accelsius",
+          "hq": "US",
+          "note": "NeuCool two-phase direct-to-chip liquid cooling with dielectric refrigerant; 4,500W+ per socket; in-rack two-phase CDU (IR150); partners include NVIDIA, Dell, Legrand, Johnson Controls",
+          "source": "https://www.accelsius.com/",
+          "evidence": "https://www.accelsius.com"
+        },
+        {
+          "name": "Mikros Technologies",
+          "hq": "US",
+          "note": "Custom direct-to-chip liquid cooling: single- and two-phase microchannel cold plates (AX-NV2 for NVIDIA B200), heat flux control to 1,000 W/cm2 for AI/HPC racks",
+          "source": "https://www.mikrostechnologies.com/",
+          "evidence": "https://www.mikrostechnologies.com"
+        },
+        {
+          "name": "Cofan Thermal",
+          "hq": "US",
+          "note": "Direct-to-chip liquid cold plates for CPUs/GPUs plus thermal solutions for optical transceivers in air- and liquid-cooled 800G-3.2T systems",
+          "source": "https://cofanthermal.com/",
+          "evidence": "https://cofanthermal.com"
+        },
+        {
+          "name": "Aspen Systems",
+          "hq": "US",
+          "note": "Custom compact chillers and liquid cooling for electronics: liquid chiller modules (600-1400W), 2U cold-plate cooling systems, direct refrigerant chip cooling for AI, defense and medical applications",
+          "source": "https://aspensystems.com/",
+          "evidence": "https://aspensystems.com"
+        },
+        {
+          "name": "Allied",
+          "hq": "CN",
+          "note": "Makes liquid-cooling heat dissipation devices including water cooling plates, vapor chambers and heat pipes, with data centers listed among the application fields",
+          "source": "https://www.allied-corp.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "name": "Yonggui",
+          "hq": "CN",
+          "note": "Connector maker whose data-center products include liquid cooling connectors, liquid cooling plate assemblies, high-speed backplane connectors and rack-end power connectors",
+          "source": "https://www.yonggui.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        },
+        {
+          "name": "Jiangnan Copper",
+          "hq": "CN",
+          "note": "Makes copper liquid-cooling substrates and customized micro-channel cold plates for high-computing data centers, AI servers and high-density heat sources",
+          "source": "https://www.jiangnancopper.com",
+          "evidence": "https://www.jiangnancopper.com/product/15"
+        },
+        {
+          "name": "Yinlun",
+          "hq": "CN",
+          "note": "Supplies liquid-cooling module components for data centers, including server chip cold plates, CDU plate heat exchangers and primary-side cooling tower, dry cooler and chiller heat exchangers",
+          "source": "https://www.yinlun.cn",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "name": "Dingtong",
+          "hq": "CN",
+          "note": "Makes liquid cooling heat sinks and liquid-cooled connector cage modules used in large data centers, servers and AI compute equipment, in small-batch shipment since 2025",
+          "source": "https://www.dingtong.net.cn",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        },
+        {
+          "name": "Jinfu Technology",
+          "hq": "CN",
+          "note": "Beverage packaging maker that acquired liquid cooling businesses supplying cold plates, manifolds and liquid cooling flow piping for AI servers and communication servers",
+          "source": "https://www.jinfu-group.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        },
+        {
+          "name": "Lingyi iTech",
+          "hq": "CN",
+          "note": "Makes liquid cooling plates for AI servers and GPUs, optical module cold plates, liquid cooling quick disconnects and manifolds, and server vapor chambers",
+          "source": "https://www.lingyiitech.com",
+          "evidence": "https://www.lingyiitech.com/ApplicationScenarios/info_itemid_217_lcid_16.html"
+        },
+        {
+          "name": "Cotran",
+          "hq": "CN",
+          "note": "Makes heat-dissipation metal structures including liquid cooling plates for data-center servers, alongside cooling plates for vehicles and storage systems",
+          "source": "https://www.cotran.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        },
+        {
+          "name": "Chengtian Weiye",
+          "hq": "CN",
+          "note": "Smart-card and semiconductor packaging maker with a liquid cooling line supplying piping, manifolds, cold plates and quick connectors for data-center cooling",
+          "source": "https://www.ctwygroup.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "name": "Transtrue",
+          "hq": "CN",
+          "note": "Data-center construction firm promoting pump-driven two-phase cold-plate liquid cooling for AI computing centers and co-developed two-phase liquid-cooled servers",
+          "source": "https://www.bjzst.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "name": "Jones Tech",
+          "hq": "CN",
+          "note": "Supplies liquid cooling modules for servers, switches, optical modules and power supplies, with thermal materials and cold plates for AI servers in volume delivery",
+          "source": "https://www.jones-corp.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        },
+        {
+          "name": "TaiSol",
+          "hq": "TW",
+          "note": "Makes closed-loop and open-loop liquid cooling units for server CPU sockets used in data center and cloud servers",
+          "source": "https://www.taisol.com/",
+          "evidence": "https://www.taisol.com/solutions/server/?lang=en_US"
+        },
+        {
+          "name": "Alloy Enterprises",
+          "hq": "US",
+          "note": "Makes single-piece aluminum and copper cold plates with microchannel geometry using additive Stack Forging for direct liquid cooling, now part of Johnson Controls",
+          "source": "https://alloyenterprises.co/",
+          "evidence": "https://alloyenterprises.co"
+        },
+        {
+          "name": "Calyos",
+          "hq": "BE",
+          "note": "Designs passive and pumpless two-phase cooling loops for CPUs, GPUs and AI servers in data centers",
+          "source": "https://www.calyos-tm.com/",
+          "evidence": "https://www.calyos-tm.com/markets/data-centers"
+        },
+        {
+          "name": "Amulaire Thermal Technology",
+          "hq": "TW",
+          "note": "Makes liquid cold plates and thermal modules, including data center thermal management systems for servers and optical cooling",
+          "source": "https://www.amulaire.com/",
+          "evidence": "https://www.amulaire.com/en"
+        },
+        {
+          "name": "Certone Heat Solution",
+          "hq": "TW",
+          "note": "Makes AI server liquid cooling components including hose kits, manifolds and cold plates at its Hsinchu facility",
+          "source": "https://www.certone.com.tw/",
+          "evidence": "https://www.certone.com.tw/en"
+        },
+        {
+          "name": "JONHON",
+          "hq": "CN",
+          "note": "Makes UQD and UQDB series liquid-cooling quick disconnects, computing cold plates, liquid cooling chassis and coolant source units for data-center servers",
+          "source": "https://www.jonhon.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
+        },
+        {
+          "name": "FRD",
+          "hq": "CN",
+          "note": "Makes liquid-cooling cold plates for server and data-center compute chips rated above 800 W per point, plus heat pipe and vapor chamber cooling modules for servers",
+          "source": "https://www.frd.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-28/1225544669.pdf"
+        },
+        {
+          "name": "Chunqiu Electronics",
+          "hq": "CN",
+          "note": "Owns Asetek A/S, whose direct-to-chip liquid cooling line spans pump, cold plate and coolant loop modules, and is restarting a data-center server liquid cooling business",
+          "source": "https://www.szchunqiu.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-08-26/1225502736.PDF"
         }
       ]
     },
@@ -103,13 +440,13 @@
         {
           "name": "Motivair",
           "hq": "US",
-          "note": "CDU leader at AI-facility scale; acquired by Schneider Electric (2024)",
+          "note": "CDUs for AI-facility scale; majority-owned by Schneider Electric since 2025",
           "source": "https://www.motivair.com/"
         },
         {
           "name": "CoolIT Systems",
           "hq": "CA",
-          "note": "CHx-series in-row CDUs alongside its cold-plate business",
+          "note": "Independent cold-plate supplier with CHx-series CDUs; partner in the STULZ liquid-cooled micro DC (2017)",
           "source": "https://www.coolitsystems.com/"
         },
         {
@@ -163,7 +500,7 @@
         {
           "name": "Envicool",
           "hq": "CN",
-          "note": "China's largest domestic data-center cooling vendor; CDUs and integrated liquid systems for AI halls",
+          "note": "Data-center cooling vendor with CDUs and integrated liquid systems for AI halls",
           "source": "https://www.envicool.com/"
         },
         {
@@ -171,13 +508,280 @@
           "hq": "CN",
           "note": "Liquid cooling for power electronics and data centers; strong domestic AI-facility presence",
           "source": "https://www.goaland.com/"
+        },
+        {
+          "name": "Asia Vital Components",
+          "hq": "TW",
+          "note": "Taiwanese thermal module maker; supplies cold plates, rack manifolds with quick disconnects, CDUs and chassis for NVIDIA GB200/GB300 AI servers; showed 6MW in-row CDU at OCP",
+          "source": "https://www.avc.co/",
+          "evidence": "https://www.digitimes.com/news/a20261014PD246/avc-cooling-liquid-cooling-demand-technology.html"
+        },
+        {
+          "name": "Cooler Master",
+          "hq": "TW",
+          "note": "PC cooling brand turned data center liquid cooling supplier: liquid-to-liquid CDUs up to 2.5MW, liquid-to-air CDUs, GPU/CPU/DIMM cold plates, wall manifolds and commissioning tools",
+          "source": "https://www.coolermaster.com/",
+          "evidence": "https://www.coolermaster.com/en-global/catalog/data-center-cooling"
+        },
+        {
+          "name": "Kaori",
+          "hq": "TW",
+          "note": "Brazed plate heat exchanger maker with a data center cooling division; independently developed 800kW and KR1000 ~1MW-class in-row liquid-to-liquid CDUs for direct-to-chip racks; also supplies manifolds",
+          "source": "https://www.kaori.com.tw/",
+          "evidence": "https://heat-exchanger-world.com/kaori-develops-large-scale-in-row-800kw-l-l-cdu"
+        },
+        {
+          "name": "Sunon",
+          "hq": "TW",
+          "note": "Cooling fan maker with end-to-end liquid cooling line: CPU/DIMM cold plates (incl. 3D-printed with 3D Architech), 200kW L2L 5U in-rack CDU, L2A CDUs; NVIDIA MGX ecosystem partner",
+          "source": "https://www.sunonusa.com/",
+          "evidence": "https://www.sunonusa.com/showcasing-liquid-cooling-solutions-for-next-generation-ai-computing"
+        },
+        {
+          "name": "Quanta Computer",
+          "hq": "TW",
+          "note": "AI server ODM (QCT brand); QoolRack liquid-to-air and liquid-to-liquid direct-to-chip racks with in-rack CDU, plus MGX liquid-cooled servers for GB200/GB300",
+          "source": "https://www.quanta.com.tw/",
+          "evidence": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+        },
+        {
+          "name": "Foxconn",
+          "hq": "TW",
+          "note": "Subsidiary Ingrasys builds NVIDIA GB300 NVL72 racks integrated with in-row CDU liquid cooling, plus MGX servers for AI factories",
+          "source": "https://www.foxconn.com/",
+          "evidence": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1848"
+        },
+        {
+          "name": "MSI",
+          "hq": "TW",
+          "note": "Server platform maker; 21-inch 44OU ORv3 liquid-cooled rack with integrated liquid-to-liquid CDU (100kW), liquid-cooled NVIDIA MGX GPU servers and DC-MHS multi-node platforms",
+          "source": "https://www.msi.com/",
+          "evidence": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "TW",
+          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://news.cnyes.com/news/id/6311694"
+        },
+        {
+          "name": "KENMEC Mechanical Engineering",
+          "hq": "TW",
+          "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
+          "source": "https://www.kenmec.com/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "Cryomax Cooling System",
+          "hq": "TW",
+          "note": "Vehicle radiator maker (since 1984) with an AI Server Cooling Solutions line; applies radiator/plate heat exchanger know-how to server CDU products; water-cooling parts shipped from Oct 2025 per media",
+          "source": "https://www.cryomaxcooling.com/",
+          "evidence": "https://www.cryomaxcooling.com"
+        },
+        {
+          "name": "Nidec",
+          "hq": "JP",
+          "note": "Liquid cooling supplier with a 2 MW Project Deschutes CDU built to the Google OCP spec, 300 kW in-rack CDUs, in-row CDUs under the US MOTORS brand, manifolds and quick disconnects",
+          "source": "https://www.nidec.com/",
+          "evidence": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
+        },
+        {
+          "name": "Fujitsu",
+          "hq": "JP",
+          "note": "Through FSAS Technologies: Cool-Safe single-phase direct-to-chip liquid cooling for PRIMERGY servers with an 80 kW CDU, coolant distribution manifolds and liquid-cooled racks",
+          "source": "https://eu.fsastech.com/",
+          "evidence": "https://eu.fsastech.com/eu/cool-safe-liquid-cooling"
+        },
+        {
+          "name": "Panasonic",
+          "hq": "JP",
+          "note": "Liquid cooling systems for generative AI data centers in Europe, on order from March 2026: 400 kW and 800 kW CDUs with 1.2 MW-and-above models under development, plus free-cooling chillers",
+          "source": "https://www.panasonic.com/global/",
+          "evidence": "https://news.panasonic.com/global/press/en260304-2"
+        },
+        {
+          "name": "LG Electronics",
+          "hq": "KR",
+          "note": "Chip-to-chiller liquid cooling portfolio: a 600 kW CDU validated by NVIDIA in July 2026, cold plates and chillers, with 1 MW to 4 MW CDU models planned",
+          "source": "https://www.lg.com/",
+          "evidence": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "name": "Hanon Systems",
+          "hq": "KR",
+          "note": "Automotive thermal management supplier entering data center cooling with precision heat distribution modules and direct-acting motor valves for liquid cooling loops; at RFQ stage per trade press",
+          "source": "https://www.hanonsystems.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "Global Standard Technology (GST)",
+          "hq": "KR",
+          "note": "Semiconductor scrubber and chiller maker that completed two immersion cooling equipment model designs (2023), now in customer demonstration; partnered with S-Oil on immersion-cooled data center pilots",
+          "source": "https://www.gst-in.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "Advanced Thermal Solutions",
+          "hq": "US",
+          "note": "Liquid cooling catalogue: CDUs (CDU-X 4 MW), ArctiQ direct-to-chip cold plates, heat exchangers, chillers, flow meters, leak detectors",
+          "source": "https://www.qats.com/",
+          "evidence": "https://www.qats.com/Products/Liquid-Cooling"
+        },
+        {
+          "name": "Modexus Solutions (Airedale)",
+          "hq": "US",
+          "note": "Data center cooling: Airedale DCS chillers (TurboChill/DeltaChill/OptiChill), 1 MW coolant distribution units, chillers and fan walls for AI infrastructure",
+          "source": "https://www.airedale.com/",
+          "evidence": "https://www.airedale.com/products/dcs-chillers"
+        },
+        {
+          "name": "Carrier",
+          "hq": "US",
+          "note": "QuantumLeap data center thermal management: AquaEdge/AquaForce chillers, Aero air handling, and Coolant Distribution Units for direct-to-chip cooling",
+          "source": "https://www.carrier.com/",
+          "evidence": "https://www.carrier.com/us/en/commercial/data-centers"
+        },
+        {
+          "name": "Ecolab (Nalco Water)",
+          "hq": "US",
+          "note": "3D TRASAR coolant chemistry for direct-to-chip liquid cooling, Liquid Cooling All In programme, glycol management; parent of CoolIT Systems",
+          "source": "https://www.ecolab.com/",
+          "evidence": "https://www.ecolab.com/en-us/pages/nwwt/liquid-cooling-all-in"
+        },
+        {
+          "name": "Advanced Cooling Technologies",
+          "hq": "US",
+          "note": "Data center solutions: CDUs, single- and two-phase liquid cold plates, manifolds, pumped two-phase systems, liquid-air heat exchangers, Tekgard chillers",
+          "source": "https://www.1-act.com/",
+          "evidence": "https://www.1-act.com"
+        },
+        {
+          "name": "Nautilus Data Technologies",
+          "hq": "US",
+          "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
+          "source": "https://nautilusdt.com/",
+          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+        },
+        {
+          "name": "Boston Limited",
+          "hq": "GB",
+          "note": "UK server solutions provider with GlacierCore CDU line (1100-1220 series), liquid and immersion cooling solutions; cooling partners Castrol ON, LM TEK, Submer, Supermicro, ZutaCore",
+          "source": "https://boston.co.uk/",
+          "evidence": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "name": "Refroid Technologies",
+          "hq": "IN",
+          "note": "India-based CDU maker: SentraFlo liquid-to-liquid CDUs from 200 kW to 2 MW for direct-to-chip cooling, single-phase immersion systems and hybrid load banks for commissioning",
+          "source": "https://www.refroid.com/",
+          "evidence": "https://www.networkworld.com/article/3997011/refroid-launches-indias-first-data-center-cdus.html"
+        },
+        {
+          "name": "Accelsius",
+          "hq": "US",
+          "note": "NeuCool two-phase direct-to-chip liquid cooling with dielectric refrigerant; 4,500W+ per socket; in-rack two-phase CDU (IR150); partners include NVIDIA, Dell, Legrand, Johnson Controls",
+          "source": "https://www.accelsius.com/",
+          "evidence": "https://www.accelsius.com"
+        },
+        {
+          "name": "AAON (BASX)",
+          "hq": "US",
+          "note": "Data center cooling equipment under its BASX brand: liquid-to-liquid and liquid-to-air CDUs, free-cooling chillers, CRAHs and fan walls, manufactured in Tulsa and Longview, Texas",
+          "source": "https://www.aaon.com/",
+          "evidence": "https://www.aaon.com/news/aaon-awarded-liquid-cooling-data-center-orders-totaling-approximately-174.5-million"
+        },
+        {
+          "name": "Lennox International",
+          "hq": "US",
+          "note": "Lennox Data Centre Solutions: PhaseFlow modular refrigerant-based heat rejection platform supporting single- and two-phase direct-to-chip loops; CRAHs, fan walls, CDUs and chillers (Apx DCS line)",
+          "source": "https://www.lennox.com/",
+          "evidence": "https://www.lennox.com/datacenters"
+        },
+        {
+          "name": "Nortek Data Center Cooling",
+          "hq": "US",
+          "note": "Coolant distribution units 300kW to 1.2MW+ (48U compact, 2N redundant) serving direct liquid cooling plates, rear-door heat exchangers and in-row coolers",
+          "source": "https://www.nortekdatacenter.com/",
+          "evidence": "https://www.nortekdatacenter.com/cdu"
+        },
+        {
+          "name": "Celestica",
+          "hq": "CA",
+          "note": "Designs and manufactures for hyperscalers: liquid-cooled racks plus in-row and in-rack CDUs, cold plates and manifolds as part of silicon-to-rack AI infrastructure co-design",
+          "source": "https://www.celestica.com/",
+          "evidence": "https://www.celestica.com/blog/article/ai-infrastructure-for-the-data-center-and-beyond"
+        },
+        {
+          "name": "NextGenergy",
+          "hq": "CA",
+          "note": "Prefabricated liquid cooling for AI data halls: factory-built skids, ORv3 racks, CDUs and cooling plant plus commissioning and liquid-loop field services; team previously delivered ~1,000 MW of liquid cooling",
+          "source": "https://nextgenergy.ai/",
+          "evidence": "https://nextgenergy.ai/company/about"
+        },
+        {
+          "name": "Gradian Thermal Solutions",
+          "hq": "US",
+          "note": "US manufacturer (formerly DeepCoolAI) of liquid-to-liquid and liquid-to-air CDUs in in-row and in-rack configurations, active rear-door heat exchangers and coolant refill carts",
+          "source": "https://gradian.com/",
+          "evidence": "https://gradian.com/deepcoolai"
+        },
+        {
+          "name": "Smardt",
+          "hq": "CA",
+          "note": "Oil-free magnetic-bearing centrifugal chillers plus data center product line including chilled-water fan walls, CRAH/CRAC units and coolant distribution units (300-2,500 kW)",
+          "source": "https://www.smardt.com/",
+          "evidence": "https://www.smardt.com"
+        },
+        {
+          "name": "DDC Solutions",
+          "hq": "US",
+          "note": "Ultra-high-density rack cabinets with patented self-contained hybrid air+liquid cooling; S-Series v4 cabinet supports 100kW air cooling and is liquid-to-chip ready beyond 1MW per cabinet for AI/HPC",
+          "source": "https://ddcsolutions.com/",
+          "evidence": "https://ddcsolutions.com/daikin-applied-completes-acquisition-of-ddc-solutions"
+        },
+        {
+          "name": "Canatal",
+          "hq": "CN",
+          "note": "Data-center environmental control specialist offering cold-plate liquid cooling systems built around coolant distribution units in rack-level, in-row and room-level formats",
+          "source": "https://www.canatal.com.cn",
+          "evidence": "https://www.canatal.com.cn/products_details/80.html"
+        },
+        {
+          "name": "Tongfei",
+          "hq": "CN",
+          "note": "Industrial temperature-control maker offering data-center liquid cooling products including in-row and in-rack CDUs, manifolds, immersion tanks, dry coolers and modular container data centers",
+          "source": "https://www.tfzl.com",
+          "evidence": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "Yinlun",
+          "hq": "CN",
+          "note": "Supplies liquid-cooling module components for data centers, including server chip cold plates, CDU plate heat exchangers and primary-side cooling tower, dry cooler and chiller heat exchangers",
+          "source": "https://www.yinlun.cn",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "name": "SuperX",
+          "hq": "SG",
+          "note": "Offers the CryoPod modular cooling enclosure that integrates a liquid cooling CDU, circulation pumps and dry air cooler for AI data centers",
+          "source": "https://www.superx.sg/",
+          "evidence": "https://www.superx.sg/products/cryopod"
+        },
+        {
+          "name": "JONHON",
+          "hq": "CN",
+          "note": "Makes UQD and UQDB series liquid-cooling quick disconnects, computing cold plates, liquid cooling chassis and coolant source units for data-center servers",
+          "source": "https://www.jonhon.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
         }
       ]
     },
     {
       "id": "interconnects",
-      "label": "Quick disconnects & manifolds",
-      "note": "The interoperability layer: UQD-class couplings and rack manifolds decide whether you can mix vendors.",
+      "label": "Fluid interconnects — quick disconnects, manifolds, hoses & fittings",
+      "note": "The interoperability layer: UQD-class couplings and rack manifolds decide whether you can mix vendors; hoses, tubing and fittings carry the fluid between them.",
+      "short": "Fluid interconnects",
       "companies": [
         {
           "name": "Stäubli",
@@ -208,6 +812,258 @@
           "hq": "DE",
           "note": "Rack/manifold hardware alongside its LCP cooling line",
           "source": "https://www.rittal.com/"
+        },
+        {
+          "name": "Asia Vital Components",
+          "hq": "TW",
+          "note": "Taiwanese thermal module maker; supplies cold plates, rack manifolds with quick disconnects, CDUs and chassis for NVIDIA GB200/GB300 AI servers; showed 6MW in-row CDU at OCP",
+          "source": "https://www.avc.co/",
+          "evidence": "https://www.digitimes.com/news/a20261014PD246/avc-cooling-liquid-cooling-demand-technology.html"
+        },
+        {
+          "name": "Cooler Master",
+          "hq": "TW",
+          "note": "PC cooling brand turned data center liquid cooling supplier: liquid-to-liquid CDUs up to 2.5MW, liquid-to-air CDUs, GPU/CPU/DIMM cold plates, wall manifolds and commissioning tools",
+          "source": "https://www.coolermaster.com/",
+          "evidence": "https://www.coolermaster.com/en-global/catalog/data-center-cooling"
+        },
+        {
+          "name": "Fositek",
+          "hq": "TW",
+          "note": "Makes liquid cooling quick disconnects (UQD) and server slide rails; supplies quick couplings for GB200 liquid cooling manifolds; extends from hinge business",
+          "source": "https://www.fositek.com/",
+          "evidence": "https://www.pocket.tw/school/articles/article-mvqcc90u"
+        },
+        {
+          "name": "Lotes",
+          "hq": "TW",
+          "note": "Connector maker (CPU sockets) that launched liquid cooling quick disconnect couplings for server racks to enter the AI liquid cooling market",
+          "source": "https://www.lotes.cc/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "BizLink",
+          "hq": "TW",
+          "note": "Interconnect group showing liquid cooling solutions at OCP: liquid-cooled 1.6T OSFP cages, rack management controllers with daisy-chain leak detection, integrated liquid-cooled power for MGX racks",
+          "source": "https://www.bizlinktech.com/",
+          "evidence": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "TW",
+          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://news.cnyes.com/news/id/6311694"
+        },
+        {
+          "name": "UfiSpace",
+          "hq": "TW",
+          "note": "Open networking systems maker; live demo of S9331-64HO3L 102.4Tbps 2OU ORv3 direct liquid-cooled 64-port 1.6T switch running with a CDU at OCP Global Summit 2026",
+          "source": "https://www.ufispace.com/",
+          "evidence": "https://www.prnewswire.com/apac/news-releases/ufispace-demonstrates-1-6t-ai-fabric-thermal-feasibility-with-live-liquid-cooling-platform-at-ocp-global-summit-2026--302907418.html"
+        },
+        {
+          "name": "Nidec",
+          "hq": "JP",
+          "note": "Liquid cooling supplier with a 2 MW Project Deschutes CDU built to the Google OCP spec, 300 kW in-rack CDUs, in-row CDUs under the US MOTORS brand, manifolds and quick disconnects",
+          "source": "https://www.nidec.com/",
+          "evidence": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
+        },
+        {
+          "name": "IMMERSEKOOL",
+          "hq": "KR",
+          "note": "Korean maker of liquid cooling components: cold plates, rack manifolds, EPDM hose kits and quick couplings for single- and two-phase direct liquid cooling and immersion",
+          "source": "https://www.immersekool.com/",
+          "evidence": "https://www.immersekool.com"
+        },
+        {
+          "name": "CEJN",
+          "hq": "SE",
+          "note": "Quick couplings for data-center liquid cooling: OCP UQD/UQDB/BMQC blind-mate, LQC screw-to-connect for CDUs, ultraFLOW for immersion tanks",
+          "source": "https://www.cejn.com/",
+          "evidence": "https://www.cejn.com/en-us/applications/data-centers"
+        },
+        {
+          "name": "Walther-Präzision",
+          "hq": "DE",
+          "note": "Clean-break quick couplings (CG-C series) used for liquid cooling of rack-mountable cooling elements in data centres",
+          "source": "https://www.walther-praezision.de/",
+          "evidence": "https://www.walther-praezision.de/en/products/series-cg-c"
+        },
+        {
+          "name": "TE Connectivity",
+          "hq": "IE",
+          "note": "Data-center liquid cooling sensors (pressure, temperature, liquid level) plus liquid cooling power/connectivity portfolio",
+          "source": "https://www.te.com/",
+          "evidence": "https://www.te.com/en/industries/data-centers-ai/applications/sensors-in-data-center-liquid-cooling.html"
+        },
+        {
+          "name": "Amphenol",
+          "hq": "US",
+          "note": "Liquid cooling connectors for AI data centers: UQD/UQDB, BMQC, LQC, MQD, SHQD quick disconnects (Amphenol Industrial Operations, Endicott NY)",
+          "source": "https://amphenol-industrial.com/",
+          "evidence": "https://amphenol-industrial.com/products/liquid-cooling-systems"
+        },
+        {
+          "name": "Molex",
+          "hq": "US",
+          "note": "OCP-compliant liquid cooling interfaces, liquid-cooled busbars, cold plate cages, leak-detection cables for AI data centers",
+          "source": "https://www.molex.com/",
+          "evidence": "https://www.molex.com/en-us/industries-applications/data-center-thermal-management"
+        },
+        {
+          "name": "Dixon",
+          "hq": "US",
+          "note": "Data-center cooling components: quick couplings, King Crimp hose assemblies, clamps, valves; dedicated Data Center Cooling portfolio and brochure",
+          "source": "https://dixonvalve.com/",
+          "evidence": "https://dixonvalve.com/en/products/markets/data-center-cooling"
+        },
+        {
+          "name": "Nitto Kohki",
+          "hq": "JP",
+          "note": "CUPLA quick couplings; Compact Zerospill series explicitly offered for water cooling pipes in data centers; semiconductor coupling lines",
+          "source": "https://www.nitto-kohki.co.jp/",
+          "evidence": "https://www.nitto-kohki.co.jp/e/prd/cupla/"
+        },
+        {
+          "name": "Gates",
+          "hq": "US",
+          "note": "OCP-compliant UQD/UQDB quick disconnect couplings, Data Master Cooling Hose, Data Center Couplings and Data Center Pumps lines",
+          "source": "https://www.gates.com/",
+          "evidence": "https://www.gates.com/content/gates/us/en/fluid-power/hydraulic-hose-and-couplings/quick-disconnect-couplers.p.7245-110000-000000.html"
+        },
+        {
+          "name": "Titan Fittings",
+          "hq": "US",
+          "note": "Stainless steel adapters, elbows, tees, ball valves and hoses marketed for data-center liquid cooling loops",
+          "source": "https://www.titanfittings.com/",
+          "evidence": "https://www.titanfittings.com/articles/data-center-liquid-cooling-with-titan-fittings"
+        },
+        {
+          "name": "STILONN",
+          "hq": "IN",
+          "note": "Stainless steel valves (ball, butterfly, balancing, control, quick shut-off) and couplings for CDUs and rack liquid cooling",
+          "source": "https://www.stilonn.com/",
+          "evidence": "https://www.stilonn.com/data-center-liquid-cooling-valves"
+        },
+        {
+          "name": "Victaulic",
+          "hq": "US",
+          "note": "Grooved piping systems for data centers: Liquid-To-Rack header modules, technical cooling equipment modules, Series 250 butterfly valves, valve trains",
+          "source": "https://www.victaulic.com/",
+          "evidence": "https://www.victaulic.com/mission-critical/data-centers"
+        },
+        {
+          "name": "Swagelok",
+          "hq": "US",
+          "note": "Stainless tube fittings, valves (isolation, balancing, control) and tubing for data center liquid cooling drops and CDU fluid systems",
+          "source": "https://www.swagelok.com/",
+          "evidence": "https://pittsburgh.swagelok.com/en/industries/data-centers"
+        },
+        {
+          "name": "Continental",
+          "hq": "DE",
+          "note": "Data cooling hoses: FlexCool Jumper/Blade, ExtremeFlex DataGuard source lines for direct-to-chip cooling from CDU to cold plate; OCP member",
+          "source": "https://www.continental-industry.com/",
+          "evidence": "https://www.continental-industry.com/in/en/products-solutions/fluid-handling/industrial-hoses/data-cooling-hoses"
+        },
+        {
+          "name": "Hose Master",
+          "hq": "US",
+          "note": "Corrugated stainless steel metal hose (Masterflex) and expansion joints for data center liquid cooling: manifolds, cold plates, CDUs, immersion, rear-door heat exchangers",
+          "source": "https://www.hosemaster.com/",
+          "evidence": "https://www.hosemaster.com/data-centers"
+        },
+        {
+          "name": "Penflex",
+          "hq": "US",
+          "note": "Stainless steel braided hose assemblies (Clean ID, P3/P5) for data center liquid cooling, CDUs and HVAC connections",
+          "source": "https://www.penflex.com/",
+          "evidence": "https://www.penflex.com/industries/data-center-liquid-cooling"
+        },
+        {
+          "name": "ASC Engineered Solutions",
+          "hq": "US",
+          "note": "Pipe joining systems for data centers under Anvil, Gruvlok, SCI, Sharpe and ABZ brands: grooved couplings, fittings, valves, hangers and seismic bracing",
+          "source": "https://asc-es.com/",
+          "evidence": "https://asc-es.com/solutions/data-centers"
+        },
+        {
+          "name": "NIBCO",
+          "hq": "US",
+          "note": "Valves, fittings and hydronic components for data center cooling systems; new liquid-cooling portfolio (stainless and copper ball valves)",
+          "source": "https://www.nibco.com/",
+          "evidence": "https://blog.nibco.com/building-reliability-simplifying-liquid-cooling-for-the-next-generation-of-data-centers"
+        },
+        {
+          "name": "Yonggui",
+          "hq": "CN",
+          "note": "Connector maker whose data-center products include liquid cooling connectors, liquid cooling plate assemblies, high-speed backplane connectors and rack-end power connectors",
+          "source": "https://www.yonggui.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        },
+        {
+          "name": "Tongfei",
+          "hq": "CN",
+          "note": "Industrial temperature-control maker offering data-center liquid cooling products including in-row and in-rack CDUs, manifolds, immersion tanks, dry coolers and modular container data centers",
+          "source": "https://www.tfzl.com",
+          "evidence": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "Dingtong",
+          "hq": "CN",
+          "note": "Makes liquid cooling heat sinks and liquid-cooled connector cage modules used in large data centers, servers and AI compute equipment, in small-batch shipment since 2025",
+          "source": "https://www.dingtong.net.cn",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        },
+        {
+          "name": "Jinfu Technology",
+          "hq": "CN",
+          "note": "Beverage packaging maker that acquired liquid cooling businesses supplying cold plates, manifolds and liquid cooling flow piping for AI servers and communication servers",
+          "source": "https://www.jinfu-group.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        },
+        {
+          "name": "Lingyi iTech",
+          "hq": "CN",
+          "note": "Makes liquid cooling plates for AI servers and GPUs, optical module cold plates, liquid cooling quick disconnects and manifolds, and server vapor chambers",
+          "source": "https://www.lingyiitech.com",
+          "evidence": "https://www.lingyiitech.com/ApplicationScenarios/info_itemid_217_lcid_16.html"
+        },
+        {
+          "name": "Chuanhuan",
+          "hq": "CN",
+          "note": "Supplies rubber, plastic and metal liquid cooling piping and assemblies for big-data and supercomputing server cooling systems, with batch deliveries to server customers",
+          "source": "https://www.chuanhuan.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        },
+        {
+          "name": "Chengtian Weiye",
+          "hq": "CN",
+          "note": "Smart-card and semiconductor packaging maker with a liquid cooling line supplying piping, manifolds, cold plates and quick connectors for data-center cooling",
+          "source": "https://www.ctwygroup.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "name": "FIT Hon Teng",
+          "hq": "TW",
+          "note": "Makes liquid cooling manifolds and liquid cooling connectivity for AI servers alongside its connectors and cable assembly portfolio",
+          "source": "https://www.fit-foxconn.com/",
+          "evidence": "https://www.fit-foxconn.com/main/modules/MySpace/BlogInfo.php?xmlid=28184"
+        },
+        {
+          "name": "Certone Heat Solution",
+          "hq": "TW",
+          "note": "Makes AI server liquid cooling components including hose kits, manifolds and cold plates at its Hsinchu facility",
+          "source": "https://www.certone.com.tw/",
+          "evidence": "https://www.certone.com.tw/en"
+        },
+        {
+          "name": "JONHON",
+          "hq": "CN",
+          "note": "Makes UQD and UQDB series liquid-cooling quick disconnects, computing cold plates, liquid cooling chassis and coolant source units for data-center servers",
+          "source": "https://www.jonhon.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-03-28/1225044952.PDF"
         }
       ]
     },
@@ -269,6 +1125,181 @@
           "hq": "CN",
           "note": "Immersion-cooled HPC systems heritage",
           "source": "https://www.sugon.com/"
+        },
+        {
+          "name": "Chenbro",
+          "hq": "TW",
+          "note": "Server chassis and rack maker; NVIDIA MGX partner developing liquid-cooled chassis and full-rack mechanical integration for AI servers",
+          "source": "https://www.chenbro.com/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "Wiwynn",
+          "hq": "TW",
+          "note": "Hyperscale AI server and rack ODM; direct liquid cooling racks with CDU integration, air-assisted liquid cooling and two-phase immersion deployed with Microsoft at Quincy",
+          "source": "https://www.wiwynn.com/",
+          "evidence": "https://www.wiwynn.com/technology/advanced-cooling"
+        },
+        {
+          "name": "Quanta Computer",
+          "hq": "TW",
+          "note": "AI server ODM (QCT brand); QoolRack liquid-to-air and liquid-to-liquid direct-to-chip racks with in-rack CDU, plus MGX liquid-cooled servers for GB200/GB300",
+          "source": "https://www.quanta.com.tw/",
+          "evidence": "https://blog.qct.io/qct-qoolrack-solution-serves-as-the-latest-innovation-for-modern-data-centers"
+        },
+        {
+          "name": "Foxconn",
+          "hq": "TW",
+          "note": "Subsidiary Ingrasys builds NVIDIA GB300 NVL72 racks integrated with in-row CDU liquid cooling, plus MGX servers for AI factories",
+          "source": "https://www.foxconn.com/",
+          "evidence": "https://www.foxconn.com/en-us/press-center/press-releases/latest-news/1848"
+        },
+        {
+          "name": "ASUS",
+          "hq": "TW",
+          "note": "AI server vendor with ground-up DLC portfolio: direct-to-chip and in-row CDU cooling for Vera Rubin NVL72, HGX and AI POD systems; PUE 1.18 at Taiwan NCHC GB200 deployment",
+          "source": "https://servers.asus.com/",
+          "evidence": "https://servers.asus.com/news/ASUS-Reveals-Optimized-Liquid-Cooling-Solutions-and-Strategic-Partner-Framework"
+        },
+        {
+          "name": "MSI",
+          "hq": "TW",
+          "note": "Server platform maker; 21-inch 44OU ORv3 liquid-cooled rack with integrated liquid-to-liquid CDU (100kW), liquid-cooled NVIDIA MGX GPU servers and DC-MHS multi-node platforms",
+          "source": "https://www.msi.com/",
+          "evidence": "https://www.msi.com/news/detail/MSI-Showcases-Liquid-Cooled-AI-Infrastructure--NVIDIA-MGX--NVIDIA-DGX-Station-and-DC-MHS-Platforms-at-COMPUTEX-2026-148789"
+        },
+        {
+          "name": "Inventec",
+          "hq": "TW",
+          "note": "AI server ODM; Artemis rack line for GB200/GB300 NVL72 with sidecar, row-based and rack-mounted CDU liquid cooling, blind-mate manifolds and leak detection; Artemis III targets Vera Rubin NVL72",
+          "source": "https://www.inventec.com/",
+          "evidence": "https://ebg.inventec.com/en/product/Rack"
+        },
+        {
+          "name": "Advantech",
+          "hq": "TW",
+          "note": "Industrial computing and IoT platform maker; SKYRack integrated liquid cooling infrastructure for 50 kW+ racks, direct-to-chip cooling integrated with partner KEMMEC, IoT thermal monitoring",
+          "source": "https://www.advantech.com/",
+          "evidence": "https://www.advantech.com.cn/en-us/resources/news/advantech-showcases-skyrack-semi--skyrack-ai-at-computex-to-accelerate-enterprise-ai-deployment-with-high-perf-computing-and-integrated-architecture"
+        },
+        {
+          "name": "Wistron",
+          "hq": "TW",
+          "note": "AI server ODM; liquid cooling pursued through affiliate Wiwynn and a stake in liquid cooling integrator ToneCooling",
+          "source": "https://www.wistron.com/",
+          "evidence": "https://news.cnyes.com/news/id/6311694"
+        },
+        {
+          "name": "ASRock Rack",
+          "hq": "TW",
+          "note": "Server maker; 4U16X-GNR2/ZC B300 with ZutaCore HyperCool waterless two-phase direct liquid cooling for NVIDIA HGX B300, plus MGX platforms; showed at OCP Global Summit 2025",
+          "source": "https://www.asrockrack.com/",
+          "evidence": "https://www.asrockrack.com/general/news.asp?id=272"
+        },
+        {
+          "name": "UfiSpace",
+          "hq": "TW",
+          "note": "Open networking systems maker; live demo of S9331-64HO3L 102.4Tbps 2OU ORv3 direct liquid-cooled 64-port 1.6T switch running with a CDU at OCP Global Summit 2026",
+          "source": "https://www.ufispace.com/",
+          "evidence": "https://www.prnewswire.com/apac/news-releases/ufispace-demonstrates-1-6t-ai-fabric-thermal-feasibility-with-live-liquid-cooling-platform-at-ocp-global-summit-2026--302907418.html"
+        },
+        {
+          "name": "Compal Electronics",
+          "hq": "TW",
+          "note": "Notebook and server ODM; SC24 lineup with direct liquid cooling, immersion cooling and air cooling for AI servers, including two-phase systems with ZutaCore",
+          "source": "https://www.compal.com/",
+          "evidence": "https://www.compal.com/zh-hans/media/238/ren-bao-can-zhan-sc24-zhan-shi-ye-jie-ling-xian-si"
+        },
+        {
+          "name": "Fujitsu",
+          "hq": "JP",
+          "note": "Through FSAS Technologies: Cool-Safe single-phase direct-to-chip liquid cooling for PRIMERGY servers with an 80 kW CDU, coolant distribution manifolds and liquid-cooled racks",
+          "source": "https://eu.fsastech.com/",
+          "evidence": "https://eu.fsastech.com/eu/cool-safe-liquid-cooling"
+        },
+        {
+          "name": "Eviden (Bull)",
+          "hq": "FR",
+          "note": "European HPC/AI supercomputer maker (Bull brand): BullSequana XH3500 with fully fanless direct liquid cooling and in-rack CDUs; powers the JUPITER exascale supercomputer",
+          "source": "https://www.bull.com/",
+          "evidence": "https://www.bull.com/en/products/hpc/bullsequana-xh3500-supercomputer"
+        },
+        {
+          "name": "E4 Computer Engineering",
+          "hq": "IT",
+          "note": "Italian HPC/AI integrator building liquid-cooled supercomputers (D.A.V.I.D.E. at CINECA with Asetek RackCDU D2C; two-phase liquid-cooled servers from EU Textarossa project)",
+          "source": "https://www.e4company.com/",
+          "evidence": "https://www.e4company.com/en/2023/06/hpc-energetic-efficiency-liquid-cooling-server-isc-2023"
+        },
+        {
+          "name": "Boston Limited",
+          "hq": "GB",
+          "note": "UK server solutions provider with GlacierCore CDU line (1100-1220 series), liquid and immersion cooling solutions; cooling partners Castrol ON, LM TEK, Submer, Supermicro, ZutaCore",
+          "source": "https://boston.co.uk/",
+          "evidence": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "name": "Jabil",
+          "hq": "US",
+          "note": "Electronics manufacturer integrating liquid cooling at rack level for AI data centers: microchannel cold plates (via Mikros), CDUs, manifolds and liquid-cooled switch integration",
+          "source": "https://www.jabil.com/",
+          "evidence": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        },
+        {
+          "name": "Sanmina",
+          "hq": "US",
+          "note": "Electronics manufacturer; acquired ZT Systems' data center infrastructure manufacturing business from AMD (closed October 2025), adding liquid-cooled rack integration plants in New Jersey and Texas",
+          "source": "https://www.sanmina.com/",
+          "evidence": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        },
+        {
+          "name": "ZT Systems",
+          "hq": "US",
+          "note": "US server/rack-scale AI infrastructure maker; AMD retained ZT's rack- and cluster-scale AI design business while Sanmina bought the liquid-cooled rack manufacturing plants (2025)",
+          "source": "https://ztsystems.com/",
+          "evidence": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        },
+        {
+          "name": "Celestica",
+          "hq": "CA",
+          "note": "Designs and manufactures for hyperscalers: liquid-cooled racks plus in-row and in-rack CDUs, cold plates and manifolds as part of silicon-to-rack AI infrastructure co-design",
+          "source": "https://www.celestica.com/",
+          "evidence": "https://www.celestica.com/blog/article/ai-infrastructure-for-the-data-center-and-beyond"
+        },
+        {
+          "name": "Hyve Solutions",
+          "hq": "US",
+          "note": "Designs, integrates and thermally validates rack-scale direct liquid cooling for hyperscale AI/HPC; complete wet-or-dry liquid-cooled rack systems built and tested under one roof",
+          "source": "https://www.hyvesolutions.com/",
+          "evidence": "https://www.hyvesolutions.com/services/liquid-cooling"
+        },
+        {
+          "name": "Axiom Solutions International",
+          "hq": "US",
+          "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
+          "source": "https://www.axiom.com/",
+          "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+        },
+        {
+          "name": "DDC Solutions",
+          "hq": "US",
+          "note": "Ultra-high-density rack cabinets with patented self-contained hybrid air+liquid cooling; S-Series v4 cabinet supports 100kW air cooling and is liquid-to-chip ready beyond 1MW per cabinet for AI/HPC",
+          "source": "https://ddcsolutions.com/",
+          "evidence": "https://ddcsolutions.com/daikin-applied-completes-acquisition-of-ddc-solutions"
+        },
+        {
+          "name": "Transtrue",
+          "hq": "CN",
+          "note": "Data-center construction firm promoting pump-driven two-phase cold-plate liquid cooling for AI computing centers and co-developed two-phase liquid-cooled servers",
+          "source": "https://www.bjzst.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "name": "Incooling",
+          "hq": "NL",
+          "note": "Develops two-phase cooled servers that use phase-change liquid cooling for energy-efficient high-density compute",
+          "source": "https://incooling.com/",
+          "evidence": "https://incooling.com"
         }
       ]
     },
@@ -300,6 +1331,97 @@
           "hq": "NL",
           "note": "Immersed computing in oil, circular-flow designs (image used on our immersion page)",
           "source": "https://asperitas.com/"
+        },
+        {
+          "name": "Wiwynn",
+          "hq": "TW",
+          "note": "Hyperscale AI server and rack ODM; direct liquid cooling racks with CDU integration, air-assisted liquid cooling and two-phase immersion deployed with Microsoft at Quincy",
+          "source": "https://www.wiwynn.com/",
+          "evidence": "https://www.wiwynn.com/technology/advanced-cooling"
+        },
+        {
+          "name": "Forcecon",
+          "hq": "TW",
+          "note": "Thermal module maker listed among Taiwan cold-plate/thermal concept stocks; developing water cold plates and immersion cooling products for servers",
+          "source": "https://www.forcecon.com/",
+          "evidence": "https://www.growin.ai/zh/my/blog/industry/thermal-management-stock"
+        },
+        {
+          "name": "ASRock Rack",
+          "hq": "TW",
+          "note": "Server maker; 4U16X-GNR2/ZC B300 with ZutaCore HyperCool waterless two-phase direct liquid cooling for NVIDIA HGX B300, plus MGX platforms; showed at OCP Global Summit 2025",
+          "source": "https://www.asrockrack.com/",
+          "evidence": "https://www.asrockrack.com/general/news.asp?id=272"
+        },
+        {
+          "name": "Compal Electronics",
+          "hq": "TW",
+          "note": "Notebook and server ODM; SC24 lineup with direct liquid cooling, immersion cooling and air cooling for AI servers, including two-phase systems with ZutaCore",
+          "source": "https://www.compal.com/",
+          "evidence": "https://www.compal.com/zh-hans/media/238/ren-bao-can-zhan-sc24-zhan-shi-ye-jie-ling-xian-si"
+        },
+        {
+          "name": "KENMEC Mechanical Engineering",
+          "hq": "TW",
+          "note": "Automation and thermal group whose heat-transfer division developed liquid-to-air and liquid-to-liquid in-rack CDUs, two-phase immersion systems and chip cold plates (Intel EGS 350W, BHS 500W) for AI servers",
+          "source": "https://www.kenmec.com/",
+          "evidence": "https://topic.ctee.com.tw/liquidcooling"
+        },
+        {
+          "name": "Mitsubishi Heavy Industries",
+          "hq": "JP",
+          "note": "Container-type data centers combining immersion, air and water cooling, including a 12 ft 40 kVA-class unit and a container immersion program with KDDI and NESIC since 2021",
+          "source": "https://www.mhi.com/",
+          "evidence": "https://www.mhi.com/news/231004.html"
+        },
+        {
+          "name": "Global Standard Technology (GST)",
+          "hq": "KR",
+          "note": "Semiconductor scrubber and chiller maker that completed two immersion cooling equipment model designs (2023), now in customer demonstration; partnered with S-Oil on immersion-cooled data center pilots",
+          "source": "https://www.gst-in.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "PKI",
+          "hq": "KR",
+          "note": "LiquidStack's Korea partner; builds direct liquid cooling and single/two-phase immersion systems with CDUs, tanks, piping, quick couplings, fluids and monitoring",
+          "source": "http://www.e-pki.com/",
+          "evidence": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+        },
+        {
+          "name": "IMMERSEKOOL",
+          "hq": "KR",
+          "note": "Korean maker of liquid cooling components: cold plates, rack manifolds, EPDM hose kits and quick couplings for single- and two-phase direct liquid cooling and immersion",
+          "source": "https://www.immersekool.com/",
+          "evidence": "https://www.immersekool.com"
+        },
+        {
+          "name": "DUG Technology",
+          "hq": "AU",
+          "note": "HPC company with the patented DUG Cool single-phase immersion cooling technology, licensed internationally to Baltimore Aircoil (2024)",
+          "source": "https://dug.com/",
+          "evidence": "https://dug.com/dug-cool"
+        },
+        {
+          "name": "Exaion",
+          "hq": "FR",
+          "note": "Low-carbon HPC/AI cloud operator using immersion cooling with waste-heat recovery loops at data centres in Europe and North America (majority-owned by MARA since 2026)",
+          "source": "https://www.exaion.com/",
+          "evidence": "https://www.exaion.com/"
+        },
+        {
+          "name": "Refroid Technologies",
+          "hq": "IN",
+          "note": "India-based CDU maker: SentraFlo liquid-to-liquid CDUs from 200 kW to 2 MW for direct-to-chip cooling, single-phase immersion systems and hybrid load banks for commissioning",
+          "source": "https://www.refroid.com/",
+          "evidence": "https://www.networkworld.com/article/3997011/refroid-launches-indias-first-data-center-cdus.html"
+        },
+        {
+          "name": "Tongfei",
+          "hq": "CN",
+          "note": "Industrial temperature-control maker offering data-center liquid cooling products including in-row and in-rack CDUs, manifolds, immersion tanks, dry coolers and modular container data centers",
+          "source": "https://www.tfzl.com",
+          "evidence": "https://www.tfzl.com/product"
         }
       ]
     },
@@ -337,6 +1459,167 @@
           "hq": "US",
           "note": "Novec fluorinated fluids — exited PFAS manufacturing end-2025 (timeline on our radar page)",
           "source": "https://www.3m.com/"
+        },
+        {
+          "name": "GS Caltex",
+          "hq": "KR",
+          "note": "Refiner selling immersion cooling fluid (Kixx Immersion Fluid S, launched 2023) and Kixx DLC Fluid PG25 for direct liquid cooling, supplied to Korean data centers",
+          "source": "https://www.gscaltex.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "S-Oil",
+          "hq": "KR",
+          "note": "Oil refiner selling the e-Cooling Solution immersion cooling fluid; running an immersion-cooled data center pilot at a university supercomputing center with GST and partners",
+          "source": "https://www.s-oil.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "SK Innovation",
+          "hq": "KR",
+          "note": "Immersion cooling fluids business via SK Enmove (merged into SK On as in-house unit in Nov 2025); three-way MOU with LG Electronics and GRC on liquid cooling for AI data centers",
+          "source": "https://www.skinnovation.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "PKI",
+          "hq": "KR",
+          "note": "LiquidStack's Korea partner; builds direct liquid cooling and single/two-phase immersion systems with CDUs, tanks, piping, quick couplings, fluids and monitoring",
+          "source": "http://www.e-pki.com/",
+          "evidence": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+        },
+        {
+          "name": "Veolia (Water Technologies)",
+          "hq": "FR",
+          "note": "Data center water treatment incl. CorrShield 5500 chemistry for direct-to-chip cooling racks, Hydrex cooling water programs, reclaimed-water projects with Amazon",
+          "source": "https://www.watertechnologies.com/",
+          "evidence": "https://www.watertechnologies.com/industries/data-centers"
+        },
+        {
+          "name": "Old World Industries",
+          "hq": "US",
+          "note": "THERMAL CHARGE propylene/ethylene glycol heat transfer fluids incl. PG25 prediluted fluid for direct-to-chip and data center cooling loops",
+          "source": "https://www.owi.com/",
+          "evidence": "https://www.owi.com/commercial/resources/in-the-know/newsroom/data-centers-heat-transfer"
+        },
+        {
+          "name": "Calumet",
+          "hq": "US",
+          "note": "CalChill immersion cooling fluid for data centers; specialty and renewable product lines",
+          "source": "https://calumet.com/",
+          "evidence": "https://calumet.com/products/sustainable-products/calchill"
+        },
+        {
+          "name": "ChemTreat",
+          "hq": "US",
+          "note": "Water treatment and coolant services for 200+ data centers; PG25 direct-to-chip chemistry; OCP Cooling Environments contributor; Dow Coolant Care Network provider",
+          "source": "https://www.chemtreat.com/",
+          "evidence": "https://www.prnewswire.com/news-releases/chemtreat-joins-dows-coolant-care-network-as-strategic-national-provider-for-ai-data-center-cooling-302774970.html"
+        },
+        {
+          "name": "Castrol",
+          "hq": "GB",
+          "note": "Castrol ON direct liquid cooling PG 25 / PG 25T fluids for direct-to-chip data centre cooling; immersion dielectric fluids in development",
+          "source": "https://www.castrol.com/",
+          "evidence": "https://www.castrol.com/en/global/corporate/products/data-centre-and-it-cooling.html"
+        },
+        {
+          "name": "Dober",
+          "hq": "US",
+          "note": "COOLWAVE DC-25 PG25-class heat transfer fluid, an OCP Accepted solution; DC-series engineered data center coolants (DC-25/DC-30/DC-55)",
+          "source": "https://www.dober.com/",
+          "evidence": "https://www.dober.com/performance-fluids/resources/pg-25-coolant-data-centers"
+        },
+        {
+          "name": "Cargill (Bioindustrial)",
+          "hq": "US",
+          "note": "NatureCool plant-based single-phase immersion cooling dielectric fluids (NatureCool 1000), made from natural esters and readily biodegradable",
+          "source": "https://www.cargill.com/",
+          "evidence": "https://www.cargill.com/doc/1432213082638/naturecool-pdf.pdf"
+        },
+        {
+          "name": "HYDAC",
+          "hq": "DE",
+          "note": "Data centre solutions: COOLTECH cooling and CDUs, cooling water and coolant filtration, fluid condition monitoring, cooler-filter-tank units",
+          "source": "https://www.hydac.com/",
+          "evidence": "https://www.hydac.com/en/industry-solutions/data-centre"
+        },
+        {
+          "name": "Ecolab (Nalco Water)",
+          "hq": "US",
+          "note": "3D TRASAR coolant chemistry for direct-to-chip liquid cooling, Liquid Cooling All In programme, glycol management; parent of CoolIT Systems",
+          "source": "https://www.ecolab.com/",
+          "evidence": "https://www.ecolab.com/en-us/pages/nwwt/liquid-cooling-all-in"
+        },
+        {
+          "name": "BOLLFILTER",
+          "hq": "DE",
+          "note": "Automatic backwash and duplex water filtration for data center cooling, from intake to CDU, protecting direct-to-chip microchannels",
+          "source": "https://www.bollfilter.com/",
+          "evidence": "https://www.bollfilter.com/applications/treatment-of-water-systems/data-centers"
+        },
+        {
+          "name": "Amiad",
+          "hq": "IL",
+          "note": "DATA Klin self-cleaning disc filtration for data center cooling towers and side-stream filtration protecting direct-to-chip heat exchangers",
+          "source": "https://www.amiad.com/",
+          "evidence": "https://datacentercoolingwater.amiad.com"
+        },
+        {
+          "name": "Mivolt (Shell)",
+          "hq": "GB",
+          "note": "Biodegradable dielectric ester fluids (MIVOLT range) for single-phase immersion cooling of data-centre servers, EV batteries and power electronics; sold to Shell Lubricants (completed Jan 2024)",
+          "source": "https://www.mivolt.com/",
+          "evidence": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/news-and-media-releases/2023/shell-lubricants-to-acquire-uk-based-midel-and-mivolt.html"
+        },
+        {
+          "name": "Oleon",
+          "hq": "BE",
+          "note": "Oleochemicals producer (Avril group) with QLOE plant-based dielectric liquids for single-phase server immersion cooling in AI/cloud/edge data centres; unveiled Nov 2024",
+          "source": "https://www.oleon.com/",
+          "evidence": "https://www.oleon.com/markets/server-immersion-cooling"
+        },
+        {
+          "name": "Perstorp",
+          "hq": "SE",
+          "note": "Specialty chemicals producer with Synmerse DC range of PFAS-free, biodegradable synthetic ester dielectric fluids for single-phase immersion cooling of AI/HPC data centres (DC, DC-L, DC-Lx, DC-R grades)",
+          "source": "https://www.perstorp.com/",
+          "evidence": "https://www.perstorp.com/en/products/engineered_fluids_solutions/thermal_management_fluids/innovative_solutions_for_data_center_cooling/immersion_cooling"
+        },
+        {
+          "name": "Synano",
+          "hq": "NL",
+          "note": "Nanofluid maker: NanoOil and NanoAdditives (alumina nanoparticles in dielectric oils) for single-phase immersion cooling of servers/GPUs; validation projects with Submer, GRC and Grundfos",
+          "source": "https://synano.eu/",
+          "evidence": "https://synano.eu"
+        },
+        {
+          "name": "Honeywell",
+          "hq": "US",
+          "note": "Solstice E-Cooling line of two-phase dielectric liquid heat transfer fluids for cooling high-performance electronics and data center servers, with ultra-low GWP",
+          "source": "https://www.honeywell.com/",
+          "evidence": "https://www.honeywell.com/us/en/news/press-releases/2020/02/honeywell-launches-innovative-cooling-technology-for-electronics-data-centers"
+        },
+        {
+          "name": "ExxonMobil",
+          "hq": "US",
+          "note": "EM DC series of PFAS-free dielectric immersion cooling fluids (single-phase) for AI/HPC and edge data centers; Intel Data Center Certified for Xeon; partners with UNICOM Engineering and Submer",
+          "source": "https://www.exxonmobilchemical.com/",
+          "evidence": "https://www.exxonmobilchemical.com/en/industries/industrial-applications/data-center-immersion-fluids"
+        },
+        {
+          "name": "FUCHS Lubricants",
+          "hq": "DE",
+          "note": "Produces the RENOLIN FECC line of single-phase immersion cooling fluids for data center immersion cooling systems",
+          "source": "https://www.fuchs.com/",
+          "evidence": "https://www.fuchs.com/us/en/single-phase-immersion-cooling-fluids"
+        },
+        {
+          "name": "Shell",
+          "hq": "GB",
+          "note": "Produces synthetic immersion cooling fluids made with gas-to-liquids technology for data centre immersion cooling systems",
+          "source": "https://www.shell.com/",
+          "evidence": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/liquid-cooling-fluids.html"
         }
       ]
     },
@@ -380,6 +1663,244 @@
           "hq": "SE",
           "note": "Brazed-plate heat exchangers, compact CDU-scale",
           "source": "https://www.swep.net/"
+        },
+        {
+          "name": "Kaori",
+          "hq": "TW",
+          "note": "Brazed plate heat exchanger maker with a data center cooling division; independently developed 800kW and KR1000 ~1MW-class in-row liquid-to-liquid CDUs for direct-to-chip racks; also supplies manifolds",
+          "source": "https://www.kaori.com.tw/",
+          "evidence": "https://heat-exchanger-world.com/kaori-develops-large-scale-in-row-800kw-l-l-cdu"
+        },
+        {
+          "name": "Panasonic",
+          "hq": "JP",
+          "note": "Liquid cooling systems for generative AI data centers in Europe, on order from March 2026: 400 kW and 800 kW CDUs with 1.2 MW-and-above models under development, plus free-cooling chillers",
+          "source": "https://www.panasonic.com/global/",
+          "evidence": "https://news.panasonic.com/global/press/en260304-2"
+        },
+        {
+          "name": "LG Electronics",
+          "hq": "KR",
+          "note": "Chip-to-chiller liquid cooling portfolio: a 600 kW CDU validated by NVIDIA in July 2026, cold plates and chillers, with 1 MW to 4 MW CDU models planned",
+          "source": "https://www.lg.com/",
+          "evidence": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "name": "AUTECH",
+          "hq": "KR",
+          "note": "HVAC group whose subsidiary AUTECH Carrier makes chillers and heat pump equipment serving data center cooling, including support of liquid cooling loops",
+          "source": "https://www.autechgroup.co.kr/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "Shinsung E&G",
+          "hq": "KR",
+          "note": "Cleanroom and precision cooling contractor supplying fan wall units (FWUs) and precision temperature-control solutions for AI data centers; air-side complement to liquid-cooled racks",
+          "source": "https://www.shinsungeng.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "CKY HVAC Engineering",
+          "hq": "TW",
+          "note": "Taiwan HVAC engineering firm for AI data centers: direct liquid cooling piping design, CDU selection and leak-prevention planning for 100 kW+ racks, plus chillers and cooling towers",
+          "source": "https://www.cky.com.tw/",
+          "evidence": "https://www.cky.com.tw/en/services/ai-datacenter"
+        },
+        {
+          "name": "SMC",
+          "hq": "JP",
+          "note": "Thermo-chillers incl. rack-mounted 19-inch units (HRR) and refrigerant-free HRW heat exchanger; data centers cited as use case",
+          "source": "https://www.smcusa.com/",
+          "evidence": "https://www.smcusa.com/products/industrial-chillers"
+        },
+        {
+          "name": "Tranter",
+          "hq": "US",
+          "note": "Gasketed plate heat exchangers (GT/AT series, Superchanger, Omniflex plates) for data center CDU liquid cooling, free cooling and heat recovery",
+          "source": "https://www.tranter.com/",
+          "evidence": "https://www.tranter.com/industries-applications/data-centers"
+        },
+        {
+          "name": "API Heat Transfer",
+          "hq": "US",
+          "note": "Data center liquid cooling heat exchangers: SIGMA M186 gasketed PHE (15 MW/unit), brazed plate, shell and tube, dry coolers for direct-to-chip, rear-door and immersion",
+          "source": "https://www.apiheattransfer.com/",
+          "evidence": "https://www.apiheattransfer.com/industry/data-centers"
+        },
+        {
+          "name": "Modexus Solutions (Airedale)",
+          "hq": "US",
+          "note": "Data center cooling: Airedale DCS chillers (TurboChill/DeltaChill/OptiChill), 1 MW coolant distribution units, chillers and fan walls for AI infrastructure",
+          "source": "https://www.airedale.com/",
+          "evidence": "https://www.airedale.com/products/dcs-chillers"
+        },
+        {
+          "name": "Gunter",
+          "hq": "DE",
+          "note": "High Density adiabatic dry coolers and VARIO dry coolers with hydroBLU pre-cooling for data centers; dedicated data centre division launched 2026",
+          "source": "https://guntner.com/",
+          "evidence": "https://guntner.com/en-us/applications/data-center"
+        },
+        {
+          "name": "MTA",
+          "hq": "IT",
+          "note": "Chillers for data centres: free-cooling and water-cooled units and heat recovery versions",
+          "source": "https://www.mta-it.com/",
+          "evidence": "https://www.mta-it.com/eng/applications/air-conditioning-systems/data-centers.php"
+        },
+        {
+          "name": "Funke",
+          "hq": "DE",
+          "note": "Plate, brazed plate and shell-and-tube heat exchangers for HVAC/cooling duty; FPC/FPQ gasketed PHEs AHRI-certified for liquid-to-liquid duty promoted for data centres",
+          "source": "https://www.funke.de/",
+          "evidence": "https://www.funke.de/en"
+        },
+        {
+          "name": "Valeo",
+          "hq": "FR",
+          "note": "Aluminium rear-door heat exchangers, direct-to-chip liquid cooling and immersion solutions for data centres, leveraging automotive thermal technology (OCP 2026)",
+          "source": "https://www.valeo.com/",
+          "evidence": "https://www.valeo.com/en/catalogue/ths/aluminium-rear-door-heat-exchange/"
+        },
+        {
+          "name": "Mitsubishi Electric",
+          "hq": "JP",
+          "note": "CritiCool data centre cooling: MECH-iC oil-free centrifugal chillers for warm-water operation, free-cooling air-cooled chillers, MEWALL thermal walls (Climaveneta/MEHITS)",
+          "source": "https://mitsubishicritical.com/",
+          "evidence": "https://mitsubishicritical.com/data-center-cooling-solutions"
+        },
+        {
+          "name": "GEA",
+          "hq": "DE",
+          "note": "BluAstrum/BluChiller ammonia chillers for data center cooling (e.g. Schwarz IT DC 10); natural-refrigerant heat rejection",
+          "source": "https://www.gea.com/",
+          "evidence": "https://www.gea.com/en/customer-cases/natural-cooling-schwarz-it-data-center"
+        },
+        {
+          "name": "Carrier",
+          "hq": "US",
+          "note": "QuantumLeap data center thermal management: AquaEdge/AquaForce chillers, Aero air handling, and Coolant Distribution Units for direct-to-chip cooling",
+          "source": "https://www.carrier.com/",
+          "evidence": "https://www.carrier.com/us/en/commercial/data-centers"
+        },
+        {
+          "name": "Super Radiator Coils",
+          "hq": "US",
+          "note": "Custom heating/cooling coils for data center electronics cooling, immersion cooling and liquid-to-air heat rejection; 5mm direct-to-chip fluid coil design",
+          "source": "https://www.superradiatorcoils.com/",
+          "evidence": "https://www.superradiatorcoils.com/industries/data-center-electronic-cooling"
+        },
+        {
+          "name": "Nautilus Data Technologies",
+          "hq": "US",
+          "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
+          "source": "https://nautilusdt.com/",
+          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+        },
+        {
+          "name": "AAON (BASX)",
+          "hq": "US",
+          "note": "Data center cooling equipment under its BASX brand: liquid-to-liquid and liquid-to-air CDUs, free-cooling chillers, CRAHs and fan walls, manufactured in Tulsa and Longview, Texas",
+          "source": "https://www.aaon.com/",
+          "evidence": "https://www.aaon.com/news/aaon-awarded-liquid-cooling-data-center-orders-totaling-approximately-174.5-million"
+        },
+        {
+          "name": "Lennox International",
+          "hq": "US",
+          "note": "Lennox Data Centre Solutions: PhaseFlow modular refrigerant-based heat rejection platform supporting single- and two-phase direct-to-chip loops; CRAHs, fan walls, CDUs and chillers (Apx DCS line)",
+          "source": "https://www.lennox.com/",
+          "evidence": "https://www.lennox.com/datacenters"
+        },
+        {
+          "name": "TAS Energy",
+          "hq": "US",
+          "note": "Modular cooling units and modular chilled-water plants for data centers (few MW to hundreds of MW) housing pumps, heat exchangers, controls; also markets modular data centers",
+          "source": "https://tas.com/",
+          "evidence": "https://tas.com/modular-cooling-units"
+        },
+        {
+          "name": "Aspen Systems",
+          "hq": "US",
+          "note": "Custom compact chillers and liquid cooling for electronics: liquid chiller modules (600-1400W), 2U cold-plate cooling systems, direct refrigerant chip cooling for AI, defense and medical applications",
+          "source": "https://aspensystems.com/",
+          "evidence": "https://aspensystems.com"
+        },
+        {
+          "name": "Smardt",
+          "hq": "CA",
+          "note": "Oil-free magnetic-bearing centrifugal chillers plus data center product line including chilled-water fan walls, CRAH/CRAC units and coolant distribution units (300-2,500 kW)",
+          "source": "https://www.smardt.com/",
+          "evidence": "https://www.smardt.com"
+        },
+        {
+          "name": "Multistack",
+          "hq": "US",
+          "note": "Modular oil-free magnetic-bearing (MagLev) chillers, 60-1,400 tons water-cooled and 60-300 tons air-cooled, with N+1 modular redundancy and free-cooling options used in data center heat rejection loops",
+          "source": "https://www.multistack.com/",
+          "evidence": "https://www.multistack.com"
+        },
+        {
+          "name": "Mokon",
+          "hq": "US",
+          "note": "Chillers, circulating water and process cooling systems for data center cooling loops; publishes guidance on chillers regulating data center temperatures including liquid cooling loops",
+          "source": "https://www.mokon.com/",
+          "evidence": "https://blog.mokon.com/what-role-do-chillers-and-cooling-systems-play-in-regulating-data-center-temperatures"
+        },
+        {
+          "name": "Canatal",
+          "hq": "CN",
+          "note": "Data-center environmental control specialist offering cold-plate liquid cooling systems built around coolant distribution units in rack-level, in-row and room-level formats",
+          "source": "https://www.canatal.com.cn",
+          "evidence": "https://www.canatal.com.cn/products_details/80.html"
+        },
+        {
+          "name": "Seagull",
+          "hq": "CN",
+          "note": "Builds industrial cooling towers and closed-circuit coolers, including towers supplied for data-center cooling applications",
+          "source": "https://www.seagull-ct.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-09-01/1225537491.PDF"
+        },
+        {
+          "name": "Tongfei",
+          "hq": "CN",
+          "note": "Industrial temperature-control maker offering data-center liquid cooling products including in-row and in-rack CDUs, manifolds, immersion tanks, dry coolers and modular container data centers",
+          "source": "https://www.tfzl.com",
+          "evidence": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "Yinlun",
+          "hq": "CN",
+          "note": "Supplies liquid-cooling module components for data centers, including server chip cold plates, CDU plate heat exchangers and primary-side cooling tower, dry cooler and chiller heat exchangers",
+          "source": "https://www.yinlun.cn",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "name": "Hongsheng",
+          "hq": "CN",
+          "note": "Builds aluminum plate-fin heat exchangers for compressor and machinery markets, including exchangers supplied into data-center liquid cooling",
+          "source": "https://www.hs-exchanger.com",
+          "evidence": "http://static.cninfo.com.cn/finalpage/2026-09-16/1225566282.PDF"
+        },
+        {
+          "name": "SuperX",
+          "hq": "SG",
+          "note": "Offers the CryoPod modular cooling enclosure that integrates a liquid cooling CDU, circulation pumps and dry air cooler for AI data centers",
+          "source": "https://www.superx.sg/",
+          "evidence": "https://www.superx.sg/products/cryopod"
+        },
+        {
+          "name": "USystems",
+          "hq": "GB",
+          "note": "Makes ColdLogik rear door heat exchangers and matching coolant distribution units for data center racks, now a brand of Legrand",
+          "source": "https://www.usystems.com/",
+          "evidence": "https://www.usystems.com/all-products/rear-door-heat-exchangers"
+        },
+        {
+          "name": "Blue Star",
+          "hq": "IN",
+          "note": "Makes data centre chillers with rapid-restart features and supplies cooling and MEP integration for data centre projects",
+          "source": "https://www.bluestarindia.com/",
+          "evidence": "https://resources.bluestarindia.com/Data_Center_Chiller_08253e9925.pdf"
         }
       ]
     },
@@ -423,6 +1944,244 @@
           "hq": "FR",
           "note": "Liquid leak-detection cable systems for racks and rooms",
           "source": "https://www.ttk.co.uk/"
+        },
+        {
+          "name": "Sunon",
+          "hq": "TW",
+          "note": "Cooling fan maker with end-to-end liquid cooling line: CPU/DIMM cold plates (incl. 3D-printed with 3D Architech), 200kW L2L 5U in-rack CDU, L2A CDUs; NVIDIA MGX ecosystem partner",
+          "source": "https://www.sunonusa.com/",
+          "evidence": "https://www.sunonusa.com/showcasing-liquid-cooling-solutions-for-next-generation-ai-computing"
+        },
+        {
+          "name": "BizLink",
+          "hq": "TW",
+          "note": "Interconnect group showing liquid cooling solutions at OCP: liquid-cooled 1.6T OSFP cages, rack management controllers with daisy-chain leak detection, integrated liquid-cooled power for MGX racks",
+          "source": "https://www.bizlinktech.com/",
+          "evidence": "https://www.bizlinktech.com/news/bizlink-showcases-power-connectivity-and-liquid-cooling-solutions-for-ai-data-centers-at-ocp-global-summit-2026"
+        },
+        {
+          "name": "Cryomax Cooling System",
+          "hq": "TW",
+          "note": "Vehicle radiator maker (since 1984) with an AI Server Cooling Solutions line; applies radiator/plate heat exchanger know-how to server CDU products; water-cooling parts shipped from Oct 2025 per media",
+          "source": "https://www.cryomaxcooling.com/",
+          "evidence": "https://www.cryomaxcooling.com"
+        },
+        {
+          "name": "Nidec",
+          "hq": "JP",
+          "note": "Liquid cooling supplier with a 2 MW Project Deschutes CDU built to the Google OCP spec, 300 kW in-rack CDUs, in-row CDUs under the US MOTORS brand, manifolds and quick disconnects",
+          "source": "https://www.nidec.com/",
+          "evidence": "https://www.mynewsdesk.com/us/nidec/pressreleases/nidec-develops-liquid-cooling-cdu-prototype-based-on-google-ocp-specification-3419672"
+        },
+        {
+          "name": "Ebara",
+          "hq": "JP",
+          "note": "Pump maker with a data center cooling portfolio: seal-less canned pumps for CDUs, in-row cooling and immersion loops, plus chilled-water and condenser pumps",
+          "source": "https://www.pumpsebara.com/",
+          "evidence": "https://www.pumpsebara.com/data-center-cooling"
+        },
+        {
+          "name": "Iwaki",
+          "hq": "JP",
+          "note": "Magnetic drive pump maker; data center pump solutions page covers sealless mag-drive pumps (MD/WMD, MX(F), MDM) for CDU and rack-level liquid cooling, chiller loops and heat exchangers",
+          "source": "https://iwakiamerica.com/",
+          "evidence": "https://iwakiamerica.com/applications/data-center-pump-solutions"
+        },
+        {
+          "name": "Azbil",
+          "hq": "JP",
+          "note": "Instrumentation and control maker; HPQ-D optical leak detection sensor line for data center liquid cooling systems, targeting non-conductive fluids in immersion cooling; flow meters and control valves for coolant loops",
+          "source": "https://aa-industrial.azbil.com/",
+          "evidence": "https://aa-industrial.azbil.com/aeu/solution/document/AEF-0001-00"
+        },
+        {
+          "name": "Hanon Systems",
+          "hq": "KR",
+          "note": "Automotive thermal management supplier entering data center cooling with precision heat distribution modules and direct-acting motor valves for liquid cooling loops; at RFQ stage per trade press",
+          "source": "https://www.hanonsystems.com/",
+          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "name": "TE Connectivity",
+          "hq": "IE",
+          "note": "Data-center liquid cooling sensors (pressure, temperature, liquid level) plus liquid cooling power/connectivity portfolio",
+          "source": "https://www.te.com/",
+          "evidence": "https://www.te.com/en/industries/data-centers-ai/applications/sensors-in-data-center-liquid-cooling.html"
+        },
+        {
+          "name": "Molex",
+          "hq": "US",
+          "note": "OCP-compliant liquid cooling interfaces, liquid-cooled busbars, cold plate cages, leak-detection cables for AI data centers",
+          "source": "https://www.molex.com/",
+          "evidence": "https://www.molex.com/en-us/industries-applications/data-center-thermal-management"
+        },
+        {
+          "name": "SMC",
+          "hq": "JP",
+          "note": "Thermo-chillers incl. rack-mounted 19-inch units (HRR) and refrigerant-free HRW heat exchanger; data centers cited as use case",
+          "source": "https://www.smcusa.com/",
+          "evidence": "https://www.smcusa.com/products/industrial-chillers"
+        },
+        {
+          "name": "Advanced Thermal Solutions",
+          "hq": "US",
+          "note": "Liquid cooling catalogue: CDUs (CDU-X 4 MW), ArctiQ direct-to-chip cold plates, heat exchangers, chillers, flow meters, leak detectors",
+          "source": "https://www.qats.com/",
+          "evidence": "https://www.qats.com/Products/Liquid-Cooling"
+        },
+        {
+          "name": "STILONN",
+          "hq": "IN",
+          "note": "Stainless steel valves (ball, butterfly, balancing, control, quick shut-off) and couplings for CDUs and rack liquid cooling",
+          "source": "https://www.stilonn.com/",
+          "evidence": "https://www.stilonn.com/data-center-liquid-cooling-valves"
+        },
+        {
+          "name": "Victaulic",
+          "hq": "US",
+          "note": "Grooved piping systems for data centers: Liquid-To-Rack header modules, technical cooling equipment modules, Series 250 butterfly valves, valve trains",
+          "source": "https://www.victaulic.com/",
+          "evidence": "https://www.victaulic.com/mission-critical/data-centers"
+        },
+        {
+          "name": "Swagelok",
+          "hq": "US",
+          "note": "Stainless tube fittings, valves (isolation, balancing, control) and tubing for data center liquid cooling drops and CDU fluid systems",
+          "source": "https://www.swagelok.com/",
+          "evidence": "https://pittsburgh.swagelok.com/en/industries/data-centers"
+        },
+        {
+          "name": "ASC Engineered Solutions",
+          "hq": "US",
+          "note": "Pipe joining systems for data centers under Anvil, Gruvlok, SCI, Sharpe and ABZ brands: grooved couplings, fittings, valves, hangers and seismic bracing",
+          "source": "https://asc-es.com/",
+          "evidence": "https://asc-es.com/solutions/data-centers"
+        },
+        {
+          "name": "NIBCO",
+          "hq": "US",
+          "note": "Valves, fittings and hydronic components for data center cooling systems; new liquid-cooling portfolio (stainless and copper ball valves)",
+          "source": "https://www.nibco.com/",
+          "evidence": "https://blog.nibco.com/building-reliability-simplifying-liquid-cooling-for-the-next-generation-of-data-centers"
+        },
+        {
+          "name": "KSB",
+          "hq": "DE",
+          "note": "Data centre pumps and valves: EtaSeco canned-motor pump for CDU liquid cooling, BOA-Systronic ePIC control valves, BOAX-S/SF butterfly valves, PumpDrive",
+          "source": "https://www.ksb.com/",
+          "evidence": "https://www.ksb.com/en-nl/solutions/data-centres"
+        },
+        {
+          "name": "Armstrong Fluid Technology",
+          "hq": "CA",
+          "note": "Design Envelope pumps and EVERCOOL integrated automation for data center cooling; permanent-magnet motor pumps for high-head direct-to-chip liquid cooling",
+          "source": "https://armstrongfluidtechnology.com/",
+          "evidence": "https://armstrongfluidtechnology.com/en/datacenter"
+        },
+        {
+          "name": "API Heat Transfer",
+          "hq": "US",
+          "note": "Data center liquid cooling heat exchangers: SIGMA M186 gasketed PHE (15 MW/unit), brazed plate, shell and tube, dry coolers for direct-to-chip, rear-door and immersion",
+          "source": "https://www.apiheattransfer.com/",
+          "evidence": "https://www.apiheattransfer.com/industry/data-centers"
+        },
+        {
+          "name": "Belimo",
+          "hq": "CH",
+          "note": "Data center cooling valves, actuators, sensors and meters: Energy Valve, EPIV, characterized control valves for CDU, cold plate, rear-door and immersion loops",
+          "source": "https://www.belimo.com/",
+          "evidence": "https://www.belimo.com/us/en_US/products/solutions/data-center-cooling"
+        },
+        {
+          "name": "WIKA",
+          "hq": "DE",
+          "note": "Data centre cooling sensors: pressure (R-1), flow switches (FSD-4), duct sensors (A2G-70), TR33 thermometers for CDU and CRAC/chiller monitoring",
+          "source": "https://www.wika.com/",
+          "evidence": "https://www.wika.com/en-en/cooling_systems_for_data_centres.WIKA"
+        },
+        {
+          "name": "Vaisala",
+          "hq": "FI",
+          "note": "Humidity, dew point and temperature transmitters (Origo10, HUMICAP, DMP6) and monitoring for data center cooling and ASHRAE envelopes",
+          "source": "https://www.vaisala.com/",
+          "evidence": "https://www.vaisala.com/en/industries-applications/hvac-measurement/data-centers"
+        },
+        {
+          "name": "RLE Technologies (Parameter)",
+          "hq": "US",
+          "note": "Leak detection for data centers: XD Series modular platform purpose-built for liquid-cooled AI data centers; LD Series sensing cable and spot sensors",
+          "source": "https://parameter-tech.com/",
+          "evidence": "https://parameter-tech.com/rle-leak-detection"
+        },
+        {
+          "name": "Valeo",
+          "hq": "FR",
+          "note": "Aluminium rear-door heat exchangers, direct-to-chip liquid cooling and immersion solutions for data centres, leveraging automotive thermal technology (OCP 2026)",
+          "source": "https://www.valeo.com/",
+          "evidence": "https://www.valeo.com/en/catalogue/ths/aluminium-rear-door-heat-exchange/"
+        },
+        {
+          "name": "HYDAC",
+          "hq": "DE",
+          "note": "Data centre solutions: COOLTECH cooling and CDUs, cooling water and coolant filtration, fluid condition monitoring, cooler-filter-tank units",
+          "source": "https://www.hydac.com/",
+          "evidence": "https://www.hydac.com/en/industry-solutions/data-centre"
+        },
+        {
+          "name": "BOLLFILTER",
+          "hq": "DE",
+          "note": "Automatic backwash and duplex water filtration for data center cooling, from intake to CDU, protecting direct-to-chip microchannels",
+          "source": "https://www.bollfilter.com/",
+          "evidence": "https://www.bollfilter.com/applications/treatment-of-water-systems/data-centers"
+        },
+        {
+          "name": "Emerson",
+          "hq": "US",
+          "note": "Fisher control valves, butterfly/ball valves and actuators for data center cooling, power and water systems",
+          "source": "https://www.emerson.com/",
+          "evidence": "https://www.emerson.com/en/final-control/catalog/solutions/common-applications/data-center-valves"
+        },
+        {
+          "name": "Super Radiator Coils",
+          "hq": "US",
+          "note": "Custom heating/cooling coils for data center electronics cooling, immersion cooling and liquid-to-air heat rejection; 5mm direct-to-chip fluid coil design",
+          "source": "https://www.superradiatorcoils.com/",
+          "evidence": "https://www.superradiatorcoils.com/industries/data-center-electronic-cooling"
+        },
+        {
+          "name": "Advanced Cooling Technologies",
+          "hq": "US",
+          "note": "Data center solutions: CDUs, single- and two-phase liquid cold plates, manifolds, pumped two-phase systems, liquid-air heat exchangers, Tekgard chillers",
+          "source": "https://www.1-act.com/",
+          "evidence": "https://www.1-act.com"
+        },
+        {
+          "name": "Burkert",
+          "hq": "DE",
+          "note": "Control valves, angle-seat valves, valve islands, FLOWave flowmeters and analysis for CDUs, manifolds, rear-door heat exchangers and direct-to-chip loops",
+          "source": "https://www.burkert-usa.com/",
+          "evidence": "https://www.burkert-usa.com/en/industries-solutions/solutions/applications/data-center-cooling-applications"
+        },
+        {
+          "name": "Endress+Hauser",
+          "hq": "CH",
+          "note": "Flow, temperature, pressure and liquid-analysis instrumentation for data center cooling optimization and CDU loops (Picomag, Proline)",
+          "source": "https://www.endress.com/",
+          "evidence": "https://www.endress.com/en/industry-expertise/power-energy/data-center-cooling-optimization-infrastructure-efficiency"
+        },
+        {
+          "name": "Feilong",
+          "hq": "CN",
+          "note": "Automotive thermal management maker supplying liquid cooling pumps used in server and data-center (IDC) liquid cooling, run on several dedicated pump lines",
+          "source": "https://www.flacc.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225041052.PDF"
+        },
+        {
+          "name": "DAYUAN",
+          "hq": "CN",
+          "note": "Makes Xinhu-brand shield canned-motor liquid cooling pumps for data-center and AI computing cooling loops, with 7.5 kW to 37 kW models in batch production and a 37 kW CDU main pump",
+          "source": "https://www.dayuan.com",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225160127.PDF"
         }
       ]
     },
@@ -472,6 +2231,258 @@
           "hq": "US",
           "note": "Chiller plant side of L2L deployments",
           "source": "https://www.trane.com/"
+        },
+        {
+          "name": "Advantech",
+          "hq": "TW",
+          "note": "Industrial computing and IoT platform maker; SKYRack integrated liquid cooling infrastructure for 50 kW+ racks, direct-to-chip cooling integrated with partner KEMMEC, IoT thermal monitoring",
+          "source": "https://www.advantech.com/",
+          "evidence": "https://www.advantech.com.cn/en-us/resources/news/advantech-showcases-skyrack-semi--skyrack-ai-at-computex-to-accelerate-enterprise-ai-deployment-with-high-perf-computing-and-integrated-architecture"
+        },
+        {
+          "name": "Wistron",
+          "hq": "TW",
+          "note": "AI server ODM; liquid cooling pursued through affiliate Wiwynn and a stake in liquid cooling integrator ToneCooling",
+          "source": "https://www.wistron.com/",
+          "evidence": "https://news.cnyes.com/news/id/6311694"
+        },
+        {
+          "name": "ToneCooling",
+          "hq": "TW",
+          "note": "Liquid cooling systems and components maker founded in 2022: cold plates, CDUs, manifolds, rear-door heat exchangers, sidecars and coolant, with integration projects in Taiwan",
+          "source": "https://www.tonecooling.com/",
+          "evidence": "https://news.cnyes.com/news/id/6311694"
+        },
+        {
+          "name": "Panasonic",
+          "hq": "JP",
+          "note": "Liquid cooling systems for generative AI data centers in Europe, on order from March 2026: 400 kW and 800 kW CDUs with 1.2 MW-and-above models under development, plus free-cooling chillers",
+          "source": "https://www.panasonic.com/global/",
+          "evidence": "https://news.panasonic.com/global/press/en260304-2"
+        },
+        {
+          "name": "LG Electronics",
+          "hq": "KR",
+          "note": "Chip-to-chiller liquid cooling portfolio: a 600 kW CDU validated by NVIDIA in July 2026, cold plates and chillers, with 1 MW to 4 MW CDU models planned",
+          "source": "https://www.lg.com/",
+          "evidence": "https://www.lg.com/global/newsroom/news/eco-solution/lg-electronics-earns-nvidia-ai-factory-validation-for-its-600kw-coolant-distribution-unit"
+        },
+        {
+          "name": "PKI",
+          "hq": "KR",
+          "note": "LiquidStack's Korea partner; builds direct liquid cooling and single/two-phase immersion systems with CDUs, tanks, piping, quick couplings, fluids and monitoring",
+          "source": "http://www.e-pki.com/",
+          "evidence": "https://www.hvacrj.co.kr/news/articleView.html?idxno=30396"
+        },
+        {
+          "name": "Chunghwa System Integration",
+          "hq": "TW",
+          "note": "Chunghwa Telecom subsidiary that built and integrated a water-cooled data center in Kaohsiung with Supermicro (cold plates, CDUs, cooling distribution modules, cooling towers)",
+          "source": "https://www.ch-si.com.tw/",
+          "evidence": "https://www.ch-si.com.tw/news20240605"
+        },
+        {
+          "name": "CKY HVAC Engineering",
+          "hq": "TW",
+          "note": "Taiwan HVAC engineering firm for AI data centers: direct liquid cooling piping design, CDU selection and leak-prevention planning for 100 kW+ racks, plus chillers and cooling towers",
+          "source": "https://www.cky.com.tw/",
+          "evidence": "https://www.cky.com.tw/en/services/ai-datacenter"
+        },
+        {
+          "name": "Armstrong Fluid Technology",
+          "hq": "CA",
+          "note": "Design Envelope pumps and EVERCOOL integrated automation for data center cooling; permanent-magnet motor pumps for high-head direct-to-chip liquid cooling",
+          "source": "https://armstrongfluidtechnology.com/",
+          "evidence": "https://armstrongfluidtechnology.com/en/datacenter"
+        },
+        {
+          "name": "Comfort Systems USA",
+          "hq": "US",
+          "note": "MEP contractor (NYSE: FIX) offering modular off-site construction products including Immersion Cooling units and central plants for data centers",
+          "source": "https://comfortsystemsusa.com/",
+          "evidence": "https://comfortsystemsusa.com/what-we-do/modular-construction/off-site-construction-products"
+        },
+        {
+          "name": "PurgeRite",
+          "hq": "US",
+          "note": "Liquid cooling fluid management specialist (mechanical flushing, purging, filtration, commissioning), a Vertiv subsidiary since December 2025",
+          "source": "https://purgerite.com/",
+          "evidence": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-completes-acquisition-of-purgerite-expanding-leadership-in-liquid-cooling-services/"
+        },
+        {
+          "name": "Nor-Tech",
+          "hq": "US",
+          "note": "Minnesota HPC integrator delivering liquid-cooled server solutions for AI and HPC with ~3 decades of integration expertise",
+          "source": "https://nor-tech.com/",
+          "evidence": "https://nor-tech.com/liquid_cooled/"
+        },
+        {
+          "name": "Exxact Corporation",
+          "hq": "US",
+          "note": "GPU workstation/server integrator offering liquid-cooled AI development platforms (TensorEX rackmount workstations with NVIDIA data-center GPUs)",
+          "source": "https://www.exxactcorp.com/",
+          "evidence": "https://www.exxactcorp.com/News-Events/Exxact-Corporation-Offers-Liquid-Cooled-AI-Development-Platform/"
+        },
+        {
+          "name": "Penguin Solutions",
+          "hq": "US",
+          "note": "HPC/AI infrastructure provider (ex-Penguin Computing) designing data centers with liquid cooling and liquid immersion; Shell Houston immersion deployment",
+          "source": "https://www.penguinsolutions.com/",
+          "evidence": "https://www.penguinsolutions.com/en-us/expertise/data-center-power-cooling/"
+        },
+        {
+          "name": "Iceotope",
+          "hq": "GB",
+          "note": "Chassis-level precision liquid cooling for AI/HPC servers (KoolFlow-style sealed liquid cooling); OEM/ODM co-design and IP licensing, edge reference designs",
+          "source": "https://www.iceotope.com/",
+          "evidence": "https://www.iceotope.com/company/news"
+        },
+        {
+          "name": "Cloud&Heat Technologies",
+          "hq": "DE",
+          "note": "Supplies direct water-cooled server hardware, liquid cooling manifolds, installation and heat-reuse integration for data centres; consultancy and load-bank rental",
+          "source": "https://www.cloudandheat.com/",
+          "evidence": "https://www.cloudandheat.com/en/products/energy-efficient-data-centres/liquid-cooling-in-the-data-centre"
+        },
+        {
+          "name": "ST Engineering",
+          "hq": "SG",
+          "note": "Airbitat DC Cooling System (liquid cooling via multi-stage cold water generation, evaporative pre-cooling) for tropical data centres; deploying liquid and immersion cooling at its Jalan Boon Lay AI DC",
+          "source": "https://www.stengg.com/",
+          "evidence": "https://www.stengg.com/en/innovation/innovation-stories/the-key-to-greener-data-centres"
+        },
+        {
+          "name": "E4 Computer Engineering",
+          "hq": "IT",
+          "note": "Italian HPC/AI integrator building liquid-cooled supercomputers (D.A.V.I.D.E. at CINECA with Asetek RackCDU D2C; two-phase liquid-cooled servers from EU Textarossa project)",
+          "source": "https://www.e4company.com/",
+          "evidence": "https://www.e4company.com/en/2023/06/hpc-energetic-efficiency-liquid-cooling-server-isc-2023"
+        },
+        {
+          "name": "Boston Limited",
+          "hq": "GB",
+          "note": "UK server solutions provider with GlacierCore CDU line (1100-1220 series), liquid and immersion cooling solutions; cooling partners Castrol ON, LM TEK, Submer, Supermicro, ZutaCore",
+          "source": "https://boston.co.uk/",
+          "evidence": "https://boston.co.uk/solutions/liquid-cooling"
+        },
+        {
+          "name": "Legrand",
+          "hq": "FR",
+          "note": "Electrical/infrastructure group with data-centre cooling via Minkels row-based coolers and USystems rear-door heat exchangers (CL20/CL21/CL23) for high-density and HPC",
+          "source": "https://www.legrand.com/",
+          "evidence": "https://www.legrand.com/datacenter/de-en/white-space/cooling"
+        },
+        {
+          "name": "Sudlows (Kent Data Centres)",
+          "hq": "GB",
+          "note": "UK data center design and build consultancy; deployment partner for NTT's production immersion and direct contact liquid cooling rollout in India",
+          "source": "https://www.sudlows.com/",
+          "evidence": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
+        },
+        {
+          "name": "TAS Energy",
+          "hq": "US",
+          "note": "Modular cooling units and modular chilled-water plants for data centers (few MW to hundreds of MW) housing pumps, heat exchangers, controls; also markets modular data centers",
+          "source": "https://tas.com/",
+          "evidence": "https://tas.com/modular-cooling-units"
+        },
+        {
+          "name": "Jabil",
+          "hq": "US",
+          "note": "Electronics manufacturer integrating liquid cooling at rack level for AI data centers: microchannel cold plates (via Mikros), CDUs, manifolds and liquid-cooled switch integration",
+          "source": "https://www.jabil.com/",
+          "evidence": "https://www.jabil.com/industries/data-center/data-center-infrastructure.html"
+        },
+        {
+          "name": "Sanmina",
+          "hq": "US",
+          "note": "Electronics manufacturer; acquired ZT Systems' data center infrastructure manufacturing business from AMD (closed October 2025), adding liquid-cooled rack integration plants in New Jersey and Texas",
+          "source": "https://www.sanmina.com/",
+          "evidence": "https://ztsystems.com/sanmina-completes-acquisition-of-zt-systems-data-center-infrastructure-manufacturing-business-from-amd"
+        },
+        {
+          "name": "Hyve Solutions",
+          "hq": "US",
+          "note": "Designs, integrates and thermally validates rack-scale direct liquid cooling for hyperscale AI/HPC; complete wet-or-dry liquid-cooled rack systems built and tested under one roof",
+          "source": "https://www.hyvesolutions.com/",
+          "evidence": "https://www.hyvesolutions.com/services/liquid-cooling"
+        },
+        {
+          "name": "AHEAD",
+          "hq": "US",
+          "note": "Enterprise AI integrator that builds, tests and deploys direct-to-chip liquid-cooled racks (40-100 kW+) with a dedicated liquid cooling practice",
+          "source": "https://www.ahead.com/",
+          "evidence": "https://www.ahead.com/liquid-cooling"
+        },
+        {
+          "name": "Rahi Systems",
+          "hq": "US",
+          "note": "Global data center solutions integrator; delivers liquid cooling turnkey solutions including ColdLogik rear-door heat exchangers (200kW+ per rack) for hyperscale and colocation customers",
+          "source": "https://rahisystems.com/",
+          "evidence": "https://www.usystems.com/knowledge-hub-posts/usystems-and-rahi-partner-to-deliver-to-the-global-data-center-market"
+        },
+        {
+          "name": "Axiom Solutions International",
+          "hq": "US",
+          "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
+          "source": "https://www.axiom.com/",
+          "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+        },
+        {
+          "name": "NextGenergy",
+          "hq": "CA",
+          "note": "Prefabricated liquid cooling for AI data halls: factory-built skids, ORv3 racks, CDUs and cooling plant plus commissioning and liquid-loop field services; team previously delivered ~1,000 MW of liquid cooling",
+          "source": "https://nextgenergy.ai/",
+          "evidence": "https://nextgenergy.ai/company/about"
+        },
+        {
+          "name": "GDT (General Datatech)",
+          "hq": "US",
+          "note": "Network and AI infrastructure integrator; readies AI data center sites coordinating space, power, liquid cooling and cabling for neoclouds and hyperscalers; hires dedicated data center liquid cooling field staff",
+          "source": "https://gdt.com/",
+          "evidence": "https://gdt.com/industries/neoclouds-hyperscalers"
+        },
+        {
+          "name": "UNICOM Engineering",
+          "hq": "US",
+          "note": "OEM integration partner: builds liquid- and immersion-cooled platforms with GRC (immersion-cooled AI solutions) and Fourier Cooling/Nexalus for liquid-cooled edge and modular AI data centers",
+          "source": "https://www.unicomengineering.com/",
+          "evidence": "https://www.unicomengineering.com"
+        },
+        {
+          "name": "World Wide Technology",
+          "hq": "US",
+          "note": "Technology integrator researching and deploying AI data center liquid cooling (direct-to-chip, immersion) and water-efficiency solutions through its Advanced Technology Center labs and services practice",
+          "source": "https://www.wwt.com/",
+          "evidence": "https://www.wwt.com/blog/the-overlooked-water-challenge-in-the-age-of-ai"
+        },
+        {
+          "name": "Canatal",
+          "hq": "CN",
+          "note": "Data-center environmental control specialist offering cold-plate liquid cooling systems built around coolant distribution units in rack-level, in-row and room-level formats",
+          "source": "https://www.canatal.com.cn",
+          "evidence": "https://www.canatal.com.cn/products_details/80.html"
+        },
+        {
+          "name": "Transtrue",
+          "hq": "CN",
+          "note": "Data-center construction firm promoting pump-driven two-phase cold-plate liquid cooling for AI computing centers and co-developed two-phase liquid-cooled servers",
+          "source": "https://www.bjzst.cn",
+          "evidence": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "name": "NESIC",
+          "hq": "JP",
+          "note": "Telecom system integrator running demonstration deployments of immersion cooling and two-phase direct-to-chip liquid cooling for data centers",
+          "source": "https://www.nesic.co.jp/",
+          "evidence": "https://www.nesic.co.jp/english/index.html"
+        },
+        {
+          "name": "Blue Star",
+          "hq": "IN",
+          "note": "Makes data centre chillers with rapid-restart features and supplies cooling and MEP integration for data centre projects",
+          "source": "https://www.bluestarindia.com/",
+          "evidence": "https://resources.bluestarindia.com/Data_Center_Chiller_08253e9925.pdf"
         }
       ]
     },
@@ -515,13 +2526,62 @@
           "hq": null,
           "note": "Publisher of this guide. 20-50 kW L2A closed-loop cabinets for hospitals, campuses and edge sites (ORv3 blind-mate + UQD); listed here under the same rules as everyone else. Pre-product: targets published, demo unit in build, no compliance claims made",
           "source": "https://friovia.com"
+        },
+        {
+          "name": "Mitsubishi Heavy Industries",
+          "hq": "JP",
+          "note": "Container-type data centers combining immersion, air and water cooling, including a 12 ft 40 kVA-class unit and a container immersion program with KDDI and NESIC since 2021",
+          "source": "https://www.mhi.com/",
+          "evidence": "https://www.mhi.com/news/231004.html"
+        },
+        {
+          "name": "Telehouse (KDDI)",
+          "hq": "JP",
+          "note": "KDDI colocation operator; launched liquid cooling lab at Telehouse South London with JetCool and deployed direct liquid-to-chip cooling across Toronto campus",
+          "source": "https://www.telehouse.net/",
+          "evidence": "https://www.telehouse.net/news/telehouse-launches-pioneering-liquid-cooling-lab/"
+        },
+        {
+          "name": "Nautilus Data Technologies",
+          "hq": "US",
+          "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
+          "source": "https://nautilusdt.com/",
+          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+        },
+        {
+          "name": "Axiom Solutions International",
+          "hq": "US",
+          "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
+          "source": "https://www.axiom.com/",
+          "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+        },
+        {
+          "name": "Tongfei",
+          "hq": "CN",
+          "note": "Industrial temperature-control maker offering data-center liquid cooling products including in-row and in-rack CDUs, manifolds, immersion tanks, dry coolers and modular container data centers",
+          "source": "https://www.tfzl.com",
+          "evidence": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "WoodenDataCenter",
+          "hq": "DE",
+          "note": "Builds wooden micro and edge data centers and racks that integrate liquid cooling for on-site IT deployments",
+          "source": "https://woodendatacenter.com/",
+          "evidence": "https://woodendatacenter.com"
+        },
+        {
+          "name": "Exascale Labs",
+          "hq": "US",
+          "note": "Offers AI-ready modular data centers that pre-integrate liquid cooling with power and networking in factory-built containers",
+          "source": "https://www.exascalelabs.ai/",
+          "evidence": "https://www.nasdaq.com/press-release/exascale-labs-and-compal-electronics-showcase-integrated-ai-infrastructure-solution"
         }
       ]
     },
     {
       "id": "solutions",
       "label": "Solutions & engineering (non-equipment)",
-      "note": "The non-equipment layer: design institutes, EPC/engineering consultancies, simulation software and certification — plus solution providers who assemble whole liquid-cooling plants across other vendors' hardware.",
+      "note": "The non-equipment layer: design institutes, EPC/engineering consultancies and certification — plus solution providers who assemble whole liquid-cooling plants across other vendors' hardware.",
       "companies": [
         {
           "name": "Sugon DataEnergy",
@@ -548,6 +2608,132 @@
           "source": "https://www.jacobs.com/"
         },
         {
+          "name": "Uptime Institute",
+          "hq": "US",
+          "note": "Tier certification and data center consulting — independent of every equipment vendor above",
+          "source": "https://uptimeinstitute.com/"
+        },
+        {
+          "name": "Stantec",
+          "hq": "CA",
+          "note": "Global engineering firm with a data center design practice covering liquid cooling for AI-driven heat loads",
+          "source": "https://www.stantec.com/",
+          "evidence": "https://www.stantec.com/uk/ideas/content/blog/2026/liquid-cooling-data-centers-key-to-meeting-ai-driven-heat-demands.html"
+        },
+        {
+          "name": "Burns & McDonnell",
+          "hq": "US",
+          "note": "US engineering/construction firm designing data centers with advanced thermal management including liquid cooling; published liquid cooling white paper",
+          "source": "https://www.burnsmcd.com/",
+          "evidence": "https://www.burnsmcd.com/services/buildings/mission-critical-buildings/data-centers-switch-centers"
+        },
+        {
+          "name": "HITT Contracting",
+          "hq": "US",
+          "note": "US contractor building data centers with liquid cooling; retrofitted an operational Santa Clara data center with 4.5MW of liquid cooling",
+          "source": "https://www.hitt-gc.com/",
+          "evidence": "https://www.hitt.com/news-hub/future-data-center-construction-liquid-cooling"
+        },
+        {
+          "name": "Comfort Systems USA",
+          "hq": "US",
+          "note": "MEP contractor (NYSE: FIX) offering modular off-site construction products including Immersion Cooling units and central plants for data centers",
+          "source": "https://comfortsystemsusa.com/",
+          "evidence": "https://comfortsystemsusa.com/what-we-do/modular-construction/off-site-construction-products"
+        },
+        {
+          "name": "Southland Industries",
+          "hq": "US",
+          "note": "US MEP firm building AI/hyperscale data centers with direct-to-chip liquid cooling and proprietary liquid-cooled rack systems for data vaults",
+          "source": "https://southlandind.com/",
+          "evidence": "https://southlandind.com/expertise/markets/data-centers"
+        },
+        {
+          "name": "RED Engineering Design",
+          "hq": "GB",
+          "note": "UK data centre engineering consultancy with stated liquid cooling expertise; immersion cooling feasibility studies and 40MW Johor hybrid liquid-cooled MEP design",
+          "source": "https://www.red-eng.com/",
+          "evidence": "https://www.red-eng.com/data-centre-solutions/"
+        },
+        {
+          "name": "Cundall",
+          "hq": "GB",
+          "note": "International engineering consultancy; R&D on retrofitting liquid cooling into existing air-cooled hyperscale data centres for AI-ready infrastructure",
+          "source": "https://www.cundall.com/",
+          "evidence": "https://www.cundall.com/sectors/data-centres/"
+        },
+        {
+          "name": "Ramboll",
+          "hq": "DK",
+          "note": "Danish engineering consultancy helping data center clients incorporate new technologies such as liquid cooling and heat reuse",
+          "source": "https://www.ramboll.com/",
+          "evidence": "https://www.ramboll.com/en-us/technology/data-centers-mission-critical-facilities/"
+        },
+        {
+          "name": "Sweco",
+          "hq": "SE",
+          "note": "European engineering firm; designed megawatt-scale liquid cooling for Borealis Data Center Kajaani campus with district heat reuse",
+          "source": "https://www.swecogroup.com/",
+          "evidence": "https://www.swecobelgium.be/en/showroom/borealis-data-center-campus-in-kajaani-delivered-in-record-time-with-swecos-project-management-expertise/"
+        },
+        {
+          "name": "PurgeRite",
+          "hq": "US",
+          "note": "Liquid cooling fluid management specialist (mechanical flushing, purging, filtration, commissioning), a Vertiv subsidiary since December 2025",
+          "source": "https://purgerite.com/",
+          "evidence": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-completes-acquisition-of-purgerite-expanding-leadership-in-liquid-cooling-services/"
+        },
+        {
+          "name": "Technavious",
+          "hq": "IN",
+          "note": "Data-centre engineering, commissioning and TIA-942 certification firm; partnering Refroid on 'Brick-to-Chip' sovereign liquid-cooling framework for India AI data centres (MEP design, IST, audits)",
+          "source": "https://technavious.com/",
+          "evidence": "https://www.prnewswire.com/in/news-releases/refroid-technologies-and-technavious-solutions-private-limited-partner-to-build-sovereign-liquid-cooling-infrastructure-for-indias-ai-data-centres-302713016.html"
+        },
+        {
+          "name": "Sudlows (Kent Data Centres)",
+          "hq": "GB",
+          "note": "UK data center design and build consultancy; deployment partner for NTT's production immersion and direct contact liquid cooling rollout in India",
+          "source": "https://www.sudlows.com/",
+          "evidence": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
+        },
+        {
+          "name": "Future-tech",
+          "hq": "GB",
+          "note": "UK data-centre engineering consultancy; has provided M&E infrastructure designs for direct liquid cooling projects and applications since 2012; advisory, design, delivery and maintenance services",
+          "source": "https://www.future-tech.co.uk/",
+          "evidence": "https://www.future-tech.co.uk/from-niche-to-mainstream-can-direct-liquid-cooling-make-the-jump"
+        },
+        {
+          "name": "Valicor",
+          "hq": "US",
+          "note": "Wastewater and fluids services for liquid-cooled data center commissioning: collection, transport, treatment and disposal of mechanical flushwater, glycol waste, hydrotest water and chemical cleaning wastewater",
+          "source": "https://www.valicor.com/",
+          "evidence": "https://www.valicor.com/data-center-commissioning-flushwater"
+        },
+        {
+          "name": "DLB Associates",
+          "hq": "US",
+          "note": "Data center MEP engineering and commissioning firm with liquid cooling design, digital-twin cooling trade-off analysis and commissioning for AI and high-density facilities",
+          "source": "https://www.dlbassociates.com/",
+          "evidence": "https://www.dlbassociates.com"
+        },
+        {
+          "name": "Salute",
+          "hq": "US",
+          "note": "Provides data center cooling services covering direct liquid cooling and immersion, from engineering assessments to operations",
+          "source": "https://salute.com/",
+          "evidence": "https://salute.com/services/operate/data-center-cooling"
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "label": "Simulation & monitoring software",
+      "note": "The digital twin of the loop: CFD and cold-plate design tools, data-center thermal modelling and DCIM/monitoring — where a cooling design is checked before any fluid flows.",
+      "short": "Simulation software",
+      "companies": [
+        {
           "name": "Cadence (6SigmaDCX)",
           "hq": "US",
           "note": "Data center CFD and digital-twin simulation software (Future Facilities acquisition)",
@@ -560,17 +2746,61 @@
           "source": "https://www.siemens.com/"
         },
         {
-          "name": "Uptime Institute",
+          "name": "Corintis",
+          "hq": "CH",
+          "note": "Thermal co-design software and services for cold plate/cooling architecture; OCP Cooling Environments Cold Plate Performance contributor",
+          "source": "https://corintis.com/",
+          "evidence": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+        },
+        {
+          "name": "Ansys",
           "hq": "US",
-          "note": "Tier certification and data center consulting — independent of every equipment vendor above",
-          "source": "https://uptimeinstitute.com/"
+          "note": "Simulation software provider; data center CFD/thermal simulation covering airflow and air/liquid cooling systems via conjugate heat transfer (Fluent, Icepak)",
+          "source": "https://www.ansys.com/",
+          "evidence": "https://ansys.synopsys.com/applications/data-centers/"
+        },
+        {
+          "name": "SimScale",
+          "hq": "DE",
+          "note": "Cloud-based CFD simulation platform for data center cooling with named support for direct-to-chip liquid cooling, cold plate optimization, immersion and hybrid systems",
+          "source": "https://www.simscale.com/",
+          "evidence": "https://www.simscale.com/simulations/data-center-cooling/"
+        },
+        {
+          "name": "Daat Research Corp.",
+          "hq": "US",
+          "note": "Developer of Coolit CFD electronics-cooling software and CoolitDC data center modeling software for airflow and heat load analysis",
+          "source": "https://www.daat.com/",
+          "evidence": "https://www.daat.com/"
+        },
+        {
+          "name": "Sunbird Software",
+          "hq": "US",
+          "note": "DCIM software vendor (dcTrack) covering data center liquid cooling education and real-time monitoring of power and environmental sensor data",
+          "source": "https://www.sunbirddcim.com/",
+          "evidence": "https://www.sunbirddcim.com/blog/data-center-liquid-cooling-101/"
+        },
+        {
+          "name": "ToffeeX",
+          "hq": "GB",
+          "note": "Physics-driven generative design software that produces cold plate, manifold and heat exchanger geometries for AI and data center cooling",
+          "source": "https://toffeex.com/",
+          "evidence": "https://toffeex.com"
+        },
+        {
+          "name": "EkkoSense",
+          "hq": "GB",
+          "note": "EkkoSoft Critical monitoring software giving real-time visibility of temperatures and flow rates across direct-to-chip, rear-door and hybrid liquid-cooled infrastructure",
+          "source": "https://www.ekkosense.com/",
+          "evidence": "https://www.ekkosense.com/ekkosoft-critical/data-center-liquid-cooling-optimization"
         }
       ]
     },
     {
       "id": "testing",
-      "label": "Testing & certification",
-      "note": "Independent verification between builders and buyers: safety certification, performance curves, thermal benchmarking — where marketing claims go to be checked.",
+      "label": "Testing, certification & commissioning",
+      "note": "Independent verification between builders and buyers: safety certification, performance curves, thermal benchmarking, test facilities and commissioning hardware — where marketing claims go to be checked.",
+      "short": "Testing & certification",
       "companies": [
         {
           "name": "UL Solutions",
@@ -595,6 +2825,41 @@
           "hq": "CN",
           "note": "China Academy of Information and Communications Technology — domestic liquid-cooling evaluation and standards work",
           "source": "https://www.caict.ac.cn/"
+        },
+        {
+          "name": "Intertek",
+          "hq": "GB",
+          "note": "TIC company offering testing, inspection and certification for immersion cooling systems and data center liquid/immersion cooling benchmarking",
+          "source": "https://www.intertek.com/",
+          "evidence": "https://www.intertek.com/resources/fact-sheets/2025/datacenters-immersion-cooling/"
+        },
+        {
+          "name": "CSA Group",
+          "hq": "CA",
+          "note": "Testing/certification body evaluating data center cooling equipment including chillers, cooling distribution units (CDUs) and cooling towers at component and assembly level",
+          "source": "https://www.csagroup.org/",
+          "evidence": "https://www.csagroup.org/testing-certification/testing/data-center-services/"
+        },
+        {
+          "name": "Southwest Research Institute (SwRI)",
+          "hq": "US",
+          "note": "Nonprofit applied R&D institute with dedicated data center cooling test facility, CDU validation, heat exchanger flow loops and Data Center Immersion Fluids (DCIF) consortium",
+          "source": "https://www.swri.org/",
+          "evidence": "https://www.swri.org/data-center-immersion-fluids-dcif-consortium/"
+        },
+        {
+          "name": "Technavious",
+          "hq": "IN",
+          "note": "Data-centre engineering, commissioning and TIA-942 certification firm; partnering Refroid on 'Brick-to-Chip' sovereign liquid-cooling framework for India AI data centres (MEP design, IST, audits)",
+          "source": "https://technavious.com/",
+          "evidence": "https://www.prnewswire.com/in/news-releases/refroid-technologies-and-technavious-solutions-private-limited-partner-to-build-sovereign-liquid-cooling-infrastructure-for-indias-ai-data-centres-302713016.html"
+        },
+        {
+          "name": "Liquidpulse",
+          "hq": "US",
+          "note": "Purpose-built liquid-cooled load banks (500kW modular units) and liquid-to-liquid solutions for commissioning and testing high-density liquid-cooled data centers; ~500 load banks deployed",
+          "source": "https://liquidpulse.com/",
+          "evidence": "https://liquidpulse.com/about-us"
         }
       ]
     },
@@ -636,7 +2901,7 @@
         {
           "name": "China Mobile",
           "hq": "CN",
-          "note": "Carrier AI-compute central procurement — one of the largest single buyers of the domestic liquid-cooling chain",
+          "note": "Carrier that centrally procures AI compute and liquid cooling for its data centers",
           "source": "https://www.10086.cn/"
         },
         {
@@ -654,7 +2919,7 @@
         {
           "name": "GDS",
           "hq": "CN",
-          "note": "Top-tier third-party IDC with liquid-cooled AI clusters in volume",
+          "note": "Third-party data center operator running liquid-cooled AI clusters in volume",
           "source": "https://www.gds-services.com/"
         },
         {
@@ -668,6 +2933,427 @@
           "hq": "CN",
           "note": "Hyperscale data center campuses with SEA/China liquid deployments",
           "source": "https://www.chindata.com/"
+        },
+        {
+          "name": "Meta Platforms",
+          "hq": "US",
+          "note": "Hyperscaler operating AI data centers with direct-to-chip closed-loop liquid cooling (dry coolers, no operational water for cooling)",
+          "source": "https://about.meta.com/",
+          "evidence": "https://datacenters.atmeta.com/innovation"
+        },
+        {
+          "name": "Oracle Cloud Infrastructure",
+          "hq": "US",
+          "note": "Hyperscaler building gigawatt-scale AI data centers using closed-loop non-evaporative liquid cooling (Project Jupiter NM, Stargate Wisconsin, Abilene)",
+          "source": "https://www.oracle.com/",
+          "evidence": "https://www.datacenterdynamics.com/en/news/oracle-revealed-as-tenant-of-project-jupiter-data-center-campus-in-new-mexico/"
+        },
+        {
+          "name": "CoreWeave",
+          "hq": "US",
+          "note": "GPU cloud operator running liquid-cooled AI data centers, including NVIDIA GB300 NVL72 liquid-cooled racks",
+          "source": "https://www.coreweave.com/",
+          "evidence": "https://www.vertiv.com/en-asia/insights/articles/blog-posts/how-vertiv-and-coreweave-are-orchestrating-ai-innovation/"
+        },
+        {
+          "name": "Crusoe",
+          "hq": "US",
+          "note": "AI factory cloud operator; Abilene TX campus runs NVIDIA GB200 racks with closed-loop non-evaporative liquid cooling for Microsoft/OpenAI",
+          "source": "https://www.crusoe.ai/",
+          "evidence": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure"
+        },
+        {
+          "name": "TeraWulf",
+          "hq": "US",
+          "note": "Data center operator delivering liquid-cooled AI infrastructure for Core42/G42 at Lake Mariner (NY); direct liquid cooled Dell GPU racks",
+          "source": "https://www.terawulf.com/",
+          "evidence": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
+        },
+        {
+          "name": "Nebius",
+          "hq": "NL",
+          "note": "AI infrastructure company (Nasdaq-listed) preparing liquid cooling for 200kW racks at its Mantsala Finland data center; NVIDIA-designed liquid cooling installed",
+          "source": "https://nebius.com/",
+          "evidence": "https://nebius.com/sustainability/our-greenfield-data-center-in-finland"
+        },
+        {
+          "name": "Nscale",
+          "hq": "GB",
+          "note": "Vertically integrated AI hyperscaler building closed-loop direct-to-chip liquid-cooled data centers (Iceland 15MW liquid-cooled GPU cluster; Nordic sites)",
+          "source": "https://www.nscale.com/",
+          "evidence": "https://www.nscale.com/blog/building-tomorrows-ai-data-centres-today"
+        },
+        {
+          "name": "Vantage Data Centers",
+          "hq": "US",
+          "note": "Global wholesale data center developer standardizing closed-loop chilled water and partnering with customers to bring liquid to the rack for AI",
+          "source": "https://vantage-dc.com/",
+          "evidence": "https://vantage-dc.com/features/cooling"
+        },
+        {
+          "name": "STACK Infrastructure",
+          "hq": "US",
+          "note": "Developer/operator offering AI-ready capacity with direct-to-chip liquid cooling support up to 100kW per rack and closed-loop water cooling",
+          "source": "https://www.stackinfra.com/",
+          "evidence": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-its-ai-ready-data-center-capabilities-to-support-machine-learning-and-related-high-density-workloads"
+        },
+        {
+          "name": "QTS",
+          "hq": "US",
+          "note": "Blackstone-owned hyperscale/colocation operator marketing liquid cooling solutions for cooling-intensive AI workloads; zero-water closed-loop designs",
+          "source": "https://www.qtsdatacenters.com/",
+          "evidence": "https://q.com/solutions/hyperscale/"
+        },
+        {
+          "name": "Lambda",
+          "hq": "US",
+          "note": "GPU cloud and AI factory builder; adopted Supermicro liquid-cooled NVIDIA HGX servers for scalable, energy-efficient AI factories",
+          "source": "https://lambdalabs.com/",
+          "evidence": "https://www.supermicro.org.cn/en/success-story/lambda"
+        },
+        {
+          "name": "Sesterce",
+          "hq": "FR",
+          "note": "French AI cloud operator running closed-loop direct liquid cooling at its Marseille and Valence (40 MW) AI campuses",
+          "source": "https://www.sesterce.com/",
+          "evidence": "https://www.sesterce.com/"
+        },
+        {
+          "name": "EdgeConneX",
+          "hq": "US",
+          "note": "Global data center operator; deployed Accelsius two-phase direct-to-chip liquid cooling at Houston Global Training Center; flexible air/liquid high-density designs",
+          "source": "https://www.edgeconnex.com/",
+          "evidence": "https://www.edgeconnex.com/news/press-releases/accelsius-to-deploy-two-phase-direct-to-chip-liquid-cooling-system-at-edgeconnex-global-training-center/"
+        },
+        {
+          "name": "CyrusOne",
+          "hq": "US",
+          "note": "KKR/GIP-backed data center developer offering Intelliscale AI facilities with liquid-to-chip cooling, rear-door heat exchangers and immersion cooling",
+          "source": "https://www.cyrusone.com/",
+          "evidence": "https://www.cyrusone.com/solutions/"
+        },
+        {
+          "name": "Aligned Data Centers",
+          "hq": "US",
+          "note": "Hyperscale operator with proprietary DeltaFlow liquid cooling platform (2024) plus Delta Cube air cooling; hybrid cooling lab opened 2025",
+          "source": "https://aligneddc.com/",
+          "evidence": "https://aligneddc.com/press-release/aligned-data-centers-launches-deltaflow-liquid-cooling-extending-its-expandondemand-capabilities/"
+        },
+        {
+          "name": "Cologix",
+          "hq": "US",
+          "note": "North American interconnection colocation provider with liquid-cooling-ready COL8 (Columbus) and liquid-to-the-chip support for AI/HPC",
+          "source": "https://cologix.com/",
+          "evidence": "https://cologix.com/ai/"
+        },
+        {
+          "name": "Switch",
+          "hq": "US",
+          "note": "Data center operator offering EVO AI Factories with hybrid air-and-liquid cooling up to 2MW per rack; hosts CoreWeave GB300 NVL72 liquid-cooled deployment in Las Vegas",
+          "source": "https://www.switch.com/",
+          "evidence": "https://www.datacenterdynamics.com/en/news/switch-deploys-new-hybrid-air-and-liquid-cooling-design-claims-to-offer-up-to-2mw-per-rack-densities/"
+        },
+        {
+          "name": "Yondr Group",
+          "hq": "GB",
+          "note": "Hyperscale data center developer designing air-cooled (<20kW) and water-cooled (>20kW) racks; liquid cooling prioritized in new builds incl. 300MW+ Johor campus",
+          "source": "https://www.yondrgroup.com/",
+          "evidence": "https://www.yondrgroup.com/products/"
+        },
+        {
+          "name": "AirTrunk",
+          "hq": "AU",
+          "note": "APAC hyperscale data center operator (Blackstone-owned since 2024) that deployed 20 MW+ of liquid cooling in phase one of its JHB1 Johor campus",
+          "source": "https://airtrunk.com/",
+          "evidence": "https://airtrunk.com/insights/airtrunk-is-future-ready-with-liquid-cooling-technology/"
+        },
+        {
+          "name": "NextDC",
+          "hq": "AU",
+          "note": "Australian data center operator offering direct-to-chip liquid cooling across six Australian facilities plus KL1 Malaysia, up to 2MW per rack for AI",
+          "source": "https://www.nextdc.com/",
+          "evidence": "https://www.nextdc.com/nextdc-liquid-cooling-solutions-for-ai-ready-infrastructure"
+        },
+        {
+          "name": "Internet Initiative Japan (IIJ)",
+          "hq": "JP",
+          "note": "Japanese network/cloud operator deploying direct liquid-cooled high-density AI servers in its AImod liquid-cooling modular data center (with Preferred Networks and JAIST)",
+          "source": "https://www.iij.ad.jp/",
+          "evidence": "https://www.iij.ad.jp/en/news/pressrelease/2026/0323-2.html"
+        },
+        {
+          "name": "Sakura Internet",
+          "hq": "JP",
+          "note": "Japanese cloud/GPU provider operating Ishikari data center with direct liquid cooling (DLC) supplementing air conditioning for high-density GPU service Koukaryoku PHY",
+          "source": "https://www.sakura.ad.jp/",
+          "evidence": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
+        },
+        {
+          "name": "Scala Data Centers",
+          "hq": "BR",
+          "note": "Brazilian hyperscale operator building Scala AI City (5GW authorized) with zero-water liquid cooling for high-density AI workloads",
+          "source": "https://scaladatacenters.com/",
+          "evidence": "https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil"
+        },
+        {
+          "name": "Khazna Data Centers",
+          "hq": "AE",
+          "note": "UAE hyperscale operator (G42) using direct liquid cooling for AI/GPU workloads, with a managed DLC AI hosting service launched with HPE in 2024",
+          "source": "https://khaznadatacenters.com/",
+          "evidence": "https://khaznadatacenters.com/innovation-detail/"
+        },
+        {
+          "name": "ST Telemedia Global Data Centres",
+          "hq": "SG",
+          "note": "APAC data center operator; launched direct-to-chip liquid cooling showcase at STT Bangkok 1 (2025) and earlier Iceotope immersion POC",
+          "source": "https://www.sttgdc.com/",
+          "evidence": "https://www.sttgdc.com/newsroom/stt-gdc-unveils-direct-to-chip-liquid-cooling-showcase-in-thailand"
+        },
+        {
+          "name": "Keppel Data Centres",
+          "hq": "SG",
+          "note": "Singapore data centre operator (Keppel Connectivity) test-bedding Shell immersion liquid cooling at an operational facility; heat reuse at 50-60C explored",
+          "source": "https://www.keppel.com/",
+          "evidence": "https://www.keppel.com/media/keppel-and-shell-to-launch-advanced-immersion-liquid-cooling-testbed-for-more-sustainable-data-centres"
+        },
+        {
+          "name": "Princeton Digital Group",
+          "hq": "SG",
+          "note": "APAC data center operator building 120MW JC3 Greater Jakarta campus with next-generation liquid cooling (direct-to-chip) for AI; TY1 India DGX-Ready for liquid cooling",
+          "source": "https://princetondg.com/",
+          "evidence": "https://princetondg.com/press-releases/princeton-digital-group-breaks-ground-on-milestone-usd-1-billion-120-mw-greater-jakarta-campus/"
+        },
+        {
+          "name": "Nxera (Singtel)",
+          "hq": "SG",
+          "note": "Singtel regional data centre arm; DC Tuas supports all types of liquid cooling technologies with next-generation cooling up to 50kW per rack for AI",
+          "source": "https://www.nxera-dc.com/",
+          "evidence": "http://www.nxera-dc.com/our-reach/singapore-dc-tuas"
+        },
+        {
+          "name": "Nxtra by Airtel",
+          "hq": "IN",
+          "note": "Indian data center operator (Airtel subsidiary) introducing liquid cooling technologies and high-density configurations for AI workloads",
+          "source": "https://www.nxtra.in/",
+          "evidence": "https://capacityglobal.com/news/nxtra-by-airtel-ceo-interview-ai-data-centre/"
+        },
+        {
+          "name": "Sabey Data Centers",
+          "hq": "US",
+          "note": "US data center owner-operator engineering campuses for liquid cooling with integrated chilled water; partner ecosystem includes OptiCool and JetCool SmartPlate",
+          "source": "https://sabeydatacenters.com/",
+          "evidence": "https://sabeydatacenters.com/liquid-cooled-data-centers/"
+        },
+        {
+          "name": "Telehouse (KDDI)",
+          "hq": "JP",
+          "note": "KDDI colocation operator; launched liquid cooling lab at Telehouse South London with JetCool and deployed direct liquid-to-chip cooling across Toronto campus",
+          "source": "https://www.telehouse.net/",
+          "evidence": "https://www.telehouse.net/news/telehouse-launches-pioneering-liquid-cooling-lab/"
+        },
+        {
+          "name": "SoftBank Corp",
+          "hq": "JP",
+          "note": "Japanese telecom operator that implemented ZutaCore two-phase direct liquid cooling with Foxconn on NVIDIA AI servers (pPUE 1.03)",
+          "source": "https://www.softbank.jp/corp/",
+          "evidence": "https://blog.zutacore.com/press-releases/softbank-zutacore-foxconn-2-phase-dlc"
+        },
+        {
+          "name": "Teraco",
+          "hq": "ZA",
+          "note": "African colocation operator (Digital Realty-backed); JB4 Johannesburg expansion halls fully liquid-to-liquid cooling enabled for high-density AI workloads",
+          "source": "https://www.teraco.co.za/",
+          "evidence": "https://datacentremagazine.com/news/teraco-expands-jb4-into-africas-largest-data-centre"
+        },
+        {
+          "name": "Sify Technologies",
+          "hq": "IN",
+          "note": "Indian ICT and data center operator, an NVIDIA-certified DGX-Ready Data Center Service Provider with liquid cooling support up to 130 kW racks",
+          "source": "https://www.sifytechnologies.com/",
+          "evidence": "https://www.sifytechnologies.com/data-center/"
+        },
+        {
+          "name": "Data4",
+          "hq": "FR",
+          "note": "European data center operator providing cold-water circuits connected to customer liquid-cooled racks (OVHcloud partnership at Marcoussis)",
+          "source": "https://www.data4group.com/",
+          "evidence": "https://www.data4group.com/en/datacenter-dictionary/liquid-cooling-in-data-centers-a-revolution-in-energy-efficiency/"
+        },
+        {
+          "name": "Nautilus Data Technologies",
+          "hq": "US",
+          "note": "Operator of waterborne liquid-cooled data centers; markets retrofit guidance for AI densities and closed-loop water-cooled infrastructure",
+          "source": "https://nautilusdt.com/",
+          "evidence": "https://nautilusdt.com/in-the-news/all-news/blog/how-to-retrofit-data-center-cooling-ai/"
+        },
+        {
+          "name": "Kao Data",
+          "hq": "GB",
+          "note": "Developer/operator of AI-focused colocation data centres near London; KLON-03 (17.6MW) purpose-built for GPU/AI with direct-to-chip liquid cooling up to 130kW racks",
+          "source": "https://kaodata.com/",
+          "evidence": "https://kaodata.com/discover/news/kao-data-announces-construction-of-a-new-17-6mw-liquid-cooled-ai-data-centre-in-harlow-2"
+        },
+        {
+          "name": "DataVolt",
+          "hq": "SA",
+          "note": "Saudi data center developer and operator deploying rack-scale liquid cooling with Supermicro, including its NEOM Oxagon AI data center with HUMAIN",
+          "source": "https://data-volt.com/",
+          "evidence": "https://data-volt.com/media/breaking-news/datavolt-announces-landmark-deal-with-supermicro-to-accelerate-adoption-of-rack-scale-total-liquid-cooling-it-solutions-for-future-ready-ai-data-centers"
+        },
+        {
+          "name": "atNorth",
+          "hq": "IS",
+          "note": "Pan-Nordic data-centre operator (Iceland, Sweden, Denmark, Finland, Norway); ICE02 Iceland fitted with direct liquid-to-chip cooling infrastructure; 100kW liquid-cooled racks in Crusoe expansion",
+          "source": "https://atnorth.com/",
+          "evidence": "https://datacentremagazine.com/news/crusoe-and-atnorth-partner-to-expand-ai-data-centre-capacity"
+        },
+        {
+          "name": "Exaion",
+          "hq": "FR",
+          "note": "Low-carbon HPC/AI cloud operator using immersion cooling with waste-heat recovery loops at data centres in Europe and North America (majority-owned by MARA since 2026)",
+          "source": "https://www.exaion.com/",
+          "evidence": "https://www.exaion.com/"
+        },
+        {
+          "name": "ODATA",
+          "hq": "BR",
+          "note": "Latin American data center operator (part of Aligned Data Centers) deploying Aligned's DeltaFlow liquid cooling at its Brazil and Mexico campuses",
+          "source": "https://aligneddc.com/",
+          "evidence": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
+        },
+        {
+          "name": "Green Mountain",
+          "hq": "NO",
+          "note": "Norwegian data-centre operator offering high-density liquid-cooled compute for AI/HPC and waste heat reuse to local industry (heat reuse programme)",
+          "source": "https://greenmountain.no/",
+          "evidence": "https://greenmountain.no"
+        },
+        {
+          "name": "Yotta",
+          "hq": "IN",
+          "note": "Indian data-centre operator (NM1 Navi Mumbai, Tier IV); offers 'Immersion & Advanced Cooling' with immersion and chilled-water cooling systems for high-density GPU racks",
+          "source": "https://yotta.com/",
+          "evidence": "https://yotta.com/data-center-in-india"
+        },
+        {
+          "name": "Elea Data Centers",
+          "hq": "BR",
+          "note": "Brazilian AI-ready data center operator deploying Vertiv CDUs for liquid cooling across its campuses",
+          "source": "https://eleadatacenters.com/",
+          "evidence": "https://eleadatacenters.com/en/2024/11/08/elea-data-centers-supports-regions-ai-growth-with-vertivs-first-liquid-cooling-deployment-for-purpose-built-ai-data-centers-in-brazil/"
+        },
+        {
+          "name": "NTT (Netmagic) India",
+          "hq": "IN",
+          "note": "Data center operator (Netmagic, an NTT company) that ran a production deployment of immersion and direct contact liquid cooling at its Navi Mumbai Mahape campus in January 2023",
+          "source": "https://www.netmagic.in/",
+          "evidence": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
+        },
+        {
+          "name": "EcoDataCenter",
+          "hq": "SE",
+          "note": "Swedish data center operator offering air, direct liquid cooling and immersion cooling, with waste heat delivered to the Falun district heating network",
+          "source": "https://ecodatacenter.tech/",
+          "evidence": "https://ecodatacenter.tech/"
+        },
+        {
+          "name": "DataVita",
+          "hq": "GB",
+          "note": "Scottish data center and connectivity provider with HPC/AI hosting using direct-to-chip liquid cooling up to 200 kW per rack at its DV1 Lanarkshire campus",
+          "source": "https://www.datavita.co.uk/",
+          "evidence": "https://www.datavita.co.uk/hpc"
+        },
+        {
+          "name": "Applied Digital",
+          "hq": "US",
+          "note": "Builds and operates AI factory data center campuses designed for high-density liquid-cooled GPU workloads leased to hyperscale customers",
+          "source": "https://www.applieddigital.com/",
+          "evidence": "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with"
+        },
+        {
+          "name": "Ascenty",
+          "hq": "BR",
+          "note": "Data-center operator offering colocation infrastructure with high-density and liquid-cooling-ready environments for AI and HPC workloads across Latin America",
+          "source": "https://ascenty.com/",
+          "evidence": "https://ascenty.com/en/blog/news-ascenty-en/vertical-data-and-ascenty-announce-partnership-to-deploy-ai-infrastructure-across-latin-america"
+        },
+        {
+          "name": "CtrlS",
+          "hq": "IN",
+          "note": "Data-center operator offering direct liquid cooling and liquid immersion cooling support for high-density AI racks across its Indian colocation campuses",
+          "source": "https://www.ctrls.com/",
+          "evidence": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
+        }
+      ]
+    },
+    {
+      "id": "heat-reuse",
+      "label": "Waste-heat reuse — where the heat goes next",
+      "note": "Warm-water liquid cooling makes the heat worth selling: utilities, heat-reuse operators and district-heating networks that take it from the rack to homes, pools and factories.",
+      "short": "Waste-heat reuse",
+      "companies": [
+        {
+          "name": "Stockholm Exergi",
+          "hq": "SE",
+          "note": "Stockholm district heating utility buying waste heat from data centers (Stockholm Data Parks / Open District Heating) via heat pumps into the network",
+          "source": "https://www.stockholmexergi.se/",
+          "evidence": "https://www.stockholmexergi.se/en/heat-recovery/"
+        },
+        {
+          "name": "Helen",
+          "hq": "FI",
+          "note": "Helsinki energy company recycling data center waste heat into district heating since 2010 (project with Equinix); expanding with new data center heat contracts",
+          "source": "https://www.helen.fi/",
+          "evidence": "https://www.helen.fi/en/companies/cooling-for-companies/Heat-recovery-service-for-data-centers/"
+        },
+        {
+          "name": "Cloud&Heat Technologies",
+          "hq": "DE",
+          "note": "Supplies direct water-cooled server hardware, liquid cooling manifolds, installation and heat-reuse integration for data centres; consultancy and load-bank rental",
+          "source": "https://www.cloudandheat.com/",
+          "evidence": "https://www.cloudandheat.com/en/products/energy-efficient-data-centres/liquid-cooling-in-the-data-centre"
+        },
+        {
+          "name": "Heata",
+          "hq": "GB",
+          "note": "Distributed cloud compute: water-cooled server units plumbed into domestic hot-water cylinders in UK homes, giving households free hot water from cloud workloads",
+          "source": "https://www.heata.co/",
+          "evidence": "https://www.heata.co"
+        },
+        {
+          "name": "Deep Green",
+          "hq": "GB",
+          "note": "Operates small heat-donating data centres at swimming pools, leisure centres and district heating schemes; site reports racks up to 150 kW and PUE of about 1.07",
+          "source": "https://deepgreen.energy/",
+          "evidence": "https://deepgreen.energy"
+        },
+        {
+          "name": "Qarnot",
+          "hq": "FR",
+          "note": "Heat-reuse cloud computing: distributes compute to sites that consume the heat, with data centers connected to district heating",
+          "source": "https://qarnot.com/",
+          "evidence": "https://qarnot.com/en/sustainability/"
+        },
+        {
+          "name": "Exaion",
+          "hq": "FR",
+          "note": "Low-carbon HPC/AI cloud operator using immersion cooling with waste-heat recovery loops at data centres in Europe and North America (majority-owned by MARA since 2026)",
+          "source": "https://www.exaion.com/",
+          "evidence": "https://www.exaion.com/"
+        },
+        {
+          "name": "Fortum",
+          "hq": "FI",
+          "note": "Energy company capturing waste heat from Microsoft data centres in Espoo and Kirkkonummi into its district heating network",
+          "source": "https://www.fortum.com/",
+          "evidence": "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+        },
+        {
+          "name": "Dalkia",
+          "hq": "FR",
+          "note": "Energy services company (EDF subsidiary) operating district heating networks fed by data-centre waste heat: connects Meteo France Toulouse supercomputer DCs (27 buildings) and Val d'Europe DC heat recovery",
+          "source": "https://www.dalkia.com/",
+          "evidence": "https://www.districtenergy.org/blogs/district-energy/2025/07/28/waste-heat-from-meteo-france-supercomputers-to-be"
         }
       ]
     },
@@ -699,6 +3385,20 @@
           "hq": "SG",
           "note": "SS 726:2026 — first tropical liquid cooling standard",
           "source": "https://www.enterprise.gov.sg/"
+        },
+        {
+          "name": "AHRI",
+          "hq": "US",
+          "note": "Industry trade association operating Datacom Cooling certification program (AHRI Standard 1360) for data center cooling equipment with third-party verification",
+          "source": "https://www.ahrinet.org/",
+          "evidence": "https://www.ahrinet.org/datacom-cooling/"
+        },
+        {
+          "name": "Eurovent",
+          "hq": "BE",
+          "note": "European HVAC association; published Guidebook on Data Centre Cooling (2026) and runs IT Cooling Unit (ITCU) certification via Eurovent Certita",
+          "source": "https://www.eurovent.eu/",
+          "evidence": "https://www.eurovent.eu/wp-content/uploads/publications-files/eurovent_it-cooling-guidebook.pdf"
         }
       ]
     }

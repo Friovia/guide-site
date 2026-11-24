@@ -121,7 +121,7 @@ function HomePage() {
 
         <h2 className="idx-sec" style={{ marginTop:"56px" }}>Reference</h2>
         <div className="idx">
-          <Row href="/supply-chain" title="Supply chain map" desc="98 companies across 16 segments, chips to heat rejection — every row sourced; free listings, never paid" />
+          <Row href="/supply-chain" title="Supply chain map" desc="354 companies across 18 segments, chips to heat rejection — every row sourced; free listings, never paid" />
           <Row href="/news" title="Industry radar" desc="News plus the curated milestone timeline — every item sourced, nothing invented" />
           <Row href="/state-of-liquid-cooling-2026" title="State of 2026" desc="The annual digest: what changed, and the 20-50 kW turnkey gap that still doesn't exist" />
           <Row href="/glossary" title="Glossary" desc="50+ self-contained, anchorable definitions — DLC, UQD, W-class, approach temperature…" />
