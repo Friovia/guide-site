@@ -2312,7 +2312,7 @@
         {
           "name": "ST Engineering",
           "hq": "SG",
-          "note": "Airbitat DC Cooling System (liquid cooling via multi-stage cold water generation, evaporative pre-cooling) for tropical data centres; deploying liquid and immersion cooling at its Jalan Boon Lay AI DC",
+          "note": "Airbitat DC Cooling System for tropical data centres: multi-stage cold water generation with evaporative pre-cooling that reduces the heat load handled by the data hall chillers",
           "source": "https://www.stengg.com/",
           "evidence": "https://www.stengg.com/en/innovation/innovation-stories/the-key-to-greener-data-centres"
         },
@@ -2412,7 +2412,7 @@
           "hq": "US",
           "note": "OEM integration partner: builds liquid- and immersion-cooled platforms with GRC (immersion-cooled AI solutions) and Fourier Cooling/Nexalus for liquid-cooled edge and modular AI data centers",
           "source": "https://www.unicomengineering.com/",
-          "evidence": "https://www.unicomengineering.com"
+          "evidence": "https://www.unicomengineering.com/"
         },
         {
           "name": "World Wide Technology",
@@ -3304,7 +3304,7 @@
           "hq": "FR",
           "note": "Heat-reuse cloud computing: distributes compute to sites that consume the heat, with data centers connected to district heating",
           "source": "https://qarnot.com/",
-          "evidence": "https://qarnot.com/en/sustainability/"
+          "evidence": "https://qarnot.com/en/news/scaleway-acquires-qarnot"
         },
         {
           "name": "Exaion",

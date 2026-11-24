@@ -8911,6 +8911,831 @@
           "a": "An August 2025 case study on the USystems knowledge hub describes ten years of ColdLogik intelligent cooling operation at Cambridge University."
         }
       ]
+    },
+    {
+      "slug": "ansys",
+      "name": "Ansys",
+      "segments": [
+        "software"
+      ],
+      "tagline": "Simulation software vendor whose CFD and thermal tools (Icepak, Fluent, Thermal Desktop) predict airflow, heat transfer and cooling performance across servers, racks, containment and air/liquid cooling systems in data centers. Part of Synopsys since July 2025.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Synopsys (Nasdaq: SNPS)",
+      "website": "https://www.ansys.com/",
+      "productLines": [
+        {
+          "name": "Ansys Icepak",
+          "note": "CFD electronics-cooling software whose listed product specs include Liquid Cooling, multi-fluid and complex flow modeling, thermoelectric cooler modeling and full conjugate heat transfer analysis; the 2026 R1 release adds a system-level thermal management workflow the vendor says is 3-5x quicker to set up with 80% fewer clicks.",
+          "source": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+        },
+        {
+          "name": "Ansys Fluent",
+          "note": "Advanced-physics CFD solver used in the vendor's data-center workflow to analyze airflow, heat transfer and cooling performance across servers, racks and containment, including air/liquid cooling systems via conjugate heat transfer.",
+          "source": "https://ansys.synopsys.com/applications/data-centers/"
+        },
+        {
+          "name": "Ansys Thermal Desktop",
+          "note": "Thermal analysis tool used in the data-center applications workflow for two-phase flow modeling, relevant to two-phase liquid cooling architectures.",
+          "source": "https://ansys.synopsys.com/applications/data-centers/"
+        },
+        {
+          "name": "Ansys Twin Builder",
+          "note": "Digital-twin software for data centers: reduced-order models used to predict failures and monitor component-to-facility performance in real-time operations, alongside cooling infrastructure analysis.",
+          "source": "https://ansys.synopsys.com/applications/data-centers/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Ansys Icepak 2026 R1 shipped with a system-level thermal management workflow that the vendor says delivers 3-5x quicker setup and 80% fewer clicks.",
+          "source": "https://ansys.synopsys.com/products/electronics/ansys-icepak"
+        },
+        {
+          "year": "2025",
+          "text": "Synopsys completed its acquisition of Ansys on July 17, 2025; Ansys stock ceased to be listed for trading on the NASDAQ stock market.",
+          "source": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What do Ansys tools simulate for data-center cooling?",
+          "a": "The data-center applications page describes predicting airflow, heat transfer and cooling performance across servers, racks, containment and air/liquid cooling systems via conjugate heat transfer analysis, using tools including Icepak, Fluent and Thermal Desktop."
+        },
+        {
+          "q": "Does Ansys Icepak support liquid cooling analysis?",
+          "a": "Yes. Liquid Cooling is listed among Icepak's product specs, alongside multi-fluid and complex flow modeling, thermoelectric cooler modeling and full conjugate heat transfer analyses for laminar and turbulent flows."
+        },
+        {
+          "q": "Who owns Ansys?",
+          "a": "Synopsys (Nasdaq: SNPS) completed its acquisition of Ansys on July 17, 2025, after which Ansys stock was no longer listed for trading on the NASDAQ stock market."
+        },
+        {
+          "q": "What is recent in Icepak for cooling design?",
+          "a": "The Icepak 2026 R1 release introduced a system-level thermal management workflow that the vendor says provides 3-5x quicker setup and 80% fewer clicks."
+        }
+      ]
+    },
+    {
+      "slug": "deep-green",
+      "name": "Deep Green",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "Operates modular, high-density, waterless data centres for AI and HPC that donate waste heat to local communities: racks up to 150 kW, PUE 1.07 and 4 weeks to rack. A 400 kW site is live in Manchester, further UK sites are in development and a heat-reuse project is proposed in Lansing, Michigan.",
+      "hq": "London, United Kingdom",
+      "founded": 2020,
+      "ownership": "Backed by Octopus Energy Generation",
+      "website": "https://deepgreen.energy/",
+      "productLines": [
+        {
+          "name": "Heat-donating modular data centres",
+          "note": "Modular, high-density, waterless data centres for AI and HPC placed next to heat partners; the site reports rack densities up to 150 kW, PUE of 1.07, 4 weeks to rack and a pipeline of 26 MW+.",
+          "source": "https://deepgreen.energy"
+        },
+        {
+          "name": "DG01 Manchester",
+          "note": "Live 400 kW data centre at a leisure centre in Urmston, Manchester; recovered heat is donated to the community, which the site says cuts CO2 by 100-150 tonnes per year.",
+          "source": "https://deepgreen.energy"
+        },
+        {
+          "name": "UK development pipeline",
+          "note": "North London site in development at 4.9 MW and Bradford DG03 in development at 5.6 MW, as listed on the company site.",
+          "source": "https://deepgreen.energy"
+        },
+        {
+          "name": "Lansing heat-reuse project (proposed)",
+          "note": "Proposed downtown Lansing, Michigan data centre with a 16 MW Bloom fuel cell installation whose waste heat would feed the Lansing Board of Water and Light's steam-to-hot-water district energy conversion, replacing a 15.3 MMBtu/hr natural gas boiler.",
+          "source": "https://deepgreen.energy/blog/analysis-deep-green-data-centre-project-confirmed-to-reduce-overall-lansing-emissions"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 2 April 2026 Deep Green published a Lansing Board of Water and Light analysis of its proposed 16 MW fuel-cell data centre in downtown Lansing, whose waste heat would feed the utility's district energy conversion and replace a 15.3 MMBtu/hr gas boiler (BWL projects 94% lower NOx vs a gas boiler); a City Council vote was expected 6 April 2026.",
+          "source": "https://deepgreen.energy/blog/analysis-deep-green-data-centre-project-confirmed-to-reduce-overall-lansing-emissions"
+        },
+        {
+          "year": "2023",
+          "text": "Octopus Energy Generation invested in Deep Green, whose stated mission is to deploy 300 MW of decarbonised data centres across UK and Ireland, Europe and North America.",
+          "source": "https://deepgreen.energy/about-us"
+        },
+        {
+          "year": "2020",
+          "text": "Deep Green's concept began by immersing Nvidia A100 GPUs in a tank connected to a swimming pool as a heat sink, recapturing part of roughly 50 kW of computing power as heat.",
+          "source": "https://deepgreen.energy/about-us"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Deep Green offer?",
+          "a": "Modular, high-density, waterless data centres for AI and HPC placed next to heat partners, donating recovered waste heat to local communities. The site reports racks up to 150 kW, PUE of 1.07 and 4 weeks to rack."
+        },
+        {
+          "q": "Where does Deep Green operate?",
+          "a": "DG01 is live at a leisure centre in Urmston, Manchester (400 kW); North London (4.9 MW) and Bradford DG03 (5.6 MW) are in development; a 16 MW fuel-cell heat-reuse project is proposed in Lansing, Michigan."
+        },
+        {
+          "q": "How did Deep Green start?",
+          "a": "Around 2020 the founders immersed Nvidia A100 GPUs in a tank connected to a swimming pool, recapturing part of roughly 50 kW of computing power as heat; in 2023 Octopus Energy Generation invested, with a stated mission of 300 MW of decarbonised data centres."
+        },
+        {
+          "q": "Where is Deep Green based?",
+          "a": "The contact page lists 3 Waterhouse Square, Greater London, England EC1N 2SW."
+        }
+      ]
+    },
+    {
+      "slug": "heata",
+      "name": "Heata",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "Runs a distributed cloud on server units attached to vented domestic hot-water cylinders in UK homes, using energy twice - once for compute and once for hot water. The company claims up to 80% lower carbon than a typical data centre for its heat-reusing model.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.heata.co/",
+      "productLines": [
+        {
+          "name": "heata unit",
+          "note": "Edge compute device that attaches to a vented domestic hot-water cylinder; waste heat from computing heats the household's water, in the company's words using energy twice - once for compute and once for hot water.",
+          "source": "https://www.heata.co"
+        },
+        {
+          "name": "heata distributed cloud",
+          "note": "Cloud compute service running workloads on the home-based network, with service pages for Kubernetes, VM clusters, action runners, Anyscale/Ray and Kubeflow.",
+          "source": "https://www.heata.co"
+        },
+        {
+          "name": "Free hot water hosting",
+          "note": "Programme under which households host heata units and receive hot water heated by the waste heat from cloud workloads running on the units.",
+          "source": "https://www.heata.co"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 5 February 2025 heata announced that British Gas partnered with it to launch a trial reusing waste heat from distributed data processing to save households money on their energy bills.",
+          "source": "https://www.heata.co/content-hub/british-gas-partners-with-heata-to-launch-innovative-trial-to-reuse-waste-heat-from-data-processing-and-save-households-money"
+        },
+        {
+          "year": "2024",
+          "text": "On 28 October 2024 heata announced a partnership with expanso to extend its heat-reusing green cloud beyond specialised jobs to traditional workloads.",
+          "source": "https://www.heata.co/compute/heata-and-expanso-team-up-to-expand-green-cloud-to-traditional-workloads"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does heata cool its servers?",
+          "a": "heata units attach to vented domestic hot-water cylinders in UK homes; the waste heat from computing heats the household's water. The company describes this as using energy twice, once for compute and once for hot water."
+        },
+        {
+          "q": "What compute services does heata offer?",
+          "a": "A distributed cloud running on the home-based network, with service pages covering Kubernetes, VM clusters, action runners, Anyscale/Ray and Kubeflow, plus security information."
+        },
+        {
+          "q": "What has heata announced recently?",
+          "a": "On 5 February 2025 British Gas partnered with heata to launch a trial reusing waste heat from distributed data processing to save households money; in October 2024 heata partnered with expanso to extend its green cloud to traditional workloads."
+        },
+        {
+          "q": "What does heata claim about carbon?",
+          "a": "The company states its model delivers up to 80% lower carbon than a typical data centre by reusing compute waste heat for hot water."
+        }
+      ]
+    },
+    {
+      "slug": "chunghwa-system-integration",
+      "name": "Chunghwa System Integration",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Wholly-owned Chunghwa Telecom subsidiary headquartered in Taipei. It integrated the liquid-cooled data center announced in Kaohsiung with Supermicro and ASE (cold plates, CDUs, manifolds, cooling towers) and positions itself as an AIDC service provider with hosting and energy management including water cooling and PUE reduction.",
+      "hq": "Taipei, Taiwan",
+      "founded": "NOT_FOUND",
+      "ownership": "Wholly-owned subsidiary of Chunghwa Telecom",
+      "website": "https://www.ch-si.com.tw/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled data center integration",
+          "note": "Deployed and integrated Supermicro liquid-cooled AI servers for host ASE in Kaohsiung, with a rack-level solution covering cold plates, cooling distribution units (CDUs), cooling distribution manifolds (CDM) and cooling towers; the announcement cites at least 20% energy savings and PUE below 1.2.",
+          "source": "https://www.ch-si.com.tw/news20240605"
+        },
+        {
+          "name": "AIDC hosting and managed services",
+          "note": "Managed hosting and maintenance model for AI data centers, covering infrastructure planning, construction and long-term operations and maintenance, which the company describes as its AIDC service provider positioning.",
+          "source": "https://www.ch-si.com.tw/news20260624"
+        },
+        {
+          "name": "AIDC energy management",
+          "note": "Energy management and ESG services for AI data center facilities, including water cooling, energy recycling and lowering PUE.",
+          "source": "https://www.ch-si.com.tw/news20260624"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a 24 June 2026 article on its site (reprinted from Taiwan's Commercial Times), Chunghwa System Integration described its AIDC hosting business, noting it built Taiwan's first data center using water-cooling heat dissipation technology and citing energy management for AIDC facilities covering water cooling, energy recycling and lowering PUE; it also stated an IPO plan aiming to list within three years.",
+          "source": "https://www.ch-si.com.tw/news20260624"
+        },
+        {
+          "year": "2024",
+          "text": "On 6 June 2024, Supermicro, ASE and Chunghwa System Integration jointly announced Taiwan's first next-generation liquid-cooled data center in Kaohsiung: ASE hosts Supermicro liquid-cooled AI servers in a rack-level solution with cold plates, CDUs, cooling distribution manifolds and cooling towers, with at least 20% energy savings and PUE below 1.2.",
+          "source": "https://www.ch-si.com.tw/news20240605"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did Chunghwa System Integration build in Kaohsiung?",
+          "a": "Announced 6 June 2024 with Supermicro and ASE: Taiwan's first next-generation liquid-cooled data center, where ASE hosts Supermicro liquid-cooled AI servers with cold plates, CDUs, cooling distribution manifolds and cooling towers, targeting at least 20% energy savings and PUE below 1.2."
+        },
+        {
+          "q": "What role does the company play in such projects?",
+          "a": "As a wholly-owned Chunghwa Telecom subsidiary it handled integration of servers, energy management and data center operations for the Kaohsiung deployment."
+        },
+        {
+          "q": "What is its AI data center business today?",
+          "a": "It positions itself as an AIDC service provider offering managed hosting and maintenance - infrastructure planning, construction and long-term operations and maintenance - plus energy management covering water cooling, energy recycling and lowering PUE."
+        },
+        {
+          "q": "Where is the company headquartered?",
+          "a": "In Taipei City (3F, No. 52, Section 2, Jinshan South Road, Da'an District), with additional offices in Taipei, Taichung and a 5G AIoT technical center in Kaohsiung."
+        }
+      ]
+    },
+    {
+      "slug": "gdt",
+      "name": "GDT (General Datatech)",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Dallas-based IT services integrator (General Datatech, LP, 900+ employees) that readies AI data center sites for neoclouds and hyperscalers - coordinating data center space, power, liquid cooling and cabling - and assesses traditional facilities for liquid-cooled GPU infrastructure retrofits.",
+      "hq": "Dallas, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "General Datatech, LP; company site announces it is joining Softcat",
+      "website": "https://gdt.com/",
+      "productLines": [
+        {
+          "name": "AI-ready site preparation",
+          "note": "For neoclouds, AI hyperscalers and data center providers: coordinates data center space, power, liquid cooling and cabling so facilities are ready when infrastructure arrives, with rapid cluster deployment from purchase order to live capacity in some cases in as little as 30 days and on-demand technician teams including weekends.",
+          "source": "https://gdt.com/industries/neoclouds-hyperscalers"
+        },
+        {
+          "name": "Data center AI-readiness assessment",
+          "note": "Holistic facility assessment covering whether existing power and cooling capacity can support planned AI workloads, what physical changes higher-density infrastructure requires, and whether retrofitting for liquid-cooled GPU infrastructure makes sense versus modular data centers or cloud and neocloud options.",
+          "source": "https://gdt.com/blog/can-your-data-center-handle-ai-what-has-to-change-from-a-traditional-design/"
+        },
+        {
+          "name": "AI Factory Center of Excellence",
+          "note": "Dallas facility launched 22 October 2026 where customers explore AI use cases and run proofs of concept on an integrated AI factory stack with NVIDIA, Cisco and NetApp technologies; the launch article does not specify cooling details.",
+          "source": "https://gdt.com/blog/a-look-inside-gdts-new-ai-factory-center-of-excellence/"
+        },
+        {
+          "name": "Multi-site AI lifecycle and managed services",
+          "note": "Lifecycle and managed services across multiple sites, alongside deployment automation, for AI infrastructure serving neocloud and hyperscaler customers.",
+          "source": "https://gdt.com/industries/neoclouds-hyperscalers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 9 November 2026 GDT published guidance on adapting traditional data centers for AI, including why liquid cooling is not a simple upgrade: supporting liquid-cooled GPU infrastructure can require significant facility changes, liquid cooling standards are still evolving, and networking and storage equipment may still require air cooling alongside liquid-cooled NVIDIA GPU systems.",
+          "source": "https://gdt.com/blog/can-your-data-center-handle-ai-what-has-to-change-from-a-traditional-design/"
+        },
+        {
+          "year": "2026",
+          "text": "GDT launched an AI Factory Center of Excellence in Dallas on 22 October 2026, an environment where customers run AI proofs of concept on a full integrated AI factory stack using NVIDIA, Cisco and NetApp technologies.",
+          "source": "https://gdt.com/blog/a-look-inside-gdts-new-ai-factory-center-of-excellence/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does GDT do in liquid cooling?",
+          "a": "As part of AI-ready site preparation for neoclouds and hyperscalers it coordinates data center space, power, liquid cooling and cabling so facilities are ready when infrastructure arrives, and assesses whether existing facilities can support liquid-cooled GPU infrastructure."
+        },
+        {
+          "q": "How fast does GDT deploy AI clusters?",
+          "a": "The company cites rapid cluster deployment from purchase order to live capacity in some cases in as little as 30 days, supported by on-demand technician teams including weekends."
+        },
+        {
+          "q": "What does GDT say about liquid cooling retrofits?",
+          "a": "Its November 2026 guidance states liquid cooling is not a simple upgrade: most traditional data centers were built around air cooling, retrofits can be extensive, standards are still evolving, and mixed environments may need air cooling for networking and storage alongside liquid-cooled NVIDIA GPU systems."
+        },
+        {
+          "q": "Where is GDT based and who owns it?",
+          "a": "Headquarters are the GDT Innovation Campus at 999 Metromedia Place, Dallas, Texas; the legal entity is General Datatech, LP, and the company site announces it is joining Softcat."
+        }
+      ]
+    },
+    {
+      "slug": "qarnot",
+      "name": "Qarnot",
+      "segments": [
+        "heat-reuse"
+      ],
+      "tagline": "French cloud-HPC provider that distributes computing to sites that consume the waste heat, using patented direct liquid cooling to recover up to 95% of server heat and eliminate traditional cooling systems such as ventilation and air conditioning. Acquired by Scaleway to strengthen a European Cloud & AI platform.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Scaleway (acquisition announced July 10, 2026)",
+      "website": "https://qarnot.com/",
+      "productLines": [
+        {
+          "name": "Qarnot cloud HPC with heat reuse",
+          "note": "Turnkey cloud platform for engineering simulation (CFD/CAE with tools such as Abaqus, Ansys Fluent and OpenFOAM) whose servers are housed in heating devices; the company states it reuses 95% of the heat generated by the servers and that simulations carry up to 80% less carbon thanks to its heat-reuse technology.",
+          "source": "https://qarnot.com/en/"
+        },
+        {
+          "name": "Heat-reuse data center deployments",
+          "note": "Server heat is delivered to high-heat-consumption sites; deployments cited by the company include district heating in Brescia with utility A2A and wellness/aquatic centres. The heat-reuse approach is stated to eliminate the need for traditional cooling systems such as ventilation and air conditioning.",
+          "source": "https://qarnot.com/en/news/scaleway-acquires-qarnot"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Scaleway announced on July 10, 2026 that it acquires Qarnot to strengthen its European Cloud & AI platform with low-carbon HPC; the release credits Qarnot with patented direct liquid cooling that recovers up to 95% of server heat and cuts carbon emissions by up to 80%.",
+          "source": "https://qarnot.com/en/news/scaleway-acquires-qarnot"
+        },
+        {
+          "year": "2026",
+          "text": "Existing heat-reuse deployments cited in the acquisition release include district heating in Brescia with A2A and wellness/aquatic centres; Qarnot states its model places servers at high-heat-consumption sites rather than in conventionally cooled data centers.",
+          "source": "https://qarnot.com/en/news/scaleway-acquires-qarnot"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Qarnot cool its servers?",
+          "a": "It uses patented direct liquid cooling to capture server heat and reuses 95% of it at high-heat-consumption sites, which the company says eliminates the need for traditional cooling systems such as ventilation and air conditioning."
+        },
+        {
+          "q": "Who owns Qarnot?",
+          "a": "Scaleway announced the acquisition of Qarnot on July 10, 2026 to strengthen its European Cloud & AI platform with low-carbon HPC technology."
+        },
+        {
+          "q": "What workloads run on Qarnot's platform?",
+          "a": "Ready-to-use cloud HPC for engineers, including CFD and CAE simulations with tools such as Abaqus, Ansys Fluent and OpenFOAM, with up to 80% lower carbon emissions claimed for simulations."
+        },
+        {
+          "q": "Where does the recovered heat go?",
+          "a": "Deployments cited by the company include district heating in Brescia with utility A2A and wellness/aquatic centres that consume server heat directly."
+        }
+      ]
+    },
+    {
+      "slug": "simscale",
+      "name": "SimScale",
+      "segments": [
+        "software"
+      ],
+      "tagline": "Cloud-based, AI-native engineering simulation provider (SimScale GmbH, Munich) whose data center cooling offering covers direct-to-chip liquid cooling, cold plate sizing and optimization, immersion tanks, manifolds, CDU design and hybrid air-liquid systems, run in a browser without local HPC.",
+      "hq": "Munich, Germany",
+      "founded": 2012,
+      "ownership": "Private (SimScale GmbH)",
+      "website": "https://www.simscale.com/",
+      "productLines": [
+        {
+          "name": "Data center cooling simulation",
+          "note": "Cloud CFD for high-density AI/HPC rooms: direct-to-chip liquid cooling, cold plate optimization, immersion tanks, manifolds, CDU design, heat exchanger performance and hybrid air-liquid systems, with ASHRAE TC 9.9, ASHRAE 90.4 and EN 50600 checks. Users include Submer (SmartPod), NDC-GARBE, Silent-Aire and One Stop Systems (400 W AI edge enclosure).",
+          "source": "https://www.simscale.com/simulations/data-center-cooling/"
+        },
+        {
+          "name": "Engineering AI and Physics AI for thermal design",
+          "note": "Engineering AI builds simulation models from BIM/CAD and meshes rack geometry; Physics AI predicts results across many CRAH layouts and supply temperatures in minutes. The cooling page cites 16 minutes to intervene after a cooling supply failure, plus 50% less development time and 95% lower cooling energy cost versus air cooling.",
+          "source": "https://www.simscale.com/simulations/data-center-cooling/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Launched the Engineering AI Blueprint built with NVIDIA technologies (announced November 12, 2026), extending the AI-native simulation line that SimScale applies to data-center cooling design on its solutions pages.",
+          "source": "https://www.simscale.com/press/engineering-ai-blueprint-launch/"
+        },
+        {
+          "year": "2026",
+          "text": "Announced September 15, 2026 that SimScale Engineering AI moved physics simulation inside Onshape at the exact moment a design decision gets made; the same platform is the basis of its data-center cooling simulation offering, and a Nominal agentic design-and-test loop followed on November 19, 2026.",
+          "source": "https://www.simscale.com/press/simscale-launches-engineering-ai-agent-for-onshape/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling scenarios can SimScale simulate?",
+          "a": "Its data center cooling offering covers direct-to-chip liquid cooling, cold plate sizing and optimization, immersion tanks and manifolds, CDU design, heat exchanger performance and hybrid air-liquid systems for AI and HPC workloads."
+        },
+        {
+          "q": "Which data center customers are named on its cooling page?",
+          "a": "Submer for immersion cooling (SmartPod), NDC-GARBE for cooling resilience and smoke/fire scenarios, Silent-Aire, and One Stop Systems for a 400 W AI edge enclosure study."
+        },
+        {
+          "q": "When and where was SimScale founded?",
+          "a": "Founded in November 2012 by five engineers; headquartered in Munich, Germany, as SimScale GmbH, with 900,000+ engineers on the platform."
+        },
+        {
+          "q": "Does the platform support standards compliance checks?",
+          "a": "Yes, ASHRAE TC 9.9, ASHRAE 90.4 and EN 50600 compliance checks are supported in the data center cooling workflows, run cloud-native in a browser without HPC or VPN."
+        }
+      ]
+    },
+    {
+      "slug": "southwest-research-institute",
+      "name": "Southwest Research Institute (SwRI)",
+      "segments": [
+        "testing"
+      ],
+      "tagline": "Independent applied R&D institute that validates data center liquid-cooling equipment at scale, with a Large-Scale Heat Exchanger Test Facility rated up to 5 MW of heating and cooling and a medium-scale facility up to 1 MW heat load, and leads the Data Center Immersion Fluids (DCIF) consortium for immersion-cooling fluids and materials.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Independent R&D organization providing services to government and industry clients (per swri.org)",
+      "website": "https://www.swri.org/",
+      "productLines": [
+        {
+          "name": "Data center cooling testing and validation",
+          "note": "Thermal performance testing of heat exchangers and CDUs (first-of-kind early product validation), plus pumps, VFDs, in-row and rear-door heat exchangers, with P-Q and loss-of-utility-cooling transient tests. The Large-Scale Heat Exchanger Test Facility is rated up to 5 MW of heating and cooling; the medium-scale facility up to 1 MW heat load.",
+          "source": "https://www.swri.org/markets/energy-environment/fluids-engineering/fluid-mechanics-thermal-management-research/data-center-cooling-testing-research"
+        },
+        {
+          "name": "Liquid cooling R&D",
+          "note": "Research areas include direct liquid cooling (single- and two-phase), immersion cooling, spray cooling, heat pipes and vapor chambers, waste heat recovery, and PUE/WUE reduction, using custom thermal test flow loops.",
+          "source": "https://www.swri.org/markets/energy-environment/fluids-engineering/fluid-mechanics-thermal-management-research/data-center-cooling-testing-research"
+        },
+        {
+          "name": "Data Center Immersion Fluids (DCIF) Consortium",
+          "note": "Consortium helping the IT industry develop methods and standards to test and evaluate fluids and materials in immersion cooling: electrical properties (dielectric constant and strength), fluid aging, flash point, heat transfer figure of merit and material compatibility, under thermal, chemical, environmental and mechanical stressors. Open to new members.",
+          "source": "https://www.swri.org/data-center-immersion-fluids-dcif-consortium/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On November 17, 2025 SwRI announced expanded large-scale heat exchanger testing with heat loads of up to 5 MW, supporting the testing and validation of coolant distribution units, secondary side pumps and cooling fluid distribution for IT equipment",
+          "source": "https://www.swri.org/newsroom/press-releases/swri-expands-capabilities-large-scale-heat-exchanger-testing"
+        },
+        {
+          "year": "2025",
+          "text": "SwRI's 2025 annual report describes heat exchanger testing from 500 kilowatts up to 2.75 megawatts in its current configuration, with the potential to exceed 5 megawatts, to help the industry establish a performance baseline for data centers",
+          "source": "https://www.swri.org/newsroom/annual-report/2025/energy-environment"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling hardware can SwRI test?",
+          "a": "Heat exchangers and CDUs (first-of-kind early product validation), pumps and pump skids, VFDs including harmonics, in-row and rear-door heat exchangers, mechanical skids and PIC valves, including P-Q and loss-of-utility-cooling transient tests."
+        },
+        {
+          "q": "How large are SwRI's cooling test facilities?",
+          "a": "The Large-Scale Heat Exchanger Test Facility is rated up to 5 MW of heating and cooling, and the medium-scale facility up to 1 MW heat load, with custom flow loops for thermal testing."
+        },
+        {
+          "q": "What is the DCIF Consortium?",
+          "a": "An SwRI-led consortium developing methods and standards to test and evaluate fluids and materials for data center immersion cooling, covering electrical properties, fluid aging, flash point, heat transfer figure of merit and material compatibility; it is open to new members."
+        },
+        {
+          "q": "Who does SwRI work for?",
+          "a": "It describes itself as an R&D problem solver providing independent, premier services to government and industry clients."
+        }
+      ]
+    },
+    {
+      "slug": "nor-tech",
+      "name": "Nor-Tech",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Minnesota HPC and AI integrator (authorized Supermicro systems integrator) that designs, integrates and validates liquid-cooled solutions, from single liquid-cooled servers to enterprise-scale AI clusters, drawing on roughly 30 years of integration experience.",
+      "hq": "Burnsville, Minnesota, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://nor-tech.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled server solutions",
+          "note": "Design, integration and validation of liquid-cooled solutions from single liquid-cooled servers to enterprise-scale AI clusters, claiming improved cooling efficiency, lower energy use, greater rack density, longer hardware life and less HVAC dependence. A cited project headline covers a liquid-cooled solution for a large U.S. agency (no details published).",
+          "source": "https://nor-tech.com/liquid_cooled/"
+        },
+        {
+          "name": "AI and HPC cluster integration",
+          "note": "Ready-to-deploy and turnkey HPC clusters, custom GPU servers and AI infrastructure integration services for scalable performance, including turnkey password-cracking clusters built for a large U.S. organization.",
+          "source": "https://nor-tech.com/news/"
+        },
+        {
+          "name": "AI thermal engineering and support",
+          "note": "Support offerings covering GPU server overheating (AI thermal engineering) and emergency HPC cluster support for rapid AI and HPC recovery, published December 17, 2025.",
+          "source": "https://nor-tech.com/news/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Announced AI infrastructure integration services for scalable performance (April 17, 2026), alongside ready-to-deploy HPC clusters (January 19, 2026) and custom GPU servers (January 29, 2026) in its integration portfolio, which includes liquid-cooled solutions.",
+          "source": "https://nor-tech.com/news/"
+        },
+        {
+          "year": "2025",
+          "text": "Published its AI thermal engineering support offering for GPU server overheating and an emergency HPC cluster support service for rapid AI/HPC recovery, both dated December 17, 2025.",
+          "source": "https://nor-tech.com/news/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Nor-Tech offer for liquid cooling?",
+          "a": "It designs, integrates and validates liquid-cooled solutions from single liquid-cooled servers to enterprise-scale AI clusters, as an authorized Supermicro systems integrator, claiming improved cooling efficiency, lower energy use, greater rack density and longer hardware life."
+        },
+        {
+          "q": "Where is Nor-Tech located?",
+          "a": "At 901 Cliff Rd. E., Suite 101, Burnsville, Minnesota 55337, holding Minnesota State Contract #160318."
+        },
+        {
+          "q": "How much integration experience does the company cite?",
+          "a": "Its liquid-cooled solutions page cites roughly 30 years of integration experience; the site does not state a founding year."
+        },
+        {
+          "q": "What has it published recently?",
+          "a": "AI thermal engineering support for GPU server overheating and emergency HPC cluster recovery services (December 17, 2025), and in 2026 AI infrastructure integration services, ready-to-deploy HPC clusters and custom GPU servers."
+        }
+      ]
+    },
+    {
+      "slug": "purgerite",
+      "name": "PurgeRite",
+      "segments": [
+        "integrators",
+        "solutions"
+      ],
+      "tagline": "Houston-based specialist in liquid cooling fluid management whose mechanical flushing, purging and filtration services span the thermal chain from chillers to coolant distribution units. Vertiv completed its acquisition on December 4, 2025 to expand its liquid cooling services portfolio.",
+      "hq": "Houston, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of Vertiv (acquisition completed December 4, 2025)",
+      "website": "https://purgerite.com/",
+      "productLines": [
+        {
+          "name": "Mechanical flushing, purging and filtration services",
+          "note": "Services for data centers and other mission-critical facilities covering mechanical flushing, purging and filtration, with expertise spanning from chillers to coolant distribution units (CDUs); clean fluid loops start with optimal flow at commissioning, per the acquisition announcement.",
+          "source": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-completes-acquisition-of-purgerite-expanding-leadership-in-liquid-cooling-services/"
+        },
+        {
+          "name": "Liquid cooling thermal-chain services",
+          "note": "Described at announcement as having engineering expertise and proprietary technologies for liquid cooling across the thermal chain, relationships with hyperscalers and Tier 1 colocation providers, and plans to expand its service center network across North America under Vertiv.",
+          "source": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-announces-intent-to-acquire-purgerite-a-leading-provider-of-specialized-fluid-management-services-to-expand-liquid-cooling-services-portfolio"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Vertiv completed its acquisition of PurgeRite on December 4, 2025, adding mechanical flushing, purging and filtration services for data centers and mission-critical facilities to Vertiv's liquid cooling services portfolio; the acquisition intent had been announced on November 3, 2025.",
+          "source": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-completes-acquisition-of-purgerite-expanding-leadership-in-liquid-cooling-services/"
+        },
+        {
+          "year": "2025",
+          "text": "At announcement, Vertiv described PurgeRite's engineering expertise and proprietary technologies for liquid cooling across the thermal chain, its relationships with hyperscalers and Tier 1 colocation providers, and plans to expand PurgeRite's service center network across North America.",
+          "source": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/vertiv-announces-intent-to-acquire-purgerite-a-leading-provider-of-specialized-fluid-management-services-to-expand-liquid-cooling-services-portfolio"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does PurgeRite do?",
+          "a": "It provides mechanical flushing, purging and filtration services for data centers and other mission-critical facilities, with expertise spanning from chillers to coolant distribution units (CDUs), supporting clean fluid loops from commissioning onward."
+        },
+        {
+          "q": "Who owns PurgeRite?",
+          "a": "Vertiv completed its acquisition of PurgeRite on December 4, 2025, having announced the intent on November 3, 2025, to expand its liquid cooling services portfolio."
+        },
+        {
+          "q": "Where is PurgeRite based?",
+          "a": "Headquartered in Houston, Texas, with plans announced at acquisition to expand its service center network across North America."
+        },
+        {
+          "q": "Who are its customers?",
+          "a": "The acquisition announcement cites relationships with hyperscalers and Tier 1 colocation providers."
+        }
+      ]
+    },
+    {
+      "slug": "penguin-solutions",
+      "name": "Penguin Solutions",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "US HPC and AI infrastructure provider that designs and builds data centers using direct-to-chip liquid cooling, single-phase and two-phase immersion, rear-door heat exchangers and hybrid air/liquid designs. Its power-and-cooling expertise group works alongside its Full-Stack AI Factory platform business.",
+      "hq": "Fremont, California, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "NASDAQ: PENG",
+      "website": "https://www.penguinsolutions.com/",
+      "productLines": [
+        {
+          "name": "Data center power and cooling design services",
+          "note": "Design services covering direct-to-chip cooling via cold plates, single-phase immersion in non-conductive fluids (oils, fluorocarbons, esters), two-phase immersion, rear-door heat exchangers and hybrid combinations. AI racks are cited at up to 50 kW or more per rack and 44 kW for an H100 rack with four nodes, versus 8.6-10 kW for a traditional rack.",
+          "source": "https://www.penguinsolutions.com/en-us/expertise/data-center-power-cooling/"
+        },
+        {
+          "name": "Immersion-ready systems (AMD and Shell partnership)",
+          "note": "Penguin Solutions partnered with AMD and Shell for immersion-ready systems deployed at Shell's Houston data center, which the company reports boosted performance and lowered emissions.",
+          "source": "https://www.penguinsolutions.com/en-us/expertise/data-center-power-cooling/"
+        },
+        {
+          "name": "Full-Stack AI Factory Platform",
+          "note": "Platform family (brands OriginAI, ClusterWareAI, ComputeAI, MemoryAI) presented on the company's data-center power and cooling expertise pages for AI factory deployments that pair high-density compute with its cooling design services.",
+          "source": "https://www.penguinsolutions.com/en-us/expertise/data-center-power-cooling/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Announced (September 9, 2026) that its Full-Stack AI Factory Platform enables Lektra's AI data centers; the platform line is presented on the company's data-center power and cooling expertise page together with its direct-to-chip and immersion offerings.",
+          "source": "https://www.penguinsolutions.com/en-us/"
+        },
+        {
+          "year": "2026",
+          "text": "Became an NVIDIA AI Factory Specialized Partner, announced June 23, 2026, extending the AI factory business that its data-center power and cooling design services support.",
+          "source": "https://www.penguinsolutions.com/en-us/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling approaches does Penguin Solutions design for?",
+          "a": "Its data-center power and cooling expertise covers direct-to-chip cold plates, single-phase liquid immersion in non-conductive fluids, two-phase immersion, rear-door heat exchangers, high-efficiency air cooling and hybrid combinations."
+        },
+        {
+          "q": "Where is Penguin Solutions based and how is it listed?",
+          "a": "The company site lists headquarters at 45800 Northport Loop W, Fremont, California, and schema markup on the site identifies Penguin Solutions, Inc. with ticker PENG."
+        },
+        {
+          "q": "What rack densities does the company cite for liquid-cooled AI deployments?",
+          "a": "Its cooling page cites AI racks requiring up to 50 kW or more per rack, and 44 kW for a rack of four H100 nodes, against 8.6-10 kW for a traditional rack."
+        },
+        {
+          "q": "What are its recent AI-infrastructure milestones?",
+          "a": "Announced September 9, 2026 that its Full-Stack AI Factory Platform enables Lektra's AI data centers, and on June 23, 2026 that it became an NVIDIA AI Factory Specialized Partner."
+        }
+      ]
+    },
+    {
+      "slug": "cundall",
+      "name": "Cundall",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Engineering consultancy offering data-centre design, due diligence and R&D; its current liquid-cooling work centers on retrofit pathways for existing air-cooled hyperscale sites, notably compressor-assisted coolant distribution units (CA-CDUs) and liquid-cooling-ready new builds.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.cundall.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooling retrofit R&D (CA-CDU study)",
+          "note": "R&D engagement for a confidential hyperscale client evaluating compressor-assisted CDU technology in existing air-cooled data centres, with technical water supply typically around 30 C and return around 40 C, free cooling when ambient is at least 2 C below supply, and mechanical mode when ambient is less than 5 C below return temperature.",
+          "source": "https://www.cundall.com/projects/compressor-assisted-coolant-distribution-unit"
+        },
+        {
+          "name": "Technical due diligence of liquid-cooling technology",
+          "note": "Due-diligence project for a venture capital investor reviewing a start-up's liquid-to-liquid and liquid-to-air cooling solutions for HPC, AI and data-centre relevance, covering performance data, technical literature and product information.",
+          "source": "https://www.cundall.com/projects/technical-due-diligence-of-liquid-cooling-technology"
+        },
+        {
+          "name": "Data-centre engineering services",
+          "note": "Site due diligence, design, construction administration, technical due diligence and R&D; the team, established in 2006, also evaluates liquid-cooling deployment pathways for existing air-cooled hyperscale data-centre environments.",
+          "source": "https://www.cundall.com/sectors/data-centres/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a November 2026 blog, 'Powering intelligence: How AI is redefining data centre design', Cundall wrote that developers can reduce future retrofit risk by making facilities ready for liquid cooling from the outset, citing rack loads of 100 kW per rack.",
+          "source": "https://www.cundall.com/ideas/blog/powering-intelligence-how-ai-is-redefining-data-centre-design"
+        },
+        {
+          "year": "2026",
+          "text": "In a July 2026 blog, Cundall concluded that compressor-assisted CDUs remove the dependency on chilled water by integrating a refrigeration circuit directly within the unit, making liquid-cooling retrofits feasible in air-cooled facilities without chilled water.",
+          "source": "https://www.cundall.com/ideas/blog/can-compressor-assisted-cdus-speed-up-liquid-cooling-adoption-in-existing-data-centres"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling retrofit research has Cundall published?",
+          "a": "A July 2026 blog on compressor-assisted CDUs argued they remove the dependency on chilled water by integrating a refrigeration circuit within the unit, enabling liquid-cooling retrofits in existing air-cooled data centres; a November 2026 blog recommends making new facilities liquid-cooling ready from the outset."
+        },
+        {
+          "q": "Has Cundall done liquid-cooling work for hyperscale operators?",
+          "a": "Yes. It was engaged by a confidential hyperscale client to evaluate adding compressor-assisted CDU technology into existing air-cooled data centres, using technical water supply around 30 C and return around 40 C, with free cooling when ambient air is at least 2 C below supply temperature."
+        },
+        {
+          "q": "Does Cundall evaluate liquid-cooling technologies for investors?",
+          "a": "Yes. Its technical due-diligence project for a venture capital firm reviewed a start-up's liquid-to-liquid and liquid-to-air cooling solutions, including performance data and technical literature, for HPC, AI and data-centre relevance."
+        }
+      ]
+    },
+    {
+      "slug": "unicom-engineering",
+      "name": "UNICOM Engineering",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "OEM integration and deployment-services provider of purpose-built application platforms and appliances; in 2026 it announced liquid- and immersion-cooled platform collaborations with GRC, Fourier Cooling and Nexalus covering AI, HPC, edge and modular data-center infrastructure.",
+      "hq": "Canton, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Subsidiary of UNICOM Global",
+      "website": "https://www.unicomengineering.com/",
+      "productLines": [
+        {
+          "name": "Immersion-cooled AI solutions with GRC",
+          "note": "Turnkey single-phase immersion offerings combining UNICOM immersion-ready platforms with GRC immersion cooling, targeting AI, HPC, GPU-as-a-Service, high-density compute and industrial data centers, plus edge use cases with GRC's ICEraQ Nano, deployed at UNICOM's Plano, Texas lab after 4 years of joint testing.",
+          "source": "https://www.unicomengineering.com/news/unicom-engineering-and-grc-launch-fully-integrated-immersion-cooled-ai-solutions/"
+        },
+        {
+          "name": "Cooling-defined modular AI data centers with Fourier Cooling",
+          "note": "Pairs Fourier prefabricated containerized modular data centers supporting direct-to-chip, immersion and hybrid fan-wall liquid cooling with UNICOM liquid-cooled Tier-1 platforms and lifecycle services; Fourier reports 600+ MW of deployed or in-progress liquid-cooled infrastructure and 30 MW of turnkey capacity in as little as six months.",
+          "source": "https://www.unicomengineering.com/news/unicom-engineering-and-fourier-cooling-collaborate-to-deliver-cooling-defined-modular-ai-data-center-infrastructure/"
+        },
+        {
+          "name": "Liquid-cooled OEM edge solutions with Nexalus",
+          "note": "Announced partnership combining Nexalus cooling technology with UNICOM design, integration and global manufacturing for liquid-cooled edge solutions targeting data centers, edge and industrial environments, including AI, cloud and telecom workloads.",
+          "source": "https://www.unicomengineering.com/news/nexalus-and-unicom-engineering-partner-to-deliver-liquid-cooled-oem-edge-solutions/"
+        },
+        {
+          "name": "OEM integration and deployment services",
+          "note": "OEM design, system integration, branding, logistics, compliance and global support for edge, AI and data-center solutions, with an 'Advanced thermal solutions for dense, efficient systems' liquid-cooling capability area described on the homepage.",
+          "source": "https://www.unicomengineering.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "During Dell Technologies World 2026, Nexalus and UNICOM Engineering formalized a strategic partnership to deliver liquid-cooled OEM edge solutions combining Nexalus cooling technology with UNICOM design, integration and global manufacturing for AI, cloud and telecom workloads.",
+          "source": "https://www.unicomengineering.com/news/nexalus-and-unicom-engineering-partner-to-deliver-liquid-cooled-oem-edge-solutions/"
+        },
+        {
+          "year": "2026",
+          "text": "On April 28, 2026 UNICOM Engineering and Fourier Cooling announced a collaboration on cooling-defined modular AI data center infrastructure supporting direct-to-chip, immersion and hybrid fan-wall liquid cooling; Fourier reported more than 600 MW of deployed and in-progress liquid-cooled infrastructure and 30 MW of turnkey capacity in as little as six months.",
+          "source": "https://www.unicomengineering.com/news/unicom-engineering-and-fourier-cooling-collaborate-to-deliver-cooling-defined-modular-ai-data-center-infrastructure/"
+        },
+        {
+          "year": "2026",
+          "text": "On March 10, 2026 UNICOM Engineering and GRC announced expanded turnkey immersion-cooled AI solutions built on 4 years of joint testing, including deployment of GRC's ICEraQ Nano at UNICOM's Plano, Texas lab for AI, HPC, industrial and edge use cases.",
+          "source": "https://www.unicomengineering.com/news/unicom-engineering-and-grc-launch-fully-integrated-immersion-cooled-ai-solutions/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling partnerships has UNICOM Engineering announced in 2026?",
+          "a": "Three: an expanded immersion-cooled AI collaboration with GRC announced March 10, 2026; a modular AI data-center collaboration with Fourier Cooling announced April 28, 2026; and a liquid-cooled OEM edge partnership with Nexalus formalized during Dell Technologies World 2026."
+        },
+        {
+          "q": "What does the GRC collaboration include?",
+          "a": "Turnkey single-phase immersion solutions combining UNICOM immersion-ready platforms with GRC cooling for AI, HPC, GPU-as-a-Service, industrial and edge use cases, with GRC's ICEraQ Nano deployed at UNICOM's Plano, Texas lab after 4 years of joint testing."
+        },
+        {
+          "q": "What cooling technologies does the Fourier Cooling collaboration support?",
+          "a": "Fourier supplies prefabricated containerized modular data centers supporting direct-to-chip, immersion and hybrid fan-wall liquid cooling; Fourier reports over 600 MW of deployed and in-progress liquid-cooled infrastructure and 30 MW of turnkey capacity deliverable in as little as six months."
+        }
+      ]
+    },
+    {
+      "slug": "csa-group",
+      "name": "CSA Group",
+      "segments": [
+        "testing"
+      ],
+      "tagline": "Independent, not-for-profit membership association providing testing and certification; its data center compliance and evaluation services cover cooling equipment including chillers, cooling distribution units and cooling towers, evaluated at component level and combined into operational assemblies.",
+      "hq": "NOT_FOUND",
+      "founded": 1919,
+      "ownership": "Independent, not-for-profit membership association",
+      "website": "https://www.csagroup.org/",
+      "productLines": [
+        {
+          "name": "Data Center Compliance & Evaluation Services",
+          "note": "Evaluates cooling equipment including chillers, cooling distribution units and cooling towers at component level and as operational assemblies; also covers power (UPS, BESS, switchgear, busway), IT infrastructure (servers, racks, PDUs), Field Evaluation, Canadian Special Inspections and pre-construction compliance reviews; CSA is an OSHA-recognized NRTL.",
+          "source": "https://www.csagroup.org/testing-certification/testing/data-center-services/"
+        },
+        {
+          "name": "Standards development",
+          "note": "CSA Group was established in 1919 as the Canadian Engineering Standards Association (CESA) and operates as a not-for-profit standards organization; per its August 2026 announcement, the Canadian Standards Association moves forward as a standalone not-for-profit organization after the sale of its testing, inspection and certification business.",
+          "source": "https://www.csagroup.org/faq"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In August 2026 CSA Group announced the sale of its testing, inspection and certification business to Kiwa Group, with the Canadian Standards Association to move forward as a standalone not-for-profit organization focused on its public-benefit standards mandate; the data center evaluation services sit within the business being sold.",
+          "source": "https://www.csagroup.org/about-csa-group/news"
+        },
+        {
+          "year": "2026",
+          "text": "As of November 2026, CSA Group's data center services evaluate cooling equipment including chillers, cooling distribution units and cooling towers at both component level and combined into operational assemblies, alongside power, IT infrastructure and connectivity equipment.",
+          "source": "https://www.csagroup.org/testing-certification/testing/data-center-services/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling equipment does CSA Group evaluate for data centers?",
+          "a": "Its data center services evaluate chillers, cooling distribution units, cooling towers and related HVAC infrastructure at the component level and as operational assemblies, with CSA Group operating as an OSHA-recognized Nationally Recognized Testing Laboratory and an accredited Certification Body in Canada."
+        },
+        {
+          "q": "Is CSA Group's testing business changing ownership?",
+          "a": "Yes. In August 2026 CSA Group announced the sale of its testing, inspection and certification business to Kiwa Group, with the Canadian Standards Association continuing as a standalone not-for-profit organization focused on standards."
+        },
+        {
+          "q": "What is CSA Group and when was it founded?",
+          "a": "An independent, not-for-profit membership association established in 1919 as the Canadian Engineering Standards Association (CESA), described on its FAQ as a solutions-based standards organization."
+        }
+      ]
     }
   ]
 }
