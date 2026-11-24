@@ -612,7 +612,7 @@
           "hq": "KR",
           "note": "Semiconductor scrubber and chiller maker that completed two immersion cooling equipment model designs (2023), now in customer demonstration; partnered with S-Oil on immersion-cooled data center pilots",
           "source": "https://www.gst-in.com/",
-          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+          "evidence": "https://www.gst-in.com/en/m31.php"
         },
         {
           "name": "Advanced Thermal Solutions",
@@ -1277,7 +1277,7 @@
           "name": "Axiom Solutions International",
           "hq": "US",
           "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
-          "source": "https://www.axiom.com/",
+          "source": "https://flex.com/transaction-resources",
           "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
         },
         {
@@ -1379,7 +1379,7 @@
           "hq": "KR",
           "note": "Semiconductor scrubber and chiller maker that completed two immersion cooling equipment model designs (2023), now in customer demonstration; partnered with S-Oil on immersion-cooled data center pilots",
           "source": "https://www.gst-in.com/",
-          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+          "evidence": "https://www.gst-in.com/en/m31.php"
         },
         {
           "name": "PKI",
@@ -1479,7 +1479,7 @@
           "hq": "KR",
           "note": "Immersion cooling fluids business via SK Enmove (merged into SK On as in-house unit in Nov 2025); three-way MOU with LG Electronics and GRC on liquid cooling for AI data centers",
           "source": "https://www.skinnovation.com/",
-          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+          "evidence": "https://www.skenmove.com/"
         },
         {
           "name": "PKI",
@@ -1564,13 +1564,6 @@
           "note": "DATA Klin self-cleaning disc filtration for data center cooling towers and side-stream filtration protecting direct-to-chip heat exchangers",
           "source": "https://www.amiad.com/",
           "evidence": "https://datacentercoolingwater.amiad.com"
-        },
-        {
-          "name": "Mivolt (Shell)",
-          "hq": "GB",
-          "note": "Biodegradable dielectric ester fluids (MIVOLT range) for single-phase immersion cooling of data-centre servers, EV batteries and power electronics; sold to Shell Lubricants (completed Jan 2024)",
-          "source": "https://www.mivolt.com/",
-          "evidence": "https://www.shell.com/business-customers/industrial-lubricants-and-specialty-fluids-for-business/news-and-media-releases/2023/shell-lubricants-to-acquire-uk-based-midel-and-mivolt.html"
         },
         {
           "name": "Oleon",
@@ -1690,21 +1683,14 @@
           "hq": "KR",
           "note": "HVAC group whose subsidiary AUTECH Carrier makes chillers and heat pump equipment serving data center cooling, including support of liquid cooling loops",
           "source": "https://www.autechgroup.co.kr/",
-          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+          "evidence": "https://www.autechgroup.co.kr/news_view.asp?num=660"
         },
         {
           "name": "Shinsung E&G",
           "hq": "KR",
-          "note": "Cleanroom and precision cooling contractor supplying fan wall units (FWUs) and precision temperature-control solutions for AI data centers; air-side complement to liquid-cooled racks",
+          "note": "Cleanroom and precision cooling contractor for AI data centers: fan wall units and precision temperature control, plus an all-in-one rack-and-cooling module (November 2026) with direct liquid cooling, 16-140 kW per rack",
           "source": "https://www.shinsungeng.com/",
-          "evidence": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
-        },
-        {
-          "name": "CKY HVAC Engineering",
-          "hq": "TW",
-          "note": "Taiwan HVAC engineering firm for AI data centers: direct liquid cooling piping design, CDU selection and leak-prevention planning for 100 kW+ racks, plus chillers and cooling towers",
-          "source": "https://www.cky.com.tw/",
-          "evidence": "https://www.cky.com.tw/en/services/ai-datacenter"
+          "evidence": "https://www.shinsungeng.com/board/board.php?bbsid=news&idx=480"
         },
         {
           "name": "SMC",
@@ -2277,7 +2263,7 @@
         {
           "name": "CKY HVAC Engineering",
           "hq": "TW",
-          "note": "Taiwan HVAC engineering firm for AI data centers: direct liquid cooling piping design, CDU selection and leak-prevention planning for 100 kW+ racks, plus chillers and cooling towers",
+          "note": "Kaohsiung HVAC engineering and design firm offering direct liquid cooling piping design, CDU selection and leak-prevention planning for AI data center racks above 100 kW",
           "source": "https://www.cky.com.tw/",
           "evidence": "https://www.cky.com.tw/en/services/ai-datacenter"
         },
@@ -2366,7 +2352,7 @@
           "evidence": "https://www.legrand.com/datacenter/de-en/white-space/cooling"
         },
         {
-          "name": "Sudlows (Kent Data Centres)",
+          "name": "Sudlows",
           "hq": "GB",
           "note": "UK data center design and build consultancy; deployment partner for NTT's production immersion and direct contact liquid cooling rollout in India",
           "source": "https://www.sudlows.com/",
@@ -2411,14 +2397,14 @@
           "name": "Rahi Systems",
           "hq": "US",
           "note": "Global data center solutions integrator; delivers liquid cooling turnkey solutions including ColdLogik rear-door heat exchangers (200kW+ per rack) for hyperscale and colocation customers",
-          "source": "https://rahisystems.com/",
+          "source": "https://rahi.io/",
           "evidence": "https://www.usystems.com/knowledge-hub-posts/usystems-and-rahi-partner-to-deliver-to-the-global-data-center-market"
         },
         {
           "name": "Axiom Solutions International",
           "hq": "US",
           "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
-          "source": "https://www.axiom.com/",
+          "source": "https://flex.com/transaction-resources",
           "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
         },
         {
@@ -2476,6 +2462,13 @@
           "note": "Makes data centre chillers with rapid-restart features and supplies cooling and MEP integration for data centre projects",
           "source": "https://www.bluestarindia.com/",
           "evidence": "https://resources.bluestarindia.com/Data_Center_Chiller_08253e9925.pdf"
+        },
+        {
+          "name": "Shinsung E&G",
+          "hq": "KR",
+          "note": "Cleanroom and precision cooling contractor for AI data centers: fan wall units and precision temperature control, plus an all-in-one rack-and-cooling module (November 2026) with direct liquid cooling, 16-140 kW per rack",
+          "source": "https://www.shinsungeng.com/",
+          "evidence": "https://www.shinsungeng.com/board/board.php?bbsid=news&idx=480"
         }
       ]
     },
@@ -2545,7 +2538,7 @@
           "name": "Axiom Solutions International",
           "hq": "US",
           "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
-          "source": "https://www.axiom.com/",
+          "source": "https://flex.com/transaction-resources",
           "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
         },
         {
@@ -2684,7 +2677,7 @@
           "evidence": "https://www.prnewswire.com/in/news-releases/refroid-technologies-and-technavious-solutions-private-limited-partner-to-build-sovereign-liquid-cooling-infrastructure-for-indias-ai-data-centres-302713016.html"
         },
         {
-          "name": "Sudlows (Kent Data Centres)",
+          "name": "Sudlows",
           "hq": "GB",
           "note": "UK data center design and build consultancy; deployment partner for NTT's production immersion and direct contact liquid cooling rollout in India",
           "source": "https://www.sudlows.com/",

@@ -3823,6 +3823,639 @@
           "a": "The site describes the company as a private national high-tech enterprise with no stock listing mentioned. Caution: the TPEx 7892 listing named in some references belongs to a different, similarly-named Taiwanese liquid cooling company, not tonecooling.com."
         }
       ]
+    },
+    {
+      "slug": "wiwynn",
+      "name": "Wiwynn",
+      "segments": [
+        "servers",
+        "immersion"
+      ],
+      "tagline": "Taiwan-based hyperscale AI server and rack ODM listed as TWSE: 6669. Its advanced cooling portfolio spans cold plate liquid cooling, air-assisted liquid cooling and two-phase immersion; its first two-phase immersion solution runs in Microsoft's datacenter in Quincy, and the company cites 9K+ OCP racks per quarter.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 2012,
+      "ownership": "TWSE: 6669",
+      "website": "https://www.wiwynn.com/",
+      "productLines": [
+        {
+          "name": "Advanced cooling technology portfolio",
+          "note": "The advanced cooling page covers cold plate liquid cooling, two-phase immersion cooling and a universal cooling management system, comparing air vs. liquid cooling, and cites saving 90% cooling energy and 9K+ OCP racks per quarter. The site also lists an Air-Assisted Liquid Cooling Solution technology topic.",
+          "source": "https://www.wiwynn.com/technology/advanced-cooling"
+        },
+        {
+          "name": "OCP Global Summit 2026 thermal hardware",
+          "note": "Demonstrations recapped October 20, 2026: diamond-based microchannel cooling; a 6 kW double-sided cold plate with cavity PCBA and VPD; and a lightweight cold plate with inner manifold design, shown alongside NVIDIA Vera Rubin NVL72 and AMD Helios rack-scale systems.",
+          "source": "https://www.wiwynn.com/news/recap-of-wiwynn-at-ocp-global-summit-2026-scaling-ai-beyond-limits"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On October 20, 2026, Wiwynn published a recap of its OCP Global Summit 2026 presence, covering thermal demos including diamond-based microchannel cooling, a 6 kW double-sided cold plate with cavity PCBA and VPD, and a lightweight cold plate with inner manifold design, alongside NVIDIA Vera Rubin NVL72 and AMD Helios rack-scale systems.",
+          "source": "https://www.wiwynn.com/news/recap-of-wiwynn-at-ocp-global-summit-2026-scaling-ai-beyond-limits"
+        },
+        {
+          "year": "2026",
+          "text": "Wiwynn's advanced cooling page (site footer 2026) states its first two-phase immersion cooling solution is running at Microsoft's datacenter in Quincy, and cites saving 90% cooling energy and 9K+ OCP racks per quarter.",
+          "source": "https://www.wiwynn.com/technology/advanced-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling technologies does Wiwynn cover?",
+          "a": "Its advanced cooling page covers cold plate liquid cooling, two-phase immersion cooling and a universal cooling management system, and the site lists an Air-Assisted Liquid Cooling Solution technology topic; the page cites saving 90% cooling energy and 9K+ OCP racks per quarter."
+        },
+        {
+          "q": "Where is Wiwynn's two-phase immersion cooling deployed?",
+          "a": "The advanced cooling page states the first two-phase immersion solution is running at Microsoft's datacenter in Quincy; the page does not give a deployment date."
+        },
+        {
+          "q": "What thermal hardware did Wiwynn present at OCP Global Summit 2026?",
+          "a": "Its October 20, 2026 recap names diamond-based microchannel cooling, a 6 kW double-sided cold plate with cavity PCBA and VPD, and a lightweight cold plate with inner manifold design, shown alongside NVIDIA Vera Rubin NVL72 and AMD Helios rack-scale systems."
+        },
+        {
+          "q": "Is Wiwynn publicly traded?",
+          "a": "Yes. The company's homepage lists Wiwynn Corporation as listed on the Taiwan Stock Exchange (TWSE) under ticker 6669."
+        }
+      ]
+    },
+    {
+      "slug": "ufispace",
+      "name": "UfiSpace",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Taiwan-based maker of open, disaggregated networking hardware (cell site gateways, aggregation and core/edge routers, data center switches), headquartered in Xinzhuang District, New Taipei City. At OCP Global Summit 2026 it demonstrated live liquid-cooled operation of its 102.4 Tbps S9331-64HO3L switch running with a CDU.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.ufispace.com/",
+      "productLines": [
+        {
+          "name": "S9331-64HO3L liquid-cooled switch",
+          "note": "102.4 Tbps switch with 64 x 1.6T OSFP ports in a 2OU ORv3 form factor, powered by the Broadcom Tomahawk 6 ASIC and liquid-cooled; demonstrated live at OCP Global Summit 2026 operating with a Cooling Distribution Unit (CDU) for real-time cooling validation of 1.6T AI fabric thermal feasibility.",
+          "source": "https://www.prnewswire.com/apac/news-releases/ufispace-demonstrates-1-6t-ai-fabric-thermal-feasibility-with-live-liquid-cooling-platform-at-ocp-global-summit-2026--302907418.html"
+        },
+        {
+          "name": "Open networking and data center switch portfolio",
+          "note": "Disaggregated networking hardware and software including cell site gateways, aggregation and core/edge routers, data center switches spanning 1G-800G (with 1.6T stated as in development), AI networking platforms, fronthaul multiplexers and NetGence software for telecom and cloud/data center markets.",
+          "source": "https://www.ufispace.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a press release dated October 14, 2026, UfiSpace announced a live liquid-cooling demonstration at OCP Global Summit 2026 (October 12-15, San Jose, California, booth D19): the S9331-64HO3L 102.4 Tbps, 64-port 1.6T OSFP, 2OU ORv3 switch operating with a CDU to validate thermal feasibility for 1.6T AI fabric networks.",
+          "source": "https://www.prnewswire.com/apac/news-releases/ufispace-demonstrates-1-6t-ai-fabric-thermal-feasibility-with-live-liquid-cooling-platform-at-ocp-global-summit-2026--302907418.html"
+        },
+        {
+          "year": "2026",
+          "text": "The same October 2026 release states the S9331-64HO3L is powered by the Broadcom Tomahawk 6 ASIC and runs with a Cooling Distribution Unit (CDU) for real-time cooling validation, framing liquid cooling as a response to extreme power densities and strict thermal constraints in AI data centers.",
+          "source": "https://www.prnewswire.com/apac/news-releases/ufispace-demonstrates-1-6t-ai-fabric-thermal-feasibility-with-live-liquid-cooling-platform-at-ocp-global-summit-2026--302907418.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did UfiSpace demonstrate at OCP Global Summit 2026?",
+          "a": "A live liquid-cooling platform: the S9331-64HO3L, a 102.4 Tbps switch with 64 x 1.6T OSFP ports in a 2OU ORv3 form factor, operating with a CDU for real-time cooling validation, announced October 14, 2026 (summit held October 12-15, 2026, San Jose, booth D19)."
+        },
+        {
+          "q": "Why is UfiSpace applying liquid cooling to switches?",
+          "a": "Per the company's release, AI workloads push data centers toward extreme power densities and strict thermal constraints, and the 1.6T transition requires ecosystem alignment across silicon, optics, thermal management and NOS partners; validating liquid cooling feasibility lets partners and customers design future AI data centers with confidence."
+        },
+        {
+          "q": "Which silicon and switch chip does the liquid-cooled switch use?",
+          "a": "The S9331-64HO3L is powered by the Broadcom Tomahawk 6 ASIC, per the October 2026 announcement."
+        },
+        {
+          "q": "Where is UfiSpace headquartered?",
+          "a": "The company lists its address as 10F., No. 300, Jianguo 1st Rd., Xinzhuang District, New Taipei City 242047, Taiwan, on its website."
+        }
+      ]
+    },
+    {
+      "slug": "sunon",
+      "name": "Sunon",
+      "segments": [
+        "cold-plates",
+        "cdus",
+        "components"
+      ],
+      "tagline": "Thermal management company with more than 40 years in cooling, known for DC, AC and EC fans and now an end-to-end data-center liquid cooling line: CPU/DIMM cold plates including 3D-printed designs with 3D Architech, plus liquid-to-liquid and liquid-to-air CDUs from 7 kW to 300 kW. Sunon joined the NVIDIA MGX ecosystem as a partner.",
+      "hq": "Kaohsiung, Taiwan",
+      "founded": 1980,
+      "ownership": "TWSE: 2421",
+      "website": "https://www.sunonusa.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling CDUs",
+          "note": "CDU lineup presented for OCP Global Summit 2026: a 200 kW liquid-to-liquid (L2L) unit in 5U for high-density AI rack cooling; a 7 kW liquid-to-air (L2A) unit in 4U for lab testing and validation; and a 300 kW L2A system spanning three racks for AI/HPC.",
+          "source": "https://www.sunonusa.com/showcasing-liquid-cooling-solutions-for-next-generation-ai-computing"
+        },
+        {
+          "name": "Cold plates",
+          "note": "Standard cold plate solutions for AMD SP8, Intel Oakstream (site spelling: Oakstream) socket and DIMM cooling, plus 3D-printed cold plates developed with 3D Architech for high-power chip cooling with improved thermal resistance.",
+          "source": "https://www.sunonusa.com/showcasing-liquid-cooling-solutions-for-next-generation-ai-computing"
+        },
+        {
+          "name": "Cooling fans and thermal modules",
+          "note": "The company's core catalog spans DC, AC, EC and Green EC fans, Mighty Mini fans and fan accessories, alongside Liquid Cooling and Cooling Modules categories listed as thermal solutions.",
+          "source": "https://www.sunonusa.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "For OCP Global Summit 2026 (October 12-15, 2026, San Jose McEnery Convention Center, booth A19), Sunon presented a liquid cooling lineup including a 200 kW L2L 5U CDU, 7 kW and 300 kW L2A CDUs, cold plates for AMD SP8, Intel Oakstream and DIMM cooling, 3D-printed cold plates with 3D Architech, and announced joining the NVIDIA MGX ecosystem as a partner.",
+          "source": "https://www.sunonusa.com/showcasing-liquid-cooling-solutions-for-next-generation-ai-computing"
+        },
+        {
+          "year": "2026",
+          "text": "Sunon's US site lists Liquid Cooling and Cooling Modules as thermal solution categories alongside its fan catalog, and states the company has spent more than 40 years in thermal management (no founding year given).",
+          "source": "https://www.sunonusa.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What CDUs does Sunon offer?",
+          "a": "Per its OCP Global Summit 2026 page: a 200 kW liquid-to-liquid CDU in 5U for high-density AI racks, a 7 kW liquid-to-air CDU in 4U for lab testing/validation, and a 300 kW liquid-to-air system spanning three racks for AI/HPC."
+        },
+        {
+          "q": "Which sockets do Sunon cold plates support?",
+          "a": "Standard cold plates are offered for AMD SP8, Intel Oakstream socket and DIMM cooling; 3D-printed cold plates developed with 3D Architech target high-power chip cooling with improved thermal resistance."
+        },
+        {
+          "q": "Is Sunon part of the NVIDIA ecosystem?",
+          "a": "Yes. The company's OCP 2026 showcase page states Sunon joined the NVIDIA MGX ecosystem as an ecosystem partner."
+        },
+        {
+          "q": "What else does Sunon make besides liquid cooling?",
+          "a": "Sunon's main catalog is cooling fans (DC, AC, EC and Green EC, plus Mighty Mini fans and accessories), with Liquid Cooling and Cooling Modules listed as additional thermal solution categories."
+        }
+      ]
+    },
+    {
+      "slug": "autech",
+      "name": "AUTECH",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Korean HVAC group (KOSDAQ: 067170). Subsidiary AUTECH Carrier supplies chillers and data-center cooling equipment: in November 2026 it signed an MOU for the 200MW Sacheon Sky City AI data center and contracted chillers for a 48MW data center in Bupyeong; its Carrier 65LL CDU is stated as Product Qualified on NVIDIA Marketplace.",
+      "hq": "Yesan, Chungcheongnam-do, South Korea",
+      "founded": 1991,
+      "ownership": "KOSDAQ: 067170",
+      "website": "https://www.autechgroup.co.kr/",
+      "productLines": [
+        {
+          "name": "AUTECH Carrier data center cooling equipment",
+          "note": "The group's subsidiary AUTECH Carrier supplies cooling/HVAC equipment for data centers, including chillers contracted in November 2026 for a 48MW hyperscale data center in Bupyeong, Incheon, and cooling equipment under a 200MW AI data center MOU in Sacheon.",
+          "source": "https://www.autechgroup.co.kr/news_view.asp?num=660"
+        },
+        {
+          "name": "Carrier 65LL CDU",
+          "note": "The company's November 18, 2026 news item states the Carrier CDU model 65LL received Product Qualified certification on NVIDIA Marketplace in 2026; the item also lists coolant distribution units (CDUs) alongside chillers as equipment for AI data center projects.",
+          "source": "https://www.autechgroup.co.kr/news_view.asp?num=660"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On November 18, 2026, AUTECH Carrier announced a three-party MOU with Taewang D&D and J&J First Holdings to supply cooling/HVAC equipment for the 200MW Sacheon Sky City AI Data Center (phases of 80MW and 120MW; phase 1 trial operation targeted for February 2028), plus a mid-November 2026 contract to supply chillers for a 48MW hyperscale data center in Bupyeong and a 200MW Gumi AI cluster contract pending signing.",
+          "source": "https://www.autechgroup.co.kr/news_view.asp?num=660"
+        },
+        {
+          "year": "2026",
+          "text": "The same November 2026 news item states the Carrier CDU model 65LL received Product Qualified certification on NVIDIA Marketplace in 2026, per the company's announcement.",
+          "source": "https://www.autechgroup.co.kr/news_view.asp?num=660"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What data center cooling projects is AUTECH Carrier involved in?",
+          "a": "Per its November 18, 2026 news item: an MOU to supply cooling/HVAC equipment for the 200MW Sacheon Sky City AI Data Center (phases of 80MW and 120MW, phase 1 trial operation targeted February 2028), a chiller supply contract for a 48MW hyperscale data center in Bupyeong, and a 200MW Gumi AI cluster data center contract pending signing."
+        },
+        {
+          "q": "Does AUTECH make anything for liquid cooling loops?",
+          "a": "The company's November 2026 news item lists coolant distribution units (CDUs) among its AI data center equipment and states the Carrier CDU model 65LL received Product Qualified certification on NVIDIA Marketplace in 2026."
+        },
+        {
+          "q": "Who is AUTECH's data-center cooling subsidiary?",
+          "a": "AUTECH Carrier, listed as a subsidiary on the group site; a September 2026 filing analysis also assigns HVAC and data centre cooling work to AUTECH Carrier."
+        },
+        {
+          "q": "Is AUTECH publicly listed?",
+          "a": "A Korean market analysis dated September 1, 2026 lists AUTECH as KOSDAQ-listed with code 067170; the company's own site does not display a ticker."
+        }
+      ]
+    },
+    {
+      "slug": "amulaire-thermal-technology",
+      "name": "Amulaire Thermal Technology",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Taiwan thermal company founded June 2011 and listed TWSE: 2241. It makes liquid cold plates (over 5 million applied on EV inverters, U-Cup designs) and lists Data Center Thermal Management Systems, stating it is deeply involved in the data center industry including design and manufacturing of immersion cooling products.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 2011,
+      "ownership": "TWSE: 2241",
+      "website": "https://www.amulaire.com/",
+      "productLines": [
+        {
+          "name": "Liquid cold plates and liquid coolers",
+          "note": "The site states over 5 million cold plates applied on EV inverters across 30 EV models, patented liquid-cooling designs named U-Cup and U-Cup & I-Cut, and complex PIN/FIN structures made via MIM, forging and stamping, with 23 years of R&D experience in liquid coolers claimed.",
+          "source": "https://www.amulaire.com/en"
+        },
+        {
+          "name": "Data Center Thermal Management Systems",
+          "note": "A product category on the company site; the company page says Amulaire is deeply involved in the data center industry, including the design and manufacturing of immersion cooling products, chiller assembly and installation, and solution integration, serving data center and optical cooling industries.",
+          "source": "https://www.amulaire.com/en/company"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Amulaire's company page (2026 site) states it is deeply involved in the data center industry, including the design and manufacturing of immersion cooling products, with chiller assembly and installation and solution integration, and its English site lists Data Center Thermal Management Systems as a product category alongside cooling fins/liquid coolers for data center and optical cooling industries.",
+          "source": "https://www.amulaire.com/en/company"
+        },
+        {
+          "year": "2026",
+          "text": "Amulaire announced it will attend PCIM 2026 in Nuremberg, Germany (June 9-11, 2026), featuring inverter and ADAS cooling technology introduction and a product demo, per its English site.",
+          "source": "https://www.amulaire.com/en"
+        },
+        {
+          "year": "2020",
+          "text": "The company page states Amulaire IPO-listed on the TWSE (Ticker: 2241) in August 2020, and holds majority ownership (81.47% as of September 2025) of subsidiary Ever Superior Technologies Corporation.",
+          "source": "https://www.amulaire.com/en/company"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What data center products does Amulaire offer?",
+          "a": "Its site lists a Data Center Thermal Management Systems product category, and the company page states it is deeply involved in the data center industry, including design and manufacturing of immersion cooling products, chiller assembly and installation, and solution integration, serving data center and optical cooling industries."
+        },
+        {
+          "q": "What is Amulaire's cold plate experience?",
+          "a": "The site states over 5 million cold plates applied on EV inverters across 30 EV models, patented U-Cup and U-Cup & I-Cut liquid-cooling designs, complex PIN/FIN structures via MIM, forging and stamping, and 23 years of R&D experience in liquid coolers (a team-experience claim; the company was founded in 2011)."
+        },
+        {
+          "q": "Is Amulaire publicly listed?",
+          "a": "Yes. Its company page states it IPO-listed on the Taiwan Stock Exchange (Ticker: 2241) in August 2020 and holds 81.47% (as of September 2025) of subsidiary Ever Superior Technologies Corporation."
+        },
+        {
+          "q": "Where does Amulaire manufacture?",
+          "a": "The company page describes operations in Linkou and a Tongluo factory in Miaoli, Taiwan, with full operations there since 2018 and an R&D/copper powder metallurgy center."
+        }
+      ]
+    },
+    {
+      "slug": "azbil",
+      "name": "Azbil",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Japanese instrumentation and control maker (Tokyo Stock Exchange Prime Market), founded December 1906, headquartered in Chiyoda-ku, Tokyo. For data center liquid cooling it offers the HPQ-D leak detection sensor, using an optical sensing method for non-conductive liquid environments such as immersion cooling.",
+      "hq": "Tokyo, Japan",
+      "founded": 1906,
+      "ownership": "TSE: 6845",
+      "website": "https://aa-industrial.azbil.com/",
+      "productLines": [
+        {
+          "name": "HPQ-D leak detection sensor",
+          "note": "Presented on Azbil's industrial products site as HPQ-D for Data Center Liquid Cooling System: a leak detection sensor for non-conductive liquid environments such as data center immersion cooling, adopting an optical sensing method described as enabling reliable detection beyond the limits of conventional conductive-based methods.",
+          "source": "https://aa-industrial.azbil.com/aeu/solution/document/AEF-0001-00"
+        },
+        {
+          "name": "Industrial automation instrumentation",
+          "note": "Azbil's catalog spans direct digital controllers, sensors, and valves and actuators for building automation, and the group provides control equipment, field equipment, control valves, and monitoring and control systems for factories and plants per its sites.",
+          "source": "https://www.azbil.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Azbil's industrial products site (2026) presents HPQ-D for Data Center Liquid Cooling System, a leak detection sensor addressing leak detection challenges in non-conductive liquid environments such as data center immersion cooling, using an optical sensing method described as enabling reliable detection beyond the limits of conventional conductive-based methods.",
+          "source": "https://aa-industrial.azbil.com/aeu/solution/document/AEF-0001-00"
+        },
+        {
+          "year": "1906",
+          "text": "Azbil Corporation's company data page states the company was founded December 1, 1906 (predecessor; incorporated August 22, 1949, formerly Yamatake Corporation), and reports 9,170 consolidated employees as of March 31, 2026.",
+          "source": "https://www.azbil.com/corporate/company/data.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Azbil offer for data center liquid cooling?",
+          "a": "The HPQ-D leak detection sensor, presented as HPQ-D for Data Center Liquid Cooling System: it addresses leak detection challenges in non-conductive liquid environments such as data center immersion cooling, using an optical sensing method rather than conventional conductive-based detection."
+        },
+        {
+          "q": "Why is optical leak detection relevant for immersion cooling?",
+          "a": "Per Azbil's page, the HPQ-D targets non-conductive liquid environments such as those used in data center immersion cooling; optical sensing is described as enabling reliable detection beyond the limits of conventional conductive-based methods."
+        },
+        {
+          "q": "Is Azbil publicly listed and how old is the company?",
+          "a": "The company data page lists Azbil Corporation on the Tokyo Stock Exchange Prime Market (no securities code shown) and states a founding date of December 1, 1906, with incorporation on August 22, 1949 as the former Yamatake Corporation."
+        }
+      ]
+    },
+    {
+      "slug": "fit-hon-teng",
+      "name": "FIT Hon Teng",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Foxconn Interconnect Technology (FIT Hon Teng), listed on the Hong Kong Stock Exchange (6088) and part of Hon Hai's Foxconn group, builds connectors, cables and system interconnects, and supplies liquid cooling manifolds and liquid-cooled power busbars for AI data center racks.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 2013,
+      "ownership": "Listed on HKEX: 6088; subsidiary of Hon Hai Technology Group (Foxconn)",
+      "website": "https://www.fit-foxconn.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling manifolds",
+          "note": "A full range of liquid cooling manifold specifications for AI server racks, shown at DesignCon 2026 together with integration of rack busbars and Foxconn cold plate technology.",
+          "source": "https://www.fit-foxconn.com/main/modules/MySpace/BlogInfo.php?xmlid=28184"
+        },
+        {
+          "name": "Liquid Cooling Power Busbar (LC Busbar)",
+          "note": "Rack power delivery on a 48VDC architecture with rated current of at least 5000A; the vendor states it boosts rack power transmission efficiency 2-3 times. Complemented by a Power Whip solution handling up to 400A.",
+          "source": "https://www.fit-foxconn.com/main/modules/MySpace/BlogInfo.php?xmlid=28184"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a March 17, 2026 release following DesignCon 2026, FIT Hon Teng detailed its liquid cooling manifold range and a Liquid Cooling Power Busbar (48VDC architecture, rated current of at least 5000A) plus a Power Whip solution up to 400A, integrating rack busbars with Foxconn cold plate technology.",
+          "source": "https://www.fit-foxconn.com/main/modules/MySpace/BlogInfo.php?xmlid=28184"
+        },
+        {
+          "year": "2025",
+          "text": "FIT Hon Teng exhibited thermal management and high-power solutions for AI data centers at the OCP Global Summit 2025, dated October 9, 2025 in the company newsroom.",
+          "source": "https://www.fit-foxconn.com/main/modules/MySpace/index.php?xmlid=2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where is FIT Hon Teng listed and who owns it?",
+          "a": "FIT Hon Teng trades on the Hong Kong Stock Exchange under ticker 6088 and is a subsidiary of Hon Hai Technology Group (Foxconn). Its headquarters address is in the Tucheng District of New Taipei City, Taiwan."
+        },
+        {
+          "q": "What liquid cooling parts does FIT supply for AI racks?",
+          "a": "It offers a full range of liquid cooling manifold specifications plus a Liquid Cooling Power Busbar (LC Busbar) on a 48VDC architecture with rated current of at least 5000A, and a Power Whip solution handling up to 400A, designed to integrate with Foxconn cold plate technology."
+        },
+        {
+          "q": "Does FIT connect power distribution with liquid cooling?",
+          "a": "Yes. At DesignCon 2026 the company presented LC Busbar and Power Whip products that combine rack power distribution with liquid cooling manifolds, stating that the LC Busbar boosts rack power transmission efficiency 2-3 times."
+        },
+        {
+          "q": "Where has FIT shown these products publicly?",
+          "a": "The company exhibited thermal management and high-power solutions for AI data centers at the OCP Global Summit 2025 in October 2025, and presented liquid cooling technologies at DesignCon and OFC events in 2026."
+        }
+      ]
+    },
+    {
+      "slug": "global-standard-technology",
+      "name": "Global Standard Technology (GST)",
+      "segments": [
+        "immersion"
+      ],
+      "tagline": "Korean maker of semiconductor scrubbers and chillers (KOSDAQ: 083450, Hwaseong) expanding into immersion cooling for AI data centers: E3WAVE single-phase and two-phase immersion equipment claiming PUE 1.0-1.04, delivered since 2023 and now in customer demonstration.",
+      "hq": "Hwaseong, Gyeonggi-do, South Korea",
+      "founded": 2001,
+      "ownership": "KOSDAQ: 083450",
+      "website": "https://www.gst-in.com/",
+      "productLines": [
+        {
+          "name": "E3WAVE immersion cooling system",
+          "note": "Next-generation immersion cooling system for data centers named on the company site; offered in single-phase and two-phase types, with servers submerged in coolant and thermal control via adjustable fluid temperature and flow rate.",
+          "source": "https://www.gst-in.com/"
+        },
+        {
+          "name": "Immersion cooling equipment (single-phase)",
+          "note": "The company technology page records delivery of single-phase immersion cooling equipment in September 2024 and May 2025; the vendor states immersion PUE of 1.0-1.04 versus 1.2 for liquid cooling and 1.68 for air cooling.",
+          "source": "https://www.gst-in.com/en/m31.php"
+        },
+        {
+          "name": "Immersion cooling equipment (two-phase)",
+          "note": "Two-phase immersion cooling equipment with an October 2023 delivery recorded on the company technology page; shown at HVAC KOREA 2023 and ENLIT Europe 2023.",
+          "source": "https://www.gst-in.com/en/m31.php"
+        },
+        {
+          "name": "SODA-C chiller and related lines",
+          "note": "Environment-friendly chiller using GWP 1 refrigerant, listed on the company site alongside GAIA-I and GAIA-P scrubbers and the refrigerant-free EES-08 temperature control solution; chiller know-how underpins the immersion cooling line.",
+          "source": "https://www.gst-in.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In May 2026 GST presented a data center immersion cooling package together with S-Oil at HVAC Korea; with software and server partners the two are running a pilot at a university supercomputing centre.",
+          "source": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "year": "2026",
+          "text": "Per its 2026 half-year filing, GST began preparing immersion equipment in 2021, completed two model designs in 2023, and states the equipment is designed and now in customer demonstration, with the related market projected to enter its growth phase from late 2027 at the earliest.",
+          "source": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "year": "2025",
+          "text": "The company technology page records delivery of Immersion Cooling Single-Phase Equipment in May 2025, following a September 2024 delivery, plus exhibition at MWC 2025 and Data Center World 2025.",
+          "source": "https://www.gst-in.com/en/m31.php"
+        },
+        {
+          "year": "2023",
+          "text": "The company technology page records delivery of Immersion Cooling Two-Phase Equipment in October 2023 and exhibition at HVAC KOREA 2023 and ENLIT Europe 2023.",
+          "source": "https://www.gst-in.com/en/m31.php"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the GST status in data center immersion cooling?",
+          "a": "Per its 2026 half-year filing, GST began preparing immersion equipment in 2021, completed two model designs in 2023, and states the equipment is designed and now in customer demonstration; deliveries include two-phase equipment in October 2023 and single-phase equipment in September 2024 and May 2025."
+        },
+        {
+          "q": "What PUE does GST claim for immersion cooling?",
+          "a": "The company technology page states a PUE of 1.0-1.04 for immersion cooling, compared with 1.2 for liquid cooling and 1.68 for air cooling, with servers submerged in coolant and thermal control via adjustable fluid temperature and flow rate."
+        },
+        {
+          "q": "Who is GST partnering with on immersion cooling?",
+          "a": "In May 2026 GST and S-Oil presented a data center immersion cooling package at HVAC Korea and, together with software and server partners, are running a pilot at a university supercomputing centre."
+        },
+        {
+          "q": "What else does GST make?",
+          "a": "Semiconductor scrubbers and chillers remain the core business per its half-year filing; products named on the company site include the SODA-C chiller with GWP 1 refrigerant, GAIA-I and GAIA-P scrubbers, and the refrigerant-free EES-08 temperature control solution."
+        }
+      ]
+    },
+    {
+      "slug": "cky-hvac-engineering",
+      "name": "CKY HVAC Engineering",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Kaohsiung-based licensed HVAC engineering and design firm with nearly half a century of refrigeration and air-conditioning practice, offering direct liquid cooling piping design, Coolant Distribution Unit (CDU) selection and system leak-prevention planning for AI data center racks beyond 100 kW.",
+      "hq": "Kaohsiung, Taiwan",
+      "founded": "NOT_FOUND",
+      "ownership": "Private",
+      "website": "https://www.cky.com.tw/",
+      "productLines": [
+        {
+          "name": "Direct liquid cooling piping design",
+          "note": "Capabilities in liquid cooling piping design, CDU selection and system leak prevention planning for direct liquid cooling, which the firm states handles over 100 kW per rack, versus an air-cooling bottleneck at 15-20 kW and containment limits near 25-30 kW per rack.",
+          "source": "https://www.cky.com.tw/en/services/ai-datacenter"
+        },
+        {
+          "name": "AI data center cooling engineering",
+          "note": "Licensed professional engineering services - planning, design and construction supervision - for AI data centers; the service page cites traditional racks at approximately 5-10 kW and GPU racks at 40-100 kW or even higher.",
+          "source": "https://www.cky.com.tw/en/services/ai-datacenter"
+        },
+        {
+          "name": "Liquid cooling and immersion advisory",
+          "note": "Engineering insights comparing rear-door heat exchangers, direct-to-chip, single- versus two-phase immersion, CDU design and waste heat recovery for AI server high-density heat dissipation.",
+          "source": "https://www.cky.com.tw/en/insights"
+        },
+        {
+          "name": "Precision HVAC engineering lines",
+          "note": "Adjacent practice areas listed by the firm: HVAC system design, cleanroom, precision climate control, energy efficiency, cold storage and cold chain, hospital HVAC and industrial process HVAC.",
+          "source": "https://www.cky.com.tw/en/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Published an ASHRAE TC 9.9 thermal guidelines analysis covering A1-A4 environmental classes, dew point control and liquid cooling trends for data centers, dated February 28, 2026.",
+          "source": "https://www.cky.com.tw/en/insights"
+        },
+        {
+          "year": "2025",
+          "text": "Published a liquid cooling and immersion technology guide comparing rear-door heat exchangers, direct-to-chip, single- and two-phase immersion, CDU design and waste heat recovery, dated November 20, 2025.",
+          "source": "https://www.cky.com.tw/en/insights"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does CKY offer for AI data center liquid cooling?",
+          "a": "Capabilities in liquid cooling piping design, Coolant Distribution Unit (CDU) selection and system leak prevention planning for direct liquid cooling, which the firm notes handles over 100 kW per rack versus an air-cooling bottleneck at 15-20 kW."
+        },
+        {
+          "q": "What rack densities does CKY design for?",
+          "a": "Its AI data center page cites traditional racks at approximately 5-10 kW, GPU racks at 40-100 kW or even higher, containment extending air cooling to roughly 25-30 kW per rack, and direct liquid cooling handling over 100 kW per rack."
+        },
+        {
+          "q": "What is the CKY background?",
+          "a": "A Kaohsiung-based licensed professional engineering firm offering HVAC planning, design and construction supervision, with nearly half a century of refrigeration and air-conditioning engineering experience; the practice dates to 1975 and the firm itself was founded in the 2000s, with no exact year stated."
+        },
+        {
+          "q": "Does CKY cover immersion cooling?",
+          "a": "Its engineering insights include a November 2025 guide comparing rear-door heat exchangers, direct-to-chip, single- and two-phase immersion, CDU design and waste heat recovery for AI server high-density heat dissipation."
+        }
+      ]
+    },
+    {
+      "slug": "sk-innovation",
+      "name": "SK Innovation",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Seoul-headquartered energy company whose lubricant business SK Enmove runs an Immersion Cooling Fluids line for AI data centers and has operated since 1 November 2025 as a company-in-company of SK On. In October 2025 it signed a three-way MOU with LG Electronics and immersion specialist GRC on liquid cooling for AI data centers.",
+      "hq": "Seoul, South Korea",
+      "founded": "NOT_FOUND",
+      "ownership": "KRX: 096770",
+      "website": "https://www.skinnovation.com/",
+      "productLines": [
+        {
+          "name": "Immersion Cooling Fluids (SK Enmove)",
+          "note": "A dedicated business section on SK Enmove's site, described as providing high efficiency and safety through advanced thermal management technology, aimed at AI data centers; no named immersion product or technical specification is stated on the pages opened.",
+          "source": "https://www.skenmove.com/"
+        },
+        {
+          "name": "YUBASE base oils and thermal fluids",
+          "note": "SK Enmove's portfolio is built on YUBASE-branded premium base oils, plus ZIC lubricants, ZIC e-Flo EV thermal fluids and HVAC fluids; the base-oil business underpins the fluids offered for immersion cooling applications.",
+          "source": "https://www.skenmove.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 1 November 2025 the immersion-fluid business formerly run by SK Enmove was absorbed into SK On and now operates as an in-house company (company-in-company), a structure confirmed on SK Enmove's own site.",
+          "source": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        },
+        {
+          "year": "2025",
+          "text": "In October 2025, shortly before the merger, SK Enmove signed a three-way MOU with LG Electronics and US immersion-cooling specialist GRC on liquid cooling for AI data centers; the coverage notes a memorandum is not a binding contract.",
+          "source": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How is SK Innovation involved in data-center liquid cooling?",
+          "a": "Through SK Enmove, its former lubricants unit, which markets immersion cooling fluids for AI data centers and since 1 November 2025 operates as a company-in-company of SK On Co., Ltd."
+        },
+        {
+          "q": "What partnerships has it announced?",
+          "a": "In October 2025 SK Enmove signed a three-way MOU with LG Electronics and US immersion specialist GRC to pursue liquid cooling for AI data centers; the source stresses a memorandum is not a binding contract."
+        },
+        {
+          "q": "Which fluids does it actually sell?",
+          "a": "SK Enmove's site lists an Immersion Cooling Fluids business alongside YUBASE premium base oils, ZIC lubricants, ZIC e-Flo EV fluids and HVAC fluids; named immersion products and specifications are not stated on the pages opened."
+        },
+        {
+          "q": "Where is SK Innovation based?",
+          "a": "Its head office is at 26, Jong-ro, Jongno-gu, Seoul, South Korea, per the company's English site; founding year and stock listing are marked NOT_FOUND because they were not stated on pages opened."
+        }
+      ]
+    },
+    {
+      "slug": "shinsung-e-g",
+      "name": "Shinsung E&G",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Korean cleanroom and air-conditioning contractor supplying fan wall units (FWU) and precision temperature control for AI data centers. In November 2026 it showcased an all-in-one module stacking server racks on an integral cooling unit that supports direct liquid cooling (DLC) alongside air cooling, rated 16-140 kW per rack.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.shinsungeng.com/",
+      "productLines": [
+        {
+          "name": "AIO all-in-one server-cooling module",
+          "note": "Announced 12 November 2026 and showcased at Data Center Korea: a vertically integrated module combining a cooling unit below with server racks above, supporting up to 8 racks per module and 16 to 140 kW per rack, with air cooling and direct liquid cooling (DLC) support allowing staged expansion as heat loads grow.",
+          "source": "https://www.shinsungeng.com/board/board.php?bbsid=news&idx=480"
+        },
+        {
+          "name": "Fan wall units (FWU) and precision temperature control",
+          "note": "Air-side data-center line sold today: the company's data center category lists FWU (fan wall units) and constant-temperature units, and its half-year filing describes precision temperature-control solutions for AI data centers, positioned as the air-side complement to liquid-cooled racks.",
+          "source": "https://www.shinsungeng.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 12 November 2026 Shinsung E&G announced an all-in-one server-and-cooling AIO product at Data Center Korea: a vertically integrated module combining a cooling unit with server racks, supporting up to 8 racks per module and 16-140 kW per rack, with air cooling and direct liquid cooling (DLC) for staged expansion as heat loads grow.",
+          "source": "https://www.shinsungeng.com/board/board.php?bbsid=news&idx=480"
+        },
+        {
+          "year": "2026",
+          "text": "A September 2026 analysis of Korea's data-center cooling value chain, citing Shinsung E&G's half-year filing, reports the company supplies precision temperature-control solutions including fan wall units (FWU) for AI data centers and lists no liquid-cooling products at that time.",
+          "source": "https://kotaroinvest.com/2026/09/01/koreas-data-center-cooling-value-chain"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Shinsung E&G offer liquid cooling?",
+          "a": "In November 2026 it announced an AIO server-and-cooling module that supports both air cooling and direct liquid cooling (DLC), allowing staged expansion as heat loads grow. The release names no cold plates, coolant distribution units or immersion products."
+        },
+        {
+          "q": "What are the AIO module specifications?",
+          "a": "A vertically integrated module combining a cooling unit below with server racks above, supporting up to 8 racks per module and 16 to 140 kW per rack; it was announced on 12 November 2026 and showcased at Data Center Korea."
+        },
+        {
+          "q": "What does the company supply to data centers today?",
+          "a": "Fan wall units (FWU) and constant-temperature units in its data center category, described in its half-year filing as precision temperature-control solutions for AI data centers, alongside its wider cleanroom equipment line such as FFU, AHU and dry rooms."
+        },
+        {
+          "q": "What company details are missing?",
+          "a": "Founding year, headquarters city and stock listing are marked NOT_FOUND: the homepage opened states neither a founding year nor a headquarters city (only a Seoul phone area code and a 1991 note on FFU production)."
+        }
+      ]
     }
   ]
 }

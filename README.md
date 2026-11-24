@@ -10,7 +10,7 @@ against the production baseline (`scripts/migrate-baseline.mjs --diff`).
 ## What's inside
 
 - **Formula handbook ×11** — flow rate, heat capture, derating, floor loading… each with a worked example and an in-browser calculator
-- **Supply-chain map** — 354 companies across 18 segments, every row linked to its source
+- **Supply-chain map** — 353 companies across 18 segments, every row linked to its source
 - **Playground** — derating simulator, rack builder, room-load calculator, animated coolant loop
 - **Industry radar** — daily auto-fetched news with real article covers, plus a curated milestone timeline; feed at [`/newsfeed.xml`](https://liquidcoolingguide.com/newsfeed.xml)
 - **Physics kernel (vendored)** — interactive pages import the solvers of our open [simulation kernel](https://github.com/Friovia/simulation); every vendor run is parity-tested against the kernel's golden vectors (`pnpm vendor:sim`)
