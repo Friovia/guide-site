@@ -144,8 +144,9 @@
         {
           "name": "Auras Technology",
           "hq": "TW",
-          "note": "Major Taiwan cold-plate supplier into AI server ODM chains",
-          "source": "https://www.auras.com.tw/"
+          "note": "Taiwan thermal vendor making cold plates, UQD/MQD quick disconnects, AI manifolds and CDUs for AI server liquid cooling",
+          "source": "https://www.auras.com.tw/",
+          "evidence": "https://www.auras.com.tw/News/NewsContent/14-10"
         },
         {
           "name": "Wakefield-Vette",
@@ -387,9 +388,9 @@
         {
           "name": "Certone Heat Solution",
           "hq": "TW",
-          "note": "Makes AI server liquid cooling components including hose kits, manifolds and cold plates at its Hsinchu facility",
+          "note": "Makes liquid cooling components for AI servers, from cold plates and manifolds to hose kits, metal bellows and customized fittings, from prototyping to mass production",
           "source": "https://www.certone.com.tw/",
-          "evidence": "https://www.certone.com.tw/en"
+          "evidence": "https://en.certone.com.tw/data-402817"
         },
         {
           "name": "JONHON",
@@ -1036,9 +1037,9 @@
         {
           "name": "Certone Heat Solution",
           "hq": "TW",
-          "note": "Makes AI server liquid cooling components including hose kits, manifolds and cold plates at its Hsinchu facility",
+          "note": "Makes liquid cooling components for AI servers, from cold plates and manifolds to hose kits, metal bellows and customized fittings, from prototyping to mass production",
           "source": "https://www.certone.com.tw/",
-          "evidence": "https://www.certone.com.tw/en"
+          "evidence": "https://en.certone.com.tw/data-402817"
         },
         {
           "name": "JONHON",
@@ -1088,8 +1089,9 @@
         {
           "name": "Gigabyte",
           "hq": "TW",
-          "note": "Liquid-ready GPU servers for AI/HPC",
-          "source": "https://www.gigabyte.com/"
+          "note": "Server maker whose Giga Computing subsidiary builds liquid-cooled GPU and CPU servers, blade racks with cold plates and in-rack CDUs",
+          "source": "https://www.gigabyte.com/",
+          "evidence": "https://www.gigabyte.com/press/news/2472"
         },
         {
           "name": "Huawei",

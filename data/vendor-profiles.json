@@ -15621,6 +15621,200 @@
           "a": "IMDA and Enterprise Singapore, through the Singapore Standards Council, in close consultation with the industry, according to the Enterprise Singapore media release."
         }
       ]
+    },
+    {
+      "slug": "auras-technology",
+      "name": "Auras Technology",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Taiwan thermal management vendor (TPEx: 3324) making cold plates, quick disconnects (UQD/MQD), inner and rack manifolds, cooling distribution units (CDUs) and a smart coolant refilling robot for AI data center liquid cooling, alongside its established notebook and server air-cooling business.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 1999,
+      "ownership": "Listed on the TPEx (3324)",
+      "website": "https://www.auras.com.tw/",
+      "productLines": [
+        {
+          "name": "Cold plates and open-loop direct liquid cooling",
+          "note": "Customized series/parallel open-loop cooling solution designs for high-heat components such as GPUs, CPUs, ASICs, DIMMs and power shelves.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        },
+        {
+          "name": "UQD/MQD quick disconnects",
+          "note": "Universal and multiple quick disconnects developed in-house; the page states these were adopted by multiple customers since the third quarter of 2025.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        },
+        {
+          "name": "AI manifold",
+          "note": "Manifold with low flow impedance and temperature monitoring, with ball valves to adjust coolant flow and support leakage management.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        },
+        {
+          "name": "CDUs: 20U 30kW L2A and in-row 1.6MW L2L",
+          "note": "A 20U 30kW liquid-to-air CDU for small-model computing demand and an in-row liquid-to-liquid CDU with a capacity of 1.6MW under development, plus a Smart Refilling Robot that automatically refills coolant for RPU/CDU.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 15 October 2025 Auras announced its OCP Global Summit 2025 exhibit (San Jose, October 13-16, Booth B12) covering cold plates, UQD/MQD quick disconnects, inner/rack manifolds, CDUs and Smart Refilling Robots, and stated its UQD/MQD had been adopted by multiple customers since the third quarter.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        },
+        {
+          "year": "2025",
+          "text": "The same October 2025 release states Auras is offering a 20U 30kW liquid-to-air CDU and continuously developing an in-row liquid-to-liquid CDU with a capacity of 1.6MW, and that it has been engaged in liquid cooling technology for over a decade.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        },
+        {
+          "year": "1999",
+          "text": "The page's company note states Auras was founded in 1999, initially engaged in notebook thermal design, module manufacturing and sales, later expanding to servers, graphics cards and motherboards.",
+          "source": "https://www.auras.com.tw/News/NewsContent/14-10"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling components does Auras Technology make?",
+          "a": "Its October 2025 OCP release lists cold plates, UQD/MQD quick disconnects, inner and rack manifolds, cooling distribution units (CDUs) and a Smart Refilling Robot for automatic coolant refill."
+        },
+        {
+          "q": "What CDUs does Auras offer and at what capacity?",
+          "a": "A 20U liquid-to-air CDU rated 30kW, aimed at small-model computing demand, and an in-row liquid-to-liquid CDU with a stated capacity of 1.6MW that it is continuously developing."
+        },
+        {
+          "q": "Which components does Auras' direct liquid cooling cover?",
+          "a": "Customized series/parallel open-loop cooling designs for high-heat generating components such as GPUs, CPUs, ASICs, DIMMs and power shelves, with an AI manifold offering low flow impedance, temperature monitoring and ball valves for flow adjustment."
+        },
+        {
+          "q": "When was Auras founded and where is it listed?",
+          "a": "The page states Auras was founded in 1999, starting in notebook thermal design before expanding to servers, graphics cards and motherboards, and writes Auras (3324); exchange records show the code quoted on the TPEx."
+        }
+      ]
+    },
+    {
+      "slug": "gigabyte",
+      "name": "Gigabyte",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Taiwan motherboard and server vendor whose Giga Computing subsidiary builds liquid-cooled AI and HPC infrastructure: closed-loop liquid cooling servers, 6U liquid-cooled blade racks with CDU and manifold infrastructure, in-rack CDUs, and G-rex software managing CDUs, PDUs, rear-door heat exchangers and leak detection.",
+      "hq": "New Taipei City, Taiwan",
+      "founded": 1986,
+      "ownership": "Listed on the Taiwan Stock Exchange (2376)",
+      "website": "https://www.gigabyte.com/",
+      "productLines": [
+        {
+          "name": "H295-D80-CS1 closed-loop liquid cooling server",
+          "note": "2U four-node server supporting two AMD EPYC 9006 CPUs per node, up to 2,048 cores per server; closed-loop design needs no facility water connection.",
+          "source": "https://www.gigabyte.com/press/news/2472"
+        },
+        {
+          "name": "B685-D80-LS1 / G684-A80-LAS1 liquid-cooled blade racks",
+          "note": "6U liquid-cooled chassis integrating CDU, PDU and manifold, with cold plates on CPU, memory and NICs capturing nearly 90% of system heat; EPYC 9006 up to 5,120 cores, or Xeon 6.",
+          "source": "https://www.gigabyte.com/press/news/2472"
+        },
+        {
+          "name": "G-rex liquid and power management",
+          "note": "Management solution that simplifies control of CDUs, PDUs, RDHx and leak detection in a single interface.",
+          "source": "https://www.gigabyte.com/press/news/2472"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 17 November 2026 Giga Computing announced its Supercomputing 2026 exhibit, introducing the H295-D80-CS1, a 2U four-node closed-loop liquid cooling server for two EPYC 9006 CPUs per node (up to 2,048 cores), plus the B685-D80-LS1 and G684-A80-LAS1 liquid-cooled blade servers.",
+          "source": "https://www.gigabyte.com/press/news/2472"
+        },
+        {
+          "year": "2026",
+          "text": "The same release describes a 6U liquid-cooled chassis integrating CDU, PDU and manifold infrastructure with cold plates on CPU, memory and NICs that the page says capture nearly 90% of system heat, cooled by an in-rack GIGABYTE CDU.",
+          "source": "https://www.gigabyte.com/press/news/2472"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooled servers does Gigabyte offer?",
+          "a": "Giga Computing announced the H295-D80-CS1, a 2U four-node closed-loop liquid cooling server supporting two AMD EPYC 9006 CPUs per node, up to 2,048 cores per server, and liquid-cooled blade servers B685-D80-LS1 (EPYC 9006) and G684-A80-LAS1 (Xeon 6)."
+        },
+        {
+          "q": "How does the H295-D80-CS1 work without facility water?",
+          "a": "It integrates a closed-loop liquid cooling system, so it can be deployed in traditional data centers without a connection to facility water while providing liquid-cooling efficiency."
+        },
+        {
+          "q": "Does Gigabyte sell liquid cooling beyond servers?",
+          "a": "Yes. Its SC26 release shows rack solutions combining compute nodes with G-rex, which manages CDUs, PDUs, rear-door heat exchangers and leak detection, and a 6U liquid-cooled chassis with CDU, PDU and manifold infrastructure."
+        }
+      ]
+    },
+    {
+      "slug": "certone-heat-solution",
+      "name": "Certone Heat Solution",
+      "segments": [
+        "cold-plates",
+        "interconnects"
+      ],
+      "tagline": "Taiwanese manufacturer of liquid cooling components for AI servers and data centers, from design and prototyping to mass production: cold plates, manifolds, hose kits, metal bellows and customized fittings, with machining, forming, welding, cleaning and leak testing in house.",
+      "hq": "Taipei, Taiwan (plant in Hukou Township, Hsinchu County)",
+      "founded": 2024,
+      "ownership": "Joined the Emerging Stock Market, per the company's own announcement (the page shows no date)",
+      "website": "https://www.certone.com.tw/",
+      "productLines": [
+        {
+          "name": "Cold Plate",
+          "note": "Cold plates for high heat-density liquid cooling applications, described by the company as a core heat dissipation component in liquid cooling systems, used in liquid cooling systems, high-power electronic equipment and industrial thermal management architectures.",
+          "source": "https://en.certone.com.tw/data-356805"
+        },
+        {
+          "name": "Cooling Components",
+          "note": "Design and manufacturing of what the company calls high-reliability liquid cooling system core components: hose kits, manifolds, bellows, cold plates and customized fittings, with CNC machining, forming, welding and assembly from prototyping to mass production.",
+          "source": "https://en.certone.com.tw/data-354362"
+        },
+        {
+          "name": "Hose kit assembly",
+          "note": "Hose kit assembly offered as a one-stop service covering complete hose assembly, cleaning and leak testing.",
+          "source": "https://en.certone.com.tw/data-354362"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "At COMPUTEX 2026 CerTone showed a range of liquid cooling products and components, including EPDM hose kits, metal piping and bellows, manifolds and cold plates, together with results of an industry-academia collaboration with a university in Taiwan; the company's page gives no day or month.",
+          "source": "https://en.certone.com.tw/data-402817"
+        },
+        {
+          "year": "2026",
+          "text": "For Taiwan Expo USA 2026 CerTone presented what it calls next-generation liquid cooling technologies and AI infrastructure thermal solutions, and stated that it will keep investing in thermal management technologies and liquid cooling solutions.",
+          "source": "https://en.certone.com.tw/data-438237"
+        },
+        {
+          "year": "2025",
+          "text": "The company's milestones list the establishment of CerTone Heat Solution (Thailand) Co., Ltd. and of CerTone Heat Solutions Inc. in 2025.",
+          "source": "https://en.certone.com.tw/data-356922"
+        },
+        {
+          "year": "2024",
+          "text": "The company's milestones list the establishment of CerTone Heat Solution Co., Ltd. and of CerTone (Yancheng) in 2024.",
+          "source": "https://en.certone.com.tw/data-356922"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Certone make for liquid cooling?",
+          "a": "Cold plates, manifolds, hose kits, metal bellows and customized fittings for liquid cooling systems, with CNC machining, forming, welding and assembly from prototyping to mass production."
+        },
+        {
+          "q": "When was Certone founded and where is it based?",
+          "a": "The company's milestones list the establishment of CerTone Heat Solution Co., Ltd. in 2024. Its contact page gives an office on Zhongxiao East Road in Taipei and a plant at No. 18, Ziqiang Road, Hukou Township, Hsinchu County."
+        },
+        {
+          "q": "Where has Certone shown its liquid cooling products?",
+          "a": "At COMPUTEX 2026 it showed EPDM hose kits, metal piping and bellows, manifolds and cold plates, and at Taiwan Expo USA 2026 it presented liquid cooling technologies and AI infrastructure thermal solutions."
+        },
+        {
+          "q": "Is Certone listed?",
+          "a": "Its own announcement says it joined the Emerging Stock Market, with Grand Fortune Securities as the recommending securities firm; the page gives no date."
+        }
+      ]
     }
   ]
 }
