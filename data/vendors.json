@@ -1,6 +1,6 @@
 {
-  "note": "Liquid cooling supply chain map — who makes what, upstream to downstream. Facts policy: each entry links the company's official site; the note states its liquid-cooling-relevant role only (no funding/market-size claims). Expand by adding rows; the page renders from this file. Last reviewed: 2026-11-24.",
-  "updated": "2026-11-24",
+  "note": "Liquid cooling supply chain map — who makes what, upstream to downstream. Facts policy: each entry links the company's official site; the note states its liquid-cooling-relevant role only (no funding/market-size claims). Expand by adding rows; the page renders from this file. Last reviewed: 2026-11-25.",
+  "updated": "2026-11-25",
   "segments": [
     {
       "id": "materials",
@@ -2509,7 +2509,7 @@
         {
           "name": "Telehouse (KDDI)",
           "hq": "JP",
-          "note": "KDDI colocation operator; launched liquid cooling lab at Telehouse South London with JetCool and deployed direct liquid-to-chip cooling across Toronto campus",
+          "note": "KDDI colocation operator running a liquid cooling lab at Telehouse South in London and direct liquid-to-chip cooling across its Toronto campus",
           "source": "https://www.telehouse.net/",
           "evidence": "https://www.telehouse.net/news/telehouse-launches-pioneering-liquid-cooling-lab/"
         },
@@ -2909,16 +2909,16 @@
         {
           "name": "Meta Platforms",
           "hq": "US",
-          "note": "Hyperscaler operating AI data centers with direct-to-chip closed-loop liquid cooling (dry coolers, no operational water for cooling)",
+          "note": "Hyperscaler operating AI data centers with direct-to-chip closed-loop liquid cooling that uses dry coolers and no operational water for cooling",
           "source": "https://about.meta.com/",
           "evidence": "https://datacenters.atmeta.com/innovation"
         },
         {
           "name": "Oracle Cloud Infrastructure",
           "hq": "US",
-          "note": "Hyperscaler building gigawatt-scale AI data centers using closed-loop non-evaporative liquid cooling (Project Jupiter NM, Stargate Wisconsin, Abilene)",
+          "note": "Cloud operator building AI data centers in New Mexico, Michigan, Wisconsin and Texas with direct-to-chip, closed-loop, non-evaporative cooling that needs only a one-time fill",
           "source": "https://www.oracle.com/",
-          "evidence": "https://www.datacenterdynamics.com/en/news/oracle-revealed-as-tenant-of-project-jupiter-data-center-campus-in-new-mexico/"
+          "evidence": "https://www.oracle.com/news/announcement/blog/closed-loop-cooling-in-oracle-ai-data-centers-2026-02-09"
         },
         {
           "name": "CoreWeave",
@@ -2930,7 +2930,7 @@
         {
           "name": "Crusoe",
           "hq": "US",
-          "note": "AI factory cloud operator; Abilene TX campus runs NVIDIA GB200 racks with closed-loop non-evaporative liquid cooling for Microsoft/OpenAI",
+          "note": "AI factory operator deploying closed-loop non-evaporative direct liquid cooling at its Abilene campus and in Crusoe Spark Liquid modular units for GB300 NVL72 racks",
           "source": "https://www.crusoe.ai/",
           "evidence": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure"
         },
@@ -2944,14 +2944,14 @@
         {
           "name": "Nebius",
           "hq": "NL",
-          "note": "AI infrastructure company (Nasdaq-listed) preparing liquid cooling for 200kW racks at its Mantsala Finland data center; NVIDIA-designed liquid cooling installed",
+          "note": "AI cloud operator preparing liquid cooling for up to 200kW racks at its Mäntsälä Finland campus and taking 22MW of direct-to-chip cooled capacity at Kao Data Harlow",
           "source": "https://nebius.com/",
           "evidence": "https://nebius.com/sustainability/our-greenfield-data-center-in-finland"
         },
         {
           "name": "Nscale",
           "hq": "GB",
-          "note": "Vertically integrated AI hyperscaler building closed-loop direct-to-chip liquid-cooled data centers (Iceland 15MW liquid-cooled GPU cluster; Nordic sites)",
+          "note": "Vertically integrated AI cloud operator designing its data centres around closed-loop direct-to-chip liquid cooling, with a 15MW liquid-cooled GPU deployment in Iceland with Verne",
           "source": "https://www.nscale.com/",
           "evidence": "https://www.nscale.com/blog/building-tomorrows-ai-data-centres-today"
         },
@@ -2965,7 +2965,7 @@
         {
           "name": "STACK Infrastructure",
           "hq": "US",
-          "note": "Developer/operator offering AI-ready capacity with direct-to-chip liquid cooling support up to 100kW per rack and closed-loop water cooling",
+          "note": "Developer and operator offering AI-ready capacity with direct-to-chip liquid cooling up to 100 kW per rack and closed-loop water cooling",
           "source": "https://www.stackinfra.com/",
           "evidence": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-its-ai-ready-data-center-capabilities-to-support-machine-learning-and-related-high-density-workloads"
         },
@@ -2979,51 +2979,51 @@
         {
           "name": "Lambda",
           "hq": "US",
-          "note": "GPU cloud and AI factory builder; adopted Supermicro liquid-cooled NVIDIA HGX servers for scalable, energy-efficient AI factories",
-          "source": "https://lambdalabs.com/",
-          "evidence": "https://www.supermicro.org.cn/en/success-story/lambda"
+          "note": "GPU cloud and AI factory builder running Supermicro liquid-cooled NVIDIA HGX clusters and developing liquid-to-the-chip cooled AI factories with partners",
+          "source": "https://lambda.com/",
+          "evidence": "https://lambda.com/blog/lambda-edgeconnex-dc-pr"
         },
         {
           "name": "Sesterce",
           "hq": "FR",
           "note": "French AI cloud operator running closed-loop direct liquid cooling at its Marseille and Valence (40 MW) AI campuses",
           "source": "https://www.sesterce.com/",
-          "evidence": "https://www.sesterce.com/"
+          "evidence": "https://www.sesterce.com/newsroom/rovaltain-becomes-a-sesterce-campus"
         },
         {
           "name": "EdgeConneX",
           "hq": "US",
-          "note": "Global data center operator; deployed Accelsius two-phase direct-to-chip liquid cooling at Houston Global Training Center; flexible air/liquid high-density designs",
+          "note": "Global data center operator supporting AI and HPC workloads with air, liquid and immersion cooling at over 600 kW per rack, and two-phase direct-to-chip liquid cooling at its Houston Global Training Center",
           "source": "https://www.edgeconnex.com/",
           "evidence": "https://www.edgeconnex.com/news/press-releases/accelsius-to-deploy-two-phase-direct-to-chip-liquid-cooling-system-at-edgeconnex-global-training-center/"
         },
         {
           "name": "CyrusOne",
           "hq": "US",
-          "note": "KKR/GIP-backed data center developer offering Intelliscale AI facilities with liquid-to-chip cooling, rear-door heat exchangers and immersion cooling",
+          "note": "Colocation operator whose Intelliscale AI data center design supports liquid-to-chip cooling, rear door heat exchangers and immersion cooling up to 300kW per rack",
           "source": "https://www.cyrusone.com/",
-          "evidence": "https://www.cyrusone.com/solutions/"
+          "evidence": "https://www.cyrusone.com/media-coverage-press-releases/cyrusone-announced-intelliscale-an-ai-data-center-solution"
         },
         {
           "name": "Aligned Data Centers",
           "hq": "US",
-          "note": "Hyperscale operator with proprietary DeltaFlow liquid cooling platform (2024) plus Delta Cube air cooling; hybrid cooling lab opened 2025",
+          "note": "Hyperscale data center operator whose DeltaFlow liquid cooling platform supports direct-to-chip, immersion and rear-door methods at up to 350 kW of heat rejection per rack",
           "source": "https://aligneddc.com/",
           "evidence": "https://aligneddc.com/press-release/aligned-data-centers-launches-deltaflow-liquid-cooling-extending-its-expandondemand-capabilities/"
         },
         {
           "name": "Cologix",
           "hq": "US",
-          "note": "North American interconnection colocation provider with liquid-cooling-ready COL8 (Columbus) and liquid-to-the-chip support for AI/HPC",
+          "note": "North American interconnection and colocation operator offering liquid-to-the-chip support and the liquid-cooling-ready COL8 facility on its Johnstown campus in Ohio",
           "source": "https://cologix.com/",
           "evidence": "https://cologix.com/ai/"
         },
         {
           "name": "Switch",
           "hq": "US",
-          "note": "Data center operator offering EVO AI Factories with hybrid air-and-liquid cooling up to 2MW per rack; hosts CoreWeave GB300 NVL72 liquid-cooled deployment in Las Vegas",
+          "note": "Data center operator running EVO AI factories with hybrid liquid-to-air and liquid-to-chip cooling up to 2 MW per rack, hosting NVIDIA GB300 NVL72 deployments",
           "source": "https://www.switch.com/",
-          "evidence": "https://www.datacenterdynamics.com/en/news/switch-deploys-new-hybrid-air-and-liquid-cooling-design-claims-to-offer-up-to-2mw-per-rack-densities/"
+          "evidence": "https://www.switch.com/ai-factories"
         },
         {
           "name": "Yondr Group",
@@ -3042,84 +3042,84 @@
         {
           "name": "NextDC",
           "hq": "AU",
-          "note": "Australian data center operator offering direct-to-chip liquid cooling across six Australian facilities plus KL1 Malaysia, up to 2MW per rack for AI",
+          "note": "Australian colocation operator offering direct-to-chip liquid cooling across six Australian data centres plus KL1 Kuala Lumpur, designing for rack densities up to 2MW",
           "source": "https://www.nextdc.com/",
           "evidence": "https://www.nextdc.com/nextdc-liquid-cooling-solutions-for-ai-ready-infrastructure"
         },
         {
           "name": "Internet Initiative Japan (IIJ)",
           "hq": "JP",
-          "note": "Japanese network/cloud operator deploying direct liquid-cooled high-density AI servers in its AImod liquid-cooling modular data center (with Preferred Networks and JAIST)",
+          "note": "Japanese network and cloud operator running the AImod direct liquid cooling modular data center at its Shiroi Data Center Campus with Preferred Networks and JAIST",
           "source": "https://www.iij.ad.jp/",
           "evidence": "https://www.iij.ad.jp/en/news/pressrelease/2026/0323-2.html"
         },
         {
           "name": "Sakura Internet",
           "hq": "JP",
-          "note": "Japanese cloud/GPU provider operating Ishikari data center with direct liquid cooling (DLC) supplementing air conditioning for high-density GPU service Koukaryoku PHY",
+          "note": "Japanese cloud provider whose Ishikari data center adopted a direct liquid cooling system supplementing air conditioning for the Koukaryoku PHY high-density GPU service",
           "source": "https://www.sakura.ad.jp/",
           "evidence": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
         },
         {
           "name": "Scala Data Centers",
           "hq": "BR",
-          "note": "Brazilian hyperscale operator building Scala AI City (5GW authorized) with zero-water liquid cooling for high-density AI workloads",
+          "note": "Hyperscale operator building Scala AI City in Eldorado do Sul with zero-water liquid cooling for AI racks above 150 kW",
           "source": "https://scaladatacenters.com/",
-          "evidence": "https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil"
+          "evidence": "https://scaladatacenters.com/en/with-an-initial-investment-of-usd-500-million-scala-data-centers-and-rio-grande-do-sul-government-sign-agreement-for-largest-digital-infrastructure-project-in-the-state-of-southern-brazil"
         },
         {
           "name": "Khazna Data Centers",
           "hq": "AE",
           "note": "UAE hyperscale operator (G42) using direct liquid cooling for AI/GPU workloads, with a managed DLC AI hosting service launched with HPE in 2024",
           "source": "https://khaznadatacenters.com/",
-          "evidence": "https://khaznadatacenters.com/innovation-detail/"
+          "evidence": "https://khaznadatacenters.com/press-release/khazna-awarded-tier-iii-certification-of-design-documents-for-ajman-uae-facility"
         },
         {
           "name": "ST Telemedia Global Data Centres",
           "hq": "SG",
-          "note": "APAC data center operator; launched direct-to-chip liquid cooling showcase at STT Bangkok 1 (2025) and earlier Iceotope immersion POC",
+          "note": "APAC data center operator running a direct-to-chip liquid cooling showcase supporting at least 150 kW per rack at STT Bangkok 1",
           "source": "https://www.sttgdc.com/",
           "evidence": "https://www.sttgdc.com/newsroom/stt-gdc-unveils-direct-to-chip-liquid-cooling-showcase-in-thailand"
         },
         {
           "name": "Keppel Data Centres",
           "hq": "SG",
-          "note": "Singapore data centre operator (Keppel Connectivity) test-bedding Shell immersion liquid cooling at an operational facility; heat reuse at 50-60C explored",
+          "note": "Data centre operator whose Connectivity Division business runs an advanced immersion liquid cooling testbed with Shell's GTL-based fluid at an operational facility",
           "source": "https://www.keppel.com/",
           "evidence": "https://www.keppel.com/media/keppel-and-shell-to-launch-advanced-immersion-liquid-cooling-testbed-for-more-sustainable-data-centres"
         },
         {
           "name": "Princeton Digital Group",
           "hq": "SG",
-          "note": "APAC data center operator building 120MW JC3 Greater Jakarta campus with next-generation liquid cooling (direct-to-chip) for AI; TY1 India DGX-Ready for liquid cooling",
+          "note": "APAC data centre operator building the 120MW JC3 Greater Jakarta campus with direct-to-chip cooling; its TY1 Tokyo campus holds NVIDIA DGX-Ready certification for liquid cooling",
           "source": "https://princetondg.com/",
           "evidence": "https://princetondg.com/press-releases/princeton-digital-group-breaks-ground-on-milestone-usd-1-billion-120-mw-greater-jakarta-campus/"
         },
         {
           "name": "Nxera (Singtel)",
           "hq": "SG",
-          "note": "Singtel regional data centre arm; DC Tuas supports all types of liquid cooling technologies with next-generation cooling up to 50kW per rack for AI",
+          "note": "Singtel Group's regional data centre arm whose DC Tuas campus in Singapore, opened February 2026, hosts what the company calls Singapore's largest direct-to-chip liquid cooling deployment",
           "source": "https://www.nxera-dc.com/",
-          "evidence": "http://www.nxera-dc.com/our-reach/singapore-dc-tuas"
+          "evidence": "https://www.nxera-dc.com/about-us/newsroom/nxera-opens-data-centre"
         },
         {
           "name": "Nxtra by Airtel",
           "hq": "IN",
-          "note": "Indian data center operator (Airtel subsidiary) introducing liquid cooling technologies and high-density configurations for AI workloads",
+          "note": "Indian data centre operator whose stated cooling strategy combines direct liquid cooling and immersion cooling with HVAC, with new campuses designed for high-density AI workloads",
           "source": "https://www.nxtra.in/",
           "evidence": "https://capacityglobal.com/news/nxtra-by-airtel-ceo-interview-ai-data-centre/"
         },
         {
           "name": "Sabey Data Centers",
           "hq": "US",
-          "note": "US data center owner-operator engineering campuses for liquid cooling with integrated chilled water; partner ecosystem includes OptiCool and JetCool SmartPlate",
+          "note": "US data centre owner-operator engineering campuses for liquid cooling with integrated chilled water and an ecosystem of cooling technology partners including JetCool and OptiCool",
           "source": "https://sabeydatacenters.com/",
           "evidence": "https://sabeydatacenters.com/liquid-cooled-data-centers/"
         },
         {
           "name": "Telehouse (KDDI)",
           "hq": "JP",
-          "note": "KDDI colocation operator; launched liquid cooling lab at Telehouse South London with JetCool and deployed direct liquid-to-chip cooling across Toronto campus",
+          "note": "KDDI colocation operator running a liquid cooling lab at Telehouse South in London and direct liquid-to-chip cooling across its Toronto campus",
           "source": "https://www.telehouse.net/",
           "evidence": "https://www.telehouse.net/news/telehouse-launches-pioneering-liquid-cooling-lab/"
         },
@@ -3127,8 +3127,8 @@
           "name": "SoftBank Corp",
           "hq": "JP",
           "note": "Japanese telecom operator that implemented ZutaCore two-phase direct liquid cooling with Foxconn on NVIDIA AI servers (pPUE 1.03)",
-          "source": "https://www.softbank.jp/corp/",
-          "evidence": "https://blog.zutacore.com/press-releases/softbank-zutacore-foxconn-2-phase-dlc"
+          "source": "https://www.softbank.jp/",
+          "evidence": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20250228_01"
         },
         {
           "name": "Teraco",
@@ -3142,14 +3142,14 @@
           "hq": "IN",
           "note": "Indian ICT and data center operator, an NVIDIA-certified DGX-Ready Data Center Service Provider with liquid cooling support up to 130 kW racks",
           "source": "https://www.sifytechnologies.com/",
-          "evidence": "https://www.sifytechnologies.com/data-center/"
+          "evidence": "https://www.sifytechnologies.com/news/sify-becomes-first-in-india-to-achieve-nvidia-dgx-ready-data-center-certification-for-liquid-cooling-to-enable-breakthrough-ai-performance"
         },
         {
           "name": "Data4",
           "hq": "FR",
           "note": "European data center operator providing cold-water circuits connected to customer liquid-cooled racks (OVHcloud partnership at Marcoussis)",
           "source": "https://www.data4group.com/",
-          "evidence": "https://www.data4group.com/en/datacenter-dictionary/liquid-cooling-in-data-centers-a-revolution-in-energy-efficiency/"
+          "evidence": "https://www.data4group.com/en/news-data4/data4-enters-the-liquid-cooling-adventure-in-partnership-with-ovhcloud"
         },
         {
           "name": "Nautilus Data Technologies",
@@ -3161,7 +3161,7 @@
         {
           "name": "Kao Data",
           "hq": "GB",
-          "note": "Developer/operator of AI-focused colocation data centres near London; KLON-03 (17.6MW) purpose-built for GPU/AI with direct-to-chip liquid cooling up to 130kW racks",
+          "note": "UK operator building KLON-03 at Harlow, a 17.6MW AI data centre with hybrid cooling supporting direct-to-chip liquid cooling up to 130kW racks",
           "source": "https://kaodata.com/",
           "evidence": "https://kaodata.com/discover/news/kao-data-announces-construction-of-a-new-17-6mw-liquid-cooled-ai-data-centre-in-harlow-2"
         },
@@ -3175,9 +3175,9 @@
         {
           "name": "atNorth",
           "hq": "IS",
-          "note": "Pan-Nordic data-centre operator (Iceland, Sweden, Denmark, Finland, Norway); ICE02 Iceland fitted with direct liquid-to-chip cooling infrastructure; 100kW liquid-cooled racks in Crusoe expansion",
+          "note": "Pan-Nordic colocation operator whose ICE02 Keflavik campus in Iceland is fitted with direct liquid-to-chip cooling for AI deployments",
           "source": "https://atnorth.com/",
-          "evidence": "https://datacentremagazine.com/news/crusoe-and-atnorth-partner-to-expand-ai-data-centre-capacity"
+          "evidence": "https://www.atnorth.com/news/crusoe-expands-partnership-with-atnorth"
         },
         {
           "name": "Exaion",
@@ -3190,15 +3190,15 @@
           "name": "ODATA",
           "hq": "BR",
           "note": "Latin American data center operator (part of Aligned Data Centers) deploying Aligned's DeltaFlow liquid cooling at its Brazil and Mexico campuses",
-          "source": "https://aligneddc.com/",
+          "source": "https://odatadc.com/",
           "evidence": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
         },
         {
           "name": "Green Mountain",
           "hq": "NO",
-          "note": "Norwegian data-centre operator offering high-density liquid-cooled compute for AI/HPC and waste heat reuse to local industry (heat reuse programme)",
+          "note": "Norwegian operator offering high-density liquid-cooled compute for AI and HPC with closed-loop heat reuse at its Rjukan data center",
           "source": "https://greenmountain.no/",
-          "evidence": "https://greenmountain.no"
+          "evidence": "https://greenmountain.no/data-centers/ai-and-hpc"
         },
         {
           "name": "Yotta",
@@ -3218,7 +3218,7 @@
           "name": "NTT (Netmagic) India",
           "hq": "IN",
           "note": "Data center operator (Netmagic, an NTT company) that ran a production deployment of immersion and direct contact liquid cooling at its Navi Mumbai Mahape campus in January 2023",
-          "source": "https://www.netmagic.in/",
+          "source": "https://www.nttdata.com/",
           "evidence": "https://www.nttdata.com/en-us/news/2023/ntt-leads-the-way-for-green-technologies-in-data-centers"
         },
         {
@@ -3226,7 +3226,7 @@
           "hq": "SE",
           "note": "Swedish data center operator offering air, direct liquid cooling and immersion cooling, with waste heat delivered to the Falun district heating network",
           "source": "https://ecodatacenter.tech/",
-          "evidence": "https://ecodatacenter.tech/"
+          "evidence": "https://ecodatacenter.tech/gb200"
         },
         {
           "name": "DataVita",

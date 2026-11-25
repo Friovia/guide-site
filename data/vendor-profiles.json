@@ -1,6 +1,6 @@
 {
   "note": "Per-vendor profile pages under /supply-chain/<slug>. Facts policy: every claim carries a source URL; fields we cannot source are omitted — never invented. Rendering: src/routes/supply-chain/$slug.tsx joins this file's segments ids back to data/vendors.json (the directory layer stays the single source for segment membership). Prerender URL truth derives from the slugs here (vite.config.ts + scripts/check-nav.mjs). Adding a profile = one object here + the company must already have a row in vendors.json.",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "profiles": [
     {
       "slug": "nvidia",
@@ -11036,6 +11036,2230 @@
         {
           "q": "Where is the company headquartered?",
           "a": "The head office is Ducie Works, 107 Hulme Hall Lane, Manchester, M40 8HH, United Kingdom."
+        }
+      ]
+    },
+    {
+      "slug": "airtrunk",
+      "name": "AirTrunk",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Hyperscale data centre specialist operating campuses across Asia-Pacific and the Middle East. Publishes liquid-cooling capability for AI workloads, with over 20 MW of liquid cooling deployed in the first phase of its JHB1 campus in Johor, Malaysia.",
+      "hq": "Sydney, Australia",
+      "founded": 2015,
+      "ownership": "Owned by a consortium led by Blackstone, alongside CPP Investments, since the acquisition closed on 23 December 2024",
+      "website": "https://airtrunk.com/",
+      "productLines": [
+        {
+          "name": "JHB1 Johor campus liquid cooling",
+          "note": "Over 20 MW of liquid cooling deployed within the first phase of the JHB1 campus in Malaysia.",
+          "source": "https://airtrunk.com/insights/airtrunk-is-future-ready-with-liquid-cooling-technology/"
+        },
+        {
+          "name": "APME hyperscale campus platform",
+          "note": "Operates campuses including SYD1-3 Sydney, MEL1-2 Melbourne, TOK1-2 Tokyo, OSK1-2 Osaka, JHB1-4 Johor Bahru, SGP1-2 Singapore, HKG1-2 Hong Kong and sites in India.",
+          "source": "https://airtrunk.com/about/"
+        },
+        {
+          "name": "Scalable liquid-cooling support",
+          "note": "Describes liquid-cooling systems able to support tens to hundreds of megawatts for AI data centre capacity.",
+          "source": "https://airtrunk.com/insights/airtrunk-is-future-ready-with-liquid-cooling-technology/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "An AirTrunk article (page publication date 15 July 2024) states that over 20 MW of liquid cooling has been deployed within the first phase of the JHB1 campus in Malaysia, and that its large-scale liquid-cooling systems can support tens to hundreds of megawatts.",
+          "source": "https://airtrunk.com/insights/airtrunk-is-future-ready-with-liquid-cooling-technology/"
+        },
+        {
+          "year": "2024",
+          "text": "On 23 December 2024 AirTrunk announced the completion of its acquisition by a consortium led by Blackstone, alongside CPP Investments.",
+          "source": "https://airtrunk.com/completion-of-airtrunk-acquisition-by-blackstone-marking-new-era-of-growth"
+        },
+        {
+          "year": "2015",
+          "text": "AirTrunk states it was founded in 2015 and opened its first Australian hyperscale data centres in 2017.",
+          "source": "https://airtrunk.com/about/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much liquid cooling has AirTrunk deployed?",
+          "a": "Over 20 MW within the first phase of its JHB1 campus in Johor, Malaysia, according to the company's liquid-cooling insights article, which also describes systems able to support tens to hundreds of megawatts."
+        },
+        {
+          "q": "Where does AirTrunk operate data centres?",
+          "a": "Its about page lists campuses across Asia-Pacific and the Middle East, including Sydney and Melbourne in Australia, Tokyo and Osaka in Japan, Johor Bahru in Malaysia, Singapore, Hong Kong, Mumbai, Chennai and Hyderabad in India."
+        },
+        {
+          "q": "Who owns AirTrunk?",
+          "a": "AirTrunk is owned by a consortium led by Blackstone, alongside CPP Investments; the company announced completion of the acquisition on 23 December 2024."
+        }
+      ]
+    },
+    {
+      "slug": "aligned-data-centers",
+      "name": "Aligned Data Centers",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Operator of data center campuses across the Americas. Its DeltaFlow liquid-cooling platform integrates direct-to-chip cold plates, rack-mounted CDUs and immersion pod heat exchangers for 350 kW of heat rejection per rack, and pairs with Delta3 air cooling for hybrid cooling in the same data hall.",
+      "hq": "Plano, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Owned by a buyer group of AI Infrastructure Partnership (AIP), MGX and BlackRock's Global Infrastructure Partners since July 2026",
+      "website": "https://aligneddc.com/",
+      "productLines": [
+        {
+          "name": "DeltaFlow liquid cooling platform",
+          "note": "Launched 16 January 2024 as a universal liquid-cooled data center platform supporting direct-to-chip, rear-door heat exchangers and immersion cooling, with rack densities from three to 300 kW per rack and beyond in a standard closed-loop waterless system.",
+          "source": "https://aligneddc.com/press-release/aligned-data-centers-launches-deltaflow-liquid-cooling-extending-its-expandondemand-capabilities/"
+        },
+        {
+          "name": "Delta3 adaptive air cooling",
+          "note": "Air cooling supporting power densities up to 50 kW per rack that integrates with DeltaFlow liquid cooling for high-density AI and HPC deployments.",
+          "source": "https://aligneddc.com/cooling-innovation/"
+        },
+        {
+          "name": "Hybrid Delta3 plus DeltaFlow cooling",
+          "note": "Combined liquid and air cooling providing over 600 kW per rack of heat rejection with transition between liquid and air cooling.",
+          "source": "https://aligneddc.com/cooling-innovation/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 21 July 2026 Macquarie Asset Management announced the successful close of its sale of Aligned to a buyer group comprising the AI Infrastructure Partnership, MGX and BlackRock's Global Infrastructure Partners; the release describes Aligned as a hyperscale data center platform with 51 campuses across the Americas.",
+          "source": "https://www.macquarie.com/au/en/about/news/2026/macquarie-asset-management-announces-successful-close-of-aligned-data-centers-transaction.html"
+        },
+        {
+          "year": "2024",
+          "text": "On 16 January 2024 Aligned launched DeltaFlow, described in the announcement as a universal liquid-cooled data center platform supporting direct-to-chip, rear-door heat exchangers and immersion cooling with rack densities from three to 300 kW per rack and beyond.",
+          "source": "https://aligneddc.com/press-release/aligned-data-centers-launches-deltaflow-liquid-cooling-extending-its-expandondemand-capabilities/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Aligned's DeltaFlow liquid cooling?",
+          "a": "A liquid-cooling platform launched 16 January 2024 and described by Aligned as a universal liquid-cooled data center platform. It supports integration of direct-to-chip, rear-door heat exchangers and immersion cooling in a closed-loop waterless system, with rack densities from three to 300 kW per rack and beyond."
+        },
+        {
+          "q": "How much heat can DeltaFlow remove per rack?",
+          "a": "Aligned's cooling page states 350 kW of heat rejection per rack for DeltaFlow, and over 600 kW per rack when liquid cooling is combined with Delta3 air cooling in a hybrid configuration."
+        },
+        {
+          "q": "Where is Aligned Data Centers based and where does it operate?",
+          "a": "Its contact page lists corporate headquarters at 2800 Summit Avenue, Plano, Texas. Its about page cites 50 campuses across the Americas, including sites in Texas, Arizona, Virginia, Pennsylvania and Chicago, plus Brazil, Chile, Colombia and Mexico."
+        }
+      ]
+    },
+    {
+      "slug": "atnorth",
+      "name": "atNorth",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Nordic data centre operator offering high-density colocation and build-to-suit campuses across Iceland, Denmark, Sweden and Finland. Its ICE02 mega site outside Keflavik, Iceland is equipped with direct liquid-to-chip cooling infrastructure supporting AI workloads.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "CPP Investments c. 51% (controlling), Equinix c. 34%, Partners Group 10%; acquisition completed 2 September 2026",
+      "website": "https://atnorth.com/",
+      "productLines": [
+        {
+          "name": "ICE02 Keflavik direct liquid-to-chip cooling",
+          "note": "ICE02, atNorth's mega site at Keflavik in Iceland, is fitted with Direct Liquid to Chip (DLC) cooling infrastructure; a 24 MW expansion agreement scales Crusoe Cloud capacity at the site to 57 MW.",
+          "source": "https://www.atnorth.com/news/crusoe-expands-partnership-with-atnorth"
+        },
+        {
+          "name": "High-density Nordic colocation",
+          "note": "Racks, cages and pods and private data halls designed for high-density workloads at any scale across Nordic data centres.",
+          "source": "https://atnorth.com/"
+        },
+        {
+          "name": "Build-to-suit mega sites",
+          "note": "Large-scale bespoke data centers in the Nordics, with mega sites including ICE02 and ICE03 in Iceland, DEN02 in Denmark, SWE04 in Sweden and FIN04 and FIN05 in Finland.",
+          "source": "https://atnorth.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 2 September 2026 CPP Investments and Equinix completed their acquisition of atNorth: CPP Investments holds a c. 51% controlling stake, Equinix c. 34% and Partners Group 10%; atNorth reported eight operational data centers across the five Nordic countries.",
+          "source": "https://www.atnorth.com/news/cpp-investments-and-equinix-complete-atnorth-acquisition-to-support-growth-of-leading-nordic-data-center-platform/"
+        },
+        {
+          "year": "2025",
+          "text": "On 26 August 2025 atNorth and Crusoe announced a 24 MW expansion agreement for Crusoe Cloud at atNorth's ICE02 data center in Iceland, scaling capacity at the site to 57 MW; the release says ICE02 is fitted with Direct Liquid to Chip (DLC) cooling infrastructure and that the upgrade includes NVIDIA GB200 NVL72 infrastructure.",
+          "source": "https://www.atnorth.com/news/crusoe-expands-partnership-with-atnorth"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which atNorth site has direct liquid-to-chip cooling?",
+          "a": "ICE02, atNorth's mega site at Keflavik near Reykjavik in Iceland. atNorth's release of 26 August 2025 says the site is fitted with Direct Liquid to Chip (DLC) cooling infrastructure and that Crusoe Cloud capacity there scales to 57 MW, with the upgrade including NVIDIA GB200 NVL72 infrastructure."
+        },
+        {
+          "q": "Where does atNorth operate data centres?",
+          "a": "Its site lists metro and mega sites in Iceland (ICE01-03), Denmark (DEN01-02), Sweden (SWE01, SWE02, SWE04) and Finland (FIN01, FIN02, FIN04, FIN05), with the NOR01 Haugaland site in Norway listed as a future site."
+        },
+        {
+          "q": "Who owns atNorth?",
+          "a": "According to atNorth's release of 2 September 2026, CPP Investments holds a c. 51% controlling stake, Equinix c. 34% and Partners Group 10%."
+        }
+      ]
+    },
+    {
+      "slug": "cologix",
+      "name": "Cologix",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "North American interconnection and colocation operator running 45+ data centers across 13 markets. Its AI offerings use flexible cooling techniques to support liquid-to-the-chip cooling, and its COL8 purpose-built Scalelogix data center on the Johnstown campus in Ohio is described as liquid-cooling ready.",
+      "hq": "Denver, Colorado, United States",
+      "founded": 2010,
+      "ownership": "Majority-owned by Stonepeak funds since March 2017 (recapitalised April 2022)",
+      "website": "https://cologix.com/",
+      "productLines": [
+        {
+          "name": "COL8 Scalelogix data center",
+          "note": "Purpose-built Scalelogix data center on the Johnstown Campus at 11719 Duncan Plains Road, Johnstown, Ohio, with liquid-cooling readiness for advanced workloads.",
+          "source": "https://cologix.com/ai/"
+        },
+        {
+          "name": "AI high-density facilities",
+          "note": "Facilities designed for high-density AI and HPC workloads, including ASH2 with 51 MW designed for deployment across liquid-cooled and air-cooled environments.",
+          "source": "https://cologix.com/ai/"
+        },
+        {
+          "name": "High-density colocation",
+          "note": "MIN5 designed to support higher-density environments of over 20 kW per rack and NNJ3 supporting high-density power requirements up to 20 kW per rack.",
+          "source": "https://cologix.com/ai/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 13 November 2026 Cologix shared a Johnstown data center project update stating construction is underway on the first two data centers, with the first expected to be completed by the end of 2027 and the second in early 2028, using closed-loop cooling systems and energy-efficient dry coolers.",
+          "source": "https://cologix.com/news/cologix-shares-johnstown-data-center-project-update-reinforces-commitment-to-local-community/"
+        },
+        {
+          "year": "2025",
+          "text": "In a blog post dated 12 May 2025 Cologix described its liquid-cooling practice: all of its liquid cooling systems operate in closed-loop configurations, it deploys a multi-loop strategy with coolant delivered directly to the chip, and liquid cooling systems are designed into new builds from the ground up.",
+          "source": "https://cologix.com/resources/blogs/liquid-cooling-for-data-centers-meeting-the-growing-demand-of-ai"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Cologix support?",
+          "a": "Its AI page states the company uses flexible, innovative cooling techniques to easily support liquid-to-the-chip cooling and the ability to densify designs to meet customer requirements."
+        },
+        {
+          "q": "What is COL8?",
+          "a": "A purpose-built Scalelogix data center on the Cologix Johnstown Campus at 11719 Duncan Plains Road, Johnstown, Ohio, described on the company's AI page as having liquid-cooling readiness for advanced workloads. COL5 on the same campus is expected to be ready for service in Q2 2027."
+        },
+        {
+          "q": "Where is Cologix based and how large is its footprint?",
+          "a": "The company page states Cologix is headquartered in Denver, Colorado, operational since December 2010, with 45+ data centers across 13 North American markets, including Ashburn, Columbus, Dallas, Minneapolis, New Jersey, Montréal, Toronto and Vancouver."
+        },
+        {
+          "q": "What high-density capacity does Cologix offer for AI?",
+          "a": "Per its AI page, ASH2 offers 226K sq ft and 51 MW designed for high-density workloads across liquid-cooled and air-cooled environments, MTL10 offers 180K sq ft and 35 MW of critical power, MIN5 supports over 20 kW per rack and NNJ3 up to 20 kW per rack."
+        },
+        {
+          "q": "Who owns Cologix?",
+          "a": "Cologix's release of 6 April 2022 states that Stonepeak Infrastructure Fund II acquired a majority stake in March 2017; the recapitalisation moved ownership to Stonepeak-managed vehicles with existing and new third-party investors."
+        }
+      ]
+    },
+    {
+      "slug": "coreweave",
+      "name": "CoreWeave",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Operator of a GPU cloud platform purpose-built for AI training and inference at scale. It describes itself as the first AI cloud provider to deploy the NVIDIA GB300 NVL72 platform; a Vertiv account of that deployment gives about 140 kW per liquid-cooled rack, served by Vertiv CoolChip CDUs.",
+      "hq": "Livingston, New Jersey, United States",
+      "founded": 2017,
+      "ownership": "Listed on the Nasdaq Global Select Market (CRWV) since its March 2025 initial public offering",
+      "website": "https://www.coreweave.com/",
+      "productLines": [
+        {
+          "name": "NVIDIA GB300 NVL72 liquid-cooled cloud deployment",
+          "note": "Described by Vertiv as the first cloud deployment of the NVIDIA GB300 NVL72 in Dell rack integration, with racks drawing about 140 kW each, liquid-cooled via Vertiv CoolChip CDUs providing 121 kW of liquid-to-liquid heat rejection at ASHRAE W5 water temperatures.",
+          "source": "https://www.vertiv.com/en-asia/insights/articles/blog-posts/how-vertiv-and-coreweave-are-orchestrating-ai-innovation/"
+        },
+        {
+          "name": "GPU compute cloud",
+          "note": "CoreWeave's platform offers the latest NVIDIA GPUs at cluster scale, including Blackwell and Hopper generations, for AI training and inference.",
+          "source": "https://www.coreweave.com/about"
+        },
+        {
+          "name": "Global AI data centers",
+          "note": "The company's site describes purpose-built AI data centers around the world supporting its cloud platform.",
+          "source": "https://www.coreweave.com/about"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a Vertiv article dated 19 June 2026, CoreWeave and Vertiv describe what Vertiv calls the world's first cloud deployment of NVIDIA's GB300 NVL72 system: each rack draws about 140 kW and is liquid-cooled, served by Vertiv CoolChip CDUs rated at 121 kW of liquid-to-liquid heat rejection and compatible with ASHRAE W5 inlet water temperatures.",
+          "source": "https://www.vertiv.com/en-asia/insights/articles/blog-posts/how-vertiv-and-coreweave-are-orchestrating-ai-innovation/"
+        },
+        {
+          "year": "2025",
+          "text": "On 3 July 2025 CoreWeave announced that it was the first AI cloud provider to deploy the NVIDIA GB300 NVL72 platform for customers, with the initial deployment built together with Dell, Switch and Vertiv.",
+          "source": "https://www.prnewswire.com/news-releases/coreweave-becomes-first-hyperscaler-to-deploy-nvidia-gb300-nvl72-platform-302497802.html"
+        },
+        {
+          "year": "2025",
+          "text": "In March 2025 CoreWeave carried out its initial public offering, applying to list its Class A common stock on the Nasdaq Global Select Market under the ticker symbol CRWV.",
+          "source": "https://www.prnewswire.com/news-releases/coreweave-announces-launch-of-initial-public-offering-302406961.html"
+        },
+        {
+          "year": "2017",
+          "text": "CoreWeave states in its IPO prospectus that it was founded in September 2017 as a Delaware limited liability company and that it launched its CoreWeave Cloud Platform in 2020.",
+          "source": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525067651/d899798d424b4.htm"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooled systems does CoreWeave operate?",
+          "a": "Per a Vertiv article dated 19 June 2026, CoreWeave is conducting the first cloud deployment of the NVIDIA GB300 NVL72, with each rack drawing about 140 kW and liquid-cooled using Vertiv CoolChip CDUs offering 121 kW of liquid-to-liquid heat rejection, ASHRAE W5 water temperature compatibility, redundant pumps and dual heat exchangers."
+        },
+        {
+          "q": "What GPU platforms did CoreWeave deploy before GB300?",
+          "a": "The same Vertiv article notes CoreWeave's previous deployments of NVIDIA HGX H100 and H200 platforms."
+        },
+        {
+          "q": "Where is CoreWeave headquartered?",
+          "a": "The CoreWeave website footer lists its address as 290 W Mt Pleasant Ave, Suite 4100, Livingston, NJ 07039."
+        }
+      ]
+    },
+    {
+      "slug": "datavita",
+      "name": "DataVita",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Scottish data centre and connectivity provider offering colocation, cloud and HPC/AI hosting. Its DV1 campus in Lanarkshire supports a mix of air and water cooling, including direct-to-chip cooling, at rack densities up to 200 kW per rack.",
+      "hq": "Airdrie, Lanarkshire, Scotland, United Kingdom",
+      "founded": 2014,
+      "ownership": "100% owned by HFD, a group spanning commercial property development, technology and renewable energy",
+      "website": "https://www.datavita.co.uk/",
+      "productLines": [
+        {
+          "name": "HPC and AI hosting at DV1",
+          "note": "Colocation and hosting for high-performance computing and AI infrastructure with a mix of air and water cooling, including direct-to-chip cooling, supporting up to 200 kW per rack.",
+          "source": "https://www.datavita.co.uk/hpc"
+        },
+        {
+          "name": "Hosting of UCL's Charger national supercomputing facility",
+          "note": "DataVita will host the Charger national compute resource, built for high-density liquid-cooled infrastructure with more than 37,000 CPU cores, at its Lanarkshire campus.",
+          "source": "https://blog.datavita.co.uk/blog/datavita-to-host-ucls-new-ps19-5m-national-supercomputing-facility-charger-expanding-uk-supercomputing-capacity-in-scotland"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 26 February 2026 DataVita announced it will host UCL's Charger national supercomputing facility at its Scottish data centre campus in Lanarkshire, built for high-density, liquid-cooled infrastructure with more than 37,000 CPU cores.",
+          "source": "https://blog.datavita.co.uk/blog/datavita-to-host-ucls-new-ps19-5m-national-supercomputing-facility-charger-expanding-uk-supercomputing-capacity-in-scotland"
+        },
+        {
+          "year": "2014",
+          "text": "DataVita was established in 2014 and is 100% owned by HFD.",
+          "source": "https://www.datavita.co.uk/about-us"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling capability does DataVita offer?",
+          "a": "Its facilities support a mix of air and water-cooling technologies, including direct-to-chip cooling, and are designed to manage up to 200 kW per rack."
+        },
+        {
+          "q": "Where are DataVita's data centres?",
+          "a": "The company operates facilities in Lanarkshire and Glasgow, Scotland, with its DV1 campus in Lanarkshire located between Glasgow and Edinburgh."
+        },
+        {
+          "q": "What is Charger?",
+          "a": "Charger is UCL's national supercomputing facility with more than 37,000 CPU cores. DataVita announced on 26 February 2026 that it will host it at its Lanarkshire campus, built for high-density, liquid-cooled infrastructure."
+        },
+        {
+          "q": "Who owns DataVita?",
+          "a": "DataVita is 100% owned by HFD, a group spanning commercial property development, technology and renewable energy. It was established in 2014."
+        }
+      ]
+    },
+    {
+      "slug": "datavolt",
+      "name": "DataVolt",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Saudi data center developer and operator building AI campuses in Saudi Arabia and beyond, including an AI factory campus at Oxagon in NEOM that the announcement calls net-zero. Its liquid-cooling role is a multi-year partnership with Supermicro to deploy rack-scale total liquid cooling IT solutions for AI data centers.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Wholly owned subsidiary of Vision Invest, a Saudi development and investment holding company",
+      "website": "https://data-volt.com/",
+      "productLines": [
+        {
+          "name": "Rack-scale total liquid cooling with Supermicro",
+          "note": "Multi-year partnership to deliver ultra-dense GPU platforms and rack systems with rack-scale total liquid cooling IT solutions for DataVolt's hyperscale AI campuses in Saudi Arabia and the US.",
+          "source": "https://data-volt.com/media/breaking-news/datavolt-announces-landmark-deal-with-supermicro-to-accelerate-adoption-of-rack-scale-total-liquid-cooling-it-solutions-for-future-ready-ai-data-centers"
+        },
+        {
+          "name": "Oxagon net-zero AI factory campus (NEOM)",
+          "note": "A 1.5 GW AI factory campus at Oxagon developed under an agreement with NEOM announced on 11 February 2025; the announcement describes the campus as net-zero and says phase one is expected to be operational by 2028.",
+          "source": "https://data-volt.com/media/breaking-news/datavolt-signs-agreement-with-neom-to-design-and-develop-the-regions-first-truly-sustainable-net-zero-ai-factory-campus-in-oxagon"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 11 February 2025 DataVolt announced an agreement with NEOM to design and develop an AI factory campus at Oxagon, stated as 1.5 GW, with phase one expected to be operational by 2028; the announcement describes the campus as net-zero.",
+          "source": "https://data-volt.com/media/breaking-news/datavolt-signs-agreement-with-neom-to-design-and-develop-the-regions-first-truly-sustainable-net-zero-ai-factory-campus-in-oxagon"
+        },
+        {
+          "year": "2025",
+          "text": "In May 2025 DataVolt announced a multi-year partnership with Supermicro to deploy rack-scale total liquid cooling IT solutions and ultra-dense GPU rack systems for its hyperscale AI campuses in Saudi Arabia and the United States.",
+          "source": "https://data-volt.com/media/breaking-news/datavolt-announces-landmark-deal-with-supermicro-to-accelerate-adoption-of-rack-scale-total-liquid-cooling-it-solutions-for-future-ready-ai-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is DataVolt's liquid-cooling deployment?",
+          "a": "DataVolt announced a multi-year partnership with Supermicro to deploy rack-scale total liquid cooling IT solutions, including ultra-dense GPU platforms and rack systems, for its hyperscale AI campuses in Saudi Arabia and the US."
+        },
+        {
+          "q": "What is the Oxagon campus?",
+          "a": "Under an agreement announced on 11 February 2025, DataVolt is designing and developing a 1.5 GW AI factory campus at Oxagon in NEOM, described in the announcement as net-zero. Phase one is expected to be operational by 2028."
+        },
+        {
+          "q": "Who owns DataVolt?",
+          "a": "DataVolt is a wholly owned subsidiary of Vision Invest, a Saudi development and investment holding company."
+        },
+        {
+          "q": "Where does DataVolt operate?",
+          "a": "Its About page describes operations in Saudi Arabia, including Riyadh facilities, and a Tashkent IT Park project in Uzbekistan."
+        }
+      ]
+    },
+    {
+      "slug": "ecodatacenter",
+      "name": "EcoDataCenter",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Swedish data centre operator with campuses in Falun and Borlänge. It offers air, direct liquid cooling and immersion cooling, hosts a liquid-cooled NVIDIA DGX GB200 deployment for DeepL that it calls Europe's first, and sends waste heat from its Falun server halls to a nearby thermal power plant.",
+      "hq": "Falun, Sweden",
+      "founded": "NOT_FOUND",
+      "ownership": "Owned by Areim, described as a Swedish fund manager",
+      "website": "https://ecodatacenter.tech/",
+      "productLines": [
+        {
+          "name": "Air, direct liquid and immersion cooling options",
+          "note": "Tenants can deploy infrastructure at scale with a choice of air, direct liquid cooling or immersion cooling at the Falun and Borlänge campuses.",
+          "source": "https://ecodatacenter.tech/"
+        },
+        {
+          "name": "Liquid-cooled NVIDIA DGX GB200 deployment",
+          "note": "Described by the company as Europe's first liquid-cooled DGX GB200 deployment, run in collaboration with DeepL, NVIDIA and Schneider Electric at Falun, with water-based liquid cooling and floor load reinforcement from 2,200 kg per square metre to 8,000 kg per square metre.",
+          "source": "https://ecodatacenter.tech/gb200"
+        },
+        {
+          "name": "Heat reuse at Falun",
+          "note": "Excess heat from the server halls is transported to a nearby thermal power plant, where it boosts wood pellet production.",
+          "source": "https://ecodatacenter.tech/sustainability-data-center"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 11 June 2025 DeepL announced the deployment of an NVIDIA DGX SuperPOD with DGX GB200 systems, described as liquid-cooled and rack-scale, now operational at its partner EcoDataCenter in Sweden; EcoDataCenter's own page places the deployment at Falun and says it uses water-based liquid cooling.",
+          "source": "https://www.deepl.com/en/press-release/deepl-first-to-deploy-nvidia-dgx-superpod-with-dgx-gb200-systems-in-europe-advancing-language-ai-with-powerful-generative-features-and-enhanced-user-experience"
+        },
+        {
+          "year": "2018",
+          "text": "Construction began on EcoDataCenter's first data center in Falun in 2018, according to the company's sustainability page.",
+          "source": "https://ecodatacenter.tech/sustainability-data-center"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling technologies does EcoDataCenter offer?",
+          "a": "Its website states: with air, direct liquid cooling and immersion cooling, customers have full autonomy to deploy infrastructure at scale at the Falun and Borlänge campuses."
+        },
+        {
+          "q": "What was the DeepL GB200 deployment?",
+          "a": "EcoDataCenter describes it as Europe's first liquid-cooled NVIDIA DGX GB200 deployment, run at Falun with DeepL, NVIDIA and Schneider Electric, using water-based liquid cooling for higher rack density and greater waste-heat reuse."
+        },
+        {
+          "q": "How does EcoDataCenter reuse waste heat?",
+          "a": "Excess heat from the Falun server halls is transported to a nearby thermal power plant, where it boosts wood pellet production and cuts CO2 emissions in and around Falun, according to the company."
+        },
+        {
+          "q": "Who owns EcoDataCenter and where is it based?",
+          "a": "EcoDataCenter is headquartered in Falun, Sweden, with a mega campus in Borlänge and a Stockholm office, and is owned by Areim, a Swedish fund manager."
+        }
+      ]
+    },
+    {
+      "slug": "edgeconnex",
+      "name": "EdgeConneX",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Global data center operator offering edge to hyperscale facilities, including build-to-density AI infrastructure supporting densities exceeding 600 kW per rack with air, liquid or immersion cooling. Its Houston Global Training Center gives customers hands-on experience with two-phase direct-to-chip liquid cooling.",
+      "hq": "Herndon, Northern Virginia, United States",
+      "founded": 2009,
+      "ownership": "Acquired by EQT Infrastructure in 2020",
+      "website": "https://www.edgeconnex.com/",
+      "productLines": [
+        {
+          "name": "High-density solutions for AI and HPC",
+          "note": "Data halls that adapt to a mix of cooling technologies and densities, from CPU cloud to GPU-based AI deployments, using air, liquid or immersion cooling; the Ingenuity design supports densities exceeding 600 kW per rack with a chilled water plant including built-in thermal storage.",
+          "source": "https://www.edgeconnex.com/data-centers/high-density-solutions"
+        },
+        {
+          "name": "Two-phase direct-to-chip liquid cooling training at the Houston Global Training Center",
+          "note": "Accelsius will deploy its commercial IR150 system, an integrated IT rack plus CDU using NeuCool two-phase direct-to-chip liquid cooling, at the EdgeConneX Global Training Center in Houston, Texas, giving operators, technicians and partners hands-on experience deploying and servicing two-phase liquid cooling for AI workloads.",
+          "source": "https://www.edgeconnex.com/news/press-releases/accelsius-to-deploy-two-phase-direct-to-chip-liquid-cooling-system-at-edgeconnex-global-training-center/"
+        },
+        {
+          "name": "AI factory infrastructure with Lambda",
+          "note": "Over 30 MW of high-density, AI-ready infrastructure across Chicago and Atlanta, including a build-to-density 23 MW Chicago facility using a hybrid design that combines liquid-to-the-chip direct cooling with air cooling, expected Ready for Service in 2026.",
+          "source": "https://www.edgeconnex.com/news/press-releases/edgeconnex-and-lambda-to-build-ai-factory-in-chicago-with-industry-leading-high-density-data-center-infrastructure"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 27 August 2026 EdgeConneX announced that Accelsius will deploy its IR150 system, an integrated IT rack plus CDU using NeuCool two-phase direct-to-chip liquid cooling, at the EdgeConneX Global Training Center at the Houston, Texas campus for hands-on training on AI workloads.",
+          "source": "https://www.edgeconnex.com/news/press-releases/accelsius-to-deploy-two-phase-direct-to-chip-liquid-cooling-system-at-edgeconnex-global-training-center/"
+        },
+        {
+          "year": "2025",
+          "text": "On 21 August 2025 EdgeConneX and Lambda announced over 30 MW of high-density, AI-ready data center infrastructure across Chicago and Atlanta, including a 23 MW build-to-density Chicago facility combining liquid-to-the-chip direct cooling with air cooling, expected Ready for Service in 2026, supporting densities exceeding 600 kW per rack.",
+          "source": "https://www.edgeconnex.com/news/press-releases/edgeconnex-and-lambda-to-build-ai-factory-in-chicago-with-industry-leading-high-density-data-center-infrastructure"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling technologies and densities does EdgeConneX support?",
+          "a": "Its high-density solutions support densities exceeding 600 kW per rack using air, liquid or immersion cooling, with data halls that adapt to mixed cooling technologies and a chilled water plant with built-in thermal storage."
+        },
+        {
+          "q": "What is deployed at the EdgeConneX Global Training Center?",
+          "a": "Accelsius will deploy its IR150 system, an integrated IT rack plus CDU using NeuCool two-phase direct-to-chip liquid cooling, at the Houston campus so operators, technicians and partners get hands-on experience deploying and servicing two-phase liquid cooling for AI workloads."
+        },
+        {
+          "q": "What is EdgeConneX building with Lambda?",
+          "a": "Announced on 21 August 2025: over 30 MW of high-density, AI-ready infrastructure across Chicago and Atlanta, including a 23 MW Chicago facility with hybrid liquid-to-the-chip direct cooling plus air cooling, expected Ready for Service in 2026."
+        },
+        {
+          "q": "Who owns EdgeConneX?",
+          "a": "EdgeConneX was founded in 2009 and acquired by EQT Infrastructure in 2020. Its About page lists locations including Herndon in Northern Virginia, Schiphol-Rijk in the Netherlands and Singapore, with over 90 data centers built and in development."
+        }
+      ]
+    },
+    {
+      "slug": "keppel-data-centres",
+      "name": "Keppel Data Centres",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Colocation data centre operator offering wholesale, build-to-suit and colocation solutions across Asia Pacific and Europe. Its liquid-cooling work includes an advanced immersion liquid cooling testbed using Shell's Gas-to-Liquids based fluid and a floating data centre concept cooled with seawater.",
+      "hq": "Singapore, Singapore",
+      "founded": "NOT_FOUND",
+      "ownership": "Data centre business of Keppel Ltd's Connectivity Division; Keppel Ltd is listed on SGX (BN4)",
+      "website": "https://www.keppel.com/",
+      "productLines": [
+        {
+          "name": "Shell GTL immersion cooling testbed",
+          "note": "Testbed with Shell Singapore that fully submerges servers in Shell's proprietary Gas-to-Liquids based immersion cooling fluid at one of Keppel's operational data centres, announced 20 April 2026 and expected to run for 12 months.",
+          "source": "https://www.keppel.com/media/keppel-and-shell-to-launch-advanced-immersion-liquid-cooling-testbed-for-more-sustainable-data-centres"
+        },
+        {
+          "name": "Floating data centre concept (seawater heat sink)",
+          "note": "Near-shore floating data centre concept explored for the Loyang Offshore Supply Base that uses the surrounding sea as a heat sink, avoiding the potable or industrial water used by conventional facilities.",
+          "source": "https://www.keppeldatacentres.com/innovations/floating-data-centre"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 20 April 2026 Keppel's Connectivity Division data centre business and Shell Singapore announced an advanced immersion liquid cooling testbed using Shell's GTL-based immersion fluid at an operational Keppel data centre, expected to be operational by May 2026 and to run for 12 months.",
+          "source": "https://www.keppel.com/media/keppel-and-shell-to-launch-advanced-immersion-liquid-cooling-testbed-for-more-sustainable-data-centres"
+        },
+        {
+          "year": "2024",
+          "text": "The floating data centre timeline records a January 2024 memorandum of understanding under the LCT-IC initiative with Chevron, Pan-United, Surbana Jurong, Air Liquide, Osaka Gas and Pavilion Energy supporting Singapore's net-zero 2050 goal.",
+          "source": "https://www.keppeldatacentres.com/innovations/floating-data-centre"
+        },
+        {
+          "year": "2018",
+          "text": "Keppel formed an in-house innovation team with Keppel Offshore & Marine to develop its floating data centre concept.",
+          "source": "https://www.keppeldatacentres.com/innovations/floating-data-centre"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling is Keppel Data Centres deploying?",
+          "a": "Keppel and Shell Singapore announced an advanced immersion liquid cooling testbed on 20 April 2026 that fully submerges servers in Shell's Gas-to-Liquids based immersion fluid at an operational Keppel data centre, with the pilot expected to run for 12 months."
+        },
+        {
+          "q": "Where does Keppel operate data centres?",
+          "a": "Keppel owns and operates colocation data centres in metros including Singapore, Sydney, Guangdong, Frankfurt and Dublin, and its website cites 37 data centres across 12 countries."
+        },
+        {
+          "q": "What is Keppel's floating data centre concept?",
+          "a": "A near-shore floating data centre explored for the Loyang Offshore Supply Base that harnesses seawater for cooling and uses the surrounding sea as a heat sink, avoiding the potable or industrial water used by conventional facilities."
+        }
+      ]
+    },
+    {
+      "slug": "khazna-data-centers",
+      "name": "Khazna Data Centers",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Wholesale hyperscale data centre operator in the UAE serving AI workloads. It uses direct liquid cooling for AI processing, hosts a managed direct-liquid-cooled AI hosting service with HPE in Abu Dhabi, and is developing a 100 MW AI campus in Ajman that it says will be the first AI data center with liquid cooling in the MENA region.",
+      "hq": "NOT_FOUND",
+      "founded": 2012,
+      "ownership": "About page lists G42, MGX and Silver Lake as shareholders",
+      "website": "https://khaznadatacenters.com/",
+      "productLines": [
+        {
+          "name": "Direct Liquid Cooling for AI workloads",
+          "note": "Uses cutting-edge cooling systems like Direct Liquid Cooling to keep facilities running during heavy AI processing that pushes GPUs to their limits.",
+          "source": "https://khaznadatacenters.com/innovation-detail/"
+        },
+        {
+          "name": "Managed DLC AI hosting service with HPE",
+          "note": "Managed data center hosting service announced with HPE on 22 August 2024, giving access to a facility purpose-built for AI with direct liquid cooling; HPE Services worked with Khazna to optimize its Abu Dhabi data center for AI and HPC workloads.",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/08/hewlett-packard-enterprise-introduces-first-managed-data-center-hosting-service-with-direct-liquid-cooling-for-ai-in-the-united-arab-emirates-in-partnership-with-khazna-data-centers.html"
+        },
+        {
+          "name": "Ajman QAJ01 AI data center",
+          "note": "Facility with 100 MW total IT load across 20 data halls of 5 MW each; announced on 24 February 2026 as set to be, in Khazna's words, the first certified AI data center with liquid cooling in the Middle East and North Africa region, after Uptime Institute granted Tier III Certification of Design Documents.",
+          "source": "https://khaznadatacenters.com/press-release/khazna-awarded-tier-iii-certification-of-design-documents-for-ajman-uae-facility"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 24 February 2026 Khazna announced that Uptime Institute granted its QAJ01 facility in Ajman a Tier III Certification of Design Documents; the release describes the site as 100 MW total IT load across 20 data halls and says it is set to be the first certified AI data center with liquid cooling in the Middle East and North Africa region.",
+          "source": "https://khaznadatacenters.com/press-release/khazna-awarded-tier-iii-certification-of-design-documents-for-ajman-uae-facility"
+        },
+        {
+          "year": "2024",
+          "text": "On 22 August 2024 HPE announced a managed data center hosting service with direct liquid cooling for AI in the UAE in partnership with Khazna, with HPE Services working with Khazna to optimize its Abu Dhabi data center for AI and HPC workloads; HPE described it as the first data center facility of this kind in the UAE.",
+          "source": "https://www.hpe.com/us/en/newsroom/press-release/2024/08/hewlett-packard-enterprise-introduces-first-managed-data-center-hosting-service-with-direct-liquid-cooling-for-ai-in-the-united-arab-emirates-in-partnership-with-khazna-data-centers.html"
+        },
+        {
+          "year": "2022",
+          "text": "On 21 June 2022 Khazna marked 10 years since its establishment in 2012 and stated it operated 12 data centers with 13 under construction, having grown through the merger of G42 and e& data center businesses, with sites including Abu Dhabi (Masdar) and Dubai.",
+          "source": "https://khaznadatacenters.com/press-release/khazna-data-centers-marks-10th-anniversary-as-it-continues-to-strengthen-uaes-digital-economy"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Khazna Data Centers use?",
+          "a": "Khazna states that it uses cooling systems such as Direct Liquid Cooling (DLC) to keep its facilities running during heavy AI processing."
+        },
+        {
+          "q": "What did Khazna announce with HPE in 2024?",
+          "a": "On 22 August 2024 HPE and Khazna announced a managed data center hosting service with direct liquid cooling for AI in the UAE; HPE Services worked with Khazna to optimize its Abu Dhabi data center for AI and HPC workloads, and HPE described it as the first data center facility of this kind in the UAE."
+        },
+        {
+          "q": "Where is Khazna building liquid-cooled AI capacity?",
+          "a": "At its QAJ01 facility in Ajman, with 100 MW total IT load across 20 data halls of 5 MW each; the 24 February 2026 announcement says the site is set to be the first certified AI data center with liquid cooling in the Middle East and North Africa region."
+        },
+        {
+          "q": "When was Khazna founded and who owns it?",
+          "a": "Khazna was established in 2012, and its About page lists G42, MGX and Silver Lake as shareholders."
+        }
+      ]
+    },
+    {
+      "slug": "lambda",
+      "name": "Lambda",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "AI compute infrastructure company offering GPU instances, 1-Click Clusters and superclusters. It builds modular AI factories with power, liquid cooling and interconnects, runs Supermicro liquid-cooled NVIDIA HGX server clusters, and will occupy a 23 MW AI factory in Chicago developed by EdgeConneX with liquid-to-chip direct cooling.",
+      "hq": "San Jose, California, United States",
+      "founded": 2012,
+      "ownership": "Privately held; investors named on lambda.com/investors include TWG Global and USIT",
+      "website": "https://lambda.com/",
+      "productLines": [
+        {
+          "name": "Supermicro liquid-cooled NVIDIA HGX clusters",
+          "note": "Adopted Supermicro liquid-cooling solutions across systems including the 10U NVIDIA HGX B200 8-GPU and 8U NVIDIA HGX H200 8-GPU platforms, which the success story says use liquid cooling to stay energy efficient on large AI workloads.",
+          "source": "https://www.supermicro.com/en/success-story/lambda"
+        },
+        {
+          "name": "Modular AI factories",
+          "note": "Lambda states it builds modular AI factories combining power, liquid cooling and high-bandwidth interconnects for labs training and deploying next-generation AI, with AI factories pursued at gigawatt scale.",
+          "source": "https://lambda.com/about"
+        },
+        {
+          "name": "Chicago AI factory with EdgeConneX",
+          "note": "EdgeConneX is developing a build-to-density, single-tenant 23 MW data center in Chicago for Lambda, ready for service in 2026, using hybrid cooling that combines liquid-to-chip direct cooling and air cooling at densities exceeding 600 kW per rack.",
+          "source": "https://lambda.com/blog/lambda-edgeconnex-dc-pr"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 21 August 2025 Lambda and EdgeConneX announced a build-to-density, single-tenant 23MW data center in Chicago that will be ready for service in 2026, designed with hybrid cooling combining liquid-to-the-chip direct cooling and air cooling and densities exceeding 600kW per rack.",
+          "source": "https://lambda.com/blog/lambda-edgeconnex-dc-pr"
+        },
+        {
+          "year": "2012",
+          "text": "Lambda describes itself as an AI-only company, founded in 2012 in San Francisco by machine learning engineers.",
+          "source": "https://lambda.com/about"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Lambda use?",
+          "a": "Lambda has adopted Supermicro liquid-cooling solutions for systems including NVIDIA HGX B200 and HGX H200 8-GPU platforms, states that it builds modular AI factories with power, liquid cooling and interconnects, and is building a Chicago AI factory cooled by liquid-to-the-chip direct cooling combined with air cooling."
+        },
+        {
+          "q": "What is Lambda building in Chicago?",
+          "a": "With EdgeConneX, a build-to-density, single-tenant 23MW data center ready for service in 2026, using hybrid liquid-to-the-chip direct cooling and air cooling and supporting densities exceeding 600kW per rack."
+        },
+        {
+          "q": "Where is Lambda headquartered?",
+          "a": "Lambda's contact page lists its headquarters at 2510 Zanker Road, San Jose, California 95131."
+        },
+        {
+          "q": "When was Lambda founded?",
+          "a": "Lambda states it was founded by machine learning engineers in 2012, in San Francisco."
+        }
+      ]
+    },
+    {
+      "slug": "meta-platforms",
+      "name": "Meta Platforms",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Technology company operating AI-optimized data centers cooled by a direct-to-chip liquid closed-loop system: coolant circulates in closed pipes to absorb server heat and dry coolers remove it without operational water use for cooling. Its Richland Parish, Louisiana data center is described by Meta as its largest data center yet.",
+      "hq": "Menlo Park, California, United States",
+      "founded": 2004,
+      "ownership": "Listed on Nasdaq (META)",
+      "website": "https://about.meta.com/",
+      "productLines": [
+        {
+          "name": "AI-optimized data center cooling design",
+          "note": "Meta's AI-optimized data centers use a direct-to-chip liquid, closed-loop cooling system in which coolant circulates in a closed piped system to absorb heat from servers, with dry coolers blowing air over pipes to remove heat; there is no operational water use in the cooling system.",
+          "source": "https://datacenters.atmeta.com/innovation"
+        },
+        {
+          "name": "Richland Parish, Louisiana data center",
+          "note": "Data center announced in December 2024 and described by Meta as its largest data center yet, built to the AI-optimized design with direct-to-chip closed-loop liquid cooling.",
+          "source": "https://datacenters.atmeta.com/innovation"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 13 July 2026 Meta announced that it is expanding its AI-optimized Richland Parish data center in Louisiana to 5 GW of compute capacity, which it describes as the largest in its fleet.",
+          "source": "https://datacenters.atmeta.com/2026/07/deepening-our-investment-in-richland-parish-louisiana"
+        },
+        {
+          "year": "2024",
+          "text": "In December 2024 Meta announced its Richland Parish, Louisiana data center, described as its largest data center yet, using the AI-optimized design with a direct-to-chip liquid closed-loop cooling system.",
+          "source": "https://datacenters.atmeta.com/innovation"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Meta cool its AI data centers?",
+          "a": "Meta's AI-optimized data centers use a direct-to-chip liquid, closed-loop cooling system: coolant circulates in a closed piped system to absorb the heat from servers, and dry coolers blow air over pipes to remove the heat."
+        },
+        {
+          "q": "Does Meta's AI data center cooling use water?",
+          "a": "Meta states there is no operational water use in the cooling system; on-site water is limited to domestic and janitorial needs, equipment cleaning and fire protection."
+        },
+        {
+          "q": "What did Meta announce in Louisiana?",
+          "a": "In December 2024 Meta announced its Richland Parish, Louisiana data center, described as its largest data center yet, built with the AI-optimized direct-to-chip closed-loop liquid cooling design."
+        }
+      ]
+    },
+    {
+      "slug": "crusoe",
+      "name": "Crusoe",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Operator of AI factory data center campuses and the Crusoe Cloud platform. It deploys closed-loop, non-evaporative liquid cooling at its Abilene, Texas campus supporting Microsoft AI infrastructure and builds the liquid-cooled modular Crusoe Spark Liquid units for ultra-high-density GPU racks.",
+      "hq": "NOT_FOUND",
+      "founded": 2018,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.crusoe.ai/",
+      "productLines": [
+        {
+          "name": "Abilene AI factory campus",
+          "note": "900 MW campus supporting Microsoft AI infrastructure with Crusoe's closed-loop, non-evaporative liquid cooling; two buildings each designed to deliver 336 MW of critical IT load.",
+          "source": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure"
+        },
+        {
+          "name": "Crusoe Spark Liquid modular AI factory",
+          "note": "Sixth-generation modular AI factory supporting up to 3.5 MW of compute per unit with closed-loop, non-evaporative direct liquid cooling, engineered for NVIDIA GB300 NVL72 and Vera Rubin NVL72 rack-scale systems; manufactured in Brighton, Colorado.",
+          "source": "https://www.crusoe.ai/resources/newsroom/crusoe-introduces-crusoe-spark-liquid"
+        },
+        {
+          "name": "Liquid-cooled AI data centers",
+          "note": "Crusoe's data centers use closed-loop liquid cooling and direct liquid-to-chip cooling for high-density racks, with a near-zero water consumption commitment.",
+          "source": "https://www.crusoe.ai/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 27 March 2026 Crusoe announced a 900 MW AI factory campus in Abilene, Texas to support Microsoft AI infrastructure, featuring its closed-loop non-evaporative liquid cooling systems; the release says the full Abilene site is expected to reach about 2.1 GW of total capacity.",
+          "source": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure"
+        },
+        {
+          "year": "2026",
+          "text": "On 21 October 2026 Crusoe introduced Crusoe Spark Liquid, its sixth-generation modular AI factory platform, supporting up to 3.5 MW of compute per unit with a closed-loop, non-evaporative direct liquid cooling architecture engineered for NVIDIA GB300 NVL72 and Vera Rubin NVL72; production joins the Brighton, Colorado factory in 2027.",
+          "source": "https://www.crusoe.ai/resources/newsroom/crusoe-introduces-crusoe-spark-liquid"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Crusoe use at its Abilene campus?",
+          "a": "The 900 MW Abilene, Texas campus supporting Microsoft AI infrastructure uses Crusoe's closed-loop, non-evaporative liquid cooling systems, with two buildings each designed to deliver 336 MW of critical IT load."
+        },
+        {
+          "q": "What is Crusoe Spark Liquid?",
+          "a": "A modular AI factory platform introduced on 21 October 2026 that supports up to 3.5 MW of compute per unit using closed-loop, non-evaporative direct liquid cooling, engineered for NVIDIA GB300 NVL72 and Vera Rubin NVL72 rack-scale systems."
+        },
+        {
+          "q": "Does Crusoe's liquid cooling consume water?",
+          "a": "Crusoe states that Spark Liquid's closed-loop, non-evaporative DLC cooling operates without consuming or evaporating water, making it suited to water-stressed regions, and its data centers carry a near-zero water consumption commitment."
+        },
+        {
+          "q": "Where are Crusoe Spark units manufactured?",
+          "a": "Spark modules are built in-house by Crusoe Industries at its Brighton, Colorado factory, with Spark Liquid production joining in 2027."
+        }
+      ]
+    },
+    {
+      "slug": "cyrusone",
+      "name": "CyrusOne",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Global data center developer and operator with more than 60 data centers across North America, EMEA and APAC. Its Intelliscale AI data center solution supports liquid-to-chip cooling, rear door heat exchangers and immersion cooling up to 300kW per rack; CyrusOne states it prioritizes liquid cooling in all new data center designs.",
+      "hq": "Dallas, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Owned by funds managed by KKR and Global Infrastructure Partners (GIP) since the acquisition completed on 25 March 2022",
+      "website": "https://www.cyrusone.com/",
+      "productLines": [
+        {
+          "name": "Intelliscale AI data center solution",
+          "note": "AI workload-specific data center solution enabling liquid-to-chip cooling, rear door heat exchanger systems and immersion cooling, with cooling efficient up to 300kW per rack.",
+          "source": "https://www.cyrusone.com/media-coverage-press-releases/cyrusone-announced-intelliscale-an-ai-data-center-solution"
+        },
+        {
+          "name": "Liquid cooling in new builds and retrofits",
+          "note": "CyrusOne states it has prioritized liquid cooling capabilities in all new data center designs and, when cost-effective, in retrofitting older facilities.",
+          "source": "https://www.cyrusone.com/resources/blogs/liquid-cooling-in-hyperscale-data-centers-part-1"
+        },
+        {
+          "name": "AI Data Centers offering",
+          "note": "The solutions page lists liquid-to-chip cooling technology, rear door heat exchanger cooling systems and immersion cooling under its AI workload-specific Intelliscale solution.",
+          "source": "https://www.cyrusone.com/solutions/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "In an 18 July 2024 blog post CyrusOne stated it has prioritized liquid cooling capabilities in all its new data center designs and, when cost-effective, in retrofitting older facilities.",
+          "source": "https://www.cyrusone.com/resources/blogs/liquid-cooling-in-hyperscale-data-centers-part-1"
+        },
+        {
+          "year": "2023",
+          "text": "On 24 August 2023 CyrusOne announced Intelliscale, an AI workload-specific data center solution that enables customers to utilize liquid-to-chip cooling technology, rear door heat exchanger cooling systems and immersion cooling, with cooling efficient up to 300kW per rack.",
+          "source": "https://www.cyrusone.com/media-coverage-press-releases/cyrusone-announced-intelliscale-an-ai-data-center-solution"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is CyrusOne Intelliscale?",
+          "a": "Intelliscale is CyrusOne's AI workload-specific data center solution, announced 24 August 2023, that enables liquid-to-chip cooling technology, rear door heat exchanger cooling systems and immersion cooling, with cooling efficient up to 300kW per rack."
+        },
+        {
+          "q": "Does CyrusOne retrofit existing data centers for liquid cooling?",
+          "a": "In an 18 July 2024 blog post, CyrusOne stated it has prioritized liquid cooling capabilities in all its new data center designs and retrofits older facilities when cost-effective."
+        },
+        {
+          "q": "How large is CyrusOne's platform?",
+          "a": "CyrusOne states it operates more than 60 data centers across North America, EMEA and APAC, and is headquartered in Dallas, Texas."
+        },
+        {
+          "q": "Who owns CyrusOne?",
+          "a": "Global Infrastructure Partners' release of 25 March 2022 states that CyrusOne completed its acquisition by funds managed by KKR and GIP, and that trading of its common stock on the Nasdaq Global Select Market was suspended."
+        }
+      ]
+    },
+    {
+      "slug": "data4",
+      "name": "Data4",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "European data center operator and investor that finances, designs, builds and operates its own campuses in six countries. It hosts customers' liquid-cooled server racks connected directly to its cold-water circuits, including OVHcloud's proprietary water-cooling technology at its historic Marcoussis campus in the Paris region.",
+      "hq": "Paris, France",
+      "founded": 2006,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.data4group.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled rack hosting at Marcoussis",
+          "note": "Tailor-made solution integrating OVHcloud's liquid-cooled server racks, interconnected to Data4's cooling systems directly on the cold-water circuits, which Data4 says saves around 25% of electricity compared with conventional air cooling.",
+          "source": "https://www.data4group.com/en/news-data4/data4-enters-the-liquid-cooling-adventure-in-partnership-with-ovhcloud"
+        },
+        {
+          "name": "Cold-water circuit interconnection for liquid-cooled racks",
+          "note": "Data4 offers colocation customers connection of their liquid-cooled racks to its cold-water circuits, demonstrated at the Marcoussis campus (Paris region) with the OVHcloud deployment.",
+          "source": "https://www.data4group.com/en/datacenter-dictionary/liquid-cooling-in-data-centers-a-revolution-in-energy-efficiency/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "On 30 January 2024 Data4 announced a long-term partnership under which OVHcloud selected Data4's Marcoussis campus in the Paris region to host OVHcloud's proprietary water-cooling technology; Data4 developed a tailor-made solution for integrating the liquid-cooled server racks and interconnected OVHcloud directly to its cold-water loops.",
+          "source": "https://www.data4group.com/en/news-data4/data4-enters-the-liquid-cooling-adventure-in-partnership-with-ovhcloud"
+        },
+        {
+          "year": "2024",
+          "text": "A 10 June 2024 Data4 article states that interconnecting OVHcloud to Data4's cooling systems directly on the cold-water circuits saves around 25% of electricity compared with conventional air cooling, and cites a water usage effectiveness of 0.06 l/kWh IT at the Marcoussis campus.",
+          "source": "https://www.data4group.com/en/datacenter-dictionary/liquid-cooling-in-data-centers-a-revolution-in-energy-efficiency/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Data4 support liquid cooling at its Marcoussis campus?",
+          "a": "Data4 connects customers' liquid-cooled server racks directly to its cold-water circuits. For OVHcloud it developed a tailor-made integration to host OVHcloud's proprietary water-cooling technology, announced 30 January 2024."
+        },
+        {
+          "q": "What savings does the OVHcloud liquid-cooling deployment at Marcoussis deliver?",
+          "a": "Data4 states the interconnection on the cold-water circuits saves around 25% of electricity compared with conventional air cooling, with water usage effectiveness of 0.06 l/kWh IT at the Marcoussis campus."
+        },
+        {
+          "q": "Where does Data4 operate?",
+          "a": "DATA4 lists campuses in Paris, Milan, Madrid, Warsaw, Frankfurt and Athens, with its registered office in Paris, France, and was founded in 2006."
+        }
+      ]
+    },
+    {
+      "slug": "elea-data-centers",
+      "name": "Elea Data Centers",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Brazilian data center platform with nine interconnected campuses across five states, powered entirely on renewable energy. It deployed Vertiv cooling distribution units for liquid cooling at its São Paulo AI-ready sites for AI workloads, with rack densities beyond 100 kW and a target PUE of 1.15 to 1.2.",
+      "hq": "Rio de Janeiro, Brazil",
+      "founded": 2018,
+      "ownership": "Acquired by I Squared Capital in 2026, per the company's About page timeline",
+      "website": "https://eleadatacenters.com/",
+      "productLines": [
+        {
+          "name": "AI-ready São Paulo sites with Vertiv liquid cooling",
+          "note": "Vertiv cooling distribution units (CDUs) supporting liquid cooling for AI applications at Elea's São Paulo sites, for racks that can go well beyond 100 kW in density, targeting PUE of 1.15 to 1.2.",
+          "source": "https://eleadatacenters.com/en/2024/11/08/elea-data-centers-supports-regions-ai-growth-with-vertivs-first-liquid-cooling-deployment-for-purpose-built-ai-data-centers-in-brazil/"
+        },
+        {
+          "name": "High-density AI colocation platform",
+          "note": "High-density colocation for AI factories and hyperscale workloads across Brazil's Tier 1 and Tier 2 markets, with company content describing a zero-water cooling design.",
+          "source": "https://eleadatacenters.com/en/2026/09/23/top-5-reasons-why-liquid-cooling-for-ai-data-centers-is-critical-for-high-density-racks/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "A 23 September 2026 Elea article states that in 2025 the first phase of the AI infrastructure liquid cooling investment was completed, with Vertiv delivering hundreds of CDUs to Elea's São Paulo sites.",
+          "source": "https://eleadatacenters.com/en/2026/09/23/top-5-reasons-why-liquid-cooling-for-ai-data-centers-is-critical-for-high-density-racks/"
+        },
+        {
+          "year": "2026",
+          "text": "Elea's About page timeline states the company was acquired by I Squared Capital in 2026, with a new Board appointed.",
+          "source": "https://eleadatacenters.com/en/about-us"
+        },
+        {
+          "year": "2024",
+          "text": "On 8 November 2024 Elea announced that Vertiv will deliver hundreds of cooling distribution units (CDUs) to support liquid cooling for AI applications at its São Paulo sites, part of Elea's first-phase investment in AI-ready data centers, with the first phase to be delivered in 2025 and racks that can go well beyond 100 kW in density.",
+          "source": "https://eleadatacenters.com/en/2024/11/08/elea-data-centers-supports-regions-ai-growth-with-vertivs-first-liquid-cooling-deployment-for-purpose-built-ai-data-centers-in-brazil/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling has Elea Data Centers deployed?",
+          "a": "Vertiv delivered hundreds of cooling distribution units (CDUs) supporting liquid cooling for AI applications at Elea's São Paulo sites; the deployment was announced on 8 November 2024 and the company says the first phase was completed in 2025."
+        },
+        {
+          "q": "What rack densities does Elea support at its AI-ready sites?",
+          "a": "Elea states racks at these AI-ready sites can go well beyond 100 kW in density, with the liquid-cooled systems targeting a Power Usage Effectiveness of 1.15 to 1.2."
+        },
+        {
+          "q": "Who owns Elea Data Centers and where is it based?",
+          "a": "Elea is headquartered in Rio de Janeiro, Brazil, and its About page timeline states it was acquired by I Squared Capital in 2026; it operates nine data centers across five Brazilian states."
+        }
+      ]
+    },
+    {
+      "slug": "green-mountain",
+      "name": "Green Mountain",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Data center operator that designs, builds and operates facilities in Norway, Germany and the UK. Its AI and HPC service delivers high-density, liquid-cooled compute, and its TEL-Rjukan site reuses waste heat in a closed-loop system supplying a neighboring land-based trout farm.",
+      "hq": "NOT_FOUND",
+      "founded": 2011,
+      "ownership": "Azrieli Group Ltd agreed to acquire Green Mountain from majority owner Smedvig (announced 19 July 2021)",
+      "website": "https://greenmountain.no/",
+      "productLines": [
+        {
+          "name": "AI and HPC high-density hosting",
+          "note": "Data centers built for AI and HPC workloads offering high-density, liquid-cooled compute, with air cooling and liquid cooling to manage extreme heat; HPE hosts AI and HPC infrastructure across two of Green Mountain's Norwegian data center locations.",
+          "source": "https://greenmountain.no/data-centers/ai-and-hpc"
+        },
+        {
+          "name": "Closed-loop heat reuse at TEL-Rjukan",
+          "note": "Warm water from the data center's cooling is piped through underground pipelines in a closed-loop system to Hima Seafood's land-based trout farm 800 meters away; the operational phase handles up to 1.75 MW of heat with a feasibility study to scale to 8 MW in phase two.",
+          "source": "https://greenmountain.no/sustainability/heat-reuse"
+        },
+        {
+          "name": "Nordic and European data center platform",
+          "note": "Data centers in Norway (Rennesøy, Rjukan, Enebakk, Hamar, Undheim), the UK (London) and the Frankfurt region of Germany, the latter under construction in partnership with KMW.",
+          "source": "https://greenmountain.no/about-us"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Green Mountain's heat reuse system at its TEL-Rjukan data center went live in autumn 2025, piping warm water from the data center's cooling in a closed loop to Hima Seafood's land-based trout farm 800 meters away; the current operational phase handles up to 1.75 MW of heat, with a feasibility study to scale the system to 8 MW in phase two.",
+          "source": "https://greenmountain.no/sustainability/heat-reuse"
+        },
+        {
+          "year": "2021",
+          "text": "On 19 July 2021 Green Mountain announced that Smedvig, the majority owner, had agreed to sell the company to Azrieli Group Ltd; the page quotes Smedvig's CEO saying the company had been built gradually since 2011.",
+          "source": "https://greenmountain.no/green-mountain-data-centers-acquired-by-azrieli-group-ltd"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Green Mountain offer for AI and HPC?",
+          "a": "Green Mountain's AI and HPC data center service provides high-density, liquid-cooled compute, using air cooling and liquid cooling to manage extreme heat; HPE hosts AI and HPC infrastructure across two of its Norwegian data center locations."
+        },
+        {
+          "q": "How does Green Mountain reuse waste heat at Rjukan?",
+          "a": "Warm water from the TEL-Rjukan data center's cooling is piped in a closed loop to Hima Seafood's land-based trout farm 800 meters away. The system went live in autumn 2025, handles up to 1.75 MW of heat, and has been studied for scaling to 8 MW in a second phase."
+        },
+        {
+          "q": "Where does Green Mountain operate data centers?",
+          "a": "The company designs, builds and operates data centers in Norway, Germany and the UK, including sites at Rennesøy, Rjukan, Enebakk, Hamar and Undheim in Norway, London in the UK, and a Frankfurt-region site in Germany under construction with KWM."
+        }
+      ]
+    },
+    {
+      "slug": "internet-initiative-japan",
+      "name": "Internet Initiative Japan (IIJ)",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Japanese Internet-access and network solutions provider operating data centers including the Shiroi Data Center Campus. With Preferred Networks and JAIST it built AImod, a direct liquid cooling modular data center whose high-density AI servers have water-cooled GPUs and CPUs while other parts are air-cooled.",
+      "hq": "Tokyo, Japan",
+      "founded": 1992,
+      "ownership": "Listed on the Prime Market of the Tokyo Stock Exchange (ticker 3774) since April 2022",
+      "website": "https://www.iij.ad.jp/",
+      "productLines": [
+        {
+          "name": "AImod direct liquid cooling modular data center",
+          "note": "Modular data center for high-density AI servers using direct liquid cooling with CDUs, announced with Preferred Networks and JAIST; full-scale operation starts April 2026 within IIJ's Shiroi Data Center Campus, after testing at IIJ's Matsue Data Center Park.",
+          "source": "https://www.iij.ad.jp/en/news/pressrelease/2026/0323-2.html"
+        },
+        {
+          "name": "Hybrid liquid-air cooling design",
+          "note": "AImod uses a 7:3 water-to-air cooling ratio, free cooling chillers that circulate rather than evaporate water, and variable chilled water supply from 17 degrees C to over 45 degrees C, with a design pPUE of 1.1 in free cooling mode and 1.2 annual average, and a design WUE of zero.",
+          "source": "https://www.iij.ad.jp/en/news/pressrelease/2026/0323-2.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 23 March 2026 IIJ, Preferred Networks and JAIST announced AImod, a direct liquid cooling modular data center in which GPUs and CPUs of high-density AI servers are water-cooled; full-scale operation starts April 2026 at IIJ's Shiroi Data Center Campus after testing at the Matsue Data Center Park, under a NEDO Post-5G research project.",
+          "source": "https://www.iij.ad.jp/en/news/pressrelease/2026/0323-2.html"
+        },
+        {
+          "year": "2022",
+          "text": "IIJ was established in December 1992 and transitioned to the Prime Market of the Tokyo Stock Exchange (ticker 3774) in April 2022, after first listing in 2005 and moving to the TSE First Section in December 2006, according to the company's corporate history page.",
+          "source": "https://www.iij.ad.jp/en/company/about/history"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is IIJ AImod?",
+          "a": "AImod is a direct liquid cooling modular data center announced on 23 March 2026 by IIJ with Preferred Networks and JAIST. High-density AI servers run real AI workloads with water-cooled GPUs and CPUs and air-cooled other components, and full-scale operation starts April 2026 at IIJ's Shiroi Data Center Campus."
+        },
+        {
+          "q": "What cooling design does AImod use?",
+          "a": "AImod combines direct liquid cooling with CDUs in a hybrid design based on a 7:3 water-to-air cooling ratio, using free cooling chillers that circulate rather than evaporate water and variable chilled water supply from 17 degrees C to over 45 degrees C. Design values are pPUE 1.1 in free cooling mode, 1.2 annual average, and WUE of zero."
+        },
+        {
+          "q": "Is IIJ a listed company and when was it founded?",
+          "a": "IIJ was established in December 1992 and is listed on the Prime Market of the Tokyo Stock Exchange under ticker 3774, having transitioned there in April 2022."
+        }
+      ]
+    },
+    {
+      "slug": "kao-data",
+      "name": "Kao Data",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Developer and operator of data centres engineered for AI and advanced computing in the UK. Its Harlow campus is adding KLON-03, a 17.6MW data centre purpose-built for GPU workloads with hybrid cooling that supports direct-to-chip liquid cooling at rack densities up to 130kW.",
+      "hq": "London, United Kingdom",
+      "founded": "NOT_FOUND",
+      "ownership": "Privately held; its About page says it is backed by international investors, without naming a controlling owner",
+      "website": "https://kaodata.com/",
+      "productLines": [
+        {
+          "name": "KLON-03 liquid-cooled AI data centre, Harlow",
+          "note": "17.6MW data centre purpose-built for GPU-accelerated computing, with hybrid cooling allowing direct-to-chip liquid cooling alongside air cooling in a single Technology Suite; rack densities up to 130kW; hot aisle containment.",
+          "source": "https://kaodata.com/discover/news/kao-data-announces-construction-of-a-new-17-6mw-liquid-cooled-ai-data-centre-in-harlow-2"
+        },
+        {
+          "name": "Harlow campus",
+          "note": "Described by the company as the UK's largest purpose-built data centre campus development; hosts KLON-03 and other NVIDIA DGX-Ready certified facilities.",
+          "source": "https://kaodata.com/about"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 8 June 2026 Nebius announced a 22 MW, 10-year agreement at Kao Data's Harlow campus, with capacity in the KLON-03 facility, which the release states uses direct-to-chip liquid cooling to minimise water usage.",
+          "source": "https://www.prnewswire.com/news-releases/nebius-chooses-kao-datas-harlow-campus-for-major-ai-infrastructure-deployment-302794086.html"
+        },
+        {
+          "year": "2025",
+          "text": "On 12 March 2025 Kao Data announced construction of KLON-03 at Harlow, a 17.6MW liquid-cooled AI data centre supporting hybrid cooling with direct-to-chip liquid cooling and rack densities up to 130kW, ready for service the following year.",
+          "source": "https://kaodata.com/discover/news/kao-data-announces-construction-of-a-new-17-6mw-liquid-cooled-ai-data-centre-in-harlow-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Kao Data's KLON-03 facility?",
+          "a": "A 17.6MW data centre at the Harlow campus, announced 12 March 2025, purpose-built for GPU-accelerated AI workloads. It uses hybrid cooling so tenants can deploy direct-to-chip liquid cooling alongside traditional air-cooled servers within a single Technology Suite, with rack densities up to 130kW."
+        },
+        {
+          "q": "When will KLON-03 be ready for service?",
+          "a": "The March 2025 announcement stated KLON-03 would be ready for service the following year (2026), and that it will in time become an NVIDIA DGX-Ready data centre and obtain BREEAM certification."
+        },
+        {
+          "q": "Which campuses does Kao Data operate?",
+          "a": "Its About page lists Harlow, Northolt, Slough and a Manchester facility due late 2025, together more than 160MW of IT load operational, under development or planned, described by the company as including northern England's largest planned data centre."
+        },
+        {
+          "q": "Who owns Kao Data?",
+          "a": "Kao Data's About page says it is backed by international investors and names no single owner; its contact page lists a London office as its headquarters."
+        }
+      ]
+    },
+    {
+      "slug": "nebius",
+      "name": "Nebius",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "AI infrastructure company providing an AI cloud platform. At its greenfield Mäntsälä data center in Finland it is preparing liquid cooling able to dissipate 200kW of heat per rack, with district heat recovery, and in the UK it holds a 22 MW agreement at Kao Data's direct-to-chip liquid-cooled KLON-03 facility in Harlow.",
+      "hq": "Amsterdam, Netherlands",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on Nasdaq (NBIS)",
+      "website": "https://nebius.com/",
+      "productLines": [
+        {
+          "name": "Mäntsälä data center, Finland",
+          "note": "Greenfield campus built from the ground up; Nebius is preparing to introduce liquid cooling capable of dissipating 200kW of heat per rack, and waste heat feeds the local district heating network.",
+          "source": "https://nebius.com/sustainability/our-greenfield-data-center-in-finland"
+        },
+        {
+          "name": "UK capacity at Kao Data Harlow (KLON-03)",
+          "note": "22MW, 10-year agreement announced 8 June 2026; the KLON-03 facility uses direct-to-chip liquid cooling to minimise water usage, with part of the capacity hosting the Nebius Token Factory inference platform.",
+          "source": "https://www.prnewswire.com/news-releases/nebius-chooses-kao-datas-harlow-campus-for-major-ai-infrastructure-deployment-302794086.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 8 June 2026 Nebius announced a 22MW, 10-year agreement at Kao Data's Harlow campus, with capacity in the KLON-03 facility, which the release states uses direct-to-chip liquid cooling to minimise water usage.",
+          "source": "https://www.prnewswire.com/news-releases/nebius-chooses-kao-datas-harlow-campus-for-major-ai-infrastructure-deployment-302794086.html"
+        },
+        {
+          "year": "2016",
+          "text": "At its Mäntsälä data center in Finland, Nebius is preparing to introduce liquid cooling capable of dissipating 200kW of heat per rack; the site's waste-heat recovery partnership with the local district heating network was phased in 2015-2016 and described as the first of its kind in Finland.",
+          "source": "https://nebius.com/sustainability/our-greenfield-data-center-in-finland"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Nebius plan at its Finnish data center?",
+          "a": "The company's sustainability page states it is preparing to introduce liquid cooling capable of dissipating 200kW of heat per rack at its greenfield Mäntsälä campus in Finland. The facility is operational today with air cooling serving the current GPU fleet, and its waste heat feeds the local district heating network under a project phased in 2015-2016."
+        },
+        {
+          "q": "What is Nebius's UK data center deployment?",
+          "a": "Announced 8 June 2026: a 22MW, 10-year agreement at Kao Data's Harlow campus. The capacity sits in KLON-03, which the announcement states uses direct-to-chip liquid cooling to minimise water usage, and part of it hosts the Nebius Token Factory production-scale inference platform."
+        },
+        {
+          "q": "Where is Nebius headquartered and where does it trade?",
+          "a": "The company's About page states Nebius is headquartered in Amsterdam and listed on Nasdaq under the ticker NBIS."
+        },
+        {
+          "q": "What does Nebius do?",
+          "a": "Nebius describes itself as an AI cloud company delivering a unified platform spanning the complete AI journey, from data and model training to production runtime and deployment, operating its own data centers such as the Mäntsälä campus in Finland."
+        }
+      ]
+    },
+    {
+      "slug": "nextdc",
+      "name": "NextDC",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Australian colocation operator. Its liquid cooling infrastructure is built around direct-to-chip technology and runs across six Australian data centres plus KL1 Kuala Lumpur; it designs for rack densities up to 2MW and operates a live liquid cooling demonstration suite at S3 Sydney.",
+      "hq": "Brisbane, Australia",
+      "founded": 2010,
+      "ownership": "Listed on the Australian Securities Exchange (NXT) since December 2010",
+      "website": "https://www.nextdc.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled colocation across Australian facilities",
+          "note": "Liquid cooling operating across six Australian data centres (M3 and M2 Melbourne, S3, S4 and S6 Sydney, A1 Adelaide) with expansion to KL1 Kuala Lumpur; headline 1MW+ high-density deployment capability and designs for rack densities up to 2MW.",
+          "source": "https://www.nextdc.com/nextdc-liquid-cooling-solutions-for-ai-ready-infrastructure"
+        },
+        {
+          "name": "S3 Sydney liquid cooling demonstration suite",
+          "note": "A live demonstration suite at S3 Sydney where customers can observe liquid cooling operating in a production environment.",
+          "source": "https://www.nextdc.com/nextdc-liquid-cooling-solutions-for-ai-ready-infrastructure"
+        },
+        {
+          "name": "AI-ready high-density colocation",
+          "note": "High-density, liquid-cooled, AI-ready environments supporting NVIDIA Blackwell-class racks of 120-140kW; NEXTDC identifies itself as an NVIDIA DGX-Certified Provider in the DGX-Ready Data Center Program.",
+          "source": "https://www.nextdc.com/news/power-cooling-ai-readiness-how-nvidias-gtc-2025-is-forcing-a-rethink-of-your-data-centre-strategy"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 9 September 2026 NVIDIA named NEXTDC among eight Australian partners for an AI infrastructure buildout of up to 2 GW by 2027; NEXTDC is quoted in the release as operating liquid-cooled, high-density infrastructure, including AI factories built on NVIDIA DSX.",
+          "source": "https://nvidianews.nvidia.com/news/nvidia-expands-ai-infrastructure-capacity-in-partnership-with-australias-data-center-ecosystem"
+        },
+        {
+          "year": "2025",
+          "text": "In a 30 March 2025 article on NVIDIA GTC 2025, NEXTDC described liquid cooling as essential for Blackwell-class GPUs that draw several times more power per rack, positioning direct-to-chip and rear-door heat exchanger approaches and identifying itself as an NVIDIA DGX-Certified Provider.",
+          "source": "https://www.nextdc.com/news/power-cooling-ai-readiness-how-nvidias-gtc-2025-is-forcing-a-rethink-of-your-data-centre-strategy"
+        }
+      ],
+      "faq": [
+        {
+          "q": "At which NEXTDC facilities is liquid cooling available?",
+          "a": "The company's liquid cooling page states it currently operates across six data centres in Australia - M3 Melbourne, S3 Sydney, M2 Melbourne, S4 Sydney, S6 Sydney and A1 Adelaide - and is expanding into APAC with KL1 Kuala Lumpur."
+        },
+        {
+          "q": "What liquid cooling technology does NEXTDC use?",
+          "a": "NEXTDC states its liquid cooling infrastructure is built around direct-to-chip technology, with rear-door and hybrid approaches also supported; it views immersion as requiring purpose-built hardware most organisations are not currently deploying."
+        },
+        {
+          "q": "Can customers see NEXTDC's liquid cooling running live?",
+          "a": "Yes. The liquid cooling page describes a live demonstration suite at S3 Sydney where customers can observe liquid cooling operating in a production environment."
+        },
+        {
+          "q": "What rack densities does NEXTDC design for?",
+          "a": "The page describes air cooling as practical to around 30kW per rack, notes AI deployments routinely operate above 100kW per rack with next-generation platforms expected to exceed 200kW, and states NEXTDC is designing for rack densities up to 2MW with 1MW+ high-density deployment capability."
+        }
+      ]
+    },
+    {
+      "slug": "nscale",
+      "name": "Nscale",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Vertically integrated AI infrastructure and GPU cloud company with data centers in Norway, the UK, the US, Iceland and Portugal. Its facilities are designed around closed-loop, direct-to-chip liquid cooling, from the Glomfjord AI clusters in Norway to a 15 MW liquid-cooled GPU deployment with Verne in Iceland announced in November 2025.",
+      "hq": "London, United Kingdom",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.nscale.com/",
+      "productLines": [
+        {
+          "name": "Glomfjord AI data center, Norway",
+          "note": "Nscale-owned site delivering 30MW of operational compute capacity, expandable to 60MW, running high-density AI clusters cooled by closed-loop, direct-to-chip liquid cooling on renewable energy.",
+          "source": "https://www.nscale.com/ai-infrastructure"
+        },
+        {
+          "name": "Keflavik deployment with Verne, Iceland",
+          "note": "15MW AI infrastructure deployment announced 20 November 2025, described in the release as 85% liquid cooled and 15% air cooled, set to host roughly 4,600 NVIDIA Blackwell Ultra GPUs in 2026.",
+          "source": "https://www.nscale.com/press-releases/nscale-and-verne"
+        },
+        {
+          "name": "Loughton data center, UK",
+          "note": "Scalable power allocation up to 90MW with direct-liquid cooling plus waste-heat and water reuse.",
+          "source": "https://www.nscale.com/ai-infrastructure"
+        },
+        {
+          "name": "Ward County AI data center, Texas",
+          "note": "A roughly 240MW AI data center in West Texas designed with closed-loop direct-liquid cooling and rear-door heat exchangers, with plans to reach 1.2GW.",
+          "source": "https://www.nscale.com/ai-infrastructure"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 20 November 2025 Nscale and Verne announced a 15MW AI infrastructure deployment at Verne's Icelandic campus, described as 85% liquid cooled and 15% air cooled and set to host roughly 4,600 NVIDIA Blackwell Ultra GPUs for deployment in 2026.",
+          "source": "https://www.nscale.com/press-releases/nscale-and-verne"
+        },
+        {
+          "year": "2025",
+          "text": "In a 13 August 2025 blog post Nscale stated its facilities are designed around closed-loop, direct-to-chip liquid cooling that delivers stable performance while drastically reducing water use, with high-density AI clusters cooled by direct-to-chip systems at Glomfjord, Norway.",
+          "source": "https://www.nscale.com/blog/building-tomorrows-ai-data-centres-today"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Nscale use in its data centers?",
+          "a": "The company states its facilities are designed around closed-loop, direct-to-chip liquid cooling, which it says delivers stable performance while drastically reducing water use. Its West Texas campus adds rear-door heat exchangers alongside the closed-loop direct-liquid cooling."
+        },
+        {
+          "q": "What is the Nscale and Verne deployment in Iceland?",
+          "a": "Announced 20 November 2025: a 15MW AI infrastructure deployment at Verne's Icelandic campus in Keflavik, described as 85% liquid cooled and 15% air cooled, set to host roughly 4,600 NVIDIA Blackwell Ultra GPUs for deployment in 2026, running on geothermal and hydropower."
+        },
+        {
+          "q": "Which Nscale-owned sites use liquid cooling?",
+          "a": "Per the company's AI infrastructure page: Glomfjord, Norway (30MW operational, expandable to 60MW) runs high-density AI clusters cooled by direct-to-chip systems; Loughton, UK combines direct-liquid cooling with waste-heat and water reuse; and the Ward County, Texas campus is designed with closed-loop direct-liquid cooling and rear-door heat exchangers."
+        },
+        {
+          "q": "Does Nscale own all of its data centers?",
+          "a": "No. The AI infrastructure page distinguishes Nscale-owned data centers (Glomfjord, Narvik, West Texas, Loughton, and the Monarch Compute Campus in West Virginia) from partner-run sites such as Sines in Portugal, Keflavik in Iceland and others in Norway, the UK and the US."
+        }
+      ]
+    },
+    {
+      "slug": "nxera",
+      "name": "Nxera (Singtel)",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Nxera is Singtel Group's regional data centre platform in Asia Pacific, with facilities in Singapore, Indonesia, Malaysia and Thailand. Its DC Tuas campus in Singapore opened on 9 February 2026 with 58 MW of AI-ready capacity and what the company calls Singapore's largest direct-to-chip liquid cooling deployment.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Singtel Group's regional data centre arm; KKR announced a 20% stake in September 2023",
+      "website": "https://www.nxera-dc.com/",
+      "productLines": [
+        {
+          "name": "DC Tuas campus",
+          "note": "Multi-tenanted Singapore data centre integrated with a submarine cable landing station, opened on 9 February 2026 with 58 MW of AI-ready capacity; described in the release as hosting Singapore's largest direct-to-chip liquid cooling deployment, with a PUE of 1.25.",
+          "source": "https://www.nxera-dc.com/about-us/newsroom/nxera-opens-data-centre"
+        },
+        {
+          "name": "Regional data centre platform",
+          "note": "Sustainable data centre platform serving Asia Pacific with facilities in Singapore, Indonesia, Malaysia and Thailand.",
+          "source": "https://www.nxera-dc.com/about-us"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 9 February 2026 Nxera, described as Singtel Group's regional data centre arm, announced the opening of DC Tuas: 58 MW of AI-ready capacity, raising its capacity in Singapore to 120 MW, and described in the release as hosting Singapore's largest direct-to-chip liquid cooling deployment, with a PUE of 1.25.",
+          "source": "https://www.nxera-dc.com/about-us/newsroom/nxera-opens-data-centre"
+        },
+        {
+          "year": "2023",
+          "text": "On 18 September 2023 Nxera's newsroom announced that KKR would acquire a 20% stake in Singtel's regional data centre business.",
+          "source": "https://www.nxera-dc.com/about-us/newsroom/kkr-to-acquire-20-stake-in-singtel-regional-data-centre-business"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does DC Tuas support liquid cooling?",
+          "a": "The facility page states DC Tuas can support all types of liquid cooling technologies, with cooling for high computing power of up to 50kW per rack."
+        },
+        {
+          "q": "How large is DC Tuas?",
+          "a": "The page states an IT load of up to 58MW and a power usage effectiveness (PUE) of 1.25 at full load."
+        },
+        {
+          "q": "What is distinctive about the DC Tuas site?",
+          "a": "Nxera describes it as the first and only multi-tenanted data centre in Singapore fully integrated with an international submarine cable landing station."
+        },
+        {
+          "q": "Where does Nxera operate data centres?",
+          "a": "The company describes itself as a regional sustainable data centre platform with facilities in Singapore, Indonesia, Malaysia and Thailand."
+        },
+        {
+          "q": "What is Nxera and who is behind it?",
+          "a": "Nxera describes itself as Singtel Group's regional data centre arm in Asia Pacific. Its newsroom announced in September 2023 that KKR would acquire a 20% stake in Singtel's regional data centre business."
+        }
+      ]
+    },
+    {
+      "slug": "nxtra-by-airtel",
+      "name": "Nxtra by Airtel",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Nxtra by Airtel is an Indian data centre operator running hyperscale and edge data centres across India with more than 230MW of power. Its CEO stated in November 2025 that new data centres embed AI readiness through high-density configurations and hybrid cooling combining direct liquid cooling and immersion cooling.",
+      "hq": "New Delhi, India",
+      "founded": "NOT_FOUND",
+      "ownership": "A subsidiary of Bharti Airtel; investors include Alpha Wave Global, Carlyle and Anchorage Capital (Airtel release, 30 March 2026)",
+      "website": "https://www.nxtra.in/",
+      "productLines": [
+        {
+          "name": "Hyperscale and edge data centre platform",
+          "note": "Hyperscale data centres such as Chandivali (MUM 1) and Whitefield (BLR 1) plus edge locations across 8 major markets and 66 cities in India, with more than 230MW total power.",
+          "source": "https://www.nxtra.in/"
+        },
+        {
+          "name": "AI-ready high-density designs with hybrid cooling",
+          "note": "New data centres designed with high-density configurations and a hybrid cooling strategy combining direct liquid cooling (DLC) and immersion cooling alongside HVAC systems.",
+          "source": "https://capacityglobal.com/news/nxtra-by-airtel-ceo-interview-ai-data-centre/"
+        },
+        {
+          "name": "Visakhapatnam AI hub",
+          "note": "Purpose-built AI hub and data centre in Visakhapatnam, in partnership with Airtel and Google.",
+          "source": "https://capacityglobal.com/news/nxtra-by-airtel-ceo-interview-ai-data-centre/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 30 March 2026 Bharti Airtel announced an investment in Nxtra led by Alpha Wave Global with existing investor Carlyle; the release describes Nxtra as its data centre subsidiary, headquartered in New Delhi, with 14 large core data centres and more than 120 edge facilities across India.",
+          "source": "https://www.airtel.in/press-release/03-2026/airtel-announces-us1-billion-investment-in-nxtra-led-by-alpha-wave-global-and-existing-investor-carlyle-bharti-airtel-will-also-participate"
+        },
+        {
+          "year": "2025",
+          "text": "In an interview published 27 November 2025, Nxtra's CEO described a hybrid cooling strategy combining direct liquid cooling (DLC) and immersion cooling alongside HVAC systems, and said new data centres are being designed with high-density configurations for AI workloads.",
+          "source": "https://capacityglobal.com/news/nxtra-by-airtel-ceo-interview-ai-data-centre/"
+        },
+        {
+          "year": "2025",
+          "text": "The same interview states Nxtra planned to double its data centre capacity to 400MW by 2027 and operated 14 hyperscale campuses and 120+ edge facilities across India at the time.",
+          "source": "https://capacityglobal.com/news/nxtra-by-airtel-ceo-interview-ai-data-centre/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Nxtra use liquid cooling?",
+          "a": "In a November 2025 interview, the CEO described a hybrid strategy combining direct liquid cooling (DLC) and immersion cooling alongside HVAC systems, chosen according to IT architecture needs."
+        },
+        {
+          "q": "Why is Nxtra not going all-liquid?",
+          "a": "The CEO cautioned against all-liquid cooling because of water consumption, favouring a mixed approach based on IT architecture."
+        },
+        {
+          "q": "How much capacity does Nxtra operate?",
+          "a": "The website states more than 230MW total power across 15 hyperscale data centres, and the November 2025 interview describes a plan to double capacity to 400MW by 2027."
+        },
+        {
+          "q": "Where is Nxtra building AI capacity?",
+          "a": "The interview cites a purpose-built AI hub and data centre in Visakhapatnam, in partnership with Airtel and Google."
+        }
+      ]
+    },
+    {
+      "slug": "odata",
+      "name": "ODATA",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "ODATA is a Latin American provider of digital infrastructure described as an Aligned Data Centers Company. Its site states it was founded in 2015 and acquired by Aligned Data Centers in 2023, and that it runs 22 hyperscale data centres across Brazil, Chile, Colombia and Mexico with more than 2GW of operational and planned capacity.",
+      "hq": "Brazil (headquarters city not stated on its site)",
+      "founded": 2015,
+      "ownership": "Acquired by Aligned Data Centers in 2023, as stated on the company's website",
+      "website": "https://odatadc.com/",
+      "productLines": [
+        {
+          "name": "DeltaFlow liquid cooling deployment",
+          "note": "Aligned's proprietary liquid cooling solution, developed with Munters, is being deployed at ODATA's SP04 campus in Brazil and QR03 campus in Mexico, with phase one installation and testing underway.",
+          "source": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
+        },
+        {
+          "name": "Hybrid air and liquid cooling architecture",
+          "note": "DeltaFlow works alongside Aligned's Delta3 air-cooling system, deployed in October 2024, enabling hybrid cooling architectures combining air and liquid cooling; engineered to require zero water for operational cooling.",
+          "source": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
+        },
+        {
+          "name": "Hyperscale campuses in Latin America",
+          "note": "22 hyperscale data centres across Brazil, Chile, Colombia and Mexico with more than 2GW of operational and planned capacity.",
+          "source": "https://odatadc.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 17 September 2026 ODATA announced that Aligned's DeltaFlow liquid cooling is being deployed at its SP04 campus in Brazil and QR03 campus in Mexico, with phase one installation and testing underway at both facilities.",
+          "source": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
+        },
+        {
+          "year": "2026",
+          "text": "The same release states DeltaFlow is manufactured at Munters' facility in Araucaria, Parana, Brazil, supplying sites in Mexico, Brazil and upcoming projects in Chile and Colombia, and is engineered to require zero water for operational cooling.",
+          "source": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
+        },
+        {
+          "year": "2024",
+          "text": "Aligned's Delta3 air-cooling system was deployed in October 2024, according to the DeltaFlow announcement.",
+          "source": "https://aligneddc.com/press-release/odata-brings-next-generation-cooling-to-latin-america-with-deltaflow-liquid-cooling-technology"
+        },
+        {
+          "year": "2023",
+          "text": "ODATA's website states the company was founded in 2015 and acquired by Aligned Data Centers in 2023.",
+          "source": "https://odatadc.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling is ODATA deploying?",
+          "a": "DeltaFlow, Aligned Data Centers' proprietary liquid cooling solution developed with Munters, is being deployed at the SP04 campus in Brazil and the QR03 campus in Mexico, with phase one installation and testing underway."
+        },
+        {
+          "q": "Does DeltaFlow use water for cooling?",
+          "a": "The announcement states DeltaFlow is engineered to require zero water for operational cooling, using a closed loop that recirculates deionized water and coolant."
+        },
+        {
+          "q": "Where is DeltaFlow manufactured?",
+          "a": "The press release states DeltaFlow units are produced at Munters' facility in Araucaria, Parana, Brazil, supplying Mexico, Brazil and upcoming projects in Chile and Colombia."
+        },
+        {
+          "q": "How large is ODATA's platform?",
+          "a": "ODATA's website states it runs 22 hyperscale data centres across Brazil, Chile, Colombia and Mexico with more than 2GW of operational and planned capacity."
+        }
+      ]
+    },
+    {
+      "slug": "oracle-cloud-infrastructure",
+      "name": "Oracle Cloud Infrastructure",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "The cloud business of Oracle. In the AI data centers Oracle is building, including those in New Mexico, Michigan, Wisconsin and Texas, it states that it uses direct-to-chip, closed-loop, non-evaporative cooling: cool liquid circulates through sealed piping to absorb heat at the processors and is recirculated.",
+      "hq": "Austin, Texas, United States",
+      "founded": 1977,
+      "ownership": "Listed on the New York Stock Exchange (ORCL)",
+      "website": "https://www.oracle.com/",
+      "productLines": [
+        {
+          "name": "Direct-to-chip closed-loop cooling in Oracle AI data centers",
+          "note": "Direct-to-chip, closed-loop, non-evaporative cooling stated for the AI data centers Oracle is building in New Mexico, Michigan, Wisconsin and Texas: one fill of liquid, then sealed recirculation through heat exchangers with fans moving outdoor air across coils.",
+          "source": "https://www.oracle.com/news/announcement/blog/closed-loop-cooling-in-oracle-ai-data-centers-2026-02-09"
+        },
+        {
+          "name": "Closed-loop, non-evaporative cooling",
+          "note": "Oracle states the data center will use a closed-loop, non-evaporative cooling system that will not draw water from the local water system, and that its water tanks only need to be filled once.",
+          "source": "https://www.datacenterdynamics.com/en/news/oracle-revealed-as-tenant-of-project-jupiter-data-center-campus-in-new-mexico/"
+        },
+        {
+          "name": "Dedicated microgrid power",
+          "note": "The campus runs on its own dedicated microgrid operating independently of the public grid, with onsite transmission lines, battery storage and a dedicated substation.",
+          "source": "https://www.datacenterdynamics.com/en/news/oracle-revealed-as-tenant-of-project-jupiter-data-center-campus-in-new-mexico/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 9 February 2026 Oracle published an explanation of the cooling used in the AI data centers it is building, naming New Mexico, Michigan, Wisconsin and Texas: direct-to-chip, closed-loop, non-evaporative systems in which cool liquid circulates through sealed piping, absorbs heat at the processors and is recirculated after giving up heat in heat exchangers.",
+          "source": "https://www.oracle.com/news/announcement/blog/closed-loop-cooling-in-oracle-ai-data-centers-2026-02-09"
+        },
+        {
+          "year": "2026",
+          "text": "On 27 January 2026 Data Center Dynamics reported Oracle's confirmation that it will be the tenant of the Project Jupiter campus in Dona Ana County, New Mexico, developed by Stack and BorderPlex Digital Assets, where it will host AI infrastructure for OpenAI.",
+          "source": "https://www.datacenterdynamics.com/en/news/oracle-revealed-as-tenant-of-project-jupiter-data-center-campus-in-new-mexico/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling will the Project Jupiter campus use?",
+          "a": "Oracle says the data center will use a closed-loop, non-evaporative cooling system that will not draw water from the local water system."
+        },
+        {
+          "q": "Will the campus consume local water?",
+          "a": "Oracle says its water tanks only need to be filled once, and after the four buildings are complete, daily operational water consumption will come primarily from kitchens, restrooms and breakrooms, comparable to a typical office building."
+        },
+        {
+          "q": "Who is developing Project Jupiter?",
+          "a": "The campus in Dona Ana County, New Mexico, is being developed by Stack and BorderPlex Digital Assets; Oracle will occupy it once construction is complete."
+        },
+        {
+          "q": "What will the campus host?",
+          "a": "Oracle will use the campus to host AI infrastructure for OpenAI, powered by a dedicated microgrid operating independently of the public grid."
+        }
+      ]
+    },
+    {
+      "slug": "princeton-digital-group",
+      "name": "Princeton Digital Group",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Princeton Digital Group is a developer and operator of hyperscale data centers across Asia Pacific, founded in 2018 and backed by institutional investors. Its JC3 campus in Greater Jakarta is a 120MW AI-ready campus featuring direct-to-chip cooling, and TY1 in Tokyo supports liquid cooling at densities of 140kW per rack and more.",
+      "hq": "Singapore, Singapore",
+      "founded": 2018,
+      "ownership": "Backed by institutional investors, as stated on its website",
+      "website": "https://princetondg.com/",
+      "productLines": [
+        {
+          "name": "JC3 Greater Jakarta campus",
+          "note": "120MW AI-ready hyperscale campus with advanced direct-to-chip cooling plus flexibility for conventional cooling; first phase planned ready-for-service by Q4 2026.",
+          "source": "https://princetondg.com/press-releases/princeton-digital-group-breaks-ground-on-milestone-usd-1-billion-120-mw-greater-jakarta-campus/"
+        },
+        {
+          "name": "TY1 Tokyo campus liquid cooling",
+          "note": "Approximately 100 MW campus, described by PDG as the first data center in Japan to receive the NVIDIA DGX-Ready Data Center certification for liquid cooling, with liquid cooling infrastructure supporting densities of 140kW per rack and more.",
+          "source": "https://princetondg.com/press-releases/princeton-digital-group-earns-dgx-ready-data-center-certification-for-liquid-cooling"
+        },
+        {
+          "name": "Hyperscale development platform",
+          "note": "Developer and operator of hyperscale data centers backed by institutional investors.",
+          "source": "https://princetondg.com/about/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 19 November 2025 PDG broke ground on JC3, a 120MW AI-ready hyperscale campus in Greater Jakarta that features advanced direct-to-chip cooling, with the first phase planned to be ready-for-service by Q4 2026.",
+          "source": "https://princetondg.com/press-releases/princeton-digital-group-breaks-ground-on-milestone-usd-1-billion-120-mw-greater-jakarta-campus/"
+        },
+        {
+          "year": "2025",
+          "text": "On 5 June 2025 PDG announced that its TY1 campus in Tokyo received the NVIDIA DGX-Ready Data Center certification for liquid cooling, which it describes as a first for Japan, supporting densities of 140kW per rack and more.",
+          "source": "https://princetondg.com/press-releases/princeton-digital-group-earns-dgx-ready-data-center-certification-for-liquid-cooling"
+        },
+        {
+          "year": "2025",
+          "text": "With JC3, PDG's data centre capacity in Indonesia reaches approximately 230MW.",
+          "source": "https://princetondg.com/press-releases/princeton-digital-group-breaks-ground-on-milestone-usd-1-billion-120-mw-greater-jakarta-campus/"
+        },
+        {
+          "year": "2018",
+          "text": "PDG's About page states the company was founded in 2018 and describes it as a developer and operator of hyperscale data centers backed by institutional investors.",
+          "source": "https://princetondg.com/about/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which PDG campuses support liquid cooling?",
+          "a": "JC3 in Greater Jakarta features advanced direct-to-chip cooling, and the TY1 campus in Tokyo has liquid cooling infrastructure supporting densities of 140kW per rack and more."
+        },
+        {
+          "q": "What does the DGX-Ready certification mean for TY1?",
+          "a": "Announced 5 June 2025: TY1 received the NVIDIA DGX-Ready Data Center certification for liquid cooling, which PDG describes as a first for Japan; the campus is approximately 100MW."
+        },
+        {
+          "q": "When does JC3 come online?",
+          "a": "Ground was broken on 19 November 2025 and the first phase is planned to be ready-for-service by Q4 2026."
+        },
+        {
+          "q": "How large is PDG's Indonesian platform?",
+          "a": "With JC3, PDG's data centre capacity in Indonesia reaches approximately 230MW."
+        }
+      ]
+    },
+    {
+      "slug": "sabey-data-centers",
+      "name": "Sabey Data Centers",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Sabey Data Centers is a US owner-operator created in 2010 through a partnership between Sabey Corporation and investor National Real Estate Advisors. It designs facilities with integrated chilled water for liquid cooling, from cold plate tech and sidecars to immersion tanks, and runs an ecosystem of cooling technology partners.",
+      "hq": "NOT_FOUND",
+      "founded": 2010,
+      "ownership": "Created in 2010 through a partnership between Sabey Corporation and investor National Real Estate Advisors",
+      "website": "https://sabeydatacenters.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled data center offering",
+          "note": "Data centers designed with robust power distribution and integrated chilled water systems with Tier 3-type redundancy in pumps, loops and monitoring, supporting cold plate cooling for chip-level heat and immersion cooling for ultra-high-density environments.",
+          "source": "https://sabeydatacenters.com/liquid-cooled-data-centers/"
+        },
+        {
+          "name": "JetCool partnership",
+          "note": "Expanded partnership announced 21 January 2026 with JetCool, a Flex company in direct-to-chip cooling, introducing modular cooling architectures developed with Dell Technologies, targeting Sabey's national data center portfolio.",
+          "source": "https://jetcool.com/post/sabey-data-centers-expands-partnership-with-jetcool-technologies-to-accelerate-sustainable-high-density-compute"
+        },
+        {
+          "name": "OptiCool partnership",
+          "note": "Strategic partnership announced 15 January 2026 with OptiCool, described in the release as the sole industry supplier of two-phase refrigerant pumped cooling systems, enabling rack-level heat removal without chilled water or significant data hall retrofits.",
+          "source": "https://opticooltechnologies.com/news/sabey-data-centers-announces-strategic-partnership-with-opticool-technologies"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 21 January 2026 Sabey announced an expanded partnership with JetCool Technologies to accelerate sustainable high-density compute, introducing modular direct-to-chip cooling architectures for Sabey's national data center portfolio.",
+          "source": "https://jetcool.com/post/sabey-data-centers-expands-partnership-with-jetcool-technologies-to-accelerate-sustainable-high-density-compute"
+        },
+        {
+          "year": "2026",
+          "text": "On 15 January 2026 Sabey announced a strategic partnership with OptiCool Technologies through its integrated cooling technologies partnership program.",
+          "source": "https://opticooltechnologies.com/news/sabey-data-centers-announces-strategic-partnership-with-opticool-technologies"
+        },
+        {
+          "year": "2025",
+          "text": "Sabey's liquid cooling news page lists a 26 June 2025 item reporting the company broke ground on the third building at its Ashburn, Virginia campus.",
+          "source": "https://sabeydatacenters.com/news/liquid-cooling"
+        },
+        {
+          "year": "2010",
+          "text": "Sabey's About page states Sabey Corporation was founded in 1972 and that Sabey Data Centers was created in 2010 through a partnership with investor National Real Estate Advisors.",
+          "source": "https://sabeydatacenters.com/about/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling options does Sabey support?",
+          "a": "Its liquid-cooled data centers page lists cold plate cooling for chip-level heat and immersion cooling for ultra-high-density environments, from cold plate tech and sidecars to immersion tanks, supported by integrated chilled water systems."
+        },
+        {
+          "q": "Does Sabey support direct-to-chip cooling?",
+          "a": "An expanded partnership with JetCool, a Flex company in direct-to-chip cooling, was announced on 21 January 2026, introducing modular cooling architectures developed with Dell Technologies for Sabey's national portfolio."
+        },
+        {
+          "q": "Can Sabey deploy cooling without chilled water?",
+          "a": "The OptiCool partnership announced 15 January 2026 offers two-phase refrigerant pumped cooling that removes heat at rack level without chilled water, large mechanical systems or significant data hall retrofits, per the release."
+        },
+        {
+          "q": "Who owns Sabey Data Centers?",
+          "a": "The About page states Sabey Data Centers was created in 2010 through a partnership between Sabey Corporation, founded in 1972, and investor National Real Estate Advisors."
+        }
+      ]
+    },
+    {
+      "slug": "sakura-internet",
+      "name": "Sakura Internet",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "SAKURA Internet Inc. is a Japanese cloud and hosting provider founded in December 1996 and headquartered in Osaka. Its Koukaryoku PHY bare metal GPU service runs from a container-type data center at Ishikari that adopted a direct liquid cooling (DLC) system supplementing air conditioning, cooling high-heat server areas with cold water.",
+      "hq": "Osaka, Japan",
+      "founded": 1996,
+      "ownership": "Listed on the Prime Market of the Tokyo Stock Exchange (Securities code: 3778)",
+      "website": "https://www.sakura.ad.jp/",
+      "productLines": [
+        {
+          "name": "Koukaryoku PHY GPU cloud",
+          "note": "Bare metal GPU cloud service with plans built on NVIDIA H200 SXM 141GB x 8 GPUs with Intel Xeon Platinum 8580 CPUs, served from the Ishikari data center with about 1,000 H200 GPUs installed.",
+          "source": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
+        },
+        {
+          "name": "Ishikari DLC data center",
+          "note": "Container-type data center at Ishikari that started operating on 11 June 2025, adopting a direct liquid cooling (DLC) system that cools high-heat server areas with cold water, supplementing air conditioning to cut cooling power use.",
+          "source": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
+        },
+        {
+          "name": "Koukaryoku generative AI cloud series",
+          "note": "Koukaryoku PHY is part of the broader Koukaryoku generative AI cloud services series.",
+          "source": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Announced on 14 August 2025: the container-type data center at Ishikari started operating on 11 June 2025 and adopted a direct liquid cooling (DLC) system, cooling high-heat server areas with cold water while supplementing existing air conditioning.",
+          "source": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
+        },
+        {
+          "year": "2025",
+          "text": "The Koukaryoku PHY service uses NVIDIA H200 SXM 141GB GPUs with about 1,000 units installed across 40 racks (20 per container), raising GPU server capacity from two per rack to up to five, with facility power of approximately 3.5 MVA.",
+          "source": "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220602"
+        },
+        {
+          "year": "1996",
+          "text": "The company profile states SAKURA Internet was founded on 23 December 1996 and is headquartered in Osaka, with shares listed on the Prime Market of the Tokyo Stock Exchange (Securities code 3778).",
+          "source": "https://www.sakura.ad.jp/corporate/en/profile"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Sakura Internet use liquid cooling at Ishikari?",
+          "a": "The announcement states a direct liquid cooling (DLC) system was adopted to cool areas of servers generating high heat with cold water, supplementing existing air conditioning to cut cooling power use."
+        },
+        {
+          "q": "What is Koukaryoku PHY?",
+          "a": "It is a bare metal GPU cloud service in the Koukaryoku generative AI series, with plans built on NVIDIA H200 SXM 141GB x 8 GPUs served from the Ishikari data center."
+        },
+        {
+          "q": "When did the DLC-equipped data center start operating?",
+          "a": "The container-type data center at Ishikari began operating on 11 June 2025, according to the 14 August 2025 announcement."
+        },
+        {
+          "q": "How dense are the GPU racks?",
+          "a": "Improved cooling raised GPU server capacity from two per rack to up to five across 40 racks, with about 1,000 NVIDIA H200 GPUs installed and facility power of approximately 3.5 MVA."
+        }
+      ]
+    },
+    {
+      "slug": "scala-data-centers",
+      "name": "Scala Data Centers",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Brazilian hyperscale data center platform supported by DigitalBridge. Its Scala AI City project in Eldorado do Sul, Rio Grande do Sul, plans refrigerant-based liquid cooling with a Water Usage Effectiveness of zero and AI racks above 150 kW, starting from 54 MW of IT capacity.",
+      "hq": "Brazil (headquarters city not stated on its site)",
+      "founded": "NOT_FOUND",
+      "ownership": "Founded by DigitalBridge, which the company describes as its backer",
+      "website": "https://scaladatacenters.com/",
+      "productLines": [
+        {
+          "name": "Scala AI City",
+          "note": "Hyperscale AI campus in Eldorado do Sul, in the metropolitan region of Porto Alegre, with refrigerant-based liquid cooling, zero Water Usage Effectiveness and AI racks above 150 kW; initial IT capacity of 54 MW.",
+          "source": "https://scaladatacenters.com/en/with-an-initial-investment-of-usd-500-million-scala-data-centers-and-rio-grande-do-sul-government-sign-agreement-for-largest-digital-infrastructure-project-in-the-state-of-southern-brazil"
+        },
+        {
+          "name": "Latin America hyperscale platform",
+          "note": "Hyperscale data center platform across Latin America running on certified renewable energy, of which Scala AI City is part.",
+          "source": "https://scaladatacenters.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 15 May 2025 Data Centre Magazine reported Scala secured energy authorization of 5 GW for Scala AI City, with 4.75 GW of power to the National Interconnected System; the facility will implement liquid cooling that uses zero water in cooling systems, with racks exceeding 150 kW.",
+          "source": "https://datacentremagazine.com/data-centres/scala-data-centers-ai-city-secures-5-gw-approval-in-brazil"
+        },
+        {
+          "year": "2024",
+          "text": "On 11 September 2024 Scala announced an agreement with the Rio Grande do Sul government for Scala AI City in Eldorado do Sul: initial IT capacity of 54 MW with potential to reach 4,750 MW, liquid cooling with a Water Usage Effectiveness of zero, and AI racks with capacities exceeding 150 kW.",
+          "source": "https://scaladatacenters.com/en/with-an-initial-investment-of-usd-500-million-scala-data-centers-and-rio-grande-do-sul-government-sign-agreement-for-largest-digital-infrastructure-project-in-the-state-of-southern-brazil"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling will Scala AI City use?",
+          "a": "The company's September 2024 announcement says AI City plans refrigerant-based liquid cooling with a Water Usage Effectiveness (WUE) of zero, supporting AI racks with capacities exceeding 150 kW."
+        },
+        {
+          "q": "Where is Scala AI City located?",
+          "a": "Eldorado do Sul, in the metropolitan region of Porto Alegre, Rio Grande do Sul, Brazil, according to Scala's announcement."
+        },
+        {
+          "q": "How much capacity is planned for Scala AI City?",
+          "a": "Scala's announcement of 11 September 2024 gives an initial IT capacity of 54 MW with potential to reach 4,750 MW; Data Centre Magazine reported a 5 GW energy authorization in May 2025."
+        },
+        {
+          "q": "Who owns Scala Data Centers?",
+          "a": "The company states it is supported by DigitalBridge."
+        }
+      ]
+    },
+    {
+      "slug": "sesterce",
+      "name": "Sesterce",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Sesterce builds and operates AI supercomputer campuses in Europe with dedicated bare-metal clusters run by Sesterce OS. Its campuses use direct liquid cooling in a closed loop, topped up with on-site rainwater and filtered used water; the Rovaltain campus near Valence has a firm 40 MW power limit.",
+      "hq": "Marseille, France",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.sesterce.com/",
+      "productLines": [
+        {
+          "name": "Sesterce AI campuses",
+          "note": "AI supercomputer campuses with direct liquid cooling in a closed loop topped up by on-site rainwater and filtered used water, including Rovaltain near Valence (firm 40 MW limit), Bosquel in Somme and Jamsa in Finland.",
+          "source": "https://www.sesterce.com/"
+        },
+        {
+          "name": "Sesterce OS and Modular Design",
+          "note": "Operating system and modular design for dedicated bare-metal GPU clusters with root access.",
+          "source": "https://www.sesterce.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 6 October 2026 Sesterce announced that Rovaltain (Alixan, near Valence, France) becomes a Sesterce Campus; the original 40 MW power limit remains a firm commitment and no drinking water will be used in the cooling circuit, which runs as a closed loop with top-ups from on-site rain and recycled-water tanks.",
+          "source": "https://www.sesterce.com/newsroom/rovaltain-becomes-a-sesterce-campus"
+        },
+        {
+          "year": "2026",
+          "text": "On 1 June 2026 the Sesterce newsroom listed the announcement that SoftBank Group and Sesterce will develop a 1 GW AI data center in Bosquel, France; the Sesterce website states the campus uses direct liquid cooling in a closed loop.",
+          "source": "https://www.sesterce.com/newsroom"
+        },
+        {
+          "year": "2026",
+          "text": "The Sesterce website describes the Jamsa, Central Finland campus as starting with a 200 MW first phase, cooled by a closed-loop, direct-to-chip system with dry coolers and CDUs; the newsroom lists a Jamsa campus announcement dated 8 October 2026.",
+          "source": "https://www.sesterce.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Sesterce cool its AI campuses?",
+          "a": "Direct liquid cooling in a closed loop. The website states every liter topping up the loop comes from on-site rainwater and filtered used water, and the Rovaltain announcement says no drinking water is used in the cooling circuit during operations."
+        },
+        {
+          "q": "What capacity is the Rovaltain campus near Valence?",
+          "a": "A firm 40 MW power limit, per the 6 October 2026 announcement; the campus is in Alixan, near Valence, France."
+        },
+        {
+          "q": "What other campuses does Sesterce list?",
+          "a": "The website lists Bosquel in Somme, France (a 1 GW campus developed with SoftBank Group) and Jamsa in Central Finland (a 200 MW first phase, cooled by a closed-loop, direct-to-chip system with dry coolers and CDUs)."
+        },
+        {
+          "q": "What does Sesterce offer customers?",
+          "a": "Dedicated bare-metal GPU clusters built with Sesterce Modular Design and run by Sesterce OS, with root access, per the company's website."
+        }
+      ]
+    },
+    {
+      "slug": "sify-technologies",
+      "name": "Sify Technologies",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Sify Technologies is an Indian ICT and data center services company. Its data center business is certified under NVIDIA's DGX-Ready Data Center program for liquid cooling, with readiness up to 130 kW per rack from the Mumbai-Rabale campus and upcoming Noida and Chennai-Siruseri facilities.",
+      "hq": "Chennai, India",
+      "founded": 1998,
+      "ownership": "Listed on Nasdaq since 1999, as stated by the company",
+      "website": "https://www.sifytechnologies.com/",
+      "productLines": [
+        {
+          "name": "DGX-Ready liquid-cooled colocation",
+          "note": "DGX-powered colocation certified for liquid cooling with 130 kW per rack capacity, offered from the Mumbai-Rabale campus and the upcoming Noida and Chennai-Siruseri premises.",
+          "source": "https://www.sifytechnologies.com/news/sify-becomes-first-in-india-to-achieve-nvidia-dgx-ready-data-center-certification-for-liquid-cooling-to-enable-breakthrough-ai-performance"
+        },
+        {
+          "name": "Pan-India data center network",
+          "note": "16 data centers across Mumbai, Chennai, Noida, Bengaluru, Hyderabad and Kolkata, including NVIDIA-certified DGX-ready AI campuses with direct-to-chip and rear-door cooling.",
+          "source": "https://www.sifytechnologies.com/data-center/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "On 2 September 2024 Sify announced it had become an NVIDIA colocation partner in the DGX-Ready Data Center program certified for liquid cooling, with support for 130 kW per rack, offered from the Mumbai-Rabale campus and the upcoming Noida and Chennai-Siruseri premises.",
+          "source": "https://www.sifytechnologies.com/news/sify-becomes-first-in-india-to-achieve-nvidia-dgx-ready-data-center-certification-for-liquid-cooling-to-enable-breakthrough-ai-performance"
+        },
+        {
+          "year": "1998",
+          "text": "The company's about page states that in 1998 Sify was India's first private ISP, and that it has been NASDAQ-listed since 1999.",
+          "source": "https://www.sifytechnologies.com/about-us/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Sify's liquid-cooling certification?",
+          "a": "In September 2024 Sify announced it became an NVIDIA colocation partner under the DGX-Ready Data Center program certified for liquid cooling; the company describes itself as the first in India with this certification."
+        },
+        {
+          "q": "What rack density does Sify support with liquid cooling?",
+          "a": "The certified colocation supports 130 kW per rack, and the data center page cites liquid cooling readiness up to 130 kW per rack with designs for 200+ kW per rack high-density deployments."
+        },
+        {
+          "q": "Where can customers access Sify's DGX liquid-cooled colocation?",
+          "a": "From the Mumbai-Rabale campus, with the Noida and Chennai-Siruseri premises listed as upcoming in the September 2024 announcement."
+        },
+        {
+          "q": "How large is Sify's data center footprint?",
+          "a": "The data center page lists 16 pan-India data centers in Mumbai, Chennai, Noida, Bengaluru, Hyderabad and Kolkata, with available capacity of 86+ MW scalable to 263+ MW."
+        }
+      ]
+    },
+    {
+      "slug": "softbank-corp",
+      "name": "SoftBank Corp",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "SoftBank Corp. is a Japanese telecommunications operator building AI infrastructure and its own large language models. With ZutaCore and Foxconn it implemented two-phase direct liquid cooling in an AI server and designed a rack-integrated solution, verified at its data center in February 2025 with a measured pPUE of 1.03 per rack.",
+      "hq": "Tokyo, Japan",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the Tokyo Stock Exchange (9434)",
+      "website": "https://www.softbank.jp/",
+      "productLines": [
+        {
+          "name": "Two-phase DLC rack-integrated solution",
+          "note": "Plug-and-play rack-scale solution integrating servers and ZutaCore two-phase direct liquid cooling, supporting 21-inch and ORV3-standard 19-inch servers with rear-concentrated power and wiring.",
+          "source": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20250228_01"
+        },
+        {
+          "name": "AI data centers and AI factories",
+          "note": "The company plans practical application of the two-phase direct liquid cooling solution in AI data centers and AI factories as part of its AI infrastructure development in Japan.",
+          "source": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20250228_01"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 28 February 2025 SoftBank Corp., ZutaCore and Hon Hai Technology Group (Foxconn) announced the implementation of ZutaCore's two-phase direct liquid cooling in an AI server using NVIDIA H200 GPUs, which the announcement describes as a first for that technology with those GPUs, with a measured pPUE of 1.03 per rack at SoftBank's data center.",
+          "source": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20250228_01"
+        },
+        {
+          "year": "2025",
+          "text": "The solution passed NVIDIA's temperature test (NVQual) confirming compatibility, stability and reliability, and SoftBank plans practical application in AI data centers and AI factories.",
+          "source": "https://www.softbank.jp/en/corp/news/press/sbkk/2025/20250228_01"
+        },
+        {
+          "year": "2025",
+          "text": "ZutaCore's 28 February 2025 release states the collaboration implemented its two-phase DLC technology, which circulates an insulating refrigerant without water in a two-phase system through cold plates on the chip.",
+          "source": "https://blog.zutacore.com/press-releases/softbank-zutacore-foxconn-2-phase-dlc"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling did SoftBank Corp. implement?",
+          "a": "ZutaCore's two-phase direct liquid cooling, which circulates a waterless insulating refrigerant through cold plates on the processor, changing phase between liquid and gas to absorb heat."
+        },
+        {
+          "q": "What cooling efficiency was measured?",
+          "a": "A pPUE of 1.03 per rack for cooling efficiency, as an actual measured value, per the 28 February 2025 announcement."
+        },
+        {
+          "q": "Which GPUs were used in the demonstration?",
+          "a": "NVIDIA H200 GPUs in an AI server built by Foxconn (Hon Hai Technology Group); the solution passed NVIDIA's NVQual temperature test."
+        },
+        {
+          "q": "What rack form factors does the solution support?",
+          "a": "Both 21-inch servers and 19-inch servers meeting the OCP ORV3 standard, with power supply and wiring concentrated at the rear of the rack for safety and robot-friendly operation."
+        }
+      ]
+    },
+    {
+      "slug": "st-telemedia-global-data-centres",
+      "name": "ST Telemedia Global Data Centres",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Data centre service provider in Asia. Its flagship STT Bangkok 1 facility in Thailand hosts a direct-to-chip liquid cooling showcase circulating coolant directly to CPUs and GPUs, supporting rack densities of at least 150 kW and operational AI clusters; a KKR-Singtel consortium completed its acquisition in September 2026.",
+      "hq": "Singapore, Singapore",
+      "founded": "NOT_FOUND",
+      "ownership": "Acquired by a KKR-led consortium comprising funds managed by KKR and Singtel; completed 2 September 2026",
+      "website": "https://www.sttgdc.com/",
+      "productLines": [
+        {
+          "name": "Direct-to-chip liquid cooling showcase, STT Bangkok 1",
+          "note": "Showcase at the flagship STT Bangkok 1 data centre in Bangkok, Thailand, circulating coolant to CPUs and GPUs via cold plates, supporting rack densities of at least 150 kW per rack and operational AI clusters.",
+          "source": "https://www.sttgdc.com/newsroom/stt-gdc-unveils-direct-to-chip-liquid-cooling-showcase-in-thailand"
+        },
+        {
+          "name": "Asia data centre platform",
+          "note": "Data centre service provider in Asia with facilities including STT Bangkok 1, STT Tokyo 1 and STT Seoul 1, hosting AI compute infrastructure.",
+          "source": "https://www.sttgdc.com/newsroom"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 2 September 2026 STTGDC announced the completion of its acquisition by a KKR-led consortium comprising funds managed by KKR and Singtel, together with a refreshed brand that retains the STTGDC name.",
+          "source": "https://www.sttgdc.com/newsroom/kkr-singtel-consortium-completes-acquisition-of-sttgdc-company-launches-refreshed-global-brand-next-phase-of-growth"
+        },
+        {
+          "year": "2025",
+          "text": "On 24 April 2025 STT GDC announced a direct-to-chip liquid cooling showcase at its flagship STT Bangkok 1 data centre in Thailand, described in the release as Thailand's first NVIDIA DGX-Ready data centre; the system circulates coolant directly to CPUs and GPUs via cold plates and supports rack densities of at least 150 kW per rack.",
+          "source": "https://www.sttgdc.com/newsroom/stt-gdc-unveils-direct-to-chip-liquid-cooling-showcase-in-thailand"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling is STT GDC showcasing?",
+          "a": "A direct-to-chip liquid cooling system at STT Bangkok 1 that circulates coolant directly to CPUs and GPUs via cold plates and distribution pipes."
+        },
+        {
+          "q": "What rack density does the STT Bangkok 1 showcase support?",
+          "a": "At least 150 kW per rack, compared with 20-30 kW for traditional air cooling, per the April 2025 announcement; the facility also supports operational AI clusters and live AI customers."
+        },
+        {
+          "q": "Who owns STT GDC?",
+          "a": "STTGDC's release of 2 September 2026 announces the completion of its acquisition by a KKR-led consortium comprising funds managed by KKR and Singtel, alongside a refreshed brand that retains the STTGDC name."
+        },
+        {
+          "q": "Is STT Bangkok 1 NVIDIA certified?",
+          "a": "The April 2025 release describes STT Bangkok 1 as Thailand's first NVIDIA DGX-Ready data centre."
+        }
+      ]
+    },
+    {
+      "slug": "stack-infrastructure",
+      "name": "STACK Infrastructure",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "STACK Infrastructure is a digital infrastructure company providing campus, build-to-suit, colocation and powered shell solutions across the Americas, EMEA and APAC. For high-density AI workloads it offers closed-loop water cooling systems and support for up to 100 kW per rack with direct-to-chip liquid cooling.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.stackinfra.com/",
+      "productLines": [
+        {
+          "name": "AI-ready high-density colocation",
+          "note": "Closed-loop water cooling systems for high-density AI workloads, supporting up to 100 kW per rack with direct-to-chip liquid cooling, 50 kW rear-door heat exchangers and 300+ kW immersion.",
+          "source": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-its-ai-ready-data-center-capabilities-to-support-machine-learning-and-related-high-density-workloads"
+        },
+        {
+          "name": "Campus and build-to-suit development",
+          "note": "Campus, build-to-suit, colocation and powered shell solutions across the Americas, EMEA and APAC, with 2.5+ GW built or under development.",
+          "source": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-its-ai-ready-data-center-capabilities-to-support-machine-learning-and-related-high-density-workloads"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "On 8 January 2024 STACK announced expanded AI-ready data center capabilities: cooling for high-density AI workloads through closed-loop water cooling systems, with up to 100 kW per rack via direct-to-chip liquid cooling and options including rear-door heat exchangers at 50 kW and immersion at 300+ kW.",
+          "source": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-its-ai-ready-data-center-capabilities-to-support-machine-learning-and-related-high-density-workloads"
+        },
+        {
+          "year": "2024",
+          "text": "The same announcement lists 2.5+ GW built or under development and an additional 4.0+ GW of planned and potential development, with campuses including Central Phoenix (250 MW), Portland (200 MW) and Osaka, Japan (72 MW).",
+          "source": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-its-ai-ready-data-center-capabilities-to-support-machine-learning-and-related-high-density-workloads"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What rack densities does STACK support?",
+          "a": "Its January 2024 announcement lists 30 kW with air cooling, 50 kW with rear-door heat exchangers, up to 100 kW per rack with direct-to-chip liquid cooling and 300+ kW with immersion."
+        },
+        {
+          "q": "How does STACK cool AI workloads?",
+          "a": "Through closed-loop water cooling systems, which the company says achieve optimal cooling for high-density AI workloads."
+        },
+        {
+          "q": "Where does STACK operate?",
+          "a": "Campuses across the Americas, EMEA and APAC, including Central Phoenix, Santa Clara, Toronto, Dallas/Fort-Worth, Portland, New Albany in Ohio, Osaka, Melbourne and Stockholm, per the January 2024 announcement."
+        },
+        {
+          "q": "What solutions does STACK offer?",
+          "a": "Campus, build-to-suit, colocation and powered shell solutions for hyperscale and enterprise clients, per the company's announcement boilerplate."
+        }
+      ]
+    },
+    {
+      "slug": "switch",
+      "name": "Switch",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Switch, founded in 2000 and headquartered in Las Vegas, Nevada, designs, builds and operates data centers. Its EVO AI factory design delivers liquid-to-air and liquid-to-chip cooling up to 2 MW per rack, and hosted NVIDIA GB200 and GB300 NVL72 platform deployments for AI cloud provider CoreWeave in 2024 and 2025.",
+      "hq": "Las Vegas, Nevada, United States",
+      "founded": 2000,
+      "ownership": "Taken private by DigitalBridge and IFM Investors on 6 December 2022",
+      "website": "https://www.switch.com/",
+      "productLines": [
+        {
+          "name": "EVO AI Factories",
+          "note": "AI factory environments with five fluidic system pathways delivering liquid-to-air and liquid-to-chip cooling up to 2 MW per rack, designed to co-evolve with NVIDIA's accelerated roadmap.",
+          "source": "https://www.switch.com/ai-factories"
+        },
+        {
+          "name": "SUPERNAP data centers",
+          "note": "Data center campuses in Las Vegas, Tahoe Reno, Atlanta, Grand Rapids and Austin/Houston, built to Tier 5 Platinum standards according to the company.",
+          "source": "https://www.switch.com/about"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "The company's AI factory page states the first GB300 was launched at Switch in July 2025, described as the first GB300 launch, following the first GB200 launch at Switch in November 2024.",
+          "source": "https://www.switch.com/ai-factories"
+        },
+        {
+          "year": "2025",
+          "text": "Switch announced that CoreWeave, in collaboration with Dell Technologies, was the first AI cloud provider to bring up the NVIDIA GB300 NVL72 platform at Switch, following CoreWeave's November 2024 GB200 NVL72 deployment hosted at Switch.",
+          "source": "https://www.switch.com/coreweave-deploys-industry-first-nvidia-gb300-nvl72-in-switchs-ai-factory-solution"
+        },
+        {
+          "year": "2025",
+          "text": "The company's AI factory page states five separate fluidic system pathways deliver liquid-to-air and liquid-to-chip cooling up to 2 MW per rack.",
+          "source": "https://www.switch.com/ai-factories"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling does Switch's EVO AI factory design use?",
+          "a": "A hybrid design: five separate fluidic system pathways deliver liquid-to-air and liquid-to-chip cooling up to 2 MW per rack, per the company's AI factory page."
+        },
+        {
+          "q": "What NVIDIA systems has Switch hosted?",
+          "a": "Switch's page states the first GB200 launch in November 2024 and the first GB300 launch in July 2025; CoreWeave brought up the NVIDIA GB300 NVL72 platform at Switch in collaboration with Dell Technologies."
+        },
+        {
+          "q": "Where is Switch headquartered?",
+          "a": "The company says it was founded in 2000 and is headquartered in Las Vegas, Nevada."
+        },
+        {
+          "q": "Where does Switch operate campuses?",
+          "a": "The about page lists Las Vegas, Tahoe Reno, Atlanta, Grand Rapids and Austin/Houston."
+        },
+        {
+          "q": "Who owns Switch?",
+          "a": "DigitalBridge announced on 6 December 2022 that it and IFM Investors had completed the acquisition of all outstanding shares of Switch, taking the company private."
+        }
+      ]
+    },
+    {
+      "slug": "telehouse",
+      "name": "Telehouse (KDDI)",
+      "segments": [
+        "buyers",
+        "micro-dc"
+      ],
+      "tagline": "Telehouse is a global colocation provider under KDDI Group, established in 1989. Telehouse South in London hosts a liquid cooling lab with partners including JetCool and Legrand, and Telehouse Canada completed a direct liquid-to-chip deployment across its Toronto campus in May 2026 with densities up to 120 kW per rack.",
+      "hq": "NOT_FOUND",
+      "founded": 1989,
+      "ownership": "Subsidiary of KDDI Corporation, per its press release boilerplate",
+      "website": "https://www.telehouse.net/",
+      "productLines": [
+        {
+          "name": "Liquid cooling lab, Telehouse South London",
+          "note": "Lab at Telehouse South on the London Docklands campus demonstrating direct-to-chip, rear-door and rack-level liquid cooling from Accelsius, JetCool, Legrand and EkkoSense, with JetCool's CDU cooling up to 300 kW per rack.",
+          "source": "https://www.telehouse.net/news/telehouse-launches-pioneering-liquid-cooling-lab/"
+        },
+        {
+          "name": "Direct liquid-to-chip cooling, Toronto campus",
+          "note": "Direct liquid-to-chip deployment across the metro Toronto campus with cabinet densities up to 120 kW per rack, transferring heat to Enwave's district energy system for reuse.",
+          "source": "https://www.businesswire.com/news/home/20260512456773/en/Telehouse-Canada-Undergoes-Major-Infrastructure-Upgrade-to-Scale-AI-Driven-Organizations"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 12 May 2026 Telehouse Canada announced completion of a major infrastructure upgrade deploying direct liquid cooling across its metro Toronto campus, with cabinet densities up to 120 kW per rack, described as a first-of-its-kind direct liquid cooling deployment in an interconnection hub in Canada; heat is transferred to Enwave's district energy system to help heat Toronto's municipal drinking water.",
+          "source": "https://www.businesswire.com/news/home/20260512456773/en/Telehouse-Canada-Undergoes-Major-Infrastructure-Upgrade-to-Scale-AI-Driven-Organizations"
+        },
+        {
+          "year": "2025",
+          "text": "On 13 January 2025 Telehouse launched a liquid cooling lab at Telehouse South on its London Docklands campus with Accelsius, EkkoSense, JetCool and Legrand, demonstrating two-phase direct-to-chip cooling, a rack-level CDU capable of cooling up to 300 kW per rack and a rear-door heat exchanger supporting over 90 kW per cabinet.",
+          "source": "https://www.telehouse.net/news/telehouse-launches-pioneering-liquid-cooling-lab/"
+        },
+        {
+          "year": "1989",
+          "text": "The release boilerplate states Telehouse was established in 1989 and is a data centre service provider under KDDI Group.",
+          "source": "https://www.businesswire.com/news/home/20260512456773/en/Telehouse-Canada-Undergoes-Major-Infrastructure-Upgrade-to-Scale-AI-Driven-Organizations"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is in Telehouse's liquid cooling lab?",
+          "a": "The lab at Telehouse South, London, demonstrates Accelsius's two-phase direct-to-chip NeuCool platform, JetCool's SmartPlate System and SmartSense CDU, Legrand's ColdLogik CL20 rear-door heat exchanger and EkkoSense monitoring software."
+        },
+        {
+          "q": "What densities can the lab technologies support?",
+          "a": "JetCool's CDU can cool up to 300 kW per rack and scale to row configurations beyond 2 MW, and Legrand's rear-door heat exchanger supports over 90 kW per cabinet, per the January 2025 announcement."
+        },
+        {
+          "q": "Where has Telehouse deployed direct liquid-to-chip cooling?",
+          "a": "Across its metro Toronto campus, including the 151 and 250 Front Street West facilities, announced on 12 May 2026, supporting cabinet densities up to 120 kW per rack for AI workloads."
+        },
+        {
+          "q": "What happens to the heat from Telehouse's Toronto liquid cooling?",
+          "a": "Heat is transferred to Enwave's closed-loop district energy system and repurposed to help heat Toronto's municipal drinking water, per the company's May 2026 release."
+        },
+        {
+          "q": "Who owns Telehouse?",
+          "a": "Telehouse is a data centre service provider under KDDI Group, and Telehouse Canada is described as a subsidiary of KDDI Corporation."
         }
       ]
     }
