@@ -12,7 +12,7 @@
       "hq": "Santa Clara, California, USA",
       "founded": 1993,
       "ownership": "NASDAQ: NVDA",
-      "website": "https://www.nvidia.com",
+      "website": "https://www.nvidia.com/",
       "productLines": [
         {
           "name": "GB200 NVL72",
@@ -71,6 +71,10 @@
         {
           "q": "What coolant do NVIDIA racks use?",
           "a": "PG25 — 75% water / 25% propylene glycol. NVIDIA's Vera Rubin program runs it in closed loops with inlets up to 45 °C (facility water ~41 °C to the CDUs) and rates it for up to 10 years in a closed loop."
+        },
+        {
+          "q": "What did NVIDIA contribute to OCP in 2024?",
+          "a": "In 2024 NVIDIA contributed the GB200 NVL72 rack and its liquid-cooled compute and switch tray designs to the OCP, so that the rack's 120 kW cooling capacity can be managed efficiently."
         }
       ]
     },
@@ -84,8 +88,8 @@
       "tagline": "Direct liquid cooling specialist — liquid-to-liquid and liquid-to-air CDUs, cold plates and rack manifolds; its DLC technology cools the Frontier exascale supercomputer.",
       "hq": "Calgary, Alberta, Canada",
       "founded": 2001,
-      "ownership": "Subsidiary of Ecolab (acquisition closed July 2026, ~$4.75B); previously majority-owned by KKR with Mubadala alongside (2023-2026)",
-      "website": "https://www.coolitsystems.com",
+      "ownership": "Subsidiary of Ecolab (acquisition closed July 2026); previously majority-owned by KKR with Mubadala alongside (2023-2026)",
+      "website": "https://www.coolitsystems.com/",
       "productLines": [
         {
           "name": "CHx2000 CDU",
@@ -111,7 +115,7 @@
       "facts": [
         {
           "year": "2026",
-          "text": "Ecolab closed its ~$4.75B acquisition of CoolIT (announced March 2026, closed July 2026), folding it into Ecolab's AI cooling platform",
+          "text": "Ecolab closed its acquisition of CoolIT (announced March 2026, closed July 2026), folding it into Ecolab's AI cooling platform",
           "source": "https://www.ecolab.com/en-us/media-center/news/ecolab-closes-coolit-acquisition-and-expands-ai-cooling-platform"
         },
         {
@@ -134,11 +138,15 @@
       "faq": [
         {
           "q": "Who owns CoolIT Systems?",
-          "a": "Ecolab — the acquisition closed in July 2026 for ~$4.75B. Before that CoolIT was majority-owned by KKR (2023-2026) with Mubadala investing alongside."
+          "a": "Ecolab — the acquisition closed in July 2026. Before that CoolIT was majority-owned by KKR (2023-2026) with Mubadala investing alongside."
         },
         {
           "q": "How big is the CoolIT CHx2000 CDU?",
           "a": "2,000 kW at 5 °C approach temperature with 2,125 LPM flow; one unit supports up to 12 NVIDIA GB300 NVL72 racks, and up to 20 CDUs can run in group control."
+        },
+        {
+          "q": "What did CoolIT unveil in 2024?",
+          "a": "The OMNI all-metal unibody cold plate architecture for NVIDIA, Intel and AMD processors."
         }
       ]
     },
@@ -147,13 +155,14 @@
       "name": "Asetek",
       "segments": [
         "cold-plates",
-        "cdus"
+        "cdus",
+        "micro-dc"
       ],
       "tagline": "Danish pioneer of warm-water direct-to-chip server cooling — integrated pump-and-cold-plate D2C coolers plus the InRackCDU (up to 80 kW/rack); its data center hardware line is now listed as heritage technology after the 2021 HPC exit.",
       "hq": "Aalborg, Denmark",
       "founded": 1997,
-      "ownership": "Acquired by CQXA Holdings Pte. Ltd. (Singapore) via 2026 takeover offer — 90% passed April 14, 2026, compulsory acquisition initiated, Oslo Børs delisting to follow; previously Oslo Børs: ASETEK",
-      "website": "https://www.asetek.com",
+      "ownership": "Acquired by CQXA Holdings (Singapore) through a 2026 takeover offer; previously listed on Oslo Børs (ASETEK)",
+      "website": "https://www.asetek.com/",
       "productLines": [
         {
           "name": "D2C ingredient coolers",
@@ -168,7 +177,7 @@
         {
           "name": "RackCDU D2C system",
           "note": "Warm-water server-level direct-to-chip system; independent NREL testing (2014) evaluated its energy performance — Asetek claimed >50% cooling energy savings and free cooling in most climates",
-          "source": "https://docs.nrel.gov/docs/fy15osti/62905.pdf"
+          "source": "https://www.asetek.com/press-releases/rackcdu-d2c-order-for-new-hpc-installation/"
         }
       ],
       "facts": [
@@ -196,6 +205,10 @@
         {
           "q": "Who owns Asetek?",
           "a": "CQXA Holdings Pte. Ltd. (Singapore) — its 2026 takeover offer passed 90% of shares on April 14, 2026, initiating compulsory acquisition and a planned Oslo Børs delisting."
+        },
+        {
+          "q": "What did Asetek announce in 2018?",
+          "a": "In 2018 Asetek announced an ongoing collaboration with Intel on hot-water liquid cooling for servers and data centers."
         }
       ]
     },
@@ -209,8 +222,8 @@
       "tagline": "Thermal-management veteran — 5M+ liquid cold plates delivered to hyperscalers, rack manifolds and megawatt-class CDUs; its thermal business is now part of Eaton.",
       "hq": "Boca Raton, Florida, USA (current official site; pre-divestiture sources list Modesto, CA)",
       "founded": 1928,
-      "ownership": "Boyd Thermal (liquid cooling) sold to Eaton for $9.5B — announced Nov 2025, completed March 2026; the remaining Boyd (Engineered Materials) stays with Goldman Sachs Alternatives (since 2019)",
-      "website": "https://www.boydcorp.com",
+      "ownership": "Boyd Thermal sold to Eaton (completed March 2026); the remaining Boyd (Engineered Materials) stays with Goldman Sachs Alternatives",
+      "website": "https://www.boydcorp.com/",
       "productLines": [
         {
           "name": "ROL2300 CDU",
@@ -231,12 +244,12 @@
       "facts": [
         {
           "year": "2026",
-          "text": "Eaton completed its $9.5B acquisition of Boyd Thermal (announced Nov 2025, completed March 12, 2026); Boyd's Engineered Materials business continues independently under Goldman Sachs Alternatives",
+          "text": "Eaton completed its acquisition of Boyd Thermal (announced Nov 2025, completed March 12, 2026); Boyd's Engineered Materials business continues independently under Goldman Sachs Alternatives",
           "source": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-completes-acquisition-of-leading-liquid-cooling-solutions-provider-boyd-thermal.html"
         },
         {
           "year": "2025",
-          "text": "Announced 5 million liquid cold plates delivered to hyperscalers through high-volume global manufacturing",
+          "text": "Announced that 5,000,000 liquid cold plates had been delivered to hyperscalers through high-volume global manufacturing",
           "source": "https://www.businesswire.com/news/home/20250908360684/en/Boyd-Has-Delivered-5-Million-Liquid-Cold-Plates-to-Hyperscalers-through-Reliable-High-Volume-Global-Manufacturing-Advancing-AI-Data-Center-Liquid-Cooling-Technology"
         },
         {
@@ -254,11 +267,15 @@
       "faq": [
         {
           "q": "Is Boyd still independent?",
-          "a": "Its liquid-cooling business is not: Eaton completed the $9.5B acquisition of Boyd Thermal in March 2026. The remaining Boyd Corporation (Engineered Materials) continues independently under Goldman Sachs Alternatives."
+          "a": "Its liquid-cooling business is not: Eaton completed the acquisition of Boyd Thermal in March 2026. The remaining Boyd Corporation (Engineered Materials) continues independently under Goldman Sachs Alternatives."
         },
         {
           "q": "What is Boyd's largest CDU?",
           "a": "The ROL2300 in-row liquid-to-liquid CDU: up to 2.3 MW at 8 °C approach (1.15 MW at 4 °C), cooling 10+ NVIDIA NVL72 racks per unit."
+        },
+        {
+          "q": "What did Boyd showcase at the 2025 OCP Global Summit?",
+          "a": "Google's 2 MW Project Deschutes CDU, an OCP-ecosystem design that Boyd manufactures."
         }
       ]
     },
@@ -268,16 +285,16 @@
       "segments": [
         "cdus"
       ],
-      "tagline": "Data center liquid cooling specialist (now 'Motivair by Schneider Electric') — CDUs up to 3.5 MW, dynamic cold plates, ChilledDoor rear-door heat exchangers and chillers; its CDUs cool six of the world's top ten supercomputers.",
+      "tagline": "Data center liquid cooling specialist (now 'Motivair by Schneider Electric') — CDUs up to 2.5 MW per unit, dynamic cold plates, ChilledDoor rear-door heat exchangers and chillers; the company says its CDUs cool six of the world's top ten supercomputers.",
       "hq": "Lancaster (Buffalo), New York, USA",
       "founded": 1988,
-      "ownership": "75% controlling stake acquired by Schneider Electric for ~$850M (announced Oct 2024, closed February 2025); remaining 25% expected to be acquired by 2028",
-      "website": "https://www.motivaircorp.com",
+      "ownership": "75% controlling stake acquired by Schneider Electric (closed February 2025); the remaining 25% expected to be acquired by 2028",
+      "website": "https://www.motivaircorp.com/",
       "productLines": [
         {
-          "name": "CDU line (MCDU / WCDU)",
-          "note": "Liquid-to-liquid CDUs scaling from 105 kW to 2.5 MW (MCDU-70, Jan 2026); the WCDU (Sept 2026) reaches 3.5 MW at 1.5 L/min per kW with up to 20 units combinable; certified for NVIDIA hardware",
-          "source": "https://www.motivaircorp.com/news/motivair-by-schneider-electric-launches-new-cdu"
+          "name": "CDU line (MCDU)",
+          "note": "Coolant distribution units in multiple standard models and custom OEM configurations scaling from 105 kW up to 2.5 MW per unit, including the MCDU-70, rated at 2.5 MW with centralized controls scalable to 10 MW and beyond.",
+          "source": "https://www.motivaircorp.com/products/CDU/"
         },
         {
           "name": "ChilledDoor rack cooling system",
@@ -298,8 +315,8 @@
       "facts": [
         {
           "year": "2026",
-          "text": "Launched the WCDU — up to 3.5 MW at 1.5 L/min per kW, integrating liquid and air cooling for flexible deployments",
-          "source": "https://www.motivaircorp.com/news/motivair-by-schneider-electric-launches-new-cdu"
+          "text": "On 16 November 2026 Motivair introduced a dual ChilledDoor rear-door heat exchanger purpose-built for the AMD Helios rack-scale platform, providing up to 75 kW of room-neutral cooling at the rack.",
+          "source": "https://www.motivaircorp.com/news/cooling-amd-helios-the-new-dual-chilleddoor/"
         },
         {
           "year": "2025",
@@ -308,7 +325,7 @@
         },
         {
           "year": "2024",
-          "text": "Schneider Electric agreed to acquire a 75% controlling interest in Motivair for ~$850M cash",
+          "text": "Schneider Electric agreed to acquire a 75% controlling interest in Motivair (announced October 2024)",
           "source": "https://www.se.com/ww/en/assets/564/document/492190/Schneider-Electric-acquires-Motivair-Corporation.pdf"
         }
       ],
@@ -316,11 +333,15 @@
       "faq": [
         {
           "q": "What is Motivair's relationship to Schneider Electric?",
-          "a": "Schneider Electric acquired a 75% controlling stake for ~$850M (announced October 2024, closed February 2025) and expects to acquire the remaining 25% by 2028. Motivair operates as 'Motivair by Schneider Electric'."
+          "a": "Schneider Electric acquired a 75% controlling stake (announced October 2024, closed February 2025) and expects to acquire the remaining 25% by 2028. Motivair operates as 'Motivair by Schneider Electric'."
         },
         {
           "q": "What capacity range do Motivair CDUs cover?",
-          "a": "Liquid-to-liquid CDUs from 105 kW (MCDU-70 line, up to 2.5 MW as of Jan 2026) to the WCDU at 3.5 MW (Sept 2026, 1.5 L/min per kW, up to 20 units combinable)."
+          "a": "Liquid-to-liquid CDUs from 105 kW up to 2.5 MW per unit; the MCDU-70 delivers 2.5 MW with centralized controls scalable to 10 MW and beyond, as stated on the company's CDU page."
+        },
+        {
+          "q": "What is the MCDU-70?",
+          "a": "Motivair's 2.5 MW coolant distribution unit with centralized controls scalable to 10 MW and beyond, described on the company's CDU page as supporting next-generation AI factory expansion."
         }
       ]
     },
@@ -336,7 +357,7 @@
       "hq": "Westerville, Ohio, USA",
       "founded": 1946,
       "ownership": "NYSE: VRT",
-      "website": "https://www.vertiv.com",
+      "website": "https://www.vertiv.com/",
       "productLines": [
         {
           "name": "CoolChip CDU family",
@@ -385,6 +406,10 @@
         {
           "q": "How is Vertiv involved with NVIDIA GB200 NVL72?",
           "a": "It co-developed a 7 MW power-and-cooling reference architecture with NVIDIA for the GB200 NVL72 platform — 132 kW per rack with hybrid liquid-air cooling — and its MegaMod CoolChip prefabricated module is cited in the NVIDIA blueprint."
+        },
+        {
+          "q": "What CDUs did Vertiv announce at SC24?",
+          "a": "Two high-capacity CDUs: the CoolChip CDU 2300 kW, a liquid-to-liquid unit, and the CoolChip CDU 350 kW, a liquid-to-air unit."
         }
       ]
     },
@@ -398,7 +423,7 @@
       "hq": "Taipei, Taiwan",
       "founded": 1971,
       "ownership": "TWSE: 2308",
-      "website": "https://www.deltaww.com",
+      "website": "https://www.deltaww.com/",
       "productLines": [
         {
           "name": "GoCool liquid-to-liquid CDUs",
@@ -442,6 +467,10 @@
         {
           "q": "How does Delta relate to Google's Project Deschutes?",
           "a": "Delta showcased a 2 MW in-row CDU (500 GPM) built to Project Deschutes — Google's open cooling architecture following the 5th-generation OCP spec with ±400 VDC power."
+        },
+        {
+          "q": "What is Delta's largest CDU?",
+          "a": "The GoCool 3 MW liquid-to-liquid CDU, which the company says is shipping for next-generation AI data centers; Delta also showed a 2 MW in-row CDU at SC25."
         }
       ]
     },
@@ -456,7 +485,7 @@
       "hq": "London, England, UK (global HQ); St. Louis Park, Minnesota, USA (U.S. HQ)",
       "founded": 2018,
       "ownership": "NYSE: NVT (spun off from Pentair in 2018)",
-      "website": "https://www.nvent.com",
+      "website": "https://www.nvent.com/",
       "productLines": [
         {
           "name": "RackChiller CDU800",
@@ -505,6 +534,10 @@
         {
           "q": "Does nVent have an OCP-accepted CDU?",
           "a": "Yes — the Project Deschutes Open CDU (2 MW at 3 °C, 500 GPM, N+1 sealless pumps) is OCP Accepted, built to Google's Deschutes 5.0 specification."
+        },
+        {
+          "q": "What did nVent expand in 2026?",
+          "a": "In 2026 nVent expanded its liquid cooling manufacturing capacity with a new 160,000 sq ft site for AI and HPC demand."
         }
       ]
     },
@@ -519,7 +552,7 @@
       "hq": "Herborn, Hesse, Germany",
       "founded": 1961,
       "ownership": "Private — Rittal GmbH & Co. KG, largest company of the family-owned Friedhelm Loh Group",
-      "website": "https://www.rittal.com",
+      "website": "https://www.rittal.com/",
       "productLines": [
         {
           "name": "Liquid Cooling Package (LCP Rack/Inline CW)",
@@ -568,6 +601,10 @@
         {
           "q": "Is Rittal's 1 MW CDU tied to OCP standards?",
           "a": "Yes — Rittal presented the 1 MW modular CDU at OCP Global Summit 2024 and designs its DLC portfolio to OCP Open Rack V3 principles, including a 100% OCP-compliant ORv3 rack."
+        },
+        {
+          "q": "What did Rittal announce in 2024?",
+          "a": "In 2024 Rittal announced the development of megawatt-range water-based single-phase direct chip liquid cooling for AI power densities."
         }
       ]
     },
@@ -581,7 +618,7 @@
       "hq": "San Jose, California, USA (R&D center in Israel)",
       "founded": 2016,
       "ownership": "Private (venture-funded; strategic investments from Wiwynn and Mitsubishi Heavy Industries)",
-      "website": "https://zutacore.com",
+      "website": "https://zutacore.com/",
       "productLines": [
         {
           "name": "HyperCool",
@@ -625,6 +662,10 @@
         {
           "q": "What OCP specification did ZutaCore work on?",
           "a": "The OCP Dielectric Coolant Fluid Base Specification v1.0 for two-phase dielectric heat-transfer fluids — ZutaCore says it helped lead its development."
+        },
+        {
+          "q": "What did ZutaCore launch in 2025?",
+          "a": "OmniTherm cold plates for reversed-orientation servers and back-side power delivery (14 October 2025)."
         }
       ]
     },
@@ -637,8 +678,8 @@
       "tagline": "Microconvective (microjet) direct-to-chip specialist — SmartPlate cold plates, SmartSense CDUs (up to 300 kW/rack) and vertically integrated rack cooling, now part of Flex.",
       "hq": "Littleton, Massachusetts, USA",
       "founded": 2019,
-      "ownership": "Subsidiary of Flex (NASDAQ: FLEX) since November 2024; slated for Flex's planned Axiom Solutions International spin-off (expected early 2027)",
-      "website": "https://jetcool.com",
+      "ownership": "Subsidiary of Flex (NASDAQ: FLEX) since November 2024; to move to Flex's planned Axiom spin-off (expected early 2027)",
+      "website": "https://www.jetcool.com/",
       "productLines": [
         {
           "name": "SmartPlate cold plates",
@@ -682,6 +723,10 @@
         {
           "q": "What is JetCool's SmartSense CDU capacity?",
           "a": "Up to 300 kW per rack (6U liquid-to-liquid, ~400 LPM at 7 °C approach), scalable to 1.8-2 MW+ per row with multiple units."
+        },
+        {
+          "q": "What did JetCool launch in 2025?",
+          "a": "The SmartSense CDU (29 April 2025), rated up to 300 kW per rack and scaling to 2 MW+ at row level; it was highlighted at the OCP EMEA Summit 2025."
         }
       ]
     },
@@ -695,7 +740,7 @@
       "hq": "Osaka, Japan",
       "founded": 1924,
       "ownership": "TYO: 6367",
-      "website": "https://www.daikin.com",
+      "website": "https://www.daikin.com/",
       "productLines": [
         {
           "name": "Coolant Distribution Unit range",
@@ -738,6 +783,10 @@
         {
           "q": "Why did Daikin acquire Chilldyne?",
           "a": "Chilldyne's patented negative-pressure (vacuum) direct-to-chip system — CDU, manifold and cold plate — added a leak-tolerant DLC line to Daikin Applied's data center portfolio (announced November 2025)."
+        },
+        {
+          "q": "What did Daikin introduce in 2026?",
+          "a": "D60-W, a 60 MW AI factory cooling reference architecture built around NVIDIA platforms."
         }
       ]
     },
@@ -747,11 +796,11 @@
       "segments": [
         "cdus"
       ],
-      "tagline": "Shenzhen-listed precision cooling leader — the Coolinside full-chain liquid cooling portfolio spans cold plates, manifolds, UQD/UQDB couplings, coolant and CDUs for high-density AI data centers.",
+      "tagline": "Shenzhen-listed precision cooling company — the Coolinside full-chain liquid cooling portfolio spans cold plates, manifolds, UQD/UQDB couplings, coolant and CDUs for high-density AI data centers.",
       "hq": "Shenzhen, Guangdong, China",
       "founded": 2005,
       "ownership": "SZSE: 002837",
-      "website": "https://en.envicool.net",
+      "website": "https://www.envicool.com/",
       "productLines": [
         {
           "name": "In-row liquid-to-air CDU (XCRow120WCA2H1)",
@@ -765,7 +814,7 @@
         },
         {
           "name": "Deschutes 5 CDU",
-          "note": "OCP Accepted CDU built to Google's Deschutes 5 spec: 2 MW at 3 °C ATD, 500 GPM (1890 LPM), 80 PSI available pressure, N+1 sealless pumps",
+          "note": "CDU listed on the OCP marketplace as based on the Google Deschutes 5 CDU specification: 2 MW at 3 °C approach temperature difference, 500 GPM (1890 LPM), 80 PSI available pressure, N+1 sealless pumps.",
           "source": "https://www.opencompute.org/marketplace/facilities-physical-infrastructure/envicool-deschutes-5-cdu"
         },
         {
@@ -776,25 +825,29 @@
       ],
       "facts": [
         {
-          "year": "2026",
-          "text": "Reuters reports Google is in talks with Envicool and other Chinese firms about purchasing liquid cooling equipment for its data centers",
-          "source": "https://www.reuters.com/world/china/google-talks-with-chinas-envicool-others-buy-data-centre-cooling-systems-sources-2026-03-17"
+          "year": "2025",
+          "text": "Envicool's 2025 semi-annual report, published 19 August 2025, states that the quick disconnects, manifolds, cold plates, long-life coolant and leak detection products of its Coolinside full-chain liquid cooling solution have been recognised by mainstream compute chip vendors and leading compute equipment makers and are beginning to be purchased at scale.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224505163.pdf"
         },
         {
           "year": "2025",
-          "text": "Presented 'Envicool Full-Chain Liquid Cooling: 2GW+ Deployment Case Study' at the 2025 OCP Global Summit; its 2025 semi-annual report states the Coolinside line has been adopted by mainstream compute chip vendors",
+          "text": "The same report states that Envicool's BHS-AP platform cold plates, UQD04 quick disconnects, manifolds and rack-mounted liquid cooling CDUs passed Intel's testing and validation, making it what the company calls the first cold-plate liquid cooling solution integrator on the Intel Xeon 6 platform; it adds that its cold plates were listed by Intel in 2023.",
           "source": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224505163.pdf"
         }
       ],
       "ocp": "OCP member with OCP Accepted products in the Marketplace: the Deschutes 5 CDU (Google spec) and Universal Quick Disconnect / blind-mate couplings; multi-GW full-chain case studies presented at the 2024 and 2025 OCP Global Summits.",
       "faq": [
         {
-          "q": "Does Envicool have an OCP-accepted CDU?",
-          "a": "Yes — the Deschutes 5 CDU: 2 MW at 3 °C ATD, 500 GPM, 80 PSI available pressure with N+1 sealless pumps, built to Google's Project Deschutes spec and OCP Accepted. Its UQD/UQDB couplings are also OCP-listed."
+          "q": "What validation does Envicool's liquid cooling line have?",
+          "a": "Its 2025 semi-annual report states that BHS-AP platform cold plates, UQD04 quick disconnects, manifolds and rack-mounted liquid cooling CDUs passed Intel's testing and validation for the Xeon 6 platform, and that Coolinside components are recognised by mainstream compute chip vendors and leading compute equipment makers and are being purchased at scale."
         },
         {
           "q": "What does Envicool offer for sites without facility water?",
           "a": "An in-row liquid-to-air CDU (XCRow120WCA2H1) with 120 kW heat exchange capacity per cabinet — dual pumps, N+1 fans, no facility water required — plus 15/30/80 kW in-rack liquid-to-liquid units for smaller rooms."
+        },
+        {
+          "q": "What is the Envicool Deschutes 5 CDU?",
+          "a": "A CDU listed on the OCP marketplace as based on the Google Deschutes 5 CDU specification: 2 MW at 3 °C approach temperature difference, 500 GPM (1890 LPM) and 80 PSI available pressure, with N+1 sealless pumps."
         }
       ]
     },
@@ -808,7 +861,7 @@
       "hq": "Pfäffikon, Schwyz, Switzerland",
       "founded": 1892,
       "ownership": "Family-owned (private)",
-      "website": "https://www.staubli.com",
+      "website": "https://www.staubli.com/",
       "productLines": [
         {
           "name": "UQD universal quick disconnect",
@@ -857,6 +910,10 @@
         {
           "q": "Are Stäubli UQD couplings NVIDIA-approved?",
           "a": "Yes — UQD and UQDB connectors were approved by NVIDIA and added to its Recommended Vendor List for next-generation GPUs (2025)."
+        },
+        {
+          "q": "What did Stäubli show at the OCP Global Summit 2025?",
+          "a": "Mini-QD, which enables Ciena's liquid-cooled OSFP, and it announced the UQD v2 specification with tighter flow-performance limits and standardized geometry."
         }
       ]
     },
@@ -870,7 +927,7 @@
       "hq": "Arden Hills, Minnesota, USA",
       "founded": 1978,
       "ownership": "Dover Corporation (NYSE: DOV) — business unit of PSG within Dover",
-      "website": "https://www.cpcworldwide.com",
+      "website": "https://www.cpcworldwide.com/",
       "productLines": [
         {
           "name": "Everis UQD02 / UQD04",
@@ -914,6 +971,10 @@
         {
           "q": "Who owns CPC?",
           "a": "CPC (Colder Products Company) is a business unit of PSG within Dover Corporation (NYSE: DOV)."
+        },
+        {
+          "q": "Where did the OCP Universal Quick Disconnect specification come from?",
+          "a": "It was created by a working group that included CPC, Stäubli and Parker; CPC developed its Everis UQDs with Intel to that specification."
         }
       ]
     },
@@ -927,7 +988,7 @@
       "hq": "Cleveland (Mayfield Heights), Ohio, USA",
       "founded": 1917,
       "ownership": "NYSE: PH",
-      "website": "https://www.parker.com",
+      "website": "https://www.parker.com/",
       "productLines": [
         {
           "name": "UQD Series (Universal Quick Disconnect)",
@@ -948,7 +1009,7 @@
       "facts": [
         {
           "year": "2025",
-          "text": "OCP announced UQD v2 at the October 2025 Global Summit — Parker Hannifin listed among contributors to UQD Specification v2.0.0 alongside AMD, Meta, CEJN and Safeway; also launched new ergonomic color-coded push-button UQD couplings",
+          "text": "OCP announced UQD v2 at the October 2025 Global Summit — AMD is listed as contributor to UQD Specification v2.0.0, and Parker Hannifin alongside Meta, CEJN and Safeway as contributors to the Large Quick Connector Specification v2.0.0 and the Pivoting Blind Mate Coupling (PBMC) specification; also launched new ergonomic color-coded push-button UQD couplings",
           "source": "https://www.opencompute.org/contribution-family/cold-plate"
         },
         {
@@ -966,6 +1027,10 @@
         {
           "q": "Are Parker UQD couplings compatible with other vendors?",
           "a": "Yes — that is the point of the OCP UQD standard: Parker's UQD/UQDB products are built to the OCP specifications and are cross-compatible/interoperable with other OCP-approved manufacturers."
+        },
+        {
+          "q": "How has Parker contributed to the OCP UQD specification?",
+          "a": "Parker sat on the working group that first developed the UQD Specification Rev 1.0, published on 4 September 2020, and is listed among the contributors named for OCP quick-connector specifications released at the October 2025 Global Summit."
         }
       ]
     },
@@ -979,7 +1044,7 @@
       "hq": "Round Rock, Texas, USA",
       "founded": 1984,
       "ownership": "NYSE: DELL",
-      "website": "https://www.dell.com",
+      "website": "https://www.dell.com/",
       "productLines": [
         {
           "name": "PowerEdge XE9680L",
@@ -1018,6 +1083,10 @@
         {
           "q": "Did Dell ship the first GB300 NVL72?",
           "a": "Dell says it delivered the market's first NVIDIA GB300 NVL72 to CoreWeave in July 2025, as liquid-cooled Integrated Rack Scalable Systems built with Switch and Vertiv."
+        },
+        {
+          "q": "What did Dell introduce in 2025?",
+          "a": "The Dell PowerCool direct liquid cooling portfolio, introduced at Dell Technologies World in May 2025."
         }
       ]
     },
@@ -1027,11 +1096,11 @@
       "segments": [
         "servers"
       ],
-      "tagline": "Cray-heritage direct liquid cooling — including an industry-first 100% fanless DLC architecture — applied to Cray XD and ProLiant XD AI servers and its NVIDIA GB200 NVL72 rack-scale system.",
+      "tagline": "Cray-heritage direct liquid cooling — including what HPE calls an industry-first 100% fanless DLC architecture — applied to Cray XD and ProLiant XD AI servers and its NVIDIA GB200 NVL72 rack-scale system.",
       "hq": "Houston, Texas, USA",
       "founded": 2015,
       "ownership": "NYSE: HPE (2015 Hewlett-Packard spin-off; Cray heritage via acquisition)",
-      "website": "https://www.hpe.com",
+      "website": "https://www.hpe.com/",
       "productLines": [
         {
           "name": "NVIDIA GB200 NVL72 by HPE",
@@ -1075,6 +1144,10 @@
         {
           "q": "Which HPE AI servers are liquid-cooled?",
           "a": "The Cray XD670 (8U, 8x H100/H200, factory DLC capturing ~70% of system heat), the ProLiant Compute XD685 (8x liquid-cooled AMD MI355X), and the NVIDIA GB200 NVL72 rack-scale system with liquid-to-liquid CDU."
+        },
+        {
+          "q": "Which HPE system began shipping in October 2025?",
+          "a": "The ProLiant Compute XD685 with liquid-cooled AMD Instinct MI355X GPUs began global shipments on 30 October 2025; HPE's Lux AI cluster runs on these direct liquid cooling nodes."
         }
       ]
     },
@@ -1088,7 +1161,7 @@
       "hq": "San Jose, California, USA",
       "founded": 1993,
       "ownership": "NASDAQ: SMCI",
-      "website": "https://www.supermicro.com",
+      "website": "https://www.supermicro.com/",
       "productLines": [
         {
           "name": "NVIDIA GB200 NVL72 SuperCluster",
@@ -1127,6 +1200,10 @@
         {
           "q": "How many liquid-cooled racks can Supermicro build?",
           "a": "The company states capacity for over 2,000 liquid-cooled racks per month across 4 global production locations (company claim, supermicro.com)."
+        },
+        {
+          "q": "What liquid-cooled systems did Supermicro ship in 2025?",
+          "a": "It announced DLC-2, its next-generation direct liquid cooling, in May 2025 and began volume shipments of NVIDIA Blackwell Ultra systems, the HGX B300 and GB300 NVL72 racks, in September 2025."
         }
       ]
     },
@@ -1140,7 +1217,7 @@
       "hq": "Beijing, China",
       "founded": 1984,
       "ownership": "HKEX: 0992 / OTCMKTS: LNVGY (ADR)",
-      "website": "https://www.lenovo.com",
+      "website": "https://www.lenovo.com/",
       "productLines": [
         {
           "name": "ThinkSystem N1380 Neptune",
@@ -1179,6 +1256,10 @@
         {
           "q": "How fast is Lenovo's liquid cooling business growing?",
           "a": "Lenovo reported Neptune liquid-cooling revenue up roughly 300% year-over-year in 2025, adopted across CSP, enterprise and SMB customers."
+        },
+        {
+          "q": "What did Lenovo announce in 2024?",
+          "a": "In October 2024 Lenovo announced the next era of Neptune water cooling: open-loop direct warm-water cooling for the NVIDIA GB200 Grace Blackwell architecture, with the N1380 enabling 100 kW+ racks."
         }
       ]
     },
@@ -1192,7 +1273,7 @@
       "hq": "Midland, Michigan, USA",
       "founded": 1897,
       "ownership": "NYSE: DOW (Dow Inc.)",
-      "website": "https://www.dow.com",
+      "website": "https://www.dow.com/",
       "productLines": [
         {
           "name": "DOWFROST LC 25",
@@ -1236,6 +1317,10 @@
         {
           "q": "Does Dow make immersion cooling fluids too?",
           "a": "Yes — DOWSIL silicone-based single-phase dielectric fluids (dielectric constant 2.1-2.2, 10-30 cSt at 40 °C), alongside the DOWFROST glycol lines for direct-to-chip and facility loops."
+        },
+        {
+          "q": "What did Dow launch in 2026?",
+          "a": "The Dow Coolant Care Network (18 May 2026), an end-to-end fluid testing, analysis and mitigation support service for direct-to-chip systems running DOWFROST LC/HD."
         }
       ]
     },
@@ -1249,7 +1334,7 @@
       "hq": "Whitehall, Pennsylvania, USA",
       "founded": 1997,
       "ownership": "Private (Dynalene, Inc.; incorporated 1997 as Advanced Fluid Technologies, renamed Dynalene in 2005)",
-      "website": "https://www.dynalene.com",
+      "website": "https://www.dynalene.com/",
       "productLines": [
         {
           "name": "Dynalene PG-D25 (PG-D Series)",
@@ -1293,6 +1378,10 @@
         {
           "q": "Does Dynalene make immersion fluids?",
           "a": "Yes — PAO-based single-phase dielectric fluids, plus bio-based BioGlycol-D25 for direct-to-chip and low-conductivity LC grades for specialized loops."
+        },
+        {
+          "q": "What recognition did Dynalene receive in 2026?",
+          "a": "OCP Accepted recognition for PG-D25, announced on 12 August 2026."
         }
       ]
     },
@@ -1306,7 +1395,7 @@
       "hq": "Bjerringbro, Denmark",
       "founded": 1945,
       "ownership": "Private — Grundfos Foundation (Poul Due Jensen Foundation) 87.9%, founder's family 8.8%, employees 3.3%",
-      "website": "https://www.grundfos.com",
+      "website": "https://www.grundfos.com/",
       "productLines": [
         {
           "name": "CME/CM 32-2 (CDU coolant pump)",
@@ -1349,6 +1438,10 @@
         {
           "q": "Does Grundfos serve immersion cooling?",
           "a": "Yes — MTRE pumps recirculate dielectric fluid in immersion tanks, and its 2026 Asperitas case used CRNE E-pumps that estimate flow from differential pressure, removing external flow meters."
+        },
+        {
+          "q": "What is the Grundfos OEM IT Cooling portfolio?",
+          "a": "A portfolio published in April 2025: CME and CRE pumps rated for coolants including high-viscosity fluids at about 20–50 °C, spanning battery rooms, immersion tanks and in-row CDUs."
         }
       ]
     },
@@ -1362,7 +1455,7 @@
       "hq": "Nordborg, Denmark",
       "founded": 1933,
       "ownership": "Private — Bitten & Mads Clausen's Foundation and the Clausen family hold 99.89% of the votes (Danfoss A/S, unlisted)",
-      "website": "https://www.danfoss.com",
+      "website": "https://www.danfoss.com/",
       "productLines": [
         {
           "name": "B3-260C brazed plate heat exchanger",
@@ -1406,6 +1499,10 @@
         {
           "q": "How big are Danfoss CDU heat exchangers?",
           "a": "The B3-260C brazed plate unit handles up to 1 MW optimized for ~2 K LMTD; the XB67 portfolio delivers 2-4 °C approach temperatures, enabling CDUs up to 1.3 MW."
+        },
+        {
+          "q": "What did Danfoss launch at SC26?",
+          "a": "At SC26 (9 November 2026) Danfoss launched CoolTrain 2 (233 kW), the Hansen FD83 2.5-inch quick-disconnect coupling, DataCryo 7G crimp fittings and e-QC/e-PC smart valves for rack flows up to 333 L/min."
         }
       ]
     },
@@ -1413,14 +1510,13 @@
       "slug": "liquidstack",
       "name": "LiquidStack",
       "segments": [
-        "immersion",
-        "cdus"
+        "immersion"
       ],
       "tagline": "Immersion cooling pioneer — two-phase and single-phase DataTanks plus direct-to-chip CDUs for AI-scale heat loads.",
       "hq": "Carrollton, Texas, USA",
       "founded": 2012,
       "ownership": "Subsidiary of Trane Technologies (NYSE: TT) — acquisition announced 2026-02-10, completed 2026-03-03 (after a 2023 minority investment)",
-      "website": "https://liquidstack.com",
+      "website": "https://www.liquidstack.com/",
       "productLines": [
         {
           "name": "DataTank (two-phase immersion)",
@@ -1469,6 +1565,10 @@
         {
           "q": "Who owns LiquidStack?",
           "a": "Trane Technologies completed its acquisition of LiquidStack on March 3, 2026, following a 2023 minority investment. LiquidStack sits in Trane’s Commercial HVAC Americas business, with manufacturing, engineering and R&D in Carrollton, Texas and Hong Kong."
+        },
+        {
+          "q": "What did LiquidStack debut in 2021?",
+          "a": "At SC21 it presented immersion-optimized OCP Open Accelerator Infrastructure servers, which it describes as a world first: Wiwynn OAI servers with Habana Gaudi processors in a LiquidStack DataTank."
         }
       ]
     },
@@ -1481,8 +1581,8 @@
       "tagline": "Immersion-cooling pioneer — single-phase dielectric SmartPods (up to 361 kW per pod, OCP ORv3-compatible) plus liquid-cooled modular data center design & build.",
       "hq": "Barcelona, Spain (Americas HQ: Houston, Texas)",
       "founded": 2015,
-      "ownership": "Private ($55.5M growth round led by M&G in 2024)",
-      "website": "https://submer.com",
+      "ownership": "Privately held; a growth round led by M&G in 2024",
+      "website": "https://submer.com/",
       "productLines": [
         {
           "name": "SmartPod EXO",
@@ -1508,7 +1608,7 @@
         },
         {
           "year": "2024",
-          "text": "Closed a $55.5M all-equity growth round led by M&G with Planet First Partners participating; launched SmartPod EXO the same year",
+          "text": "Launched the SmartPod EXO immersion pod in 2024, as announced in the company's release of that year.",
           "source": "https://submer.com/blog/press/growth-round-for-greener-ai-factories-and-datacenters"
         }
       ],
@@ -1521,6 +1621,10 @@
         {
           "q": "How much immersion cooling has Submer deployed?",
           "a": "The company states it surpassed 500 MW of liquid-cooled infrastructure deployed in 2025, its tenth year, and presented multi-GW full-chain case studies with CleanSpark among its North American partners."
+        },
+        {
+          "q": "What did Submer add to its business in 2025?",
+          "a": "It expanded into data center design and build services under the Rubix name, the year it surpassed 500 MW of liquid-cooled infrastructure deployed."
         }
       ]
     },
@@ -1534,7 +1638,7 @@
       "hq": "Austin, Texas, USA",
       "founded": 2009,
       "ownership": "Private (Samsung Ventures invested in 2025)",
-      "website": "https://www.grcooling.com",
+      "website": "https://grcooling.com/",
       "productLines": [
         {
           "name": "ICEraQ (SX / Flex / Micro)",
@@ -1577,6 +1681,10 @@
         {
           "q": "Does GRC also make direct-to-chip products?",
           "a": "Yes — since November 2025: the ReliaSys IR500 CDU delivers up to 500 kW for direct liquid cooling and rear-door heat exchangers."
+        },
+        {
+          "q": "What did GRC announce with UNICOM Engineering in 2026?",
+          "a": "Fully integrated immersion-cooled AI solutions for evaluation, deployment and industrial-scale adoption."
         }
       ]
     },
@@ -1584,14 +1692,13 @@
       "slug": "baltimore-aircoil",
       "name": "Baltimore Aircoil (BAC)",
       "segments": [
-        "heat-rejection",
-        "immersion"
+        "heat-rejection"
       ],
       "tagline": "Heat rejection for liquid-cooled data centers — cooling towers, hybrid and dry coolers — plus the COBALT single-phase immersion system.",
       "hq": "Jessup, Maryland, USA",
       "founded": 1938,
       "ownership": "Wholly owned subsidiary of Amsted Industries (since 1985)",
-      "website": "https://baltimoreaircoil.com",
+      "website": "https://www.baltimoreaircoil.com/",
       "productLines": [
         {
           "name": "TrilliumSeries Dry Cooler",
@@ -1640,6 +1747,10 @@
         {
           "q": "Are BAC immersion tanks certified?",
           "a": "Yes — the CorTex tank was certified (Dec 2025) under the Intel Data Center Certified Solution for Immersion Cooling program for 4th/5th-gen Xeon, a program developed with Intel, ExxonMobil, Hypertec and Micron."
+        },
+        {
+          "q": "What did Baltimore Aircoil launch in 2025?",
+          "a": "Upgraded CorTex-powered immersion tanks in 16, 32, 38 and 48RU sizes (9 October 2025), the indoor half of its COBALT system."
         }
       ]
     },
@@ -1653,7 +1764,7 @@
       "hq": "Taneytown, Maryland, USA",
       "founded": 1976,
       "ownership": "Private (employee-owned since 1984)",
-      "website": "https://www.evapco.com",
+      "website": "https://www.evapco.com/",
       "productLines": [
         {
           "name": "eco-Air Series APEX (EAW-HD)",
@@ -1697,6 +1808,14 @@
         {
           "q": "What does EVAPCO offer for water-free data center heat rejection?",
           "a": "The eco-Air dry cooler line — including the APEX series (introduced Feb 2026, EVAPCO's largest factory-assembled CTI-certified dry cooler) and the Titan adiabatic cooler (2025, fans up to 36 ft) — plus Eco-ATWB-H hybrid units that blend dry and evaporative operation."
+        },
+        {
+          "q": "What did EVAPCO introduce in 2026?",
+          "a": "The eco-Air Series APEX (February 2026), which the company calls its largest factory-assembled, CTI-certified dry cooler for high-density, mission-critical data centers."
+        },
+        {
+          "q": "What did EVAPCO unveil at AHR Expo 2025?",
+          "a": "The eco-Air Titan, for large-scale heat rejection, together with an announced production expansion in the US, Belgium and China."
         }
       ]
     },
@@ -1710,7 +1829,7 @@
       "hq": "Lund, Sweden",
       "founded": 1883,
       "ownership": "STO: ALFA",
-      "website": "https://www.alfalaval.com",
+      "website": "https://www.alfalaval.com/",
       "productLines": [
         {
           "name": "Brazed plate heat exchangers",
@@ -1759,6 +1878,10 @@
         {
           "q": "Is Alfa Laval involved in OCP?",
           "a": "Yes — a Platinum member of the Open Compute Project Foundation since 2023."
+        },
+        {
+          "q": "What did Alfa Laval announce with Boyd in 2024?",
+          "a": "A collaboration on a direct-to-chip liquid cooling system for ultra-high-density AI and HPC racks."
         }
       ]
     },
@@ -1773,7 +1896,7 @@
       "hq": "Rueil-Malmaison, France",
       "founded": 1836,
       "ownership": "Euronext Paris: SU (Schneider Electric SE)",
-      "website": "https://www.se.com",
+      "website": "https://www.se.com/",
       "productLines": [
         {
           "name": "EcoStruxure liquid cooling portfolio (with Motivair)",
@@ -1799,7 +1922,7 @@
         },
         {
           "year": "2025",
-          "text": "Closed the controlling-stake Motivair acquisition in February 2025 (75% for ~$850M announced Oct 2024, remainder to follow); announced integrated power+cooling-controls reference designs for GB300 NVL72 (Sept 18)",
+          "text": "Closed the controlling-stake Motivair acquisition in February 2025 (75%, announced Oct 2024, remainder to follow); announced integrated power+cooling-controls reference designs for GB300 NVL72 (Sept 18)",
           "source": "https://www.se.com/us/en/about-us/newsroom/news/press-releases/schneider-electric-announces-new-reference-designs-featuring-integrated-power-management-and-liquid-cooling-controls-supporting-nvidia-mission-control-and-nvidia-gb300-nvl72-68ca8fdd5e6c6f9d3a096133"
         }
       ],
@@ -1807,11 +1930,15 @@
       "faq": [
         {
           "q": "What did Schneider Electric buy from Motivair?",
-          "a": "A ~75% controlling stake for ~$850M cash (announced Oct 2024, closed February 2025), with the remainder expected by 2028 — Motivair now operates as 'Motivair by Schneider Electric'."
+          "a": "A ~75% controlling stake (announced Oct 2024, closed February 2025), with the remainder expected by 2028 — Motivair now operates as 'Motivair by Schneider Electric'."
         },
         {
           "q": "What liquid cooling does Schneider offer?",
           "a": "An end-to-end EcoStruxure portfolio built around Motivair: CDUs 105 kW-2.5 MW, ChilledDoor 75 kW rear-door heat exchangers, a 100 kW liquid-to-air HDU, dynamic cold plates, chillers and controls — plus NVIDIA co-developed AI factory reference designs up to ~227 kW per rack."
+        },
+        {
+          "q": "When did Schneider unveil its end-to-end liquid cooling portfolio?",
+          "a": "On 29 September 2025, with Motivair: CDUs from 105 kW to 2.5 MW, ChilledDoor rear-door heat exchangers, a liquid-to-air HDU and controls."
         }
       ]
     },
@@ -1825,7 +1952,7 @@
       "hq": "Hamburg, Germany",
       "founded": 1947,
       "ownership": "Private, family-owned STULZ Group",
-      "website": "https://www.stulz.com",
+      "website": "https://www.stulz.com/",
       "productLines": [
         {
           "name": "CyberCool CDU",
@@ -1869,6 +1996,10 @@
         {
           "q": "Was the STULZ-CoolIT liquid-cooled micro DC the first of its kind?",
           "a": "The partners marketed their 2017 Micro DC as the first 'Chip-to-Atmosphere' offering: CoolIT Rack DCLC cold plates captured 60-80% of server heat while a STULZ precision-cooling unit handled the remainder in a 48U rack scalable beyond 80 kW."
+        },
+        {
+          "q": "What did STULZ introduce in 2025?",
+          "a": "Its Deschutes CDU was listed OCP Accepted (built to Google's Project Deschutes 5.0 specification: 2 MW at 3 °C, 500 GPM), and it introduced the CyberRack SideCooler for high-density edge racks in September 2025."
         }
       ]
     },
@@ -1878,7 +2009,7 @@
       "segments": [
         "solutions"
       ],
-      "tagline": "Beijing-listed, Sugon-affiliated full-stack liquid cooling provider — immersion phase-change (C8000), cold-plate (C7000), CDU/manifold components and modular data centers; first to commercialize immersion phase-change cooling at scale in China.",
+      "tagline": "Beijing-listed, Sugon-affiliated full-stack liquid cooling provider — immersion phase-change (C8000), cold-plate (C7000), CDU/manifold components and modular data centers; it describes itself as the first to commercialize immersion phase-change cooling at scale in China.",
       "hq": "Beijing (Haidian District), China",
       "founded": 2002,
       "ownership": "BSE: 920808 (IPO November 2022, originally listed as 872808)",
@@ -1908,7 +2039,7 @@
       "facts": [
         {
           "year": "2026",
-          "text": "China's first national data center liquid cooling standard, GB/T 48023-2026 (Technical Specification for Cold-Plate Liquid Cooling Systems in Data Centers), released July 2026 with Sugon DataEnergy as chief drafting unit — effective February 1, 2027",
+          "text": "Described by the company as China's first national data center liquid cooling standard, GB/T 48023-2026 (Technical Specification for Cold-Plate Liquid Cooling Systems in Data Centers), released July 2026 with Sugon DataEnergy as chief drafting unit — effective February 1, 2027",
           "source": "https://www.sugon.com/product/storage/news_detail/2999?cate_p_id="
         },
         {
@@ -1930,6 +2061,10 @@
         {
           "q": "Did Sugon DataEnergy write China's liquid cooling standard?",
           "a": "It was chief drafting unit of GB/T 48023-2026 — China's first national standard for cold-plate liquid cooling systems in data centers, released July 2026 and effective February 1, 2027."
+        },
+        {
+          "q": "When does the national cold-plate liquid cooling standard take effect?",
+          "a": "GB/T 48023-2026, the technical specification for cold-plate liquid cooling systems in data centers, was released in July 2026 with Sugon DataEnergy as chief drafting unit and takes effect on 1 February 2027."
         }
       ]
     },
@@ -2300,7 +2435,7 @@
         },
         {
           "year": "2026",
-          "text": "Chunqiu Electronics completed its full tender offer for Nasdaq Copenhagen-listed Asetek A/S: accepts representing 95.3 percent of shares (303,298,827 shares) were received by April 13, 2026, settlement occurred on April 21, 2026, compulsory acquisition of remaining shares followed, and delisting was approved. The offer price was DKK 1.72 per share, with total consideration capped at DKK 547,371,523.76.",
+          "text": "Chunqiu Electronics completed its full tender offer for Nasdaq Copenhagen-listed Asetek A/S: accepts representing 95.3 percent of shares (303,298,827 shares) were received by April 13, 2026, settlement occurred on April 21, 2026, compulsory acquisition of remaining shares followed, and delisting was approved.",
           "source": "https://static.cninfo.com.cn/finalpage/2026-06-02/1225343204.PDF"
         },
         {
@@ -2316,7 +2451,7 @@
         },
         {
           "q": "How did the Asetek acquisition proceed?",
-          "a": "Chunqiu Electronics announced a voluntary cash offer in November 2025 through its Singapore subsidiary CQXA Holdings Pte. Ltd. at DKK 1.72 per share, capped at DKK 547,371,523.76 in total. Accepts reached 95.3 percent of shares by April 13, 2026, settlement was completed on April 21, 2026, followed by compulsory acquisition of remaining shares and delisting from Nasdaq Copenhagen."
+          "a": "Chunqiu Electronics announced a voluntary cash offer in November 2025 through its Singapore subsidiary CQXA Holdings Pte. Ltd. Accepts reached 95.3 percent of shares by April 13, 2026, settlement was completed on April 21, 2026, followed by compulsory acquisition of remaining shares and delisting from Nasdaq Copenhagen."
         },
         {
           "q": "What are Asetek liquid cooling specifications?",
@@ -2957,8 +3092,8 @@
       "slug": "fujitsu",
       "name": "Fujitsu",
       "segments": [
-        "servers",
-        "cdus"
+        "cdus",
+        "servers"
       ],
       "tagline": "Japanese ICT group whose data-center liquid cooling spans FSAS Technologies' Cool-Safe single-phase direct-to-chip systems for PRIMERGY servers (CDU up to 80 kW), the PRIMERGY liquid immersion cooling system, and Fujitsu monitoring/control software for liquid-cooled servers and CDUs developed with Supermicro and Nidec.",
       "hq": "Kawasaki, Kanagawa, Japan",
@@ -2973,7 +3108,7 @@
         },
         {
           "name": "PRIMERGY Liquid Immersion Cooling System",
-          "note": "Servers fully submerged in a non-conductive, electrically insulating dielectric fluid; a CDU circulates the fluid and transfers heat to coolant water. Fujitsu cites about 40% lower total server-system power versus air cooling and a measured PUE of 1.07; available in Japan since end of November 2018, priced from JPY 20 million excluding ICT hardware.",
+          "note": "Servers fully submerged in a non-conductive, electrically insulating dielectric fluid; a CDU circulates the fluid and transfers heat to coolant water. Fujitsu cites about 40% lower total server-system power versus air cooling and a measured PUE of 1.07; available in Japan since end of November 2018.",
           "source": "https://info.archives.global.fujitsu/global/about/resources/news/press-releases/2018/0906-01.html"
         },
         {
@@ -3143,7 +3278,7 @@
         },
         {
           "q": "Is Kaori expanding capacity?",
-          "a": "Yes. On June 23, 2026 Kaori announced breaking ground on an NT$3.25 billion facility in Qiaotou, with production targeted by 2027."
+          "a": "Yes. On June 23, 2026 Kaori announced breaking ground on a new facility in Qiaotou, with production targeted by 2027."
         }
       ]
     },
@@ -7749,7 +7884,7 @@
       "segments": [
         "servers"
       ],
-      "tagline": "European supercomputer maker whose BullSequana platforms rely on direct liquid cooling: the XH3500, unveiled November 2025, is 100% fanless with 40 °C warm-water facility supply and heat-reuse support, and the XH3000 architecture underlies JUPITER, Europe's first exascale system at Juelich.",
+      "tagline": "European supercomputer maker whose BullSequana platforms rely on direct liquid cooling: the XH3500, unveiled November 2025, is 100% fanless with 40 °C warm-water facility supply and heat-reuse support, and the XH3000 architecture underlies JUPITER at Juelich, described by EuroHPC JU as Europe's first exascale system.",
       "hq": "NOT_FOUND",
       "founded": "NOT_FOUND",
       "ownership": "Part of Atos Group - Eviden is the Atos Group brand for hardware and software products (Eviden SAS)",
@@ -10983,10 +11118,10 @@
       "slug": "sudlows",
       "name": "Sudlows",
       "segments": [
-        "solutions",
-        "integrators"
+        "integrators",
+        "solutions"
       ],
-      "tagline": "UK data centre design and build firm founded in 2014 and headquartered in Manchester, with over 100 data centre projects across 20 countries; delivery partner for NTT's first production liquid immersion and direct contact liquid cooling deployment in India. Kent plc acquired Sudlows Consulting in February 2025.",
+      "tagline": "UK data centre design and build firm founded in 2014 and headquartered in Manchester, with over 100 data centre projects across 20 countries; delivery partner for what NTT described as its first production deployment of liquid immersion and direct contact liquid cooling, in India. Kent plc acquired Sudlows Consulting in February 2025.",
       "hq": "Manchester, United Kingdom",
       "founded": 2014,
       "ownership": "Kent plc acquired Sudlows Consulting on 25 February 2025 and presents its heritage under the Kent Data Centres brand",
@@ -15813,6 +15948,1863 @@
         {
           "q": "Is Certone listed?",
           "a": "Its own announcement says it joined the Emerging Stock Market, with Grand Fortune Securities as the recommending securities firm; the page gives no date."
+        }
+      ]
+    },
+    {
+      "slug": "allied",
+      "name": "Allied",
+      "segments": [
+        "materials",
+        "cold-plates"
+      ],
+      "tagline": "Shanghai Allied Industrial Group Co., Ltd. (Allied) is a Shanghai-based supplier of components for communications equipment whose electronics heat-dissipation products include liquid-cooling devices - heat pipes, vapor chambers and water cooling plates - with data centers listed among their application fields.",
+      "hq": "Shanghai, China",
+      "founded": 2004,
+      "ownership": "Listed on the Shenzhen Stock Exchange (301419)",
+      "website": "https://www.allied-corp.com",
+      "productLines": [
+        {
+          "name": "Water cooling plates",
+          "note": "Liquid cooling plates with multiple internal water channels that transfer heat to water, for high-power, high-temperature equipment; data centers are listed among the application scenarios.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "name": "Vapor chambers",
+          "note": "Two-phase devices in which phase-change liquid cycles inside a cavity, giving fast temperature leveling, heat conduction and heat spreading; applications include data centers.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "name": "Heat pipes",
+          "note": "Two-phase heat transfer elements that move heat away from hot electronics; application scenarios include data centers.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "name": "Thermal interface materials (TPAD, TGEL, TGRE, TPCM series)",
+          "note": "Thermal pads, gels, greases and phase-change materials listed on the company website.",
+          "source": "https://www.allied-corp.com"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In its 2025 semi-annual report (published 29 August 2025), Allied lists liquid-cooling heat dissipation devices - heat pipes, vapor chambers and water cooling plates - among its main products, with data centers named among the application scenarios.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The same report states that the company is expanding into data center and AI application tracks and has received volume orders from customers it describes as industry-leading.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The report describes a high-K thermal gel with thermal conductivity up to 12 W/(m·K) applied at key heat points such as laser chips, optical engines and driver ICs inside high-speed optical modules.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-29/1224601746.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Allied make?",
+          "a": "Its 2025 semi-annual report lists liquid-cooling heat dissipation devices: heat pipes, vapor chambers and water cooling plates, with data centers among the application scenarios."
+        },
+        {
+          "q": "Where is Allied headquartered and listed?",
+          "a": "The 2025 semi-annual report gives the registered office in Fengxian, Shanghai, and lists the stock (code 301419) on the Shenzhen Stock Exchange."
+        },
+        {
+          "q": "When was the company founded?",
+          "a": "The company website states it was founded in June 2004 in Shanghai."
+        },
+        {
+          "q": "What thermal materials does Allied offer?",
+          "a": "The website lists thermal pad (TPAD), thermal gel (TGEL), thermal grease (TGRE) and phase-change material (TPCM) series."
+        }
+      ]
+    },
+    {
+      "slug": "jiangnan-copper",
+      "name": "Jiangnan Copper",
+      "segments": [
+        "materials",
+        "cold-plates"
+      ],
+      "tagline": "Jiangxi Jiangnan New Material Technology Co., Ltd. (website: Jiangnan Copper) produces copper-based new materials in Yingtan, Jiangxi, China. Its liquid-cooling product is a copper liquid-cooling substrate, described as a customized micro-channel cold plate, for high-compute data centers, AI servers and high-density heat sources.",
+      "hq": "Yingtan, Jiangxi, China",
+      "founded": 2007,
+      "ownership": "Listed on the Shanghai Stock Exchange (603124)",
+      "website": "https://www.jiangnancopper.com",
+      "productLines": [
+        {
+          "name": "Liquid cooling heat dissipation substrate (customized micro-channel cold plate)",
+          "note": "Copper-based precision component with internal micro-channel fluid micro-structure processing and ultra-precision welding; electroplating thickness tolerance controllable within plus or minus 1.5 microns; targets high-compute data centers, AI servers and high-density heat sources.",
+          "source": "https://www.jiangnancopper.com/product/15"
+        },
+        {
+          "name": "High-precision copper-based heat dissipation sheet",
+          "note": "Copper sheet series stated in the company's 2026 placement prospectus as mainly applied in AI server liquid cooling, PCB embedded heat dissipation processes and power semiconductor heat dissipation.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-11-06/1225658871.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its A-share placement prospectus published 6 November 2026, the company states that copper-based materials are key raw materials for liquid-cooling heat dissipation systems and that its high-precision copper-based heat dissipation sheets are mainly applied in AI server liquid cooling.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-11-06/1225658871.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The same prospectus lists a liquid-cooling heat-dissipation module and components construction project among the planned uses of the placement proceeds.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-11-06/1225658871.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling parts does Jiangnan Copper make?",
+          "a": "Its product page lists a copper liquid-cooling heat dissipation substrate, described as a customized micro-channel cold plate with internal micro-channel processing, ultra-precision welding and electroplating thickness tolerance within plus or minus 1.5 microns, aimed at high-compute data centers and AI servers."
+        },
+        {
+          "q": "Where is the company based and listed?",
+          "a": "The 2026 prospectus gives the registered and office address in Yingtan Industrial Park, Yuehu District, Yingtan, Jiangxi, and lists the A shares on the Shanghai Stock Exchange under code 603124."
+        },
+        {
+          "q": "When was the company founded?",
+          "a": "The prospectus states the limited company was established on 26 July 2007 (converted to a joint-stock company on 23 November 2020)."
+        },
+        {
+          "q": "What does the company say about liquid cooling in its filings?",
+          "a": "The 6 November 2026 prospectus describes copper as a key raw material for liquid-cooling systems, names AI server liquid cooling as a main application of its copper heat dissipation sheets, and lists a liquid-cooling module and components construction project among planned uses of proceeds."
+        }
+      ]
+    },
+    {
+      "slug": "jones-tech",
+      "name": "Jones Tech",
+      "segments": [
+        "materials",
+        "cold-plates"
+      ],
+      "tagline": "Jones Tech Plc is a Beijing-based thermal management company whose liquid-cooling products are liquid cooling modules for servers, switches, power supplies, optical communication and industrial equipment, suited to AI compute and data centers, supported by thermal interface materials and vapor chambers.",
+      "hq": "Beijing, China",
+      "founded": 1997,
+      "ownership": "Listed on the Shenzhen Stock Exchange ChiNext board (300684)",
+      "website": "https://www.jones-corp.com",
+      "productLines": [
+        {
+          "name": "Liquid cooling modules",
+          "note": "Server liquid cooling modules, switch liquid cooling modules, power supply liquid cooling modules, optical communication liquid cooling modules, industrial equipment liquid cooling modules and other customized liquid cooling modules; stated features are high cooling efficiency, high heat-flux density and stable operation for servers, switches",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        },
+        {
+          "name": "Vapor chambers (VC)",
+          "note": "Standard, thin and 3D vapor chambers listed among the company's main products in the 2025 annual report.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        },
+        {
+          "name": "Thermal interface materials with liquid cooling plates",
+          "note": "The 2025 annual report describes an integrated high-performance thermal materials plus liquid cooling plate solution for AI servers, and volume supply of thermal module core parts, TIM materials and liquid cooling modules to server and data center customers.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its 2025 annual report (published 29 April 2026), Jones Tech states that in server liquid cooling it is increasing R&D, customer development and capacity, with customer introduction, product certification and volume supply of liquid cooling modules and core materials accelerating.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The same report describes an integrated high-performance thermal materials plus liquid cooling plate solution aimed at AI servers, covering thermal design, simulation verification and volume production.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The report states the company completed the acquisition and integration of liquid-cooling company Zhongshi Xunleng, buying a 51 percent stake through a capital increase by its Yixing subsidiary, with consolidation from December 2025 and liquid cooling products rapidly reaching volume delivery afterwards.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225239191.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Jones Tech supply?",
+          "a": "Its 2025 annual report lists liquid cooling modules for servers, switches, power supplies, optical communication and industrial equipment, plus customized variants, and an integrated thermal materials plus liquid cooling plate solution for AI servers."
+        },
+        {
+          "q": "What liquid-cooling acquisition did Jones Tech make?",
+          "a": "The 2025 annual report states it completed the acquisition and integration of Zhongshi Xunleng, taking a 51 percent stake via a capital increase, consolidated from December 2025, after which liquid cooling products rapidly reached volume delivery."
+        },
+        {
+          "q": "Where is Jones Tech headquartered and listed?",
+          "a": "The 2025 annual report gives the registered office at No. 3 East Ring Middle Road, Beijing Economic-Technological Development Area, and lists the stock on the Shenzhen Stock Exchange ChiNext board, code 300684."
+        },
+        {
+          "q": "When was the company founded?",
+          "a": "The business registration reproduced in the 2025 annual report gives a business term starting 10 April 1997."
+        }
+      ]
+    },
+    {
+      "slug": "huafon-aluminium",
+      "name": "Huafon Aluminium",
+      "segments": [
+        "materials"
+      ],
+      "tagline": "Shanghai Huafon Aluminium Corporation rolls aluminum alloy sheet, strip and foil for heat-transfer uses; its product page names data center thermal management systems among the application fields, and its 2025 semi-annual report names composite water cooling plate and pre-embedded brazing flux materials as strategic new products.",
+      "hq": "Shanghai, China",
+      "founded": 2008,
+      "ownership": "Listed on the Shanghai Stock Exchange (601702)",
+      "website": "https://www.huafeng.com",
+      "productLines": [
+        {
+          "name": "Aluminum heat exchange materials",
+          "note": "Aluminum alloy sheet, strip and foil with thickness from 0.008 mm to 4.0 mm and yield strength from 20 MPa to over 200 MPa; stated application fields include heat exchangers and data center thermal management systems and 5G base station thermal management systems.",
+          "source": "https://www.huafeng.com/product/8.html"
+        },
+        {
+          "name": "CTB water cooling plate with pre-embedded brazing flux",
+          "note": "Water cooling plate and pre-embedded brazing flux materials listed as a related new product on the company's aluminum heat transfer materials page and named strategic new products in its 2025 semi-annual report.",
+          "source": "https://www.huafeng.com/product/8.html"
+        },
+        {
+          "name": "Wide high-strength corrosion-resistant composite water cooling plate materials",
+          "note": "Named by the company in its 2025 semi-annual report as strategic new products it keeps developing through process-route optimization and formulation upgrades.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224501951.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In its 2025 semi-annual report (published 19 August 2025), Huafon Aluminium names wide high-strength corrosion-resistant composite water cooling plate and pre-embedded brazing flux materials as representative strategic new products, and states it is stepping up development of application materials for emerging fields including compute.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224501951.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The same report describes the company's main products as aluminum alloy sheet, strip and foil materials for heat-transfer applications, used in heat exchange systems and for making components including water cooling plates.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-08-19/1224501951.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Huafon Aluminium supply for data-center cooling?",
+          "a": "Its aluminum heat exchange materials page names data center thermal management systems and 5G base station thermal management systems among the application fields for its aluminum alloy sheet, strip and foil (thickness 0.008 mm to 4.0 mm)."
+        },
+        {
+          "q": "Where is Huafon Aluminium based and listed?",
+          "a": "The 2025 semi-annual report gives the registered office at 1111 Yuegong Road, Jinshan District, Shanghai, and lists the A shares on the Shanghai Stock Exchange (code 601702), listed in September 2020."
+        },
+        {
+          "q": "When was the company founded?",
+          "a": "The 2025 semi-annual report states the company was established on 10 July 2008."
+        },
+        {
+          "q": "What water cooling plate materials does it develop?",
+          "a": "The 2025 semi-annual report names wide high-strength corrosion-resistant composite water cooling plate and pre-embedded brazing flux materials as strategic new products, with application materials for compute among the emerging fields under development."
+        }
+      ]
+    },
+    {
+      "slug": "yonggui",
+      "name": "Yonggui",
+      "segments": [
+        "cold-plates",
+        "interconnects"
+      ],
+      "tagline": "Yonggui (Zhejiang Yonggui Electric; a name change to Yonggui Intelligent Technology was announced in November 2026) makes connectors and connector assemblies. Its data-center products include high-speed backplane connectors, liquid cooling connectors, liquid cooling plate assemblies and rack-end power distribution connectors.",
+      "hq": "Tiantai, Zhejiang, China",
+      "founded": 1973,
+      "ownership": "Listed on the Shenzhen Stock Exchange (300351)",
+      "website": "https://www.yonggui.com",
+      "productLines": [
+        {
+          "name": "Liquid cooling connectors",
+          "note": "Listed among the company's data-center products in its July 2026 investor relations activity record.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        },
+        {
+          "name": "Liquid cooling plate assemblies",
+          "note": "Listed among the company's data-center products in the same record.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        },
+        {
+          "name": "High-speed backplane connectors and rack-end power distribution connectors",
+          "note": "Data-center interconnect and end-of-rack power distribution connector products listed in the same record.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        },
+        {
+          "name": "High-power liquid-cooled DC charging gun",
+          "note": "Charging product listed in the vehicle and energy information segment of the same record.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In an investor relations activity record dated 15 July 2026 (published 16 July 2026), Yonggui lists its data-center products as high-speed backplane connectors, liquid cooling connectors, liquid cooling plate assemblies and data center rack-end power distribution connectors.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "In the same record the company states that among new-industry layouts, liquid-cooled servers are its main current investment direction, with a dedicated team tracking projects and the new business still in its investment phase.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-07-16/1225428444.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Yonggui offer for data centers?",
+          "a": "Its 15 July 2026 investor relations record lists liquid cooling connectors and liquid cooling plate assemblies, alongside high-speed backplane connectors and data center rack-end power distribution connectors."
+        },
+        {
+          "q": "How does the company describe its liquid-cooling strategy?",
+          "a": "The same record states that among emerging-industry layouts, liquid-cooled servers are the main current investment direction, with projects tracked by a dedicated team while the new business is still in its investment phase."
+        },
+        {
+          "q": "Where is Yonggui based, and where are its shares listed?",
+          "a": "The company website states it was founded in 1973 and is headquartered in Tiantai, Zhejiang, and listed on the Shenzhen Stock Exchange in 2012; its filings carry stock code 300351."
+        },
+        {
+          "q": "Has the company changed its name?",
+          "a": "The company website announced on 24 November 2026 a change from Zhejiang Yonggui Electric Co., Ltd. to Yonggui Intelligent Technology Co., Ltd."
+        }
+      ]
+    },
+    {
+      "slug": "yinlun",
+      "name": "Yinlun",
+      "segments": [
+        "cold-plates",
+        "cdus",
+        "heat-rejection"
+      ],
+      "tagline": "Yinlun, a thermal management company in Tiantai, Zhejiang, China, positions itself as a core component supplier for data-center liquid cooling modules: primary-side cooling towers, dry coolers and chiller plate heat exchangers, and secondary-side CDU plate heat exchangers and server chip cold plates.",
+      "hq": "Tiantai, Zhejiang, China",
+      "founded": 1958,
+      "ownership": "Listed on the Shenzhen Stock Exchange (002126)",
+      "website": "https://www.yinlun.cn",
+      "productLines": [
+        {
+          "name": "CDU plate heat exchangers (secondary side)",
+          "note": "Brazed stainless steel plate heat exchangers covering In rack and In Row scenarios with product power from 50 kW to 1500 kW, stated to adapt to all existing full-power-range CDU systems; the company also supplies plate heat exchangers for 50-300RT magnetic-levitation compressor chiller units on the primary side.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "name": "Server chip cold plates",
+          "note": "Data center cold plates using an iterated skived-fin process that raises effective heat exchange area by 40 percent at equal heat exchange volume, with manifold flow-equalizing structures and diffusion bonding for high-flow conditions.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "name": "Cooling towers and dry coolers",
+          "note": "Closed cooling towers, open cooling towers and dry coolers with power range 60 kW and above, with free cooling integration and overseas delivery capability for large projects.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "name": "Next-generation cold plates (in development)",
+          "note": "For 3 nm and below high-compute chips: micro-scale 3D stacked flow channel designs and diamond-copper composite heat spreading bodies, stated to cut overall thermal resistance by more than 30 percent.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its 2026 semi-annual report summary (published 27 August 2026), Yinlun states its positioning in the data-center liquid cooling industry as a core component supplier for liquid cooling modules, focusing on primary-side cooling towers, dry coolers and chiller plate heat exchangers and secondary-side CDU plate heat exchangers and server chip cold plates, with more than 70 digital and energy projects in progress at period end.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report states that in the first half of 2026 the plate heat exchanger business won 5 projects from 5 North American customers and 7 projects from 4 Taiwan-based customers, that the HVAC plate heat exchanger lines had built annual capacity of over 500,000 units, and that the first data-center large plate heat exchanger line with annual output of 15,000 units is expected to be built and running in the fourth quarter of 2026.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report states the company completed an iteration of the skived-fin process for data center cold plates, raising effective heat exchange area by 40 percent at equal volume, and in the first half of 2026 won 9 cold plate projects from one Taiwan-based customer and 2 projects from 2 domestic customers.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "For cooling towers and dry coolers (60 kW and above), the report states the company advanced more than 10 new cooperation projects with data center solution providers in the period, with one Taiwan-based customer completing solution certification and supply expected in the second half of 2026.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225513743.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Yinlun's role in data-center liquid cooling?",
+          "a": "Its 2026 semi-annual report summary positions the company as a core component supplier for liquid cooling modules, serving global liquid cooling module customers with primary-side cooling towers, dry coolers and chiller plate heat exchangers plus secondary-side CDU plate heat exchangers and server chip cold plates."
+        },
+        {
+          "q": "What power range do its CDU plate heat exchangers cover?",
+          "a": "The report states its In rack and In Row plate heat exchangers cover 50 kW to 1500 kW and adapt to existing full-power-range CDU systems, with chiller plate heat exchangers matching 50-300RT magnetic-levitation units."
+        },
+        {
+          "q": "What capacity is being built for data centers?",
+          "a": "The report says HVAC plate heat exchanger capacity already exceeds 500,000 units per year and the first large plate heat exchanger line for data centers, 15,000 units per year, is expected to run from the fourth quarter of 2026."
+        },
+        {
+          "q": "Where is Yinlun based and when was it founded?",
+          "a": "The company and website place it at 8 Shifeng East Road, Fuxi Street, Tiantai County, Zhejiang; the website says it was founded in 1958, and its shares trade on the Shenzhen Stock Exchange (code 002126)."
+        }
+      ]
+    },
+    {
+      "slug": "dingtong",
+      "name": "Dingtong",
+      "segments": [
+        "cold-plates",
+        "interconnects"
+      ],
+      "tagline": "Dongguan DingTong Precision Metal Co., Ltd. builds high-speed communication connector assemblies including liquid cooling heat sinks (liquid-cooled connector cage modules) applied in servers, large data centers and base stations; it reports small-batch delivery after customer certification in the first half of 2025.",
+      "hq": "Dongguan, Guangdong, China",
+      "founded": 2003,
+      "ownership": "Listed on the Shanghai Stock Exchange STAR Market (688668)",
+      "website": "https://www.dingtong.net.cn",
+      "productLines": [
+        {
+          "name": "Liquid cooling heat sinks for communication connectors",
+          "note": "Included among high-speed communication connector components (backplane connectors, I/O connectors, copper cable connectors, heat sinks, liquid cooling heat sinks) applied in servers, large data centers and base stations; the report names major connector makers among customers.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        },
+        {
+          "name": "Liquid cooling heat sink combination module (in development)",
+          "note": "R&D targets stated in the 2025 semi-annual report: heat conduction efficiency of at least 5000 W per square meter per kelvin for a single module, system heat dissipation capacity of at least 20 kW for a combined module, pump power no more than 50 W at full load, temperature control precision of plus or minus 0.5 degrees C, joining of 8 or more modules",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        },
+        {
+          "name": "Battery management module water cooling plate (R&D project)",
+          "note": "Automotive project stated in the same report: use environment -40 to 120 degrees C with maximum 180 degrees C, heat source working temperature 50 plus or minus 1 degree C, power devices from 300 W to 10 kW.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In its 2025 semi-annual report (published 31 July 2025), Dingtong states that its liquid cooling heat sink gained customer recognition in the second quarter of 2025 and began small-batch shipment.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The same report states the company has been developing liquid cooling products since 2023 and obtained customer certification with small-batch delivery in the first half of 2025, working with customers on heat dissipation and shielding performance.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The report lists an R&D project for a liquid cooling heat sink combination module with targets including system heat dissipation capacity of at least 20 kW per combined module and heat conduction efficiency of at least 5000 W per square meter per kelvin for a single module.",
+          "source": "http://static.cninfo.com.cn/finalpage/2025-07-31/1224342166.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Dingtong make?",
+          "a": "Its 2025 semi-annual report lists liquid cooling heat sinks among its high-speed communication connector products for servers, large data centers and base stations, with a liquid cooling heat sink combination module in development."
+        },
+        {
+          "q": "When did liquid cooling shipment start?",
+          "a": "The report states the liquid cooling heat sink gained customer recognition in Q2 2025 and began small-batch shipment, after development work that started in 2023."
+        },
+        {
+          "q": "What are the targets of the combination module in development?",
+          "a": "At least 20 kW system heat dissipation per combined module, at least 5000 W per square meter per kelvin for a single module, pump power no more than 50 W, temperature control within plus or minus 0.5 degrees C, pressure rating of at least 1.5 MPa and joining of 8 or more modules."
+        },
+        {
+          "q": "Where is Dingtong based and listed?",
+          "a": "The company website and report give the address in Dongguan, Guangdong; the report lists the A shares on the Shanghai Stock Exchange STAR Market (code 688668) and the website states the company was founded in 2003."
+        }
+      ]
+    },
+    {
+      "slug": "jinfu-technology",
+      "name": "Jinfu Technology",
+      "segments": [
+        "cold-plates",
+        "interconnects"
+      ],
+      "tagline": "JinFu Technology Co., Ltd. of Dongguan, Guangdong, originally a beverage and food packaging maker, acquired majority stakes in two liquid-cooling parts makers in early 2026, adding cold plates, manifolds and liquid cooling flow piping for AI servers and communication servers under a dual packaging and liquid cooling strategy.",
+      "hq": "Dongguan, Guangdong, China",
+      "founded": 2001,
+      "ownership": "Listed on the Shenzhen Stock Exchange (003018)",
+      "website": "https://www.jinfu-group.com",
+      "productLines": [
+        {
+          "name": "Liquid cooling flow piping (Zhuohui Metal)",
+          "note": "Liquid cooling flow channel piping products: copper, stainless steel and aluminum liquid cooling piping components and accessories and bellows assemblies, from the company acquired in early 2026, named Zhuohui Metal in the annual report.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        },
+        {
+          "name": "Cold plates (Lianyi Thermal Energy)",
+          "note": "Cold plate products including water cooling head assemblies, stainless steel bellows, copper water cooling plates and memory module products, from the company acquired in early 2026, named Lianyi Thermal Energy in the annual report.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        },
+        {
+          "name": "Manifolds (Lianyi Thermal Energy)",
+          "note": "Water distribution manifolds developed and sold by the same acquired cold plate maker.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its 2025 annual report (published 9 April 2026), JinFu Technology states that in early 2026 it acquired 51 percent stakes in Zhuohui Metal and Lianyi Thermal Energy, entering server liquid cooling for AI servers and communication servers under a strategy of a stable packaging base plus a liquid cooling growth engine.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report describes the acquired businesses: Zhuohui Metal develops, produces and sells liquid cooling flow piping products (copper, stainless steel and aluminum liquid cooling piping components and accessories, bellows assemblies), while Lianyi Thermal Energy's business is cold plate products (water cooling head assemblies, stainless steel bellows, copper water cooling plates, memory module products) and manifolds.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report states the liquid cooling business will deliver orders for core customers named as AVC and two other electronics cooling makers, while building a dedicated liquid cooling operations segment with integrated R&D and sales after completing the post-acquisition integration.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086289.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How did Jinfu Technology enter liquid cooling?",
+          "a": "Its 2025 annual report (published 9 April 2026) states it acquired 51 percent stakes in Zhuohui Metal and Lianyi Thermal Energy in early 2026, adding liquid cooling flow piping, cold plates and manifolds for AI servers and communication servers."
+        },
+        {
+          "q": "What liquid-cooling parts do the acquired companies make?",
+          "a": "Per the report, Zhuohui Metal makes copper, stainless steel and aluminum liquid cooling piping components and bellows assemblies; Lianyi Thermal Energy makes water cooling head assemblies, copper water cooling plates, memory module products and manifolds."
+        },
+        {
+          "q": "Where is Jinfu Technology based and listed?",
+          "a": "The website and annual report place it in Dongguan, Guangdong; the shares have traded on the Shenzhen Stock Exchange (code 003018) since 6 November 2020."
+        },
+        {
+          "q": "What was the company's original business?",
+          "a": "The 2025 annual report describes its main business as packaging products for beverage and food applications, such as bottle caps for bottled water and carbonated drinks."
+        }
+      ]
+    },
+    {
+      "slug": "lingyi-itech",
+      "name": "Lingyi iTech",
+      "segments": [
+        "cold-plates",
+        "interconnects"
+      ],
+      "tagline": "Guangdong Lingyi iTech Manufacturing Co., Ltd. is a precision manufacturing company supplying AI-server liquid cooling hardware: liquid cooling plates, UQD/MQD quick disconnects, manifolds, optical module cold plates, single-phase and phase-change cooling modules, server VC and 3D VC vapor chambers and busbars",
+      "hq": "Shenzhen, Guangdong, China (office); registered in Jiangmen, Guangdong",
+      "founded": 2006,
+      "ownership": "Listed on the Shenzhen Stock Exchange (002600) and the Hong Kong Stock Exchange (01688)",
+      "website": "https://www.lingyiitech.com",
+      "productLines": [
+        {
+          "name": "Server liquid cooling plates",
+          "note": "Liquid cooling plate modules for GB200/GB300-class AI servers with 2700W to 3100W TDP cooling capability, low thermal resistance, for direct-contact GPU and CPU cooling.",
+          "source": "https://www.lingyiitech.com/ApplicationScenarios/info_itemid_217_lcid_16.html"
+        },
+        {
+          "name": "UQD/MQD liquid cooling quick disconnects",
+          "note": "Quick disconnects in straight, elbow and Mini forms; MQDB blind-mate variant compensating axial and radial offset.",
+          "source": "https://www.lingyiitech.com/ApplicationScenarios/info_itemid_217_lcid_16.html"
+        },
+        {
+          "name": "Rack and inner manifolds",
+          "note": "Rack manifold with dual parallel architecture and high-density blind-mate quick-connect arrays; tray inner manifold described as low thermal resistance, low pressure drop and zero leakage.",
+          "source": "https://www.lingyiitech.com/ApplicationScenarios/info_itemid_217_lcid_16.html"
+        },
+        {
+          "name": "Optical module cold plates and server vapor chambers",
+          "note": "Cold plates for high-speed optical communication modules; server VC and 3D VC vapor chambers and phase-change liquid cooling modules.",
+          "source": "https://www.lingyiitech.com/ApplicationScenarios/info_itemid_217_lcid_16.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its 2026 semi-annual report (announcement dated 29 August 2026) the company stated it had acquired Dongguan Readore Electronics Technology in January 2026, a core supplier to a leading North American computing customer whose products include server liquid-cooling quick disconnects (UQD), manifolds, single-phase and phase-change liquid cooling modules and server vapor chambers, with batch delivery of server liquid-cooling products.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-29/1225530315.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The semi-annual report lists the company's AI-server liquid cooling hardware as liquid cooling plates with 3100W TDP cooling capability, UQD/MQD quick disconnects in straight, elbow and Mini forms, manifolds and optical module liquid cooling plates, in continuous shipment.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-29/1225530315.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The report's AI computing hardware milestone list states that in 2025 the company began batch supply of heat-dissipation module products to AMD, following development of its multi-cavity heat-spreading element (Big MAC) in 2024.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-29/1225530315.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does Lingyi iTech offer?",
+          "a": "Server liquid cooling plates with up to 3100W TDP cooling capability, UQD and MQD quick disconnects, rack and inner manifolds, optical module cold plates, single-phase and phase-change liquid cooling modules, and server VC and 3D VC vapor chambers."
+        },
+        {
+          "q": "What is Readore?",
+          "a": "Dongguan Readore Electronics Technology, acquired in January 2026 according to the company's 2026 semi-annual report. Its products include server liquid-cooling quick disconnects, manifolds, cooling modules and vapor chambers, and it batch-delivers server liquid-cooling products to a leading North American computing customer and its supply chain."
+        },
+        {
+          "q": "Where is Lingyi iTech based and listed?",
+          "a": "The 2026 semi-annual report lists a registered address in Jiangmen, Guangdong and an office address in Shenzhen, Guangdong; its shares trade on the Shenzhen Stock Exchange (002600) and the Hong Kong Stock Exchange (01688)."
+        }
+      ]
+    },
+    {
+      "slug": "cotran",
+      "name": "Cotran",
+      "segments": [
+        "cold-plates"
+      ],
+      "tagline": "Shenzhen Cotran New Material Co., Ltd. is a sealing and thermal materials company whose heat-dissipation metal structural products include liquid cooling plates for data-center servers, new-energy vehicle batteries and energy storage systems; its data-center cooling parts business operates through subsidiary Chuangyuan Zhire.",
+      "hq": "Shenzhen, Guangdong, China",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the Shenzhen Stock Exchange (300731)",
+      "website": "https://www.cotran.com",
+      "productLines": [
+        {
+          "name": "Data-center server liquid cooling plates",
+          "note": "Liquid cooling plates for data-center servers, listed among the company's heat-dissipation metal structural products.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        },
+        {
+          "name": "Siphon-type special thermal modules",
+          "note": "Siphon-type special heat-dissipation modules for data centers, produced through subsidiary Chuangyuan Zhire.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        },
+        {
+          "name": "Liquid cooling plate manufacturing services",
+          "note": "Chuangyuan Zhire performs contract manufacturing on key liquid cooling plate processes; in the Taiwan region it uses collaborative manufacturing to enter supply chains it describes as leading, and in the mainland market it produces and sells its own output.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        },
+        {
+          "name": "Battery and storage liquid cooling plates",
+          "note": "High-frequency welded liquid cooling plates (also called large-surface or harmonica-tube plates) and brazed liquid cooling plates for vehicle battery and energy storage cooling, made mainly by subsidiary Ruistek.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In its 2025 semi-annual report (announcement dated 25 August 2025) Cotran stated it runs its data-center heat-dissipation structural parts business through subsidiary Chuangyuan Zhire, whose products include siphon-type special thermal modules and liquid cooling plates, with contract manufacturing underway on key liquid cooling plate processes and product certification progressing at some customers.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The same report lists liquid cooling plates for data-center servers among the company's main heat-dissipation metal structural products and states that the subsidiary was renamed from Dongguan Chuangyuan Zhire Technology to Shenzhen Chuangyuan Zhire Technology in August 2025.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        },
+        {
+          "year": "2025",
+          "text": "The report states that for the second half of 2025 the company planned to support data-center liquid cooling technology innovation and industrial application with funding, technology and staffing.",
+          "source": "https://static.cninfo.com.cn/finalpage/2025-08-25/1224557351.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What data-center cooling products does Cotran make?",
+          "a": "Through subsidiary Chuangyuan Zhire it makes siphon-type special heat-dissipation modules and liquid cooling plates, and its thermal product list includes liquid cooling plates for data-center servers, according to its 2025 semi-annual report."
+        },
+        {
+          "q": "How does Cotran manufacture its data-center liquid cooling plates?",
+          "a": "The 2025 semi-annual report describes a dual model: collaborative manufacturing in the Taiwan region to enter leading supply chains and take adapter orders, and own production and sales in the mainland market, with contract manufacturing already running on key liquid cooling plate processes."
+        },
+        {
+          "q": "Where is Cotran based and listed?",
+          "a": "Its website lists a Shenzhen, Guangdong address, and its 2025 semi-annual report states its shares are listed on the Shenzhen Stock Exchange under code 300731."
+        }
+      ]
+    },
+    {
+      "slug": "chengtian-weiye",
+      "name": "Chengtian Weiye",
+      "segments": [
+        "cold-plates",
+        "interconnects"
+      ],
+      "tagline": "Shenzhen Chengtian Weiye Technology Co., Ltd. is a smart-card and semiconductor packaging materials company that has extended into liquid cooling heat dissipation for data centers and computing infrastructure, developing and producing liquid cooling piping, manifolds, liquid cooling plates and quick connectors as a new business direction.",
+      "hq": "Shenzhen, Guangdong, China",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the Shenzhen Stock Exchange (300689)",
+      "website": "https://www.ctwygroup.com",
+      "productLines": [
+        {
+          "name": "Liquid cooling piping",
+          "note": "Liquid cooling piping forming part of the circulation loop for data-center and computing-infrastructure cooling.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "name": "Manifolds",
+          "note": "Manifolds (water distributors) listed among the company's liquid cooling products for data-center heat dissipation.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "name": "Liquid cooling plates",
+          "note": "Liquid cooling plates for servers, including a nano-injection molded liquid cooling plate project in the test stage whose samples passed air-tightness, water-tightness, pressure-resistance, flow-resistance and thermal cycling tests.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "name": "Quick connectors",
+          "note": "Quick connectors listed among the liquid cooling products developed and industrialized since 2024.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "The 2025 annual report states that the liquid cooling products have completed multiple rounds of technical validation and obtained sample test certification from some customers, that related production lines have been built and put into operation, and that small-batch supply to some customers has been achieved, with patent work around cold plate structural design, manufacturing processes and system integration.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report describes a nano-injection molded liquid cooling plate R&D project in the test stage: sample parts were developed and passed air-tightness, water-tightness, pressure-resistance, flow-resistance and thermal cycling tests, with design specification and trial-process documents produced for a plate intended to be lighter and more structure-integrated than traditional metal welded plates.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        },
+        {
+          "year": "2024",
+          "text": "The company's 2025 annual report (announcement dated 24 April 2026) states it entered the liquid cooling heat dissipation field in 2024, carrying out development, production and industrialization of liquid cooling piping, manifolds, liquid cooling plates and quick connectors serving data-center and computing-infrastructure cooling.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225165665.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does Chengtian Weiye offer?",
+          "a": "Liquid cooling piping, manifolds, liquid cooling plates and quick connectors serving the heat dissipation needs of data centers and computing infrastructure. The company entered this field in 2024 according to its 2025 annual report."
+        },
+        {
+          "q": "What stage has the liquid cooling business reached?",
+          "a": "Per the 2025 annual report, the products have completed several rounds of technical validation and obtained sample test certification from some customers; production lines are built and operating, and small-batch supply to some customers has started."
+        },
+        {
+          "q": "What is the nano-injection molded liquid cooling plate?",
+          "a": "An R&D project in the test stage that bonds plastic and metal through micro-nano structures at the interface, intended to make cold plates lighter with integrated complex structures and interfaces compared with traditional metal welded plates; sample parts passed air-tightness, water-tightness, pressure-resistance, flow-resistance and thermal cycling tests."
+        }
+      ]
+    },
+    {
+      "slug": "transtrue",
+      "name": "Transtrue",
+      "segments": [
+        "cold-plates",
+        "servers",
+        "integrators"
+      ],
+      "tagline": "Beijing Transtrue Technology Inc. is a data-center construction and AI computing company whose Green Computing Energy-Saving Research Institute centers on liquid cooling for AI infrastructure; with partner Hangyuan Guangre it promotes pump-driven two-phase cold-plate liquid cooling and two-phase liquid-cooled servers.",
+      "hq": "Beijing, China",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the Shenzhen Stock Exchange (002771)",
+      "website": "https://www.bjzst.cn",
+      "productLines": [
+        {
+          "name": "Pump-driven two-phase cold-plate liquid cooling",
+          "note": "Aerospace-grade pump-driven two-phase cold-plate liquid cooling adapted for intelligent computing center cooling; the company states PUE can be held around 1.1 and WUE reduced below 0.05 kg/kWh.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "name": "Two-phase liquid-cooled server",
+          "note": "Server jointly developed with Hangyuan Guangre and Guangzhou GRG Wuzhou Technology supporting 8 x 600W liquid-cooled graphics cards, described as high-performance, high-compute and expandable.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "name": "Pump-driven two-phase rear-door liquid cooling",
+          "note": "Rear-door variant of the two-phase liquid cooling technology, deployed on machine-room cabinets at the Chuangzhiyuan Building 6 project.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "name": "Liquid-cooled AI all-in-one appliance and HOPE cabinet",
+          "note": "A large-model AI all-in-one appliance designed around high integration and liquid cooling, and the Zhiqing HOPE intelligent integrated cabinet combining data-center core functions in one rack.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its 2025 annual report (announced 9 April 2026) Transtrue stated that the pump-driven two-phase cold-plate liquid cooling technology it promotes with Hangyuan Guangre was selected into Beijing's recommended catalog of energy-saving technology products, aimed at the cooling challenges of new and expanded high-density data centers.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report states that during 2025 the company received a utility model patent for an embedded vapor-liquid two-phase cold-plate cooling device for intelligent computing servers and took part in drafting a 2024 blue book on data-center liquid cooling application and a group standard for pump-driven two-phase cold-plate liquid cooling systems in data centers.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The report describes a two-phase liquid-cooled high-efficiency server jointly developed with Hangyuan Guangre and Guangzhou GRG Wuzhou Technology that supports 8 x 600W liquid-cooled graphics cards, and a deployment of pump-driven two-phase rear-door liquid cooling on machine-room cabinets at Chuangzhiyuan Building 6.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-04-09/1225086206.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Transtrue's liquid cooling approach?",
+          "a": "With partner Hangyuan Guangre it promotes pump-driven two-phase cold-plate liquid cooling adapted from aerospace applications for intelligent computing centers; the company states the technology holds PUE around 1.1 and can reduce WUE below 0.05 kg/kWh. A rear-door variant has been deployed on machine-room cabinets."
+        },
+        {
+          "q": "What liquid-cooled server did Transtrue help develop?",
+          "a": "A two-phase liquid-cooled high-efficiency server developed jointly with Hangyuan Guangre and Guangzhou GRG Wuzhou Technology, supporting 8 x 600W liquid-cooled graphics cards and described as high-performance, high-compute and expandable."
+        },
+        {
+          "q": "Where is Transtrue based and listed?",
+          "a": "Its 2025 annual report lists a registered address in Fengtai District, Beijing, an office in Chaoyang District, Beijing, and a listing on the Shenzhen Stock Exchange under code 002771."
+        }
+      ]
+    },
+    {
+      "slug": "chuanhuan",
+      "name": "Chuanhuan",
+      "segments": [
+        "interconnects"
+      ],
+      "tagline": "Sichuan Chuanhuan Technology Co., Ltd. is a hose and piping maker that has extended into liquid cooling: rubber, plastic and metal piping and assemblies connecting temperature-control and cold-plate liquid cooling systems in big-data and supercomputing servers, energy storage and electronic control equipment.",
+      "hq": "Dazhu County, Dazhou, Sichuan, China",
+      "founded": 2002,
+      "ownership": "Listed on the Shenzhen Stock Exchange (300547)",
+      "website": "https://www.chuanhuan.com",
+      "productLines": [
+        {
+          "name": "Rubber liquid cooling piping and assemblies",
+          "note": "Rubber piping and assemblies used in the liquid cooling systems of big-data and supercomputing servers, connecting the temperature-control system with cold plates.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        },
+        {
+          "name": "Plastic liquid cooling piping and assemblies",
+          "note": "Plastic piping and assemblies for liquid cooling, including TPV material piping under development.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        },
+        {
+          "name": "Metal liquid cooling piping and assemblies",
+          "note": "Metal piping and assemblies within the company's liquid cooling product definition for server and computing applications.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        },
+        {
+          "name": "Energy storage and electronic control liquid cooling piping",
+          "note": "Piping connecting energy-storage liquid cooling systems, covering battery pack and external liquid cooling circuits.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In its 2026 semi-annual report (announced 27 August 2026) Chuanhuan stated that several liquid cooling customer projects achieved small-batch delivery in the first half of 2026, and that it has built cooperation with customers it describes as leading in the computing-power server liquid cooling market.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The same report states that relying on UL94 and UL4501 dual international certifications for the server field the company completed R&D iteration and industrialization of new materials for liquid-cooled servers, and that its qualifications include an LFCM UL4501 liquid cooling component certification.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "R&D projects listed in the report include big-data center liquid cooling piping, TPV materials for liquid cooling piping, and server cooling piping based on fluororubber.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-08-27/1225512513.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does Chuanhuan make?",
+          "a": "Rubber, plastic and metal piping and assemblies used in big-data and supercomputing server liquid cooling systems. The report describes them as connecting the temperature-control system in supercomputing center server scenarios so heat absorbed by cold plates is carried away and servers stay within set temperatures."
+        },
+        {
+          "q": "What certifications support Chuanhuan's server liquid cooling piping?",
+          "a": "Its 2026 semi-annual report cites UL94 and UL4501 international certifications for the server field and an LFCM UL4501 liquid cooling component certification, which it says underpin expansion into overseas high-end markets through its Vietnam and United States presence."
+        },
+        {
+          "q": "Where is Chuanhuan based and listed?",
+          "a": "Its website states it is located in Dazhu County, Dazhou City, Sichuan and founded in 2002; its shares are listed on the Shenzhen Stock Exchange under code 300547."
+        }
+      ]
+    },
+    {
+      "slug": "seagull",
+      "name": "Seagull",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Jiangsu Seagull Cooling Tower Co., Ltd. designs, manufactures and installs cooling towers: industrial and packaged crossflow and counterflow wet towers, closed-circuit evaporative coolers, and plume-abatement, super-low-noise and intelligent-control variants, and it supplies cooling towers for data-center cooling applications.",
+      "hq": "Jiangsu, China",
+      "founded": 1997,
+      "ownership": "Listed on the Shanghai Stock Exchange (603269)",
+      "website": "https://www.seagull-ct.com",
+      "productLines": [
+        {
+          "name": "Industrial and packaged cooling towers",
+          "note": "Crossflow and counterflow wet cooling towers in reinforced concrete, FRP or hot-dip galvanized steel structures; packaged modular towers delivered complete for on-site installation, used across industrial and HVAC applications.",
+          "source": "https://www.seagull-ct.com"
+        },
+        {
+          "name": "Closed-circuit cooling towers",
+          "note": "Evaporative coolers that absorb heat from the cooled fluid by evaporation of spray water outside the coil, in FRP or hot-dip galvanized steel structures.",
+          "source": "https://www.seagull-ct.com/landpage_Closed_Circuit.html"
+        },
+        {
+          "name": "Cooling tower innovation variants",
+          "note": "Plume abatement, super low noise, high-level water collection and intelligent control options offered across its cooling tower range.",
+          "source": "https://www.seagull-ct.com"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a stock-price movement announcement dated 1 September 2026, Jiangsu Seagull Cooling Tower stated that its cooling towers for the data-center sector contributed less than 1% of revenue in the first half of 2026 and that its main business is the research, design, manufacture and installation of all types of cooling towers.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-09-01/1225537491.PDF"
+        },
+        {
+          "year": "2020",
+          "text": "The company's own history page states that in July 2020 Seagull fully acquired Jiangsu Ocean Cooling Equipment Co., Ltd. and Truwater Cooling Tower as wholly-owned subsidiaries.",
+          "source": "https://www.seagull-ct.com/landpage_aboutus.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Seagull supply cooling towers for data centers?",
+          "a": "Yes. Its 1 September 2026 announcement states the company has data-center cooling tower business, while noting it contributed less than 1% of revenue in the first half of 2026, so it remains a small part of an industrial cooling tower business serving power, petrochemical and chemical customers."
+        },
+        {
+          "q": "What types of cooling towers does Seagull build?",
+          "a": "Industrial and packaged crossflow and counterflow wet cooling towers in reinforced concrete, FRP or hot-dip galvanized steel, closed-circuit evaporative coolers that cool the process fluid inside a coil, and variants with plume abatement, super low noise, high-level water collection and intelligent control."
+        },
+        {
+          "q": "When was Seagull founded and where is it listed?",
+          "a": "Its website's history states Seagull was established in 1997; the company is listed on the Shanghai Stock Exchange under code 603269."
+        }
+      ]
+    },
+    {
+      "slug": "hongsheng",
+      "name": "Hongsheng",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Wuxi Hongsheng Heat Exchanger Manufacturing Co., Ltd. makes aluminum plate-fin heat exchangers and cooling modules using vacuum brazing and Noclok brazing, serving air compressor, construction machinery, hydraulic, industrial equipment, railway and automotive markets, with heat exchangers also sold into data-center liquid cooling.",
+      "hq": "Wuxi, Jiangsu, China",
+      "founded": 2000,
+      "ownership": "Listed on the Shanghai Stock Exchange (603090)",
+      "website": "https://www.hs-exchanger.com",
+      "productLines": [
+        {
+          "name": "Aluminum plate-fin heat exchangers",
+          "note": "Plate-fin heat exchangers in aluminum for air compressors, construction machinery, hydraulic systems, industrial equipment, railway locomotives and automotive applications, produced with vacuum brazing and Noclok brazing.",
+          "source": "https://www.hs-exchanger.com"
+        },
+        {
+          "name": "Cooling modules",
+          "note": "Cooling modules listed alongside its heat exchangers, including custom cooling components supplied for renewable energy applications.",
+          "source": "https://www.hs-exchanger.com"
+        },
+        {
+          "name": "Heat exchangers for data-center liquid cooling",
+          "note": "The company states that revenue from the data-center liquid cooling field is under 4% of its total revenue; no dedicated product models are published.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-09-16/1225566282.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a stock trading anomaly announcement dated 16 September 2026, Wuxi Hongsheng Heat Exchanger stated that revenue from the data-center liquid cooling field is under 4% of company revenue to date, a low proportion that does not materially affect results.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-09-16/1225566282.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The same announcement states that the company's main business is aluminum plate-fin heat exchangers, with its business spread across the compressor, agricultural machinery, engineering machinery, hydraulic machinery and new energy industries.",
+          "source": "http://static.cninfo.com.cn/finalpage/2026-09-16/1225566282.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Hongsheng supply heat exchangers for data-center liquid cooling?",
+          "a": "Yes. Its 16 September 2026 announcement says the data-center liquid cooling field generates under 4% of company revenue, so it is a small extension of a heat exchanger business whose core markets are compressors, agricultural and construction machinery, hydraulics and new energy."
+        },
+        {
+          "q": "What heat exchanger products does Hongsheng make?",
+          "a": "Aluminum plate-fin heat exchangers and cooling modules, manufactured with vacuum brazing and Noclok brazing, for air compressors, construction machinery, hydraulic systems, industrial equipment, railway locomotives and automotive applications."
+        },
+        {
+          "q": "Where is Hongsheng based and listed?",
+          "a": "Its website gives a headquarters address in Binhu District, Wuxi, Jiangsu and states the company was founded in 2000; the announcement header shows stock code 603090 on the Shanghai Stock Exchange."
+        }
+      ]
+    },
+    {
+      "slug": "feilong",
+      "name": "Feilong",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Feilong Automotive Components Co., Ltd. is a thermal management parts maker whose electronic pump products now serve liquid cooling beyond vehicles: its commercial liquid cooling pumps cover ICT, IDC, charging and storage applications, with robot and terminal liquid cooling pumps also offered.",
+      "hq": "Xixia County, Henan, China",
+      "founded": 1952,
+      "ownership": "Listed on the Shenzhen Stock Exchange (002536)",
+      "website": "https://www.flacc.com",
+      "productLines": [
+        {
+          "name": "Commercial liquid cooling pumps",
+          "note": "Liquid cooling pumps for ICT, IDC, charging and storage applications, plus robot liquid cooling pumps and terminal liquid cooling pumps, listed among the company's product categories.",
+          "source": "https://www.flacc.com"
+        },
+        {
+          "name": "High-power electronic water pumps for liquid cooling",
+          "note": "Pumps described by the company as small in size, long in life, light in weight and low in energy use; its 22kW pump production line was confirmed in full ramp-up in the March 2026 investor-relations record.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225041052.PDF"
+        },
+        {
+          "name": "Temperature control valves and thermal management integration modules",
+          "note": "Electronic pump series, temperature control valve series and integration modules whose application scenarios extend from automotive to server liquid cooling, IDC liquid cooling and AI.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225041052.PDF"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In an investor-relations earnings briefing record dated 27 March 2026, Feilong stated that its liquid cooling pump applications extend from the automotive field to server liquid cooling, data-center (IDC) liquid cooling and AI, and that it currently operates three liquid cooling pump production lines, with later line construction to follow market demand.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225041052.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "In the same record the company confirmed that its 22kW pump production line is in full ramp-up, that its liquid cooling projects N, W and G are proceeding normally with supply already under way, and that it is the main liquid cooling pump supplier for its HP project customer.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225041052.PDF"
+        },
+        {
+          "year": "2026",
+          "text": "The record also describes the company's high-power electronic water pumps for liquid cooling as having small size, long life, light weight, low energy consumption and strong operability, positioning the company as moving from automotive thermal parts supplier to a multi-scenario thermal management solution provider.",
+          "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225041052.PDF"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What data-center cooling products does Feilong supply?",
+          "a": "Commercial liquid cooling pumps for ICT and IDC applications and high-power electronic water pumps; per its 27 March 2026 investor-relations record these run on three production lines, with the 22kW line in full ramp-up and application scenarios extending to server and data-center liquid cooling and AI."
+        },
+        {
+          "q": "Which liquid cooling projects has Feilong disclosed?",
+          "a": "In the March 2026 record the company said its liquid cooling projects N, W and G are proceeding normally and already in normal supply, and confirmed it is the main liquid cooling pump supplier for its HP project customer; customer names were not disclosed."
+        },
+        {
+          "q": "Where is Feilong based and listed?",
+          "a": "Its website states an address in Xixia County, Henan Province and a founding year of 1952; the investor-relations record header shows stock code 002536 and its filings are made through the Shenzhen Stock Exchange."
+        }
+      ]
+    },
+    {
+      "slug": "goaland",
+      "name": "Goaland",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Liquid-cooling equipment supplier based in Guangzhou serving power electronics and data centers; subsidiary Goaland Innovation delivers cold-plate, immersion and container liquid-cooling solutions covering 6 kW to 2400 kW, with CDUs, manifolds, quick disconnects and dry coolers.",
+      "hq": "Guangzhou, Guangdong, China",
+      "founded": 2001,
+      "ownership": "Listed on the Shenzhen Stock Exchange ChiNext board (300499), since February 2016",
+      "website": "http://www.goaland.com.cn/",
+      "productLines": [
+        {
+          "name": "Data center cold-plate liquid cooling solution",
+          "note": "Cold plates, CDUs, manifolds, quick disconnects, interlocking ball valves, looped pipe network, control system, dry cooler and dummy load; PUE below 1.2 as stated by the company; solution family covers cooling loads from 6 kW to 2400 kW.",
+          "source": "http://www.goaland.com.cn/solution"
+        },
+        {
+          "name": "Data center immersion liquid cooling solution",
+          "note": "Tanks, CDUs, flow splitters, looped pipe network, control system and heat exchanger; PUE below 1.1 as stated by the company.",
+          "source": "http://www.goaland.com.cn/solution"
+        },
+        {
+          "name": "Container liquid cooling solution",
+          "note": "Modular container format compatible with both cold-plate and immersion routes; CE, UL and RoHS certifications; MTTR under 0.5 hours as stated by the company.",
+          "source": "http://www.goaland.com.cn/solution"
+        },
+        {
+          "name": "Converter-valve pure-water cooling equipment for DC transmission",
+          "note": "Cooling capacity 1500 to 7500 kW, cooling-water flow 100 to 600 cubic meters per hour, supply pressure 6 to 10 bar, rated valve inlet temperature 25 to 55 degrees C.",
+          "source": "http://www.goaland.com.cn/product"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Goaland's news center reported on 21 August 2026 that China's first national standard for data-center liquid cooling, GB/T 48023-2026, the technical specification for cold-plate liquid cooling systems in data centers, had been officially released, and that Goaland contributed to it.",
+          "source": "http://www.goaland.com.cn/news"
+        },
+        {
+          "year": "2024",
+          "text": "The company's data-center solution page lists projects with 2024 in-operation dates, including a liquid-cooling system for the Malaysia Johor Bahru KTP data center with 430 kW heat dissipation and a 1 MW computing-server liquid-cooling system in Paraguay with 1200 kW heat dissipation using deionized water and glycol.",
+          "source": "http://www.goaland.com.cn/solution"
+        },
+        {
+          "year": "2023",
+          "text": "The company's solution page lists an immersion liquid-cooling system delivered for a Malaysia Kulai data center, 15 kW heat dissipation with fluorinated coolant and plate heat exchanger, with a 2023 in-operation date.",
+          "source": "http://www.goaland.com.cn/solution"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Goaland supply for data centers?",
+          "a": "The cold-plate solution includes cold plates, coolant distribution units (CDUs), manifolds, quick disconnects, interlocking ball valves, looped pipe networks, control systems, dry coolers and dummy loads; the immersion solution includes tanks, CDUs, flow splitters, looped pipe networks, control systems and heat exchangers."
+        },
+        {
+          "q": "What cooling capacity range do Goaland's data-center solutions cover?",
+          "a": "The company states its data-center liquid-cooling solutions cover cooling loads from 6 kW to 2400 kW; example projects on its solution page include a 600 kW system at the National Supercomputing Shenzhen Center and a 1200 kW container liquid-cooling system in Ohio, United States."
+        },
+        {
+          "q": "Where is Goaland based and where is it listed?",
+          "a": "The company states on its about page that it was founded in 2001 in Guangzhou and listed on the Shenzhen Stock Exchange ChiNext board in February 2016, stock code 300499."
+        },
+        {
+          "q": "Which liquid-cooling standard has Goaland contributed to?",
+          "a": "Its news center reported on 21 August 2026 that GB/T 48023-2026, described as China's first national standard for data-center liquid cooling (technical specification for cold-plate liquid cooling systems), was officially released with Goaland contributing."
+        }
+      ]
+    },
+    {
+      "slug": "canatal",
+      "name": "Canatal",
+      "segments": [
+        "cdus",
+        "heat-rejection",
+        "integrators"
+      ],
+      "tagline": "Nanjing-based data-center environmental control company (Nanjing Canatal Environment Technology); its cold-plate liquid cooling solution is built around coolant distribution units in rack-level, in-row and room-level formats covering 0 to 1000 kW of heat exchange, alongside immersion cooling and precision air conditioning.",
+      "hq": "Nanjing, Jiangsu, China",
+      "founded": 2003,
+      "ownership": "Listed on the Shanghai Stock Exchange main board (603912), since 2017",
+      "website": "https://www.canatal.com.cn",
+      "productLines": [
+        {
+          "name": "Cold-plate liquid cooling solution",
+          "note": "Built around a coolant distribution unit (CDU) as the core; heat exchange covers 0 to 1000 kW; CDU formats include rack-level, in-row and room-level; primary side includes piping network, dry cooler or cooling tower, circulation pumps and pressurization/refill and dosing units",
+          "source": "https://www.canatal.com.cn/products_details/80.html"
+        },
+        {
+          "name": "CDU product matrix 100 kW to 2000 kW",
+          "note": "Company article states a CDU product matrix covering 100 kW to 2000 kW compatible with cold-plate and immersion systems, with the 2 MW class product finalized and in batch delivery; design uses a stainless-steel plate heat exchanger, water-electricity separation, redundant pump sets and power modules",
+          "source": "https://mp.weixin.qq.com/s/YxU5MZblBNeQNR2EuyWi0A"
+        },
+        {
+          "name": "Immersion liquid cooling solution",
+          "note": "Immersion liquid-cooling offering listed alongside the cold-plate solution; PUE stated as low as below 1.10.",
+          "source": "https://www.canatal.com.cn/products_details/80.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Canatal announced on 1 July 2026 that its liquid-cooling CDU received CRAA product performance certification; the company article states it was among the first batch of six companies nationwide to receive this, with testing led by a national-level quality inspection center covering safety margin under extreme conditions, stability under long-term load and energy efficiency.",
+          "source": "https://www.canatal.com.cn/news/8/"
+        },
+        {
+          "year": "2026",
+          "text": "Canatal reported on 3 July 2026 that a multi-technology-route cooling solution was deployed at a data center in a high-tech park in South China, serving an A-grade intelligent computing center.",
+          "source": "https://www.canatal.com.cn/news/8/"
+        },
+        {
+          "year": "2026",
+          "text": "Canatal reported on 11 June 2026 that it presented its full-stack liquid cooling portfolio at the IDCE exhibition for intelligent-computing heat dissipation.",
+          "source": "https://www.canatal.com.cn/news/8/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Canatal offer for data centers?",
+          "a": "A cold-plate liquid cooling solution built around a coolant distribution unit (CDU) as the core, with heat exchange from 0 to 1000 kW and CDU formats at rack level, in-row level and room level; the primary side can use a dry cooler or cooling tower with circulation pumps and dosing units, and the secondary side feeds cold-plate liquid-cooled servers through manifolds. An immersion liquid cooling solution is also offered."
+        },
+        {
+          "q": "What CDU capacity range does Canatal cover?",
+          "a": "The company describes a CDU product matrix covering 100 kW to 2000 kW, compatible with both cold-plate and immersion systems, with the 2 MW class product finalized and in batch delivery."
+        },
+        {
+          "q": "Has Canatal's liquid-cooling CDU been certified?",
+          "a": "On 1 July 2026 the company announced its liquid-cooling CDU received CRAA product performance certification, stating it was among the first batch of six companies nationwide, following testing by a national-level quality inspection center."
+        },
+        {
+          "q": "Where is Canatal based and listed?",
+          "a": "The company states it was founded in 2003, is rooted in Nanjing, and listed on the Shanghai Stock Exchange main board in 2017 with stock code 603912."
+        }
+      ]
+    },
+    {
+      "slug": "tongfei",
+      "name": "Tongfei",
+      "segments": [
+        "cdus",
+        "interconnects",
+        "immersion",
+        "heat-rejection",
+        "micro-dc"
+      ],
+      "tagline": "Industrial temperature-control equipment maker headquartered in Sanhe, Hebei; its intelligent-computing-center product line supplies in-row and in-rack CDUs, manifolds, immersion tanks, dry coolers, integrated chillers and modular container data centers for cold-plate and immersion liquid cooling.",
+      "hq": "Sanhe, Hebei, China",
+      "founded": 2001,
+      "ownership": "Listed on the Shenzhen Stock Exchange ChiNext board (300990), since 2021",
+      "website": "https://www.tfzl.com",
+      "productLines": [
+        {
+          "name": "DWW CDU series",
+          "note": "Coolant distribution units listed in cabinet (in-row) and in-rack formats for data-center liquid cooling.",
+          "source": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "Data-center liquid cooling components",
+          "note": "Manifold (DMF), immersion cooling tank (DTK), dry cooler (DHWA), integrated chiller (DCW) and chilled-water rear door heat exchanger (DWA) listed for the intelligent computing center product category.",
+          "source": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "Modular and container data centers",
+          "note": "Single-rack and single-row modular data centers and the DMDC container data center product.",
+          "source": "https://www.tfzl.com/product"
+        },
+        {
+          "name": "HWA air/water heat exchanger",
+          "note": "Product page states it provides primary-side cold-source water for cold-plate liquid cooling and full-immersion liquid cooling systems.",
+          "source": "https://www.tfzl.com/product"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Tongfei's news page reported on 15 September 2026 that its AIDC center laboratory passed GMPI certification, with its temperature-control testing capability receiving authoritative recognition.",
+          "source": "https://www.tfzl.com/news"
+        },
+        {
+          "year": "2026",
+          "text": "Tongfei's news page reported on 14 September 2026 that it presented its full-chain liquid cooling solutions at the 2026 China Computing Power Conference.",
+          "source": "https://www.tfzl.com/news"
+        },
+        {
+          "year": "2024",
+          "text": "The company's about page states that by 2024 it had completed its Northern Headquarters R&D and Production Base of about 220,000 square meters with 22 digital production lines, and lists liquid-cooling products as one of its four major product lines serving industries that include data centers.",
+          "source": "https://www.tfzl.com/about/company/info"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling products does Tongfei offer for data centers?",
+          "a": "Its product page lists cabinet (in-row) and in-rack CDUs under the DWW series, a manifold (DMF), an immersion cooling tank (DTK), a dry cooler (DHWA), an integrated chiller (DCW), a chilled-water rear door heat exchanger (DWA), and single-rack, single-row and DMDC container modular data centers."
+        },
+        {
+          "q": "What role does Tongfei's HWA heat exchanger play in liquid cooling?",
+          "a": "The product page states the HWA air/water heat exchanger provides primary-side cold-source water for cold-plate liquid cooling and full-immersion liquid cooling systems."
+        },
+        {
+          "q": "Where is Tongfei based and where is it listed?",
+          "a": "The company's about page states it was founded in 2001, is headquartered in Sanhe City, Hebei Province, and achieved its ChiNext listing on the Shenzhen Stock Exchange in 2021 under stock code 300990."
+        },
+        {
+          "q": "Has Tongfei's data-center cooling testing capability been certified?",
+          "a": "Its news page reported on 15 September 2026 that the company's AIDC center laboratory passed GMPI certification, with its temperature-control testing capability receiving authoritative recognition."
+        }
+      ]
+    },
+    {
+      "slug": "caict",
+      "name": "CAICT",
+      "segments": [
+        "testing"
+      ],
+      "tagline": "China Academy of Information and Communications Technology (CAICT), a national ICT research institute in Beijing; its Cloud Computing and Big Data Research Institute publishes liquid-cooling industry panorama reports and leads standardization and cross-brand interchangeability verification of liquid-cooling quick disconnects.",
+      "hq": "Beijing, China",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.caict.ac.cn/",
+      "productLines": [
+        {
+          "name": "Intelligent Computing Center Liquid Cooling Industry Panorama Research Report (2025)",
+          "note": "Report published August 2025 covering the liquid-cooling industry chain upstream, midstream and downstream, key components, liquid-cooled IT equipment and overall liquid-cooling solutions for intelligent computing centers.",
+          "source": "https://www.caict.ac.cn/english/research/whitepapers/202509/P020250924570443394488.pdf"
+        },
+        {
+          "name": "Liquid-cooling quick-disconnect standardization and verification",
+          "note": "With industry partners: published cross-brand UQD performance and reliability interchangeability verification tests and a blind-mate liquid-cooling quick-disconnect development research report; advancing compilation of a test method for manually-inserted cold-plate liquid-cooling quick disconnects.",
+          "source": "https://www.caict.ac.cn/english/research/whitepapers/202509/P020250924570443394488.pdf"
+        },
+        {
+          "name": "Data-center liquid-cooling industry standards",
+          "note": "CAICT's Data Center White Paper (2022) states that five liquid-cooling series industry standards, compiled under the leadership of its Cloud Computing and Big Data Research Institute, officially took effect in April 2022.",
+          "source": "https://www.caict.ac.cn/kxyj/qwfb/bps/202204/P020220422707354529853.pdf"
+        },
+        {
+          "name": "ODCC liquid-cooling coolant specifications",
+          "note": "The report states the Open Data Center Committee (ODCC), with industry partners, has published an immersion coolant reliability specification and research on hydrocarbon coolant compatibility with server materials and health environments.",
+          "source": "https://www.caict.ac.cn/english/research/whitepapers/202509/P020250924570443394488.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "CAICT's Cloud Computing and Big Data Research Institute published the Intelligent Computing Center Liquid Cooling Industry Panorama Research Report (2025), dated August 2025, covering the liquid-cooling industry chain, key components, liquid-cooled IT equipment and overall solutions.",
+          "source": "https://www.caict.ac.cn/english/research/whitepapers/202509/P020250924570443394488.pdf"
+        },
+        {
+          "year": "2025",
+          "text": "The 2025 report states CAICT and industry partners carry out continuing standardization research on liquid-cooling quick disconnects, having published cross-brand UQD performance and reliability interchangeability verification tests and a blind-mate quick-disconnect development research report, and are advancing a test method for manually-inserted cold-plate liquid-cooling quick disconnects.",
+          "source": "https://www.caict.ac.cn/english/research/whitepapers/202509/P020250924570443394488.pdf"
+        },
+        {
+          "year": "2022",
+          "text": "CAICT's Data Center White Paper, dated April 2022, states that five liquid-cooling series industry standards led by its Cloud Computing and Big Data Research Institute officially took effect in April 2022, providing guidance for the data-center liquid-cooling industry.",
+          "source": "https://www.caict.ac.cn/kxyj/qwfb/bps/202204/P020220422707354529853.pdf"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooling standards has CAICT led?",
+          "a": "Its Data Center White Paper (April 2022) states that five liquid-cooling series industry standards, compiled under the leadership of CAICT's Cloud Computing and Big Data Research Institute, officially took effect in April 2022."
+        },
+        {
+          "q": "What quick-disconnect work does CAICT carry out?",
+          "a": "According to its 2025 panorama report, CAICT and industry partners have published cross-brand UQD performance and reliability interchangeability verification tests and a blind-mate quick-disconnect development research report, and are advancing a test method for manually-inserted cold-plate liquid-cooling quick disconnects."
+        },
+        {
+          "q": "What liquid-cooling research does CAICT publish?",
+          "a": "In August 2025 its Cloud Computing and Big Data Research Institute published the Intelligent Computing Center Liquid Cooling Industry Panorama Research Report (2025), which maps the liquid-cooling industry chain, key components, liquid-cooled IT equipment and overall solutions."
+        },
+        {
+          "q": "Where is CAICT located?",
+          "a": "Its Data Center White Paper lists the institute's address as No. 52 Huayuan North Road, Haidian District, Beijing."
+        }
+      ]
+    },
+    {
+      "slug": "huawei",
+      "name": "Huawei",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "ICT infrastructure and cloud provider whose liquid-cooling work spans the fully liquid-cooled Atlas 950 SuperPoD rack-scale AI system and Huawei Cloud fully liquid-cooled AI data centers in Guizhou, Inner Mongolia and Anhui.",
+      "hq": "Shenzhen, Guangdong, China (Huawei Base, Bantian, Longgang District)",
+      "founded": 1987,
+      "ownership": "100% privately owned by employees, as stated on its corporate information page",
+      "website": "https://www.huawei.com/",
+      "productLines": [
+        {
+          "name": "Atlas 950 SuperPoD",
+          "note": "Fully liquid-cooled rack-scale AI super-node server; floating blind-mate liquid-cooling connector described as ensuring zero coolant leaks; scales up to 8,192 NPUs.",
+          "source": "https://www.huawei.com/en/news/2025/9/hc-superpod-innovation"
+        },
+        {
+          "name": "Full liquid cooling solution for data centers",
+          "note": "Closed cabinet in which all heat is dissipated in liquid; the page states cooling system power use is cut by 96% and PUE from 2.2 to 1.1 versus air cooling, with a 50 kW cabinet example.",
+          "source": "https://www.huawei.com/en/sustainability/the-latest/stories/full-liquid-cooling-data-centers-energy-efficient"
+        },
+        {
+          "name": "Huawei Cloud liquid-cooled AI data centers (CloudMatrix supernode)",
+          "note": "Huawei Cloud states it has built fully liquid-cooled AI data centers in Guizhou, Inner Mongolia and Anhui supporting 80 kW heat dissipation per cabinet with PUE 1.1; the CloudMatrix supernode is specified to upgrade from 384 to 8,192 cards.",
+          "source": "https://www.huaweicloud.com/intl/en-us/news/20250919133255709.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 18 September 2025 at HUAWEI CONNECT 2025 Huawei released its SuperPoD architecture; the Atlas 950 SuperPoD server is fully liquid-cooled with a floating blind-mate liquid-cooling connector, and Huawei said over 300 Atlas 900 A3 SuperPoD units had shipped in 2025.",
+          "source": "https://www.huawei.com/en/news/2025/9/hc-superpod-innovation"
+        },
+        {
+          "year": "2025",
+          "text": "On 19 September 2025 Huawei Cloud stated it has built fully liquid-cooled AI data centers in Guizhou, Inner Mongolia and Anhui that support 80 kW heat dissipation per cabinet and bring PUE to 1.1, and that the CloudMatrix supernode will be upgraded from 384 cards to 8,192 cards.",
+          "source": "https://www.huaweicloud.com/intl/en-us/news/20250919133255709.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid-cooled AI system did Huawei launch?",
+          "a": "At HUAWEI CONNECT 2025 (announced 18 September 2025) Huawei released the SuperPoD architecture; the Atlas 950 SuperPoD is fully liquid-cooled, scales up to 8,192 NPUs, and uses a floating blind-mate liquid-cooling connector described as ensuring zero coolant leaks."
+        },
+        {
+          "q": "What rack-level cooling figure does Huawei Cloud publish for its liquid-cooled AI data centers?",
+          "a": "Huawei Cloud states its fully liquid-cooled AI data centers in Guizhou, Inner Mongolia and Anhui support 80 kW heat dissipation per cabinet and reduce PUE to 1.1."
+        },
+        {
+          "q": "What does Huawei claim for its full liquid cooling solution?",
+          "a": "Huawei's page states the solution dissipates all heat in liquid inside a closed cabinet, cuts cooling system power use by 96% and reduces PUE from 2.2 to 1.1 versus conventional air cooling, using a 50 kW cabinet example."
+        },
+        {
+          "q": "Where is Huawei based and who owns it?",
+          "a": "Huawei's contact page lists its base at Bantian, Longgang District, Shenzhen, China; its corporate information page says it was founded in 1987 and is 100% privately owned by employees."
+        }
+      ]
+    },
+    {
+      "slug": "inspur",
+      "name": "Inspur",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Server maker Inspur Electronic Information Industry Co., Ltd. (registered website ieisystem.com) whose 'All in Liquid-Cooling' strategy puts cold-plate liquid cooling across its server portfolio; it also sells liquid-cooling systems for data centers, cold-plate and immersion.",
+      "hq": "Jinan, Shandong, China",
+      "founded": 1998,
+      "ownership": "Listed on the Shenzhen Stock Exchange (000977)",
+      "website": "https://www.ieisystem.com/",
+      "productLines": [
+        {
+          "name": "Full-stack liquid-cooled servers",
+          "note": "Cold-plate liquid cooling available across general-purpose, high-density, rack and AI servers: NF5280M6 (2U, cooling power cut by 80% per the release), NF5260FM6 hybrid air-liquid, rack server ORS3000S deployed at JD Cloud, i24LM6 warm-water cooled with PUE below 1.1, AI servers NF5688LM6 and NF5498LA5 (PUE as low as 1.1)",
+          "source": "https://www.businesswire.com/news/home/20220706005054/en/All-in-Liquid-Cooling-Inspur-Information-Launches-Full-Stack-Liquid-Cooled-Server-Solutions"
+        },
+        {
+          "name": "Data-center liquid-cooling solutions (cold plate and immersion)",
+          "note": "Cold-plate portfolio spanning 15 kW to 1.4 MW of cooling capacity in rack-mount, in-row and room-level modules with PUE of 1.15 or lower; immersion cooling uses dielectric coolant in sealed tanks for 12U-60U racks supporting up to 150 kW per cabinet.",
+          "source": "https://www.prnewswire.co.uk/news-releases/inspurs-data-center-liquid-cooling-solutions-drive-energy-savings-and-consumption-reduction-302465601.html"
+        },
+        {
+          "name": "One-stop liquid cooling solution (components and integration)",
+          "note": "Liquid cooling plates, CDUs of various models and heat-exchange forms, factory-prefabricated pipe networks, manifolds and multi-specification quick connectors with integration and commissioning; single cabinet power can reach 60-150 kW and PUE as low as 1.15.",
+          "source": "https://en.inspur.com/en/2822695/2025021410493543991/index.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In a release datelined Jinan, China on 27 May 2025, Inspur presented its data-center liquid-cooling portfolio: cold-plate solutions spanning 15 kW to 1.4 MW of cooling capacity in rack-mount, in-row and room-level modules, achieving a PUE of 1.15 or lower, with a hybrid control platform the company says responds three times faster than conventional controllers.",
+          "source": "https://www.prnewswire.co.uk/news-releases/inspurs-data-center-liquid-cooling-solutions-drive-energy-savings-and-consumption-reduction-302465601.html"
+        },
+        {
+          "year": "2025",
+          "text": "The same 27 May 2025 release states that Inspur's immersion cooling uses dielectric coolant in sealed tanks for 12U-60U racks supporting up to 150 kW per cabinet, and that a cold-plate deployment at a telecom operator's data center delivered an eightfold increase in per-rack power density and cut PUE by 23%.",
+          "source": "https://www.prnewswire.co.uk/news-releases/inspurs-data-center-liquid-cooling-solutions-drive-energy-savings-and-consumption-reduction-302465601.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling capacity range do Inspur's cold-plate solutions cover?",
+          "a": "In its 27 May 2025 release Inspur states its cold-plate liquid-cooling portfolio spans from 15 kW to 1.4 MW of cooling capacity, in rack-mount, in-row and room-level modules, with PUE of 1.15 or lower."
+        },
+        {
+          "q": "What rack power does Inspur's immersion cooling support?",
+          "a": "Inspur's immersion cooling uses dielectric coolant in sealed tanks for 12U-60U racks and supports up to 150 kW per cabinet, per the company's 27 May 2025 release."
+        },
+        {
+          "q": "Which Inspur servers are available with liquid cooling?",
+          "a": "Under its 'All in Liquid-Cooling' strategy Inspur offers cold-plate cooling across general-purpose, high-density, rack and AI servers, including NF5280M6, NF5260FM6, the ORS3000S rack server deployed at JD Cloud, the warm-water-cooled i24LM6 with PUE below 1.1, and AI servers NF5688LM6 and NF5498LA5."
+        },
+        {
+          "q": "What cabinet power does Inspur's one-stop liquid cooling solution support?",
+          "a": "Inspur's liquid-cooling solution page states single cabinet power can reach 60-150 kW with PUE as low as 1.15, combining cooling plates, CDUs, prefabricated pipe networks, manifolds and quick connectors."
+        },
+        {
+          "q": "Where is Inspur headquartered and listed?",
+          "a": "Exchange records for Inspur Electronic Information Industry Co., Ltd. list an office on Caoshanling South Road, Jinan, Shandong, an establishment date of 28 October 1998 and a listing on the Shenzhen Stock Exchange in June 2000 under code 000977; the registered website is ieisystem.com."
+        }
+      ]
+    },
+    {
+      "slug": "h3c",
+      "name": "H3C",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "Provider of digital and AI solutions operating as New H3C Technologies Co., Ltd., selling computing, storage and networking infrastructure. Its liquid-cooling portfolio spans cold-plate and immersion cooling for AI systems and liquid-cooled data center switches.",
+      "hq": "Hangzhou, Zhejiang, China",
+      "founded": 2003,
+      "ownership": "A member of the Unisplendour group, per the registry record; not listed itself",
+      "website": "https://www.h3c.com/",
+      "productLines": [
+        {
+          "name": "H3C UniPoD S80000 AI computing system",
+          "note": "AI computing system that adopts liquid cooling to support up to 120 kW per cabinet, showcased at GITEX GLOBAL 2025 in Dubai.",
+          "source": "https://www.h3c.com/en/d_202510/2670745_294554_0.htm"
+        },
+        {
+          "name": "ALL in GREEN full-stack liquid cooling portfolio",
+          "note": "Portfolio encompassing both cold plate and immersion cooling with end-to-end lifecycle services; the solution achieves PUE values below 1.1.",
+          "source": "https://www.h3c.com/en/d_202510/2670745_294554_0.htm"
+        },
+        {
+          "name": "H3C S9827 series 800G data center switch with hybrid air-liquid cooling",
+          "note": "Cold-plate micro-channels direct coolant on demand to heat sources such as MAC chips, with air cooling as a system-level supplement; 64x 800G ports, 11% reduction in overall device power consumption, PUE below 1.2.",
+          "source": "https://www.h3c.com/en/d_202602/2771403_294551_0.htm"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 27 February 2026 H3C announced its S9827 series 800G data center switch platform, which employs a hybrid air-liquid cooling architecture whose cold-plate micro-channels direct coolant on demand to heat sources such as MAC chips; H3C states an 11% reduction in overall device power consumption and PUE below 1.2.",
+          "source": "https://www.h3c.com/en/d_202602/2771403_294551_0.htm"
+        },
+        {
+          "year": "2025",
+          "text": "On 15 October 2025 H3C reported from GITEX GLOBAL 2025 (event held 14 October 2025) that its UniPoD S80000 AI computing system adopts liquid cooling to support up to 120 kW per cabinet, and that under its ALL in GREEN approach it has launched a comprehensive portfolio encompassing cold plate and immersion cooling achieving PUE values below 1.1.",
+          "source": "https://www.h3c.com/en/d_202510/2670745_294554_0.htm"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What rack power does H3C's liquid-cooled AI system support?",
+          "a": "The H3C UniPoD S80000 AI computing system adopts liquid cooling to support up to 120 kW per cabinet, as shown at GITEX GLOBAL 2025 (press page dated 15 October 2025)."
+        },
+        {
+          "q": "What liquid-cooling technologies does H3C offer?",
+          "a": "H3C says it has launched a full-stack portfolio encompassing both cold plate and immersion cooling with end-to-end lifecycle services, achieving PUE values below 1.1."
+        },
+        {
+          "q": "Does H3C apply liquid cooling outside servers and racks?",
+          "a": "Yes. The S9827 series 800G data center switch, announced 27 February 2026, uses a hybrid air-liquid architecture with cold-plate micro-channels directing coolant to heat sources such as MAC chips; H3C cites an 11% device power reduction and PUE below 1.2."
+        },
+        {
+          "q": "What is H3C's legal entity name?",
+          "a": "The company operates as New H3C Technologies Co., Ltd., per the footer of its English company profile page, which describes more than 30 years of operation but states no founding year or headquarters city."
+        },
+        {
+          "q": "Where is H3C based and when was it founded?",
+          "a": "The registry record for New H3C Technologies Co., Ltd. gives an address on Changhe Road, Binjiang District, Hangzhou, and an establishment date of 26 September 2003."
+        }
+      ]
+    },
+    {
+      "slug": "sugon",
+      "name": "Sugon",
+      "segments": [
+        "servers"
+      ],
+      "tagline": "High-performance computing server, storage and data-center maker (Dawning Information Industry Co., Ltd.) with cold-plate and immersion liquid-cooling lines; the unit named on its site as Sugon Dataenergy, a company under Sugon, launched the C8000 V3.0 MW-scale phase-change immersion liquid-cooling rack.",
+      "hq": "Beijing, China (Haidian District)",
+      "founded": 2006,
+      "ownership": "Listed on the Shanghai Stock Exchange (603019); the company states it listed in 2014",
+      "website": "https://www.sugon.com/",
+      "productLines": [
+        {
+          "name": "C8000 V3.0 MW-scale phase-change immersion liquid-cooling rack",
+          "note": "Full rack and infrastructure solution supporting single-rack power over 900 kW (MW-scale), described as 3-5x traditional liquid cooling plans, heat dissipation over 200 W/cm2, PUE below 1.04; uses self-developed domestic coolant for year-round free cooling.",
+          "source": "https://www.sugon.com/cut?id=2848"
+        },
+        {
+          "name": "Sugon 8000 super-cluster immersion cooling",
+          "note": "Applies immersion phase-change liquid cooling combined with diamond-copper alloy thermal material for year-round free cooling; PUE as low as 1.04 with near-zero WUE.",
+          "source": "https://www.sugon.com/cut?id=2980"
+        },
+        {
+          "name": "ParaStor liquid-cooled distributed storage",
+          "note": "High-density liquid-cooled storage scheme with fan-free design; storage-node PUE below 1.2, and combined with Sugon liquid-cooled compute nodes forms a storage-compute liquid-cooling solution with data-center PUE of 1.1.",
+          "source": "https://www.sugon.com/product/storage/product_detail?id=540"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 8 April 2026 Sugon's site reported that Sugon Dataenergy, a company under Sugon, released the C8000 V3.0 at its 2026 strategy launch event, described on the page as the world's first MW-scale phase-change immersion liquid-cooling rack and infrastructure solution: single-rack power over 900 kW, heat dissipation over 200 W/cm2, and data-center PUE below 1.04.",
+          "source": "https://www.sugon.com/cut?id=2848"
+        },
+        {
+          "year": "2026",
+          "text": "On 9 September 2026 Sugon's site reported that three high-performance computer industry standards it led in drafting (SJ/T 11719-2026, SJ/T 11720-2026 and SJ/T 11721-2026, with more than 20 participating organizations) were approved for release, covering power supply architecture, liquid-cooling components and management interfaces; the page states the Sugon 8000 applies immersion phase-change liquid cooling with PUE as low as 1.04.",
+          "source": "https://www.sugon.com/cut?id=2980"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What rack power does Sugon's immersion cooling support?",
+          "a": "The C8000 V3.0 phase-change immersion liquid-cooling rack supports single-rack power over 900 kW with heat dissipation over 200 W/cm2, per Sugon's news page dated 8 April 2026."
+        },
+        {
+          "q": "What PUE does Sugon claim for its liquid-cooled systems?",
+          "a": "Sugon's pages state the C8000 V3.0 brings data-center PUE below 1.04, and that the Sugon 8000 super-cluster's immersion phase-change liquid cooling achieves PUE as low as 1.04 with near-zero WUE."
+        },
+        {
+          "q": "What liquid-cooling standards did Sugon help write?",
+          "a": "Sugon led the drafting of SJ/T 11719-2026, SJ/T 11720-2026 and SJ/T 11721-2026, high-performance computer industry standards approved for release, which cover power supply architecture, liquid-cooling components and unified management interfaces."
+        },
+        {
+          "q": "What liquid-cooled storage does Sugon offer?",
+          "a": "The ParaStor liquid-cooled distributed storage page describes a high-density, fan-free liquid-cooled storage scheme with storage-node PUE below 1.2, which pairs with Sugon liquid-cooled compute nodes for a data-center PUE of 1.1."
+        },
+        {
+          "q": "Where is Sugon based and when was it founded?",
+          "a": "The registry record for the listed company, Dawning Information Industry Co., Ltd., gives an address on Dongwang West Road, Haidian District, Beijing, and an establishment date of 7 March 2006; it has traded on the Shanghai Stock Exchange (603019) since November 2014."
+        }
+      ]
+    },
+    {
+      "slug": "gds",
+      "name": "GDS",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Developer and operator of high-performance, carrier- and cloud-neutral data centers in mainland China offering colocation and managed services. Its news pages describe liquid cooling at its Langfang cluster in Hebei and large-scale use of liquid cooling and air-liquid hybrid cooling across its self-built data centers.",
+      "hq": "Shanghai, China (Pudong New Area)",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on Nasdaq (GDS) and the Hong Kong Stock Exchange (9698), per the company's 29 October 2024 press release",
+      "website": "https://www.gds-services.com/",
+      "productLines": [
+        {
+          "name": "Langfang (Hebei) data-center cluster with liquid cooling",
+          "note": "GDS states it deployed liquid-cooling solutions early at this cluster; 2025 average PUE of 1.21 with a best of 1.18, two data centers rated national green data centers and certified to the national 5A green data-center standard; part of a low-carbon technology set the company lists as including full-scenario liquid cooling",
+          "source": "https://www.gds-services.com/zh_cn/newsshow_343.html"
+        },
+        {
+          "name": "Liquid-cooled colocation for finance and intelligent computing",
+          "note": "Colocation services from self-built data centers in which liquid cooling and air-liquid hybrid cooling are used at scale; the best annual average PUE across self-built data centers reached 1.15 in 2022, and GDS says PUE can go lower as liquid cooling spreads.",
+          "source": "https://www.gds-services.com/zh_cn/newsshow_263.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 14 September 2026 GDS's news page on the Hebei integrated computing network stated that the company deployed liquid-cooling solutions early at its Langfang cluster, where average PUE fell to 1.21 in 2025 (best 1.18), and that two data centers in the cluster were rated national green data centers and passed the national 5A green data-center certification.",
+          "source": "https://www.gds-services.com/zh_cn/newsshow_343.html"
+        },
+        {
+          "year": "2023",
+          "text": "On 14 December 2023 GDS's news page for the finance sector stated that liquid cooling and air-liquid hybrid cooling technologies are used at large scale in its data centers, and that its self-built data centers had brought their best annual average PUE to 1.15 in 2022, with lower PUE achievable as liquid cooling use expands.",
+          "source": "https://www.gds-services.com/zh_cn/newsshow_263.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does GDS say about liquid cooling at its Langfang cluster?",
+          "a": "In a news page dated 14 September 2026, GDS states it deployed liquid-cooling solutions early at the Langfang cluster in Hebei; average PUE across the cluster was 1.21 in 2025 with a best of 1.18, and two of its data centers are rated national green data centers with 5A green certification."
+        },
+        {
+          "q": "Where does GDS operate and where is it listed?",
+          "a": "GDS describes itself as a developer and operator of high-performance data centers in mainland China and, through an equity investment in an international affiliate, in Hong Kong and South East Asia; its 29 October 2024 release lists it on Nasdaq (GDS) and HKEX (9698)."
+        },
+        {
+          "q": "What PUE figures has GDS published?",
+          "a": "GDS reported a best annual average PUE of 1.15 for its self-built data centers in 2022 (news page dated 14 December 2023), and average PUE of 1.21 (best 1.18) for the Langfang cluster in 2025 (news page dated 14 September 2026)."
+        },
+        {
+          "q": "How long has GDS been in service?",
+          "a": "The company's 29 October 2024 press release describes a 23-year track record of data-center service delivery; the pages opened state no founding year."
+        }
+      ]
+    },
+    {
+      "slug": "vnet",
+      "name": "VNET",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Third-party carrier-neutral data-center and intelligent-compute center operator, also known as 21Vianet, with more than 50 data centers in over 30 Chinese cities. Its 11 September 2025 release describes liquid cooling at the new Gu'an wholesale campus near Beijing, and its site documents cold-plate practice at Taicang.",
+      "hq": "Beijing, China (Chaoyang District)",
+      "founded": 1996,
+      "ownership": "Listed on Nasdaq (VNET); listed in 2011 and described on its company page as China's first US-listed IDC company",
+      "website": "https://www.vnet.com/",
+      "productLines": [
+        {
+          "name": "Gu'an IDC campus with liquid cooling",
+          "note": "Large-scale wholesale campus in the Greater Beijing Area (Langfang, Hebei, about 51.4 km south of downtown Beijing) where VNET states it is implementing advanced liquid-cooling solutions for heat absorption and dissipation to cut energy use and improve PUE for AI-driven demand.",
+          "source": "https://www.prnewswire.com/news-releases/vnet-wins-40mw-wholesale-order-from-leading-internet-company-for-its-new-strategic-idc-campus-302553645.html"
+        },
+        {
+          "name": "Taicang base cold-plate liquid-cooling practice",
+          "note": "The Taicang base is presented as VNET's cold-plate liquid-cooling best practice, using what the article calls the industry's first third-generation architecture combined air-liquid cooling solution, lowering PUE to what the article calls a leading level for the region (no numeric PUE printed); the base also provides energy storage and dispatch.",
+          "source": "https://www.vnet.com/portal/article/index/cid/14/id/984.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 11 September 2025 (dateline Beijing) VNET announced a 40 MW wholesale order from a leading internet company for its new Gu'an IDC campus in the Greater Beijing Area, stating it is implementing advanced liquid cooling solutions that offer superior heat absorption and dissipation to cut energy use and improve PUE amid AI-driven demand.",
+          "source": "https://www.prnewswire.com/news-releases/vnet-wins-40mw-wholesale-order-from-leading-internet-company-for-its-new-strategic-idc-campus-302553645.html"
+        },
+        {
+          "year": "2025",
+          "text": "In an article dated 28 April 2025 on cold-plate liquid-cooling practice, VNET stated that at 10 kW per rack liquid and air cooling cost roughly the same to build, that above 25 kW per rack room-level air conditioning can no longer meet cooling needs, and that server power density has risen from 4.4 kW to 200 kW; its Taicang base uses a combined air-liquid cooling solution the article calls a third-generation architecture.",
+          "source": "https://www.vnet.com/portal/article/index/cid/14/id/984.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did VNET announce about liquid cooling at Gu'an?",
+          "a": "In its 11 September 2025 release on a 40 MW wholesale order, VNET said the new Gu'an IDC campus in the Greater Beijing Area (Langfang, Hebei) is implementing advanced liquid-cooling solutions for heat absorption and dissipation to reduce energy use and improve PUE."
+        },
+        {
+          "q": "When does VNET say liquid cooling becomes necessary?",
+          "a": "Its 28 April 2025 article states that at 10 kW per rack liquid and air cooling cost about the same to build, and that beyond 25 kW per rack room-level air conditioning can no longer meet cooling needs, with server density having risen from 4.4 kW to 200 kW."
+        },
+        {
+          "q": "What liquid-cooling deployment does VNET run at Taicang?",
+          "a": "VNET presents its Taicang base as its cold-plate liquid-cooling best practice, using a combined air-liquid cooling solution the article describes as the industry's first third-generation architecture, lowering PUE to a level the article calls leading for the region."
+        },
+        {
+          "q": "Where is VNET listed and when was it founded?",
+          "a": "VNET's company page states it was founded in 1996 and listed on Nasdaq (ticker VNET) in 2011, describing itself as China's first US-listed IDC company; it operates more than 50 data centers in over 30 Chinese cities."
+        }
+      ]
+    },
+    {
+      "slug": "alibaba-cloud",
+      "name": "Alibaba Cloud",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Cloud provider (site also uses the spelling Aliyun) operating immersion-cooled cloud data centers: its Hangzhou data center runs tens of thousands of servers soaked in a special insulating coolant, and the group has opened its soaking server immersion cooling patents for free external use.",
+      "hq": "NOT_FOUND",
+      "founded": 2009,
+      "ownership": "A business of Alibaba Group (listed among Alibaba Group's businesses on its corporate site)",
+      "website": "https://www.aliyun.com/",
+      "productLines": [
+        {
+          "name": "Immersion-cooled cloud data center cluster (Hangzhou)",
+          "note": "Tens of thousands of servers soaked in a special insulating coolant to dissipate heat; the company states an average annual PUE of 1.09 for the cluster.",
+          "source": "https://www.alibabacloud.com/blog/alibaba-cloud-enables-five-super-data-centers-to-support-double-11_596951"
+        },
+        {
+          "name": "Soaking server immersion cooling patents",
+          "note": "Nine green data center patents made available for free to external parties through the Low Carbon Patent Pledge, including the soaking server immersion cooling system.",
+          "source": "https://www.alibabagroup.com/en-US/document-1489317197007290368"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In a blog dated 16 April 2025, Alibaba Cloud lists wider deployment of advanced cooling technologies like liquid immersion cooling in data centers among its anticipated developments for 2025.",
+          "source": "https://www.alibabacloud.com/blog/peering-into-2025-anticipating-alibaba-clouds-next-wave-of-innovation_602153"
+        },
+        {
+          "year": "2022",
+          "text": "Alibaba Group announced on 22 April 2022 that it joined the Low Carbon Patent Pledge, making nine green data center patents available for free to external parties, including patents for its soaking server immersion cooling system, described as non-mechanical cooling with energy savings of over 70 percent versus traditional mechanical cooling.",
+          "source": "https://www.alibabagroup.com/en-US/document-1489317197007290368"
+        },
+        {
+          "year": "2020",
+          "text": "Alibaba Cloud's blog of 30 November 2020 states that its Hangzhou data center supports the Double 11 shopping event with tens of thousands of liquid-cooled servers that are soaked in a special insulating coolant to dissipate heat, with an average annual PUE of 1.09.",
+          "source": "https://www.alibabacloud.com/blog/alibaba-cloud-enables-five-super-data-centers-to-support-double-11_596951"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Alibaba Cloud use liquid cooling in production?",
+          "a": "Yes. The company's blog of 30 November 2020 describes its Hangzhou data center cluster supporting Double 11 with tens of thousands of servers cooled by immersion in a special insulating coolant."
+        },
+        {
+          "q": "What efficiency does the immersion-cooled cluster achieve?",
+          "a": "The blog states an average annual PUE of 1.09 for the Hangzhou liquid-cooled cluster, with energy consumption cut by over 70 percent."
+        },
+        {
+          "q": "Can others use Alibaba's immersion cooling technology?",
+          "a": "Alibaba Group announced on 22 April 2022 that nine green data center patents, including the soaking server immersion cooling system, are available for free to external parties through the Low Carbon Patent Pledge."
+        }
+      ]
+    },
+    {
+      "slug": "tencent-cloud",
+      "name": "Tencent Cloud",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Internet services and cloud group (Tencent Cloud) whose fifth-generation T-AIDC data center architecture is built around advanced liquid cooling for AI servers, with coolant distribution units and PUE levels below 1.15; its data centers have also used liquid cooling to improve cooling efficiency.",
+      "hq": "Shenzhen, China",
+      "founded": 1998,
+      "ownership": "A business of Tencent Holdings, listed on the Hong Kong Stock Exchange (0700)",
+      "website": "https://cloud.tencent.com/",
+      "productLines": [
+        {
+          "name": "T-AIDC AI data center architecture (fifth generation)",
+          "note": "Advanced liquid cooling for AI servers supporting 30-140 kW workloads, DU-450 coolant distribution units and PUE levels below 1.15, evolving from the fourth-generation T-Block model.",
+          "source": "https://www.tencent.com/climate/assets/pdf/Tencent_Carbon_Neutrality_Mid-Term_Report_EN.pdf"
+        },
+        {
+          "name": "Carbon Neutrality Mid-Term Report",
+          "note": "Company report presenting data center energy efficiency, including the T-AIDC liquid-cooled architecture and smart adjustment of power, cooling and workloads.",
+          "source": "https://www.tencent.com/climate/assets/pdf/Tencent_Carbon_Neutrality_Mid-Term_Report_EN.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Tencent's news article of 17 August 2026 announces the release of its Carbon Neutrality Mid-Term Report and describes T-AIDC, its next-generation AI data center architecture, as addressing power delivery, cooling and system design for AI workloads.",
+          "source": "https://www.tencent.com/tencent-details-progress-toward-carbon-neutrality-goals-and-outlines-ai-era-priorities"
+        },
+        {
+          "year": "2021",
+          "text": "In a company article dated 31 March 2021, Tencent states it has tried using liquid cooling technology to improve cooling efficiency and reduce energy use in its data centers.",
+          "source": "https://www.tencent.com/technology-powered-by-electricity-could-ultimately-help-reduce-energy-use"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Tencent use for AI servers?",
+          "a": "The Carbon Neutrality Mid-Term Report states its T-AIDC architecture uses advanced liquid cooling for AI servers supporting 30-140 kW workloads, with DU-450 coolant distribution units and PUE levels below 1.15."
+        },
+        {
+          "q": "How did Tencent's data center cooling technology evolve?",
+          "a": "The report describes an evolution from the fourth-generation T-Block model to T-AIDC, a fifth-generation modular architecture for AI-era rack densities that rose from 6-8 kW to 30-100 kW or more per rack."
+        },
+        {
+          "q": "Has Tencent used liquid cooling before T-AIDC?",
+          "a": "A company article dated 31 March 2021 states Tencent has tried using liquid cooling technology to improve cooling efficiency and reduce energy use in its data centers."
+        }
+      ]
+    },
+    {
+      "slug": "china-mobile",
+      "name": "China Mobile",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Telecom operator (China Mobile Limited) whose Sustainability Report 2025 describes liquid cooling among the energy-saving technologies applied across its data centers and integrated into its standardized AIDC solutions, including intelligent computing centers in Hohhot and Harbin.",
+      "hq": "Beijing, China (Xicheng District)",
+      "founded": 1997,
+      "ownership": "Actual controller China Mobile Communications Group; listed on HKEX since October 1997 and on the Shanghai Stock Exchange since January 2022",
+      "website": "https://www.10086.cn/",
+      "productLines": [
+        {
+          "name": "Standardized AI data center (AIDC) solutions",
+          "note": "Upgraded solutions integrating advanced technologies such as AI, liquid cooling and high-temperature water, as stated in the Sustainability Report 2025.",
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042301523.pdf"
+        },
+        {
+          "name": "Intelligent computing centers (Hohhot, Harbin)",
+          "note": "The company's report states these centers achieved a win-win situation for both business and energy saving; liquid cooling and AI-controlled HVAC group control are applied across its data centers.",
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042301523.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "China Mobile Limited's Sustainability Report 2025, dated April 2026, states the company has upgraded its AIDC standardization solutions, integrating advanced technologies such as AI, liquid cooling and high-temperature water.",
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042301523.pdf"
+        },
+        {
+          "year": "2025",
+          "text": "The same report states that liquid cooling and AI-controlled HVAC group control are actively applied as energy-saving technologies, and that as of December 2025 the 55 large and extra-large data centers had a PUE of 1.285, a further decrease compared with the end of 2024.",
+          "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0423/2026042301523.pdf"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does China Mobile use liquid cooling in its data centers?",
+          "a": "Its Sustainability Report 2025 (April 2026) states liquid cooling is among the energy-saving technologies actively applied, and that it is integrated into the company's upgraded standardized AIDC solutions alongside AI and high-temperature water."
+        },
+        {
+          "q": "What PUE have China Mobile's data centers reached?",
+          "a": "The report states that as of December 2025 its 55 large and extra-large data centers had a PUE of 1.285, a further decrease compared with the end of 2024."
+        },
+        {
+          "q": "Where are China Mobile's intelligent computing centers with energy-saving cooling?",
+          "a": "The report names intelligent computing centers in Hohhot and Harbin as achieving a win-win situation for both business and energy saving; its data center layout covers all national computing hub nodes."
+        }
+      ]
+    },
+    {
+      "slug": "chindata",
+      "name": "Chindata",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Hyperscale AI infrastructure operator (also spelled Chindata Group), founded in 2015 and headquartered in Beijing; its AI data center solutions include the X-Cooling system combining air, liquid and hybrid cooling, supporting rack power densities of 8 kW to 150 kW in its 2024 solution and 200 kW and above in its 2025 upgrade.",
+      "hq": "Beijing, China",
+      "founded": 2015,
+      "ownership": "Acquisition of its China business in 2025 led by Dongyangguang Group (HEC), per the company's timeline",
+      "website": "https://www.chindatagroup.com/",
+      "productLines": [
+        {
+          "name": "AI Data Center Total Solution 2.0 with X-Cooling",
+          "note": "X-Cooling combines air cooling, liquid cooling and hybrid cooling methods; cabinet power densities from 8 kW to 150 kW and PUE as low as 1.10 with immersive liquid cooling.",
+          "source": "https://www.chindatagroup.com/media/news/467.html"
+        },
+        {
+          "name": "X-Cooling high-density configurations (2025 upgrade)",
+          "note": "Air-cooled, liquid-cooled and hybrid configurations capable of supporting rack power densities of 200 kW and above, with self-developed controls that dynamically optimise cooling performance.",
+          "source": "https://www.chindatagroup.com/media/news/513.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In a release dated 24 November 2025, Chindata states its X-Cooling system includes air-cooled, liquid-cooled and hybrid configurations capable of supporting rack power densities of 200 kW and above, with self-developed control systems that dynamically optimise cooling performance based on real-time operating conditions.",
+          "source": "https://www.chindatagroup.com/media/news/513.html"
+        },
+        {
+          "year": "2024",
+          "text": "On 25 October 2024, Chindata Group announced its AI Data Center Total Solution 2.0, whose X-Cooling solutions combine air cooling, liquid cooling and hybrid cooling methods, with cabinet power densities from 8 kW to 150 kW and a PUE as low as 1.10 with immersive liquid cooling; the company also states it is developing China industry standards for cold plate liquid cooling systems based on its X-Cooling experience.",
+          "source": "https://www.chindatagroup.com/media/news/467.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What cooling options does Chindata's X-Cooling offer?",
+          "a": "Per the 25 October 2024 release, X-Cooling combines air cooling, liquid cooling and hybrid cooling methods for AI-ready facilities, with cabinet power densities from 8 kW to 150 kW and a PUE as low as 1.10 with immersive liquid cooling."
+        },
+        {
+          "q": "What rack densities can the 2025 upgrade support?",
+          "a": "The release dated 24 November 2025 states X-Cooling includes air-cooled, liquid-cooled and hybrid configurations capable of supporting rack power densities of 200 kW and above, with self-developed controls that dynamically optimise cooling performance."
+        },
+        {
+          "q": "Is Chindata involved in liquid cooling standards?",
+          "a": "The company states in its October 2024 release that it is developing China industry standards for cold plate liquid cooling systems based on its X-Cooling experience."
         }
       ]
     }
