@@ -105,14 +105,16 @@
         {
           "name": "AMD",
           "hq": "US",
-          "note": "Instinct MI300/MI350-class accelerators with liquid-cooled variants",
-          "source": "https://www.amd.com/en.html"
+          "note": "Instinct MI350 Series accelerator platforms offered in air-cooled and ultra-dense direct-liquid-cooled configurations",
+          "source": "https://www.amd.com/",
+          "evidence": "https://www.amd.com/en/products/accelerators/instinct/mi350.html"
         },
         {
           "name": "Intel",
           "hq": "US",
-          "note": "Gaudi/Xeon roadmap with cold-plate-ready packages and OCP contributions",
-          "source": "https://www.intel.com/"
+          "note": "Certifies Xeon processors for single-phase immersion cooling in Shell fluids and sells Intel-branded server cold-plate accessories",
+          "source": "https://www.intel.com/",
+          "evidence": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html"
         }
       ]
     },
@@ -487,8 +489,9 @@
         {
           "name": "Chilldyne",
           "hq": "US",
-          "note": "Negative-pressure direct-to-chip: leaks suck air in, not fluid out",
-          "source": "https://www.chilldyne.com/"
+          "note": "Negative-pressure direct-to-chip liquid cooling with leak-free CDUs, cold plates and rack manifolds; member of the Daikin group",
+          "source": "https://www.chilldyne.com/",
+          "evidence": "https://www.chilldyne.com/cdu-1500/"
         },
         {
           "name": "Envicool",
@@ -1262,9 +1265,9 @@
         {
           "name": "Axiom Solutions International",
           "hq": "US",
-          "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
+          "note": "Flex's planned Cloud and Power Infrastructure spin-off (expected Q1 2027) integrating power, cooling and compute, including JetCool cold plates and CDUs",
           "source": "https://flex.com/transaction-resources",
-          "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+          "evidence": "https://flex.com/transaction-resources"
         },
         {
           "name": "DDC Solutions",
@@ -1315,8 +1318,9 @@
         {
           "name": "Asperitas",
           "hq": "NL",
-          "note": "Immersed computing in oil, circular-flow designs (image used on our immersion page)",
-          "source": "https://asperitas.com/"
+          "note": "Full-stack immersion cooling systems using natural convection in dielectric fluid, including the AIC24 and DFCX platforms",
+          "source": "https://asperitas.com/",
+          "evidence": "https://www.asperitas.com/video/asperitas-immersion-cooling-the-aic24-solution"
         },
         {
           "name": "Wiwynn",
@@ -1622,14 +1626,16 @@
         {
           "name": "SPX Cooling",
           "hq": "US",
-          "note": "Marley towers and cooling infrastructure",
-          "source": "https://www.spxcooling.com/"
+          "note": "Marley fluid coolers and cooling towers for data center heat rejection, including the dry or adiabatic OlympusMAX in 120 to 240 hp units",
+          "source": "https://www.spxcooling.com/",
+          "evidence": "https://spxcooling.com/applications/data-centers"
         },
         {
           "name": "Kelvion",
           "hq": "DE",
-          "note": "Industrial heat exchangers and dry coolers",
-          "source": "https://www.kelvion.com/"
+          "note": "Dry coolers and plate heat exchangers for data center heat rejection, from 5 GW Mega-Bay deployments to liquid cooling loop heat transfer",
+          "source": "https://www.kelvion.com/",
+          "evidence": "https://www.kelvion.com/industry-solutions/data-center"
         },
         {
           "name": "Alfa Laval",
@@ -1641,7 +1647,8 @@
           "name": "SWEP",
           "hq": "SE",
           "note": "Brazed-plate heat exchangers, compact CDU-scale",
-          "source": "https://www.swep.net/"
+          "source": "https://www.swepgroup.com/",
+          "evidence": "https://www.swepgroup.com/applications/data-center/data-center-cooling"
         },
         {
           "name": "Kaori",
@@ -1890,8 +1897,9 @@
         {
           "name": "Wilo",
           "hq": "DE",
-          "note": "Pump groups for cooling circuits",
-          "source": "https://wilo.com/"
+          "note": "Pumps, VFDs and prefabricated hydraulic modules for liquid cooling, immersion cooling and CDU systems plus facility chilled-water circulation",
+          "source": "https://wilo.com/",
+          "evidence": "https://wilo.com/us/en_us/Solutions/Markets/Data-Centers"
         },
         {
           "name": "Danfoss",
@@ -1902,8 +1910,9 @@
         {
           "name": "Xylem",
           "hq": "US",
-          "note": "Bell & Gossett pump/heat-transfer portfolio",
-          "source": "https://www.xylem.com/"
+          "note": "Bell & Gossett hydrovar X smart pumps and heat exchangers spanning facility water loops through direct-to-chip liquid cooling systems",
+          "source": "https://www.xylem.com/",
+          "evidence": "https://www.xylem.com/en-us/info/data-centers"
         },
         {
           "name": "Dwyer (Ametek)",
@@ -2189,20 +2198,23 @@
         {
           "name": "Munters",
           "hq": "SE",
-          "note": "Cooling and climate control for data centers/industry",
-          "source": "https://www.munters.com/"
+          "note": "Waterless SyCool thermosiphon cooling: the SyCool LCE liquid-to-refrigerant CDU in 500 kW modules for direct liquid-cooled high-density racks",
+          "source": "https://www.munters.com/en-us/",
+          "evidence": "https://datacenter.munters.com/liquid-cooling-data-center"
         },
         {
           "name": "Johnson Controls",
           "hq": "US",
-          "note": "York chillers and facility integration",
-          "source": "https://www.johnsoncontrols.com/"
+          "note": "Silent-Aire coolant distribution units scaling from 500 kW to over 10 MW within an end-to-end data center thermal management portfolio with York chillers",
+          "source": "https://www.johnsoncontrols.com/",
+          "evidence": "https://www.johnsoncontrols.com/industries/data-centers/solutions/thermal-management"
         },
         {
           "name": "Trane Technologies",
           "hq": "US",
-          "note": "Chiller plant side of L2L deployments",
-          "source": "https://www.trane.com/"
+          "note": "Direct-to-chip coolant distribution units from 1 MW to 10 MW skids plus data center chillers up to 21 MW for hyperscale and colocation facilities",
+          "source": "https://www.trane.com/",
+          "evidence": "https://www.trane.com/commercial/north-america/us/en/markets/data-centers/products.html"
         },
         {
           "name": "Advantech",
@@ -2389,9 +2401,9 @@
         {
           "name": "Axiom Solutions International",
           "hq": "US",
-          "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
+          "note": "Flex's planned Cloud and Power Infrastructure spin-off (expected Q1 2027) integrating power, cooling and compute, including JetCool cold plates and CDUs",
           "source": "https://flex.com/transaction-resources",
-          "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+          "evidence": "https://flex.com/transaction-resources"
         },
         {
           "name": "NextGenergy",
@@ -2523,9 +2535,9 @@
         {
           "name": "Axiom Solutions International",
           "hq": "US",
-          "note": "Flex's Cloud and Power Infrastructure spin-off (planned Q1 2027): power, liquid cooling and rack-scale systems for AI data centers, including prefabricated AI modules integrating compute and cooling",
+          "note": "Flex's planned Cloud and Power Infrastructure spin-off (expected Q1 2027) integrating power, cooling and compute, including JetCool cold plates and CDUs",
           "source": "https://flex.com/transaction-resources",
-          "evidence": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+          "evidence": "https://flex.com/transaction-resources"
         },
         {
           "name": "Tongfei",
@@ -2843,20 +2855,23 @@
         {
           "name": "AWS",
           "hq": "US",
-          "note": "Hyperscale demand driver; custom rack programs reach 100+ kW",
-          "source": "https://aws.amazon.com/"
+          "note": "Hyperscale cloud operator running liquid-cooled EC2 P6e-GB200 UltraServers with configurable liquid-to-chip cooling in new and existing data centers",
+          "source": "https://aws.amazon.com/",
+          "evidence": "https://aws.amazon.com/blogs/machine-learning/aws-ai-infrastructure-with-nvidia-blackwell-two-powerful-compute-solutions-for-the-next-frontier-of-ai/"
         },
         {
           "name": "Microsoft Azure",
           "hq": "US",
-          "note": "Liquid-cooled AI infrastructure at hyperscale",
-          "source": "https://azure.microsoft.com/"
+          "note": "Cloud operator that designed rack-level closed-loop liquid cooling and a dedicated sidekick cooler for its Maia 100 AI accelerator racks in Azure datacenters",
+          "source": "https://azure.microsoft.com/",
+          "evidence": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/"
         },
         {
           "name": "Google Cloud",
           "hq": "US",
-          "note": "TPU pods and GPU fleets push liquid-first rack designs",
-          "source": "https://cloud.google.com/"
+          "note": "Hyperscale cloud operator running direct liquid cooling across its TPU fleets since 2018, with in-row CDUs, manifolds and chip-level cold plates",
+          "source": "https://cloud.google.com/",
+          "evidence": "https://cloud.google.com/blog/topics/systems/enabling-1-mw-it-racks-and-liquid-cooling-at-ocp-emea-summit"
         },
         {
           "name": "Alibaba Cloud",
@@ -2879,14 +2894,16 @@
         {
           "name": "Equinix",
           "hq": "US",
-          "note": "Colocation; xScale JV builds for hyperscale tenants",
-          "source": "https://www.equinix.com/"
+          "note": "Global colocation operator offering direct-to-chip and rear-door liquid cooling support across more than 100 IBX data centers in over 45 metros",
+          "source": "https://www.equinix.com/",
+          "evidence": "https://newsroom.equinix.com/2023-12-11-Equinix-to-Accelerate-and-Simplify-Liquid-Cooling-Deployments-to-Power-Enterprise-AI-Workloads"
         },
         {
           "name": "Digital Realty",
           "hq": "US",
-          "note": "Global colocation platform tracking high-density liquid deployments",
-          "source": "https://www.digitalrealty.com/"
+          "note": "Global colocation operator whose High-Density Colocation supports 30 to 150 kW per cabinet with air-assisted and direct liquid cooling options",
+          "source": "https://www.digitalrealty.com/",
+          "evidence": "https://www.digitalrealty.com/platform-digital/colocation/high-density-colocation"
         },
         {
           "name": "GDS",
@@ -2937,7 +2954,7 @@
         {
           "name": "TeraWulf",
           "hq": "US",
-          "note": "Data center operator delivering liquid-cooled AI infrastructure for Core42/G42 at Lake Mariner (NY); direct liquid cooled Dell GPU racks",
+          "note": "Data center operator delivering over 70MW of liquid-cooled AI infrastructure for Core42 at its Lake Mariner facility in Western New York",
           "source": "https://www.terawulf.com/",
           "evidence": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
         },
@@ -2958,7 +2975,7 @@
         {
           "name": "Vantage Data Centers",
           "hq": "US",
-          "note": "Global wholesale data center developer standardizing closed-loop chilled water and partnering with customers to bring liquid to the rack for AI",
+          "note": "Wholesale data center developer using closed-loop chilled water systems and partnering with customers to bring liquid to the rack for high-density workloads",
           "source": "https://vantage-dc.com/",
           "evidence": "https://vantage-dc.com/features/cooling"
         },
@@ -3133,9 +3150,9 @@
         {
           "name": "Teraco",
           "hq": "ZA",
-          "note": "African colocation operator (Digital Realty-backed); JB4 Johannesburg expansion halls fully liquid-to-liquid cooling enabled for high-density AI workloads",
+          "note": "South African colocation operator whose JB4 Bredell expansion halls are fully liquid-to-liquid cooling enabled for direct-to-chip AI workloads",
           "source": "https://www.teraco.co.za/",
-          "evidence": "https://datacentremagazine.com/news/teraco-expands-jb4-into-africas-largest-data-centre"
+          "evidence": "https://www.teraco.co.za/news/teraco-completes-significant-jb4-hyperscale-data-centre-expansion-incorporating-new-sustainability-designs/"
         },
         {
           "name": "Sify Technologies",
@@ -3238,21 +3255,21 @@
         {
           "name": "Applied Digital",
           "hq": "US",
-          "note": "Builds and operates AI factory data center campuses designed for high-density liquid-cooled GPU workloads leased to hyperscale customers",
+          "note": "Builds and operates Polaris Forge AI factory campuses in North Dakota with proprietary liquid cooling and near-zero water consumption, leased to hyperscale tenants",
           "source": "https://www.applieddigital.com/",
-          "evidence": "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with"
+          "evidence": "https://ir.applieddigital.com/news-events/press-releases/detail/133/applied-digital-achieves-ready-for-service-for-phase-1-at"
         },
         {
           "name": "Ascenty",
           "hq": "BR",
-          "note": "Data-center operator offering colocation infrastructure with high-density and liquid-cooling-ready environments for AI and HPC workloads across Latin America",
+          "note": "Latin American data center operator providing high-density and liquid-cooling-ready environments for AI workloads across Brazil, Chile, Mexico and Colombia",
           "source": "https://ascenty.com/",
           "evidence": "https://ascenty.com/en/blog/news-ascenty-en/vertical-data-and-ascenty-announce-partnership-to-deploy-ai-infrastructure-across-latin-america"
         },
         {
           "name": "CtrlS",
           "hq": "IN",
-          "note": "Data-center operator offering direct liquid cooling and liquid immersion cooling support for high-density AI racks across its Indian colocation campuses",
+          "note": "Indian colocation operator offering direct liquid cooling and liquid immersion cooling for AI racks up to 250 kW per rack across its Rated-4 datacenter campuses",
           "source": "https://www.ctrls.com/",
           "evidence": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
         }

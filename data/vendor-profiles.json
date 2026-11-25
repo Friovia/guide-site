@@ -13262,6 +13262,1383 @@
           "a": "Telehouse is a data centre service provider under KDDI Group, and Telehouse Canada is described as a subsidiary of KDDI Corporation."
         }
       ]
+    },
+    {
+      "slug": "teraco",
+      "name": "Teraco",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Vendor-neutral data centre and interconnection provider in South Africa, majority-owned by Digital Realty. Its JB4 Bredell campus expansion in Ekurhuleni, east of Johannesburg, has data halls fully liquid-to-liquid cooling enabled, supporting direct-to-chip cooling for high-density AI workloads.",
+      "hq": "Johannesburg, South Africa",
+      "founded": "NOT_FOUND",
+      "ownership": "Majority-owned by Digital Realty, with Berkshire Partners LLC and Permira as investors",
+      "website": "https://www.teraco.co.za/",
+      "productLines": [
+        {
+          "name": "JB4 Bredell Campus expansion halls",
+          "note": "Expansion data halls fully liquid-to-liquid cooling enabled, supporting direct-to-chip cooling for denser AI workloads; the 2025 addition of 30MW took JB4 to 50MW of critical IT power load.",
+          "source": "https://www.teraco.co.za/news/teraco-completes-significant-jb4-hyperscale-data-centre-expansion-incorporating-new-sustainability-designs/"
+        },
+        {
+          "name": "Closed-loop chilled water system",
+          "note": "The expansion uses a closed-loop chilled water system that provides free air cooling, with AI-driven real-time cooling configuration.",
+          "source": "https://www.teraco.co.za/news/teraco-completes-significant-jb4-hyperscale-data-centre-expansion-incorporating-new-sustainability-designs/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 12 August 2025 Teraco announced completion of its JB4 expansion in Ekurhuleni, east of Johannesburg: a 30MW addition taking the campus, described by the company as the largest standalone data centre built in Africa, to 50MW of critical IT power load.",
+          "source": "https://www.teraco.co.za/news/teraco-completes-significant-jb4-hyperscale-data-centre-expansion-incorporating-new-sustainability-designs/"
+        },
+        {
+          "year": "2025",
+          "text": "Announced 12 August 2025: the new JB4 data halls are fully liquid-to-liquid cooling enabled and support direct-to-chip cooling for denser AI workloads, using a closed-loop chilled water system that provides free air cooling.",
+          "source": "https://www.teraco.co.za/news/teraco-completes-significant-jb4-hyperscale-data-centre-expansion-incorporating-new-sustainability-designs/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does Teraco support at JB4?",
+          "a": "The JB4 expansion data halls are fully liquid-to-liquid cooling enabled and support direct-to-chip cooling for denser AI workloads."
+        },
+        {
+          "q": "Where is Teraco's JB4 campus and how large is it?",
+          "a": "JB4 is in Ekurhuleni, east of Johannesburg, South Africa. The 2025 expansion added 30MW, taking the campus to 50MW of critical IT power load."
+        },
+        {
+          "q": "What cooling system does the JB4 expansion use?",
+          "a": "A closed-loop chilled water system that provides free air cooling, with AI-driven real-time cooling configuration."
+        },
+        {
+          "q": "Who owns Teraco?",
+          "a": "Teraco is majority-owned by Digital Realty, with Berkshire Partners LLC and Permira among its investors, as stated on the company's about page."
+        }
+      ]
+    },
+    {
+      "slug": "terawulf",
+      "name": "TeraWulf",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "US data center operator (Nasdaq: WULF) that develops and operates data center infrastructure for Bitcoin mining and HPC workloads at its Lake Mariner facility in Western New York. For Core42, a G42 company, it delivers halls with Dell IR5000 racks of direct liquid cooled PowerEdge XE9680L GPU servers.",
+      "hq": "Easton, Maryland, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on Nasdaq (WULF)",
+      "website": "https://www.terawulf.com/",
+      "productLines": [
+        {
+          "name": "Core42 AI halls at Lake Mariner",
+          "note": "Over 70MW gross of turn-key data center infrastructure for Core42's US AI operations, with lease provisions to expand by an additional 135MW gross (108MW of critical IT load).",
+          "source": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
+        },
+        {
+          "name": "Direct liquid cooled GPU racks (Dell IR5000)",
+          "note": "Data halls customized to support Core42 GPU clusters featuring Dell Integrated Rack Scalable Solutions (IR5000), integrated racks that include direct liquid cooled Dell PowerEdge XE9680L GPU servers.",
+          "source": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
+        },
+        {
+          "name": "Lake Mariner facility",
+          "note": "Campus in Western New York on the site of a retired coal plant, using predominantly zero-carbon energy sources including hydroelectric and nuclear power; hosts the liquid-cooled Core42 halls.",
+          "source": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "On 23 December 2024 TeraWulf announced it will deliver over 70MW gross of turn-key data center infrastructure at Lake Mariner for Core42's US operations, with lease provisions to expand by an additional 135MW gross, equal to 108MW of critical IT load.",
+          "source": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
+        },
+        {
+          "year": "2024",
+          "text": "Announced 23 December 2024: the Lake Mariner data halls will be customized for Core42 GPU clusters with Dell IR5000 integrated racks that include direct liquid cooled Dell PowerEdge XE9680L GPU servers, with production released in phases between Q1 and Q3 2025.",
+          "source": "https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center-infrastructure-for-g42s-us-operations"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does TeraWulf's Core42 agreement at Lake Mariner cover?",
+          "a": "Announced 23 December 2024: over 70MW gross of turn-key data center infrastructure for Core42, a G42 company, with provisions to expand by an additional 135MW gross, equal to 108MW of critical IT load."
+        },
+        {
+          "q": "What liquid cooling does TeraWulf deploy at Lake Mariner?",
+          "a": "The data halls support Core42 GPU clusters featuring Dell IR5000 integrated racks, which include direct liquid cooled Dell PowerEdge XE9680L GPU servers."
+        },
+        {
+          "q": "Where is the Lake Mariner facility and when does production start?",
+          "a": "Lake Mariner is in Western New York, on the site of a now retired coal plant. The Core42 infrastructure was to be released for production in phases between Q1 and Q3 2025."
+        },
+        {
+          "q": "Where is TeraWulf headquartered and listed?",
+          "a": "The company's press releases are datelined Easton, Maryland, and name TeraWulf Inc. as listed on Nasdaq under the ticker WULF."
+        }
+      ]
+    },
+    {
+      "slug": "vantage-data-centers",
+      "name": "Vantage Data Centers",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Global wholesale data center developer and operator. Its cooling platform uses a closed-loop, air-cooled chiller system with N+2 redundancy, and the company partners with customers to bring liquid to the rack in large-scale applications, with pre-tapped headers to provide liquid to the floor.",
+      "hq": "Denver, Colorado, United States",
+      "founded": 2010,
+      "ownership": "Backed by DigitalBridge and Silver Lake, with AustralianSuper as a shareholder",
+      "website": "https://vantage-dc.com/",
+      "productLines": [
+        {
+          "name": "Closed-loop chilled water platform",
+          "note": "Closed-loop, air-cooled chiller system with N+2 redundancy that maximizes heat rejection while minimizing water use, requiring near-zero water recharge.",
+          "source": "https://vantage-dc.com/features/cooling"
+        },
+        {
+          "name": "Liquid-to-the-rack offering",
+          "note": "Partnership with customers to bring liquid to the rack in large-scale applications, pushing the heat-exchange medium closer to the source; pre-tapped headers provide liquid to the floor, suited to build-to-suit projects.",
+          "source": "https://vantage-dc.com/features/cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 22 October 2025 OpenAI, Oracle and Vantage announced a Stargate data center site in Port Washington, Wisconsin: four data centers providing close to a gigawatt of AI capacity, to use a closed-loop liquid cooling system that uses minimal water, with construction scheduled for completion in 2028.",
+          "source": "https://vantage-dc.com/news/openai-oracle-and-vantage-data-centers-announce-stargate-data-center-site-in-wisconsin"
+        },
+        {
+          "year": "2010",
+          "text": "Vantage launched in June 2010 with an investment from Silver Lake Partners, acquiring a fully operational data center in Santa Clara, California, formerly owned by Intel Corp.",
+          "source": "https://vantage-dc.com/about-us/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Vantage provide liquid cooling to racks?",
+          "a": "The company states it is partnering with customers to bring liquid to the rack in large-scale applications, with pre-tapped headers to provide liquid to the floor, typically in build-to-suit projects."
+        },
+        {
+          "q": "What is Vantage's baseline cooling system?",
+          "a": "A closed-loop, air-cooled chiller system with N+2 redundancy that requires near-zero water recharge."
+        },
+        {
+          "q": "When was Vantage Data Centers founded?",
+          "a": "The company launched in June 2010 with an investment from Silver Lake Partners, acquiring a former Intel data center in Santa Clara, California."
+        },
+        {
+          "q": "Who backs Vantage Data Centers?",
+          "a": "DigitalBridge acquired Vantage in 2017; DigitalBridge and Silver Lake led a further equity investment in 2025, and AustralianSuper also joined as a shareholder, per the company's timeline."
+        },
+        {
+          "q": "Which Vantage campus uses liquid cooling?",
+          "a": "Vantage's release of 22 October 2025 says the Stargate campus it is developing in Port Washington, Wisconsin, will use a closed-loop liquid cooling system that uses minimal water."
+        }
+      ]
+    },
+    {
+      "slug": "aws",
+      "name": "AWS",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Cloud provider operating liquid-cooled AI infrastructure at hyperscale. Its EC2 P6e-GB200 UltraServers, built on NVIDIA GB200 NVL72, are liquid cooled with configurable liquid-to-chip cooling, and its infrastructure innovation program describes a custom liquid cooling system developed for next-generation AI chips.",
+      "hq": "Seattle, Washington, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Cloud business of Amazon.com, Inc. (Nasdaq: AMZN)",
+      "website": "https://aws.amazon.com/",
+      "productLines": [
+        {
+          "name": "EC2 P6e-GB200 UltraServers",
+          "note": "Liquid-cooled UltraServers on NVIDIA GB200 NVL72 with configurable liquid-to-chip cooling; AWS states the design works in both new and existing data centers alongside air-cooled network and storage gear.",
+          "source": "https://aws.amazon.com/blogs/machine-learning/aws-ai-infrastructure-with-nvidia-blackwell-two-powerful-compute-solutions-for-the-next-frontier-of-ai/"
+        },
+        {
+          "name": "Custom liquid cooling for next-generation AI",
+          "note": "AWS infrastructure innovation page describes designing a completely custom liquid cooling system after denser, more powerful chips required it, delivered in an 11-month development effort.",
+          "source": "https://aws.amazon.com/about-aws/global-infrastructure/innovation/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "AWS announced general availability of EC2 P6e-GB200 UltraServers on 9 July 2025, stating they are liquid cooled with configurable liquid-to-chip cooling and enable higher compute density in large NVLink domain architectures.",
+          "source": "https://aws.amazon.com/blogs/machine-learning/aws-ai-infrastructure-with-nvidia-blackwell-two-powerful-compute-solutions-for-the-next-frontier-of-ai/"
+        },
+        {
+          "year": "2025",
+          "text": "The AWS Weekly Roundup of 3 November 2025 reported Project Rainier online: an AI supercomputer built with Anthropic using nearly 500,000 custom-designed Trainium2 chips deployed through the EC2 UltraServer and UltraCluster architecture.",
+          "source": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-project-rainier-online-amazon-nova-amazon-bedrock-and-more-november-3-2025/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does AWS operate liquid-cooled compute?",
+          "a": "Yes. Its EC2 P6e-GB200 UltraServers, generally available since 9 July 2025, are liquid cooled with configurable liquid-to-chip cooling."
+        },
+        {
+          "q": "Can AWS run liquid-cooled racks in existing data centers?",
+          "a": "The launch post states the P6e-GB200 cooling solutions work in both new and existing data centers, supporting liquid-cooled accelerators and air-cooled network and storage infrastructure in the same facility."
+        },
+        {
+          "q": "What is Project Rainier?",
+          "a": "An AI supercomputer built by AWS with Anthropic, reported online on 3 November 2025, bringing nearly 500,000 custom-designed Trainium2 chips into service through EC2 UltraServer and UltraCluster architectures."
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-azure",
+      "name": "Microsoft Azure",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Hyperscale cloud platform operating liquid-cooled AI infrastructure. For its in-house Maia 100 accelerator, Microsoft designed a custom rack with rack-level closed-loop liquid cooling for the accelerators and host CPUs, plus a sidekick cooler matched to the chip's thermal profile; it also runs rack-scale NVIDIA Blackwell VMs.",
+      "hq": "Redmond, Washington, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Cloud platform of Microsoft Corporation (Nasdaq: MSFT)",
+      "website": "https://azure.microsoft.com/",
+      "productLines": [
+        {
+          "name": "Maia 100 liquid-cooled rack",
+          "note": "Custom rack for the Maia 100 AI accelerator with rack-level, closed-loop liquid cooling applied to the accelerators and their host CPUs to achieve higher efficiency, plus rack-level power distribution integrated with Azure infrastructure.",
+          "source": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/"
+        },
+        {
+          "name": "Sidekick liquid cooling for Maia 100",
+          "note": "A dedicated sidekick cooler built to match the thermal profile of the Maia 100 chip, described by Microsoft as part of the cooling approach for its first in-house AI accelerator.",
+          "source": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 18 March 2025 Microsoft announced general availability of the Azure ND GB200 v6 VM series on the NVIDIA GB200 NVL72 rack-scale system, supporting up to 72 NVIDIA Blackwell GPUs in a single NVLink domain and scaling out to tens of thousands of Blackwell GPUs on Azure.",
+          "source": "https://azure.microsoft.com/en-us/blog/microsoft-and-nvidia-accelerate-ai-development-and-performance/"
+        },
+        {
+          "year": "2024",
+          "text": "On 3 April 2024 Microsoft described the Azure Maia 100 system, stating it added rack-level, closed-loop liquid cooling to Maia 100 accelerators and their host CPUs to achieve higher efficiency, with a dedicated sidekick cooler matching the chip's thermal profile.",
+          "source": "https://azure.microsoft.com/en-us/blog/azure-maia-for-the-era-of-ai-from-silicon-to-software-to-systems/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Azure use liquid cooling?",
+          "a": "Yes. Microsoft states it added rack-level, closed-loop liquid cooling to Maia 100 accelerators and their host CPUs, a design described in the Azure blog of 3 April 2024."
+        },
+        {
+          "q": "What is the sidekick cooler in Azure Maia racks?",
+          "a": "A dedicated cooling unit built to match the thermal profile of the Maia 100 chip, deployed alongside the rack-level closed-loop liquid cooling for the accelerator racks."
+        },
+        {
+          "q": "What are Azure ND GB200 v6 VMs?",
+          "a": "A virtual machine series generally available since 18 March 2025, based on the NVIDIA GB200 NVL72 rack-scale system with up to 72 Blackwell GPUs in a single NVLink domain, scalable to tens of thousands of GPUs on Azure."
+        }
+      ]
+    },
+    {
+      "slug": "google-cloud",
+      "name": "Google Cloud",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Cloud provider whose AI infrastructure relies on direct liquid cooling: in-row coolant distribution units, manifolds, flexible hoses and cold plates attached to high-power chips, deployed across TPU generations since 2018, including Ironwood pods of up to 9,216 liquid-cooled chips.",
+      "hq": "Mountain View, California, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Cloud business of Alphabet Inc. (Nasdaq: GOOGL, GOOG)",
+      "website": "https://cloud.google.com/",
+      "productLines": [
+        {
+          "name": "Liquid-cooled TPU fleet",
+          "note": "Direct liquid cooling deployed across TPU generations from v3 (2018) through v4, v5 and Ironwood, using in-row CDUs, manifolds, flexible hoses and cold plates directly attached to high-power chips, with the rack liquid loop isolated from the facility loop.",
+          "source": "https://cloud.google.com/blog/topics/systems/enabling-1-mw-it-racks-and-liquid-cooling-at-ocp-emea-summit"
+        },
+        {
+          "name": "Project Deschutes CDU",
+          "note": "Google's coolant distribution unit architecture with a redundant pump and heat exchanger; Google announced it will contribute the fifth-generation Project Deschutes CDU to the Open Compute Project to accelerate industry-wide liquid cooling adoption.",
+          "source": "https://cloud.google.com/blog/topics/systems/enabling-1-mw-it-racks-and-liquid-cooling-at-ocp-emea-summit"
+        },
+        {
+          "name": "Ironwood TPU pods",
+          "note": "Google's seventh-generation TPU for inference, announced 9 April 2025, scales to 9,216 liquid-cooled chips per pod spanning nearly 10 MW.",
+          "source": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "In a 29 April 2025 Google Cloud blog post from the OCP EMEA Summit, Google stated it has deployed liquid cooling at gigawatt scale across more than 2,000 TPU pods in the past seven years, having first used liquid cooling in TPU v3 deployed in 2018, with fleet-wide CDU availability reported at about 99.999 percent since 2020.",
+          "source": "https://cloud.google.com/blog/topics/systems/enabling-1-mw-it-racks-and-liquid-cooling-at-ocp-emea-summit"
+        },
+        {
+          "year": "2025",
+          "text": "Google announced the Ironwood TPU on 9 April 2025, describing pods that scale up to 9,216 liquid-cooled chips linked by Inter-Chip Interconnect networking and spanning nearly 10 MW, with liquid cooling sustaining up to twice the performance of standard air cooling.",
+          "source": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/"
+        },
+        {
+          "year": "2018",
+          "text": "Google states it first used liquid cooling in TPU v3, deployed in 2018, and that liquid-cooled ML servers have nearly half the geometrical volume of air-cooled counterparts, which allowed it to double chip density versus the air-cooled TPU v2 generation.",
+          "source": "https://cloud.google.com/blog/topics/systems/enabling-1-mw-it-racks-and-liquid-cooling-at-ocp-emea-summit"
+        }
+      ],
+      "faq": [
+        {
+          "q": "When did Google first deploy liquid cooling?",
+          "a": "Google first used liquid cooling in TPU v3, deployed in 2018, and has since refined the technology through TPU v4, v5 and Ironwood, per its April 2025 OCP EMEA Summit blog post."
+        },
+        {
+          "q": "How does Google cool its TPU racks?",
+          "a": "Its implementation uses in-row coolant distribution units with redundant pumps and heat exchangers, isolating the rack liquid loop from the facility loop, delivering cooling via manifolds, flexible hoses and cold plates directly attached to high-power chips."
+        },
+        {
+          "q": "What is Project Deschutes?",
+          "a": "Google's CDU architecture, named Project Deschutes; Google announced in April 2025 that it will contribute the fifth-generation design, with system details and specifications, to the Open Compute Project to accelerate liquid cooling adoption."
+        },
+        {
+          "q": "How large are Google's liquid-cooled TPU deployments?",
+          "a": "Google states it has deployed liquid cooling at gigawatt scale across more than 2,000 TPU pods over seven years, and its Ironwood pods scale to 9,216 liquid-cooled chips spanning nearly 10 MW."
+        }
+      ]
+    },
+    {
+      "slug": "equinix",
+      "name": "Equinix",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Global colocation provider whose IBX data centers offer tenant liquid cooling services: direct-to-chip cold plates, rear-door heat exchangers and liquid-to-air in-rack heat exchangers, plus a vendor-neutral approach and EPIC innovation centers where enterprises test and deploy liquid-cooled GPU and CPU platforms.",
+      "hq": "Redwood City, California, United States",
+      "founded": 1998,
+      "ownership": "NOT_FOUND",
+      "website": "https://www.equinix.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling services in IBX data centers",
+          "note": "Support for direct-to-chip liquid cooling, rear-door heat exchangers and liquid-to-air in-rack heat exchangers, with plans announced 11 December 2023 to expand advanced liquid cooling support to more than 100 IBX data centers across more than 45 metros.",
+          "source": "https://newsroom.equinix.com/2023-12-11-Equinix-to-Accelerate-and-Simplify-Liquid-Cooling-Deployments-to-Power-Enterprise-AI-Workloads"
+        },
+        {
+          "name": "EPIC Enhanced Performance Innovation Centers",
+          "note": "A global network of production-ready liquid cooling environments where enterprises test, build and deploy high-density AI infrastructure and trial the latest liquid-cooled GPU and CPU platforms; live in Frankfurt, London, Osaka, Paris and Sydney as of 21 October 2026, with more locations expected in 2027.",
+          "source": "https://investor.equinix.com/news-events/press-releases/detail/1127/equinix-opens-innovation-centers-globally-to-accelerate"
+        },
+        {
+          "name": "Co-Innovation Facility liquid cooling testing",
+          "note": "Equinix's Co-Innovation Facility has hosted development and testing of waterless liquid cooling with partner ZutaCore, and CoolIT Systems is quoted as a liquid-cooling partner in the December 2023 release.",
+          "source": "https://newsroom.equinix.com/2023-12-11-Equinix-to-Accelerate-and-Simplify-Liquid-Cooling-Deployments-to-Power-Enterprise-AI-Workloads"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 21 October 2026 Equinix announced its EPIC Enhanced Performance Innovation Centers, a global network of production-ready liquid cooling environments live in Frankfurt, London, Osaka, Paris and Sydney, where enterprises can trial liquid-cooled GPU and CPU platforms under real-world AI training and inference conditions, with more locations expected in 2027.",
+          "source": "https://investor.equinix.com/news-events/press-releases/detail/1127/equinix-opens-innovation-centers-globally-to-accelerate"
+        },
+        {
+          "year": "2023",
+          "text": "On 11 December 2023 Equinix announced plans to expand support for advanced liquid cooling technologies to more than 100 of its IBX data centers in more than 45 metros, covering direct-to-chip liquid cooling and rear-door heat exchangers, with liquid-to-air in-rack heat exchangers available at nearly every IBX.",
+          "source": "https://newsroom.equinix.com/2023-12-11-Equinix-to-Accelerate-and-Simplify-Liquid-Cooling-Deployments-to-Power-Enterprise-AI-Workloads"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling options does Equinix offer?",
+          "a": "Direct-to-chip liquid cooling using cold plates, rear-door heat exchangers mounted on customer cabinets, and liquid-to-air cooling through in-rack heat exchangers available at nearly every IBX data center."
+        },
+        {
+          "q": "How many Equinix data centers support liquid cooling?",
+          "a": "In its 11 December 2023 announcement, Equinix said it planned to expand support for advanced liquid cooling technologies to more than 100 IBX data centers in more than 45 metros across all three regions."
+        },
+        {
+          "q": "What is Equinix EPIC?",
+          "a": "The Enhanced Performance Innovation Centers are production-ready liquid cooling environments where enterprises test, build and deploy high-density AI infrastructure; as of 21 October 2026 they are live in Frankfurt, London, Osaka, Paris and Sydney, with more locations expected in 2027."
+        },
+        {
+          "q": "Which liquid cooling vendors has Equinix worked with?",
+          "a": "Its December 2023 release names CoolIT Systems as a partner and describes ZutaCore partnering at Equinix's Co-Innovation Facility to develop and test waterless liquid cooling."
+        }
+      ]
+    },
+    {
+      "slug": "digital-realty",
+      "name": "Digital Realty",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Provider of cloud- and carrier-neutral data center, colocation and interconnection solutions. Its High-Density Colocation starts at 30 kW per cabinet and scales to 150 kW with Air-Assisted Liquid Cooling and Direct Liquid Cooling options; in May 2024 it announced liquid-to-chip deployment support.",
+      "hq": "Dallas, Texas, United States",
+      "founded": 2004,
+      "ownership": "Listed on NYSE (DLR), as stated in its press release",
+      "website": "https://www.digitalrealty.com/",
+      "productLines": [
+        {
+          "name": "High-Density Colocation",
+          "note": "AI-ready colocation starting at 30 kW per cabinet and scaling to multi-MW deployments and up to 150 kW per cabinet, with liquid cooling options including Air-Assisted Liquid Cooling (AALC) and Direct Liquid Cooling (DLC).",
+          "source": "https://www.digitalrealty.com/platform-digital/colocation/high-density-colocation"
+        },
+        {
+          "name": "Liquid-to-chip cooling deployment support",
+          "note": "Advanced high-density deployment support for liquid-to-chip cooling announced 15 May 2024 for AI and other high-density workloads across Digital Realty's platform.",
+          "source": "https://www.digitalrealty.com/about/newsroom/press-releases/123268/digital-realty-unveils-advanced-high-density-deployment-support-for-liquid-to-chip-cooling"
+        },
+        {
+          "name": "Direct liquid-cooled AI deployments (UK)",
+          "note": "Deployment capability showcased in a 2 February 2026 collaboration with Imperial College London, described by Digital Realty as the first direct liquid-cooled AI deployment in the UK.",
+          "source": "https://www.digitalrealty.com/about/newsroom/press-releases/19976/digital-realty-and-imperial-college-london-collaborate-on-first-direct-liquid-cooled-ai-deployment-in-the-uk"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 2 February 2026 Digital Realty announced a collaboration with Imperial College London on the first direct liquid-cooled AI deployment in the UK.",
+          "source": "https://www.digitalrealty.com/about/newsroom/press-releases/19976/digital-realty-and-imperial-college-london-collaborate-on-first-direct-liquid-cooled-ai-deployment-in-the-uk"
+        },
+        {
+          "year": "2024",
+          "text": "On 15 May 2024 Digital Realty announced the availability of advanced high-density deployment support for liquid-to-chip cooling; the release opens by describing the company (NYSE: DLR) as the largest global provider of cloud- and carrier-neutral data center, colocation and interconnection solutions.",
+          "source": "https://www.digitalrealty.com/about/newsroom/press-releases/123268/digital-realty-unveils-advanced-high-density-deployment-support-for-liquid-to-chip-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What rack densities does Digital Realty support with liquid cooling?",
+          "a": "Its High-Density Colocation starts at 30 kW per cabinet and scales to multi-MW deployments and up to 150 kW per cabinet, with liquid cooling options including Air-Assisted Liquid Cooling and Direct Liquid Cooling."
+        },
+        {
+          "q": "What liquid cooling support did Digital Realty announce in 2024?",
+          "a": "On 15 May 2024 it unveiled advanced high-density deployment support for liquid-to-chip cooling for AI and other high-density workloads."
+        },
+        {
+          "q": "Has Digital Realty deployed direct liquid cooling for a customer?",
+          "a": "Yes. On 2 February 2026 it announced a collaboration with Imperial College London on the first direct liquid-cooled AI deployment in the UK."
+        },
+        {
+          "q": "Where is Digital Realty listed?",
+          "a": "Its press releases state the company's listing as NYSE: DLR."
+        }
+      ]
+    },
+    {
+      "slug": "applied-digital",
+      "name": "Applied Digital",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Builder, owner and operator of large-scale AI data center campuses. Its Polaris Forge campuses in North Dakota use a proprietary design built for power density and liquid cooling with near-zero water consumption, hosting a 200 MW hyperscaler lease at Polaris Forge 2 and a 100 MW building at Polaris Forge 1.",
+      "hq": "Dallas, Texas, United States",
+      "founded": 2001,
+      "ownership": "Listed on NASDAQ (APLD), as stated in its press release",
+      "website": "https://www.applieddigital.com/",
+      "productLines": [
+        {
+          "name": "Polaris Forge 1 AI Factory Campus (Ellendale, North Dakota)",
+          "note": "First 100 MW building reached Ready for Service for its first 50 MW phase on 27 October 2025; the campus implements Applied Digital's proprietary design, including liquid cooling and power distribution innovations with near-zero water consumption.",
+          "source": "https://ir.applieddigital.com/news-events/press-releases/detail/133/applied-digital-achieves-ready-for-service-for-phase-1-at"
+        },
+        {
+          "name": "Polaris Forge 2 AI Factory Campus (near Harwood, North Dakota)",
+          "note": "Campus under construction spanning more than 900 acres with a 1 GW site expansion potential; on 22 October 2025 Applied Digital announced an estimated 15-year lease for 200 MW of critical IT load with a U.S. based investment grade hyperscaler holding a first right of refusal for an additional 800 MW.",
+          "source": "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with"
+        },
+        {
+          "name": "Proprietary liquid cooling design",
+          "note": "The company describes a proprietary design built for power density, liquid cooling and sustainable performance, with near-zero water consumption and proprietary waterless cooling listed among its capabilities.",
+          "source": "https://ir.applieddigital.com/news-events/press-releases/detail/133/applied-digital-achieves-ready-for-service-for-phase-1-at"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 22 October 2025 Applied Digital announced an estimated 15-year lease for 200 MW of critical IT load at its Polaris Forge 2 campus near Harwood, North Dakota with a U.S. based investment grade hyperscaler, which holds a first right of refusal for an additional 800 MW; the campus uses the company's proprietary design built for power density and liquid cooling, bringing total leased capacity to 600 MW across its Polaris Forge campuses.",
+          "source": "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with"
+        },
+        {
+          "year": "2025",
+          "text": "On 27 October 2025 Applied Digital achieved on-time Ready for Service for the first 50 MW phase of the first 100 MW building at its Polaris Forge 1 AI Factory Campus in Ellendale, North Dakota, which implements its proprietary design including liquid cooling with near-zero water consumption.",
+          "source": "https://ir.applieddigital.com/news-events/press-releases/detail/133/applied-digital-achieves-ready-for-service-for-phase-1-at"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What are Applied Digital's AI factory campuses?",
+          "a": "Polaris Forge 1 in Ellendale, North Dakota (first 100 MW building) and Polaris Forge 2 near Harwood, North Dakota (more than 900 acres, 1 GW expansion potential), both built with the company's proprietary design for power density and liquid cooling."
+        },
+        {
+          "q": "Does Applied Digital use liquid cooling?",
+          "a": "Yes. Its press releases state the Polaris Forge campuses use a proprietary design built for power density, liquid cooling and sustainable performance with near-zero water consumption, and list proprietary waterless cooling among company capabilities."
+        },
+        {
+          "q": "How much leased capacity does Applied Digital have?",
+          "a": "After the 200 MW Polaris Forge 2 lease announced 22 October 2025, total leased capacity reached 600 MW across the Polaris Forge 1 and Polaris Forge 2 campuses, and the Polaris Forge 2 tenant holds a first right of refusal for an additional 800 MW."
+        },
+        {
+          "q": "Where is Applied Digital listed?",
+          "a": "Its press releases state the company's listing as NASDAQ: APLD."
+        }
+      ]
+    },
+    {
+      "slug": "ascenty",
+      "name": "Ascenty",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Latin American data center provider established in 2010, backed by Brookfield Infrastructure Partners and Digital Realty, operating 40 data centers across Brazil, Chile, Mexico and Colombia with high-density, liquid-cooling-ready environments for AI, including Sumare 3 with direct-to-chip liquid cooling.",
+      "hq": "NOT_FOUND",
+      "founded": 2010,
+      "ownership": "Backed by shareholders Brookfield Infrastructure Partners and Digital Realty",
+      "website": "https://ascenty.com/",
+      "productLines": [
+        {
+          "name": "Sumare 3 AI data center (Sao Paulo region)",
+          "note": "Described by Ascenty as the first Latin American facility designed from the ground up for large-scale AI workloads, featuring direct-to-chip liquid cooling and a closed-loop cooling architecture that minimizes operational water consumption.",
+          "source": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-ai-contracts"
+        },
+        {
+          "name": "High-density liquid-cooling-ready colocation",
+          "note": "Colocation environments equipped with liquid cooling and built for energy- and cooling-intensive workloads including GPU clusters, offered across Ascenty's Latin American footprint.",
+          "source": "https://ascenty.com/en/blog/news-ascenty-en/vertical-data-and-ascenty-announce-partnership-to-deploy-ai-infrastructure-across-latin-america"
+        },
+        {
+          "name": "Sao Paulo region AI capacity build-out",
+          "note": "150 MW of new agreements with global technology companies for AI and cloud deployments, spanning four new data centers in the Sao Paulo region: Sumare 3, an expansion at Vinhedo 2, plus new facilities at Vinhedo 3 and a sixth Sao Paulo site.",
+          "source": "https://ascenty.com/en/blog/news-ascenty-en/ascenty-ai-contracts"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 26 May 2026 Ascenty and Vertical Data announced a reseller and referral agreement to deploy AI compute infrastructure across Latin America, with Ascenty acting as the infrastructure and data center operations pillar contributing high-density and liquid cooling infrastructure across its footprint of 40 data centers (27 in operation, 13 under development) in Brazil, Chile, Mexico and Colombia.",
+          "source": "https://ascenty.com/en/blog/news-ascenty-en/vertical-data-and-ascenty-announce-partnership-to-deploy-ai-infrastructure-across-latin-america"
+        },
+        {
+          "year": "2010",
+          "text": "Ascenty's About page states the company was established in 2010, describes itself as Latin America's largest data center provider, and notes it is backed by its shareholders Brookfield Infrastructure Partners and Digital Realty.",
+          "source": "https://ascenty.com/en/about-us/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Ascenty support liquid cooling?",
+          "a": "Yes. Ascenty says its infrastructure is set up for liquid cooling and that it provides environments equipped with liquid cooling for high-density AI workloads, including as the data center pillar of the Vertical Data partnership announced 26 May 2026."
+        },
+        {
+          "q": "What is Sumare 3?",
+          "a": "An Ascenty data center in the Sao Paulo region described as the first Latin American facility designed from the ground up for large-scale AI workloads, with direct-to-chip liquid cooling and a closed-loop cooling architecture that minimizes operational water consumption."
+        },
+        {
+          "q": "Who owns Ascenty?",
+          "a": "Its About page states the company is backed by its shareholders Brookfield Infrastructure Partners, a Canadian asset management company, and Digital Realty."
+        },
+        {
+          "q": "How large is Ascenty's data center footprint?",
+          "a": "The company reports 40 data centers in operation or under construction across Brazil, Mexico, Chile and Colombia, interconnected by a 4,000 kilometer proprietary fiber-optic network."
+        }
+      ]
+    },
+    {
+      "slug": "ctrls",
+      "name": "CtrlS",
+      "segments": [
+        "buyers"
+      ],
+      "tagline": "Indian data center operator (CtrlS Datacenters Ltd) offering AI-ready Rated-4 colocation across Mumbai, Chennai, Hyderabad, Noida, Bengaluru and Kolkata, with direct liquid cooling and liquid immersion cooling and layouts for in-rack and end-of-row liquid cooling up to 250 kW per rack.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.ctrls.com/",
+      "productLines": [
+        {
+          "name": "Direct liquid cooling for AI racks",
+          "note": "Advanced direct liquid cooling solutions for HPC, AI, ML and LLM workloads, with tailored layouts for flexible and quick provisioning of in-rack and end-of-row liquid cooling systems in high-density environments up to 45 kW per rack.",
+          "source": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
+        },
+        {
+          "name": "Liquid immersion cooling",
+          "note": "Immersion cooling capability for AI racks, with support up to 250 kW using N+1 / N+N cooling capacity, presented as part of CtrlS's AI-ready datacenter infrastructure.",
+          "source": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
+        },
+        {
+          "name": "AI-ready Rated-4 datacenter campuses",
+          "note": "Expanding AI-ready footprint includes Chennai DC2 (72 MW, live), Hyderabad DC3 (13 MW, live), Mumbai DC6 and DC7 (75 MW) and Kolkata DC1 (16 MW), operated as Rated-4 facilities.",
+          "source": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2024",
+          "text": "CtrlS's AI-ready datacenter infrastructure page, published 19 November 2024, presents direct liquid cooling and liquid immersion cooling for AI workloads, including in-rack and end-of-row liquid cooling provisioning for high-density environments up to 45 kW per rack and high-density power support up to 250 kW per rack with N+1 / N+N cooling capacity.",
+          "source": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
+        },
+        {
+          "year": "2024",
+          "text": "The same page lists CtrlS's expanding AI-ready footprint: Chennai DC2 (72 MW, live), Hyderabad DC3 (13 MW, live), Mumbai DC6 and DC7 (75 MW, Q2 FY 25-26) and Kolkata DC1 (16 MW, Q4 FY 24-25), as part of what it describes as Asia's largest network of Rated-4 datacenters.",
+          "source": "https://www.ctrls.com/ai-ready-datacenter-infrastructure"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling does CtrlS support?",
+          "a": "Its AI-ready infrastructure page lists both direct liquid cooling and liquid immersion cooling, with tailored layouts for flexible and quick provisioning of in-rack and end-of-row liquid cooling systems."
+        },
+        {
+          "q": "What rack densities can CtrlS support with liquid cooling?",
+          "a": "The page describes high-density environments up to 45 kW per rack with liquid cooling layouts, and high-density power support up to 250 kW per rack with N+1 / N+N cooling capacity."
+        },
+        {
+          "q": "Which CtrlS campuses are AI-ready?",
+          "a": "Its AI-ready footprint includes Chennai DC2 (72 MW, live), Hyderabad DC3 (13 MW, live), Mumbai DC6 and DC7 (75 MW, Q2 FY 25-26) and Kolkata DC1 (16 MW, Q4 FY 24-25), plus Rated-4 facilities in Noida and Bengaluru."
+        },
+        {
+          "q": "What is CtrlS?",
+          "a": "CtrlS Datacenters Ltd is an Indian data center operator offering hyperscale, colocation, managed services and connectivity across Mumbai, Chennai, Hyderabad, Noida, Bengaluru and Kolkata, plus edge datacenters in other Indian cities."
+        }
+      ]
+    },
+    {
+      "slug": "johnson-controls",
+      "name": "Johnson Controls",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Building technology supplier whose data center thermal management portfolio covers the Silent-Aire Coolant Distribution Unit (CDU) platform for high-density liquid-cooled racks, alongside York chillers and M&M Carnot refrigeration products.",
+      "hq": "Cork, Ireland",
+      "founded": 1885,
+      "ownership": "Listed on the New York Stock Exchange (NYSE: JCI), as stated in its September 2025 press release",
+      "website": "https://www.johnsoncontrols.com/",
+      "productLines": [
+        {
+          "name": "Silent-Aire Configurable CDU In-Row Mounted",
+          "note": "Flexible liquid cooling for AI and HPC high-density racks; capacities of 1050 kW or 2300 kW, dual-stage 25-micron filtration, redundant pumps and hot-swappable filters.",
+          "source": "https://www.johnsoncontrols.com/industries/data-centers/solutions/thermal-management"
+        },
+        {
+          "name": "Silent-Aire CDU In-Row or Skid-Mounted",
+          "note": "In-row deployment from 500 kW to 1,050 kW; gallery skid deployment scalable to 10 MW; page cites a 1.2 PUE average globally when paired with YVAM.",
+          "source": "https://www.johnsoncontrols.com/industries/data-centers/solutions/thermal-management"
+        },
+        {
+          "name": "York and M&M Carnot thermal management portfolio",
+          "note": "The company states the CDU launch builds on its existing Silent-Aire, York and M&M Carnot thermal management products serving data centers worldwide.",
+          "source": "https://www.johnsoncontrols.com/media-center/news/press-releases/2025/09/08/johnson-controls-expands-thermal-management-offering-with-scalable-liquid-cooling-solution-to-meet-t"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 8 September 2025 Johnson Controls launched its Silent-Aire Coolant Distribution Unit (CDU) platform with scalable cooling capacities from 500 kW to over 10 MW, positioned in-row or in the whitespace perimeter for high-density data centers.",
+          "source": "https://www.johnsoncontrols.com/media-center/news/press-releases/2025/09/08/johnson-controls-expands-thermal-management-offering-with-scalable-liquid-cooling-solution-to-meet-t"
+        },
+        {
+          "year": "2025",
+          "text": "The same release states the Silent-Aire CDUs are manufactured at facilities across North America, Europe and Asia Pacific, with more than 1,800,000 square feet of production floorspace backing data center capacity growth.",
+          "source": "https://www.johnsoncontrols.com/media-center/news/press-releases/2025/09/08/johnson-controls-expands-thermal-management-offering-with-scalable-liquid-cooling-solution-to-meet-t"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does Johnson Controls offer for data centers?",
+          "a": "The Silent-Aire Coolant Distribution Unit platform: a configurable in-row CDU at 1050 kW or 2300 kW, and an in-row or skid-mounted CDU ranging from 500 kW in-row to 10 MW in gallery skid deployment, with dual-stage 25-micron filtration."
+        },
+        {
+          "q": "When was the Silent-Aire CDU platform launched?",
+          "a": "Johnson Controls announced the platform on 8 September 2025, describing scalable capacities from 500 kW to over 10 MW for high-density racks."
+        },
+        {
+          "q": "Where are Johnson Controls' Silent-Aire CDUs manufactured?",
+          "a": "At facilities across North America, Europe and Asia Pacific, supported by more than 1,800,000 square feet of production floorspace."
+        },
+        {
+          "q": "Is Johnson Controls publicly traded?",
+          "a": "Yes, its September 2025 press release identifies the company as listed on the New York Stock Exchange under the ticker JCI."
+        }
+      ]
+    },
+    {
+      "slug": "trane-technologies",
+      "name": "Trane Technologies",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Climate innovation company whose Trane brand supplies data center thermal management: a direct-to-chip coolant distribution unit (CDU) platform, air- and water-cooled data center chillers and chilled water systems for hyperscale and colocation facilities.",
+      "hq": "Swords, Ireland",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the NYSE under ticker TT, per the company's corporate page",
+      "website": "https://www.trane.com/",
+      "productLines": [
+        {
+          "name": "GigaModular CDU",
+          "note": "Scalable liquid cooling CDU with centralized control and 2.5 MW modular growth; the CDU line supports direct-to-chip cooling distribution up to 14 MW.",
+          "source": "https://www.trane.com/commercial/north-america/us/en/markets/data-centers/products.html"
+        },
+        {
+          "name": "CDU-2.X",
+          "note": "Coolant distribution unit combining 3,750 lpm flow with 3.5 bar available head pressure.",
+          "source": "https://www.trane.com/commercial/north-america/us/en/markets/data-centers/products.html"
+        },
+        {
+          "name": "Ascend ACR Air-Cooled Data Center Chiller",
+          "note": "Up to 2 MW cooling capacity with integrated free cooling, high-ambient operation and zero water waste.",
+          "source": "https://www.trane.com/commercial/north-america/us/en/markets/data-centers/products.html"
+        },
+        {
+          "name": "CenTraVac Water-Cooled Data Center Chillers",
+          "note": "Up to 21 MW of cooling with rapid restart, using ultra-low GWP refrigerants R-514A and R-1233zd.",
+          "source": "https://www.trane.com/commercial/north-america/us/en/markets/data-centers/products.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 31 March 2025 Trane announced thermal management system innovations including an air-cooled Magnetic Bearing Chiller producing up to 850 tons (3 MW) at data center conditions on a single unit frame, and an expanded Ascend chiller platform engineered for efficient operation at up to 145F via integrated indirect free cooling.",
+          "source": "https://www.trane.com/commercial/north-america/us/en/about-us/newsroom/press-releases/trane-thermal-management-systems-set-cooling-standards.html"
+        },
+        {
+          "year": "2025",
+          "text": "On 10 June 2025 Trane announced new scalable Coolant Distribution Unit solutions from 2.5 MW to 10 MW in factory skid-mounted designs, complementing its 1 MW CDU, giving hyperscale and colocation data centers flexible direct-to-chip cooling capacity.",
+          "source": "https://www.trane.com/commercial/north-america/us/en/about-us/newsroom/press-releases/expansion-of-liquid-cooling-portfolio-strengthens-thermal-management-system-capabilities.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling products does Trane offer for data centers?",
+          "a": "Coolant distribution units including the GigaModular CDU with centralized control and 2.5 MW modular growth (the CDU line supports direct-to-chip distribution up to 14 MW), the CDU-2.X with 3,750 lpm flow and 3.5 bar available head pressure, and a scalable 2.5 MW to 10 MW skid-mounted platform announced in June 2025."
+        },
+        {
+          "q": "When did Trane announce its scalable CDU platform?",
+          "a": "A 10 June 2025 press release announced scalable CDU solutions from 2.5 MW to 10 MW that complement Trane's 1 MW CDU for direct-to-chip cooling."
+        },
+        {
+          "q": "Which chillers does Trane supply for data centers?",
+          "a": "The Ascend ACR air-cooled chiller with up to 2 MW capacity and integrated free cooling, CenTraVac water-cooled chillers delivering up to 21 MW with rapid restart, and an air-cooled Magnetic Bearing Chiller producing up to 850 tons (3 MW) at data center conditions."
+        },
+        {
+          "q": "Where is Trane Technologies headquartered?",
+          "a": "The company's corporate page states its global headquarters is in Swords, Ireland, with regional hubs in Davidson, North Carolina, Brussels and Shanghai."
+        }
+      ]
+    },
+    {
+      "slug": "munters",
+      "name": "Munters",
+      "segments": [
+        "integrators"
+      ],
+      "tagline": "Climate control company whose Data Center Technologies business supplies the waterless SyCool platform: SyCool Split free cooling, the SyCool LCE liquid-to-refrigerant CDU for direct liquid-cooled racks, CRAHs, economizers and chillers.",
+      "hq": "Kista, Sweden",
+      "founded": 1955,
+      "ownership": "Listed on Nasdaq Stockholm following its 2017 initial public offering, per its prospectus announcement",
+      "website": "https://www.munters.com/en-us/",
+      "productLines": [
+        {
+          "name": "SyCool LCE Liquid Cooling Evaporator",
+          "note": "Liquid-to-refrigerant CDU designed for thermosiphon architectures, offered as a 500 kW module; completely waterless and compatible with refrigerant-based racks and next-generation direct-to-chip systems.",
+          "source": "https://datacenter.munters.com/product/sycool-lce"
+        },
+        {
+          "name": "SyCool Split Free-Cooling System",
+          "note": "Patented free-cooling system, one of the data center cooling products manufactured at the Daleville, Virginia campus.",
+          "source": "https://www.munters.com/en-us/news-media/press-releases/2026/munters-completes-expansion-of-data-center-cooling-campus-in-daleville-virginia"
+        },
+        {
+          "name": "CDUs and CRAHs",
+          "note": "Coolant distribution units, computer room air handlers and fan coil arrays produced at the Daleville data center cooling campus.",
+          "source": "https://www.munters.com/en-us/news-media/press-releases/2026/munters-completes-expansion-of-data-center-cooling-campus-in-daleville-virginia"
+        },
+        {
+          "name": "Circlemiser chiller",
+          "note": "Chiller previously produced in Italy, now also manufactured locally at Daleville following the 2026 campus expansion, which added a chiller laboratory with an environmental chamber.",
+          "source": "https://www.munters.com/en-us/news-media/press-releases/2026/munters-completes-expansion-of-data-center-cooling-campus-in-daleville-virginia"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 11 September 2026 Munters inaugurated its expanded Daleville, Virginia campus for data center cooling, a 565,000 square foot site with close to 600 employees that now also manufactures chillers including the Circlemiser; it is the largest of five manufacturing facilities in Munters' Data Center Technologies business area.",
+          "source": "https://www.munters.com/en-us/news-media/press-releases/2026/munters-completes-expansion-of-data-center-cooling-campus-in-daleville-virginia"
+        },
+        {
+          "year": "2024",
+          "text": "On 17 September 2024 Munters and ZutaCore formed a strategic alliance to integrate Munters SyCool systems with ZutaCore's two-phase direct-to-chip, waterless liquid cooling technology, targeting a fully integrated waterless cooling solution from chip level to heat rejection.",
+          "source": "https://www.munters.com/en-us/news-media/press-releases/2024/munters-and-zutacore-form-strategic-alliance-for-data-center-cooling-innovation"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling product does Munters offer?",
+          "a": "The SyCool LCE, a liquid-to-refrigerant CDU designed for thermosiphon architectures and offered as a 500 kW module. The company describes it as completely waterless and compatible with refrigerant-based racks and next-generation direct-to-chip systems."
+        },
+        {
+          "q": "Where does Munters manufacture its data center cooling equipment?",
+          "a": "At its Daleville, Virginia campus, 565,000 square feet with close to 600 employees, which produces air-side economizers, the patented SyCool Split, CRAHs, fan coil arrays, CDUs and, since the 2026 expansion, chillers including the Circlemiser."
+        },
+        {
+          "q": "Does Munters data center cooling consume water?",
+          "a": "The company describes SyCool LCE as a completely waterless system that transfers heat to a refrigerant thermosyphon instead of chilled water, enabling water-free liquid cooling for sites with water constraints."
+        },
+        {
+          "q": "When was Munters founded and where is it headquartered?",
+          "a": "Munters was established in 1955 and its About Us page lists its headquarters in Kista, Sweden."
+        }
+      ]
+    },
+    {
+      "slug": "wilo",
+      "name": "Wilo",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Pump and pump-system manufacturer whose data center portfolio covers liquid cooling, immersion cooling and CDU systems with pumps compatible with dielectric fluids, plus chilled-water circulation and heat-rejection pumping for high-performance facilities.",
+      "hq": "Dortmund, Germany",
+      "founded": 1872,
+      "ownership": "NOT_FOUND",
+      "website": "https://wilo.com/",
+      "productLines": [
+        {
+          "name": "Stratos and Stratos MAXO pump series",
+          "note": "High-efficiency pumps listed by Wilo for data center liquid cooling and CDU systems, including Stratos GIGA2.0-I, Stratos MAXO, MAXO-D and MAXO-Z.",
+          "source": "https://wilo.com/us/en_us/Solutions/Markets/Data-Centers"
+        },
+        {
+          "name": "CronoLine-IL in-line pumps",
+          "note": "Horizontal in-line pumps installed in cooling-water piping circuits at the Google data center in Hamina, Finland; circuits DN 150 to DN 200 with motor nominal capacities between 30 and 37 kW.",
+          "source": "https://wilo.com/us/en_us/About-Wilo/Case-Studies/Wilo-provides-green-technology-for-Google-data-center"
+        },
+        {
+          "name": "Helix and MHI/MVI series",
+          "note": "Helix EXCEL, Helix V, CO HELIX V, CO MVI, MVI, Atmos TERA-SCH-HE and NL-HE pumps listed for high-performance chiller and heat-rejection systems in data centers.",
+          "source": "https://wilo.com/us/en_us/Solutions/Markets/Data-Centers"
+        },
+        {
+          "name": "Prefabricated Hydraulic Module",
+          "note": "Plug-and-play packaged pump systems described with fire protection, air conditioning, monitoring and bypass filters.",
+          "source": "https://wilo.com/us/en_us/Solutions/Markets/Data-Centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 30 March 2026 DCX Liquid Cooling Systems and the Wilo Group signed a cooperation agreement at the Wilopark in Dortmund; Wilo's pumps and variable-frequency drives are integrated across DCX facility coolant distribution units, with DCX crediting them for 8 MW of cooling capacity per single CDU.",
+          "source": "https://www.dcx.eu/blog/dcx-wilo-group-cooperation"
+        },
+        {
+          "year": "2026",
+          "text": "A Wilo blog post on the role of pumps in data center cooling, displayed as dated 29 September 2026, describes Wilo's mission-critical rated pump products for data center liquid cooling using N+1 redundancy and variable-speed control to reduce power usage effectiveness.",
+          "source": "https://wilo.com/us/en_us/About-Wilo/Blog/The-Critical-Role-of-Pumps-in-Data-Center-Cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What Wilo products serve liquid-cooled data centers?",
+          "a": "Wilo lists pumps compatible with dielectric fluids for liquid cooling, immersion cooling and CDU systems, including Stratos GIGA2.0-I, Stratos MAXO, CronoLine-IL, Helix EXCEL, MVI and Atmos TERA-SCH-HE series, plus prefabricated plug-and-play hydraulic modules."
+        },
+        {
+          "q": "Which Wilo pumps were supplied for the Google data center in Hamina, Finland?",
+          "a": "Per Wilo's case study, CronoLine-IL horizontal in-line pumps supply the cooling water circuits, with pipe sizes DN 150 to DN 200 and motor nominal capacities between 30 and 37 kW."
+        },
+        {
+          "q": "What is Wilo's role in coolant distribution units?",
+          "a": "Under a cooperation agreement signed on 30 March 2026, partner DCX integrates Wilo pumps and variable-frequency drives across its facility coolant distribution units and credits them for 8 MW of cooling capacity per single CDU."
+        },
+        {
+          "q": "Does Wilo serve immersion cooling?",
+          "a": "Wilo's data center solutions page states it serves liquid cooling, immersion cooling and CDU systems, with pumps compatible with dielectric fluids."
+        }
+      ]
+    },
+    {
+      "slug": "xylem",
+      "name": "Xylem",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Water technology company whose Bell & Gossett brand supplies data center hydronics: hydrovar X-enabled smart pumps for cooling towers through direct-to-chip liquid cooling, plus heat exchangers, expansion tanks, air and dirt separators and packaged booster systems.",
+      "hq": "Washington, D.C., United States",
+      "founded": 2011,
+      "ownership": "Listed on the New York Stock Exchange (XYL)",
+      "website": "https://www.xylem.com/",
+      "productLines": [
+        {
+          "name": "hydrovar X-enabled smart pumps",
+          "note": "Bell & Gossett smart pump products with integrated motor and variable speed drive that Xylem lists for everything from cooling towers to direct-to-chip liquid cooling systems.",
+          "source": "https://www.xylem.com/en-us/info/data-centers"
+        },
+        {
+          "name": "Bell & Gossett data center pump families",
+          "note": "Portfolio listed on Xylem's data center page includes e-SHX, Series e-80 close-coupled in-line, e-80X in-line, e-1510X end suction, VSX double suction, e-HM/e-HME and e-SV/e-SVE multistage pumps and ecocirc circulators.",
+          "source": "https://www.xylem.com/en-us/info/data-centers"
+        },
+        {
+          "name": "TechnoForce e-HV booster packages",
+          "note": "Packaged booster pump systems listed among Xylem's data center solutions, alongside modular multi-pump architecture for resilience and scalability.",
+          "source": "https://www.xylem.com/en-us/info/data-centers"
+        },
+        {
+          "name": "Heat exchangers and hydronic accessories",
+          "note": "Brazed-plate heat exchangers plus Rolairtrol air and dirt separators, ASME compression tanks and sensors and transmitters for data center cooling loops.",
+          "source": "https://www.xylem.com/en-us/info/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 2 July 2025 an article authored by Xylem Bell & Gossett's business development manager in Facility Executive described the industry shift to hybrid air-plus-liquid cooling in data centers and a holistic water management approach combining smart monitoring tools, high-efficiency motors and real-time analytics.",
+          "source": "https://facilityexecutive.com/holistic-water-strategies-for-data-center-efficiency-and-management"
+        },
+        {
+          "year": "2025",
+          "text": "The same July 2025 article states that intelligent pumping systems used in data centers support predictive maintenance and continuous performance tracking, with the ability to automatically shut down pumps at zero demand and safeguards such as dry-run protection.",
+          "source": "https://facilityexecutive.com/holistic-water-strategies-for-data-center-efficiency-and-management"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Xylem supply for liquid-cooled data centers?",
+          "a": "Bell & Gossett hydrovar X-enabled smart pump products with integrated motor and variable speed drive, which Xylem describes as serving everything from cooling towers to direct-to-chip liquid cooling systems."
+        },
+        {
+          "q": "Which pump families are in Xylem's data center portfolio?",
+          "a": "Xylem's data center page lists e-SHX, Series e-80 and e-80X in-line, e-1510X end suction, VSX double suction, e-HM/e-HME and e-SV/e-SVE multistage pumps, ecocirc circulators and TechnoForce e-HV booster packages."
+        },
+        {
+          "q": "Does Xylem also supply heat exchangers and accessories?",
+          "a": "Yes, the data center portfolio includes brazed-plate heat exchangers, Rolairtrol air and dirt separators, ASME compression tanks, and sensors and transmitters for cooling loops."
+        },
+        {
+          "q": "What has Xylem said about water use in data center cooling?",
+          "a": "In a 2 July 2025 Facility Executive article, Xylem Bell & Gossett described hybrid air-liquid cooling and holistic water management using smart monitoring, high-efficiency motors and real-time analytics to reduce water waste."
+        }
+      ]
+    },
+    {
+      "slug": "spx-cooling",
+      "name": "SPX Cooling",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Marley cooling tower and fluid cooler maker whose data center portfolio spans dry, adiabatic and evaporative heat rejection: OlympusMAX and OlympusV fluid coolers, NC Everest and MD Everest cooling towers, and the DT fluid cooler for closed liquid cooling loops.",
+      "hq": "Overland Park, Kansas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "SPX Cooling Tech, LLC is part of SPX Technologies, Inc. of Charlotte, North Carolina, listed on the NYSE under ticker SPXC",
+      "website": "https://www.spxcooling.com/",
+      "productLines": [
+        {
+          "name": "Marley OlympusMAX Fluid Cooler",
+          "note": "Modular dry and adiabatic fluid cooler for mission-critical heat rejection, available in 120, 160, 200 and 240 hp versions; dry units can be field-upgraded with a bolt-on adiabatic kit, with extended heat rejection capabilities over 131F (55C).",
+          "source": "https://spxcooling.com/marley-olympusmax"
+        },
+        {
+          "name": "Marley NC Everest Cross Flow Cooling Tower",
+          "note": "Listed for data centers with up to 50% greater cooling capacity, higher energy savings, fewer components and lower maintenance costs.",
+          "source": "https://spxcooling.com/applications/data-centers"
+        },
+        {
+          "name": "Marley MD Everest Counter Flow Cooling Tower",
+          "note": "Delivers up to 58% more cooling capacity than other preassembled cooling towers and can be installed up to 80% faster than field-erected towers.",
+          "source": "https://spxcooling.com/applications/data-centers"
+        },
+        {
+          "name": "OlympusV and DT Fluid Coolers",
+          "note": "OlympusV adiabatic unit balances water savings of air-cooled heat rejection with the energy efficiency of water-cooled systems; DT claims the highest nominal cooling capacity per footprint among bare-tube, coil-only fluid coolers.",
+          "source": "https://spxcooling.com/applications/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 29 April 2026 SPX Cooling Tech unveiled the Marley OlympusMAX Fluid Cooler, a modular dry and adiabatic cooling platform for data centers, industrial plants and high-density cooling, available from 120 to 240 horsepower with a factory- or field-installed bolt-on adiabatic module.",
+          "source": "https://www.prnewswire.com/news-releases/spx-cooling-tech-unveils-the-marley-olympusmax-fluid-cooler-302758020.html"
+        },
+        {
+          "year": "2026",
+          "text": "On 16 November 2026 SPX Cooling Tech announced that thermal and sound performance ratings for OlympusMAX Dry and Adiabatic Fluid Coolers are certified by the Cooling Technology Institute, with the release describing SPX as the first manufacturer of these products to obtain CTI Sound Certification; certification covers dry operation ratings under CTI Standards 201 and 204.",
+          "source": "https://www.prnewswire.com/news-releases/spx-cooling-tech-announces-cti-thermal-and-sound-certification-for-marley-olympusmax-fluid-cooler-302940002.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does SPX Cooling offer for data center heat rejection?",
+          "a": "Marley cooling towers and fluid coolers: the OlympusMAX dry or adiabatic fluid cooler in 120 to 240 hp versions, the OlympusV adiabatic fluid cooler, the DT fluid cooler, and NC Everest crossflow and MD Everest counterflow cooling towers."
+        },
+        {
+          "q": "When was the OlympusMAX fluid cooler launched?",
+          "a": "Unveiled on 29 April 2026 as a modular platform for data centers and high-density cooling, in dry and adiabatic configurations from 120 to 240 horsepower, with a bolt-on adiabatic module that can be added in the field."
+        },
+        {
+          "q": "Is the OlympusMAX CTI certified?",
+          "a": "On 16 November 2026 SPX announced CTI thermal and sound certification for OlympusMAX Dry and Adiabatic Fluid Coolers, currently covering dry operation ratings; the release describes SPX as the first manufacturer of these products to obtain CTI Sound Certification."
+        },
+        {
+          "q": "Who owns SPX Cooling?",
+          "a": "SPX Cooling Tech, LLC is part of SPX Technologies, Inc., based in Charlotte, North Carolina, which is listed on the New York Stock Exchange under the ticker SPXC."
+        }
+      ]
+    },
+    {
+      "slug": "kelvion",
+      "name": "Kelvion",
+      "segments": [
+        "heat-rejection"
+      ],
+      "tagline": "Heat exchanger manufacturer whose data center portfolio spans V-coolers, adiabatic and hybrid drycoolers, SuperXL and Mega-Bay dry cooler units, and gasketed, brazed and all-welded plate heat exchangers for heat rejection and liquid cooling loops.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "SLB announced an agreement to acquire Kelvion, per an August 2026 SLB newsroom release titled SLB to Acquire Kelvion",
+      "website": "https://www.kelvion.com/",
+      "productLines": [
+        {
+          "name": "Mega-Bay dry cooler",
+          "note": "Kelvion secured the supply of 1,000 Mega-Bay dry cooler units scheduled for delivery throughout 2027, a deployment designed to provide 5 GW of heat rejection capacity for large-scale AI data centers in the southern United States.",
+          "source": "https://www.kelvion.com/nl/media/success-stories/koeling-van-datacenters/kelvion-secures-800m-ai-data-center-cooling-contract-in-the-united-states"
+        },
+        {
+          "name": "V-coolers, adiabatic and hybrid drycoolers, SuperXL units",
+          "note": "Data center heat rejection portfolio the company says extends free cooling hours per year and reduces power consumption of data centers.",
+          "source": "https://www.kelvion.com/industry-solutions/data-center"
+        },
+        {
+          "name": "Gasketed, brazed and all-welded plate heat exchangers",
+          "note": "Plate heat exchanger range for data center cooling and process heat transfer, including process-optimized models, plus transformer cooling systems and coils.",
+          "source": "https://www.kelvion.com/industry-solutions/data-center"
+        },
+        {
+          "name": "AIRack Cooler, CCDUs and coils",
+          "note": "Products listed under Modular Infrastructure & Cooling Solutions on the company's liquid cooled solutions page for data centres, which covers liquid-to-liquid cooling including direct-to-chip and immersion.",
+          "source": "https://www.kelvion.com/industry-solutions/data-center/liquid-cooled-solutions"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Kelvion secured the supply of 1,000 Mega-Bay dry cooler units scheduled for delivery throughout 2027, a deployment designed to provide 5 GW of heat rejection capacity for high-density AI computing environments in the southern United States (reported 17 October 2026).",
+          "source": "https://www.kelvion.com/nl/media/success-stories/koeling-van-datacenters/kelvion-secures-800m-ai-data-center-cooling-contract-in-the-united-states"
+        },
+        {
+          "year": "2026",
+          "text": "In August 2026 SLB's newsroom published a release titled 'SLB to Acquire Kelvion, Expanding its Role Across Data Center Infrastructure', announcing an agreement under which SLB would acquire Kelvion.",
+          "source": "https://www.slb.com/newsroom/press-release/2026/pr-2026-0831"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Kelvion supply for data center cooling?",
+          "a": "V-coolers, adiabatic and hybrid drycoolers, SuperXL and Mega-Bay dry cooler units for heat rejection, plus gasketed, brazed and all-welded plate heat exchangers for liquid cooling loop heat transfer, transformer cooling and coils."
+        },
+        {
+          "q": "What is the Mega-Bay dry cooler deployment?",
+          "a": "Kelvion secured the supply of 1,000 Mega-Bay dry cooler units for delivery throughout 2027, providing 5 GW of heat rejection capacity for large-scale AI data centers in the southern United States."
+        },
+        {
+          "q": "Does Kelvion serve direct liquid cooling?",
+          "a": "Its liquid cooled solutions page covers liquid-to-liquid cooling including direct-to-chip and immersion, and lists AIRack Coolers, CCDUs and coils under Modular Infrastructure & Cooling Solutions, with support from planning to commissioning."
+        },
+        {
+          "q": "Is Kelvion being acquired?",
+          "a": "In August 2026 SLB published a newsroom release titled 'SLB to Acquire Kelvion, Expanding its Role Across Data Center Infrastructure', announcing an agreement to acquire the company."
+        }
+      ]
+    },
+    {
+      "slug": "intel",
+      "name": "Intel",
+      "segments": [
+        "chips"
+      ],
+      "tagline": "Semiconductor company whose data-center liquid-cooling role covers certified immersion cooling for Xeon processors, a Xeon immersion warranty rider and Intel-branded liquid-cooling cold plates sold under Server Spares and Accessories.",
+      "hq": "Santa Clara, California, United States",
+      "founded": 1968,
+      "ownership": "Listed on Nasdaq (INTC)",
+      "website": "https://www.intel.com/",
+      "productLines": [
+        {
+          "name": "Intel Data Center Certified for Immersion Cooling with Shell fluids",
+          "note": "Industry-first Intel-certified single-phase immersion solution using Shell Immersion Cooling Fluids, first certified for 4th Gen and 5th Gen Intel Xeon processors and validated at Intel's Advanced Data Center Development Laboratory; hardware from Supermicro and Submer.",
+          "source": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html"
+        },
+        {
+          "name": "Xeon Processor Single-Phase Immersion Warranty Rider",
+          "note": "Warranty rider Intel offers for Xeon processors operated in certified single-phase immersion cooling.",
+          "source": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html"
+        },
+        {
+          "name": "Liquid-Cooling Coldplate DNPLCLPCMVM",
+          "note": "Intel Server Spares and Accessories cold plate (products formerly Denali Pass), launched Q1 2023; the product specifications page lists its marketing status as Discontinued.",
+          "source": "https://www.intel.com/content/www/us/en/products/sku/232217/liquidcooling-coldplate-dnplclpcmvm/specifications.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 13 May 2025 Intel and Shell Global Solutions announced the industry-first Intel Data Center Certified for Immersion Cooling solution, first certified for 4th Gen and 5th Gen Intel Xeon processors using Shell Immersion Cooling Fluids, with hardware from Supermicro and Submer.",
+          "source": "https://www.intel.com/content/www/us/en/newsroom/news/data-center/intel-shell-advance-immersion-cooling-xeon-based-data-centers.html"
+        },
+        {
+          "year": "2023",
+          "text": "Intel launched the Liquid-Cooling Coldplate DNPLCLPCMVM (products formerly Denali Pass) under Intel Server Spares and Accessories in Q1 2023; the specifications page now lists the product as Discontinued.",
+          "source": "https://www.intel.com/content/www/us/en/products/sku/232217/liquidcooling-coldplate-dnplclpcmvm/specifications.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Intel processors are certified for immersion cooling?",
+          "a": "On 13 May 2025 Intel and Shell announced an Intel-certified single-phase immersion cooling solution, first certified for 4th Gen and 5th Gen Intel Xeon processors using Shell Immersion Cooling Fluids."
+        },
+        {
+          "q": "Does Intel provide warranty coverage for Xeon processors in immersion cooling?",
+          "a": "Intel offers a Xeon Processor Single-Phase Immersion Warranty Rider alongside its immersion cooling certification with Shell fluids."
+        },
+        {
+          "q": "Does Intel sell liquid-cooling cold plates?",
+          "a": "Intel has sold the Liquid-Cooling Coldplate DNPLCLPCMVM (formerly Denali Pass) under Intel Server Spares and Accessories, launched Q1 2023; the product page currently lists its marketing status as Discontinued."
+        }
+      ]
+    },
+    {
+      "slug": "amd",
+      "name": "AMD",
+      "segments": [
+        "chips"
+      ],
+      "tagline": "Semiconductor company whose Instinct MI350 Series GPU platforms (eight MI355X or MI350X OAM modules, 2.3 TB total HBM3E) are offered in standard air-cooled and ultra-dense direct liquid cooled (DLC) configurations for AI and HPC data centers.",
+      "hq": "Santa Clara, California, United States",
+      "founded": 1969,
+      "ownership": "Listed on Nasdaq (AMD)",
+      "website": "https://www.amd.com/",
+      "productLines": [
+        {
+          "name": "AMD Instinct MI350 Series platforms",
+          "note": "Ready-to-deploy platforms integrating eight MI355X or MI350X GPU OAM modules on an industry-standard OCP design with 2.3 TB total HBM3E and 64 TB/s aggregate bandwidth; support systems from standard air-cooled UBB-based servers to ultra dense Direct Liquid Cooled (DLC) platforms.",
+          "source": "https://www.amd.com/en/products/accelerators/instinct/mi350.html"
+        },
+        {
+          "name": "AMD Instinct MI355X",
+          "note": "MI350 Series GPU offered in liquid-cooled systems: on 12 June 2025 Supermicro announced its 4U liquid-cooled system AS-4126GS-NMR-LCC with MI355X GPUs using Supermicro's improved direct liquid cooling architecture.",
+          "source": "https://www.supermicro.com/en/pressreleases/supermicro-delivers-performance-and-efficiency-optimized-liquid-cooled-and-air-cooled"
+        },
+        {
+          "name": "AMD Instinct MI350P PCIe card",
+          "note": "Air-cooled PCIe card (128 compute units, 144 GB HBM3E, up to 4 TB/s) that AMD positions for deployment within an existing rack power-and-cooling envelope.",
+          "source": "https://www.amd.com/en/products/accelerators/instinct/mi350.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "AMD's MI350 Series page (page date September 2026) states that its 8-GPU ready-to-deploy platforms support systems from standard air-cooled UBB-based servers to ultra dense Direct Liquid Cooled (DLC) platforms.",
+          "source": "https://www.amd.com/en/products/accelerators/instinct/mi350.html"
+        },
+        {
+          "year": "2025",
+          "text": "On 12 June 2025, alongside AMD's launch of the Instinct MI350 Series, Supermicro announced a 4U liquid-cooled system (AS-4126GS-NMR-LCC) with AMD Instinct MI355X GPUs featuring Supermicro's improved direct liquid cooling architecture for dense rack-scale deployments.",
+          "source": "https://www.supermicro.com/en/pressreleases/supermicro-delivers-performance-and-efficiency-optimized-liquid-cooled-and-air-cooled"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which AMD Instinct accelerators have liquid-cooled options?",
+          "a": "AMD's Instinct MI350 Series platforms support ultra-dense Direct Liquid Cooled (DLC) configurations; on 12 June 2025 Supermicro announced a 4U liquid-cooled system with Instinct MI355X GPUs using Supermicro's direct liquid cooling architecture."
+        },
+        {
+          "q": "Do AMD MI350 platforms still support air cooling?",
+          "a": "Yes. AMD states the platforms support standard air-cooled UBB-based servers, and the MI350P PCIe card is positioned for deployment within an existing rack power-and-cooling envelope."
+        },
+        {
+          "q": "What are the key MI350 platform figures?",
+          "a": "Each platform integrates eight MI355X or MI350X OAM modules with 2.3 TB total HBM3E memory and 64 TB/s peak theoretical aggregate memory bandwidth; the GPUs offer up to 288 GB HBM3E and 8 TB/s per GPU."
+        }
+      ]
+    },
+    {
+      "slug": "chilldyne",
+      "name": "Chilldyne",
+      "segments": [
+        "cdus"
+      ],
+      "tagline": "Developer of negative-pressure direct-to-chip liquid cooling for data centers. Its patented negative-pressure technology is described by the company as leak-free, and its range spans the CDU-1500 (rated 1500 kW at 15C delta-T), CDU-300, cold plates, rack manifolds and Cool-Flo software.",
+      "hq": "Carlsbad, California, United States",
+      "founded": 2011,
+      "ownership": "Member of the Daikin group following Daikin Applied's acquisition in November 2025",
+      "website": "https://www.chilldyne.com/",
+      "productLines": [
+        {
+          "name": "CDU-1500",
+          "note": "Adaptive dual-pressure liquid cooling distribution unit rated 1500 kW (1,500 lpm) at 15C delta-T with 4C approach; primary loop 475 GPM (1,800 lpm) max 10 psi, secondary loop 400 GPM (1,500 lpm) at 10-39 psi; N+1 redundant configuration, zero downtime upgrades, 40 micron filtration standard (25 optional); water or glycol mix.",
+          "source": "https://www.chilldyne.com/cdu-1500/"
+        },
+        {
+          "name": "CDU-300",
+          "note": "Coolant distribution unit listed among Chilldyne's products alongside the CDU-1500.",
+          "source": "https://www.chilldyne.com/"
+        },
+        {
+          "name": "Cold plates and rack manifold",
+          "note": "Direct-to-chip cold plates and a rack manifold offered with the CDUs.",
+          "source": "https://www.chilldyne.com/"
+        },
+        {
+          "name": "Cool-Flo Software",
+          "note": "Software product listed with Chilldyne's liquid-cooling hardware.",
+          "source": "https://www.chilldyne.com/"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "Chilldyne's site states the company is now a member of the Daikin group following Daikin Applied's acquisition in November 2025.",
+          "source": "https://www.chilldyne.com/"
+        },
+        {
+          "year": "2019",
+          "text": "Chilldyne's site cites Sandia National Laboratories and the U.S. Department of Energy reporting leak-free operation since 2019 with greater redundancy than other liquid-cooled systems.",
+          "source": "https://www.chilldyne.com/"
+        },
+        {
+          "year": "2014",
+          "text": "Chilldyne's site cites Cirrascale stating it has run two GPU clusters totaling 1 MW cooled by Chilldyne since 2014 with no coolant-damaged servers.",
+          "source": "https://www.chilldyne.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does Chilldyne's liquid cooling avoid leaks?",
+          "a": "Chilldyne uses a patented negative-pressure technology that the company describes as leak-free and as reducing downtime; its site cites leak-free operation at Sandia National Laboratories since 2019."
+        },
+        {
+          "q": "What is the CDU-1500 rated for?",
+          "a": "The CDU-1500 adaptive dual-pressure unit is rated 1500 kW (1,500 lpm) at 15C delta-T with a 4C approach; the secondary loop runs 400 GPM (1,500 lpm) at 10-39 psi, with N+1 redundancy, zero downtime upgrades and 40 micron standard filtration."
+        },
+        {
+          "q": "Who owns Chilldyne and where is it based?",
+          "a": "Chilldyne is a member of the Daikin group following Daikin Applied's November 2025 acquisition; it was founded in 2011 and is headquartered in Carlsbad, California."
+        },
+        {
+          "q": "Where has Chilldyne's cooling been deployed?",
+          "a": "The company cites Cirrascale cooling two GPU clusters totaling 1 MW since 2014 with no coolant-damaged servers, and Sandia National Laboratories reporting leak-free operation since 2019."
+        }
+      ]
+    },
+    {
+      "slug": "axiom-solutions-international",
+      "name": "Axiom Solutions International",
+      "segments": [
+        "servers",
+        "integrators",
+        "micro-dc"
+      ],
+      "tagline": "Planned independent company for Flex's Cloud and Power Infrastructure business (name announced 15 September 2026, expected to list on Nasdaq as AXM), integrating power, cooling and compute at the system level for AI data centers, including JetCool cold plates, CDUs and prefabricated modular data centers.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Cloud and Power Infrastructure business of Flex; planned spin-off expected to list on Nasdaq as AXM",
+      "website": "https://flex.com/transaction-resources",
+      "productLines": [
+        {
+          "name": "JetCool direct liquid cooling",
+          "note": "JetCool (a Flex company) liquid cooling products listed among the spin-off's resources: hybrid cooling, cold plates and coolant distribution units (CDUs).",
+          "source": "https://flex.com/transaction-resources"
+        },
+        {
+          "name": "Prefabricated modular AI infrastructure",
+          "note": "AI infrastructure platform that integrates power, cooling and compute into pre-engineered, modular designs; Flex announced a prefabricated modular data center portfolio expansion in October 2026.",
+          "source": "https://flex.com/transaction-resources"
+        },
+        {
+          "name": "Grid-to-chip data center power",
+          "note": "Data center power offerings described as powering data centers from grid to chip, including an 800 VDC power rack solution and DC/DC converters.",
+          "source": "https://flex.com/transaction-resources"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 15 September 2026 Flex announced Axiom Solutions International, Inc. as the name for its planned Cloud and Power Infrastructure spin-off and filed a Form 10 registration statement with the SEC; Axiom is expected to trade on Nasdaq as AXM.",
+          "source": "https://www.prnewswire.com/news-releases/flex-announces-new-company-name-for-the-planned-cloud-and-power-infrastructure-spin-off-and-files-form-10-registration-statement-302878102.html"
+        },
+        {
+          "year": "2026",
+          "text": "The spin-off was announced on 5 May 2026 and is expected to be completed in the first calendar quarter of 2027 as a tax-free, pro-rata distribution to Flex shareholders, with Flex retaining an ownership interest of no more than 19.9 percent.",
+          "source": "https://flex.com/transaction-resources"
+        },
+        {
+          "year": "2026",
+          "text": "The spin-off's resources include JetCool (a Flex company) liquid cooling products - hybrid cooling, cold plates and coolant distribution units - and an October 2026 prefabricated modular data center portfolio expansion.",
+          "source": "https://flex.com/transaction-resources"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is Axiom Solutions International?",
+          "a": "The name announced on 15 September 2026 for Flex's planned independent Cloud and Power Infrastructure company, expected to trade on Nasdaq as AXM; it integrates power, cooling and compute at the system level for data centers."
+        },
+        {
+          "q": "What liquid cooling products are part of the business?",
+          "a": "JetCool (a Flex company) liquid cooling products are listed among the spin-off resources: hybrid cooling, cold plates and coolant distribution units."
+        },
+        {
+          "q": "When will the spin-off be completed?",
+          "a": "Flex states the separation is expected to be completed in the first calendar quarter of 2027, subject to conditions including Form 10 effectiveness and Flex shareholder and Singapore High Court approval."
+        },
+        {
+          "q": "What else does the spin-off include besides cooling?",
+          "a": "Grid-to-chip power solutions such as an 800 VDC power rack and DC/DC converters, plus prefabricated modular AI infrastructure integrating power, cooling and compute."
+        }
+      ]
+    },
+    {
+      "slug": "asperitas",
+      "name": "Asperitas",
+      "segments": [
+        "immersion"
+      ],
+      "tagline": "Engineering company providing adaptive, modular full-stack immersion cooling systems for high-density compute. IT hardware is immersed in dielectric fluid, with natural convection combined with directed liquid flow; the company states roughly 99 percent of IT energy is captured in the liquid.",
+      "hq": "Amsterdam, The Netherlands",
+      "founded": "NOT_FOUND",
+      "ownership": "Supported by strategic investors",
+      "website": "https://asperitas.com/",
+      "productLines": [
+        {
+          "name": "AIC24 / AIC24N",
+          "note": "Self-contained, plug-and-play immersion cooling system providing up to 24U of server space plus 2 x 1U for switches, cooling through Perpetual Natural Convection, with built-in power, networking and monitoring; deployable on-premises, in datacentres or at the edge. The AIC24N is listed at Bytesnet, Credit Agricole, Ecoracks, LOEWE Centre and Shell.",
+          "source": "https://www.asperitas.com/video/asperitas-immersion-cooling-the-aic24-solution"
+        },
+        {
+          "name": "PNC platform",
+          "note": "Perpetual Natural Convection system listed for deployment at Shell Technology Centre Hamburg.",
+          "source": "https://asperitas.com/"
+        },
+        {
+          "name": "DFCX immersion cooling platform",
+          "note": "Adaptive, modular full-stack immersion cooling platform, announced February 2026 for validation at UNICOM Engineering's Plano, Texas lab covering sustained workloads, material compatibility, fluid and chassis interaction, firmware behavior and thermal testing.",
+          "source": "https://www.unicomengineering.com/news/asperitas-and-unicom-engineering-deliver-a-single-contract-path-to-immersion-cooled-compute-infrastructure"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "On 3 February 2026 Asperitas and UNICOM Engineering announced a non-exclusive commercial agreement giving customers a single-contract path to immersion cooling systems and immersion-ready servers, with joint validation including the DFCX platform in UNICOM's Plano, Texas lab.",
+          "source": "https://www.unicomengineering.com/news/asperitas-and-unicom-engineering-deliver-a-single-contract-path-to-immersion-cooled-compute-infrastructure"
+        },
+        {
+          "year": "2026",
+          "text": "Asperitas' site lists 2026 news under the headline 'Asperitas and Shell Continue Long-Term Collaboration Under Recommended Partner Status', and lists the AIC24N in use at Bytesnet, Credit Agricole, Ecoracks, LOEWE Centre and Shell, plus a PNC system at Shell Technology Centre Hamburg.",
+          "source": "https://asperitas.com/"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the Asperitas AIC24?",
+          "a": "A self-contained, plug-and-play immersion cooling system providing up to 24U of server space plus 2 x 1U for switches. It cools through Perpetual Natural Convection, includes built-in power, networking and monitoring, and can be deployed on-premises, in datacentres or at the edge."
+        },
+        {
+          "q": "Where are Asperitas systems deployed?",
+          "a": "The company's site lists the AIC24N at Bytesnet, Credit Agricole, Ecoracks, LOEWE Centre and Shell, and a PNC system at Shell Technology Centre Hamburg."
+        },
+        {
+          "q": "How does Asperitas' immersed computing work?",
+          "a": "IT hardware is immersed in dielectric fluid, with natural convection combined with directed liquid flow for stable and predictable heat transfer; the company states roughly 99 percent of IT energy is captured in the liquid."
+        },
+        {
+          "q": "What is the UNICOM Engineering partnership?",
+          "a": "Announced 3 February 2026: a non-exclusive agreement under which customers buy immersion cooling systems and immersion-ready servers through a single contract, with joint validation testing including Asperitas' DFCX platform at UNICOM's Plano, Texas lab."
+        }
+      ]
     }
   ]
 }
