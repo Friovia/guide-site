@@ -14639,6 +14639,988 @@
           "a": "Announced 3 February 2026: a non-exclusive agreement under which customers buy immersion cooling systems and immersion-ready servers through a single contract, with joint validation testing including Asperitas' DFCX platform at UNICOM's Plano, Texas lab."
         }
       ]
+    },
+    {
+      "slug": "clariant",
+      "name": "Clariant",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Specialty chemicals company whose Care Chemicals heat transfer fluids unit supplies the Antifrogen range for data-center direct-to-chip cooling: Antifrogen PG 25 (monopropylene glycol based), low-conductivity Antifrogen LC 25 PG, Antifrogen EG and the glycol-free Protectogen C Aqua corrosion inhibitor.",
+      "hq": "Muttenz, Switzerland",
+      "founded": 1995,
+      "ownership": "Listed on the SIX Swiss Exchange (CLN)",
+      "website": "https://www.clariant.com/",
+      "productLines": [
+        {
+          "name": "Antifrogen PG 25",
+          "note": "Ready-to-use monopropylene glycol mixture recommended for data-center direct-to-chip technology cooling systems; antifreeze protection down to -11°C; corrosion protection stated to exceed ASTM D1384 (10x test duration); OCP-guideline compliant.",
+          "source": "https://www.clariant.com/en/Business-Units/Care-Chemicals/Heat-Transfer-Fluids/Data-centers"
+        },
+        {
+          "name": "Antifrogen LC 25 PG",
+          "note": "Low-conductivity fluid for sensitive cooling systems: 25% (v/v) propylene glycol with Organic Acid Technology corrosion inhibitors, electrical conductivity below 40 microsiemens/cm, freezing point -11°C, boiling point 103°C; tailored for data-center direct-to-chip cooling.",
+          "source": "https://www.clariant.com/en/products/antifrogen-lc25-pg"
+        },
+        {
+          "name": "Antifrogen EG",
+          "note": "Monoethylene glycol based heat transfer fluid listed on the data-center cooling page alongside PG 25.",
+          "source": "https://www.clariant.com/en/Business-Units/Care-Chemicals/Heat-Transfer-Fluids/Data-centers"
+        },
+        {
+          "name": "Protectogen C Aqua",
+          "note": "Glycol-free corrosion inhibitor described as free of nitrite, amine, borate, phosphate and silicate.",
+          "source": "https://www.clariant.com/en/Business-Units/Care-Chemicals/Heat-Transfer-Fluids/Data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Clariant's data-center cooling page (last modified 9 November 2026) recommends Antifrogen PG 25, a ready-to-use monopropylene glycol mixture with antifreeze protection down to -11°C, for direct-to-chip technology cooling systems, and states its corrosion protection exceeds ASTM D1384 over ten times the standard test duration.",
+          "source": "https://www.clariant.com/en/Business-Units/Care-Chemicals/Heat-Transfer-Fluids/Data-centers"
+        },
+        {
+          "year": "2026",
+          "text": "The Antifrogen LC 25 PG product page (last modified 2 October 2026) describes a low-conductivity heat transfer fluid tailored for data-center direct-to-chip cooling: 25% (v/v) propylene glycol with Organic Acid Technology corrosion inhibitors, electrical conductivity below 40 microsiemens/cm and a freezing point of -11°C.",
+          "source": "https://www.clariant.com/en/products/antifrogen-lc25-pg"
+        },
+        {
+          "year": "2025",
+          "text": "Clariant's heat transfer fluids page (last modified 11 March 2025) states that Antifrogen PG 25 offers corrosion protection compliant with OCP guideline.",
+          "source": "https://www.clariant.com/en/Business-Units/Care-Chemicals/Heat-Transfer-Fluids"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Clariant coolant is recommended for direct-to-chip data-center cooling?",
+          "a": "Clariant's data-center page recommends Antifrogen PG 25, a ready-to-use monopropylene glycol mixture with antifreeze protection down to -11°C and corrosion protection the company states exceeds ASTM D1384 over ten times the standard test duration."
+        },
+        {
+          "q": "Does Clariant offer a low-conductivity coolant for liquid cooling?",
+          "a": "Antifrogen LC 25 PG is described as the low-conductivity fluid for sensitive cooling systems: 25% (v/v) propylene glycol with Organic Acid Technology corrosion inhibitors, electrical conductivity below 40 microsiemens/cm and a freezing point of -11°C, tailored for data-center direct-to-chip cooling."
+        },
+        {
+          "q": "What glycol-free option does Clariant provide?",
+          "a": "Protectogen C Aqua, a glycol-free corrosion inhibitor described as free of nitrite, amine, borate, phosphate and silicate."
+        },
+        {
+          "q": "What does Clariant supply for facility water systems in data centers?",
+          "a": "The data-center cooling page lists Antifrogen N (monoethylene glycol based) and Antifrogen L (monopropylene glycol based) for facility water systems."
+        }
+      ]
+    },
+    {
+      "slug": "engineered-fluids",
+      "name": "Engineered Fluids",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Developer of single-phase dielectric immersion coolants (ElectroCool, AmpCool, BitCool, CeramCool) and supplier of tanks, pumps and dry coolers for single-phase liquid immersion cooling (SLIC) of data-center and electronics hardware; address in Tyler, Texas with sales offices in St. Petersburg, Florida.",
+      "hq": "Tyler, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Privately-held technology developer",
+      "website": "https://www.engineeredfluids.com/",
+      "productLines": [
+        {
+          "name": "ElectroCool dielectric coolants",
+          "note": "Single-phase dielectric coolants for immersion cooling of servers and electronics; five variants for different viscosity and flash point needs; described as non-toxic, biodegradable, food grade, free of sulfur, phosphates and PFAS, NSF Food Grade Certified, 10-year service life.",
+          "source": "https://www.engineeredfluids.com/products/electrocool"
+        },
+        {
+          "name": "AmpCool, BitCool and CeramCool fluids",
+          "note": "Additional dielectric coolant lines listed alongside ElectroCool for immersion cooling applications.",
+          "source": "https://www.engineeredfluids.com/industries/data-centers"
+        },
+        {
+          "name": "Single-phase Liquid Immersion Cooling (SLIC) systems",
+          "note": "Immersion tanks, coolant pumps and dry coolers; page states SLIC can support over 200 kW per rack and up to 96 blade servers in a 56RU rack, and up to 1500 kW per sq ft of cooling and power, with PUE of 1.03 to 1.05.",
+          "source": "https://www.engineeredfluids.com/industries/data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "A press release issued by Engineered Fluids and published 28 January 2025 describes ElectroCool as a dielectric fluid for single-phase immersion cooling that absorbs heat 1,600 times more effectively than air, states one tank can handle 300 kW of heat, and cites PUE as low as 1.01 to 1.05 in a closed-loop, water-free system.",
+          "source": "https://www.itweb.co.za/article/electrocool-the-liquid-cooling-revolution-for-data-centres/wbrpO7g2Vo6vDLZn"
+        },
+        {
+          "year": "2017",
+          "text": "Engineered Fluids' about page states the company developed and introduced what it describes as the first purpose-made immersion coolants in 2017.",
+          "source": "https://www.engineeredfluids.com/about-us"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What rack densities does Engineered Fluids' SLIC approach support?",
+          "a": "The company's data-center page states SLIC can support over 200 kW per rack, up to 96 blade servers in a 56RU rack, and up to 1500 kW per sq ft of cooling and power, with PUE of 1.03 to 1.05."
+        },
+        {
+          "q": "What is ElectroCool?",
+          "a": "A family of single-phase dielectric coolants for immersion cooling of servers and other electronics, offered in five variants for different viscosity and flash point needs; described as non-toxic, biodegradable, NSF Food Grade Certified, free of sulfur, phosphates and PFAS, with a 10-year service life."
+        },
+        {
+          "q": "How much heat can one immersion tank handle according to the company?",
+          "a": "A press release issued by Engineered Fluids on 28 January 2025 states one tank of ElectroCool can handle 300 kW of heat, with PUE as low as 1.01 to 1.05 in a closed-loop, water-free system."
+        },
+        {
+          "q": "Where is Engineered Fluids based?",
+          "a": "The about page lists an address in Tyler, Texas, United States, with sales offices in St. Petersburg, Florida."
+        }
+      ]
+    },
+    {
+      "slug": "3m",
+      "name": "3M",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Diversified materials company whose Novec heat transfer fluids and Fluorinert electronic liquids were used as dielectric coolants in electronics. On 20 December 2022 it announced it would exit PFAS manufacturing, including fluorinated fluids, by the end of 2025; a November 2026 release states it met that goal.",
+      "hq": "St. Paul, Minnesota, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on NYSE (MMM)",
+      "website": "https://www.3m.com/",
+      "productLines": [
+        {
+          "name": "3M Novec heat transfer and thermal management fluids (discontinued)",
+          "note": "Fluorinated heat transfer fluids including Novec 649, listed by a distributor as soon-to-be-discontinued following 3M's voluntary PFAS phase-out (webinar page dated 16 November 2023).",
+          "source": "https://www.besttechnologyinc.com/webinar-understanding-3m-novec-product-discontinuation-and-replacements"
+        },
+        {
+          "name": "3M Fluorinert Electronic Liquids (discontinued)",
+          "note": "Electronic liquids line named on the same distributor page as among the 3M fluorinated products affected by the PFAS phase-out.",
+          "source": "https://www.besttechnologyinc.com/webinar-understanding-3m-novec-product-discontinuation-and-replacements"
+        },
+        {
+          "name": "3M Specialty Fluids (current catalog)",
+          "note": "3M's specialty fluids category covers fluids for heat transfer and dielectric insulation; when opened in November 2026 the US catalog listed one product (Light-To-Heat-Conversion Release Coating) and no immersion cooling fluids.",
+          "source": "https://www.3m.com/3M/en_US/p/c/electronics-components/specialty-fluids"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "A 3M news release dated 3 November 2026 states: \"In 2022, 3M further announced it would discontinue the manufacture of all PFAS globally by the end of 2025, and 3M successfully met that goal.\"",
+          "source": "https://news.3m.com/2026-11-03-3M-Reaches-Broad-Resolution-of-AFFF-Personal-Injury-Litigation"
+        },
+        {
+          "year": "2023",
+          "text": "A 16 November 2023 webinar page by fluid distributor Best Technology describes 3M Novec engineered fluids, including Novec 649 heat transfer fluid and Fluorinert electronic liquids, as soon-to-be-discontinued following 3M's voluntary PFAS phase-out.",
+          "source": "https://www.besttechnologyinc.com/webinar-understanding-3m-novec-product-discontinuation-and-replacements"
+        },
+        {
+          "year": "2022",
+          "text": "3M announced on 20 December 2022 that it will exit PFAS manufacturing and discontinue manufacturing all fluoropolymers, fluorinated fluids and PFAS-based additive products by the end of 2025, citing accelerating regulatory trends and changing stakeholder expectations.",
+          "source": "https://news.3m.com/2022-12-20-3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does 3M still make fluorinated cooling fluids such as Novec?",
+          "a": "3M announced on 20 December 2022 that it would exit PFAS manufacturing and discontinue all fluorinated fluids by the end of 2025; a 3M release dated 3 November 2026 states it met that goal. The specialty fluids catalog, opened in November 2026, lists no immersion cooling fluids."
+        },
+        {
+          "q": "Which 3M fluid lines were used for electronics cooling?",
+          "a": "3M Novec heat transfer and thermal management fluids (including Novec 649) and 3M Fluorinert Electronic Liquids; a distributor page names both lines among the products affected by the PFAS phase-out."
+        },
+        {
+          "q": "Where is 3M headquartered and how is it listed?",
+          "a": "3M press releases are datelined St. Paul, Minnesota, and the company is listed on the New York Stock Exchange (NYSE: MMM)."
+        },
+        {
+          "q": "Why did 3M exit fluorinated fluid manufacturing?",
+          "a": "The December 2022 announcement cites accelerating regulatory trends aimed at reducing PFAS in the environment and changing stakeholder expectations, following what 3M calls a thorough evaluation of the evolving external landscape."
+        }
+      ]
+    },
+    {
+      "slug": "solstice-advanced-materials",
+      "name": "Solstice Advanced Materials",
+      "segments": [
+        "fluids"
+      ],
+      "tagline": "Specialty materials company created in the October 2025 spin-off of Honeywell's Advanced Materials business; its Solstice fluid portfolio covers refrigerants for data center air conditioning and chillers plus two-phase liquid cooling for cold plates, alongside the Solstice E-Cooling dielectric heat transfer platform introduced in 2020.",
+      "hq": "Morris Plains, New Jersey, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on Nasdaq (SOLS)",
+      "website": "https://www.solstice.com/",
+      "productLines": [
+        {
+          "name": "Solstice fluids for two-phase liquid cooling (cold plates)",
+          "note": "The data-center applications page states that two-phase liquid cooling solutions using Solstice fluids enable energy-efficient uniform cooling, better heat rejection and reduced pumping power, with applications in room and precision air conditioning and liquid cooling (cold plates).",
+          "source": "https://www.solstice.com/us/en/applications/air-conditioning-refrigeration-and-heating/data-centers"
+        },
+        {
+          "name": "Solstice zd (R-1233zd)",
+          "note": "Nonflammable (A1) refrigerant with ultra-low GWP below 1, listed for data center chillers as an alternative to R-123 for centrifugal chillers and high-temperature heat pumps.",
+          "source": "https://www.solstice.com/us/en/applications/air-conditioning-refrigeration-and-heating/data-centers"
+        },
+        {
+          "name": "Solstice ze (R-1234ze)",
+          "note": "Mildly flammable (A2L), ultra-low GWP, energy-efficient alternative to R-134a in air-cooled and water-cooled chillers and heat pumps; related listings include Solstice N15 (R-515B, GWP 293), Solstice 513A (R-513A) and Solstice 454B (R-454B).",
+          "source": "https://www.solstice.com/us/en/applications/air-conditioning-refrigeration-and-heating/data-centers"
+        },
+        {
+          "name": "Solstice E-Cooling dielectric heat transfer fluids",
+          "note": "Platform of dielectric liquid heat transfer agents for two-phase cooling of high-performance electronics and data centers, serving as an electrical insulator; introduced by Honeywell on 1 February 2020.",
+          "source": "https://www.honeywell.com/us/en/news/press-releases/2020/02/honeywell-launches-innovative-cooling-technology-for-electronics-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 30 October 2025 Solstice Advanced Materials announced it had completed its spin-off from Honeywell and that its shares would begin trading on the Nasdaq Stock Market under the ticker SOLS; the release describes a specialty materials company serving refrigerants, semiconductor manufacturing and data center cooling and thermal management, among other markets.",
+          "source": "https://www.prnewswire.com/news-releases/solstice-advanced-materials-completes-spin-off-from-honeywell-and-begins-trading-on-nasdaq-302599125.html"
+        },
+        {
+          "year": "2020",
+          "text": "Honeywell announced Solstice E-Cooling on 1 February 2020, a platform of dielectric liquid heat transfer agents that uses a two-phase liquid cooling process to remove heat from electronic applications, offering more energy-efficient uniform cooling, better heat rejection and reduced pumping power compared with single-phase liquid cooling.",
+          "source": "https://www.honeywell.com/us/en/news/press-releases/2020/02/honeywell-launches-innovative-cooling-technology-for-electronics-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Solstice offer for two-phase liquid cooling in data centers?",
+          "a": "Its data-center applications page states that two-phase liquid cooling solutions using Solstice fluids enable energy-efficient uniform cooling, better heat rejection and reduced pumping power, and lists liquid cooling (cold plates) among the applications."
+        },
+        {
+          "q": "Which Solstice refrigerants are listed for data center chillers and air conditioning?",
+          "a": "Solstice zd (R-1233zd, nonflammable A1, GWP below 1), Solstice ze (R-1234ze, alternative to R-134a in air-cooled and water-cooled chillers), Solstice N15 (R-515B, GWP 293), Solstice 513A (R-513A) and Solstice 454B (R-454B)."
+        },
+        {
+          "q": "What is Solstice Advanced Materials' relationship to Honeywell?",
+          "a": "A 30 October 2025 release states the company completed its spin-off from Honeywell and began trading on Nasdaq under the ticker SOLS; the release is datelined Morris Plains, New Jersey."
+        },
+        {
+          "q": "What is Solstice E-Cooling?",
+          "a": "A platform of dielectric liquid heat transfer agents introduced by Honeywell on 1 February 2020 for two-phase cooling of high-performance electronics and data centers, described as an electrical insulator that prevents damage from fluid contact."
+        }
+      ]
+    },
+    {
+      "slug": "dwyeromega",
+      "name": "DwyerOmega",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Instrumentation brand within DwyerOmega offering sensors and transmitters for data center cooling: Series IEF insertion electromagnetic flowmeters for coolant flow in liquid-based cooling systems, Magnesense differential pressure transmitters, air velocity transmitters, and temperature and humidity transmitters for hot and cold aisles.",
+      "hq": "Michigan City, Indiana, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Part of DwyerOmega, a portfolio company of Arcline Investment Management",
+      "website": "https://www.dwyeromega.com/",
+      "productLines": [
+        {
+          "name": "Series IEF Insertion Electromagnetic Flowmeter",
+          "note": "Designed for liquid-based data center cooling systems: hot-tap capability allows the sensor to be installed, removed or replaced without interrupting chillers, and three sensors can be installed in the same pipe location for failover redundancy.",
+          "source": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
+        },
+        {
+          "name": "Series MSX and MSX Pro Magnesense differential pressure transmitters",
+          "note": "High-accuracy differential pressure measurement with built-in square root capability to convert velocity pressure into airflow or volumetric flow; used to control VFD air handlers and monitor pressure drop across HVAC filters in data centers.",
+          "source": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
+        },
+        {
+          "name": "Series AVUL and AVLV air velocity transmitters",
+          "note": "Measure air velocity or volumetric flow in ductwork, with linear output for building management system integration; the AVLV is described as suited to quality-sensitive environments requiring precise airflow regulation.",
+          "source": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
+        },
+        {
+          "name": "Series RHP humidity/temperature transmitter and Series TE-E/N temperature sensor",
+          "note": "The RHP combines capacitive humidity sensing with temperature measurement at plus or minus 2.5 percent RH accuracy for hot and cold aisle monitoring; TE-E/N wall-mount sensors support automated HVAC response in server rooms.",
+          "source": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "DwyerOmega published the guide 'Improving Data Center Reliability' on 2 April 2025, describing the Series IEF insertion electromagnetic flowmeter for liquid-based data center cooling systems, with hot-tap capability to install or replace sensors without interrupting chillers and a triple-sensor configuration for failover redundancy.",
+          "source": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
+        },
+        {
+          "year": "2025",
+          "text": "The same 2 April 2025 guide notes server racks pushing beyond 240 kW in high-density AI applications and presents Series MSX and MSX Pro Magnesense differential pressure transmitters whose built-in square root capability converts velocity pressure into airflow or volumetric flow for data center cooling control.",
+          "source": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Dwyer supply for liquid cooling loops in data centers?",
+          "a": "DwyerOmega's data center guide describes the Series IEF Insertion Electromagnetic Flowmeter for liquid-based cooling systems, with hot-tap capability so sensors can be installed, removed or replaced without interrupting chillers, and an option for three sensors in one pipe location for redundancy."
+        },
+        {
+          "q": "What pressure and airflow instrumentation does Dwyer offer for data center cooling?",
+          "a": "Series MSX and MSX Pro Magnesense differential pressure transmitters with square root capability that converts velocity pressure into airflow or volumetric flow, plus Series AVUL and AVLV air velocity transmitters and RHP humidity/temperature transmitters."
+        },
+        {
+          "q": "Who owns DwyerOmega?",
+          "a": "A DwyerOmega announcement of 21 November 2024 describes the company as a portfolio company of Arcline Investment Management. The Dwyer Instruments site now redirects to dwyeromega.com."
+        },
+        {
+          "q": "Where is DwyerOmega based?",
+          "a": "Announcements from the company are datelined Michigan City, Indiana, United States."
+        }
+      ]
+    },
+    {
+      "slug": "ttk",
+      "name": "TTK",
+      "segments": [
+        "components"
+      ],
+      "tagline": "Manufacturer of addressable liquid leak detection systems for liquid-cooled data centers: sensing cables for glycol-based coolants, dielectric fluids and refrigerants, the FG-DLC coolant sensor for direct-to-chip setups, and FG-NET and FG-SYS panels covering immersion tanks, CDUs, pumps and piping.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.ttk.fr/",
+      "productLines": [
+        {
+          "name": "FG-DLC Coolant Sensor",
+          "note": "Sensing cable featured on TTK's liquid-cooled data center applications page and described as suitable for direct-to-chip setups.",
+          "source": "https://www.ttkusa.com/water-acid-leak-detection/applications/liquid-cooled-data-center"
+        },
+        {
+          "name": "FG-NET and FG-SYS locating digital units",
+          "note": "Monitoring panels listed on the liquid-cooled data center applications page as TTK's locating digital units for leak detection systems.",
+          "source": "https://www.ttkusa.com/water-acid-leak-detection/applications/liquid-cooled-data-center"
+        },
+        {
+          "name": "Sense cables for conductive and non-conductive liquids",
+          "note": "Specialized sensing cables described as detecting glycol-based coolants (PG25, LC25 and similar), dielectric fluids (synthetic hydrocarbons, biodegradable dielectric fluids) and refrigerants; described as reusable with easy installation and maintenance.",
+          "source": "https://www.datacenterdynamics.com/en/product-news/ttk-usa-launches-latest-leak-detection-solutions-tailored-for-liquid-cooling-systems-in-data-centers"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 17 March 2025 TTK announced it is launching leak detection solutions tailored for liquid cooling systems in data centers, to be showcased at DCD>Connect New York on 24-25 March 2025, with fast detection of glycol-based and dielectric coolants and reusable sensing cables.",
+          "source": "https://www.datacenterdynamics.com/en/product-news/ttk-usa-launches-latest-leak-detection-solutions-tailored-for-liquid-cooling-systems-in-data-centers"
+        },
+        {
+          "year": "2025",
+          "text": "The same 17 March 2025 announcement describes TTK's coverage for immersion cooling spanning tanks, CDUs, pumps, cooling towers and connected piping, and for direct-to-chip cooling server-level monitoring plus in-rack and above-rack detection with pinpoint leak location.",
+          "source": "https://www.datacenterdynamics.com/en/product-news/ttk-usa-launches-latest-leak-detection-solutions-tailored-for-liquid-cooling-systems-in-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which TTK products serve liquid-cooled data center racks?",
+          "a": "The FG-DLC Coolant Sensor, described as suitable for direct-to-chip setups, and the FG-NET and FG-SYS locating digital units, all listed on TTK's liquid-cooled data center applications page."
+        },
+        {
+          "q": "Which coolants can TTK sensing cables detect?",
+          "a": "Glycol-based coolants (PG25, LC25 and similar), dielectric fluids including synthetic hydrocarbons and biodegradable dielectric fluids, refrigerants, and conductive and non-conductive liquids, per TTK's March 2025 launch announcement."
+        },
+        {
+          "q": "Where can TTK leak detection be deployed?",
+          "a": "For direct-to-chip cooling: server-level monitoring around critical components plus in-rack and above-rack detection. For immersion cooling: full coverage of tanks, CDUs, pumps, cooling towers and connected piping, with pinpoint leak location."
+        },
+        {
+          "q": "Are TTK sensing cables reusable?",
+          "a": "TTK's 17 March 2025 announcement describes its solutions as offering reusable cables with easy installation and maintenance."
+        }
+      ]
+    },
+    {
+      "slug": "cadence",
+      "name": "Cadence (6SigmaDCX)",
+      "segments": [
+        "software"
+      ],
+      "tagline": "Electronic design automation and system-analysis software company. Its Reality Digital Twin Platform includes Reality DC Design, CFD software that simulates liquid cooling, chilled-water distribution and ducted airflow in data centers, and Reality DC Digital Twin for operations studies of power, loading and cooling scenarios.",
+      "hq": "San Jose, California, United States",
+      "founded": 1988,
+      "ownership": "Listed on Nasdaq (CDNS)",
+      "website": "https://www.cadence.com/",
+      "productLines": [
+        {
+          "name": "Reality DC Design",
+          "note": "Data center CFD design software; simulates chilled water distribution, liquid cooling or ducted air with the inbuilt flow network.",
+          "source": "https://www.cadence.com/en_US/home/tools/reality-digital-twin.html"
+        },
+        {
+          "name": "Reality DC Digital Twin",
+          "note": "CFD-based digital twin for studying power, loading and cooling scenarios; platform FAQ covers optimizing coolant distribution unit (CDU) deployment with flow network modeling, liquid-cooling retrofit of air-cooled spaces, and hybrid direct liquid cooling or immersion with air cooling.",
+          "source": "https://www.cadence.com/en_US/home/tools/reality-digital-twin.html"
+        },
+        {
+          "name": "Reality Digital Twin Platform library",
+          "note": "Component library listing over 14,000 items from more than 750 vendors; a digital twin of the NVIDIA DGX SuperPOD with DGX GB200 systems was added in September 2025.",
+          "source": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2025/cadence-expands-digital-twin-platform-library-with-nvidia-dgx.html"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 9 September 2025 Cadence announced it had expanded the Reality Digital Twin Platform library with a digital twin of the NVIDIA DGX SuperPOD with DGX GB200 systems, part of an ongoing Cadence-NVIDIA collaboration; the library contains over 14,000 items from more than 750 vendors.",
+          "source": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2025/cadence-expands-digital-twin-platform-library-with-nvidia-dgx.html"
+        },
+        {
+          "year": "2022",
+          "text": "Cadence announced (press release datelined San Jose, 11 July 2022) that it had entered into an agreement to acquire Future Facilities, a provider of electronics cooling analysis and energy performance optimization solutions for data center design and operations known for the 6Sigma Digital Twin simulation and optimization platform.",
+          "source": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2022/cadence-to-acquire-future-facilities-a-pioneer-in-data-center.html"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What can Cadence's software simulate for liquid-cooled data centers?",
+          "a": "Reality DC Design simulates chilled water distribution, liquid cooling or ducted air using an inbuilt flow network. The platform FAQ covers optimizing coolant distribution unit (CDU) deployment with flow network modeling, evaluating liquid-cooling retrofit into existing air-cooled spaces, and hybrid direct liquid cooling (DLC) or immersion plus air systems for high-density GPU deployments."
+        },
+        {
+          "q": "How did Cadence enter data center cooling simulation?",
+          "a": "On 11 July 2022 Cadence announced an agreement to acquire Future Facilities, described in the release as a provider of electronics cooling analysis and energy performance optimization for data centers, whose 6Sigma platform created physics-based 3D digital twins modeling airflow, heat transfer, cooling, power and capacity."
+        },
+        {
+          "q": "Where is Cadence based?",
+          "a": "Cadence's press releases of 2022 and 2025 are datelined San Jose, California."
+        }
+      ]
+    },
+    {
+      "slug": "siemens",
+      "name": "Siemens (Simcenter FloTHERM)",
+      "segments": [
+        "software"
+      ],
+      "tagline": "Technology company whose Simcenter portfolio provides electronics cooling CFD: Simcenter Flotherm for thermal analysis from IC package and PCB level through to data centers, Simcenter Flotherm XT for cold plate CFD, and Simcenter Amesim for system simulation of liquid-cooled AI data centers with their cooling plants.",
+      "hq": "Munich, Germany",
+      "founded": "NOT_FOUND",
+      "ownership": "Siemens AG (shares traded under the SIE line, including on Borsa Italiana)",
+      "website": "https://www.siemens.com/",
+      "productLines": [
+        {
+          "name": "Simcenter Flotherm",
+          "note": "Electronics cooling simulation software for thermal analysis from IC package and PCB level through to large systems such as data centers; supports thermal digital twin development.",
+          "source": "https://www.siemens.com/en-us/products/simcenter/fluids-thermal-simulation/flotherm"
+        },
+        {
+          "name": "Simcenter Flotherm XT cold plate CFD",
+          "note": "CFD with SmartCells-based meshing used to simulate cold plate designs; a June 2025 post describes simulation of a pyramidal Kagome lattice copper cold plate (768 units) manufactured by electrochemical additive manufacturing, with 350 W heat flux and 20 degC inlet water.",
+          "source": "https://blogs.sw.siemens.com/simcenter/the-cool-factor-additive-manufacturing-is-redefining-cold-plate-design"
+        },
+        {
+          "name": "Simcenter Amesim liquid cooling system simulation",
+          "note": "System simulation of a liquid-cooled AI data center pod with its cooling plant, solar PV and battery storage, run across three climates (Lyon, Malaga, Oslo).",
+          "source": "https://blogs.sw.siemens.com/simcenter/ai-data-center-liquid-cooling-simulation"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "A Simcenter blog post dated 22 October 2026 describes Simcenter Amesim simulation of a liquid-cooled AI data center pod: 36 racks at 145 kW each (5.22 MW IT load), rack inlet coolant at 30 degC with a 10 degC rise, CDU approach temperature of 4 degC, simulated sub-hourly over a year with the cooling plant, PV and battery storage in Lyon, Malaga and Oslo climates.",
+          "source": "https://blogs.sw.siemens.com/simcenter/ai-data-center-liquid-cooling-simulation"
+        },
+        {
+          "year": "2025",
+          "text": "A Simcenter blog post dated 20 June 2025 describes how Simcenter Flotherm XT was used to simulate a pyramidal Kagome lattice cold plate (768 units, rods at 55 degrees with 0.2 mm radius) entered in the ASME K-16 / IEEE EPS Student Cold Plate Design Challenge and manufactured in pure copper by electrochemical additive manufacturing.",
+          "source": "https://blogs.sw.siemens.com/simcenter/the-cool-factor-additive-manufacturing-is-redefining-cold-plate-design"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Siemens offer simulation for liquid-cooled data centers?",
+          "a": "Yes. Simcenter Amesim was used for annual, sub-hourly simulation of a liquid-cooled AI data center pod (36 racks at 145 kW, 5.22 MW) together with its cooling plant, chiller, cooling tower, PV and battery storage; the October 2026 study reports 30 degC rack inlet coolant with a 10 degC rise and a 4 degC CDU approach temperature."
+        },
+        {
+          "q": "What is Simcenter Flotherm used for?",
+          "a": "Siemens describes Simcenter Flotherm as electronics cooling simulation software for thermal analysis from IC package and PCB level through to large systems such as data centers, supporting thermal digital twin development."
+        },
+        {
+          "q": "Which Siemens tool was used for cold plate CFD?",
+          "a": "Simcenter Flotherm XT, with meshing based on Simcenter FLOEFD SmartCells technology, was used to simulate a Kagome lattice copper cold plate built by electrochemical additive manufacturing, described in a Simcenter blog post dated 20 June 2025."
+        }
+      ]
+    },
+    {
+      "slug": "aecom",
+      "name": "AECOM",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Global infrastructure consulting firm. Its Data Centers & Digital Infrastructure teams design, integrate and optimize liquid cooling systems worldwide: direct-to-chip, rear-door heat exchangers and hybrid air-liquid systems, immersion cooling assessments and deployments, and chilled water loop design with CDU integration.",
+      "hq": "Dallas, Texas, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the New York Stock Exchange (ACM)",
+      "website": "https://aecom.com/",
+      "productLines": [
+        {
+          "name": "Hyperscale liquid cooling design and integration",
+          "note": "Direct-to-chip liquid cooling design and integration, rear-door heat exchangers (RDHx) and hybrid air-liquid systems for hyperscale data centers; AECOM states a data center track record of 11+ GW built across 45 countries over 25 years.",
+          "source": "https://aecom.com/markets/industrial/high-tech"
+        },
+        {
+          "name": "Immersion cooling assessments and deployments",
+          "note": "Assessment and deployment services for immersion cooling in data centers.",
+          "source": "https://aecom.com/markets/industrial/high-tech"
+        },
+        {
+          "name": "Chilled water loop and CDU engineering",
+          "note": "Chilled water loop design and CDU integration, with CFD analysis and thermal modeling, redundancy and controls, energy optimization and upgrade strategies for high-density retrofits.",
+          "source": "https://aecom.com/markets/industrial/high-tech"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "On 2 December 2025 (press release datelined Madrid) AECOM announced it was selected by Nostrum Data Centers to lead the design and construction management of the Nostrum Evergreen AI data centre campus in Badajoz, Spain; the campus is scalable to 500 MWe and the release says it will integrate advanced cooling systems and intelligent power consumption management, with construction planned to start in 2026.",
+          "source": "https://aecom.com/press-releases/aecom-appointed-to-deliver-nostrum-groups-data-centre-in-southwest-spain"
+        },
+        {
+          "year": "2021",
+          "text": "AECOM's Sustainable Legacies article 'Decarbonizing data centers', published April 2021, describes immersive liquid cooling, in which servers are immersed in a rack filled with coolant that can have more than 1,000 times the heat capacity of air, among technological fixes for data center cooling energy.",
+          "source": "https://publications.aecom.com/sustainable-legacies/article/decarbonizing-data-centers"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling services does AECOM provide for data centers?",
+          "a": "AECOM's data center teams design, integrate and optimize high-performance liquid cooling systems: direct-to-chip design and integration, rear-door heat exchangers and hybrid air-liquid systems, immersion cooling assessments and deployments, and chilled water loop design with CDU integration, supported by CFD analysis and thermal modeling."
+        },
+        {
+          "q": "What is AECOM's data center track record?",
+          "a": "AECOM's Data Centers & Digital Infrastructure page cites 11+ GW built across 45 countries over 25 years."
+        },
+        {
+          "q": "Where is AECOM headquartered?",
+          "a": "AECOM announced on 17 August 2021 that its global headquarters would move from Los Angeles, California to Dallas, Texas, effective 1 October 2021."
+        }
+      ]
+    },
+    {
+      "slug": "wsp",
+      "name": "WSP",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Engineering and professional-services consultancy active in data centre cooling. With Microsoft it published in Nature a cradle-to-grave life cycle assessment of data centre cooling technologies (air, cold plate, one-phase and two-phase immersion) and released a free open-source tool for comparing server cooling options and locations.",
+      "hq": "Montreal, Quebec, Canada",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the Toronto Stock Exchange (WSP)",
+      "website": "https://www.wsp.com/",
+      "productLines": [
+        {
+          "name": "Data centre cooling life cycle assessment",
+          "note": "Cradle-to-grave LCA of data centre cooling technologies comparing air cooling, cold plate, one-phase immersion and two-phase immersion, published in Nature with Microsoft; accompanied by a free open-source Excel tool for evaluating server cooling technologies and locations.",
+          "source": "https://www.wsp.com/en-gl/insights/how-a-new-life-cycle-assessment-is-contributing-to-more-sustainable-data-centre-cooling"
+        },
+        {
+          "name": "Mission-critical facilities delivery",
+          "note": "Multi-year global strategic partnership with Microsoft including supporting the responsible delivery of mission-critical facilities.",
+          "source": "https://www.wsp.com/en-gl/insights/how-a-new-life-cycle-assessment-is-contributing-to-more-sustainable-data-centre-cooling"
+        },
+        {
+          "name": "Data centre heat recovery",
+          "note": "Project in Manhattan to supply heat from two data centres to a thermal energy network.",
+          "source": "https://www.wsp.com/en-gl/insights/how-a-new-life-cycle-assessment-is-contributing-to-more-sustainable-data-centre-cooling"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "A WSP article dated 5 January 2026 describes a Microsoft-WSP life cycle assessment, published in Nature, comparing air cooling, cold plate, one-phase immersion and two-phase immersion for data centres hosting cloud services; it found liquid cooling could reduce greenhouse gas emissions by 15-21 percent, energy demand by 15-20 percent and blue water consumption by 31-52 percent",
+          "source": "https://www.wsp.com/en-gl/insights/how-a-new-life-cycle-assessment-is-contributing-to-more-sustainable-data-centre-cooling"
+        },
+        {
+          "year": "2026",
+          "text": "The same article states that WSP is currently working on a project in Manhattan to supply heat from two data centres to a thermal energy network, and that WSP has completed, with NVIDIA, what the article describes as the world's first cradle-to-gate product carbon footprint of a GPU, for the H100 and B200 chips.",
+          "source": "https://www.wsp.com/en-gl/insights/how-a-new-life-cycle-assessment-is-contributing-to-more-sustainable-data-centre-cooling"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What did WSP and Microsoft find about liquid cooling in data centres?",
+          "a": "A life cycle assessment described in a WSP article dated 5 January 2026 found that using liquid cooling in data centres could reduce greenhouse gas emissions by 15-21 percent, energy demand by 15-20 percent and blue water (freshwater) consumption by 31-52 percent compared with air cooling, based on assumptions outlined in the study."
+        },
+        {
+          "q": "Which cooling technologies did the WSP-Microsoft study compare?",
+          "a": "Cold plate, one-phase immersion and two-phase immersion cooling were each compared against traditional air cooling, using the annualized virtual core as the functional unit, across fossil-grid and fully renewable power scenarios."
+        },
+        {
+          "q": "Does WSP work on data centre heat recovery?",
+          "a": "Yes. The January 2026 article states WSP is working on a project in Manhattan to supply heat from two data centres to a thermal energy network."
+        }
+      ]
+    },
+    {
+      "slug": "uptime-institute",
+      "name": "Uptime Institute",
+      "segments": [
+        "solutions"
+      ],
+      "tagline": "Advisory organization for business-critical infrastructure that created and administers the Tier Standards and Certifications for data center design, construction and operations. Its cooling research includes the Cooling Systems Survey and Journal analyses of direct liquid cooling and two-phase cooling systems.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://uptimeinstitute.com/",
+      "productLines": [
+        {
+          "name": "Cooling Systems Survey",
+          "note": "Data center industry survey series; the 2025 edition, cited in Uptime Institute's 1 July 2026 journal article, covers operator consideration of two-phase systems and preferences between water and dielectric cold plates for direct liquid cooling.",
+          "source": "https://journal.uptimeinstitute.com/investments-back-two-phase-cooling-as-water-cold-plate-successor"
+        },
+        {
+          "name": "Uptime Institute Journal liquid cooling analyses",
+          "note": "Journal research on direct liquid cooling, including 'AI embraces liquid cooling, but enterprise IT is slow to follow' (23 April 2025) and 'Investments back two-phase cooling as water cold plate successor' (1 July 2026).",
+          "source": "https://journal.uptimeinstitute.com/ai-embraces-liquid-cooling-but-enterprise-it-is-slow-to-follow"
+        },
+        {
+          "name": "Tier Certification",
+          "note": "Independent performance certification covering data center design, construction and operations; the About page states over 2,500 Tier Certifications awarded in more than 110 countries.",
+          "source": "https://uptimeinstitute.com/about-ui"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "A Uptime Institute Journal article dated 1 July 2026, citing the Cooling Systems Survey 2025, reports that more operators are considering two-phase systems for future deployments, that water cold plates (especially PG25 mixes) dominate current direct liquid cooling adoption as rack power approaches and exceeds 200 kW, and that two-phase systems have drawn strategic investment.",
+          "source": "https://journal.uptimeinstitute.com/investments-back-two-phase-cooling-as-water-cold-plate-successor"
+        },
+        {
+          "year": "2025",
+          "text": "A Uptime Institute Journal article dated 23 April 2025, 'AI embraces liquid cooling, but enterprise IT is slow to follow', reports that AI training clusters rather than enterprise IT are driving direct liquid cooling at scale, with product roadmaps pointing to 200 kW per rack and above within a few years, while enterprise operators hesitate because direct liquid cooling redefines the interface between facilities and IT teams.",
+          "source": "https://journal.uptimeinstitute.com/ai-embraces-liquid-cooling-but-enterprise-it-is-slow-to-follow"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does Uptime Institute say about direct liquid cooling adoption?",
+          "a": "Its 23 April 2025 journal article reports that AI training clusters, not enterprise IT, are driving direct liquid cooling at scale, with product roadmaps pointing to 200 kW per rack and above within a few years; enterprise operators hesitate because DLC redefines the interface between facilities and IT teams and introduces unfamiliar failure modes."
+        },
+        {
+          "q": "What did the Cooling Systems Survey 2025 find about two-phase cooling?",
+          "a": "According to a 1 July 2026 Uptime Institute Journal article, a greater portion of operators reported considering two-phase systems for future deployments; operators weighing direct liquid cooling tend to favor water and dielectric cold plates, with water cold plates (especially PG25 mixes) dominating current adoption."
+        },
+        {
+          "q": "What is Uptime Institute known for?",
+          "a": "Its About page describes it as an unbiased advisory organization recognized for creating and administering the Tier Standards and Certifications for data center design, construction and operational sustainability, with over 2,500 Tier Certifications awarded in more than 110 countries."
+        }
+      ]
+    },
+    {
+      "slug": "ul-solutions",
+      "name": "UL Solutions",
+      "segments": [
+        "testing"
+      ],
+      "tagline": "Testing, inspection and certification company. For data center liquid cooling it offers certification of direct-to-chip subassemblies (cold plates, manifolds, quick disconnects) under UL 4501, testing of immersion cooling fluids under UL 2417 and evaluation of modular data centers per UL 2755.",
+      "hq": "Northbrook, Illinois, United States",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on NYSE (ULS)",
+      "website": "https://www.ul.com/",
+      "productLines": [
+        {
+          "name": "Direct-to-chip liquid cooling equipment certification (UL 4501)",
+          "note": "Certification program for liquid cooling subassemblies that target chips directly: cold plates, manifolds and quick disconnects, evaluated under UL 4501, the Outline of Investigation for Liquid-Filled Components and Assemblies Used in Liquid Cooling Systems; covers coolant compatibility, pressure and leak integrity, liquid flow and interoperability.",
+          "source": "https://www.ul.com/news/ul-solutions-launches-certification-direct-chip-liquid-cooling-equipment-used-ai-data-centers"
+        },
+        {
+          "name": "Immersion cooling fluids testing and certification (UL 2417)",
+          "note": "Testing and certification service for immersion cooling fluids for data centers under UL 2417, Outline of Investigation for Immersion Cooling Fluids for Use with Information and Communication Technology Equipment, including autoignition temperature, flash point and dielectric breakdown voltage testing.",
+          "source": "https://ir.ul.com/news/news-details/2025/UL-Solutions-Launches-New-Testing-to-Help-Performance-and-Sustainability-of-Data-Centers-Needed-for-AI/default.aspx"
+        },
+        {
+          "name": "Immersion tanks, immersion systems and modular data centers",
+          "note": "Programs for immersion tanks and immersion systems, plus engineering evaluation, testing and certification per UL 2755, Outline of Investigation for Modular Data Centers, and the Data Center Integrator Qualification program.",
+          "source": "https://ir.ul.com/news/news-details/2025/UL-Solutions-Launches-New-Testing-to-Help-Performance-and-Sustainability-of-Data-Centers-Needed-for-AI/default.aspx"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "In a press release datelined Northbrook, Illinois, 29 September 2026, UL Solutions launched a certification program for direct-to-chip liquid cooling equipment used in AI data centers, covering cold plates, manifolds and quick disconnects under UL 4501; coolant distribution units, self-contained liquid-filled systems, liquid-cooled busways, cables, connectors, power whips, gaskets, O-rings and hoses are covered separately under applicable UL Standards.",
+          "source": "https://www.ul.com/news/ul-solutions-launches-certification-direct-chip-liquid-cooling-equipment-used-ai-data-centers"
+        },
+        {
+          "year": "2025",
+          "text": "On 17 June 2025 UL Solutions announced a new testing and certification service for immersion cooling fluids for data centers: to achieve certification, fluids must meet UL 2417, the Outline of Investigation for Immersion Cooling Fluids for Use with Information and Communication Technology Equipment, including autoignition temperature, flash point and dielectric breakdown voltage testing.",
+          "source": "https://ir.ul.com/news/news-details/2025/UL-Solutions-Launches-New-Testing-to-Help-Performance-and-Sustainability-of-Data-Centers-Needed-for-AI/default.aspx"
+        },
+        {
+          "year": "2021",
+          "text": "UL Solutions joined the Open Compute Project in May 2021, contributing safety compliance approaches to help accelerate the adoption of advanced immersion cooling systems through the industry collaboration, according to its June 2025 announcement.",
+          "source": "https://ir.ul.com/news/news-details/2025/UL-Solutions-Launches-New-Testing-to-Help-Performance-and-Sustainability-of-Data-Centers-Needed-for-AI/default.aspx"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling equipment can be certified under UL 4501?",
+          "a": "Cold plates, manifolds and quick disconnects used in direct-to-chip liquid cooling in AI data centers. Evaluation under UL 4501 covers coolant compatibility, pressure and leak integrity, durability, liquid flow, interoperability, production controls and installation requirements; coolant distribution units and other cooling equipment are evaluated separately under applicable UL Standards."
+        },
+        {
+          "q": "How does UL Solutions evaluate immersion cooling fluids?",
+          "a": "Fluids seeking certification must meet UL 2417, the Outline of Investigation for Immersion Cooling Fluids for Use with Information and Communication Technology Equipment, whose tests include autoignition temperature, flash point and dielectric breakdown voltage."
+        },
+        {
+          "q": "Where is UL Solutions based and how is it listed?",
+          "a": "Its 29 September 2026 press release is datelined Northbrook, Illinois, and its boilerplate identifies UL Solutions (NYSE: ULS), a global leader in applied safety science serving customers in more than 110 countries."
+        },
+        {
+          "q": "What is UL Solutions' role in the Open Compute Project?",
+          "a": "It joined the Open Compute Project in May 2021, contributing safety compliance approaches to help accelerate adoption of advanced immersion cooling systems."
+        }
+      ]
+    },
+    {
+      "slug": "sgs",
+      "name": "SGS",
+      "segments": [
+        "testing"
+      ],
+      "tagline": "Global testing, inspection and certification company whose Swiss corporate address is in Baar. Its Taiwan semiconductor ultra-trace analysis laboratory provides liquid cooling coolant quality testing and tailored test plans covering coolant, cold plates, piping, connectors and CDU equipment for AI data centers.",
+      "hq": "Baar, Switzerland",
+      "founded": "NOT_FOUND",
+      "ownership": "Listed on the SIX Swiss Exchange (SGSN)",
+      "website": "https://www.sgs.com/",
+      "productLines": [
+        {
+          "name": "Liquid cooling coolant quality testing",
+          "note": "Physical testing (pH, conductivity, turbidity, density), chemical testing (ion analysis, total organic carbon, metal elements, corrosion inhibitors, ISO 16232/VDA 19 particle cleanliness) and biological testing (bacteria, mold, microbial contamination), with test plans tailored to coolant, cold plates, piping, connectors and CDU equipment.",
+          "source": "https://www.sgs.com.tw/news-media-resources-content/page?id=2413"
+        },
+        {
+          "name": "Coolant performance monitoring to OCP guideline",
+          "note": "Coolant monitoring parameters cited to the Open Compute Project guideline for water-based transfer fluids in single-phase cold-plate liquid-cooled racks: TSS, TDS, conductivity, copper and iron, pH, hardness, turbidity, microbial control and chloride limits.",
+          "source": "https://www.sgs.com.tw/news-media-resources-content/page?id=1485"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "SGS Taiwan's semiconductor ultra-trace analysis unit announced a liquid cooling system coolant quality testing service on 11 June 2026, covering physical, chemical and biological parameters with plans tailored to coolant, cold plates, piping, connectors and CDU equipment.",
+          "source": "https://www.sgs.com.tw/news-media-resources-content/page?id=2413"
+        },
+        {
+          "year": "2025",
+          "text": "On 2 January 2025 SGS Taiwan published a technical review of PG25 server coolant, a mix of 25% propylene glycol with water plus corrosion inhibitors, pH buffers and dispersants, citing the Open Compute Project guideline for water-based transfer fluids in single-phase cold-plate liquid-cooled racks and listing SGS coolant tests from ISO 16232/VDA 19 cleanliness to trace metals and microbes.",
+          "source": "https://www.sgs.com.tw/news-media-resources-content/page?id=1485"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does SGS test in liquid cooling systems?",
+          "a": "Coolant quality across physical parameters (pH, conductivity, turbidity, density), chemical parameters (ions, total organic carbon, metals, corrosion inhibitors, ISO 16232/VDA 19 particle cleanliness) and biological parameters (bacteria, mold and microbial contamination)."
+        },
+        {
+          "q": "Which guidelines does SGS reference for coolant monitoring?",
+          "a": "Its Taiwan team cites the Open Compute Project guideline for using water-based transfer fluids in single-phase cold plate-based liquid-cooled racks, covering TSS, TDS, conductivity, copper and iron, pH, hardness, turbidity, microbial control and chloride limits."
+        },
+        {
+          "q": "Where is SGS's liquid cooling coolant testing offered?",
+          "a": "From SGS Taiwan's semiconductor ultra-trace analysis service based in New Taipei City, Taiwan, whose team states it can tailor test plans for coolant, cold plates, piping, connectors and CDU equipment."
+        }
+      ]
+    },
+    {
+      "slug": "open-compute-project",
+      "name": "Open Compute Project (OCP)",
+      "segments": [
+        "standards"
+      ],
+      "tagline": "Open foundation initiated by Facebook, now Meta, in 2011. Its Cooling Environments project covers cold plate, coolant distribution unit, immersion, door heat exchanger and heat reuse, with specifications for cold plates, tubing, manifolds, quick disconnects, CDUs and coolants.",
+      "hq": "NOT_FOUND",
+      "founded": 2011,
+      "ownership": "Open Compute Project Foundation; initiated by Facebook, now Meta, in 2011",
+      "website": "https://www.opencompute.org/",
+      "productLines": [
+        {
+          "name": "Universal Quick Disconnect (UQD) specifications",
+          "note": "UQD Specification v2.0 workstream plus Universal Quick Disconnect Blind-Mate and Hand-Mate Specification Rev 1.0 for cold-plate cooling loops.",
+          "source": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+        },
+        {
+          "name": "Cold plate and coolant specifications",
+          "note": "Single-Phase Direct-to-Chip Cold Plate Base Specification V1, water-based cold plate coolant base specification, PG25 coolant guidelines V1.0.0 and V2.0.0, and MQD/MQDB design specification V1.0.0.",
+          "source": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+        },
+        {
+          "name": "ORv3 Blind Mate Quick Connector (BMQC) and PBMC",
+          "note": "Open Rack V3 Blind Mate Quick Connector Specification rev 01 dated 4 June 2024 and Pivoting Blind Mate Coupling (PBMC) design drafts for rack manifold connections.",
+          "source": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+        },
+        {
+          "name": "Project Deschutes CDU specification",
+          "note": "Project Deschutes: Data Center Facilities V.0.8.0 design file dated 12 August 2025 and an OCP Academy e-learning course for the Project Deschutes Coolant Distribution Unit v1.0.",
+          "source": "https://www.opencompute.org/projects/cooling-environments/coolant-distribution-unit"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "The OCP CDU sub-project lists a Project Deschutes: Data Center Facilities V.0.8.0 design file dated 12 August 2025 and an OCP Academy e-learning course for the Project Deschutes Coolant Distribution Unit (CDU) v1.0.",
+          "source": "https://www.opencompute.org/projects/cooling-environments/coolant-distribution-unit"
+        },
+        {
+          "year": "2024",
+          "text": "The OCP Cold Plate sub-project lists the ORv3 Blind Mate Quick Connector (BMQC) Specification rev 01 dated 4 June 2024, together with a guideline for water-based transfer fluids in single-phase cold plate-based racks and guidelines for dielectric heat transfer fluids in two-phase racks published July 2024.",
+          "source": "https://www.opencompute.org/projects/cooling-environments/cold-plate"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What liquid cooling areas does OCP standardize?",
+          "a": "Its Cooling Environments project focuses on five data center functional areas: cold plate, coolant distribution unit, immersion, door heat exchanger and heat reuse, with the Cold Plate sub-project covering the technology cooling system from cold plate to CDU, including tubing, manifolds and QDs."
+        },
+        {
+          "q": "What is OCP's UQD specification?",
+          "a": "The Universal Quick Disconnect specification defines quick disconnect couplings for cold-plate cooling loops; OCP lists a UQD Specification v2.0 workstream plus Universal Quick Disconnect Blind-Mate and Hand-Mate Specification Rev 1.0."
+        },
+        {
+          "q": "What is Project Deschutes?",
+          "a": "OCP's CDU-focused effort: the CDU sub-project lists a Project Deschutes: Data Center Facilities V.0.8.0 design file dated 12 August 2025 and an OCP Academy e-learning course for the Project Deschutes Coolant Distribution Unit v1.0."
+        },
+        {
+          "q": "Who founded the Open Compute Project?",
+          "a": "OCP states it was first initiated by Facebook, now Meta, in 2011, and is run by the Open Compute Project Foundation as a global collaborative community."
+        }
+      ]
+    },
+    {
+      "slug": "ashrae",
+      "name": "ASHRAE",
+      "segments": [
+        "standards"
+      ],
+      "tagline": "International society founded in 1894 for heating, refrigerating and air-conditioning professionals. Its datacom thermal guidelines define the W-class facility water supply temperature schema for liquid-cooled data centers, and its TC 9.9 committee works with OCP on liquid cooling standards for AI facilities.",
+      "hq": "metro-Atlanta, Georgia, United States",
+      "founded": 1894,
+      "ownership": "International society of more than 50,000 heating, refrigerating and air-conditioning professionals from over 132 nations",
+      "website": "https://www.ashrae.org/",
+      "productLines": [
+        {
+          "name": "Thermal Guidelines for Data Processing Environments (W-classes)",
+          "note": "Facility water supply temperature classes W17, W27, W32, W40, W45 and W+ for liquid-cooled systems, renamed in the fifth edition by upper temperature limit, with a liquid cooling chapter covering system pressure design.",
+          "source": "https://www.upsite.com/blog/what-you-need-to-know-about-ashraes-fifth-edition-of-thermal-guidelines"
+        },
+        {
+          "name": "Datacom liquid cooling standards and TC 9.9 work",
+          "note": "Datacom cooling standards work aligned with OCP through the October 2025 alliance, covering coolant loops, direct-to-chip and immersion cooling, CDUs, PUE and sustainability, and ASHRAE TC 9.9's datacom encyclopedia.",
+          "source": "https://www.opencompute.org/news/open-compute-project-foundation-and-ashrae-form-new-alliance"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2025",
+          "text": "ASHRAE and the Open Compute Project Foundation announced an alliance on 13 October 2025 focused on data center liquid cooling technology standards and best practices, citing overlapping work in coolant loops, direct-to-chip and immersion cooling, CDUs, PUE and sustainability, and alignment with ASHRAE TC 9.9.",
+          "source": "https://www.opencompute.org/news/open-compute-project-foundation-and-ashrae-form-new-alliance"
+        },
+        {
+          "year": "2021",
+          "text": "The fifth edition of ASHRAE's Thermal Guidelines for Data Processing Environments updated the liquid cooling chapter and renamed the facility water supply classes W17, W27, W32 and W45, added class W40 and named the above-45 class W+, as described in a 19 May 2021 Upsite Technologies article.",
+          "source": "https://www.upsite.com/blog/what-you-need-to-know-about-ashraes-fifth-edition-of-thermal-guidelines"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What are ASHRAE W classes?",
+          "a": "Facility water supply temperature classes for liquid-cooled data centers, numbered by minimum supply water temperature: W17, W27, W32, W40, W45 and W+. Coverage of the fifth edition describes all classes as sharing a 2C lower limit."
+        },
+        {
+          "q": "How is ASHRAE working with OCP on liquid cooling?",
+          "a": "On 13 October 2025 ASHRAE and OCP announced an alliance focused on data center liquid cooling technology standards and best practices, spanning coolant loops, direct-to-chip and immersion cooling, CDUs, PUE and sustainability, and alignment with ASHRAE TC 9.9."
+        },
+        {
+          "q": "What changed for liquid cooling in the fifth edition of ASHRAE's thermal guidelines?",
+          "a": "A liquid cooling chapter update, renaming of the liquid facility water classes to W17, W27, W32, W40, W45 and W+, a new W40 class associated with heat-recovery solutions operating around 40C entering facility water, and a requirement that compliance applies with full, unthrottled ITE operation across the class."
+        }
+      ]
+    },
+    {
+      "slug": "iec",
+      "name": "IEC",
+      "segments": [
+        "standards"
+      ],
+      "tagline": "International Electrotechnical Commission, the standards body for electrotechnology. With ISO it is developing ISO/IEC TS 22237-44, guidance for applying liquid cooling to data centres, and its IEC 62368-1 safety standard for audio/video, information and communication technology equipment is at edition 4.0.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "NOT_FOUND",
+      "website": "https://www.iec.ch/",
+      "productLines": [
+        {
+          "name": "ISO/IEC TS 22237-44 liquid cooling guidance",
+          "note": "Guidance and recommendations for applying liquid cooling to data centres, covering architectural, mechanical, electrical and communication considerations; new project registered 8 April 2026 under ISO/IEC JTC 1/SC 39.",
+          "source": "https://www.iso.org/standard/93846.html"
+        },
+        {
+          "name": "IEC 62368-1 safety standard",
+          "note": "Product safety standard for audio/video, information and communication technology equipment; edition 4.0 (IEC 62368-1:2023) published 26 May 2023, with a corrected version issued August 2025.",
+          "source": "https://webstore.iec.ch/en/publication/69308"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "ISO/IEC AWI TS 22237-44, Guidance for the application of liquid cooling to data centres, was registered in the ISO/IEC JTC 1/SC 39 work programme on 8 April 2026 at the new-project stage, with a working-group draft prepared.",
+          "source": "https://www.iso.org/standard/93846.html"
+        },
+        {
+          "year": "2023",
+          "text": "IEC published IEC 62368-1:2023, edition 4.0 of the safety standard for audio/video, information and communication technology equipment, on 26 May 2023; the webstore page notes a corrected version issued in August 2025.",
+          "source": "https://webstore.iec.ch/en/publication/69308"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is ISO/IEC TS 22237-44?",
+          "a": "Guidance for the application of liquid cooling to data centres, covering architectural, mechanical, electrical and communication considerations, developed by the joint ISO/IEC committee JTC 1/SC 39; the project was registered on 8 April 2026 and is still under development."
+        },
+        {
+          "q": "What is the latest edition of IEC 62368-1?",
+          "a": "Edition 4.0, published as IEC 62368-1:2023 on 26 May 2023; the IEC webstore lists a corrected version issued in August 2025."
+        },
+        {
+          "q": "Does IEC work on data centre cooling standards?",
+          "a": "Yes, through the joint ISO/IEC JTC 1/SC 39 committee, whose programme registered TS 22237-44, guidance for applying liquid cooling to data centres, in April 2026."
+        }
+      ]
+    },
+    {
+      "slug": "enterprise-singapore",
+      "name": "Enterprise Singapore",
+      "segments": [
+        "standards"
+      ],
+      "tagline": "Singapore government agency that, with IMDA and the Singapore Standards Council, published SS 726:2026 Liquid Cooling in Tropical Data Centres, providing guidelines for designing and optimising liquid cooling systems for tropical data centre environments running AI workloads.",
+      "hq": "NOT_FOUND",
+      "founded": "NOT_FOUND",
+      "ownership": "Government of Singapore agency",
+      "website": "https://www.enterprisesg.gov.sg/",
+      "productLines": [
+        {
+          "name": "SS 726:2026 Liquid Cooling in Tropical Data Centres",
+          "note": "Singapore Standard first published 27 August 2026, described in the release as the world's first standard to help data centres adopt liquid cooling technologies in the tropics; jointly developed by IMDA and Enterprise Singapore through the Singapore Standards Council.",
+          "source": "https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/august/mr03826_singapore-launches-worlds-first-liquid-cooling-standard-for-data-centres-in-tropical-climates"
+        },
+        {
+          "name": "Tropical liquid cooling guidance under SS 726",
+          "note": "Guidelines on designing and optimising liquid cooling systems for tropical data centre environments, covering system design, commissioning, risk management and safe operations, drawing on Open Compute Project and ASHRAE best practices.",
+          "source": "https://sg.rajahtannasia.com/viewpoints/singapore-launches-worlds-first-standard-on-liquid-cooling-in-tropical-data-centres"
+        }
+      ],
+      "facts": [
+        {
+          "year": "2026",
+          "text": "Enterprise Singapore's media release MR 038/26, first published 27 August 2026, announced SS 726:2026 Liquid Cooling in Tropical Data Centres, developed jointly by IMDA and Enterprise Singapore through the Singapore Standards Council to address the rising energy demands of AI workloads; the release describes it as the world's first standard to help data centres adopt liquid cooling technologies in the tropics.",
+          "source": "https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/august/mr03826_singapore-launches-worlds-first-liquid-cooling-standard-for-data-centres-in-tropical-climates"
+        },
+        {
+          "year": "2026",
+          "text": "A 28 August 2026 client briefing notes SS 726 provides guidelines on designing and optimising liquid cooling systems for tropical data centre environments, covering system design, commissioning, risk management and safe operations, and drawing on Open Compute Project and ASHRAE best practices adapted for tropical conditions.",
+          "source": "https://sg.rajahtannasia.com/viewpoints/singapore-launches-worlds-first-standard-on-liquid-cooling-in-tropical-data-centres"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is SS 726:2026?",
+          "a": "Singapore Standard for liquid cooling in tropical data centres, jointly developed by IMDA and Enterprise Singapore through the Singapore Standards Council and first published on 27 August 2026; the release describes it as the world's first standard to help data centres adopt liquid cooling technologies in the tropics."
+        },
+        {
+          "q": "What does SS 726 cover?",
+          "a": "Guidelines on designing and optimising liquid cooling systems for tropical data centre environments, spanning system design, commissioning, risk management and safe operations, with practices adapted from Open Compute Project and ASHRAE guidance to hot, humid conditions."
+        },
+        {
+          "q": "Who developed SS 726:2026?",
+          "a": "IMDA and Enterprise Singapore, through the Singapore Standards Council, in close consultation with the industry, according to the Enterprise Singapore media release."
+        }
+      ]
     }
   ]
 }

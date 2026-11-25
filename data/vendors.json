@@ -1429,8 +1429,9 @@
         {
           "name": "Clariant",
           "hq": "CH",
-          "note": "Inhibited glycols and coolant additives",
-          "source": "https://www.clariant.com/"
+          "note": "Supplier of inhibited glycol and low-conductivity heat transfer fluids for data-center direct-to-chip cooling (Antifrogen PG 25, LC 25 PG)",
+          "source": "https://www.clariant.com/",
+          "evidence": "https://www.clariant.com/en/Business-Units/Care-Chemicals/Heat-Transfer-Fluids/Data-centers"
         },
         {
           "name": "Dynalene",
@@ -1441,14 +1442,16 @@
         {
           "name": "Engineered Fluids",
           "hq": "US",
-          "note": "Single-phase immersion dielectrics after the PFAS exit",
-          "source": "https://www.engineeredfluids.com/"
+          "note": "Manufacturer of single-phase immersion cooling dielectrics (ElectroCool, AmpCool) and SLIC immersion systems for data centers",
+          "source": "https://www.engineeredfluids.com/",
+          "evidence": "https://www.engineeredfluids.com/industries/data-centers"
         },
         {
           "name": "3M",
           "hq": "US",
-          "note": "Novec fluorinated fluids — exited PFAS manufacturing end-2025 (timeline on our radar page)",
-          "source": "https://www.3m.com/"
+          "note": "Diversified manufacturer whose Novec and Fluorinert fluorinated fluids served electronics cooling; announced exit of PFAS (fluorinated fluid) manufacturing by end of 2025",
+          "source": "https://www.3m.com/",
+          "evidence": "https://news.3m.com/2022-12-20-3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025"
         },
         {
           "name": "GS Caltex",
@@ -1915,16 +1918,18 @@
           "evidence": "https://www.xylem.com/en-us/info/data-centers"
         },
         {
-          "name": "Dwyer (Ametek)",
+          "name": "DwyerOmega",
           "hq": "US",
-          "note": "Pressure/flow instrumentation used in loop monitoring",
-          "source": "https://www.dwyer-inst.com/"
+          "note": "Instrumentation supplier for data center cooling loops: electromagnetic coolant flowmeters plus differential pressure, air velocity and temperature transmitters under the DwyerOmega brand",
+          "source": "https://www.dwyeromega.com/",
+          "evidence": "https://www.dwyeromega.com/en-us/resources/an-introduction-to-data-centers"
         },
         {
           "name": "TTK",
           "hq": "FR",
-          "note": "Liquid leak-detection cable systems for racks and rooms",
-          "source": "https://www.ttk.co.uk/"
+          "note": "Manufacturer of addressable liquid leak detection systems: sensing cables and FG-NET/FG-SYS panels covering immersion tanks, CDUs and direct-to-chip racks",
+          "source": "https://www.ttk.fr/",
+          "evidence": "https://www.ttkusa.com/water-acid-leak-detection/applications/liquid-cooled-data-center"
         },
         {
           "name": "Sunon",
@@ -2576,14 +2581,16 @@
         {
           "name": "AECOM",
           "hq": "US",
-          "note": "Data center design and EPC engineering — the firms that turn cooling physics into buildings",
-          "source": "https://aecom.com/"
+          "note": "Infrastructure consultancy whose data center teams design, integrate and optimize direct-to-chip, immersion, rear-door and chilled-water/CDU liquid cooling systems",
+          "source": "https://aecom.com/",
+          "evidence": "https://aecom.com/markets/industrial/high-tech"
         },
         {
           "name": "WSP",
           "hq": "CA",
-          "note": "Engineering consultancy: mechanical/thermal design for data center projects",
-          "source": "https://www.wsp.com/"
+          "note": "Engineering consultancy working with hyperscale operators on data centre cooling, including life cycle assessment of cold-plate and immersion cooling and mission-critical facilities delivery",
+          "source": "https://www.wsp.com/",
+          "evidence": "https://www.wsp.com/en-gl/insights/how-a-new-life-cycle-assessment-is-contributing-to-more-sustainable-data-centre-cooling"
         },
         {
           "name": "Jacobs",
@@ -2594,8 +2601,9 @@
         {
           "name": "Uptime Institute",
           "hq": "US",
-          "note": "Tier certification and data center consulting — independent of every equipment vendor above",
-          "source": "https://uptimeinstitute.com/"
+          "note": "Advisory and certification body whose surveys and journal research track direct liquid cooling adoption and resiliency in data centers",
+          "source": "https://uptimeinstitute.com/",
+          "evidence": "https://journal.uptimeinstitute.com/investments-back-two-phase-cooling-as-water-cold-plate-successor"
         },
         {
           "name": "Stantec",
@@ -2720,14 +2728,16 @@
         {
           "name": "Cadence (6SigmaDCX)",
           "hq": "US",
-          "note": "Data center CFD and digital-twin simulation software (Future Facilities acquisition)",
-          "source": "https://www.cadence.com/"
+          "note": "Data center CFD and digital-twin software whose Reality DC Design simulates liquid cooling, chilled-water distribution and CDU flow networks",
+          "source": "https://www.cadence.com/",
+          "evidence": "https://www.cadence.com/en_US/home/tools/reality-digital-twin.html"
         },
         {
           "name": "Siemens (Simcenter FloTHERM)",
           "hq": "DE",
-          "note": "Electronics thermal CFD — cold-plate and rack airflow simulation",
-          "source": "https://www.siemens.com/"
+          "note": "Electronics cooling CFD software (Simcenter Flotherm) used for cold plate design and liquid-cooled AI data center simulation across the Simcenter portfolio",
+          "source": "https://www.siemens.com/",
+          "evidence": "https://blogs.sw.siemens.com/simcenter/the-cool-factor-additive-manufacturing-is-redefining-cold-plate-design"
         },
         {
           "name": "Corintis",
@@ -2789,8 +2799,9 @@
         {
           "name": "UL Solutions",
           "hq": "US",
-          "note": "Safety certification incl. liquid-cooling components (UL mark)",
-          "source": "https://www.ul.com/"
+          "note": "Applied safety science company certifying data center liquid cooling equipment: cold plates, manifolds and quick disconnects under UL 4501 and immersion cooling fluids under UL 2417",
+          "source": "https://www.ul.com/",
+          "evidence": "https://www.ul.com/news/ul-solutions-launches-certification-direct-chip-liquid-cooling-equipment-used-ai-data-centers"
         },
         {
           "name": "TÜV Rheinland",
@@ -2801,8 +2812,9 @@
         {
           "name": "SGS",
           "hq": "CH",
-          "note": "Inspection, testing and certification services",
-          "source": "https://www.sgs.com/"
+          "note": "Testing, inspection and certification group whose Taiwan ultra-trace analysis lab offers liquid cooling coolant quality testing for cold plates, piping, connectors and CDUs",
+          "source": "https://www.sgs.com/",
+          "evidence": "https://www.sgs.com.tw/news-media-resources-content/page?id=2413"
         },
         {
           "name": "CAICT",
@@ -3354,26 +3366,30 @@
         {
           "name": "Open Compute Project (OCP)",
           "hq": "US",
-          "note": "UQD couplings, ORv3 racks and blind-mate manifolds",
-          "source": "https://www.opencompute.org/"
+          "note": "Standards body whose Cooling Environments project maintains specifications for cold plates, UQD quick disconnects, ORv3 connectors, manifolds, CDUs and coolants",
+          "source": "https://www.opencompute.org/",
+          "evidence": "https://www.opencompute.org/projects/cooling-environments"
         },
         {
           "name": "ASHRAE",
           "hq": "US",
-          "note": "W-class facility-water temperature framework",
-          "source": "https://www.ashrae.org/"
+          "note": "Standards society whose datacom thermal guidelines define the W-class facility water supply temperatures used for liquid-cooled data centers",
+          "source": "https://www.ashrae.org/",
+          "evidence": "https://www.opencompute.org/news/open-compute-project-foundation-and-ashrae-form-new-alliance"
         },
         {
           "name": "IEC",
           "hq": "CH",
-          "note": "IEC 62368-1 Ed.4 — electrical safety incl. liquid clauses",
-          "source": "https://www.iec.ch/"
+          "note": "Standards body that co-develops ISO/IEC TS 22237-44 guidance on applying liquid cooling to data centres and publishes the IEC 62368-1 ICT equipment safety standard",
+          "source": "https://www.iec.ch/",
+          "evidence": "https://www.iso.org/standard/93846.html"
         },
         {
           "name": "Enterprise Singapore",
           "hq": "SG",
-          "note": "SS 726:2026 — first tropical liquid cooling standard",
-          "source": "https://www.enterprise.gov.sg/"
+          "note": "Government standards agency that published SS 726:2026, the Singapore standard for liquid cooling in tropical data centres, through the Singapore Standards Council",
+          "source": "https://www.enterprisesg.gov.sg/",
+          "evidence": "https://www.enterprisesg.gov.sg/resources/media-centre/media-releases/2026/august/mr03826_singapore-launches-worlds-first-liquid-cooling-standard-for-data-centres-in-tropical-climates"
         },
         {
           "name": "AHRI",
