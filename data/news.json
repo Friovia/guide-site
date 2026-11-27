@@ -1,8 +1,41 @@
 {
   "note": "Industry radar data layer. Facts policy applies here too: every item links to a source; nothing is invented. items[] = dated news events; milestones[] = the curated industry timeline (high GEO value, feed-agnostic). The fetch-news pipeline (scripts/fetch-news.mjs) merges automated items in and preserves pinned/manual entries.",
   "curated": false,
-  "last_fetched": "2026-11-26",
+  "last_fetched": "2026-11-27",
   "items": [
+    {
+      "date": "2026-11-27",
+      "title": "Nvidia 45C Chip Target Challenges Data Center Cooling Systems",
+      "source": "Demokratis.co.id",
+      "url": "https://demokratis.co.id/en/nvidia-45c-data-center-cooling",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Sponsored: How Akashi Data Center is preparing for the AI era",
+      "source": "DCD",
+      "url": "https://www.datacenterdynamics.com/en/product-news/how-akashi-data-center-is-preparing-for-the-ai-era/",
+      "channel": "technology",
+      "note": "The strategy centers on direct liquid cooling, Astana’s harsh climate, and a modular 100MW data center campus",
+      "image": "https://media.datacenterdynamics.com/media/images/Cover_photo_Main_1.2e16d0ba.fill-750x500.png"
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Schneider Electric Liquid Cooling in Italy: Coolant Units to Double, Chillers Up 50% by Year-End",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/331669/20261127/schneider-electric-liquid-cooling-italy-coolant-units-double-chillers-50-year-end.htm",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-27",
+      "title": "Scaling Liquid Cooling: Closing Gaps in Interoperability and Validation",
+      "source": "IndyStar",
+      "url": "https://www.indystar.com/press-release/story/156511/scaling-liquid-cooling-closing-gaps-in-interoperability-and-validation/",
+      "channel": "technology",
+      "note": ""
+    },
     {
       "date": "2026-11-26",
       "title": "Nvidia sets 45&#176;C liquid inlet temperature, putting datacenter chillers on notice",
@@ -18,23 +51,92 @@
       "source": "ET Datacenters",
       "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/direct-to-chip-cooling-leads-for-ai-data-centres/136178165",
       "channel": "technology",
-      "note": ""
+      "note": "",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-136178165,imgsize-541184,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/direct-to-chip-cooling-leads-for-ai-data-centres.jpg"
     },
     {
       "date": "2026-11-26",
-      "title": "Schneider Electric industrializes European liquid cooling manufacturing capacity to underpin AI & data center demand",
-      "source": "Business Review",
-      "url": "https://business-review.eu/property/industrial/schneider-electric-industrializes-european-liquid-cooling-manufacturing-capacity-to-underpin-ai-data-center-demand-303707",
-      "channel": "technology",
+      "title": "Compal Introduced Rack-Scale Liquid Cooling for NVIDIA Rubin AI Servers",
+      "source": "Refindustry",
+      "url": "https://refindustry.com/news/compal-introduced-rack-scale-liquid-cooling-for-nvidia-rubin-ai-servers/",
+      "channel": "product",
       "note": ""
     },
     {
       "date": "2026-11-26",
       "title": "Data Center Liquid Cooling Valves Market Trends, AI Data Center",
       "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4701129/data-center-liquid-cooling-valves-market-trends-ai-data-center",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaVJ1VWRvSnBMbUlpaUswYlpVLWx0WENUNkdtbzdiWXJISTl6WDMxc09xNWpiQ1RwWENpSWQzcUpxQndROXRZOE90UG9ETVdOYktGVVhGUS10TG1BQ2NuMEpaY1BuSWV1dnpVREI0ajA3SGF6dXE0VE5PeGx3VEVhWlE4NE9mQmdwaUpUV1hBanVGVng4M2wySlNsTEkyOVU?oc=5",
+      "channel": "technology",
+      "note": "",
+      "image": "https://cdn.open-pr.com/L/b/Lb26142176_g.jpg"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Liquid-Cooled Motherboard Assemblies Market To 2035: Data Center Thermal Density Drives Growth - News and Statistics",
+      "source": "IndexBox",
+      "url": "https://www.indexbox.io/blog/liquid-cooled-motherboard-assemblies-market-forecast-to-2035-growth-accelerates-as-data-center-thermal-density-rises/",
       "channel": "technology",
       "note": ""
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Schneider Electric industrializes European liquid cooling manufacturing capacity to underpin AI & data center demand",
+      "source": "The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/GlobeNewswire/9021020/schneider-electric-industrializes-european-liquid-cooling-manufacturing-capacity-to-underpin-ai-data-center-demand/",
+      "channel": "technology",
+      "note": "",
+      "image": "https://business-review.eu/wp-content/uploads/2026/11/Schneider-Electric-Conselve-1.jpg"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Schneider Electric to double liquid cooling capacity at its Italian plant",
+      "source": "MLQ.ai",
+      "url": "https://mlq.ai/news/schneider-electric-to-double-liquid-cooling-capacity-at-its-italian-plant/",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Modern data center cooling",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/whitepapers/modern-data-center-cooling/",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Nvidia backs startup developing chiller-free data center cooling system",
+      "source": "DCD",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-backs-startup-developing-chiller-free-data-center-cooling-system/",
+      "channel": "investment",
+      "note": "Y Combinator venture Madrone secures $500k seed funding",
+      "image": "https://media.datacenterdynamics.com/media/images/munters_chillers.2e16d0ba.fill-750x500.jpg"
+    },
+    {
+      "date": "2026-11-26",
+      "title": "nVent Electric (NVT) Brings AI Data Center Cooling And Power Systems To SC26",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvent-electric-nvt-brings-ai-171331695.html",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-26",
+      "title": "Nidec expands liquid cooling push as AI demand rises",
+      "source": "DataCenterNews Asia Pacific",
+      "url": "https://datacenternews.asia/story/nidec-expands-liquid-cooling-push-as-ai-demand-rises",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-25",
+      "title": "AI, Schneider Electric: \"Expanded liquid cooling capacity at the Conselve plant\"",
+      "source": "jiji press",
+      "url": "https://jen.jiji.com/partners/adnkronos/20261125KRONOS-202611121722725542_eng/",
+      "channel": "product",
+      "note": "",
+      "image": "https://jen.jiji.com/wp-content/uploads/jiji/manual/2026/11/13133706/ogp-1200x630-1.jpg"
     },
     {
       "date": "2026-11-25",
@@ -42,7 +144,8 @@
       "source": "BigGo Finance",
       "url": "https://finance.biggo.com/news/ca1688b1-e778-4403-b774-e0e31fa259f1",
       "channel": "technology",
-      "note": ""
+      "note": "",
+      "image": "https://img.biggo.com/rcaZSLZoadyN4ZvEv75EnoSKiJA5bVUNSow19w2HEJU/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExL2NhMTY4OGIxLWU3NzgtNDQwMy1iNzc0LWUwZTMxZmEyNTlmMV8xNzk1NTk2NjU0X2RlZmF1bHQuanBn.jpg"
     },
     {
       "date": "2026-11-25",
@@ -58,7 +161,8 @@
       "source": "BigGo Finance",
       "url": "https://finance.biggo.com/news/e9ee192f-b827-4bf5-a882-192f691094de",
       "channel": "technology",
-      "note": ""
+      "note": "",
+      "image": "https://img.biggo.com/HYvQxeW8RofOCCjOnpeTny3f12jqh0O7gNgZIyKPpFs/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExL2U5ZWUxOTJmLWI4MjctNGJmNS1hODgyLTE5MmY2OTEwOTRkZV8xNzk1NjAxNjcyX2RlZmF1bHQuanBn.jpg"
     },
     {
       "date": "2026-11-25",
@@ -70,20 +174,13 @@
       "image": "https://r2.digitalinfrastructure.news/og/article/01M8955KN24648XZGFGFYW6G3B.jpg"
     },
     {
-      "date": "2026-11-25",
-      "title": "AI, Schneider Electric: \"Expanded liquid cooling capacity at the Conselve plant\"",
-      "source": "jiji press",
-      "url": "https://jen.jiji.com/partners/adnkronos/20261125KRONOS-202611121722725542_eng/",
-      "channel": "product",
-      "note": ""
-    },
-    {
       "date": "2026-11-24",
       "title": "AI Data Center Coolant Monitoring Equipment Market to Reach USD",
       "source": "openPR.com",
       "url": "https://www.openpr.com/news/4698428/ai-data-center-coolant-monitoring-equipment-market-to-reach-usd",
       "channel": "technology",
-      "note": ""
+      "note": "",
+      "image": "https://cdn.open-pr.com/L/b/Lb24584359_g.jpg"
     },
     {
       "date": "2026-11-24",
@@ -107,7 +204,7 @@
       "date": "2026-11-24",
       "title": "Server Backplane Cooling Channels Market To 2035: AI Thermal Loads Drive Liquid Cooling Shift - News and Statistics",
       "source": "IndexBox",
-      "url": "https://www.indexbox.io/blog/server-backplane-cooling-channels-market-forecast-to-2035-liquid-cooled-demand-accelerates-as-ai-server-thermal-loads-surge/",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbVpEbXdBWmhYSGNtQmNsUVA1akNyNERlcy1JbmoyYllGSWkwYW9JQ29oUjU3V29OYmM4UmktamVwdE9GRldDTXA0a005Y2FfNWRpR20xaXh3azRiRlNuOXJDaFpNYnhNZ1pfYVYxZlV3NVRLaVRMaTkzTXM2VmZsekdfUXVMejVRYWRZRm41OVo5c0RvNDNWMFVQaTZacDVEZWhzTGw3bXlaaDR6NnVGRTRkVERiUHNTT0pITWdXZ1Zwb1FiTThTcmduNXhWcklZeUQ5UlhFUmdvTC1POUdWTHVSY2I1OXg2?oc=5",
       "channel": "product",
       "note": "",
       "image": "https://www.indexbox.io/landing/img/blog/custom-report-v2/world-server-backplane-cooling-channels-market-analysis-forecast-size-trends-and-insights-1795527984.webp"
@@ -116,10 +213,45 @@
       "date": "2026-11-24",
       "title": "Review Details Material Compatibility and Reliability Limits in Immersion Cooling Fluids",
       "source": "Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV1QtY3dhNnhhU1RzbVhXTHg3ZXNScGpsMnlTMzVkS3ZFMlVudWdzdVBCS1c4Zks3cFFpalE3QVJNZzZ4U3VCV3dYeS10UzlMSmNMMXVYTzRDTk4zVkIxMFpMTW9JMXlSbldGS2FOTEM2MGY2NHZzUWMzb2tBaXR3LWFlVUExUFEtQTFKNVpYWDF5ZUxuaEktOTQwT2FRc3dqaThOS3dVdUhYWlpsREpUTHdDTQ?oc=5",
+      "url": "https://bioengineer.org/review-details-material-compatibility-and-reliability-limits-in-immersion-cooling-fluids/",
       "channel": "technology",
       "note": "",
       "image": "https://bioengineer.org/wp-content/uploads/2026/11/stackrss-featured-26622.png"
+    },
+    {
+      "date": "2026-11-24",
+      "title": "Midea Introduces AirBoost Chiller and New CDU Solutions for AI Data Centers",
+      "source": "Refindustry",
+      "url": "https://refindustry.com/news/midea-introduces-airboost-chiller-and-new-cdu-solutions-for-ai-data-centers/",
+      "channel": "product",
+      "note": ""
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Ecolab builds coolant monitoring into CoolIT's 3-megawatt AI cooling unit",
+      "source": "MarketScale",
+      "url": "https://www.marketscale.com/industries/energy/ecolab-builds-coolant-monitoring-into-coolits-3-megawatt-ai-cooling-unit",
+      "channel": "technology",
+      "note": "",
+      "image": "https://res.cloudinary.com/marketscalecms/image/upload/f_auto,q_auto/v1/payload/media/editorial-ecolab-builds-coolant-monitoring-into-coolits-3-3b87dddd8fda48ed?_a=BAMAABiw0"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "Data centre coolant circulation pump",
+      "source": "Cooling Post",
+      "url": "https://www.coolingpost.com/products/data-centre-coolant-circulation-pump/",
+      "channel": "product",
+      "note": "",
+      "image": "https://www.coolingpost.com/wp-content/uploads/2026/11/Gates-ThermalCool-2100SS-Pump.jpg"
+    },
+    {
+      "date": "2026-11-23",
+      "title": "ABB to Acquire German Fan Maker Ziehl-Abegg for $2.65 Billion, Doubling Down on Data Center Cooling",
+      "source": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/a5a0aaa1-afea-4e9c-b33a-c375cc1220b1",
+      "channel": "investment",
+      "note": "",
+      "image": "https://img.biggo.com/G1VHI1IGqFzxIbhoalmy-uogMtw4nmFXxBgHGlMnHP8/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTExL2E1YTBhYWExLWFmZWEtNGU5Yy1iMzNhLWMzNzVjYzEyMjBiMV8xNzk1NDQ0OTAyX2RlZmF1bHQuanBn.jpg"
     },
     {
       "date": "2026-11-23",
@@ -139,30 +271,13 @@
       "note": ""
     },
     {
-      "date": "2026-11-23",
-      "title": "ABB to Acquire German Fan Maker Ziehl-Abegg for $2.65 Billion, Doubling Down on Data Center Cooling",
-      "source": "BigGo Finance",
-      "url": "https://finance.biggo.com/news/a5a0aaa1-afea-4e9c-b33a-c375cc1220b1",
-      "channel": "investment",
-      "note": ""
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Data centre coolant circulation pump",
-      "source": "Cooling Post",
-      "url": "https://www.coolingpost.com/products/data-centre-coolant-circulation-pump/",
-      "channel": "product",
-      "note": "",
-      "image": "https://www.coolingpost.com/wp-content/uploads/2026/11/Gates-ThermalCool-2100SS-Pump.jpg"
-    },
-    {
-      "date": "2026-11-23",
-      "title": "Ecolab builds coolant monitoring into CoolIT's 3-megawatt AI cooling unit",
+      "date": "2026-11-22",
+      "title": "Ecolab ties Siemens power and Dassault design tools to its liquid cooling system",
       "source": "MarketScale",
-      "url": "https://www.marketscale.com/industries/energy/ecolab-builds-coolant-monitoring-into-coolits-3-megawatt-ai-cooling-unit",
+      "url": "https://www.marketscale.com/industries/energy/ecolab-ties-siemens-power-and-dassault-design-tools-to-its-liquid-cooling-system",
       "channel": "technology",
       "note": "",
-      "image": "https://res.cloudinary.com/marketscalecms/image/upload/f_auto,q_auto/v1/payload/media/editorial-ecolab-builds-coolant-monitoring-into-coolits-3-3b87dddd8fda48ed?_a=BAMAABiw0"
+      "image": "https://res.cloudinary.com/marketscalecms/image/upload/f_auto,q_auto/v1/payload/media/news-cover-ecolab-ties-siemens-power-and-dassault-design-tools-628ee660-141b-4fd6-a8f2-ca2091214878?_a=BAMAABiw0"
     },
     {
       "date": "2026-11-22",
@@ -174,33 +289,6 @@
       "image": "https://www.asiabusinessoutlook.com/uploaded_images/newstransfer/kpwocsvggfg.jpg"
     },
     {
-      "date": "2026-11-22",
-      "title": "Ecolab ties Siemens power and Dassault design tools to its liquid cooling system",
-      "source": "MarketScale",
-      "url": "https://www.marketscale.com/industries/energy/ecolab-ties-siemens-power-and-dassault-design-tools-to-its-liquid-cooling-system",
-      "channel": "technology",
-      "note": "",
-      "image": "https://res.cloudinary.com/marketscalecms/image/upload/f_auto,q_auto/v1/payload/media/news-cover-ecolab-ties-siemens-power-and-dassault-design-tools-628ee660-141b-4fd6-a8f2-ca2091214878?_a=BAMAABiw0"
-    },
-    {
-      "date": "2026-11-22",
-      "title": "AI Data Center Liquid Cooling Market to Reach US$23.23 Billion",
-      "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4696519/ai-data-center-liquid-cooling-market-to-reach-us-23-23-billion",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.open-pr.com/L/b/Lb18748217_g.jpg"
-    },
-    {
-      "date": "2026-11-21",
-      "title": "AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035",
-      "source": "Global Market Insights Inc.",
-      "url": "https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.gminsights.com/cdn-cgi/image/fit=scale-down,format=webp,quality=60,width=1200/image/rd/semiconductors-and-electronics/ai-data-center-liquid-cooling-market-size-by-component-2025-and-2035-usd-billion.webp"
-    },
-    {
       "date": "2026-11-21",
       "title": "Vertiv stock: Solenis partnership targets liquid cooling for AI data centers - ad-hoc-news.de",
       "source": "Ad-hoc-news",
@@ -210,48 +298,13 @@
       "image": "https://mdb.ad-hoc-news.de/bild/bild-2405054_1200_675.webp"
     },
     {
-      "date": "2026-11-20",
-      "title": "Vertiv Holdings Co (VRT) Deepens AI Data Center Liquid Cooling Push",
-      "source": "Yahoo! Finance Canada",
-      "url": "https://ca.finance.yahoo.com/news/vertiv-holdings-co-vrt-deepens-161049822.html",
-      "channel": "technology",
-      "note": ""
-    },
-    {
-      "date": "2026-11-20",
-      "title": "ARaymond launches lightweight polymer quick disconnects for data center liquid cooling",
-      "source": "Data Centre Solutions",
-      "url": "https://datacentre.solutions/news/24915-araymond-launches-lightweight-polymer-quick-disconnects-for-data-center-liquid-cooling",
-      "channel": "product",
-      "note": "",
-      "image": "https://r2.digitalinfrastructure.news/og/article/01M7W5V6H0E6EJC3WZG6FE1DP5.jpg"
-    },
-    {
-      "date": "2026-11-20",
-      "title": "How Liquid Cooling Handles Heat in High-Density Data Centers",
-      "source": "Indiablooms",
-      "url": "https://www.indiablooms.com/life/how-liquid-cooling-handles-heat-in-high-density-data-centers/details",
+      "date": "2026-11-21",
+      "title": "AI Data Center Liquid Cooling Market Size, Forecasts Report 2026-2035",
+      "source": "Global Market Insights Inc.",
+      "url": "https://www.gminsights.com/industry-analysis/ai-data-center-liquid-cooling-market",
       "channel": "technology",
       "note": "",
-      "image": "https://www.indiablooms.com/storage/assets/n/2026/17951709441332465163.jpg"
-    },
-    {
-      "date": "2026-11-20",
-      "title": "How AI and Cloud Computing Are Transforming Japan's Data Center Cooling Industry",
-      "source": "IMARC Group",
-      "url": "https://www.imarcgroup.com/insight/ai-cloud-computing-japan-data-center-cooling-industry",
-      "channel": "technology",
-      "note": "",
-      "image": "https://www.imarcgroup.com/webassets/image/logo.webp"
-    },
-    {
-      "date": "2026-11-20",
-      "title": "Nexalus and Renda launch liquid-cooled AI server for data center retrofit market",
-      "source": "BeBeez International",
-      "url": "https://bebeez.eu/2026/11/20/nexalus-and-renda-launch-liquid-cooled-ai-server-for-data-center-retrofit-market/",
-      "channel": "product",
-      "note": "",
-      "image": "https://www.unite.ai/wp-content/uploads/2026/11/nexalus-hero-1920x1080-1.png"
+      "image": "https://cdn.gminsights.com/cdn-cgi/image/fit=scale-down,format=webp,quality=60,width=1200/image/rd/semiconductors-and-electronics/ai-data-center-liquid-cooling-market-size-by-component-2025-and-2035-usd-billion.webp"
     },
     {
       "date": "2026-11-20",
@@ -264,6 +317,50 @@
     },
     {
       "date": "2026-11-20",
+      "title": "Nexalus and Renda launch liquid-cooled AI server for data center retrofit market",
+      "source": "BeBeez International",
+      "url": "https://bebeez.eu/2026/11/20/nexalus-and-renda-launch-liquid-cooled-ai-server-for-data-center-retrofit-market/",
+      "channel": "product",
+      "note": "",
+      "image": "https://www.unite.ai/wp-content/uploads/2026/11/nexalus-hero-1920x1080-1.png"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "How AI and Cloud Computing Are Transforming Japan's Data Center Cooling Industry",
+      "source": "IMARC Group",
+      "url": "https://www.imarcgroup.com/insight/ai-cloud-computing-japan-data-center-cooling-industry",
+      "channel": "technology",
+      "note": "",
+      "image": "https://www.imarcgroup.com/webassets/image/logo.webp"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "How Liquid Cooling Handles Heat in High-Density Data Centers",
+      "source": "Indiablooms",
+      "url": "https://www.indiablooms.com/life/how-liquid-cooling-handles-heat-in-high-density-data-centers/details",
+      "channel": "technology",
+      "note": "",
+      "image": "https://www.indiablooms.com/storage/assets/n/2026/17951709441332465163.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "ARaymond launches lightweight polymer quick disconnects for data center liquid cooling",
+      "source": "Data Centre Solutions",
+      "url": "https://datacentre.solutions/news/24915-araymond-launches-lightweight-polymer-quick-disconnects-for-data-center-liquid-cooling",
+      "channel": "product",
+      "note": "",
+      "image": "https://r2.digitalinfrastructure.news/og/article/01M7W5V6H0E6EJC3WZG6FE1DP5.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "title": "Vertiv Holdings Co (VRT) Deepens AI Data Center Liquid Cooling Push",
+      "source": "Yahoo! Finance Canada",
+      "url": "https://ca.finance.yahoo.com/news/vertiv-holdings-co-vrt-deepens-161049822.html",
+      "channel": "technology",
+      "note": ""
+    },
+    {
+      "date": "2026-11-20",
       "title": "Direct To Chip Cold Plate Market To 2035: AI Data Center Demand Drives Growth - News and Statistics",
       "source": "IndexBox",
       "url": "https://www.indexbox.io/blog/direct-to-chip-cold-plate-market-forecast-to-2035-ai-data-center-demand-drives-growth-as-processor-tdp-exceeds-500w/",
@@ -273,37 +370,20 @@
     },
     {
       "date": "2026-11-19",
-      "title": "Solenis and Vertiv Partner to Advance Liquid Cooling Management for AI Data Centers",
-      "source": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/solenis-and-vertiv-partner-to-advance-liquid-cooling-management-for-ai-data-centers-302945426.html",
-      "channel": "product",
+      "title": "Solenis serves more than 500 data centers. It will work with Vertiv on AI liquid cooling.",
+      "source": "Stock Titan",
+      "url": "https://www.stocktitan.net/news/VRT/solenis-and-vertiv-partner-to-advance-liquid-cooling-management-for-pkk172avs4ot.html",
+      "channel": "technology",
       "note": "",
-      "image": "https://cdn.zonebourse.com/static/web-assets/images/editorial/fallback/twitter_ms_fdnoir.png"
+      "image": "https://www.stocktitan.net/news_covers/Solenis_and_Vertiv_Partner_to_Advance_Liquid_Cooling_Management_for_AI_Data_Centers_1536528.webp"
     },
     {
       "date": "2026-11-19",
-      "title": "Midea Showcases its Air-Liquid Cooling Solution for AI Data Centres at DCWME 2026",
-      "source": "ITP.net",
-      "url": "https://www.itp.net/cloud-data/midea-showcases-its-air-liquid-cooling-solution-for-ai-data-centres-at-dcwme-2026",
+      "title": "New Cold Plates Cool AMD Socket SP5 AI and HPC Processors - The Courier-Journal",
+      "source": "Courier-journal",
+      "url": "https://www.courier-journal.com/press-release/story/258612/new-cold-plates-cool-amd-socket-sp5-ai-and-hpc-processors/",
       "channel": "technology",
       "note": ""
-    },
-    {
-      "date": "2026-11-19",
-      "title": "Solenis partners with Vertiv on data center cooling management",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/news/company-news/solenis-partners-with-vertiv-on-data-center-cooling-management-93CH-5038903",
-      "channel": "investment",
-      "note": ""
-    },
-    {
-      "date": "2026-11-19",
-      "title": "DapuStor Introduces the R6 E1.S Liquid-Cooled Enterprise NVMe SSD",
-      "source": "Bing News",
-      "url": "https://www.techpowerup.com/355035/dapustor-introduces-the-r6-e1-s-liquid-cooled-enterprise-nvme-ssd",
-      "channel": "product",
-      "note": "As AI and high-performance computing (HPC) workloads evolve, data center rack power consumption is increasing from the 10 kW range toward 100 kW. At these power densities, traditio",
-      "image": "https://www.techpowerup.com/img/pJacBmcVAxF96aVV.jpg"
     },
     {
       "date": "2026-11-19",
@@ -316,20 +396,37 @@
     },
     {
       "date": "2026-11-19",
-      "title": "New Cold Plates Cool AMD Socket SP5 AI and HPC Processors - The Courier-Journal",
-      "source": "Courier-journal",
-      "url": "https://www.courier-journal.com/press-release/story/258612/new-cold-plates-cool-amd-socket-sp5-ai-and-hpc-processors/",
+      "title": "DapuStor Introduces the R6 E1.S Liquid-Cooled Enterprise NVMe SSD",
+      "source": "Bing News",
+      "url": "https://www.techpowerup.com/355035/dapustor-introduces-the-r6-e1-s-liquid-cooled-enterprise-nvme-ssd",
+      "channel": "product",
+      "note": "As AI and high-performance computing (HPC) workloads evolve, data center rack power consumption is increasing from the 10 kW range toward 100 kW. At these power densities, traditio",
+      "image": "https://www.techpowerup.com/img/pJacBmcVAxF96aVV.jpg"
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Solenis partners with Vertiv on data center cooling management",
+      "source": "Investing.com",
+      "url": "https://www.investing.com/news/company-news/solenis-partners-with-vertiv-on-data-center-cooling-management-93CH-5038903",
+      "channel": "investment",
+      "note": ""
+    },
+    {
+      "date": "2026-11-19",
+      "title": "Midea Showcases its Air-Liquid Cooling Solution for AI Data Centres at DCWME 2026",
+      "source": "ITP.net",
+      "url": "https://www.itp.net/cloud-data/midea-showcases-its-air-liquid-cooling-solution-for-ai-data-centres-at-dcwme-2026",
       "channel": "technology",
       "note": ""
     },
     {
       "date": "2026-11-19",
-      "title": "Solenis serves more than 500 data centers. It will work with Vertiv on AI liquid cooling.",
-      "source": "Stock Titan",
-      "url": "https://www.stocktitan.net/news/VRT/solenis-and-vertiv-partner-to-advance-liquid-cooling-management-for-pkk172avs4ot.html",
-      "channel": "technology",
+      "title": "Solenis and Vertiv Partner to Advance Liquid Cooling Management for AI Data Centers",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/solenis-and-vertiv-partner-to-advance-liquid-cooling-management-for-ai-data-centers-302945426.html",
+      "channel": "product",
       "note": "",
-      "image": "https://www.stocktitan.net/news_covers/Solenis_and_Vertiv_Partner_to_Advance_Liquid_Cooling_Management_for_AI_Data_Centers_1536528.webp"
+      "image": "https://cdn.zonebourse.com/static/web-assets/images/editorial/fallback/twitter_ms_fdnoir.png"
     },
     {
       "date": "2026-11-19",
@@ -350,93 +447,11 @@
     },
     {
       "date": "2026-11-18",
-      "title": "Siemens launches stainless steel Intelligent Valve for AI data centre liquid cooling",
-      "source": "Data Centre Solutions",
-      "url": "https://datacentre.solutions/news/24887-siemens-launches-stainless-steel-intelligent-valve-for-ai-data-centre-liquid-cooling",
-      "channel": "product",
-      "note": "",
-      "image": "https://assets.new.siemens.com/siemens/assets/api/uuid:79293dfe-7ff8-4e8a-9d87-7976b5f6bf9e/width:1024/026-Intelligent-Valve-SS.png"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Schneider Electric backs liquid cooling software for AI",
-      "source": "IT Brief New Zealand",
-      "url": "https://itbrief.co.nz/story/schneider-electric-backs-liquid-cooling-software-for-ai",
-      "channel": "product",
-      "note": "",
-      "image": "https://datacenternews.asia/uploads/story/2026/11/19/compatible_afdeea3c-6b86-4bf1-9f15-78ff5ffab93f-story-325028.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Data Center Liquid Cooling Market Gains Momentum as Vertiv",
-      "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4693350/data-center-liquid-cooling-market-gains-momentum-as-vertiv",
+      "title": "DCF Video: CoolIT's 3 MW CDU Brings Smart Monitoring and Fanless Cooling to AI Infrastructure",
+      "source": "Data Center Frontier",
+      "url": "https://www.datacenterfrontier.com/cooling/video/55419829/dcf-video-coolits-3-mw-cdu-brings-smart-monitoring-and-fanless-cooling-to-ai-infrastructure",
       "channel": "technology",
-      "note": "",
-      "image": "https://cdn.open-pr.com/L/b/Lb18366719_g.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Assessing liquid cooling readiness for AI racks in colocation halls",
-      "source": "ET Datacenters",
-      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/assessing-liquid-cooling-readiness-for-ai-racks-in-colocation-halls/135947585",
-      "channel": "technology",
-      "note": "",
-      "image": "https://etimg.etb2bimg.com/thumb/msid-135947585,imgsize-442056,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/assessing-liquid-cooling-readiness-for-ai-racks-in-colocation-halls.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Liquid cooling supply chain demands mean building past forecasts",
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/11/18/liquid-cooling-supply-chain-rewards-building-past-forecasts-sc26/",
-      "channel": "technology",
-      "note": "",
-      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/IMG_5292-scaled-e1795020152231.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Cooling Distribution Unit Market Forecast to Reach USD 6.08",
-      "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4693785/cooling-distribution-unit-market-forecast-to-reach-usd-6-08",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.open-pr.com/L/b/Lb18994677_g.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Valeo unveils its Advanced Aluminum Rear Door Cooling Module and its comprehensive portfolio of innovative liquid cooling solutions at Data Centre World Paris 2026",
-      "source": "Valeo",
-      "url": "https://www.valeo.com/en/valeo-unveils-its-advanced-aluminum-rear-door-cooling-module-and-its-comprehensive-portfolio-of-innovative-liquid-cooling-solutions-at-data-centre-world-paris-2026/",
-      "channel": "product",
-      "note": "",
-      "image": "https://www.valeo.com/wp-content/uploads/2026/11/DataCenterWorld_vign.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "AI Data Center Cooling Labs: Panduit Shows Advanced Cooling Technologies for AI…",
-      "source": "Trend Hunter",
-      "url": "https://www.trendhunter.com/trends/ai-data-center-cooling-labs",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.trendhunterstatic.com/phpthumbnails/654/654564/654564_1_1200.jpeg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Compal Unveils Rack-Scale Liquid Cooling Solutions Powered by NVIDIA at SC26",
-      "source": "HPCwire",
-      "url": "https://www.hpcwire.com/off-the-wire/compal-unveils-rack-scale-liquid-cooling-solutions-powered-by-nvidia-at-sc26/",
-      "channel": "product",
-      "note": "",
-      "image": "https://www.hpcwire.com/wp-content/uploads/2026/11/1.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Coolant Distribution Unit (CDU) Market to Reach US$ 6,112.5 Mn",
-      "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4692913/coolant-distribution-unit-cdu-market-to-reach-us-6-112-5-mn",
-      "channel": "technology",
-      "note": "",
-      "image": "https://cdn.open-pr.com/L/b/Lb18634245_g.jpg"
+      "note": ""
     },
     {
       "date": "2026-11-18",
@@ -449,81 +464,66 @@
     },
     {
       "date": "2026-11-18",
-      "title": "CoolIT & Ecolab launch 3MW CDU",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/coolit-ecolab-launch-3mw-cdu/",
-      "channel": "product",
-      "note": "",
-      "image": "https://media.datacenterdynamics.com/media/images/coolit_chx_3000.2e16d0ba.fill-1200x630.png"
-    },
-    {
-      "date": "2026-11-18",
-      "title": "DCF Video: CoolIT's 3 MW CDU Brings Smart Monitoring and Fanless Cooling to AI Infrastructure",
-      "source": "Data Center Frontier",
-      "url": "https://www.datacenterfrontier.com/cooling/video/55419829/dcf-video-coolits-3-mw-cdu-brings-smart-monitoring-and-fanless-cooling-to-ai-infrastructure",
-      "channel": "technology",
-      "note": ""
-    },
-    {
-      "date": "2026-11-18",
-      "title": "Direct-to-chip water cooling is becoming the standard for AI data centers in the Gulf’s heat",
-      "source": "EnterpriseAM",
-      "url": "https://enterpriseam.com/ai/2026/11/19/direct-to-chip-water-cooling-is-becoming-the-standard-for-ai-data-centers-in-the-gulfs-heat/",
-      "channel": "standards",
-      "note": "",
-      "image": "https://i0.wp.com/ent.news/2026/11/1539.jpg?fit=%2C&ssl=1"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Ecolab Launches Premier Liquid Cooling Ecosystem to Shape the Industry’s Most Efficient AI Infrastructure",
-      "source": "Ecolab",
-      "url": "https://www.ecolab.com/en-us/media-center/news/ecolab-launches-premier-liquid-cooling-ecosystem-to-shape-the-industrys-most-efficient-ai-infrastructure",
-      "channel": "product",
-      "note": "",
-      "image": "https://eco-p-001.sitecorecontenthub.cloud/api/public/content/2026-11-17-release-graphic-associate-in-server-room1920x1080-rectanglefullscreen-owpzfwbss9ofhecel14f.png?v=7bed9058"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Water Immersion Cooling Addresses Thermal Challenges in AI Chips",
-      "source": "Industrial Technology Research Institute",
-      "url": "https://www.itri.org.tw/english/ListStyle.aspx?DisplayStyle=01_content&SiteID=1&MmmID=1345425700304042323&MGID=1345636543353041622",
-      "channel": "technology",
-      "note": "",
-      "image": "https://www.itri.org.tw/english/WebTools/Thumbnail.ashx?Siteid=1&MmmID=1345425700304042323&fd=MessagessPic01_Pics&Pname=Water%20Immersion%20Cooling%20Addresses%20Thermal%20Challenges%20in%20AI%20Chips.jpg"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "Digital Realty launches liquid cooling lab in Singapore",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-launches-liquid-cooling-lab-in-singapore/",
-      "channel": "product",
-      "note": "",
-      "image": "https://media.datacenterdynamics.com/media/images/digital_realty_dril_brazil.2e16d0ba.fill-1200x630.png"
-    },
-    {
-      "date": "2026-11-17",
-      "title": "High Cooling Capacity Coolant Distribution Units Market",
+      "title": "Coolant Distribution Unit (CDU) Market to Reach US$ 6,112.5 Mn",
       "source": "openPR.com",
-      "url": "https://www.openpr.com/news/4692396/high-cooling-capacity-coolant-distribution-units-market",
+      "url": "https://www.openpr.com/news/4692913/coolant-distribution-unit-cdu-market-to-reach-us-6-112-5-mn",
       "channel": "technology",
       "note": "",
-      "image": "https://cdn.open-pr.com/L/b/Lb17413277_g.jpg"
+      "image": "https://cdn.open-pr.com/L/b/Lb18634245_g.jpg"
     },
     {
-      "date": "2026-11-17",
-      "title": "ZutaCore Unveils Z₂O: The End of Water in AI Data Center Cooling",
-      "source": "FF News",
-      "url": "https://ffnews.com/news/zutacore-unveils-new-waterless-cooling-architecture-at-sc26-a7487552",
+      "date": "2026-11-18",
+      "title": "Compal Unveils Rack-Scale Liquid Cooling Solutions Powered by NVIDIA at SC26",
+      "source": "HPCwire",
+      "url": "https://www.hpcwire.com/off-the-wire/compal-unveils-rack-scale-liquid-cooling-solutions-powered-by-nvidia-at-sc26/",
       "channel": "product",
-      "note": ""
+      "note": "",
+      "image": "https://www.hpcwire.com/wp-content/uploads/2026/11/1.jpg"
     },
     {
-      "date": "2026-11-17",
-      "title": "New seal-less magnetic pump brings leak-free liquid cooling to data centers",
-      "source": "Bing News",
-      "url": "https://www.msn.com/en-us/technology/general/new-seal-less-magnetic-pump-brings-leak-free-liquid-cooling-to-data-centers/ar-AA2hCcGV",
+      "date": "2026-11-18",
+      "title": "AI Data Center Cooling Labs: Panduit Shows Advanced Cooling Technologies for AI…",
+      "source": "Trend Hunter",
+      "url": "https://www.trendhunter.com/trends/ai-data-center-cooling-labs",
+      "channel": "technology",
+      "note": "",
+      "image": "https://cdn.trendhunterstatic.com/phpthumbnails/654/654564/654564_1_1200.jpeg"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Valeo unveils its Advanced Aluminum Rear Door Cooling Module and its comprehensive portfolio of innovative liquid cooling solutions at Data Centre World Paris 2026",
+      "source": "Valeo",
+      "url": "https://www.valeo.com/en/valeo-unveils-its-advanced-aluminum-rear-door-cooling-module-and-its-comprehensive-portfolio-of-innovative-liquid-cooling-solutions-at-data-centre-world-paris-2026/",
       "channel": "product",
-      "note": "AI processors have a heat problem, making liquid cooling essential infrastructure. US firm Aviemore ..."
+      "note": "",
+      "image": "https://www.valeo.com/wp-content/uploads/2026/11/DataCenterWorld_vign.jpg"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Cooling Distribution Unit Market Forecast to Reach USD 6.08",
+      "source": "openPR.com",
+      "url": "https://www.openpr.com/news/4693785/cooling-distribution-unit-market-forecast-to-reach-usd-6-08",
+      "channel": "technology",
+      "note": "",
+      "image": "https://cdn.open-pr.com/L/b/Lb18994677_g.jpg"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Liquid cooling supply chain demands mean building past forecasts",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/18/liquid-cooling-supply-chain-rewards-building-past-forecasts-sc26/",
+      "channel": "technology",
+      "note": "",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/IMG_5292-scaled-e1795020152231.jpg"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "Assessing liquid cooling readiness for AI racks in colocation halls",
+      "source": "ET Datacenters",
+      "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/assessing-liquid-cooling-readiness-for-ai-racks-in-colocation-halls/135947585",
+      "channel": "technology",
+      "note": "",
+      "image": "https://etimg.etb2bimg.com/thumb/msid-135947585,imgsize-442056,width-1200,height=627,overlay-etdatacenters,resizemode-75/news/energy-cooling-sustainability/assessing-liquid-cooling-readiness-for-ai-racks-in-colocation-halls.jpg"
     }
   ],
   "milestones": [
